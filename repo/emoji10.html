@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset=”utf-8”>
+ <title>Ultimate Guide for Emoji10</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Bootstrap -->
+ <link href="../assets/css/web/bootstrap.min.css" rel="stylesheet" media="screen">
+ <style>
+ 	.table {
+ 		table-layout: fixed;
+ 		font-weight: bold;
+ 		min-width: 700px;
+ 	}
+	.table th {
+		text-align: center;
+		vertical-align: middle;
+		background-color: #ccc;
+	}
+	.table tr {
+		background-color: #fafafa;
+	}
+	.col-height {
+		display: table-cell;
+		float: none;
+		height: 100%;
+	}
+	#tweakname {
+		text-align: left;
+		background-color: #fff;
+	}
+	#tweakdesc {
+		float: none;
+		display: table;
+		height: 100%;
+	}
+	#iosver th {
+		background-color: #dfdfdf;
+	}
+ </style>
+</head>
+<body>
+  <div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h1>Emoji10</h1>
+			<p>A set of open-source tweaks that enable latest emojis on your device, developed by <a href="https://twitter.com/PoomSmart">PoomSmart</a>.</p>
+		</div>
+    <div class="col-xs-12">
+      <img class="img-responsive" src="web/ALL.png">
+      <h4 class="text-center">Emoji10: iOS 8.1 / 8.3 / 9.0 / 9.3 / 10.1</h4>
+    </div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Compatibility and Dependencies</h2>
+			<table class="table table-bordered text-center">
+				<tr>
+					<th rowspan="2">Tweak</th>
+					<th colspan="4">iOS Versions</th>
+				</tr>
+				<tr id="iosver">
+					<th>6.0 - 8.2</th>
+					<th>8.3 - 8.4</th>
+					<th>9.0 - 9.3</th>
+					<th>10.0 - 10.1</th>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/Emoji10-Legacy">Emoji10 (iOS 6.0-8.2)</a></td>
+					<td class="bg-success">Yes</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/Emoji10-Fix">Emoji10 (iOS 8.3-8.4)</a></td>
+					<td>N/A</td>
+					<td class="bg-success">Yes</td>
+					<td>N/A</td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/Emoji10-PS">Emoji10 (iOS 9.0-9.3)</a></td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td class="bg-success">Yes</td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/Emoji10-WT">Emoji10 (iOS 10)</a></td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td>N/A</td>
+					<td class="bg-success">Yes</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/EmojiAttributes">EmojiAttributes</a></td>
+					<td colspan="4" class="bg-info">Required, might buggy</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/EmojiLocalization">EmojiLocalization</a></td>
+					<td class="bg-success">Required</td>
+					<td class="bg-success">Required</td>
+					<td class="bg-success">Required, &lt; 9.1</td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/EmojiResources">EmojiResources</a></td>
+					<td class="bg-success">Required</td>
+					<td class="bg-success">Required</td>
+					<td class="bg-success">Required, &lt; 9.1</td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/EmojiFontManager">EmojiFontManager</a></td>
+					<td class="bg-warning">iOS 7.0+</td>
+					<td class="bg-success">Yes</td>
+					<td class="bg-success">Yes</td>
+					<td class="bg-danger">Unknown</td>
+				</tr>
+        <tr>
+					<td id="tweakname"><a href="https://github.com/PoomSmart/EmojiDarkStyle">EmojiDarkStyle</a></td>
+					<td class="bg-warning">iOS 7.0+</td>
+					<td class="bg-success">Yes</td>
+					<td class="bg-success">Yes</td>
+					<td class="bg-success">Yes</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Which does what?</h2>
+      <p>Emoji10 (all variants) adds latest emojis on your emoji keyboard. It may need following other tweaks depending on iOS version you are at to make everything works as intended.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div id="tweakdesc">
+			<div class="col-xs-3 col-height">
+				<h3>EmojiAttributes</h3>
+				<p>This tweak <b>helps display emoji characters properly</b>. Otherwise, we may see "?", "U", square or just blank space instead of actual emojis.</p>
+			</div>
+			<div class="col-xs-3 col-height">
+				<h3>EmojiLocalization</h3>
+				<p>This tweak <b>adds missing localized strings</b> on emoji keyboard.</p>
+			</div>
+			<div class="col-xs-3 col-height">
+				<h3>EmojiResources</h3>
+				<p>This tweak <b>adds missing category icons</b> on emoji keyboard.</p>
+			</div>
+			<div class="col-xs-3 col-height">
+				<h3>EmojiFontManager</h3>
+				<p>This tweak allows users to <b>install correct emoji font without filesystem modification</b>.</p>
+			</div>
+		</div>
+	</div>
+  <div class="row">
+    <div id="tweakdesc">
+			<div class="col-xs-3 col-height">
+				<h3>EmojiDarkStyle</h3>
+				<p>This tweak is optional. It <b>enables dark variants of emoji category icons available on iOS 10.2+</b>.</p>
+			</div>
+    </div>
+  </div>
+  <div class="row">
+		<div class="col-xs-12">
+      <h2 style="color:red;">Read first about Emoji10</h2>
+      <p>Emoji has been integrated into iOS as a keyboard. All emojis you see on the keyboard are defined as lists within the system and vary across iOS versions. Newer OS versions usually include more emojis so users at lower version won't be able to use unless they update their iOS.</p>
+      <p>All emoji images that you see are packed as a font, named AppleColorEmoji. In other words, an emoji font is crucial in order to display emojis correctly. Of course, the font gets updated too to include images of new emojis.</p>
+      <p>Emoji10 tweak will override the original emoji list with the up-to-date one. It means your emoji keyboard will have more emojis, also latest. In addition, Emoji10 requires an up-to-date font that contains all emoji images needed. Without new font installed, users are going to see blank emojis - in other words, new emojis don't show up.</p>
+    </div>
+  </div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>How can I get the <i>correct</i> emoji font?</h2>
+			<p>Assuming you have already added my Cydia repository: <a href=https://poomsmart.github.io/repo>poomsmart.github.io/repo</a></p>
+		</div>
+		<div class="col-xs-12">
+			<h3 class="text-center" style="color:red;">It is recommended to backup the original fonts before having a new one</h3>
+			<h3 style="color:blue;">Option #1: BytaFont (iOS &lt; 10)</h3>
+      <h4>Installation</h4>
+			<ol>
+				<b><li style="color:red;">Make sure you have enough space on system partition (over 100 MB is recommended)</li></b>
+				<li>Install BytaFont app (<b>BytaFont 3</b> if iOS 9, <b>BytaFont 2</b> if iOS 7-8, <b>BytaFont</b> if iOS 6)</li>
+				<li>Add this Cydia repository: <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a></li>
+				<li>Install <b>Emoji iOS 11</b> font</li>
+				<li>Open BytaFont app, go to Swap Mode &gt; Emoji and tap <b>Emoji10</b> to enable the font, respring after that</li>
+			</ol>
+      <h4>Uninstallation</h4>
+      <ol>
+        <b><li style="color:red;">Open BytaFont app, go to Swap mode &gt; Emoji then tap on Restore BytaFont Backup to restore the default emoji font, respring after that</li></b>
+        <li>Open Cydia to uninstall <b>Emoji iOS 11</b> (font) and <b>Emoji10</b> (tweak) of your iOS version</li>
+        <li>Respring your device</li>
+      </ol>
+			<h3 style="color:blue;">Option #2: EmojiFontManager</h3>
+      <p>Note: Some users reported that this approach doesn't work apparently for some technical reason. You may give it a try or just try another approach.</p>
+      <h4>Installation</h4>
+      <ol>
+				<b><li>If you use Anemone to theme the emoji font, disable it first because this tweak simply overrides it</li></b>
+				<li>Add this Cydia repository: <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a></li>
+				<li>Install <b>EmojiFontManager</b> and <b>Emoji iOS 11b (EFM)</b> (font)</li>
+				<li>Go to Settings &gt; EmojiFontManger, select <b>Emoji10</b> to enable the font and tap <b>Respring</b> button to apply changes</li>
+			</ol>
+      <h4>Uninstallation</h4>
+      <ol>
+        <li>Open Cydia to uninstall <b>Emoji iOS 11b (EFM)</b> and <b>EmojiFontManager</b></li>
+        <li>Respring your device</li>
+      </ol>
+			<h3 style="color:blue;">Option #3: Anemone</h3>
+			<p>Follow instructions <a href="https://insanelyi.com/topic/24164-ios-102-emoji-for-ios-90-update/">here.</a> Not to mention the website, but purposes.</p>
+			<h3 style="color:blue;">Option #4: Manual</h3>
+			<p>For iOS &lt; 10 users, follow instructions <a href="https://github.com/PoomSmart/EmojiLibrary">here.</a> Otherwise, continue reading.</p>
+      <p>Due to instability of iOS 10 jailbreak, the correct emoji font is meant to be <b>installed manually</b>. Here are steps:</p>
+      <h4>Installation</h4>
+      <ol>
+        <li>Download iOS 11 beta emoji font file: <a href="https://github.com/PoomSmart/EmojiLibrary/blob/master/Font-11b1/AppleColorEmoji@2x.ttc?raw=true">TTC</a></li>
+        <li style="color:red;">Backup the default <b>AppleColorEmoji@2x.ttc</b> and <b>AppleColorEmoji@2x.ccf</b> in <code>/System/Library/Fonts/Core</code> of your device (Rename by adding .bak or simply move them to somewhere else)</li>
+        <li>Copy the downloaded font into that directory, only the new <b>AppleColorEmoji@2x.ttc</b> (of size ~30 MB) will be inside <code>/System/Library/Fonts/Core</code></li>
+      </ol>
+      <p>Note: you can watch the video tutorial from <a href="https://www.youtube.com/watch?v=r4WP2oGZYDw">here</a>, just that get the font from the link provided above instead</p>
+      <h4>Uninstallation</h4>
+      <ol>
+        <li>Navigate to <code>/System/Library/Fonts/Core</code>, delete the new <b>AppleColorEmoji@2x.ttc</b></li>
+        <li>Restore the original fonts (<b>AppleColorEmoji@2x.ttc</b> of smaller size and <b>AppleColorEmoji@2x.ccf</b>), then respring your device</li>
+      </ol>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Troubleshooting</h2>
+		</div>
+		<div class="col-xs-12">
+			<h3>General concern</h3>
+			<p>As far as I know, many people <b>don't change the emoji font on their devices to the proper one</b> after they install the tweaks. Since <b>the original fonts won't contain any new emoji</b>, users experience bugs at displaying emoji characters instead.</p>
+		</div>
+		<div class="col-xs-12">
+			<h3>Issues with font</h3>
+			<p>BytaFont (well, any version) is known to cause problems more than profits because it has to swap a new emoji font with the default one. If the swap fails or there is no enough disk space for the font, emoji keyboard is messed up.</p>
+			<p>To get around this problem, you have to see what happened inside the directory <code>/System/Library/Fonts/Core</code> (iOS 8.3+) or <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
+			<ul>
+				<li>For <b>iOS 6.0 - 8.2</b>, the exactly correct name of the emoji font is <b>AppleColorEmoji@2x.ttf</b> (retina devices) or <b>AppleColorEmoji.ttf</b> otherwise</li>
+				<li>For <b>iOS 8.3 - 9.3</b>, similar to the above but you will also have a file with the same name but with extension <b>.ccf</b>, which is in size larger than the ttf one</li>
+        <li>For <b>iOS 10.0+</b>, nothing is extraordinary than the new extension of the emoji font <b>.ttc</b> instead of <b>.ttf</b>, the manner is still the same</li>
+      </ul>
+			<p>If you see something different, you are likely to have issues with the font. To restore default fonts, there are multiple ways:</p>
+			<ul>
+				<li>Get <b>BytaFont Backup fonts</b> that should be in Cydia for you to recover lost fonts</li>
+				<li><code>/User/Library/Preferences/BytaFontBackup</code> should keep all default fonts (provided that you use BytaFont), you can get the old emoji font from there</li>
+				<li>I do provide some system-default emoji fonts <a href="https://github.com/PoomSmart/EmojiLibrary">here</a> that you may use</li>
+				<li>There are also some links to the font that you may find on the internet, or reddit /r/jailbreak</li>
+        <li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original ones to the font directory</li>
+			</ul>
+			<p>By installing the correct font, this should fix 90% of problems installing Emoji10 that new users usually encounter.</p>
+		</div>
+		<div class="col-xs-12">
+			<h3>Emoji duplication bug</h3>
+			<p>This problem can occur on iOS 8.3 and above with Emoji10 installation. The latest versions already prevent that from happening, but users may be able to see just because they used old versions.
+			The thing is this bug persists even after uninstallation. To fix it, you can either:</p>
+			<ul>
+				<li>Delete <code>/User/Library/Preferences/com.apple.EmojiPreferences.plist</code> and respring your device</li>
+				<li>Tap <b>Reset emoji preferences</b> in the settings page of <b>EmojiFontManager</b> that you are supposed to install just for resetting process</li>
+			</ul>
+		</div>
+	</div>
+  <div class="row">
+		<div class="col-xs-12">
+			<h2>Known issues</h2>
+		</div>
+    <div class="col-xs-12">
+      <h3>Emoji10 (iOS 6.0-8.2)</h3>
+      <ul>
+        <li>Keyboard appearance issue in rare cases</li>
+        <li>Emoji variants selection HUD may accidentially show when you swipe across pages on emoji keyboard</li>
+        <li>Overall performance may be too slow on legacy devices</li>
+      </ul>
+      <h3>Emoji10 (iOS 8.3-8.4)</h3>
+      <ul>
+        <li>The misplacement of circular scrubber on category icons section of emoji keyboard in rare conditions</li>
+      </ul>
+      <h3>Emoji10 (iOS 9.0-9.3)</h3>
+      <ul>
+        <li>None at the moment</li>
+      </ul>
+      <h3>Emoji10 (iOS 10)</h3>
+      <ul>
+        <li>Nonne at the moment</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <img class="img-responsive" style="max-width:30%; display:block; margin:auto;" src="web/6.1.png">
+      <h4 class="text-center">Of course, iOS 6 is not forgotten</h4>
+    </div>
+  </div>
+  <br/>
+ </div>
+</body>
+</html>

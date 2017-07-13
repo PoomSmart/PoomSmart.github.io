@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>EmojiAttributes</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+    <base target="_blank"/>
+    <script src="../../assets/js/ios.js"></script>
+</head>
+
+<script type="text/javascript">
+    if (navigator.userAgent.search(/Cydia/) != -1)
+    document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
+    </script>
+
+<body class="pinstripe">
+    <panel>
+
+        <fieldset class="iosver">
+            <div data-min-ios="6.0" data-max-ios="10.1.1" class="prerequisite">
+                <p>For iOS 6.0 (- 10.1.1)</p>
+            </div>
+        </fieldset>
+
+    <label>Description</label>
+        <fieldset>
+            <div>
+            <p>In order to display emoji text correctly, iOS has to know their corresponding characterset (a set of all emoji unicodes) so that it can apply the proper attributes (specific configuration of individual font) to emoji text. The problem is when you try to add some new emoji to earlier versions of iOS. Since the corresponding characterset is fixed, depended on iOS itself, any new emoji will be displayed incorrectly (as "?" icon instead of actual emoji). We need to modify the characterset to include all emoji we needed, and EmojiAttributes does that job.</p>
+            </div>
+        </fieldset>
+
+    <label>Latest Changes</label>
+        <fieldset>
+            <div><div><label>
+            <p>1.3.0: Up-to-date emoji charset bitmap added for better support on iOS &lt; 10</p><br/>
+            <p>1.2.8: Minor code update</p><br/>
+            <p>1.2.7: iOS 10 quick reply support</p>
+            </label></div></div>
+        </fieldset>
+
+    <script src="../../misc/developer.js"></script>
+
+</panel>
+<script src="../../misc/iosver.js" async></script>
+</body>
+</html>
