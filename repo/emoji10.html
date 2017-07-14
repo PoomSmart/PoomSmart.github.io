@@ -180,7 +180,7 @@
 			<h3 style="color:blue;">Option #1: BytaFont (iOS &lt; 10)</h3>
       <h4>Installation</h4>
 			<ol>
-				<b><li style="color:red;">Make sure you have enough space on system partition (over 100 MB is recommended)</li></b>
+				<b><li style="color:red;">Make sure you have enough space on system partition (over 50 MB is recommended)</li></b>
 				<li>Install BytaFont app (<b>BytaFont 3</b> if iOS 9, <b>BytaFont 2</b> if iOS 7-8, <b>BytaFont</b> if iOS 6)</li>
 				<li>Add this Cydia repository: <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a></li>
 				<li>Install <b>Emoji iOS 11</b> font</li>
@@ -236,12 +236,12 @@
 		<div class="col-xs-12">
 			<h3>Issues with font</h3>
 			<p>BytaFont (well, any version) is known to cause problems more than profits because it has to swap a new emoji font with the default one. If the swap fails or there is no enough disk space for the font, emoji keyboard is messed up.</p>
-			<p>To get around this problem, you have to see what happened inside the directory <code>/System/Library/Fonts/Core</code> (iOS 8.3+) or <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
+			<p>To get around this problem, you have to see what happened inside the directory <code>/System/Library/Fonts/Core</code> (iOS 8.2+) or <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
 			<ul>
 				<li>For <b>iOS 6.0 - 8.1</b>, the exactly correct name of the emoji font is <b>AppleColorEmoji@2x.ttf</b> (retina devices) or <b>AppleColorEmoji.ttf</b> otherwise</li>
-				<li>For <b>iOS 8.2</b>, it is similar to 6.0 - 8.1 ones but <b>_</b> instead of <b>@</b>: <b>AppleColorEmoji_2x.ttf</b> or <b>AppleColorEmoji_1x.ttf</b></li>
-				<li>For <b>iOS 8.3 - 9.3</b>, similar to 6.0 - 8.1 ones but you will also have a file with the same name but with extension <b>.ccf</b>, which is in size larger than the ttf one</li>
-        		<li>For <b>iOS 10.0+</b>, nothing is extraordinary than the new extension of the emoji font <b>.ttc</b> instead of <b>.ttf</b>, the manner is still the same</li>
+				<li>For <b>iOS 8.2</b>, the exactly correct name of the emoji font is <b>AppleColorEmoji_2x.ttf</b> (retina devices) or <b>AppleColorEmoji_1x.ttf</b> otherwise</li>
+				<li>For <b>iOS 8.3 - 9.3</b>, similar to 6.0 - 8.1 ones but you will <b>also have</b> a file with the same name but with extension <b>.ccf</b>, which is in size larger than the ttf one</li>
+        		<li>For <b>iOS 10.0+</b>, similar to 8.3 - 9.3 but <b>.ttc</b> instead of <b>.ttf</b></li>
       </ul>
 			<p>If you see something different, you are likely to have issues with the font. To restore default fonts, there are multiple ways:</p>
 			<ul>
@@ -272,7 +272,6 @@
       <ul>
         <li>Keyboard appearance issue in rare cases</li>
         <li>Emoji variants selection HUD may accidentially show when you swipe across pages on emoji keyboard</li>
-        <li>Overall performance may be too slow on legacy devices</li>
       </ul>
       <h3>Emoji10 (iOS 8.3-8.4)</h3>
       <ul>
