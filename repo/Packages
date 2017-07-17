@@ -615,6 +615,23 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojilayout/index.html
 Name: EmojiLayout
 
+Package: com.ps.emojilayout
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), firmware (<< 8.3)
+Filename: .///debs/com.ps.emojilayout_1.1.6_iphoneos-arm.deb
+Size: 32868
+MD5sum: 48a7fe05a3d4f6999b3f38e06d577d5b
+SHA1: 88851ad1b88fb131eefd3f6bba766988f7c5e568
+SHA256: 7d38b605c58648f7361b5661d91af66580c089aec35cc8dced464dd1152bae82
+Section: Tweaks
+Description: Layout the emoji keyboard.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojilayout/index.html
+Name: EmojiLayout
+
 Package: com.ps.emojilibrary
 Version: 1.0.0
 Architecture: iphoneos-arm
