@@ -622,10 +622,10 @@ Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), firmware (<< 8.3)
 Filename: .///debs/com.ps.emojilayout_1.1.6_iphoneos-arm.deb
-Size: 32868
-MD5sum: 48a7fe05a3d4f6999b3f38e06d577d5b
-SHA1: 88851ad1b88fb131eefd3f6bba766988f7c5e568
-SHA256: 7d38b605c58648f7361b5661d91af66580c089aec35cc8dced464dd1152bae82
+Size: 33248
+MD5sum: 6fe9de847275e07bee33c2f03cf9afa5
+SHA1: 82c6f4d3ad62d3c7cd368e4f08ca41ef39529f56
+SHA256: a42f19df87ca7621a2ad8c75b2578e03c42134f1930d866b8d8404d7abd4bea1
 Section: Tweaks
 Description: Layout the emoji keyboard.
 Author: PoomSmart
