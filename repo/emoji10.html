@@ -250,16 +250,17 @@
 				<li>For <b>iOS 8.2</b>, the exactly correct name of the emoji font is <b>AppleColorEmoji_2x.ttf</b> (retina devices) or <b>AppleColorEmoji_1x.ttf</b> otherwise</li>
 				<li>For <b>iOS 8.3 - 9.3</b>, similar to 6.0 - 8.1 ones but you will <b>also have</b> a file with the same name but with extension <b>.ccf</b>, which is in size larger than the ttf one</li>
         		<li>For <b>iOS 10.0+</b>, similar to 8.3 - 9.3 but <b>.ttc</b> instead of <b>.ttf</b></li>
-      </ul>
+      		</ul>
 			<p>If you see something different, you are likely to have issues with the font. To restore default fonts, there are multiple ways:</p>
 			<ul>
 				<li>Get <b>BytaFont Backup fonts</b> that should be in Cydia for you to recover lost fonts</li>
 				<li><code>/User/Library/Preferences/BytaFontBackup</code> should keep all default fonts (provided that you use BytaFont), you can get the old emoji font from there</li>
 				<li>I do provide some system-default emoji fonts <a href="https://github.com/PoomSmart/EmojiLibrary">here</a> that you may use</li>
 				<li>There are also some links to the font that you may find on the internet, or reddit /r/jailbreak</li>
-        <li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original ones to the font directory</li>
+        		<li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original ones to the font directory</li>
 			</ul>
 			<p>By installing the correct font, this should fix 90% of problems installing Emoji10 that new users usually encounter.</p>
+			<p>Especially for iOS 8.2, Apple named emoji font to be AppleColorEmoji<b>(underscore)</b>(2 or 1)x.ttf. BytaFont might not be able to handle and you might need to rename the file, by changing from "@" to "_".</p>
 		</div>
 		<div class="col-xs-12">
 			<h3>Emoji duplication bug</h3>
@@ -283,7 +284,7 @@
       </ul>
       <h3>Emoji10 (iOS 8.3-8.4)</h3>
       <ul>
-        <li>The misplacement of circular scrubber on category icons section of emoji keyboard in rare conditions</li>
+        <li>None at the moment</li>
       </ul>
       <h3>Emoji10 (iOS 9.0-9.3)</h3>
       <ul>
@@ -291,7 +292,7 @@
       </ul>
       <h3>Emoji10 (iOS 10)</h3>
       <ul>
-        <li>Nonne at the moment</li>
+        <li>None at the moment</li>
       </ul>
     </div>
   </div>
