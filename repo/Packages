@@ -649,6 +649,23 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
 Name: EmojiLibrary
 
+Package: com.ps.emojilibrary
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 344
+Depends: firmware (>= 6.0)
+Filename: .///debs/com.ps.emojilibrary_1.0.2_iphoneos-arm.deb
+Size: 27650
+MD5sum: 502ac8dad47013a0300ba1d4757f63f7
+SHA1: 3b1ee7a7692346f025ed8b5347aae3a37b9a5e9f
+SHA256: 5d8180e6d6a192ebd212547894c3a73fc661e446bf5da350c2d7b16cabf0f3e5
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
+Name: EmojiLibrary
+
 Package: com.ps.emojilocalization
 Version: 1.0.7
 Architecture: iphoneos-arm
