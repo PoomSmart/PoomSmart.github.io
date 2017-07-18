@@ -194,6 +194,23 @@ Description: Emoji on camera modes
 Author: PoomSmart
 Name: EModeji
 
+Package: com.ps.emoji10alpha
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 6.0), com.ps.emojilayout, com.ps.emojiattributes, com.ps.emojiresources, com.ps.emojilocalization, com.ps.emojilibrary
+Filename: .///debs/com.ps.emoji10alpha_1.0.0_iphoneos-arm.deb
+Size: 23152
+MD5sum: 26fdd0868baeed4e4a7212363766c171
+SHA1: 8167409470823088821db086a33ed89466702347
+SHA256: 248d07202c8b17992fa6f258da107c8cc0916a14307e9e7f1976856d74197542
+Section: Tweaks
+Description: Latest emojis for iOS 5.1
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emoji10alpha/index.html
+Name: Emoji10 (iOS 5.1) [Beta]
+
 Package: com.ps.emoji10fix
 Version: 1.5.2
 Architecture: iphoneos-arm
@@ -746,6 +763,22 @@ Size: 17166
 MD5sum: 2a57789c0603ad8040720dd816a77621
 SHA1: adf19c0c7ba56d957102be9ab32b69ef1b21bad0
 SHA256: 9ac404374f97f469dd66e75a31fbb4c1fc1eab23f8da556c8eb58c5babe82539
+Section: Tweaks
+Description: Correct localization for emoji keyboard.
+Author: PoomSmart
+Name: EmojiLocalization
+
+Package: com.ps.emojilocalization
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 5.1), firmware (<< 9.1)
+Filename: .///debs/com.ps.emojilocalization_1.0.8_iphoneos-arm.deb
+Size: 18206
+MD5sum: f59eb6cad69a385ce074dbb892179b61
+SHA1: 3f6b0dbf5f6d09d5811cce913858f08b35bcd455
+SHA256: dc2ff122a93bc91009d7505bb34ed4a89f26bd5b9220908eddd6e8bb3b74fc14
 Section: Tweaks
 Description: Correct localization for emoji keyboard.
 Author: PoomSmart
