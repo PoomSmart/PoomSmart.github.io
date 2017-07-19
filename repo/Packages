@@ -1198,6 +1198,23 @@ Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/tapformore/index.html
 Name: TapForMore
 
+Package: com.ps.tapformore
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: firmware (>= 4.0), firmware (<< 8.0), preferenceloader
+Filename: .///debs/com.ps.tapformore_1.0.1_iphoneos-arm.deb
+Size: 14760
+MD5sum: ad5cfcbdb8d3546f3f1eac6fde6e4d66
+SHA1: 6e9a9dd7b9aa3fca9e97b118f32cb1037ede7d2c
+SHA256: 797b27e5b34825120bc120d15e6b82f3824581cb716d3f8a82f57d98c2811354
+Section: Tweaks
+Description: Manage packages via tap.
+Author: PoomSmart
+Depiction: https://poomSmart.github.io/repo/tapformore/index.html
+Name: TapForMore
+
 Package: org.thebigboss.camblur7
 Version: 1.6.4
 Architecture: iphoneos-arm
