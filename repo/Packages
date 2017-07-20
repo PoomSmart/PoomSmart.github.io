@@ -981,6 +981,21 @@ Description: Best UIKit graphics for older devices.
 Author: PoomSmart
 Name: HighGraphics
 
+Package: com.ps.keyedsubscript
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate, firmware (<< 6.0)
+Filename: .///debs/com.ps.keyedsubscript_1.0.0_iphoneos-arm.deb
+Size: 2038
+MD5sum: 98cc19b3e2344d55bcd3f5efcc8add93
+SHA1: a01e273ee1ea30c2ea85991747d86d334420d412
+SHA256: 4eb2e283a42a27fb4eb8ec8abfb0b17575241274b6b1bd9b2467c993dbf45144
+Description: objectForKeyedSubscript implementation for iOS < 6
+Author: PoomSmart
+Name: KeyedSubscript
+
 Package: com.ps.mylapse
 Version: 1.0-1
 Architecture: iphoneos-arm
