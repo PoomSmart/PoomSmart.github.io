@@ -686,16 +686,16 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager [Beta]
 
 Package: com.ps.emojilayout
-Version: 1.1.10
+Version: 1.1.11
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 8.3)
-Filename: .///debs/com.ps.emojilayout_1.1.10_iphoneos-arm.deb
-Size: 33550
-MD5sum: b07d5aed51a48cbe32be84c264668379
-SHA1: bdb61cb573b353ce253481d9cf29af9fca313414
-SHA256: 255554ad792b46964ebc732752990fdc98e34d11252dd66ce65fb6170aff2363
+Filename: .///debs/com.ps.emojilayout_1.1.11_iphoneos-arm.deb
+Size: 33632
+MD5sum: cc5b52a8f41bb2c0c88836979343f20a
+SHA1: 1e39b73270f708144d48f15544f791080e1737a8
+SHA256: f37a7e941f9d1ef2d46e4a9499f190bbd94dd76f4f47105be4fb3b30eece906b
 Section: Tweaks
 Description: Layout the emoji keyboard.
 Author: PoomSmart
@@ -764,23 +764,6 @@ Size: 33584
 MD5sum: 59afdaf39f68c0432cadf61eb0a70caa
 SHA1: 0e360f1a1cfddf2c80ac5cee7e276bae042b8d5c
 SHA256: ff1ad0931dc0d88b6540048d429705c2cf71436f76b3b289cbd91ed560bcabc1
-Section: Tweaks
-Description: Layout the emoji keyboard.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojilayout/index.html
-Name: EmojiLayout
-
-Package: com.ps.emojilayout
-Version: 1.1.9
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 152
-Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 8.3)
-Filename: .///debs/com.ps.emojilayout_1.1.9_iphoneos-arm.deb
-Size: 33568
-MD5sum: 2e85ce638ec406c09bd16e22e99e6155
-SHA1: 3c5b6e671594995dc7e71cb7e183f5b85ec26254
-SHA256: 61736aa010612657282e494922af80f78da322b7375520ff5d31f88330cc6b47
 Section: Tweaks
 Description: Layout the emoji keyboard.
 Author: PoomSmart
@@ -1047,16 +1030,16 @@ Author: PoomSmart
 Name: MyWi Flipswitch
 
 Package: com.ps.poweroptionfs
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 128
 Depends: mobilesubstrate, com.a3tweaks.flipswitch
-Filename: .///debs/com.ps.poweroptionfs_0.0.1_iphoneos-arm.deb
-Size: 11436
-MD5sum: 3cb31711e77699462cb483de0043435c
-SHA1: f16729d3ee3039aeabfe2cc9dfa0e75ac7db0b56
-SHA256: c1921c101a125e5059c51ee6b1f465aae8b21948fbc8f4562228540aa39588a1
+Filename: .///debs/com.ps.poweroptionfs_0.0.2_iphoneos-arm.deb
+Size: 11208
+MD5sum: c312000efcbc2b8c224a1ba79b7d0e21
+SHA1: ada952d31fed48c6fc28fab4a9d97a00f2fd1b85
+SHA256: c42ff59d2246a559779e88adbd35235347fbf45841cb0e05d05da9f370301369
 Section: Addons (Flipswitch)
 Description: Toggle for power actions, with confirmation
 Author: PoomSmart
