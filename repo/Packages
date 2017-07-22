@@ -162,6 +162,22 @@ Description: iOS 10 Flip button <-> Filter button swap.
 Author: PoomSmart
 Name: CamSwitchDown
 
+Package: com.ps.capture
+Version: 0.0.1
+Architecture: iphoneos-arm
+Installed-Size: 568
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0), gsc.dictation, com.rpetrich.rocketbootstrap (>= 1.0.2), ws.hbang.common (>= 1.2), cc.tweak.libobjcipc
+Filename: .///debs/com.ps.capture_0.0.1_iphoneos-arm.deb
+Size: 77570
+MD5sum: b3fab3f33739f3c2604daaa942381441
+SHA1: c2869830ee3f8c39cb575f0592e082ea34d6889d
+SHA256: 3a15db90096b6664f447f4139656421d470d37a90d3adc92fe78d4733053b35d
+Section: Tweaks
+Description: Take photos or videos just by saying a word.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/capture/index.html
+Name: Capture
+
 Package: com.ps.ccscalebt
 Version: 1.0-2
 Architecture: iphoneos-arm
