@@ -581,6 +581,23 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emoji10wt/index.html
 Name: Emoji10 (iOS 10)
 
+Package: com.ps.emoji10wt
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 12292
+Depends: mobilesubstrate, firmware (>= 10.0), com.ps.emojiattributes, com.ps.emojilibrary
+Filename: .///debs/com.ps.emoji10wt_1.1.3_iphoneos-arm.deb
+Size: 2362314
+MD5sum: 189a6ae5c2c103c2cc8e45a38a0d775a
+SHA1: f04d53c89d95707f41c2c6863e7956c6dc548221
+SHA256: 56ee25b4bcaa843181c73ef775b9feb9725af39f7eb99b839340dc5721a703c8
+Section: Tweaks
+Description: Latest emojis for iOS 10
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emoji10wt/index.html
+Name: Emoji10 (iOS 10)
+
 Package: com.ps.emojiattributes
 Version: 1.2.8
 Architecture: iphoneos-arm
@@ -881,6 +898,22 @@ Size: 28854
 MD5sum: 124bc21cbdf9435b911bfc7fc9a15e55
 SHA1: 1dae292cad965c92d8f59cff576bdb0eda3eb070
 SHA256: 927e7dd09a9e2f135ace41ecb66c5f420a64726dd48816c1881366984a5a5922
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
+Name: EmojiLibrary
+
+Package: com.ps.emojilibrary
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 376
+Filename: .///debs/com.ps.emojilibrary_1.0.5_iphoneos-arm.deb
+Size: 29992
+MD5sum: c2d8bca38aa1f9724ff8e314fe687a1b
+SHA1: fdf6b296fcae3f3bfae35bc2972ebb87c074fa8b
+SHA256: 0717f0ee46128f72e8934051f92cd90ac3633cc98aa6b198c665ffbaa7ccd781
 Section: Development
 Description: Master library for PoomSmart's emoji tweaks
 Author: PoomSmart
