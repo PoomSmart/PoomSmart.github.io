@@ -361,16 +361,17 @@ Author: PoomSmart
 Name: EmojiLocalization
 
 Package: com.ps.emojiport10resources
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 11208
 Depends: firmware (>= 10.0), firmware (<< 12.1)
-Filename: ./debs/com.ps.emojiport10resources_1.0.0_iphoneos-arm.deb
-Size: 2735150
-MD5sum: 7692978ea5ac72ce98af8f7351de5303
-SHA1: f6f857a67b0e1eacc3e2fa73739067ae8f24e0e5
-SHA256: 278cb4f3ee99e66db9d791e395c4480ad00d33fc59bbc67e6be61e280fe51506
+Conflicts: com.ps.emojiportwt (<= 1.2.4-2), com.ps.emojiportpe (<= 1.0.2)
+Filename: ./debs/com.ps.emojiport10resources_1.0.1_iphoneos-arm.deb
+Size: 2733690
+MD5sum: 5efdf34b8f9365c81b733307ac60c2e5
+SHA1: 82ac210d868f2c50f0fddd6ee0e4a8a7d832b67c
+SHA256: af57c37c906d0097269022c3027c763d1f4816ed98fe92b042c29e4062021169
 Section: Tweaks
 Description: Necessary resources for EmojiPort iOS 10 and higher.
 Author: PoomSmart
