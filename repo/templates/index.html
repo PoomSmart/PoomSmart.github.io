@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <base target="_blank"/>
+    <link rel="stylesheet" href="../../assets/ios7.min.css">
+    <script src="../../assets/ios7.min.js"></script>
+</head>
+
+<body>
+    <main id="content">
+        <h2 role="header">Compatibility</h2>
+        <ul>
+            <li>
+                <div
+                    {% if min_ios %}
+                        data-min-ios="{{ min_ios }}"
+                    {% endif %}
+                    {% if max_ios %}
+                        data-max-ios="{{ max_ios }}"
+                    {% endif %}
+                    {% if strict_range %}
+                        data-unsupported
+                    {% endif %}
+                    id="prerequisite">
+                    <p id="pt">
+                        {% if min_ios and max_ios %}
+                            Compatible with iOS {{ min_ios }} to {{ max_ios }}
+                        {% elif min_ios %}
+                            Compatible with iOS {{ min_ios }} +
+                        {% endif %}
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <script src="../../misc/iosver.js"></script>
+        <h2 role="header">Description</h2>
+        <ul>
+            <li>
+                {{ description }}
+            </li>
+        </ul>
+        {% if changes %}
+            <h2 role="header">Latest Changes</h2>
+            <ul>
+                {% for change in changes %}
+                    <li>
+                        <p>{{ change[0] }}: {{ change[1] }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        <h2 role="header">Information</h2>
+        <ul>
+			<li>
+                <a href="https://twitter.com/PoomSmart">Dev's Twitter</a>
+			</li>
+			<li>
+                <a href="https://github.com/PoomSmart">Dev's GitHub</a>
+			</li>
+			<li>
+                <a href="https://poomsmart.github.io/repo">Support Dev</a>
+			</li>
+		</ul>
+    </main>
+</body>
+
+</html>
