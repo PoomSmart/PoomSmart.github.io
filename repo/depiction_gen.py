@@ -76,7 +76,9 @@ tweaks = [
         "file": "emojilibrary",
         "title": "EmojiLibrary",
         "min_ios": "5.1",
-        "changes": [ "Version 1.0.18.1: Fix iOS 7 support due to Xcode 10.2" ],
+        "changes": [
+            [ "1.0.18.1", "Fix iOS 7 support due to Xcode 10.2" ]
+        ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
                     that want to create emoji-related tweaks would find this useful.</p>"
@@ -169,6 +171,7 @@ tweaks = [
         "title": "Silactions",
         "min_ios": "11.0",
         "changes": [
+            [ "1.0.2", "Supports Sileo 1.0.6" ],
             [ "1.0.1", "Cancel button added" ]
         ],
         "description": "<p>Manage packages in Sileo easier. Right now, it can:</p>\
