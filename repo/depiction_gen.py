@@ -49,6 +49,7 @@ tweaks = [
         "min_ios": "5.1",
         "max_ios": "12.0.9",
         "changes": [
+            [ "1.3.21", "Attempt to fix crash" ],
             [ "1.3.20", "Trying libSubstitrate" ],
             [ "1.3.19", "arm64e" ]
         ],

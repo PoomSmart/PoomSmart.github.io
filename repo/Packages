@@ -258,17 +258,17 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 Name: EmojiAttributes
 
 Package: com.ps.emojiattributes
-Version: 1.3.20
+Version: 1.3.21
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 652
 Depends: mobilesubstrate, com.ps.libsubstitrate
 Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.3.20_iphoneos-arm.deb
-Size: 37120
-MD5sum: 0261497f08cd6d005c2dc4ba29318542
-SHA1: 2c9b78fe109b22cf2bf341f2b92be94d347f5b8d
-SHA256: 167059ed83db73b577c9e63b66233b53c7e3dd2eb679e07e0b9c62d05ea14fc9
+Filename: ./debs/com.ps.emojiattributes_1.3.21_iphoneos-arm.deb
+Size: 37030
+MD5sum: 6b182d848332ebaede1d695fb6039c4b
+SHA1: 934e45395c50e66d1614b2620e0043b239447973
+SHA256: 5dd05fe63b156d5558562ce7519b128a9fe47d3c4cc238163eeb2905bc4e4af6
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
