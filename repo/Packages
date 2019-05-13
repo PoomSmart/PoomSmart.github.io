@@ -959,6 +959,22 @@ Description: Flipswitch for volume change with buttons
 Author: PoomSmart
 Name: Change Vol With Buttons FS
 
+Package: org.thebigboss.dismissprogress
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 6.0)
+Filename: ./debs/org.thebigboss.dismissprogress_1.0.4_iphoneos-arm.deb
+Size: 4784
+MD5sum: 5cfb42b8d599bf51c32462c9b3d46772
+SHA1: 00305dc60d2557d32b2c495b5bce7bda29085909
+SHA256: 0ba1ca96a3e167085b341b09838e1be1f8a9030863d17665687336fc60d53f3c
+Section: Tweaks
+Description: Dismiss installation window without closing cydia.
+Author: PoomSmart
+Name: DismissProgress
+
 Package: org.thebigboss.smoothcursor
 Version: 1.1.3
 Architecture: iphoneos-arm
