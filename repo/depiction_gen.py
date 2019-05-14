@@ -172,6 +172,7 @@ tweaks = [
         "title": "Silactions",
         "min_ios": "11.0",
         "changes": [
+            [ "1.0.3", "Supports Sileo 1.0.7" ],
             [ "1.0.2", "Supports Sileo 1.0.6" ],
             [ "1.0.1", "Cancel button added" ]
         ],

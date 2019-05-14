@@ -47,21 +47,6 @@ Author: PoomSmart
 Name: Adguard Unbounded
 
 Package: com.ps.amber
-Version: 0.0.3
-Architecture: iphoneos-arm
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Filename: ./debs/com.ps.amber_0.0.3_iphoneos-arm.deb
-Size: 24540
-MD5sum: 84c24169bf2c4e6323d5d0d31ba06a9f
-SHA1: bac1080f484fa093bb4113898c16ae9a3551fb2b
-SHA256: 7057c26f6e04cd261774946bbd879d3660f099517a92428e3095310e60dfaca1
-Section: Tweaks
-Description: Amber-ify your LED torch.
-Author: PoomSmart
-Name: Amber
-
-Package: com.ps.amber
 Version: 0.0.3.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -432,23 +417,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
 Name: EmojiPort (iOS 6.0-8.2)
 
 Package: com.ps.emojiportpe
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 11796
-Depends: mobilesubstrate, firmware (>= 12.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
-Filename: ./debs/com.ps.emojiportpe_1.0.2_iphoneos-arm.deb
-Size: 2770692
-MD5sum: 42cc97719d661fb4d569e054fc82b589
-SHA1: 1ecf84112acb9a5631b16f5810ccfaae16042b8e
-SHA256: 1923509231a00e68c6ae15cd0f459eb125a4310da56128d77150ecb827fd85a6
-Section: Tweaks
-Description: Latest emojis for iOS 12.0
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12)
-
-Package: com.ps.emojiportpe
 Version: 1.0.2-1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -483,25 +451,6 @@ Description: Latest emojis for iOS 9.0-9.3
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
 Name: EmojiPort (iOS 9.0-9.3)
-
-Package: com.ps.emojiportwt
-Version: 1.2.4-2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 11764
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Filename: ./debs/com.ps.emojiportwt_1.2.4-2_iphoneos-arm.deb
-Size: 2773338
-MD5sum: b969238f2e7601f53f5f7f18a15f7ba1
-SHA1: f4ce9f7b5ed15e6ccceaaf0bf41b93347e8a6ac8
-SHA256: 4c3f876d52a3ef343a2a2826308f6c2c9739caf18d99946343c54b91d146a29e
-Section: Tweaks
-Description: Latest emojis for iOS 10.0-11.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
-Name: EmojiPort (iOS 10.0-11.4)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
 
 Package: com.ps.emojiportwt
 Version: 1.2.4-3
@@ -722,24 +671,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
-
-Package: com.ps.silactions
-Version: 1.0.1-1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: firmware (>= 11.0), mobilesubstrate, org.coolstar.sileo
-Filename: ./debs/com.ps.silactions_1.0.1-1_iphoneos-arm.deb
-Size: 7594
-MD5sum: 069600e888f6f991c3e7cde8500accf9
-SHA1: da8e21b4bcd42fcf82ff99b7b5c08074fde5fd6a
-SHA256: 2d9f6a4b6e72b96cc76601d46ec4222fdbd1ddbba32201dfa283444e480dad06
-Section: Tweaks
-Description: Manage packages in Sileo easier.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/silactions.html
-Name: Silactions [Beta]
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/silactions.json
 
 Package: com.ps.silactions
 Version: 1.0.2
@@ -1006,20 +937,4 @@ Section: Tweaks
 Description: Manage Cydia packages via swipe.
 Author: PoomSmart
 Name: SwipeForMore
-
-Package: org.thebigboss.swipeformore
-Version: 1.1.9
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 140
-Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debs/org.thebigboss.swipeformore_1.1.9_iphoneos-arm.deb
-Size: 21680
-MD5sum: 439898501824d0ebdbf587f47582bb8f
-SHA1: cb063ce9fd5a369ce2a73bfb327fe0d8cd42afbf
-SHA256: b0a924362105d9a277b38f21d18ae0051f45161221df64dcece490567d9a9056
-Section: Tweaks
-Description: Manage packages via swipe.
-Author: PoomSmart
-Name: SwipeForMore (Debug)
 
