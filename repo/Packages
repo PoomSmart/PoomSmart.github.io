@@ -690,6 +690,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/silactions.html
 Name: Silactions [Beta]
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/silactions.json
 
+Package: com.ps.silactions
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 11.0), mobilesubstrate, org.coolstar.sileo (>= 1.0.7)
+Filename: ./debs/com.ps.silactions_1.0.4_iphoneos-arm.deb
+Size: 7962
+MD5sum: f0306d5251147dc5d950d87df11874ae
+SHA1: 69c0d94d7b2eb4f7f12af5eb54f1878f3d58bbc5
+SHA256: 9b1adec20002a7fb23bd3921721089db767048cdc9ca6411f447db90ac3ec6c3
+Section: Tweaks
+Description: Manage packages in Sileo easier.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/silactions.html
+Name: Silactions [Beta]
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/silactions.json
+
 Package: com.ps.sixtyfps
 Version: 0.0.7-1
 Architecture: iphoneos-arm
