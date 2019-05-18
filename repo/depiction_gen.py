@@ -100,6 +100,9 @@ tweaks = [
         "max_ios": "8.2",
         "strict_range": True,
         "no_sileo": True,
+        "changes": [
+            [ "1.7", "Layout improvement for iOS-6-styled iPad emoji (split) keyboard" ]
+        ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
