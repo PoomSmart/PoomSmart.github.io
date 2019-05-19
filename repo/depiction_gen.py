@@ -101,6 +101,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            [ "1.7.1", "Refactoring" ],
             [ "1.7", "Layout improvement for iOS-6-styled iPad emoji (split) keyboard" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
