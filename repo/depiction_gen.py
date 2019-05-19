@@ -155,7 +155,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
-            [ "0.0.6.7", "Better memory limit unlocking technique" ],
+            [ "0.0.6.8", "Better memory limit unlocking technique" ],
             [ "0.0.6.6-2", "libSubstitrate 0.0.1-2" ],
             [ "0.0.6.6", "Requires libSubstitrate" ],
             [ "0.0.6.5", "arm64e" ]
