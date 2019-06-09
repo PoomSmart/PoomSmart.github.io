@@ -622,6 +622,24 @@ Description: Flipswitch for MyWi, all three types
 Author: PoomSmart
 Name: MyWi Flipswitch
 
+Package: com.ps.pad56
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.pad56_0.0.1_iphoneos-arm.deb
+Size: 3134
+MD5sum: 9f9371b5aef051a882adea91d0dd8cfa
+SHA1: 1eabe5cd76840cfec62a6e6a76a3686a0efbb2b5
+SHA256: 41711569740f9e635265d29ff1ff37d6804b8fd44c37d55b98329692da5c3049
+Section: Tweaks
+Description: 5x6 icon layout for iPad and iPad Pro.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pad56.html
+Name: Pad56
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pad56.json
+
 Package: com.ps.poweroptionfs
 Version: 0.0.2
 Architecture: iphoneos-arm
