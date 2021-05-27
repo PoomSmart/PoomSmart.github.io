@@ -176,7 +176,7 @@ tweaks = [
         "min_ios": "7.0",
         "tintColor": "orange",
         "changes": [
-            [ "0.0.5.1", "Fixed crashing when swiping in expanded flashlight view in Control Center for iOS 13 and lower" ]
+            [ "0.0.5.1", "Fixed crashing when swiping in expanded flashlight view in Control Center for iOS 13-" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
     },
@@ -258,9 +258,15 @@ tweaks = [
         "min_ios": "10.0",
         "description": "<p>Enable native PiP in YouTube app.</p>",
         "changes": [
-            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13 and lower" ],
+            [ "1.1.0",
+                [
+                    "Made PiP activated the first time the app is dismissed (iOS 14+)",
+                    "Made PiP activated only when the app is dismissed (iOS 13-)"
+                ]
+            ],
+            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13-" ],
             [ "0.0.13", "Fixed crashing when casting a video" ],
-            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (lgariv)" ],
+            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (@lgariv)" ],
             [ "0.0.9", "Support YouTube version 16.17" ],
             [ "0.0.8", "Experimental support for YouTube version 15.47" ]
         ]
@@ -271,11 +277,9 @@ tweaks = [
         "min_ios": "14.0",
         "description": "\
                 <p>Allow widgets to be on home screen on iPad.</p>\
-                <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>\
-                <p>As of 1.3, portrait grid is 8x7 (or 7x6 zoomed) for aesthetics.</p>\
-                <p>It's recommended that you put icons per page no more than 8x6 = 48 icons.</p>",
+                <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
         "changes": [
-            [ "1.3", "Fixed widgets being off grid at the edge and Added one more row for Portrait grid" ]
+            [ "1.3.0", "Fixed widgets being off grid at the edge and Added one more row for Portrait grid" ]
         ]
     },
     {
