@@ -1,0 +1,1601 @@
+Package: com.dekesto.minimalcameraios9
+Version: 1.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Dekesto
+Installed-Size: 612
+Depends: mobilesubstrate, preferenceloader, firmware (>= 9)
+Filename: ./debs/com.dekesto.minimalcameraios9_1.2.0-2_iphoneos-arm.deb
+Size: 60674
+MD5sum: 496191158a82d7c235c7d8ec30446bc6
+SHA1: d0e74833c3c828b4d21d2768155a0423c0b4c6ff
+SHA256: d42ec361b2757fbfc74478d96d3ebc7e87cf93d82dc0bc7a0a826a09e855141a
+Section: Tweaks
+Description: Camera tweak for the minimalist
+Author: Dekesto
+Name: MinimalCamera (iOS 9)
+
+Package: com.ps.3gunrestrictorflipswitch
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 892
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: ./debs/com.ps.3gunrestrictorflipswitch_0.0.1-1_iphoneos-arm.deb
+Size: 834512
+MD5sum: 931002acf201eaa2018bd5cefca7cdb6
+SHA1: 15df72b6a5d374308d7161afd66ffad2397222a5
+SHA256: 542223ea9a0e1dc77d85fd410db406367ee4ea541b86284b84a3453780819918
+Section: Addons (Flipswitch)
+Description: Flipswitch for 3G Unrestrictor.
+Author: PoomSmart
+Name: 3G Unrestrictor Flipswitch
+
+Package: com.ps.adguardunbounded
+Version: 0.0.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, com.ps.blockemall
+Filename: ./debs/com.ps.adguardunbounded_0.0.1.1_iphoneos-arm.deb
+Size: 2384
+MD5sum: 4f1d69fad402a6af0b7af33812585129
+SHA1: f77848a589b5b1c5ab4d1f2c323f9ee2bbc52c2e
+SHA256: 892e7833b97e57e0ae79bb899ee0cecf29ba7d994f62aad5f89c43cc9ac8ac75
+Section: Tweaks
+Description: Over 50000 rules for Adguard app.
+Author: PoomSmart
+Name: Adguard Unbounded
+
+Package: com.ps.amber
+Version: 0.0.5.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 528
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.amber_0.0.5.1_iphoneos-arm.deb
+Size: 38426
+MD5sum: fae7c18fa543abc4514af27b3ee64b8f
+SHA1: 2cf1bce9c61826bf89a219f4e0f5ac40ee6426e5
+SHA256: d275cf316507c0edce194f5ea084e93ab9bd3e99d2450d22a78f1f9c8819926e
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.ps.anysuggestemojiim
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: ./debs/com.ps.anysuggestemojiim_1.0.1_iphoneos-arm.deb
+Size: 3592
+MD5sum: 8bfbd962ebff8b2dfcd16e5ecdd8b5f0
+SHA1: 0208258dc8f1a496ac2bf63564c068df21dd1eab
+SHA256: 85dde3d92aa071330e3f0b7f41f4e1cd0921095387c92e402a1a24c6c72464d5
+Section: Tweaks
+Description: Tap-to-emoji on any keyboard on iMessages.
+Author: PoomSmart
+Name: AnySuggestEmoji (iMessages)
+
+Package: com.ps.anywherepredict
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: ./debs/com.ps.anywherepredict_1.1.2_iphoneos-arm.deb
+Size: 3854
+MD5sum: 263aeabb9c0c1ed72e233022fe8ac5df
+SHA1: fbc282820e36314cbd7b053a6b215ea61ec1287e
+SHA256: 51305fc0cdc53c570481b0b6c9621f70e90d46c9154e408ef509e32b9a79d72f
+Section: Tweaks
+Description: Predictive keyboard anywhere.
+Author: PoomSmart
+Name: AnywherePredict
+
+Package: com.ps.anywherepredict
+Version: 1.1.3.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: ./debs/com.ps.anywherepredict_1.1.3.1_iphoneos-arm.deb
+Size: 4750
+MD5sum: 82824fff435e3e84c872a0a533b742d1
+SHA1: 261cd3b6d9ff38e5fd2c644dfdf1bd32d660d48d
+SHA256: b8977c1557fbb193d073ecadc2b8ef6eec2c82b53db81e507bb758d2314872e0
+Section: Tweaks
+Description: Predictive keyboard anywhere.
+Author: PoomSmart
+Name: AnywherePredict
+
+Package: com.ps.anywherewidgetsforipad
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0), me.nepeta.iconstate
+Filename: ./debs/com.ps.anywherewidgetsforipad_1.3_iphoneos-arm.deb
+Size: 4292
+MD5sum: 16e7a08a70395ddba54eb101b85a588a
+SHA1: 6b20ebdd5d2a47061b9b729fa60506ea9062f43a
+SHA256: 6dcfb1cd7827b8d0d2eb682afebb871da44c71d648d400e4e718b17cf08e2896
+Section: Tweaks
+Description: Allow widgets to be on home screen on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.html
+Name: Anywhere Widgets for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
+
+Package: com.ps.applebtdeviceessupport
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.ps.applebtdeviceessupport_0.0.1_iphoneos-arm.deb
+Size: 2468
+MD5sum: 9031c076e2bb64f7639c3f52430c5586
+SHA1: 3e9819d0efb4ca1ff5152e2aabade559f109f814
+SHA256: 39c6cd587eb4e3e0b543163db3201b42bbd03f0c12d66458f5d7b1939fdf92eb
+Section: Tweaks
+Description: Enable discovery and connection to Apple Bluetooth devices.
+Author: PoomSmart
+Name: Apple BT Devices Support
+
+Package: com.ps.applibraryforipad
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
+Filename: ./debs/com.ps.applibraryforipad_1.0.0_iphoneos-arm.deb
+Size: 3466
+MD5sum: bd0a2937da9e62d1cc1ff8adcd93f132
+SHA1: 41ec90ab22140ebb10fbcd9a8447f827ba23ecf9
+SHA256: b093979bea2bb18befea39b9c40bd057582d41f593e02f307fded6a036b73e47
+Section: Tweaks
+Description: Enable App Library on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/applibraryforipad.html
+Name: App Library for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/applibraryforipad.json
+
+Package: com.ps.applibraryforipad
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
+Filename: ./debs/com.ps.applibraryforipad_1.0.1_iphoneos-arm.deb
+Size: 3546
+MD5sum: 60f2d0735a461b94539d9ead2f77bd20
+SHA1: 85d48a2fd1420c34589d0e5d017cfe8c75f097fc
+SHA256: adf176549c836eed90a11f0bbabb2db24f893b7bcf5b0a19c29d5a07490351a0
+Section: Tweaks
+Description: Enable App Library on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/applibraryforipad.html
+Name: App Library for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/applibraryforipad.json
+
+Package: com.ps.apppad
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_0.0.1_iphoneos-arm.deb
+Size: 3936
+MD5sum: 32fa5867ff751e177aead300a47a201a
+SHA1: 175d6aa9f40591c0ef82f3b45ab6d0eb00a75659
+SHA256: 8565237afdfb0656cc8023c79ab4f535016aad3e56bb6794f38ed90f6704941a
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Name: AppPad
+
+Package: com.ps.apppad
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_0.0.2_iphoneos-arm.deb
+Size: 6070
+MD5sum: 020f44fa27e4ae366a342bec7e173d38
+SHA1: 26fe0106f73da091c412f999cd38b15ae3c91299
+SHA256: 45429856e8414ad9bc41e5d27a8f340094c7a755e390d4c6c8bd82dbf64c0da4
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
+Name: AppPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
+
+Package: com.ps.apppad
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_1.0.0_iphoneos-arm.deb
+Size: 8940
+MD5sum: d909bc9143ee77222568ce6050786893
+SHA1: fa75d31b2f59ad71ce83e562742f34ec2a47ac03
+SHA256: 21226fa3f473ba4cd3a5501d1246fd19c23a37e2f037ddf2167dd7fdb53b0f43
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
+Name: AppPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
+
+Package: com.ps.bigmoji
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate, firmware (<< 10.0)
+Filename: ./debs/com.ps.bigmoji_1.0.0_iphoneos-arm.deb
+Size: 7954
+MD5sum: 168d81a9c14e2bf49aaa10c49b6842ff
+SHA1: 54d4da7000db30bdc0d9b52452ccade245296e8a
+SHA256: 1bcf27d1d36bcbaebdf529acfcb7cdb2250ae40425f9b07bd66fa5aa6026af26
+Section: Tweaks
+Description: Bigger emoji for iMessages
+Author: PoomSmart
+Name: Bigmoji
+
+Package: com.ps.blobsterhack
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 156
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.ps.blobsterhack_1.1_iphoneos-arm.deb
+Size: 36170
+MD5sum: 3502934db34581a8a130f15020e67b8d
+SHA1: e5d36553d5a395d1f0af3e76fa249d3703cae5b7
+SHA256: 05c2831b0b26b9599b70c0d0f748d36ee3770f0a7139d1fcb0d79a89a941579e
+Section: Hacks
+Description: Hack Blobster!
+Author: PoomSmart
+Name: Blobster Hack
+
+Package: com.ps.blockemall
+Version: 0.0.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 9.0), mobilesubstrate, com.bingner.plutil, system-cmds
+Filename: ./debs/com.ps.blockemall_0.0.2.2_iphoneos-arm.deb
+Size: 3492
+MD5sum: 57f036f2fb53a12fa1aa08911465047a
+SHA1: fa4b1b771fd40389f6cabee41fcf6f73abc152b6
+SHA256: 9a9d8758f7b6cb102362076eaeb14a56473d7be95680aaf51057c85240ad2781
+Section: Tweaks
+Description: No 50,000 entries limit for Safari content blockers.
+Author: PoomSmart
+Name: BlockEmAll
+
+Package: com.ps.blurrybadges
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 496
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/com.ps.blurrybadges_1.3.0_iphoneos-arm.deb
+Size: 52760
+MD5sum: 5343f441c4b5a1f36672a8708389917e
+SHA1: 0810d3c7f706d3e51a7fc8997403eceba8291d4a
+SHA256: 0c5792001378dd806ba9e7e5ea6e5a4e33ee64d105a9f8aa9dd8a395f2a52b7d
+Section: Tweaks
+Description: Add customizable blur to SpringBoard icon badges.
+Author: PoomSmart
+Name: BlurryBadges
+
+Package: com.ps.calleridfs
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1764
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, gsc.telephony
+Filename: ./debs/com.ps.calleridfs_0.0.2_iphoneos-arm.deb
+Size: 468918
+MD5sum: ef312ca5e98dd933f0f34715e225caf2
+SHA1: a0d88781e32d91ebf5618e01dc43c2d74b99427f
+SHA256: 71a060fcf2ae1eafbea50278d7b680b751f8ed359e124bee270ab309d6d368fc
+Section: Addons (Flipswitch)
+Description: Toggle for Caller ID.
+Author: PoomSmart
+Name: Caller ID Flipswitch
+
+Package: com.ps.camswitchdown
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 244
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 10.0)
+Conflicts: gsc.ipad
+Filename: ./debs/com.ps.camswitchdown_1.4.1_iphoneos-arm.deb
+Size: 15222
+MD5sum: 80857e0fb5283146c09640f2dfccdd96
+SHA1: acd492c84fff570ffdc6a25729d246999817ee75
+SHA256: f4e4aab8999fb595fde261075ce51a1ac62a205cc109c34fcaa0aa90f57045e2
+Section: Tweaks
+Description: iOS 10 Flip button <-> Filter button swap.
+Author: PoomSmart
+Name: CamSwitchDown
+
+Package: com.ps.cconandoff
+Version: 0.0.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/com.ps.cconandoff_0.0.1.1_iphoneos-arm.deb
+Size: 3866
+MD5sum: 9c8c207b66b8afedf767d3a62e4bd653
+SHA1: 97e47935fcae3f7e43b17dd71ac898bd48dec49d
+SHA256: 62e032067d1d91d92b8bd79f71c44e3ad7a9f31320bbadabd598c1a15f2757b0
+Section: Tweaks
+Description: Properly toggle Wi-Fi and Bluetooth from CC (iOS 11+)
+Author: PoomSmart
+Name: CC On & Off
+
+Package: com.ps.ccscalebt
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 124
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
+Filename: ./debs/com.ps.ccscalebt_1.0-2_iphoneos-arm.deb
+Size: 5064
+MD5sum: bfbfb5d4badf7579155703e27f94c921
+SHA1: ddd88c48cc1d59502e57d0889ab1d40344c64d8a
+SHA256: 50b44dc6405c87d0c517fdc64e70be1db6549f9857549473758b9e55e99bcb27
+Section: Tweaks
+Description: Scale Control Center bottom shelf
+Author: PoomSmart
+Name: CCScaleBT
+
+Package: com.ps.emodeji
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.emodeji_1.0_iphoneos-arm.deb
+Size: 5500
+MD5sum: 54b3313811a267b071a4bd64f9fb54db
+SHA1: c286477340e2909982d739373b6ceb564ea3210f
+SHA256: 6ad53e6e4453a924684998929f7d1502a0a376b1308a2a3b68d74e7d073e881b
+Section: Tweaks
+Description: Emoji on camera modes
+Author: PoomSmart
+Name: EModeji
+
+Package: com.ps.emojiattributes
+Version: 1.4.4~b5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1176
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/com.ps.emojiattributes_1.4.4~b5_iphoneos-arm.deb
+Size: 85168
+MD5sum: 2457d03c95f35160ebb4fadc10285c93
+SHA1: cb567d88da82936c2b6abc0d88208e166f317d38
+SHA256: 986516e5f6afd0f487348102a8377da58d567b6a4eb0cd88d89aa175bd62d14b
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
+Package: com.ps.emojidarkstyle
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 10.2)
+Conflicts: com.ps.emojiresourcesdark
+Filename: ./debs/com.ps.emojidarkstyle_1.0.6_iphoneos-arm.deb
+Size: 23334
+MD5sum: e5c987d70f43ba31eb8f07a0b9e4f1fb
+SHA1: 0ed2f3687c4a79186c97fa939c6c0e90c4597c28
+SHA256: 4eedeadbf97bb564db8e8778e7c1156bc8b22b84dcc7b5f182b7f8a330e79c46
+Section: Tweaks
+Description: iOS 10.2+ dark emoji icons.
+Author: PoomSmart
+Name: EmojiDarkStyle
+
+Package: com.ps.emojifontmanager
+Version: 0.0.8.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 332
+Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
+Filename: ./debs/com.ps.emojifontmanager_0.0.8.5_iphoneos-arm.deb
+Size: 37406
+MD5sum: 1f6446ef7b6c2a529aa465f7625ac0c2
+SHA1: 6980b0da06512fa40aebc56b95b118a02113c754
+SHA256: 5a3105efd2800a2a85058d97d52c633a784115d6dcbaebf19b7dd71700e46fa5
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojifontmanager
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 332
+Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
+Filename: ./debs/com.ps.emojifontmanager_1.0.0_iphoneos-arm.deb
+Size: 33870
+MD5sum: 5b0dc7c175a3609e826eb916229c709e
+SHA1: 0476c1ef562fb7e4542b39860b39f75792662df6
+SHA256: bf81c1d51446971966030f1c8b8f9d2d3f0c9a6f161af3bdd8531d9369d41446
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojilayout
+Version: 1.1.21
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: preferenceloader, firmware (>= 5.1), firmware (<< 8.3)
+Filename: ./debs/com.ps.emojilayout_1.1.21_iphoneos-arm.deb
+Size: 34400
+MD5sum: 434455e3974ae9bccad7a59de453fb7e
+SHA1: 2fb2716197c34d7194943972fcefd6d28660c428
+SHA256: f664ae0b9633836b900f572a79dcec065309985da6610e89cf38e19fe2de28bf
+Section: Tweaks
+Description: Layout the emoji keyboard.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilayout.html
+Name: EmojiLayout
+
+Package: com.ps.emojilibrary
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 576
+Filename: ./debs/com.ps.emojilibrary_1.2.3_iphoneos-arm.deb
+Size: 77470
+MD5sum: 7abc10a031bf87734508cec4db81d715
+SHA1: 1388ac09cad7d427036cdac443994e06e220bae5
+SHA256: 02a06fa84375a5af7f7c3396c7fa0ad9152770c00ffff82ab04368963e4bf16e
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
+Package: com.ps.emojilocalization
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 252
+Depends: mobilesubstrate, firmware (>= 5.1), firmware (<< 9.1)
+Filename: ./debs/com.ps.emojilocalization_1.1.1_iphoneos-arm.deb
+Size: 18102
+MD5sum: 3f90004568a93632ebd70c4ba8e0b8c9
+SHA1: 583b0e2694553e3a83b3be10c21f9a55aaabac48
+SHA256: 4fe76706771ca0158913c119144a88f0166cf7e17160cbfbd772b8a892d11ddd
+Section: Tweaks
+Description: Correct localization for emoji keyboard.
+Author: PoomSmart
+Name: EmojiLocalization
+
+Package: com.ps.emojiport10resources
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 119464
+Depends: firmware (>= 10.0)
+Filename: ./debs/com.ps.emojiport10resources_1.2.5_iphoneos-arm.deb
+Size: 29634326
+MD5sum: b870704c9db2e5164db2d4417de6ba51
+SHA1: 0b3518643881fae3a3aee705b9b8bccf1028e53b
+SHA256: efe184ed58747e90682b603f2e1b1ae87392077b078ce6c612b471d01513404c
+Section: Tweaks
+Description: Necessary resources for EmojiPort iOS 10 and higher.
+Author: PoomSmart
+Name: EmojiPort Resources (iOS 10+)
+
+Package: com.ps.emojiportalpha
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 6.0), com.ps.emojilayout, com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojilibrary
+Conflicts: com.ps.emoji10alpha
+Filename: ./debs/com.ps.emojiportalpha_1.0.10_iphoneos-arm.deb
+Size: 24436
+MD5sum: b3c6af0235ec10cee5b63de38149e3c9
+SHA1: 0db33666121f38c3ff9842d4cd29839597f2f3a7
+SHA256: 4a9ee087d3bd9331f4b2a6ee3e472c24e28c3f5c00729b36c84db9208d12625c
+Section: Tweaks
+Description: Latest emojis for iOS 5.1
+Tag: compatible::ios5
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
+Name: EmojiPort (iOS 5.1)
+
+Package: com.ps.emojiportfix
+Version: 1.6.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojiresources (>= 1.1), com.ps.emojilibrary (>= 1.2.2~b5)
+Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
+Filename: ./debs/com.ps.emojiportfix_1.6.5_iphoneos-arm.deb
+Size: 11496
+MD5sum: 8b3fa4f1cc25be36a85e342290f791b9
+SHA1: 064a094bfdf99bcaadb6e7137715b561704c14ee
+SHA256: 350bebc06f254e068453c0fac3c1db20300f6d04e9c2b257fa6e22ac154176f2
+Section: Tweaks
+Description: Latest emojis for iOS 8.3-8.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_3.html
+Name: EmojiPort (iOS 8.3-8.4)
+
+Package: com.ps.emojiportlegacy
+Version: 1.7.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 416
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.2.2~b5), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
+Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
+Filename: ./debs/com.ps.emojiportlegacy_1.7.5_iphoneos-arm.deb
+Size: 65680
+MD5sum: 2ebf57d97fcd96aa6508298db4765766
+SHA1: bf483fc15a66b6e11fdcacc11ca0d8b040cfd4fa
+SHA256: d64eb7f51b8effe86b038240c28d4d47d6c6093d93182f81288be5ab198b0d78
+Section: Tweaks
+Description: Latest emojis for iOS 6.0-8.2
+Tag: compatible::ios6, compatible::ios7, compatible::ios8
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
+Name: EmojiPort (iOS 6.0-8.2)
+
+Package: com.ps.emojiportpe
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 288
+Depends: firmware (>= 12.0), firmware (<< 14.5), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), com.ps.emojiport10resources (>= 1.2.2)
+Filename: ./debs/com.ps.emojiportpe_1.1.1_iphoneos-arm.deb
+Size: 16210
+MD5sum: 70953d5e359f4bc605c817392028cd2e
+SHA1: 6fb668792a9177883b9d77422f30b407f6bdd01b
+SHA256: d6bfcc3c82f956c0ae3fd9155bdf2b8146188be0752f9752c0539db32fbefc38
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-14.4
+Tag: compatible::ios12, compatible::ios13, compatible::ios14
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-14.4)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
+Package: com.ps.emojiportps
+Version: 1.6.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 268
+Depends: firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
+Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
+Filename: ./debs/com.ps.emojiportps_1.6.5_iphoneos-arm.deb
+Size: 10314
+MD5sum: 982ad34a8d9584e14a135fb7348eb571
+SHA1: de1b223fdd8977a1110aa3cd68d778bb0b28295d
+SHA256: 274994f100837f378dfc639830951863001b534e1096ff7fa5d3f01cf6b3a36c
+Section: Tweaks
+Description: Latest emojis for iOS 9.0-9.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_9.html
+Name: EmojiPort (iOS 9.0-9.3)
+
+Package: com.ps.emojiportwt
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes (>= 1.3.24-2), com.ps.emojilibrary (>= 1.1.0), com.ps.emojiport10resources (>= 1.0.5)
+Conflicts: com.ps.emoji10wt
+Filename: ./debs/com.ps.emojiportwt_1.3.4_iphoneos-arm.deb
+Size: 14488
+MD5sum: b4af8c9be2e88d465dfa4206b2f18261
+SHA1: 796c6bd339bbd9ffeff692a4cdc816a9145692a4
+SHA256: 6853c73e7d6887978c2cc8074672bac30bff5a83bd06a61861ca4523d610b6dc
+Section: Tweaks
+Description: Latest emojis for iOS 10.0-11.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
+Name: EmojiPort (iOS 10.0-11.4)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
+
+Package: com.ps.emojiresources
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 532
+Depends: firmware (>= 7.0), firmware (<< 9.1), mobilesubstrate
+Filename: ./debs/com.ps.emojiresources_1.2_iphoneos-arm.deb
+Size: 43906
+MD5sum: e2a54221a51396672bfac522f1fca495
+SHA1: b707b3c869d6ebef2c44428fc153437a66f67019
+SHA256: 72ee541e7624cca149b3dc4e30e0f33dfd2ca1cd1c7770401d686a59fdf662da
+Section: Tweaks
+Description: Extra Emoji category icons.
+Author: PoomSmart
+Name: EmojiResources
+
+Package: com.ps.emojiresources
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 532
+Depends: firmware (>= 7.0), firmware (<< 9.1), mobilesubstrate
+Filename: ./debs/com.ps.emojiresources_1.2.1_iphoneos-arm.deb
+Size: 43946
+MD5sum: df333a17133c09d666efaa24a950d7d3
+SHA1: d186596bc29ba0026754b0a7691c0c93101fb621
+SHA256: e3e87a35c85a60df005a7f640c4d0265c41de4a007f0f9228b5ef331e790b502
+Section: Tweaks
+Description: Latest emoji category icons.
+Tag: compatible::ios7, compatible::ios8, compatible::ios9
+Author: PoomSmart
+Name: EmojiResources
+
+Package: com.ps.flexibleflipswitch
+Version: 0.0.2-5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1920
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, com.shmoopillc.flexible
+Filename: ./debs/com.ps.flexibleflipswitch_0.0.2-5_iphoneos-arm.deb
+Size: 487380
+MD5sum: 111501dbc44d014d66cc99a969941833
+SHA1: a955c4bd265a489458118204e6a840ce4572bfea
+SHA256: a0969d5ab8ee450228c98825e478a4673954a4cbd8f5db9f38cf095ac7d1846e
+Section: Addons (Flipswitch)
+Description: Flipswitch for FLEXible.
+Author: PoomSmart
+Name: FLEXible Flipswitch
+
+Package: com.ps.forceinpicture
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.forceinpicture_1.0_iphoneos-arm.deb
+Size: 3748
+MD5sum: 7199881f9c170b42307fd3fdcdf3c858
+SHA1: 84db8cf504b92db12e05c9eadc027e1e2e69dbab
+SHA256: 1ae08ac58e729265762ac3e834de7576fe7a15c453d02872f0419fe42741d4ae
+Section: Tweaks
+Description: "Programmatically" enable picture in picture feature.
+Author: PoomSmart
+Name: ForceInPicture
+
+Package: com.ps.gboardall
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/com.ps.gboardall_1.0.2_iphoneos-arm.deb
+Size: 2852
+MD5sum: fdb27f57424b9d2b2aa4efb1ad0e6361
+SHA1: d7380dccdec63db9b071fd8220cfa1b96060282b
+SHA256: 80d3f67f5c7a94b5a7f40126f6ba00ee3b504ed4fa4d5dca3191a268df6480e2
+Section: Tweaks
+Description: Allow unsupported emojis to show on Gboard keyboard.
+Author: PoomSmart
+Name: GboardAll
+
+Package: com.ps.hdavatar
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.ps.hdavatar_0.0.1_iphoneos-arm.deb
+Size: 2758
+MD5sum: 0abcec71e9ac5e78366ba7091398b1db
+SHA1: 363314a0f1f0bc0d657a076c2b783dc2061cc7c0
+SHA256: 0dbdae431d37bed3782382d16c25f40a43866fb57a13a7aa4d61ac2c95229ec2
+Section: Tweaks
+Description: Double the size of Animoji/Memoji stickers.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
+Name: HD Avatar
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
+
+Package: com.ps.highgraphics
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.highgraphics_1.0.5_iphoneos-arm.deb
+Size: 4752
+MD5sum: 7445fbf2d477ae396f2f000f318af24a
+SHA1: 642627c40ef844e42dcfc70c727c3a1f54236afb
+SHA256: b78208b1f1bc312eb852ada045ab5b37a7683cd15a2b6bc61bba893a4e0e641e
+Section: Tweaks
+Description: Best UIKit graphics for older devices.
+Author: PoomSmart
+Name: HighGraphics
+
+Package: com.ps.igclassiclayout
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ps.igclassiclayout_1.0.0_iphoneos-arm.deb
+Size: 2848
+MD5sum: b69565b0c021c11888c1b67f2f54f648
+SHA1: d3b2027e1a3cfb44cf04a86ce020e043f302c16e
+SHA256: a28826f98dc33557b21e54b5ef71fd470ad03f84ffbb2230d145f53d9fb6f916
+Section: Tweaks
+Description: Compose and Likes at bottom, the rest at above.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/igclassiclayout.html
+Name: IGClassicLayout
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/igclassiclayout.json
+
+Package: com.ps.letmeblock
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.ps.letmeblock_0.0.1_iphoneos-arm.deb
+Size: 1982
+MD5sum: 94c19760c8ac9cc1df3ec34bde433083
+SHA1: ac743f1fc7c6cfbeab7b49c8c8d0f1b62b75fad4
+SHA256: 0bcf46aa72f3c91444780bcbfbeabcdf9217e5f718691111fa5927d31857ef40
+Section: Tweaks
+Description: Make mDNSResponder care about /etc/hosts
+Author: PoomSmart
+Name: LetMeBlock
+
+Package: com.ps.letmeblock
+Version: 0.0.7.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_0.0.7.5_iphoneos-arm.deb
+Size: 5068
+MD5sum: 529fde6b36c7de2c777faf94b21f898d
+SHA1: 8f8d192410d312947681063c7092c2624d62ffa9
+SHA256: 94e0df2ebfb2ec0332bb3e23ba362c23d76fedbc67c1f158497c1fb42c62b69d
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.letmeblock
+Version: 0.0.7.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_0.0.7.8_iphoneos-arm.deb
+Size: 6484
+MD5sum: 07cb96fba9fe6e979d13727d928c1e64
+SHA1: b44a5e1af3a72cbe2e123aa053a4cac5322e9225
+SHA256: fc32943d93d70d1f5df62052409990df565854c64cebf9e8a31c9897bb690a9e
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.libsubstitrate
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debs/com.ps.libsubstitrate_0.0.1-3_iphoneos-arm.deb
+Size: 4460
+MD5sum: 973eab2f66209ab438de762cda6f2d1b
+SHA1: afd39223657a565124ae1b09b7e75aeb30980441
+SHA256: fecfd57d3ace5155f2fd266be6c9dea9c9b650d56390ae247ae4f5ee88bbc37b
+Section: System
+Description: Substrate/Substitute hooking selector.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/libsubstitrate.html
+Name: libSubstitrate
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/libsubstitrate.json
+
+Package: com.ps.m4dark
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: ./debs/com.ps.m4dark_0.0.1_iphoneos-arm.deb
+Size: 2764
+MD5sum: 821a577c6855b972e864d043d7607a2a
+SHA1: a8542265a2cd4993ff0c79751a5d329c3b0047fc
+SHA256: 957c80b402c5d9efa0199e485fe4ba9c426e2c5822854a7c9431cfb5fea78ce3
+Section: Tweaks
+Description: Force enable FB Messenger Native Dark Mode.
+Author: PoomSmart
+Name: M4Dark
+
+Package: com.ps.mywifs
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: ./debs/com.ps.mywifs_0.0.1_iphoneos-arm.deb
+Size: 35604
+MD5sum: 92a18b070bd2ff834ce2af7cb39182dc
+SHA1: a0330a0af62876656c81f96d01afb7cab7cc0e5e
+SHA256: 21235a16262668f2b7c397cf047f9e8cb9d71d06823dacd7cca36d2c99f1d649
+Section: Addons (Flipswitch)
+Priority: optional
+Description: Flipswitch for MyWi, all three types
+Author: PoomSmart
+Name: MyWi Flipswitch
+
+Package: com.ps.pad56
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.pad56_0.0.1_iphoneos-arm.deb
+Size: 3134
+MD5sum: 9f9371b5aef051a882adea91d0dd8cfa
+SHA1: 1eabe5cd76840cfec62a6e6a76a3686a0efbb2b5
+SHA256: 41711569740f9e635265d29ff1ff37d6804b8fd44c37d55b98329692da5c3049
+Section: Tweaks
+Description: 5x6 icon layout for iPad and iPad Pro.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pad56.html
+Name: Pad56
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pad56.json
+
+Package: com.ps.pearltracking
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 356
+Depends: mobilesubstrate, firmware (>= 13.0), com.opa334.ccsupport
+Filename: ./debs/com.ps.pearltracking_0.0.1_iphoneos-arm.deb
+Size: 37348
+MD5sum: 29b741f273d3d3b1d8c4102ec8e71b6c
+SHA1: e79e67dd6f1029d07ac6433e8492561a3aa98a0b
+SHA256: 510de1de8be0c60023dbf2d81962a98dd89fb2079f7e51351cf7d35acce53667
+Section: Tweaks
+Description: Move the mouse cursor with your face.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
+Name: PearlTracking
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
+
+Package: com.ps.pencilpro
+Version: 0.0.2.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
+Filename: ./debs/com.ps.pencilpro_0.0.2.5_iphoneos-arm.deb
+Size: 7526
+MD5sum: b5c902b038695017a730936a58709730
+SHA1: 8d836df6076344dae44287be123d02efd6c5ff59
+SHA256: 1b57cd9b575bd16f947fc13f25b518b3b6ddd8b915d55555d464cae30da0b809
+Section: Tweaks
+Description: Apple Pencil can do better.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pencilpro.html
+Name: Pencil Pro
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pencilpro.json
+
+Package: com.ps.poweroptionfs
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: ./debs/com.ps.poweroptionfs_0.0.2_iphoneos-arm.deb
+Size: 11208
+MD5sum: c312000efcbc2b8c224a1ba79b7d0e21
+SHA1: ada952d31fed48c6fc28fab4a9d97a00f2fd1b85
+SHA256: c42ff59d2246a559779e88adbd35235347fbf45841cb0e05d05da9f370301369
+Section: Addons (Flipswitch)
+Description: Toggle for power actions, with confirmation
+Author: PoomSmart
+Name: Power Option FS
+
+Package: com.ps.quadhighcurrent
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.quadhighcurrent_0.0.4_iphoneos-arm.deb
+Size: 18608
+MD5sum: 3c834e2014b7a574c49d7e8e5ac0810d
+SHA1: 8647af2b9b71f2fad9d764036a514bc1dab8931e
+SHA256: 3378b6bca683b9e0b08579b14595b42703f6a3c342ca2d79cada22947a86a5d3
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.recordpause
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/com.ps.recordpause_1.3.4_iphoneos-arm.deb
+Size: 10480
+MD5sum: 6ce3b4a8f992b66e8f8c1166bc89bc88
+SHA1: e4c262ff9c7428ee0febfd7e4d34fbe22a22f328
+SHA256: cfc0625902de36f6f46e101dc7bc3819a6db1737ad3cc099f9146cf5c983bb72
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
+Name: RecordPause (iOS 9+)
+
+Package: com.ps.sixtyfps
+Version: 0.0.7-1
+Architecture: iphoneos-arm
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
+Filename: ./debs/com.ps.sixtyfps_0.0.7-1_iphoneos-arm.deb
+Size: 6588
+MD5sum: 9727ca2f49afb41b4018944cf400fbda
+SHA1: d8e32393eae4eb916b19d9aed15abc08cbe03e2e
+SHA256: c6fc40c912126981f666975c2b7843c173c29d1e297b4120e6bea358e105d5e3
+Section: Tweaks
+Description: 60 fps capture support for legacy camera.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/60fps.html
+Name: 60fps
+
+Package: com.ps.sixtyfps
+Version: 1.0.0~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
+Filename: ./debs/com.ps.sixtyfps_1.0.0~b1_iphoneos-arm.deb
+Size: 7136
+MD5sum: 0081f5b371d73cf380b595bcb21e8da7
+SHA1: a419416eb3506e0f4196f85d8fcb369cd9f39124
+SHA256: da93545e1f9ef42bbddf0c164743d01ae54530fb6ed4e278a0558fdc6e346206
+Section: Tweaks
+Description: 60 fps capture support for legacy camera.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/60fps.html
+Name: 60fps
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/60fps.json
+
+Package: com.ps.slicesflipswitch
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1776
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 7.0)
+Filename: ./debs/com.ps.slicesflipswitch_0.0.1-1_iphoneos-arm.deb
+Size: 1719330
+MD5sum: 8e3e2b7a03f6fd28cb172eefed3fa362
+SHA1: d27d0b35f87463e419aa680a56677cda2c106b8e
+SHA256: 0d83f676f96f76fc565387f46b6a780e0029a30b4c4e319360a56bafa5adac9b
+Section: Addons (Flipswitch)
+Description: Flipswitch for Slices.
+Author: PoomSmart
+Name: Slices Flipswitch
+
+Package: com.ps.smarttapflipswitch
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1768
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 7.0)
+Filename: ./debs/com.ps.smarttapflipswitch_0.0.1-1_iphoneos-arm.deb
+Size: 1720488
+MD5sum: 35a21a37b84e90034068384e14885f71
+SHA1: 68cc5ab33b978a4f19e43bc0fb68016973f9db96
+SHA256: 23eca51696aaf288f848ca7b22215a605be407f6994d46a0a10cf68d1ed9927c
+Section: Addons (Flipswitch)
+Description: Flipswitch for SmartTap.
+Author: PoomSmart
+Name: SmartTap Flipswitch
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: ./debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm.deb
+Size: 2474
+MD5sum: 5839234c825ee565451f6ed4d05a8dba
+SHA1: 226eddc87867a7c1e403a71bf46352d141554c93
+SHA256: 7b9be90adb0cdd24a4f9f32f6aee378f11228bee8acae0db69ef2a28e5ad5ef5
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor iOS 13
+
+Package: com.ps.smoothkb
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.smoothpop
+Filename: ./debs/com.ps.smoothkb_1.0.1_iphoneos-arm.deb
+Size: 3234
+MD5sum: 35424bb36b0a08cad484dd370bc78c37
+SHA1: 0bbe94462da85926cc0c90813032e60fd8d3a2f8
+SHA256: d914c62b9cf5ac85d6370caa1d6def8b82f27829cfe32d339126008bb7cf99bd
+Section: Tweaks
+Description: Fade animation across keyboard typing.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
+Name: SmoothKB
+
+Package: com.ps.smsgroupname
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.ps.smsgroupname_0.0.1-1_iphoneos-arm.deb
+Size: 3008
+MD5sum: 47a1a66f6f3ebc6845c48228b21084c0
+SHA1: a69bf8cda3bf7bf07b2f944e9bf62a9963745079
+SHA256: 63fe110655963e028c49bad59bfb0a233b257e62aa3d3f5a2af470b38664e616
+Section: Tweaks
+Description: Rename SMS group conversation.
+Author: PoomSmart
+Name: SMSGroupName
+
+Package: com.ps.splitit
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 3584
+Depends: firmware (>= 10.0), mobilesubstrate, gsc.ipad
+Filename: ./debs/com.ps.splitit_0.0.2_iphoneos-arm.deb
+Size: 669854
+MD5sum: 50fe8305f8a27c87ae4df3f32aa355da
+SHA1: c825405a6063e3e07bbcd8a75b2567fccee9b928
+SHA256: e6aba33dd8aeb8536b31e83fa401c2ddce56af3803825e4ce4d4930fcda68b63
+Section: Tweaks
+Description: Enable keyboard split feature on borderless iPads.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/splitit.html
+Name: SplitIt
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/splitit.json
+
+Package: com.ps.ssgesturesios12fix
+Version: 0.0.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 104
+Depends: mobilesubstrate, firmware (>= 12.0), com.atwiiks.ssgestures
+Filename: ./debs/com.ps.ssgesturesios12fix_0.0.1.1_iphoneos-arm.deb
+Size: 2746
+MD5sum: 25c58809e1aabae90acaf137603ea49a
+SHA1: d3d9d8c5f6c7dfaa8cb8ff85bd50b7312350f2f4
+SHA256: 0d1d8de365bcdc709c569fa396f96064b0b5ec9311a3253769bd6a60f3716151
+Section: Tweaks
+Description: Fix SSGestures crashing on iOS 12
+Author: PoomSmart
+Name: SSGestures iOS 12 Fix
+
+Package: com.ps.staticzoom
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: ./debs/com.ps.staticzoom_0.0.2_iphoneos-arm.deb
+Size: 5268
+MD5sum: 76c3a1d5264806bb2471363d152621e4
+SHA1: cfa98278658b877af29625d5902aa576eed0a864
+SHA256: e628dfd3519513464d3b9469c1e1e2625136f86aaecfdff525a05f25560a5a9e
+Section: Tweaks
+Description: Always show zoom slider in camera app.
+Author: PoomSmart
+Depiction: http://PoomSmart.github.io/repo/staticzoom/index.html
+Name: StaticZoom
+
+Package: com.ps.tapformore
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 64
+Depends: firmware (>= 4.0), firmware (<< 8.0), preferenceloader
+Filename: ./debs/com.ps.tapformore_1.0.2_iphoneos-arm.deb
+Size: 9526
+MD5sum: f7cd915a0967a9f2bc45a16679d2d8e6
+SHA1: 82e36403d67b667dcc8af75aedbcf5e83d94f572
+SHA256: c275b7c77cc494e8739db820cd51bd8297529781c983e8a73b0f0d16c86eab8b
+Section: Tweaks
+Description: Manage packages via tap.
+Author: PoomSmart
+Name: TapForMore
+
+Package: com.ps.tapvideoconfig
+Version: 0.0.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/com.ps.tapvideoconfig_0.0.6_iphoneos-arm.deb
+Size: 12188
+MD5sum: f002710af8cd78a16a4db0aea2e7ad80
+SHA1: 1af9623a1677304a3dfbc3d1590432dee946611b
+SHA256: 390844a636d206bad6750fa51b595e0806d28c22ed56543cd6e38cfc996b5c32
+Section: Tweaks
+Description: Change video configuration directly in Camera app.
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Author: PoomSmart
+Name: TapVideoConfig
+
+Package: com.ps.youpip
+Version: 0.0.11
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_0.0.11_iphoneos-arm.deb
+Size: 8088
+MD5sum: d029c6de68b048a7b4bef8daeda3710a
+SHA1: c162c0fd56e887b96115f91bf6f9e8adba47f61c
+SHA256: b76ff4d9e19641dad9c07c1ec43d354ff4c4c7ac242ec4d3d14de956b338f64d
+Section: Tweaks
+Description: Enable native PIP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
+
+Package: com.ps.youpip
+Version: 0.0.13
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_0.0.13_iphoneos-arm.deb
+Size: 12744
+MD5sum: 812c16f20708d18a04e30653759a1f86
+SHA1: ed8b4ab9ea9b166eb51417a21854d703b7478f2a
+SHA256: ffe71692edd645fdb789bf4b7ff157b8423285a5a4eeaf15590d65bb8558a9b2
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 0.0.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate, gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_0.0.8_iphoneos-arm.deb
+Size: 14712
+MD5sum: 99d5e5a8bf67ab5a06b3f50211e68872
+SHA1: 6feb6782db34f7c8621f4fd2a563fa16e0625941
+SHA256: c3cef8787834b1553debda5654c3263e2cc10bbe838a885a87d96518bfcfd440
+Section: Tweaks
+Description: Enable PIP in native YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
+
+Package: com.ps.youpip
+Version: 0.0.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 148
+Depends: mobilesubstrate, gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_0.0.9_iphoneos-arm.deb
+Size: 12170
+MD5sum: 8a90eb52dd4811bee1cac97aee21fd1b
+SHA1: d67afe2c93632ed5feaa1fbe12c473dc5c9d763e
+SHA256: 73973dbb44d8ab70028484e7ea61f650e7be45386f9053cb3c266608a7e4d6d3
+Section: Tweaks
+Description: Enable PIP in native YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/depictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_1.0.0_iphoneos-arm.deb
+Size: 12730
+MD5sum: 944a6409a173e703f3e8f5d567242b41
+SHA1: 8966f25e77ef236969e6d1311f2386e9577033b6
+SHA256: 5b43998ba33ad816916ca8123d55ae40916c0d56e1cac71aa436787a795e46b7
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPIP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytclassicvideoquality_1.0.0_iphoneos-arm.deb
+Size: 2600
+MD5sum: ccd75a94ecf50530950140e46d1d98ab
+SHA1: 4b39fa1e8b89760f0b73159ee5ba00f299382b98
+SHA256: 27810407a4f9a2f54c1cd6b0cdd7e112dd5b2cae17f7102218584bf7e7671689
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Name: YTClassicVideoQuality
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm.deb
+Size: 2640
+MD5sum: 4480bb27e9ed91522e52413221419c27
+SHA1: e36c5bff69ef49fef21d6b60fb0084d16a1a9583
+SHA256: 1a68bdf6c981dd5e5ca7b9eb8aebc04130d5788a73bcf3af15282f172875c69a
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytuhd
+Version: 0.0.3.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytuhd_0.0.3.7_iphoneos-arm.deb
+Size: 4202
+MD5sum: 561a70a260d441ca0050832dd9e06abb
+SHA1: ca563249c73ea1c5a8ae78ce7d924b73bfeb8a73
+SHA256: 2023d2c485e97598e6b5ed09af41d397ef1ffedc431d53f0260e27de982b663c
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD SW
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.spicat.appcolorclose
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Spica T
+Installed-Size: 160
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.appcolorclose
+Filename: ./debs/com.spicat.appcolorclose_1.2_iphoneos-arm.deb
+Size: 20512
+MD5sum: 544928b1ee498d993a4666ce7b3c2f8a
+SHA1: 858b68c3cd0f289c1fcafc879d88f5d8fdf632be
+SHA256: 0f18eb8ea9d4ffbfeb3e8648f91cf5c888a3248e6053f7b3ddd17c7163f71234
+Section: Tweaks
+Description: Tint app close box based on app icon color.
+Author: Spica T
+Name: AppColorClose iOS 12+
+
+Package: com.spicat.blurrybadges
+Version: 1.2.4
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 492
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges
+Filename: ./debs/com.spicat.blurrybadges_1.2.4_iphoneos-arm.deb
+Size: 41876
+MD5sum: 52c2ce861159034394136af82712a1bc
+SHA1: 97dfa7fd013730c3c82cb36608100f8bcdeebd0b
+SHA256: aeefaf9e63a25c4d358cd6f7627588a53fd90ad467070e157b71c0b211e8d303
+Section: Tweaks
+Description: Add customizable blur to SpringBoard icon badges.
+Author: SpicaT
+Name: BlurryBadges
+
+Package: com.spicat.flashorama
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 4) | cy+model.ipod (>= 5)
+Conflicts: org.thebigboss.flashorama
+Replaces: org.thebigboss.flashorama
+Provides: org.thebigboss.flashorama
+Filename: ./debs/com.spicat.flashorama_1.6.2_iphoneos-arm.deb
+Size: 38944
+MD5sum: 5e0d654fe9321e3e18f7511c623a3909
+SHA1: 2a9d41c068a2a10a56ecf52253a81985b922ef66
+SHA256: 856faf4529fbb19049eac4ebd175c42837fd3bf4be53dea7d2e1e826450276dc
+Section: Tweaks
+Description: use Torch when Capturing Panorama!
+Author: SpicaT
+Icon: file:///Library/PreferenceLoader/Preferences/Flashorama/Flasho@2x.png
+Name: Flashorama
+
+Package: com.spicat.internalphotos
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 212
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.internalphotos
+Replaces: org.thebigboss.internalphotos
+Provides: org.thebigboss.internalphotos
+Filename: ./debs/com.spicat.internalphotos_1.2.1_iphoneos-arm.deb
+Size: 12856
+MD5sum: ba162ef65cb8f62f256705f00c95d342
+SHA1: 12c243bee8a5a6ca802c526fdc0934ee874d7e78
+SHA256: e8e94e5f15ff72904dbbea1917e02265c33e8644491ea4863688ba96578a0f67
+Section: Tweaks
+Description: Enable hidden Photos internal settings.
+Author: SpicaT
+Name: InternalPhotos
+
+Package: com.spicat.photores
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: Spica T
+Installed-Size: 364
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.photores
+Filename: ./debs/com.spicat.photores_1.4.2_iphoneos-arm.deb
+Size: 33206
+MD5sum: e575fb33f096d633264079308677f374
+SHA1: 23fd41ba6ccb1c072bf984dab6ca94fc6f8cf403
+SHA256: 84176bac30dfa5fc448ab74f77313ed2ae5b0991e89df41444fe2d1bd5c2f11f
+Section: Tweaks
+Description: Taking photos at any sizes.
+Author: Spica T
+Name: PhotoRes+
+
+Package: com.spicat.phototorch
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 1464
+Depends: firmware (>= 6.0), gsc.camera-flash, mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.phototorch
+Replaces: org.thebigboss.phototorch
+Provides: org.thebigboss.phototorch
+Filename: ./debs/com.spicat.phototorch_1.7.1_iphoneos-arm.deb
+Size: 163808
+MD5sum: 9f3550b7d968e2c2ca3d0c3c963c6181
+SHA1: 5ba9cb5a13a3a4faba1f9ceb8cbc27a0611b65b9
+SHA256: c25d4879fa0e761b7cc0461b62d8933c9654d23c98adf37cb127358e58262cf6
+Section: Tweaks
+Description: adjustable torch for camera app.
+Author: SpicaT
+Name: PhotoTorch
+
+Package: com.spicat.recordntorch
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 156
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), gsc.camera-flash, gsc.still-camera, ws.hbang.common (>= 1.2)
+Conflicts: org.thebigboss.recordntorch
+Filename: ./debs/com.spicat.recordntorch_1.8_iphoneos-arm.deb
+Size: 18128
+MD5sum: da887b3fecfc781b1831d9f779e3cc7a
+SHA1: f12849a04b943837b24aa8dbee041231ae38c391
+SHA256: ad7edd42acd9408ee22405f45763f40dc95928a08ef1023b93d506e2aaf4e319
+Section: Tweaks
+Description: Toggle Torch while recording video.
+Author: SpicaT
+Icon: file:///Library/PreferenceLoaders/Preferences/TFV/TFV@2x.png
+Name: Record 'n' Torch iOS 12+
+
+Package: com.spicat.transparentcamerabar
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: SpicaT
+Installed-Size: 884
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), ws.hbang.common (>= 1.2), gsc.still-camera | gsc.front-facing-camera
+Conflicts: org.thebigboss.transparentcamerabar
+Replaces: org.thebigboss.transparentcamerabar
+Provides: org.thebigboss.transparentcamerabar
+Filename: ./debs/com.spicat.transparentcamerabar_1.8_iphoneos-arm.deb
+Size: 67716
+MD5sum: 90d9c8d47cac5c3795020b240667a7a2
+SHA1: 15bfdf21d879e2dd691c57389b0bd02e384169f6
+SHA256: 36fa5d7e9d8882ddd4b65633fee612d4504a0da25bb4709dc876ee8ccf03b58b
+Section: Tweaks
+Description: Set opacity, hide and shrink camera bars.
+Author: SpicaT
+Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
+Name: TransparentCameraBar
+
+Package: com.spicat.whatsallemojis
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Spica T
+Installed-Size: 136
+Depends: mobilesubstrate, com.ps.emojilibrary
+Filename: ./debs/com.spicat.whatsallemojis_0.0.1_iphoneos-arm.deb
+Size: 4590
+MD5sum: c7601c7cd4a9e04a71d77dd43dc3be90
+SHA1: 8452f02617061184230ea2b062efc27e7de3013a
+SHA256: 1ef21f15848d56e4f3c88434dabffae5f444c4d5053ad1fe440ed2b89bf0d80d
+Section: Tweaks
+Description: Ensure you get latest emojis for WhatsApp stamps.
+Author: Spica T
+Name: WhatsAllEmojis
+
+Package: me.nepeta.iconstate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Nepeta <ominousness@protonmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/me.nepeta.iconstate_0.1.0_iphoneos-arm.deb
+Size: 4618
+MD5sum: 3e4b6beb0282378e2fe33d9f03da4cf5
+SHA1: e7e6f4f94e7067364c1d9059e9e65efae8b6e0ae
+SHA256: 24dfde881451a6285793e7d346ea7a58a6138112fc93c90a78847fec3ccb4aaf
+Section: Tweaks
+Description: Preserve custom icon layouts between reboots
+Author: Nepeta <ominousness@protonmail.com>
+Name: IconState
+
+Package: org.thebigboss.camblur7
+Version: 1.6.4
+Architecture: iphoneos-arm
+Installed-Size: 1276
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.transparentcamerabar, ws.hbang.common (>= 1.2), firmware (>= 7.0), gsc.still-camera | gsc.front-facing-camera
+Filename: ./debs/org.thebigboss.camblur7_1.6.4_iphoneos-arm.deb
+Size: 154126
+MD5sum: 43b07ba4e0ce65865eb00f537c9b454e
+SHA1: e180b31dfcd8f892aa384fab8633efd5f3654374
+SHA256: 3cca63db37897eba3dd8745b0924b482dff9f0274749aa98cec3b52d35f5cb46
+Section: Tweaks
+Description: Blurry cool camera interface.
+Author: PoomSmart
+Icon: file:///Library/PreferenceBundles/CamBlur7Settings/CamBlur7@2x.png
+Name: CamBlur7 (Debug)
+
+Package: org.thebigboss.changevolwithbtnfs
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Filename: ./debs/org.thebigboss.changevolwithbtnfs_0.0.1_iphoneos-arm.deb
+Size: 22424
+MD5sum: 3a8363e1a0b6c673347f69d648e34f38
+SHA1: 90306a54ee87c6aef096c4995b2844a8185af823
+SHA256: d759e4ce06bbc5b3cae3fe1250df4c5a012b0189960a17312e378615aa55d3ca
+Section: Addons (Flipswitch)
+Description: Flipswitch for volume change with buttons
+Author: PoomSmart
+Name: Change Vol With Buttons FS
+
+Package: org.thebigboss.dismissprogress
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 6.0)
+Filename: ./debs/org.thebigboss.dismissprogress_1.1.1_iphoneos-arm.deb
+Size: 5238
+MD5sum: e3a54711baec689ad8a831177179ea34
+SHA1: 9258aabc239dfee37cfbb9db3db33844b096340e
+SHA256: 69362db9aee63b06d5e71931b336645885777bb1b1fe79cdf0d7998325c55d79
+Section: Tweaks
+Description: Dismiss installation window without closing cydia.
+Author: PoomSmart
+Name: DismissProgress
+
+Package: org.thebigboss.smoothcursor
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./debs/org.thebigboss.smoothcursor_1.1.3_iphoneos-arm.deb
+Size: 3786
+MD5sum: 9699a1be9a81aaceaba4367b5916e8a4
+SHA1: df23e7c269c74e2cddd3f3546f433aa8b56c497f
+SHA256: 31dd64678a931e2a697e35315b56737470167d313cd9348f09ce2fd4b9c849e0
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor
+
+Package: org.thebigboss.swipeformore
+Version: 1.1.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/org.thebigboss.swipeformore_1.1.10_iphoneos-arm.deb
+Size: 24038
+MD5sum: 2f90620ca23c8867456540c856b1a961
+SHA1: 82a2b1a9f9a99145680e7555b195b7908eac7b14
+SHA256: f2ffed6fb42dd83ec173d947ef27f39ce06d24bb5adb845e6189a5332fba0bad
+Section: Tweaks
+Description: Manage Cydia packages via swipe.
+Author: PoomSmart
+Name: SwipeForMore
+
