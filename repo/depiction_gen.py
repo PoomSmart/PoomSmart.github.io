@@ -254,7 +254,7 @@ tweaks = [
     },
     {
         "file": "youpip",
-        "title": "YouPIP",
+        "title": "YouPiP",
         "min_ios": "10.0",
         "description": "<p>Enable native PiP in YouTube app.</p>",
         "changes": [
