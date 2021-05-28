@@ -258,6 +258,7 @@ tweaks = [
         "min_ios": "10.0",
         "description": "<p>Enable native PiP in YouTube app.</p>",
         "changes": [
+            [ "1.2.0", "Added a preference page to choose how to \"initially\" activate PiP" ],
             [ "1.1.0",
                 [
                     "Made PiP activated the first time the app is dismissed (iOS 14+)",
