@@ -289,6 +289,7 @@ tweaks = [
         "min_ios": "9.0",
         "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
         "changes": [
+            [ "1.1.0", "Use AltList classless approach" ],
             [ "1.0.0", "Use AltList for listing applications" ],
             [ "0.0.2", "You can now configure blacklisted applications from Settings" ]
         ]

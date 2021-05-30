@@ -237,6 +237,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
 Name: AppPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
 
+Package: com.ps.apppad
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: ./debs/com.ps.apppad_1.1.0_iphoneos-arm.deb
+Size: 5920
+MD5sum: 41fb075ea655d60645d607c2b09e4c61
+SHA1: ccd7e78b61f6bc44b445265f5b8cdc8f49ad3454
+SHA256: 939424cc2b27586e2ae06a238eb00892de0ec19eabb0af16bd5fa3f9a870b9c8
+Section: Tweaks
+Description: Full screen, Split and Slideover for every app on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
+Name: AppPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
+
 Package: com.ps.bigmoji
 Version: 1.0.0
 Architecture: iphoneos-arm
