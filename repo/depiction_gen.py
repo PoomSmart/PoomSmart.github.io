@@ -175,6 +175,7 @@ tweaks = [
         "title": "Amber",
         "min_ios": "7.0",
         "tintColor": "orange",
+        "featured_as_banner": True,
         "changes": [
             [ "0.0.5.1", "Fixed crashing when swiping in expanded flashlight view in Control Center for iOS 13-" ]
         ],
@@ -256,6 +257,8 @@ tweaks = [
         "file": "youpip",
         "title": "YouPiP",
         "min_ios": "10.0",
+        "tintColor": "red",
+        "featured_as_banner": True,
         "description": "<p>Enable native PiP in YouTube app.</p>",
         "changes": [
             [ "1.2.0", "Added a preference page to choose how to \"initially\" activate PiP" ],
@@ -276,6 +279,7 @@ tweaks = [
         "file": "anywherewidgetsforipad",
         "title": "Anywhere Widgets for iPad",
         "min_ios": "14.0",
+        "featured_as_banner": True,
         "description": "\
                 <p>Allow widgets to be on home screen on iPad.</p>\
                 <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
@@ -298,6 +302,7 @@ tweaks = [
         "file": "applibraryforipad",
         "title": "App Library for iPad",
         "min_ios": "14.0",
+        "featured_as_banner": True,
         "description": "\
                 <p>Enable App Library on iPad.</p>\
                 <p>Known issue: App Library in Landscape orientation is not maximized.</p>",
@@ -329,7 +334,7 @@ tweaks = [
 ]
 
 sileo_keys = [
-    "headerImage", "tintColor"
+    "headerImage", "tintColor", "backgroundColor"
 ]
 
 for entry in tweaks:
@@ -339,6 +344,7 @@ for entry in tweaks:
     max_ios = entry.get("max_ios")
     strict_range = entry.get("strict_range")
     screenshots = entry.get("screenshots")
+    featured_as_banner = entry.get("featured_as_banner")
     changes = entry.get("changes")
     debug = entry.get("debug")
     description = re.sub(r'\s+', ' ', entry.get("description"))
@@ -376,6 +382,8 @@ for entry in tweaks:
             val = entry.get(key)
             if val:
                 data[key] = val
+        if featured_as_banner and 'headerImage' not in entry:
+            data['headerImage'] = "https://poomsmart.github.io/repo/features/%s.png" % file
         tabs = data["tabs"]
         for json_entry in tabs:
             tabname = json_entry["tabname"]
