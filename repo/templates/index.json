@@ -1,0 +1,22 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "",
+          "useSpacing": true,
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ],
+      "xPadding": 10
+    }
+  ]
+}

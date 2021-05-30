@@ -369,7 +369,7 @@ for entry in tweaks:
         continue
     sileo_output_path = os.path.join(root, "sileodepictions", "%s.json" % file)
    
-    with open(os.path.join(templates_dir, "sileo.json")) as json_file:  
+    with open(os.path.join(templates_dir, "index.json")) as json_file:  
         data = json.load(json_file)
         for key in sileo_keys:
             val = entry.get(key)
@@ -381,7 +381,6 @@ for entry in tweaks:
             if tabname == "Details":
                 views = json_entry["views"]
                 views[0]["markdown"] = description
-                views[2]["text"] = "PoomSmart"
                 if screenshot_objects is not None and screenshot_objects.count:
                     screenshots_json = {
                         "class": "DepictionScreenshotsView",
