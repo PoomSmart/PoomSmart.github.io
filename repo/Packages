@@ -256,6 +256,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/apppad.html
 Name: AppPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/apppad.json
 
+Package: com.ps.assistivetouchflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Conflicts: org.thebigboss.astoggle
+Replaces: org.thebigboss.astoggle
+Provides: org.thebigboss.astoggle
+Filename: ./debs/com.ps.assistivetouchflipswitch_1.0.0_iphoneos-arm.deb
+Size: 31066
+MD5sum: aaa56b945977560e1251bdee30f009b2
+SHA1: db339997b84fbc756371a0a153006caeaac5e4d2
+SHA256: edb4d5b8892b62269d04f4798fea298d14f77c869b4c2527ccaddd03caa3fa80
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Assistive Touch.
+Author: PoomSmart
+Name: Assistive Touch Flipswitch
+
 Package: com.ps.bigmoji
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -998,6 +1017,25 @@ Author: SpicaT
 Icon: file:///Library/PreferenceLoader/Preferences/RecordPause/RP@2x.png
 Name: RecordPause (iOS 9+)
 
+Package: com.ps.reducemotionflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1068
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.reducemotiontoggle
+Replaces: org.thebigboss.reducemotiontoggle
+Provides: org.thebigboss.reducemotiontoggle
+Filename: ./debs/com.ps.reducemotionflipswitch_1.0.0_iphoneos-arm.deb
+Size: 847442
+MD5sum: 426d8fb54598efe0ecf8a550025ad031
+SHA1: 644c3919f02bf30ad82882d266858b0b21d58604
+SHA256: 0d24520bc5d632246e238e2f6e71026e5a41cf7a9bacf0318ca776a674596da9
+Section: Addons (Flipswitch)
+Description: Toggle for Reduce Motion.
+Author: PoomSmart
+Name: Reduce Motion Flipswitch
+
 Package: com.ps.sixtyfps
 Version: 0.0.7-1
 Architecture: iphoneos-arm
@@ -1202,6 +1240,25 @@ Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, 
 Author: PoomSmart
 Name: TapVideoConfig
 
+Package: com.ps.voiceoverflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 232
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.voiceoverflipswitch
+Replaces: org.thebigboss.voiceoverflipswitch
+Provides: org.thebigboss.voiceoverflipswitch
+Filename: ./debs/com.ps.voiceoverflipswitch_1.0.0_iphoneos-arm.deb
+Size: 59438
+MD5sum: 451c39003a805c22c69dad1eaec99e43
+SHA1: 05773277342a6aaf98d2c57a2bc06b0124b208b1
+SHA256: 30a62945e69f248f0eb86a81fe27f3d3de298a85c97acc92660d1aac2c43b4d5
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for VoiceOver.
+Author: PoomSmart
+Name: VoiceOver Flipswitch
+
 Package: com.ps.youpip
 Version: 0.0.11
 Architecture: iphoneos-arm
@@ -1400,6 +1457,25 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD SW
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.zoomtouchflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 228
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.zoomtouchflipswitch
+Replaces: org.thebigboss.zoomtouchflipswitch
+Provides: org.thebigboss.zoomtouchflipswitch
+Filename: ./debs/com.ps.zoomtouchflipswitch_1.0.0_iphoneos-arm.deb
+Size: 56510
+MD5sum: 58e9eb3d690d9f3ab6efac35ef088814
+SHA1: 3ddc4fbe2a5ea5dfc66d0e5f203dc3e9f1d7f16d
+SHA256: 0196fe759c5cf08a3953b287f4b4212b5b92aac9725b13e6c75bfe495b4ceaeb
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for ZoomTouch.
+Author: PoomSmart
+Name: ZoomTouch Flipswitch
 
 Package: com.spicat.appcolorclose
 Version: 1.2
