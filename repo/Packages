@@ -444,6 +444,25 @@ Description: Scale Control Center bottom shelf
 Author: PoomSmart
 Name: CCScaleBT
 
+Package: com.ps.changevolwithbuttonflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.changevolwithbtnfs
+Replaces: org.thebigboss.changevolwithbtnfs
+Provides: org.thebigboss.changevolwithbtnfs
+Filename: ./debs/com.ps.changevolwithbuttonflipswitch_1.0.0_iphoneos-arm.deb
+Size: 16754
+MD5sum: 0b9fdeb2863229615be93dc2342b8652
+SHA1: 2a4a6c0795cba16c37324f14237411a7bd4c666c
+SHA256: 137d914aeb6eca483f414fd52b1301141085979d9448fe8025678f4545b2af38
+Section: Addons (Flipswitch)
+Description: Flipswitch for volume change with buttons
+Author: PoomSmart
+Name: Change Vol With Buttons Flipswitch
+
 Package: com.ps.emodeji
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1147,6 +1166,25 @@ Description: Flipswitch toggle for Reduce Motion.
 Author: PoomSmart
 Name: Reduce Motion Flipswitch
 
+Package: com.ps.reducetransparencyflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 688
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.contrastbgtoggle
+Replaces: org.thebigboss.contrastbgtoggle
+Provides: org.thebigboss.contrastbgtoggle
+Filename: ./debs/com.ps.reducetransparencyflipswitch_1.0.0_iphoneos-arm.deb
+Size: 246778
+MD5sum: 92ec46ae8f80b8b0d53daf18603da700
+SHA1: 14e78801cf717f0284f035d042bfa9316aa55e02
+SHA256: 9c5e0b6053a0796db30ae2de92247c08f2e508eda71994935978c50c7e9d264c
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Reduce Transparency.
+Author: PoomSmart
+Name: Reduce Transparency Flipswitch
+
 Package: com.ps.sixtyfps
 Version: 0.0.7-1
 Architecture: iphoneos-arm
@@ -1782,22 +1820,6 @@ Description: Blurry cool camera interface.
 Author: PoomSmart
 Icon: file:///Library/PreferenceBundles/CamBlur7Settings/CamBlur7@2x.png
 Name: CamBlur7 (Debug)
-
-Package: org.thebigboss.changevolwithbtnfs
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 144
-Depends: mobilesubstrate, com.a3tweaks.flipswitch
-Filename: ./debs/org.thebigboss.changevolwithbtnfs_0.0.1_iphoneos-arm.deb
-Size: 22424
-MD5sum: 3a8363e1a0b6c673347f69d648e34f38
-SHA1: 90306a54ee87c6aef096c4995b2844a8185af823
-SHA256: d759e4ce06bbc5b3cae3fe1250df4c5a012b0189960a17312e378615aa55d3ca
-Section: Addons (Flipswitch)
-Description: Flipswitch for volume change with buttons
-Author: PoomSmart
-Name: Change Vol With Buttons FS
 
 Package: org.thebigboss.dismissprogress
 Version: 1.1.1
