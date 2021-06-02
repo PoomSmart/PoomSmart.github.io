@@ -275,6 +275,25 @@ Description: Flipswitch toggle for Assistive Touch.
 Author: PoomSmart
 Name: Assistive Touch Flipswitch
 
+Package: com.ps.backgroundapprefreshflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.bartoggle
+Replaces: org.thebigboss.bartoggle
+Provides: org.thebigboss.bartoggle
+Filename: ./debs/com.ps.backgroundapprefreshflipswitch_1.0.0_iphoneos-arm.deb
+Size: 18124
+MD5sum: 7793d85463bc37cc36a03b895030758f
+SHA1: 0b403bd93d141eacde809794a6ca95f3ca2f136f
+SHA256: 885f4ac6ff129460a1291dd06e82c999a4872371a4ce248356432d62ca022dba
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Background App Refresh.
+Author: PoomSmart
+Name: Background App Refresh Flipswitch
+
 Package: com.ps.bigmoji
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -355,6 +374,25 @@ Section: Addons (Flipswitch)
 Description: Toggle for Caller ID.
 Author: PoomSmart
 Name: Caller ID Flipswitch
+
+Package: com.ps.cameragridflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.cameragridfs
+Replaces: org.thebigboss.cameragridfs
+Provides: org.thebigboss.cameragridfs
+Filename: ./debs/com.ps.cameragridflipswitch_1.0.0_iphoneos-arm.deb
+Size: 15986
+MD5sum: 81bd129654dd9f48f2e379d02bff4077
+SHA1: 6a8cdc23852d627ff5f0da91cfbf377d93e30f2d
+SHA256: fa115115bc860c628d75a192e3e47dd913c4fa8c0a945efc62e2a1872ff0d742
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for camera grid.
+Author: PoomSmart
+Name: Camera Grid Flipswitch
 
 Package: com.ps.camswitchdown
 Version: 1.4.1
@@ -755,6 +793,25 @@ Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
 Name: GboardAll
 
+Package: com.ps.grayscaleflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 164
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.grayscaleflipswitch
+Replaces: org.thebigboss.grayscaleflipswitch
+Provides: org.thebigboss.grayscaleflipswitch
+Filename: ./debs/com.ps.grayscaleflipswitch_1.0.0_iphoneos-arm.deb
+Size: 16006
+MD5sum: 3d047ffcef44052faeb2890829386f61
+SHA1: df2ecf7ffc35534d3f8d9a9c72ce93a45d41ebed
+SHA256: 1b78c448fe7ad3e124b169eff4072fbbca28f2a627f4bc1dc722d70e7595573f
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for grayscale mode.
+Author: PoomSmart
+Name: Grayscale Flipswitch
+
 Package: com.ps.hdavatar
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -806,6 +863,25 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/igclassiclayout.html
 Name: IGClassicLayout
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/igclassiclayout.json
+
+Package: com.ps.keyboardflipswitchs
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1032
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.keyboardflipswitchs
+Replaces: org.thebigboss.keyboardflipswitchs
+Provides: org.thebigboss.keyboardflipswitchs
+Filename: ./debs/com.ps.keyboardflipswitchs_1.0.0_iphoneos-arm.deb
+Size: 123856
+MD5sum: e6c2e5b30a45083f42c09c093c28600d
+SHA1: 2cba4311af59e241b8a15c2e04338340e6154fae
+SHA256: a9e64db93772b3638e34426b7848fa98c7e26e4420fa00412c0e54a4e1d828de
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Keyboard settings.
+Author: PoomSmart
+Name: Keyboard Flipswitchs
 
 Package: com.ps.letmeblock
 Version: 0.0.1
@@ -981,6 +1057,25 @@ Description: Toggle for power actions, with confirmation
 Author: PoomSmart
 Name: Power Option FS
 
+Package: com.ps.predictivekeyboardflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Conflicts: org.thebigboss.predictivekeyboardfs
+Replaces: org.thebigboss.predictivekeyboardfs
+Provides: org.thebigboss.predictivekeyboardfs
+Filename: ./debs/com.ps.predictivekeyboardflipswitch_1.0.0_iphoneos-arm.deb
+Size: 19640
+MD5sum: c854487703f6245567ea637ae7818b49
+SHA1: f6e79b34189ab8dbd86051a0ce69d57f668a925a
+SHA256: d6d7aa75162512cd71762723e9e7370b6f968281deb6d07a4e1ab34b911d8e09
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Predictive Keyboard.
+Author: PoomSmart
+Name: Predictive Keyboard Flipswitch
+
 Package: com.ps.quadhighcurrent
 Version: 0.0.4
 Architecture: iphoneos-arm
@@ -998,6 +1093,22 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.raisetowakeflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 11.0)
+Filename: ./debs/com.ps.raisetowakeflipswitch_1.0.0_iphoneos-arm.deb
+Size: 7484
+MD5sum: b4a5bb57fa95404b5096a1cba3978a08
+SHA1: fea3f90b74f2057b31b1f6b82ca1fd8fd7c4d9d8
+SHA256: bb8db5cdbec5fcad90503116311116a5c4f3a1bfd865c6989c8dd0ede2addd95
+Section: Addons (Flipswitch)
+Description: Flipswitch toggle for Raise To Wake.
+Author: PoomSmart
+Name: Raise To Wake Flipswitch
 
 Package: com.ps.recordpause
 Version: 1.3.4
