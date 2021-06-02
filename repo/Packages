@@ -1138,12 +1138,12 @@ Conflicts: org.thebigboss.reducemotiontoggle
 Replaces: org.thebigboss.reducemotiontoggle
 Provides: org.thebigboss.reducemotiontoggle
 Filename: ./debs/com.ps.reducemotionflipswitch_1.0.0_iphoneos-arm.deb
-Size: 847442
-MD5sum: 426d8fb54598efe0ecf8a550025ad031
-SHA1: 644c3919f02bf30ad82882d266858b0b21d58604
-SHA256: 0d24520bc5d632246e238e2f6e71026e5a41cf7a9bacf0318ca776a674596da9
+Size: 847494
+MD5sum: 5dbe8a7cd24f9c62458d9e804f7ef745
+SHA1: e4cab1cb3f75632d5fb9d52b61e412625d64d5eb
+SHA256: e4da0e7b5ee1ac446ff3ea4fe30820654115f69953e44d3480533097347dbfe9
 Section: Addons (Flipswitch)
-Description: Toggle for Reduce Motion.
+Description: Flipswitch toggle for Reduce Motion.
 Author: PoomSmart
 Name: Reduce Motion Flipswitch
 
