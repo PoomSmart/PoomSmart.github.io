@@ -242,7 +242,10 @@ tweaks = [
         "file": "hdavatar",
         "title": "HD Avatar",
         "min_ios": "11.0",
-        "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>"
+        "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>",
+        "changes": [
+            [ "1.0.0", "Supports WWDC 2021 Developer Stickers" ]
+        ]
     },
     {
         "file": "ytuhd",

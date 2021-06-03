@@ -849,6 +849,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
 Name: HD Avatar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
 
+Package: com.ps.hdavatar
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/com.ps.hdavatar_1.0.0_iphoneos-arm.deb
+Size: 3064
+MD5sum: 221eee94d68c805d1d46e6d0d242ed56
+SHA1: 1dcc80c2c134650fa654e97923525b32231a64e5
+SHA256: 46020d8d02c8bb5c84e07ecd8c55665445353fc19bd8c1ce82afa13b1425e19d
+Section: Tweaks
+Description: Double the size of Animoji/Memoji stickers.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
+Name: HD Avatar
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
+
 Package: com.ps.highgraphics
 Version: 1.0.5
 Architecture: iphoneos-arm
