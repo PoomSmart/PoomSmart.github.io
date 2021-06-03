@@ -148,6 +148,7 @@ tweaks = [
         "min_ios": "12.0",
         "max_ios": "14.4.2",
         "strict_range": True,
+        "featured_as_banner": True,
         "changes": [
             [ "1.1.1", "Release version" ]
         ],
@@ -264,7 +265,8 @@ tweaks = [
         "featured_as_banner": True,
         "description": "<p>Enable native PiP in YouTube app.</p>",
         "changes": [
-            [ "1.2.0", "Added a preference page to choose how to \"initially\" activate PiP" ],
+            [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+)" ],
+            [ "1.2.0", "Added a preference page to choose how to activate PiP" ],
             [ "1.1.0",
                 [
                     "Made PiP activated the first time the app is dismissed (iOS 14+)",
@@ -273,7 +275,7 @@ tweaks = [
             ],
             [ "1.0.0", "Implemented PiP backward-compatible with iOS 13-" ],
             [ "0.0.13", "Fixed crashing when casting a video" ],
-            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (@lgariv)" ],
+            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (thanks @lgariv)" ],
             [ "0.0.9", "Support YouTube version 16.17" ],
             [ "0.0.8", "Experimental support for YouTube version 15.47" ]
         ]
