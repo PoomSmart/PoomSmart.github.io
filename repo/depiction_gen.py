@@ -178,6 +178,7 @@ tweaks = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
+            [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ],
             [ "0.0.5.1", "Fixed crashing when swiping in expanded flashlight view in Control Center for iOS 13-" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
