@@ -308,19 +308,6 @@ tweaks = [
         ]
     },
     {
-        "file": "applibraryforipad",
-        "title": "App Library for iPad",
-        "min_ios": "14.0",
-        "featured_as_banner": True,
-        "description": "\
-                <p>Enable App Library on iPad.</p>\
-                <p>Known issue: App Library in Landscape orientation is not maximized.</p>",
-        "changes": [
-            [ "1.0.1", "Fixed homescreen widgets in sidebar not appearing right after respring" ],
-            [ "1.0.0", "Initial release" ]
-        ]
-    },
-    {
         "file": "ytclassicvideoquality",
         "title": "YTClassicVideoQuality",
         "min_ios": "11.0",

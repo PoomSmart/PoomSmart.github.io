@@ -164,42 +164,6 @@ Description: Enable discovery and connection to Apple Bluetooth devices.
 Author: PoomSmart
 Name: Apple BT Devices Support
 
-Package: com.ps.applibraryforipad
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
-Filename: ./debs/com.ps.applibraryforipad_1.0.0_iphoneos-arm.deb
-Size: 3466
-MD5sum: bd0a2937da9e62d1cc1ff8adcd93f132
-SHA1: 41ec90ab22140ebb10fbcd9a8447f827ba23ecf9
-SHA256: b093979bea2bb18befea39b9c40bd057582d41f593e02f307fded6a036b73e47
-Section: Tweaks
-Description: Enable App Library on iPad.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/applibraryforipad.html
-Name: App Library for iPad
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/applibraryforipad.json
-
-Package: com.ps.applibraryforipad
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0)
-Filename: ./debs/com.ps.applibraryforipad_1.0.1_iphoneos-arm.deb
-Size: 3546
-MD5sum: 60f2d0735a461b94539d9ead2f77bd20
-SHA1: 85d48a2fd1420c34589d0e5d017cfe8c75f097fc
-SHA256: adf176549c836eed90a11f0bbabb2db24f893b7bcf5b0a19c29d5a07490351a0
-Section: Tweaks
-Description: Enable App Library on iPad.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/applibraryforipad.html
-Name: App Library for iPad
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/applibraryforipad.json
-
 Package: com.ps.apppad
 Version: 0.0.1
 Architecture: iphoneos-arm

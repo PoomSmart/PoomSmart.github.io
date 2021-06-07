@@ -27,11 +27,6 @@
             "title": "Anywhere Widgets for iPad",
             "package": "com.ps.anywherewidgetsforipad",
             "url": "https://poomsmart.github.io/repo/features/anywherewidgetsforipad.png"
-        },
-        {
-            "title": "App Library for iPad",
-            "package": "com.ps.applibraryforipad",
-            "url": "https://poomsmart.github.io/repo/features/applibraryforipad.png"
         }
     ]
 }
