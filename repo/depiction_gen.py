@@ -255,6 +255,7 @@ tweaks = [
         "min_ios": "11.0",
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
+            [ "1.0.1", "Removed render view type override" ],
             [ "1.0.0", "Removed arm64e arch" ],
             [ "0.0.3.7", "Hook more methods (by SarahH12099)" ]
         ]
