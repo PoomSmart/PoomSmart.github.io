@@ -203,11 +203,10 @@ tweaks = [
             <p>The motivation of this project is the lack of Substrate support on A12/arm64e for those using Chimera. As Substitute API usually works better on this environment, libSubstitrate will, if available, try to use Substitute API first. Otherwise, it will fall back to Cydia Substrate.</p>"
     },
     {
-        "file": "pad56",
-        "title": "Pad56",
+        "file": "padgrid",
+        "title": "PadGrid",
         "min_ios": "7.0",
-        "max_ios": "13.7",
-        "description": "<p>5x6 icon layout for iPad and iPad Pro. That's it.</p>"
+        "description": "<p>Increase home screen icon grid size for iPad.</p>"
     },
     {
         "file": "splitit",
@@ -289,11 +288,15 @@ tweaks = [
         "title": "Anywhere Widgets for iPad",
         "min_ios": "14.0",
         "featured_as_banner": True,
-        "description": "\
-                <p>Allow widgets to be on home screen on iPad.</p>\
-                <p>Also adjusts the home screen icon grid size to 8x6 (or 7x5 zoomed) to compromise the differences in icon size categories.</p>",
+        "description": "<p>Allow widgets to be on home screen on iPad.</p>",
         "changes": [
-            [ "1.3.0", "Fixed widgets being off grid at the edge and Added one more row for Portrait grid" ]
+            [ "1.4.0", "Removed icon grid size overrides, please use PadGrid to adjust this instead" ],
+            [ "1.3.0",
+                [
+                    "Fixed widgets being off grid at the edge",
+                    "Added one more row for Portrait grid"
+                ]
+            ]
         ]
     },
     {

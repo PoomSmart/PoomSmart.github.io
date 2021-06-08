@@ -148,6 +148,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.ht
 Name: Anywhere Widgets for iPad
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
 
+Package: com.ps.anywherewidgetsforipad
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 14.0), firmware (<< 15.0)
+Filename: ./debs/com.ps.anywherewidgetsforipad_1.4.0_iphoneos-arm.deb
+Size: 3878
+MD5sum: 83f5187d52262ee8d3d461598ae1b58a
+SHA1: 51292df43b38e06ba882f4053aa910672cfc3bdf
+SHA256: be0c60a3079a37eb2dbfbc8ce643240991cd8fbde058eb29cff366e1dc26b232
+Section: Tweaks
+Description: Allow widgets to be on home screen on iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/anywherewidgetsforipad.html
+Name: Anywhere Widgets for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/anywherewidgetsforipad.json
+
 Package: com.ps.applebtdeviceessupport
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1006,23 +1024,26 @@ Description: Flipswitch for MyWi, all three types
 Author: PoomSmart
 Name: MyWi Flipswitch
 
-Package: com.ps.pad56
-Version: 0.0.1
+Package: com.ps.padgrid
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.pad56_0.0.1_iphoneos-arm.deb
-Size: 3134
-MD5sum: 9f9371b5aef051a882adea91d0dd8cfa
-SHA1: 1eabe5cd76840cfec62a6e6a76a3686a0efbb2b5
-SHA256: 41711569740f9e635265d29ff1ff37d6804b8fd44c37d55b98329692da5c3049
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 7.0), me.nepeta.iconstate, preferenceloader
+Conflicts: com.ps.pad56
+Replaces: com.ps.pad56
+Provides: com.ps.pad56
+Filename: ./debs/com.ps.padgrid_1.0.0_iphoneos-arm.deb
+Size: 8784
+MD5sum: 0e42304cb96f62023cfbb3633691a57b
+SHA1: e3b2f21edb7719f6d34ae797b94a07cbb179e33d
+SHA256: c2544b3261831b6d4cdee711b69c35ed5419f846d3f1363ac0a03873287bd96d
 Section: Tweaks
-Description: 5x6 icon layout for iPad and iPad Pro.
+Description: Increase home screen icon grid size for iPad.
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/pad56.html
-Name: Pad56
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pad56.json
+Depiction: https://poomsmart.github.io/repo/depictions/padgrid.html
+Name: PadGrid
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/padgrid.json
 
 Package: com.ps.pearltracking
 Version: 0.0.1
