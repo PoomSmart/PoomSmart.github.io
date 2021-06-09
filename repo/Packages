@@ -1025,19 +1025,19 @@ Author: PoomSmart
 Name: MyWi Flipswitch
 
 Package: com.ps.padgrid
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 7.0), me.nepeta.iconstate, preferenceloader
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 7.0), preferenceloader, me.nepeta.iconstate | com.eswick.iconlayoutmanager | com.ichitaso.iconanus
 Conflicts: com.ps.pad56
 Replaces: com.ps.pad56
 Provides: com.ps.pad56
-Filename: ./debs/com.ps.padgrid_1.0.0_iphoneos-arm.deb
-Size: 8784
-MD5sum: 0e42304cb96f62023cfbb3633691a57b
-SHA1: e3b2f21edb7719f6d34ae797b94a07cbb179e33d
-SHA256: c2544b3261831b6d4cdee711b69c35ed5419f846d3f1363ac0a03873287bd96d
+Filename: ./debs/com.ps.padgrid_1.0.1_iphoneos-arm.deb
+Size: 8820
+MD5sum: 367b02cd8da4df24e38ed5491345106b
+SHA1: 3a860ebf52610e34984fa490563df8e6404e2ee2
+SHA256: 865f9fe6158e65210f83b38376ec8f55e534ebb3a08a5f173c79bba3655f56ca
 Section: Tweaks
 Description: Increase home screen icon grid size for iPad.
 Author: PoomSmart

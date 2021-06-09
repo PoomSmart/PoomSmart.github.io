@@ -206,7 +206,10 @@ tweaks = [
         "file": "padgrid",
         "title": "PadGrid",
         "min_ios": "7.0",
-        "description": "<p>Increase home screen icon grid size for iPad.</p>"
+        "description": "<p>Increase home screen icon grid size for iPad.</p>",
+        "changes": [
+            [ "1.0.1", "Added IconAnus and Icon Layout Manager as alternative dependencies to IconState" ]
+        ]
     },
     {
         "file": "splitit",
