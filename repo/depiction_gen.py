@@ -228,7 +228,8 @@ tweaks = [
             [ "1.0.0", "Fixed issues with GoodNotes 5 app" ],
             [ "0.0.2.5", "Improved iOS 14 support" ]
         ],
-        "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
+        "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>\
+            <p>For more details, visit tweak's <a href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
     },
     {
         "file": "pearltracking",
