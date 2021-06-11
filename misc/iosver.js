@@ -1,7 +1,5 @@
 const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
-const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
-const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 
 (function (document) {
 	"use strict";
@@ -11,7 +9,7 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 	}
 
 	function setMessage(m) {
-		document.getElementById("pt").innerHTML = m;
+		document.getElementById("pt").innerHTML += "<br/>" + m;
 	}
 
 	function toNum(bits) {
@@ -47,14 +45,15 @@ const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s";
 		var osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : "");
 		message = VERSION_CHECK_SUPPORTED;
 		if (compareVersions(minVersion, osVersion) == 1) {
-			message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
+			message = null;
 		} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 			if ("unsupported" in prerequisite.dataset) {
-				message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
+				message = null;
 			} else {
 				message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 			}
 		}
-		setMessage(message);
+		if (message)
+			setMessage(message);
 	}
 })(document);

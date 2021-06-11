@@ -15,15 +15,15 @@
         <ul>
             <li>
                 <div
-                    {% if min_ios %}
-                        data-min-ios="{{ min_ios }}"
-                    {% endif %}
-                    {% if max_ios %}
-                        data-max-ios="{{ max_ios }}"
-                    {% endif %}
-                    {% if strict_range %}
-                        data-unsupported
-                    {% endif %}
+{% if min_ios %}
+                    data-min-ios="{{ min_ios }}"
+{% endif %}
+{% if max_ios %}
+                    data-max-ios="{{ max_ios }}"
+{% endif %}
+{% if strict_range %}
+                    data-unsupported
+{% endif %}
                     id="prerequisite">
                     <p id="pt">
 {% if min_ios and max_ios %}

@@ -225,6 +225,7 @@ tweaks = [
         "title": "Pencil Pro",
         "min_ios": "9.0",
         "changes": [
+            [ "1.0.0", "Fixed issues with GoodNotes 5 app" ],
             [ "0.0.2.5", "Improved iOS 14 support" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>"
