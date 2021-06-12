@@ -208,6 +208,7 @@ tweaks = [
         "min_ios": "7.0",
         "description": "<p>Increase home screen icon grid size for iPad.</p>",
         "changes": [
+            [ "1.0.2", "Added 9x6, 10x7 and 10x8 layouts" ],
             [ "1.0.1", "Added IconAnus and Icon Layout Manager as alternative dependencies to IconState" ]
         ]
     },
@@ -331,6 +332,16 @@ tweaks = [
         "min_ios": "13.0",
         "screenshots": True,
         "description": "<p>Restore the original buttons layout in Instagram; Home-Reels-Compose-Likes-Profile at bottom and Search-Messages at top.</p>",
+        "changes": [
+            [ "1.0.0", "Initial release" ]
+        ]
+    },
+    {
+        "file": "nottodayhomescreensidebar",
+        "title": "NotTodayHomeScreenSideBar",
+        "min_ios": "14.0",
+        "screenshots": True,
+        "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>",
         "changes": [
             [ "1.0.0", "Initial release" ]
         ]

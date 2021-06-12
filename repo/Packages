@@ -1024,6 +1024,24 @@ Description: Flipswitch for MyWi, all three types
 Author: PoomSmart
 Name: MyWi Flipswitch
 
+Package: com.ps.nottodayhomescreensidebar
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 15.0)
+Filename: ./debs/com.ps.nottodayhomescreensidebar_1.0.0_iphoneos-arm.deb
+Size: 3176
+MD5sum: eeb25d36d7cc90fb7346f9d898dadece
+SHA1: 81c8c354c152b99dcc11f4783b2ceb111c2130c7
+SHA256: 0c2890335b00baa16f609982622c1a3e3cc72b9b743684c7b91fb2f9b88278fb
+Section: Tweaks
+Description: Prevent Today View sidebar from being pinned on iPad homescreen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/nottodayhomescreensidebar.html
+Name: NotTodayHomeScreenSideBar
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/nottodayhomescreensidebar.json
+
 Package: com.ps.padgrid
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -1038,6 +1056,27 @@ Size: 8820
 MD5sum: 367b02cd8da4df24e38ed5491345106b
 SHA1: 3a860ebf52610e34984fa490563df8e6404e2ee2
 SHA256: 865f9fe6158e65210f83b38376ec8f55e534ebb3a08a5f173c79bba3655f56ca
+Section: Tweaks
+Description: Increase home screen icon grid size for iPad.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/padgrid.html
+Name: PadGrid
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/padgrid.json
+
+Package: com.ps.padgrid
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), gsc.ipad, firmware (>= 7.0), preferenceloader, me.nepeta.iconstate | com.eswick.iconlayoutmanager | com.ichitaso.iconanus
+Conflicts: com.ps.pad56
+Replaces: com.ps.pad56
+Provides: com.ps.pad56
+Filename: ./debs/com.ps.padgrid_1.0.2_iphoneos-arm.deb
+Size: 9058
+MD5sum: d12da163bdb9c0562358a330d5293da2
+SHA1: 42a0a05898b895cb0607b546453adb9e775ea355
+SHA256: db62dc586d1525c88309dbdbec795a8345cdee1068ec8914ede1635a26abce2e
 Section: Tweaks
 Description: Increase home screen icon grid size for iPad.
 Author: PoomSmart

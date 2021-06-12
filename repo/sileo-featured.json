@@ -27,6 +27,11 @@
             "title": "Anywhere Widgets for iPad",
             "package": "com.ps.anywherewidgetsforipad",
             "url": "https://poomsmart.github.io/repo/features/anywherewidgetsforipad.png"
+        },
+        {
+            "title": "NotTodayHomeScreenSideBar",
+            "package": "com.ps.nottodayhomescreensidebar",
+            "url": "https://poomsmart.github.io/repo/features/nottodayhomescreensidebar.png"
         }
     ]
 }
