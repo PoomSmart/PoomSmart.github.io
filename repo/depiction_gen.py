@@ -273,6 +273,7 @@ tweaks = [
         "featured_as_banner": True,
         "description": "<p>Enable native PiP in YouTube app. The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.3.0", "Added legacy PiP implementation in settings, made for iOS 14+ (15.22.4+)" ],
             [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.22.4+)" ],
             [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.22.4+)" ],
             [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+) (16.17.4)" ],
