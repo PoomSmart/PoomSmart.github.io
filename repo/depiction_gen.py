@@ -271,29 +271,32 @@ tweaks = [
         "min_ios": "11.0",
         "tintColor": "red",
         "featured_as_banner": True,
-        "description": "<p>Enable native PiP in YouTube app.</p>",
+        "description": "<p>Enable native PiP in YouTube app. The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
-            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above" ],
-            [ "1.2.2", "Added backward compatibility with YouTube 15.22.4" ],
-            [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+)" ],
-            [ "1.2.0", "Added a preference page to choose how to activate PiP" ],
+            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.22.4+)" ],
+            [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.22.4+)" ],
+            [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+) (16.17.4)" ],
+            [ "1.2.0", "Added a preference page to choose how to activate PiP (16.17.4)" ],
             [ "1.1.0",
                 [
                     "Made PiP activated the first time the app is dismissed (iOS 14+)",
-                    "Made PiP activated only when the app is dismissed (iOS 13-)"
+                    "Made PiP activated only when the app is dismissed (iOS 13-)",
+                    "(16.17.4)"
                 ]
             ],
-            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13-" ],
-            [ "0.0.13", "Fixed crashing when casting a video" ],
-            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (thanks @lgariv)" ],
-            [ "0.0.9", "Support YouTube version 16.17" ],
-            [ "0.0.8", "Experimental support for YouTube version 15.47" ]
+            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13- (16.17.4)" ],
+            [ "0.0.13", "Fixed crashing when casting a video (16.17.4)" ],
+            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (thanks @lgariv) (16.17.4)" ],
+            [ "0.0.9", "Support YouTube version 16.17.4 (16.17.4)" ],
+            [ "0.0.8", "Experimental support for YouTube version 15.47.3 (15.47.3 - 16.16.4)" ]
         ]
     },
     {
         "file": "anywherewidgetsforipad",
         "title": "Anywhere Widgets for iPad",
         "min_ios": "14.0",
+        "max_ios": "14.7",
+        "strict_range": True,
         "featured_as_banner": True,
         "description": "<p>Allow widgets to be on home screen on iPad.</p>",
         "changes": [
@@ -341,7 +344,10 @@ tweaks = [
         "file": "nottodayhomescreensidebar",
         "title": "NotTodayHomeScreenSideBar",
         "min_ios": "14.0",
+        "max_ios": "14.7",
+        "strict_range": True,
         "screenshots": True,
+        "featured_as_banner": True,
         "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>",
         "changes": [
             [ "1.0.0", "Initial release" ]
