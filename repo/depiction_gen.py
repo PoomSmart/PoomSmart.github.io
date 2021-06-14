@@ -271,8 +271,12 @@ tweaks = [
         "min_ios": "11.0",
         "tintColor": "red",
         "featured_as_banner": True,
-        "description": "<p>Enable native PiP in YouTube app. The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
+        "description": "<p>Enable native PiP in YouTube app.</p>\
+            <p>If you encounter playback speedup issue for your PiP, please be informed that this is the issue of iOS itself and not YouPiP. If Apple could fix this in the future, YouPiP would try to imitate their fix in an update.</p>\
+            <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
+            <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.3.1", "Fixed crash on YouTube version 15.49.6 (15.22.4+)" ],
             [ "1.3.0", "Added legacy PiP implementation in settings, made for iOS 14+ (15.22.4+)" ],
             [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.22.4+)" ],
             [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.22.4+)" ],
