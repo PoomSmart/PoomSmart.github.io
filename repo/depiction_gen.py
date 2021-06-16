@@ -276,12 +276,13 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.22.4+)" ],
             [ "1.3.1", "Fixed crash on YouTube version 15.49.6 (15.22.4+)" ],
             [ "1.3.0", "Added legacy PiP implementation in settings, made for iOS 14+ (15.22.4+)" ],
             [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.22.4+)" ],
             [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.22.4+)" ],
             [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+) (16.17.4)" ],
-            [ "1.2.0", "Added a preference page to choose how to activate PiP (16.17.4)" ],
+            [ "1.2.0", "Added settings page to choose how to activate PiP (16.17.4)" ],
             [ "1.1.0",
                 [
                     "Made PiP activated the first time the app is dismissed (iOS 14+)",
