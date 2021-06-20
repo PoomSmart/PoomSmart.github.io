@@ -6,6 +6,7 @@
     <title>{{ title }}</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" href="../../assets/ios7.min.css">
+    <link rel="stylesheet" href="../../assets/misc.css">
     <script src="../../assets/ios7.min.js"></script>
 </head>
 
@@ -38,7 +39,7 @@
         <script src="../../misc/iosver.js"></script>
         <h2 role="header">Description</h2>
 {% if screenshots %}
-        <div style="width: 100%; display: inline-flex; white-space: no-wrap; overflow-x: auto;">
+        <div class="screenshots-container">
 {% for screenshot in screenshots %}
             <img width="160" src="{{ screenshot.url }}" alt="{{ screenshot.accessibilityText }}">
 {% endfor %}
