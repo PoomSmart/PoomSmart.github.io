@@ -764,6 +764,24 @@ Tag: compatible::ios7, compatible::ios8, compatible::ios9
 Author: PoomSmart
 Name: EmojiResources
 
+Package: com.ps.expandedclassicscreen
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), gsc.ipad
+Filename: ./debs/com.ps.expandedclassicscreen_1.0.0_iphoneos-arm.deb
+Size: 3188
+MD5sum: 91586a243b95d5f15a2a518030698023
+SHA1: f303cdfafef9af003c3dd5c0c103f16a38329477
+SHA256: c0875e47874428ef809f3c8ed276152d3771eb9fd22bbe7f28ef415c888de0fd
+Section: Tweaks
+Description: Use 414x736 (iPhone 6s+) resolution for classic apps.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/expandedclassicscreen.html
+Name: ExpandedClassicScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandedclassicscreen.json
+
 Package: com.ps.flexibleflipswitch
 Version: 0.0.2-5
 Architecture: iphoneos-arm

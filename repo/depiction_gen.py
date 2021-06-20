@@ -342,10 +342,7 @@ tweaks = [
         "title": "IGClassicLayout",
         "min_ios": "13.0",
         "screenshots": True,
-        "description": "<p>Restore the original buttons layout in Instagram; Home-Reels-Compose-Likes-Profile at bottom and Search-Messages at top.</p>",
-        "changes": [
-            [ "1.0.0", "Initial release" ]
-        ]
+        "description": "<p>Restore the original buttons layout in Instagram; Home-Reels-Compose-Likes-Profile at bottom and Search-Messages at top.</p>"
     },
     {
         "file": "nottodayhomescreensidebar",
@@ -355,11 +352,15 @@ tweaks = [
         "strict_range": True,
         "screenshots": True,
         "featured_as_banner": True,
-        "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>",
-        "changes": [
-            [ "1.0.0", "Initial release" ]
-        ]
+        "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
     },
+    {
+        "file": "expandedclassicscreen",
+        "title": "expandedclassicscreen",
+        "min_ios": "14.0",
+        "screenshots": True,
+        "description": "<p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
+    }
 ]
 
 sileo_keys = [
