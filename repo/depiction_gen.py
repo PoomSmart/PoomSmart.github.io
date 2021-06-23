@@ -367,7 +367,7 @@ tweaks = [
         "min_ios": "11.0",
         "max_ios": "14.7",
         "strict_range": True,
-        "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You will be able to add Lower Mode Mode Control Center module and toggle it from Battery settings.</p>"
+        "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
     }
 ]
 
