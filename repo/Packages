@@ -1009,6 +1009,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/libsubstitrate.html
 Name: libSubstitrate
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/libsubstitrate.json
 
+Package: com.ps.lpmenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), plutil, firmware (>= 11.0), firmware (<< 15.0)
+Conflicts: com.icraze.lpmpad
+Filename: ./debs/com.ps.lpmenabler_1.0.0_iphoneos-arm.deb
+Size: 3314
+MD5sum: ccc39c97bb25eb1c3909f5353dbe83b0
+SHA1: 02938a66f25de1b35ae7ae61443d99c90e88dafe
+SHA256: 13df9942995fe978b1bf007dd263bdeded8fea607f3ffa8f253539e7e4ff88e1
+Section: Tweaks
+Description: Enable Low Power Mode natively on unsupported devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/lpmenabler.html
+Name: LPM Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/lpmenabler.json
+
 Package: com.ps.m4dark
 Version: 0.0.1
 Architecture: iphoneos-arm

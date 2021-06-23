@@ -360,6 +360,14 @@ tweaks = [
         "min_ios": "14.0",
         "screenshots": True,
         "description": "<p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
+    },
+    {
+        "file": "lpmenabler",
+        "title": "LPM Enabler",
+        "min_ios": "11.0",
+        "max_ios": "14.7",
+        "strict_range": True,
+        "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You will be able to add Lower Mode Mode Control Center module and toggle it from Battery settings.</p>"
     }
 ]
 
