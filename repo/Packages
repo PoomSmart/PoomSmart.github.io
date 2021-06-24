@@ -1014,13 +1014,13 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), plutil, firmware (>= 11.0), firmware (<< 15.0)
+Depends: mobilesubstrate (>= 0.9.5000), com.bingner.plutil, firmware (>= 11.0), firmware (<< 15.0)
 Conflicts: com.icraze.lpmpad
 Filename: ./debs/com.ps.lpmenabler_1.0.0_iphoneos-arm.deb
-Size: 3314
-MD5sum: ccc39c97bb25eb1c3909f5353dbe83b0
-SHA1: 02938a66f25de1b35ae7ae61443d99c90e88dafe
-SHA256: 13df9942995fe978b1bf007dd263bdeded8fea607f3ffa8f253539e7e4ff88e1
+Size: 3328
+MD5sum: 53efd3e85d6f7a2e1f61e9d7ee1114d6
+SHA1: c60423e8104f7b4b7d5bb98b76f0c166f8a4e789
+SHA256: 661d013db4766325e794d39f9aed09d46865f9b35667f6ca7eafb4b1c186c6ee
 Section: Tweaks
 Description: Enable Low Power Mode natively on unsupported devices.
 Author: PoomSmart

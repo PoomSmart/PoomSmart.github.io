@@ -217,6 +217,7 @@ tweaks = [
         "file": "splitit",
         "title": "SplitIt",
         "min_ios": "10.0",
+        "max_ios": "13.7",
         "changes": [
             [ "0.0.2", "Deprecated libSubstitrate" ]
         ],
