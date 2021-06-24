@@ -278,6 +278,7 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.3.3", "Refactored logic related to bootstraping PiP functionality (15.22.4+)" ],
             [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.22.4+)" ],
             [ "1.3.1", "Fixed crash on YouTube version 15.49.6 (15.22.4+)" ],
             [ "1.3.0", "Added legacy PiP implementation in settings, made for iOS 14+ (15.22.4+)" ],
