@@ -26,11 +26,15 @@ const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 		return one != two_ ? (one > two_ ? 1 : -1) : 0;
 	}
 
-	var prerequisite = document.getElementById("prerequisite"),
-		version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
+	var prerequisite = document.getElementById("prerequisite");
+	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 
 	if (!prerequisite) {
 		return;
+	}
+
+	if (!version && navigator.maxTouchPoints > 0 && navigator.appVersion.indexOf("(Macintosh; Intel Mac OS X 10_15") !== -1) {
+		version = navigator.appVersion.match(/(Version)\/(\d+)\.(\d+)(\.(\d+))?/i);
 	}
 
 	var minString = prerequisite.dataset.minIos;
