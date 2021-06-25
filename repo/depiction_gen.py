@@ -370,6 +370,13 @@ tweaks = [
         "max_ios": "14.7",
         "strict_range": True,
         "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
+    },
+    {
+        "file": "batteryhealthenabler",
+        "title": "Battery Health Enabler",
+        "min_ios": "11.3",
+        "featured_as_banner": True,
+        "description": "<p>Enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
     }
 ]
 

@@ -294,6 +294,24 @@ Description: Flipswitch toggle for Background App Refresh.
 Author: PoomSmart
 Name: Background App Refresh Flipswitch
 
+Package: com.ps.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/com.ps.batteryhealthenabler_1.0.0_iphoneos-arm.deb
+Size: 5076
+MD5sum: ee5a019550451a04826fc37545a1861c
+SHA1: 9faccd1e95365511ce053ba73fa32b5c374fecae
+SHA256: b151ef91a78429568b02d90760728e79bc6ab2abdd0979baf478fa60fd8e6a33
+Section: Tweaks
+Description: Enable Battery Health on unsupported devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/batteryhealthenabler.json
+
 Package: com.ps.bigmoji
 Version: 1.0.0
 Architecture: iphoneos-arm

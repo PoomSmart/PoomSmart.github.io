@@ -32,6 +32,11 @@
             "title": "NotTodayHomeScreenSideBar",
             "package": "com.ps.nottodayhomescreensidebar",
             "url": "https://poomsmart.github.io/repo/features/nottodayhomescreensidebar.png"
+        },
+        {
+            "title": "Battery Health Enabler",
+            "package": "com.ps.batteryhealthenabler",
+            "url": "https://poomsmart.github.io/repo/features/batteryhealthenabler.png"
         }
     ]
 }
