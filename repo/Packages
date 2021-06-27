@@ -1898,6 +1898,27 @@ Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
+Package: com.ps.youpip
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/com.ps.youpip_1.4.1_iphoneos-arm.deb
+Size: 17060
+MD5sum: 3ab01a9f37d1f1f5542fd920c10261c3
+SHA1: ef4cf667a3114a4a68329100c61fb6b249dd1367
+SHA256: efcb81b6923f57f484cdc9e8e06b06d115c0e4a9a0c94f4286cf820e5efc21f9
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.0
 Architecture: iphoneos-arm
