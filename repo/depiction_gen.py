@@ -274,17 +274,11 @@ tweaks = [
         "tintColor": "red",
         "featured_as_banner": True,
         "description": "<p>Enable native PiP in YouTube app.</p>\
-            <p>If you encounter playback speedup bug for your PiP, upgrade to YouPiP 1.4.0+ or use iOS 15.0 beta 2+.</p>\
+            <p>If you encounter playback speedup issue for your PiP, upgrade to YouPiP 1.4.0 or use iOS 15.0 beta 2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
-            [ "1.4.0",
-                [
-                    "Fixed PiP playback speedup bug using iOS 15.0b2 approach",
-                    "Removed Legacy PiP option as it's no longer needed",
-                    "(15.22.4+)"
-                ]
-            ],
+            [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach (15.22.4+)" ],
             [ "1.3.4", "Enable native PiP toggle inside YouTube settings (15.22.4+)" ],
             [ "1.3.3", "Refactored logic related to bootstraping PiP functionality (15.22.4+)" ],
             [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.22.4+)" ],
