@@ -258,10 +258,16 @@ tweaks = [
     },
     {
         "file": "ytuhd",
-        "title": "YTUHD SW",
+        "title": "YTUHD",
         "min_ios": "11.0",
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
+            [ "1.0.2",
+                [
+                    "Spoof iOS version to 14.6 for those on iOS 11 - 13",
+                    "Compiled tweak with ARC"
+                ]
+            ],
             [ "1.0.1", "Removed render view type override" ],
             [ "1.0.0", "Removed arm64e arch" ],
             [ "0.0.3.7", "Hook more methods (by SarahH12099)" ]
@@ -466,7 +472,7 @@ for entry in tweaks:
         if changes:
             changes_tab = {
                 "class": "DepictionStackView",
-                "tabname": "Latest Changes",
+                "tabname": "Changelog",
                 "views": []
             }
             views = changes_tab["views"]
