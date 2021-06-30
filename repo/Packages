@@ -1267,6 +1267,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
+Package: com.ps.quadhighcurrent
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 460
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: ./debs/com.ps.quadhighcurrent_1.0.0_iphoneos-arm.deb
+Size: 20210
+MD5sum: 0536a14d86e059cbacec3a0fe5ec9379
+SHA1: ac3555c6c8572f087f812940dc044e0c231b2cc6
+SHA256: da342c9dca7f444447562a61360617f893fa26768715bb686e2edb7eaeb4da15
+Section: Tweaks
+Description: Utilize "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
 Package: com.ps.raisetowakeflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm

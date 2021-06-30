@@ -188,6 +188,12 @@ tweaks = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
+            [ "1.0.0",
+                [
+                    "Fixed blackout settings icon when dark mode is active",
+                    "Added arm64e slice to the Flipswitch module"
+                ]
+            ],
             [ "0.0.4", "Fixed potential crashing on H11ISP and newer camera devices" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
