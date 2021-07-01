@@ -290,6 +290,7 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.4.4", "Added Sample Buffer Hack in settings to toggle on/off (iOS 14) (15.22.4+)" ],
             [ "1.4.3",
                 [
                     "Fixed app crashing on some versions of iOS 14",
