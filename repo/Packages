@@ -938,7 +938,7 @@ Name: IGClassicLayout
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/igclassiclayout.json
 
 Package: com.ps.igotallemojis
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
@@ -946,13 +946,13 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.ps.emojilibrary
 Conflicts: com.spicat.igotallemojis
 Replaces: com.spicat.igotallemojis
 Provides: com.spicat.igotallemojis
-Filename: ./debs/com.ps.igotallemojis_1.0.0_iphoneos-arm.deb
-Size: 4300
-MD5sum: bb737f94915983224738f2307ebe50b3
-SHA1: aa1954c59ab585850f98903ea2cf452298605d23
-SHA256: 7946e26a8a9a62d02b63ddec1ca4139c6c51e8142b08d79cea3d9dfc5dec3078
+Filename: ./debs/com.ps.igotallemojis_1.0.1_iphoneos-arm.deb
+Size: 4314
+MD5sum: 11d1af802c9720c09b6c881d83e2eef1
+SHA1: 7af65e1ec73ce77001dad6183e44ea025e634345
+SHA256: 4387a4f2ac2e173f8618e139a6f40caad84762db6d98ce554285a7802b25ff1a
 Section: Tweaks
-Description: Ensure you have latest emojis on Instagram.
+Description: Ensure you have latest emojis on Facebook and Instagram.
 Author: PoomSmart
 Name: IGotAllEmojis
 
