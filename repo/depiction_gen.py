@@ -36,6 +36,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            [ "1.4.5", "Stripped unneeded hacks" ],
             [ "1.4.4~b5", "Improved emoji sizing fix logic for iOS 6 - 9" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
@@ -178,8 +179,7 @@ tweaks = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
-            [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ],
-            [ "0.0.5.1", "Fixed crashing when swiping in expanded flashlight view in Control Center for iOS 13-" ]
+            [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
     },
@@ -193,8 +193,7 @@ tweaks = [
                     "Fixed blackout settings icon when dark mode is active",
                     "Added arm64e slice to the Flipswitch module"
                 ]
-            ],
-            [ "0.0.4", "Fixed potential crashing on H11ISP and newer camera devices" ]
+            ]
         ],
         "description": "<p>A CC module/Flipswitch tweak (similar to Amber) to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
     },
@@ -290,6 +289,7 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.4.6", "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2 (15.22.4+)" ],
             [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people (15.22.4+)" ],
             [ "1.4.4", "Added Sample Buffer Hack in settings (iOS 14) (15.22.4+)" ],
             [ "1.4.3",
