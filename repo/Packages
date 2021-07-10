@@ -294,6 +294,22 @@ Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
 Name: Battery Health Enabler
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/batteryhealthenabler.json
 
+Package: com.ps.batterypercentageenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (<< 13.0), cy+model.ipod (<< 8.0)
+Filename: ./debs/com.ps.batterypercentageenabler_1.0.0_iphoneos-arm.deb
+Size: 2298
+MD5sum: afb5117f36468c6e019499795258ce7d
+SHA1: 1c33c16ed3cba84336e31e00e476af648a233d2a
+SHA256: ce3d8ee095388573d18aee6c88a9f9458ef46c1eeb5007dfcb6eff593567edb7
+Section: Tweaks
+Description: Enable Battery Percentage on iPod touch 6 running iOS 11 - 12.
+Author: PoomSmart
+Name: Battery Percentage Enabler
+
 Package: com.ps.bigmoji
 Version: 1.0.0
 Architecture: iphoneos-arm
