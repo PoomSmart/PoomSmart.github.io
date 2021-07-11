@@ -496,25 +496,6 @@ Author: PoomSmart
 Name: EModeji
 
 Package: com.ps.emojiattributes
-Version: 1.4.4~b5
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 1176
-Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
-Conflicts: com.ps.flexmoji
-Filename: ./debs/com.ps.emojiattributes_1.4.4~b5_iphoneos-arm.deb
-Size: 85168
-MD5sum: 2457d03c95f35160ebb4fadc10285c93
-SHA1: cb567d88da82936c2b6abc0d88208e166f317d38
-SHA256: 986516e5f6afd0f487348102a8377da58d567b6a4eb0cd88d89aa175bd62d14b
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.4.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -549,25 +530,6 @@ Section: Tweaks
 Description: iOS 10.2+ dark emoji icons.
 Author: PoomSmart
 Name: EmojiDarkStyle
-
-Package: com.ps.emojifontmanager
-Version: 0.0.8.5
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 332
-Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
-Filename: ./debs/com.ps.emojifontmanager_0.0.8.5_iphoneos-arm.deb
-Size: 37406
-MD5sum: 1f6446ef7b6c2a529aa465f7625ac0c2
-SHA1: 6980b0da06512fa40aebc56b95b118a02113c754
-SHA256: 5a3105efd2800a2a85058d97d52c633a784115d6dcbaebf19b7dd71700e46fa5
-Section: Tweaks
-Description: Emoji font override and management.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-Name: EmojiFontManager
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
 Package: com.ps.emojifontmanager
 Version: 1.0.0
@@ -883,24 +845,6 @@ Section: Addons (Flipswitch)
 Description: Flipswitch toggle for grayscale mode.
 Author: PoomSmart
 Name: Grayscale Flipswitch
-
-Package: com.ps.hdavatar
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.ps.hdavatar_0.0.1_iphoneos-arm.deb
-Size: 2758
-MD5sum: 0abcec71e9ac5e78366ba7091398b1db
-SHA1: 363314a0f1f0bc0d657a076c2b783dc2061cc7c0
-SHA256: 0dbdae431d37bed3782382d16c25f40a43866fb57a13a7aa4d61ac2c95229ec2
-Section: Tweaks
-Description: Double the size of Animoji/Memoji stickers.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/hdavatar.html
-Name: HD Avatar
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
 
 Package: com.ps.hdavatar
 Version: 1.0.0
@@ -1376,22 +1320,6 @@ Author: PoomSmart
 Name: Reduce Transparency Flipswitch
 
 Package: com.ps.sixtyfps
-Version: 0.0.7-1
-Architecture: iphoneos-arm
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
-Filename: ./debs/com.ps.sixtyfps_0.0.7-1_iphoneos-arm.deb
-Size: 6588
-MD5sum: 9727ca2f49afb41b4018944cf400fbda
-SHA1: d8e32393eae4eb916b19d9aed15abc08cbe03e2e
-SHA256: c6fc40c912126981f666975c2b7843c173c29d1e297b4120e6bea358e105d5e3
-Section: Tweaks
-Description: 60 fps capture support for legacy camera.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/60fps.html
-Name: 60fps
-
-Package: com.ps.sixtyfps
 Version: 1.0.0~b1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1597,6 +1525,22 @@ Section: Addons (Flipswitch)
 Description: Flipswitch toggle for VoiceOver.
 Author: PoomSmart
 Name: VoiceOver Flipswitch
+
+Package: com.ps.youarethere
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.youarethere_1.0.0_iphoneos-arm.deb
+Size: 2268
+MD5sum: e13ae518122c70eb0c593317c7a7b19e
+SHA1: 96084c076b242442d440d516e2c35eeb2ef242ba
+SHA256: 3e8f9dce8a9625dc1ef57792a18a559fcd4ade2c9c3940c7937c44944c0f072c
+Section: Tweaks
+Description: Disable "Video paused. Continue watching?" popup in YouTube app when you play a long video.
+Author: PoomSmart
+Name: YouAreThere
 
 Package: com.ps.youpip
 Version: 0.0.11
@@ -2116,42 +2060,6 @@ Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
 Package: com.ps.ytuhd
-Version: 0.0.3.7
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.ytuhd_0.0.3.7_iphoneos-arm.deb
-Size: 4202
-MD5sum: 561a70a260d441ca0050832dd9e06abb
-SHA1: ca563249c73ea1c5a8ae78ce7d924b73bfeb8a73
-SHA256: 2023d2c485e97598e6b5ed09af41d397ef1ffedc431d53f0260e27de982b663c
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD SW
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.ytuhd_1.0.0_iphoneos-arm.deb
-Size: 3284
-MD5sum: 6a81205c8532b90b48d20ba1de92d3f9
-SHA1: efea36b9d5802c03465998dfdb60287226790e8b
-SHA256: 6ddcc07b092151f0015bf1b88058859a334411bfa18790db2da3199dc8ffdea9
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD SW
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -2222,23 +2130,6 @@ Section: Tweaks
 Description: Tint app close box based on app icon color.
 Author: Spica T
 Name: AppColorClose iOS 12+
-
-Package: com.spicat.blurrybadges
-Version: 1.2.4
-Architecture: iphoneos-arm
-Maintainer: SpicaT
-Installed-Size: 492
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Conflicts: org.thebigboss.blurrybadges
-Filename: ./debs/com.spicat.blurrybadges_1.2.4_iphoneos-arm.deb
-Size: 41876
-MD5sum: 52c2ce861159034394136af82712a1bc
-SHA1: 97dfa7fd013730c3c82cb36608100f8bcdeebd0b
-SHA256: aeefaf9e63a25c4d358cd6f7627588a53fd90ad467070e157b71c0b211e8d303
-Section: Tweaks
-Description: Add customizable blur to SpringBoard icon badges.
-Author: SpicaT
-Name: BlurryBadges
 
 Package: com.spicat.flashorama
 Version: 1.6.2
@@ -2368,22 +2259,6 @@ Section: Tweaks
 Description: Ensure you get latest emojis for WhatsApp stamps.
 Author: Spica T
 Name: WhatsAllEmojis
-
-Package: me.nepeta.iconstate
-Version: 0.1.0
-Architecture: iphoneos-arm
-Maintainer: Nepeta <ominousness@protonmail.com>
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/me.nepeta.iconstate_0.1.0_iphoneos-arm.deb
-Size: 4618
-MD5sum: 3e4b6beb0282378e2fe33d9f03da4cf5
-SHA1: e7e6f4f94e7067364c1d9059e9e65efae8b6e0ae
-SHA256: 24dfde881451a6285793e7d346ea7a58a6138112fc93c90a78847fec3ccb4aaf
-Section: Tweaks
-Description: Preserve custom icon layouts between reboots
-Author: Nepeta <ominousness@protonmail.com>
-Name: IconState
 
 Package: org.thebigboss.camblur7
 Version: 1.6.4

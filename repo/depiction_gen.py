@@ -1,12 +1,12 @@
-# pip3 install jinja2 --user
+# pip3 install jinja2 minify-html --user
 from jinja2 import Environment, FileSystemLoader
-import os, re, json
+import os, re, json, minify_html
 
 root = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(root, 'templates')
 screenshots_dir = os.path.join(root, 'screenshots')
 env = Environment(loader=FileSystemLoader(templates_dir), trim_blocks=True, lstrip_blocks=True)
-template = env.get_template('index.html')
+html_template = env.get_template('index.html')
 
 tweaks = [
     {
@@ -36,8 +36,7 @@ tweaks = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            [ "1.4.5", "Stripped unneeded hacks" ],
-            [ "1.4.4~b5", "Improved emoji sizing fix logic for iOS 6 - 9" ]
+            [ "1.4.5", "Stripped unneeded hacks" ]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
@@ -46,9 +45,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            [ "1.0.0", "Reworked Settings page for better visual in recent iOS versions" ],
-            [ "0.0.8.5", "Use ARC in preference bundle, fixing iOS 7 support" ],
-            [ "0.0.8.4", "Use com.apple.UIKit defaults instead of Cephei preferences to overcome sandbox issue" ]
+            [ "1.0.0", "Reworked Settings page for better visual in recent iOS versions" ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
                         to choose your font. Fonts (folder with extension .font AND having AppleColorEmoji@2x.ttf/.ttc font inside)\
@@ -63,8 +60,7 @@ tweaks = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            [ "1.1.21", "Recognizes iPad emoji landscape keyboard variant" ],
-            [ "1.1.20", "Reenabled iOS 5.1 support" ]
+            [ "1.1.21", "Recognizes iPad emoji landscape keyboard variant" ]
         ],
         "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
     },
@@ -273,9 +269,7 @@ tweaks = [
                     "Compiled tweak with ARC"
                 ]
             ],
-            [ "1.0.1", "Removed render view type override" ],
-            [ "1.0.0", "Removed arm64e arch" ],
-            [ "0.0.3.7", "Hook more methods (by SarahH12099)" ]
+            [ "1.0.1", "Removed render view type override" ]
         ]
     },
     {
@@ -352,7 +346,8 @@ tweaks = [
         "changes": [
             [ "1.1.0", "Use AltList classless approach" ],
             [ "1.0.0", "Use AltList for listing applications" ],
-            [ "0.0.2", "You can now configure blacklisted applications from Settings" ]
+            [ "0.0.2", "You can now configure blacklisted applications from Settings" ],
+            [ "0.0.1", "Initial release" ]
         ]
     },
     {
@@ -402,7 +397,7 @@ tweaks = [
         "title": "Battery Health Enabler",
         "min_ios": "11.3",
         "featured_as_banner": True,
-        "description": "<p>Enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
+        "description": "<p>Natively enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
     }
 ]
 
@@ -432,7 +427,7 @@ for entry in tweaks:
     )) if screenshots else None
 
     with open(output_path, 'w') as fh:
-        fh.write(template.render(
+        fh.write(minify_html.minify(html_template.render(
             title=title,
             min_ios=min_ios,
             max_ios=max_ios,
@@ -441,7 +436,7 @@ for entry in tweaks:
             screenshots=screenshot_objects,
             description=description,
             debug=debug
-        ))
+        ), minify_js=False, minify_css=False))
     print("Generated %s" % output_path)
 
     no_sileo = entry.get("no_sileo")
