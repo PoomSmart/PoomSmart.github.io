@@ -19,19 +19,6 @@ tweaks = [
         ]
     },
     {
-        "file": "capture",
-        "title": "Capture",
-        "min_ios": "8.0",
-        "max_ios": "10.3.4",
-        "description": "<p>This tweak was fully tested on iPhone 4s iOS 9.0.2/9.3.5. Other devices might support, but is not guaranteed.</p>\
-                    <p>This tweak allows you to use Dictation to say words like \"Capture\", \"Cheese\" in order to take photos. You\
-                    can personalize words from settings too. One downside of this tweak is that it will not work with devices\
-                    with camera using multiple inputs at a time. For instance, iPhone that is compatible with Live Photo\
-                    will not support. It was supposed to be the first commercial tweak but the developer itself did basically\
-                    give up developing and just opened source this tweak. Perhaps some talented guys out there would refine\
-                    it to be something special.</p>"
-    },
-    {
         "file": "emojiattributes",
         "title": "EmojiAttributes",
         "min_ios": "5.1",

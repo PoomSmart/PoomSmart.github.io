@@ -1,19 +1,3 @@
-Package: com.dekesto.minimalcameraios9
-Version: 1.2.0-2
-Architecture: iphoneos-arm
-Maintainer: Dekesto
-Installed-Size: 612
-Depends: mobilesubstrate, preferenceloader, firmware (>= 9)
-Filename: ./debs/com.dekesto.minimalcameraios9_1.2.0-2_iphoneos-arm.deb
-Size: 60674
-MD5sum: 496191158a82d7c235c7d8ec30446bc6
-SHA1: d0e74833c3c828b4d21d2768155a0423c0b4c6ff
-SHA256: d42ec361b2757fbfc74478d96d3ebc7e87cf93d82dc0bc7a0a826a09e855141a
-Section: Tweaks
-Description: Camera tweak for the minimalist
-Author: Dekesto
-Name: MinimalCamera (iOS 9)
-
 Package: com.ps.3gunrestrictorflipswitch
 Version: 0.0.1-1
 Architecture: iphoneos-arm
@@ -422,6 +406,23 @@ Size: 15222
 MD5sum: 80857e0fb5283146c09640f2dfccdd96
 SHA1: acd492c84fff570ffdc6a25729d246999817ee75
 SHA256: f4e4aab8999fb595fde261075ce51a1ac62a205cc109c34fcaa0aa90f57045e2
+Section: Tweaks
+Description: iOS 10 Flip button <-> Filter button swap.
+Author: PoomSmart
+Name: CamSwitchDown
+
+Package: com.ps.camswitchdown
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 244
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), firmware (<< 10.0)
+Conflicts: gsc.ipad
+Filename: ./debs/com.ps.camswitchdown_1.5.0_iphoneos-arm.deb
+Size: 19454
+MD5sum: c5c9d50854c613b65fbe0117403a310d
+SHA1: 21412c3ffc56ee7daed189c3941e8769fe6c432e
+SHA256: 6f57bb70f8b489801c9b73b1a05cce1b9dc2e15558ff76a5332e7c72c0363ace
 Section: Tweaks
 Description: iOS 10 Flip button <-> Filter button swap.
 Author: PoomSmart
@@ -2259,22 +2260,6 @@ Section: Tweaks
 Description: Ensure you get latest emojis for WhatsApp stamps.
 Author: Spica T
 Name: WhatsAllEmojis
-
-Package: org.thebigboss.camblur7
-Version: 1.6.4
-Architecture: iphoneos-arm
-Installed-Size: 1276
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.transparentcamerabar, ws.hbang.common (>= 1.2), firmware (>= 7.0), gsc.still-camera | gsc.front-facing-camera
-Filename: ./debs/org.thebigboss.camblur7_1.6.4_iphoneos-arm.deb
-Size: 154126
-MD5sum: 43b07ba4e0ce65865eb00f537c9b454e
-SHA1: e180b31dfcd8f892aa384fab8633efd5f3654374
-SHA256: 3cca63db37897eba3dd8745b0924b482dff9f0274749aa98cec3b52d35f5cb46
-Section: Tweaks
-Description: Blurry cool camera interface.
-Author: PoomSmart
-Icon: file:///Library/PreferenceBundles/CamBlur7Settings/CamBlur7@2x.png
-Name: CamBlur7 (Debug)
 
 Package: org.thebigboss.dismissprogress
 Version: 1.1.1
