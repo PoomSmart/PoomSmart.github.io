@@ -71,6 +71,10 @@
 {% endfor %}
         </ul>
 {% endif %}
+{% if source_code %}
+        <h2 role="header">Source Code</h2>
+        <pre>{{ source_code }}</pre>
+{% endif %}
         <h2 role="header">Information</h2>
         <ul>
 			<li>

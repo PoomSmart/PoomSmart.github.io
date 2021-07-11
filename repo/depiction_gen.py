@@ -1,6 +1,6 @@
 # pip3 install jinja2 minify-html --user
 from jinja2 import Environment, FileSystemLoader
-import os, re, json, minify_html
+import os, re, json, html, minify_html
 
 root = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(root, 'templates')
@@ -252,6 +252,7 @@ tweaks = [
         "file": "hdavatar",
         "title": "HD Avatar",
         "min_ios": "11.0",
+        "has_source_code": True,
         "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>",
         "changes": [
             [ "1.0.0", "Supports WWDC 2021 Developer Stickers" ]
@@ -354,6 +355,7 @@ tweaks = [
         "file": "ytclassicvideoquality",
         "title": "YTClassicVideoQuality",
         "min_ios": "11.0",
+        "has_source_code": True,
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
             [ "1.0.1", "Fixed crashing in YouTube 16.20.5" ],
@@ -365,6 +367,7 @@ tweaks = [
         "title": "IGClassicLayout",
         "min_ios": "13.0",
         "screenshots": True,
+        "has_source_code": True,
         "description": "<p>Restore the original buttons layout in Instagram; Home-Reels-Compose-Likes-Profile at bottom and Search-Messages at top.</p>"
     },
     {
@@ -375,6 +378,7 @@ tweaks = [
         "strict_range": True,
         "screenshots": True,
         "featured_as_banner": True,
+        "has_source_code": True,
         "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
     },
     {
@@ -382,6 +386,7 @@ tweaks = [
         "title": "expandedclassicscreen",
         "min_ios": "14.0",
         "screenshots": True,
+        "has_source_code": True,
         "description": "<p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
     },
     {
@@ -390,6 +395,7 @@ tweaks = [
         "min_ios": "11.0",
         "max_ios": "14.7",
         "strict_range": True,
+        "has_source_code": True,
         "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
     },
     {
@@ -414,10 +420,12 @@ for entry in tweaks:
     screenshots = entry.get("screenshots")
     featured_as_banner = entry.get("featured_as_banner")
     changes = entry.get("changes")
+    has_source_code = entry.get("has_source_code")
     debug = entry.get("debug")
     description = re.sub(r'\s+', ' ', entry.get("description"))
     output_path = os.path.join(root, "depictions", "%s.html" % file)
 
+    source_code = None
     screenshot_objects = list(map(
         lambda e: {
             "url": "https://poomsmart.github.io/repo/screenshots/%s/%s" % (file, e.name),
@@ -425,6 +433,13 @@ for entry in tweaks:
         },
         os.scandir(os.path.join(screenshots_dir, file))
     )) if screenshots else None
+
+    if has_source_code:
+        try:
+            with open("../../%s/Tweak.x" % file, 'r') as source_code_content:
+                source_code = source_code_content.read()
+        except IOError:
+            print("Could not read source code of %s" % title)
 
     with open(output_path, 'w') as fh:
         fh.write(minify_html.minify(html_template.render(
@@ -435,6 +450,7 @@ for entry in tweaks:
             changes=changes,
             screenshots=screenshot_objects,
             description=description,
+            source_code=html.escape(source_code) if source_code is not None else None,
             debug=debug
         ), minify_js=False, minify_css=False))
     print("Generated %s" % output_path)
@@ -473,6 +489,18 @@ for entry in tweaks:
                 "title": "Compatible with iOS %s to %s" % (min_ios, max_ios) if min_ios and max_ios else "Compatible with iOS %s +" % min_ios
             }
             views.insert(0, support_versions)
+        if source_code:
+            source_code_tab = {
+                "class": "DepictionStackView",
+                "tabname": "Source Code",
+                "views": [
+                    {
+                        "class": "DepictionMarkdownView",
+                        "markdown": "```\n%s\n```" % source_code
+                    }
+                ]
+            }
+            tabs.append(source_code_tab)
         if changes:
             changes_tab = {
                 "class": "DepictionStackView",
