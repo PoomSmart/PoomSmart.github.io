@@ -249,12 +249,13 @@ tweaks = [
         "file": "ytuhd",
         "title": "YTUHD",
         "min_ios": "11.0",
+        "has_source_code": True,
         "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
         "changes": [
             [ "1.0.2",
                 [
                     "Spoof iOS version to 14.6 for those on iOS 11 - 13",
-                    "Compiled tweak with ARC"
+                    "Compiled with ARC"
                 ]
             ],
             [ "1.0.1", "Removed render view type override" ]
@@ -391,7 +392,18 @@ tweaks = [
         "min_ios": "11.3",
         "featured_as_banner": True,
         "description": "<p>Natively enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
-    }
+    },
+    {
+        "file": "cconoff",
+        "title": "CC On & Off",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>Toggle Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11 and above.</p>",
+        "changes": [
+            [ "1.0.0", "Compiled with ARC" ],
+            [ "0.0.1.1", "Initial release" ]
+        ]
+    },
 ]
 
 sileo_keys = [
