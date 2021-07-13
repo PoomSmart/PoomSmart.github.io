@@ -416,7 +416,7 @@ tweaks = [
         "title": "YTSystemAppearance",
         "min_ios": "13.0",
         "has_source_code": True,
-        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above.</p>"
+        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above. YouTube version 16.27.3 and higher is supported.</p>"
     }
 ]
 
