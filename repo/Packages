@@ -2121,6 +2121,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.htm
 Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
+Package: com.ps.ytsystemappearance
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: ./debs/com.ps.ytsystemappearance_1.0.0_iphoneos-arm.deb
+Size: 2406
+MD5sum: 4caf3ff0dfac0baee02901290aeaa52c
+SHA1: f431a880a95b6164cb45648ed102ba7a7be86681
+SHA256: f351c81435d9a24246d9d414fa55061e5b5c1deb1093037eb74bb43270b64ba5
+Section: Tweaks
+Description: Enable setting appearance based on system in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytsystemappearance.html
+Name: YTSystemAppearance
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsystemappearance.json
+
 Package: com.ps.ytuhd
 Version: 1.0.1
 Architecture: iphoneos-arm

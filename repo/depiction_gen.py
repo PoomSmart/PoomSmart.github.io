@@ -411,6 +411,13 @@ tweaks = [
             [ "0.0.1.1", "Initial release" ]
         ]
     },
+    {
+        "file": "ytsystemappearance",
+        "title": "YTSystemAppearance",
+        "min_ios": "13.0",
+        "has_source_code": True,
+        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above.</p>"
+    }
 ]
 
 sileo_keys = [
