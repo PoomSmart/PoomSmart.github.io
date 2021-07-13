@@ -272,6 +272,7 @@ tweaks = [
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>\
             <p>The changelogs are annotated with the versions of YouTube app that YouPiP supports.</p>",
         "changes": [
+            [ "1.4.8", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself (15.22.4+)" ],
             [ "1.4.7", "Fixed crashing on YouTube version 15.49.6 (and maybe lower) (15.22.4+)" ],
             [ "1.4.6", "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2 (15.22.4+)" ],
             [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people (15.22.4+)" ],
