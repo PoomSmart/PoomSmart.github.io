@@ -271,6 +271,7 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.1+ or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
+            [ "1.4.10", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9 (15.22.4+)" ],
             [ "1.4.9",
                 [
                     "Refactored logic around PiP activation via button tap",
