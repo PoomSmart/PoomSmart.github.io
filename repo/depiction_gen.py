@@ -271,36 +271,47 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.1+ or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.4.10", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9 (15.22.4+)" ],
+            [ "1.4.11", "Removed potentially unneeded hooks and add support back to YouTube 15.10.4 (15.10.4+)" ],
+            [ "1.4.10", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9 (15.19.4+)" ],
             [ "1.4.9",
                 [
                     "Refactored logic around PiP activation via button tap",
                     "Reworked settings page",
-                    "(15.22.4+)"
+                    "(15.19.4+)"
                 ]
             ],
-            [ "1.4.8", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself (15.22.4+)" ],
-            [ "1.4.7", "Fixed crashing on YouTube version 15.49.6 (and maybe lower) (15.22.4+)" ],
-            [ "1.4.6", "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2 (15.22.4+)" ],
-            [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people (15.22.4+)" ],
-            [ "1.4.4", "Added Sample Buffer Hack in settings (iOS 14) (15.22.4+)" ],
+            [ "1.4.8", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself (15.19.4+)" ],
+            [ "1.4.7",
+                [
+                    "Fixed crashing on YouTube version 15.49.6 (and maybe lower)",
+                    "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2",
+                    "(15.19.4+)"
+                ]
+            ],
+            [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people (15.19.4+)" ],
+            [ "1.4.4", "Added Sample Buffer Hack in settings (iOS 14) (15.19.4+)" ],
             [ "1.4.3",
                 [
                     "Fixed app crashing on some versions of iOS 14",
-                    "Added a warning alert if YouTube version is lower than 15.22.4",
-                    "(15.22.4+)"
+                    "Added a warning alert if YouTube version is lower than the lowest supported",
+                    "(15.19.4+)"
                 ]
             ],
-            [ "1.4.2", "Fixed PiP not working on iOS 14.0 - 14.4 for YouTube 16.25.2 (15.22.4+)" ],
-            [ "1.4.1", "Added few more missing logic from iOS 15.0b2 approach (15.22.4+)" ],
-            [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach (15.22.4+)" ],
-            [ "1.3.4", "Enable native PiP toggle inside YouTube settings (15.22.4+)" ],
-            [ "1.3.3", "Refactored logic related to bootstraping PiP functionality (15.22.4+)" ],
-            [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.22.4+)" ],
-            [ "1.3.1", "Fixed crash on YouTube version 15.49.6 (15.22.4+)" ],
-            [ "1.3.0", "Added legacy PiP implementation in settings, made for iOS 14+ (15.22.4+)" ],
-            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.22.4+)" ],
-            [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.22.4+)" ],
+            [ "1.4.2", "Fixed PiP not working on iOS 14.0 - 14.4 for YouTube 16.25.2 (15.19.4+)" ],
+            [ "1.4.1", "Added few more missing logic from iOS 15.0b2 approach (15.19.4+)" ],
+            [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach (15.19.4+)" ],
+            [ "1.3.4", "Enable native PiP toggle inside YouTube settings (15.19.4+)" ],
+            [ "1.3.3", "Refactored logic related to bootstraping PiP functionality (15.19.4+)" ],
+            [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.19.4+)" ],
+            [ "1.3.1",
+                [
+                    "Fixed crash on YouTube version 15.49.6",
+                    "Added legacy PiP implementation in settings",
+                    "(15.19.4+)"
+                ]
+            ],
+            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.19.4+)" ],
+            [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.19.4+)" ],
             [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+) (16.17.4)" ],
             [ "1.2.0", "Added settings page to choose how to activate PiP (16.17.4)" ],
             [ "1.1.0",
@@ -310,11 +321,7 @@ tweaks = [
                     "(16.17.4)"
                 ]
             ],
-            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13- (16.17.4)" ],
-            [ "0.0.13", "Fixed crashing when casting a video (16.17.4)" ],
-            [ "0.0.11", "Activate PiP simply by playing the video and dismissing the app (thanks @lgariv) (16.17.4)" ],
-            [ "0.0.9", "Support YouTube version 16.17.4 (16.17.4)" ],
-            [ "0.0.8", "Experimental support for YouTube version 15.47.3 (15.47.3 - 16.16.4)" ]
+            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13- (16.17.4)" ]
         ]
     },
     {
@@ -417,7 +424,7 @@ tweaks = [
         "title": "YTSystemAppearance",
         "min_ios": "13.0",
         "has_source_code": True,
-        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above. YouTube version 16.27.3 and higher are officially supported. Older (but not too old) versions may.</p>"
+        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
     },
     {
         "file": "ytreexplore",
