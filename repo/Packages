@@ -2142,6 +2142,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.htm
 Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
+Package: com.ps.ytreexplore
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytreexplore_1.0.0_iphoneos-arm.deb
+Size: 3558
+MD5sum: 66a86699bd1b61b25941caf5422c274d
+SHA1: d41f4497224693cf9432f1da65efb3c3559ccbf9
+SHA256: 21aa2d6996e01f3b6e5d937ef3e4b8b0a641608af333b2dbb33ca757338a477d
+Section: Tweaks
+Description: Remove Shorts tab and replace with Explore tab in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
+Name: YTReExplore
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
+
 Package: com.ps.ytsystemappearance
 Version: 1.0.0
 Architecture: iphoneos-arm

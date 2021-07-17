@@ -418,6 +418,15 @@ tweaks = [
         "min_ios": "13.0",
         "has_source_code": True,
         "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above. YouTube version 16.27.3 and higher are officially supported. Older (but not too old) versions may.</p>"
+    },
+    {
+        "file": "ytreexplore",
+        "title": "YTReExplore",
+        "min_ios": "11.0",
+        "screenshots": True,
+        "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
+            <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
+            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>"
     }
 ]
 
