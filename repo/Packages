@@ -1547,20 +1547,22 @@ Author: PoomSmart
 Name: VoiceOver Flipswitch
 
 Package: com.ps.youarethere
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.youarethere_1.0.0_iphoneos-arm.deb
-Size: 2268
-MD5sum: e13ae518122c70eb0c593317c7a7b19e
-SHA1: 96084c076b242442d440d516e2c35eeb2ef242ba
-SHA256: 3e8f9dce8a9625dc1ef57792a18a559fcd4ade2c9c3940c7937c44944c0f072c
+Filename: ./debs/com.ps.youarethere_1.0.1_iphoneos-arm.deb
+Size: 2382
+MD5sum: 2546f0c5ad971bcb9f2154018e82cf18
+SHA1: 8fa7d421547ad605a6e31df1014567ad3cff0e66
+SHA256: a17ae596041ddaa400f533edc38d74d2270db781adb53c7a5661abae96e9026c
 Section: Tweaks
 Description: Disable "Video paused. Continue watching?" popup in YouTube app when you play a long video.
 Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youarethere.html
 Name: YouAreThere
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youarethere.json
 
 Package: com.ps.youpip
 Version: 1.0.0

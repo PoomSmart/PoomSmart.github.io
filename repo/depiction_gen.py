@@ -434,6 +434,13 @@ tweaks = [
         "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
             <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>"
+    },
+    {
+        "file": "youarethere",
+        "title": "YouAreThere",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>Disable \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
     }
 ]
 
