@@ -2015,10 +2015,10 @@ Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
 Filename: ./debs/com.ps.youpip_1.5.0_iphoneos-arm.deb
-Size: 18404
-MD5sum: 682ea8d5adc0c8e06a9ca401883d3361
-SHA1: 27c245b6e425bf464418066000e3a4169506a9ec
-SHA256: 1378ef1d1cf1517a7207a1d68cd470caa3f795f6feffed148c705880f54a6572
+Size: 18382
+MD5sum: c10d9bf89ee0969291eaa85e3b551072
+SHA1: b0ecce422b9b2aacc4e0923c41dcd4c1c2781777
+SHA256: 9185b8e1f584c1642b5dd89c65bcfc091ee78acda41ad9c10fbf315156b88472
 Section: Tweaks
 Description: Enable native PiP in YouTube app.
 Author: PoomSmart
