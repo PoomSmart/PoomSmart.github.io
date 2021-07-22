@@ -271,57 +271,64 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.1+ or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.4.11", "Removed potentially unneeded hooks and add support back to YouTube 15.10.4 (15.10.4+)" ],
-            [ "1.4.10", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9 (15.19.4+)" ],
-            [ "1.4.9",
+            [ "1.5.0 (15.10.4+)",
+                [
+                    "Migrated YouPiP settings into YouTube's native settings",
+                    "Added Non-backgroundable PiP settings option",
+                    "Fixed Sample Buffer Hacks being partially enabled even when the option is disabled"
+                ]
+            ],
+            [ "1.4.11 (15.10.4+)", 
+                [
+                    "Added backward compatibility with YouTube 15.10.4",
+                    "Removed potentially unneeded hooks"
+                ]
+            ],
+            [ "1.4.10 (15.19.4+)", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9" ],
+            [ "1.4.9 (15.19.4+)",
                 [
                     "Refactored logic around PiP activation via button tap",
-                    "Reworked settings page",
-                    "(15.19.4+)"
+                    "Reworked settings page"
                 ]
             ],
-            [ "1.4.8", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself (15.19.4+)" ],
-            [ "1.4.7",
+            [ "1.4.8 (15.19.4+)", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself" ],
+            [ "1.4.7 (15.19.4+)",
                 [
                     "Fixed crashing on YouTube version 15.49.6 (and maybe lower)",
-                    "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2",
-                    "(15.19.4+)"
+                    "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2"
                 ]
             ],
-            [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people (15.19.4+)" ],
-            [ "1.4.4", "Added Sample Buffer Hack in settings (iOS 14) (15.19.4+)" ],
-            [ "1.4.3",
+            [ "1.4.5 (15.19.4+)", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people" ],
+            [ "1.4.4 (15.19.4+)", "Added Sample Buffer Hack in settings (iOS 14)" ],
+            [ "1.4.3 (15.19.4+)",
                 [
                     "Fixed app crashing on some versions of iOS 14",
-                    "Added a warning alert if YouTube version is lower than the lowest supported",
-                    "(15.19.4+)"
+                    "Added a warning alert if YouTube version is lower than the lowest supported"
                 ]
             ],
-            [ "1.4.2", "Fixed PiP not working on iOS 14.0 - 14.4 for YouTube 16.25.2 (15.19.4+)" ],
-            [ "1.4.1", "Added few more missing logic from iOS 15.0b2 approach (15.19.4+)" ],
-            [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach (15.19.4+)" ],
-            [ "1.3.4", "Enable native PiP toggle inside YouTube settings (15.19.4+)" ],
-            [ "1.3.3", "Refactored logic related to bootstraping PiP functionality (15.19.4+)" ],
-            [ "1.3.2", "Fixed crash due to adding PiP button to the overlay for some users (15.19.4+)" ],
-            [ "1.3.1",
+            [ "1.4.2 (15.19.4+)", "Fixed PiP not working on iOS 14.0 - 14.4 for YouTube 16.25.2" ],
+            [ "1.4.1 (15.19.4+)", "Added few more missing logic from iOS 15.0b2 approach" ],
+            [ "1.4.0 (15.19.4+)", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
+            [ "1.3.4 (15.19.4+)", "Enable native PiP toggle inside YouTube settings" ],
+            [ "1.3.3 (15.19.4+)", "Refactored logic related to bootstraping PiP functionality" ],
+            [ "1.3.2 (15.19.4+)", "Fixed crash due to adding PiP button to the overlay for some users" ],
+            [ "1.3.1 (15.19.4+)",
                 [
                     "Fixed crash on YouTube version 15.49.6",
-                    "Added legacy PiP implementation in settings",
-                    "(15.19.4+)"
+                    "Added legacy PiP implementation in settings"
                 ]
             ],
-            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above (15.19.4+)" ],
-            [ "1.2.2", "Added backward compatibility with YouTube 15.22.4 (15.19.4+)" ],
-            [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+) (16.17.4)" ],
-            [ "1.2.0", "Added settings page to choose how to activate PiP (16.17.4)" ],
-            [ "1.1.0",
+            [ "1.2.3 (15.19.4+)", "Removed armv7 slice as YouTube targets iOS 11 and above" ],
+            [ "1.2.2 (15.19.4+)", "Added backward compatibility with YouTube 15.22.4" ],
+            [ "1.2.1 (16.17.4)", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+)" ],
+            [ "1.2.0 (16.17.4)", "Added settings page to choose how to activate PiP" ],
+            [ "1.1.0 (16.17.4)",
                 [
                     "Made PiP activated the first time the app is dismissed (iOS 14+)",
-                    "Made PiP activated only when the app is dismissed (iOS 13-)",
-                    "(16.17.4)"
+                    "Made PiP activated only when the app is dismissed (iOS 13-)"
                 ]
             ],
-            [ "1.0.0", "Implemented PiP backward-compatible with iOS 13- (16.17.4)" ]
+            [ "1.0.0 (16.17.4)", "Implemented PiP backward-compatible with iOS 13-" ]
         ]
     },
     {
