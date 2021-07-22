@@ -271,7 +271,7 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.1+ or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.5.0 (15.10.4+)",
+            [ "1.5.1 (15.10.4+)",
                 [
                     "Migrated YouPiP settings into YouTube's native settings",
                     "Added Non-backgroundable PiP settings option",
