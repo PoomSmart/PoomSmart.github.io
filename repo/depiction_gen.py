@@ -248,10 +248,17 @@ tweaks = [
     {
         "file": "ytuhd",
         "title": "YTUHD",
-        "min_ios": "11.0",
+        "min_ios": "13.0",
         "has_source_code": True,
-        "description": "<p>Unlock 1440p and 2160p resolutions in iOS YouTube app.</p>",
+        "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.1.0", 
+                [
+                    "Added in-app settings for using VP9 codec",
+                    "Deprecated support for iOS 11 - 12",
+                    "Spoof iOS version to iOS 14.7 for iOS 13"
+                ]
+            ],
             [ "1.0.2",
                 [
                     "Spoof iOS version to 14.6 for those on iOS 11 - 13",
