@@ -446,7 +446,11 @@ tweaks = [
         "screenshots": True,
         "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
-            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>"
+            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
+        "changes": [
+            [ "1.0.1", "Minor optimization" ],
+            [ "1.0.0", "Initial release" ]
+        ]
     },
     {
         "file": "youarethere",

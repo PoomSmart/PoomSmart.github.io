@@ -2078,6 +2078,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
 Name: YTReExplore
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
 
+Package: com.ps.ytreexplore
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytreexplore_1.0.1_iphoneos-arm.deb
+Size: 3536
+MD5sum: 6c8d36ab414f468bbba16ee82e6475e9
+SHA1: b0f6947b5a04eaf5f9d6fb636ed33fe202457ba2
+SHA256: 8e5af17161fbdddb3e0282538a4e3dee6ae45c0e7ae7092fa4cf3961c2095ec7
+Section: Tweaks
+Description: Remove Shorts tab and replace with Explore tab in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
+Name: YTReExplore
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
+
 Package: com.ps.ytsystemappearance
 Version: 1.0.0
 Architecture: iphoneos-arm
