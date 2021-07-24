@@ -9,3 +9,7 @@
 .overflow-x {
     overflow-x: auto;
 }
+
+.ios-main {
+    max-width: 100%;
+}
