@@ -252,7 +252,8 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
-            [ "1.1.1", 
+            [ "1.1.2", "Simplified logic in settings creation" ],
+            [ "1.1.1",
                 [
                     "Added in-app settings for using VP9 codec",
                     "Deprecated support for iOS 11 - 12",
