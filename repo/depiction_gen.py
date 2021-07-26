@@ -278,9 +278,11 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.1+ or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.5.5 (15.10.4+)", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
-            [ "1.5.4 (15.10.4+)",
+            [ "1.5.6 (15.10.4+)", "Fixed crashing on YouTube version 16.29.4" ],
+            [ "1.5.5 (15.10.4 - 16.28.2)", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
+            [ "1.5.4 (15.10.4 - 16.28.2)",
                 [
+                    "Fixed PiP still being activated when \"Use PiP Button\" is on, on app dismiss",
                     "\"Non-backgroundable PiP\" option will only be displayed on YouTube versions that support it",
                     "PiP button now shows or hides according to the setting"
                 ]
@@ -324,7 +326,7 @@ tweaks = [
             [ "1.4.0 (15.19.4+)", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
             [ "1.3.4 (15.19.4+)", "Enable native PiP toggle inside YouTube settings" ],
             [ "1.3.3 (15.19.4+)", "Refactored logic related to bootstraping PiP functionality" ],
-            [ "1.3.2 (15.19.4+)", "Fixed crash due to adding PiP button to the overlay for some users" ],
+            [ "1.3.2 (15.19.4+)", "Fixed crashing due to adding PiP button to the overlay for some users" ],
             [ "1.3.1 (15.19.4+)",
                 [
                     "Fixed crash on YouTube version 15.49.6",
