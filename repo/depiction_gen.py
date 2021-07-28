@@ -247,15 +247,16 @@ tweaks = [
     },
     {
         "file": "ytuhd",
-        "title": "YTUHD",
+        "title": "YTUHD HW",
         "min_ios": "13.0",
         "has_source_code": True,
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.2.0", "Make A10/A10X and lower devices use hardware acceleration for VP9" ],
             [ "1.1.2", "Simplified logic in settings creation" ],
             [ "1.1.1",
                 [
-                    "Added in-app settings for using VP9 codec",
+                    "Added in-app settings for using VP9 codec (Settings > Video quality preferences)",
                     "Deprecated support for iOS 11 - 12",
                     "Spoof iOS version to iOS 14.7 for iOS 13"
                 ]
@@ -290,7 +291,7 @@ tweaks = [
             ],
             [ "1.5.2 (15.10.4+)",
                 [
-                    "Migrated YouPiP settings into YouTube's native settings",
+                    "Migrated YouPiP settings into YouTube's native settings (Settings > General)",
                     "Added \"Non-backgroundable PiP\" option in settings"
                 ]
             ],
