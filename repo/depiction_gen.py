@@ -472,6 +472,13 @@ tweaks = [
         "min_ios": "11.0",
         "has_source_code": True,
         "description": "<p>Disable \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
+    },
+    {
+        "file": "noytpremium",
+        "title": "noytpremium",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>"
     }
 ]
 

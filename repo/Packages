@@ -1097,6 +1097,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/nottodayhomescreensidebar
 Name: NotTodayHomeScreenSideBar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/nottodayhomescreensidebar.json
 
+Package: com.ps.noytpremium
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.noytpremium_1.0.0_iphoneos-arm.deb
+Size: 2322
+MD5sum: 8f2414cacaa5f76a7c0d63db261a91d2
+SHA1: f0a162e3f5ace9130619aa8c7a528d09108be337
+SHA256: 92c7a98bb3d2ce1a70adf5651519132d5bf1ace3080c5a22022ca3178224df08
+Section: Tweaks
+Description: Remove YouTube Premium upsell alerts.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
+Name: NoYTPremium
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
+
 Package: com.ps.padgrid
 Version: 1.0.1
 Architecture: iphoneos-arm
