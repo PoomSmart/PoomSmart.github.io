@@ -1622,13 +1622,13 @@ Package: com.ps.youmusicpip
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 184
+Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
 Filename: ./debs/com.ps.youmusicpip_1.0.0_iphoneos-arm.deb
-Size: 13126
-MD5sum: 91201358417164f85ab09eeb90e86db2
-SHA1: 20f9dfb0c9408368ae00b204ad12825df2988122
-SHA256: 6c88001c780df2cd5c19bdd275979c4dcd4255dee15d1f826686f2ce17a5599d
+Size: 8408
+MD5sum: 005597ec1ae7684949c5a841f7f35426
+SHA1: d7a7045ce0969a542f3cd94ab75cc0c4a288d1da
+SHA256: dcbbf68193d53330ac26f71c5741c4ea31d37cc5ac896b00b20c2a1ce11f8d08
 Section: Tweaks
 Description: Enable native PiP in YouTube Music app.
 Author: PoomSmart
