@@ -479,6 +479,13 @@ tweaks = [
         "min_ios": "11.0",
         "has_source_code": True,
         "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>"
+    },
+    {
+        "file": "noytmpremium",
+        "title": "noytmpremium",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
     }
 ]
 
