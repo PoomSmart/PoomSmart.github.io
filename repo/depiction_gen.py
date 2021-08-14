@@ -352,6 +352,13 @@ tweaks = [
         ]
     },
     {
+        "file": "youmusicpip",
+        "title": "YouMusicPiP",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Enable native PiP in YouTube Music app. This works for videos present in the app.</p>"
+    },
+    {
         "file": "anywherewidgetsforipad",
         "title": "Anywhere Widgets for iPad",
         "min_ios": "14.0",

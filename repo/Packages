@@ -1618,6 +1618,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/youarethere.html
 Name: YouAreThere
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youarethere.json
 
+Package: com.ps.youmusicpip
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Filename: ./debs/com.ps.youmusicpip_1.0.0_iphoneos-arm.deb
+Size: 13126
+MD5sum: 91201358417164f85ab09eeb90e86db2
+SHA1: 20f9dfb0c9408368ae00b204ad12825df2988122
+SHA256: 6c88001c780df2cd5c19bdd275979c4dcd4255dee15d1f826686f2ce17a5599d
+Section: Tweaks
+Description: Enable native PiP in YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmusicpip.html
+Name: YouMusicPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmusicpip.json
+
 Package: com.ps.youpip
 Version: 1.0.0
 Architecture: iphoneos-arm
