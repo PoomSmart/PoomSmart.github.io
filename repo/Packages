@@ -1098,16 +1098,16 @@ Name: NotTodayHomeScreenSideBar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/nottodayhomescreensidebar.json
 
 Package: com.ps.noytmpremium
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.noytmpremium_1.0.0_iphoneos-arm.deb
-Size: 2482
-MD5sum: a9b6a0d2cbb6e67f678233c9888bc0a2
-SHA1: cd35e34b4ea99b6884459000632c44fb3b764c73
-SHA256: 500ef0ccaf68c9c39e0aa0a9c7a1eb52edae9a2e19e14cad8a12b1a676723f69
+Filename: ./debs/com.ps.noytmpremium_1.0.1_iphoneos-arm.deb
+Size: 2662
+MD5sum: c06ce9ef425531c469e3d7533c5c37a1
+SHA1: 5b32878ab3c68923dded55e91384849575c5baca
+SHA256: ab095eb575afd8cc5502fcdf33f31de49b8e81215e555371ab47374e22cf78a5
 Section: Tweaks
 Description: Remove YouTube Music Premium upsell elements.
 Author: PoomSmart
