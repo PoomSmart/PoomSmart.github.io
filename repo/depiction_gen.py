@@ -478,7 +478,11 @@ tweaks = [
         "title": "noytpremium",
         "min_ios": "11.0",
         "has_source_code": True,
-        "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>"
+        "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>",
+        "changes": [
+            [ "1.0.1", "Hook more methods" ],
+            [ "1.0.0", "Initial release" ]
+        ]
     },
     {
         "file": "noytmpremium",

@@ -1133,6 +1133,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
 Name: NoYTPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
 
+Package: com.ps.noytpremium
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.noytpremium_1.0.1_iphoneos-arm.deb
+Size: 2470
+MD5sum: 85efbc002b1476ced9ecb657018b72ad
+SHA1: 0893eb834345d109776f2da4b5cc2720323405a5
+SHA256: 5d9dacac15635865c1324c5c12e81296c7557c1a914710c0d7cd44bd003ce289
+Section: Tweaks
+Description: Remove YouTube Premium upsell alerts.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
+Name: NoYTPremium
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
+
 Package: com.ps.padgrid
 Version: 1.0.1
 Architecture: iphoneos-arm
