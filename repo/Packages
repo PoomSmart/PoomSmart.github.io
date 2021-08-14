@@ -918,6 +918,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/igclassiclayout.html
 Name: IGClassicLayout
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/igclassiclayout.json
 
+Package: com.ps.igclassiclayout
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ps.igclassiclayout_1.0.1_iphoneos-arm.deb
+Size: 3006
+MD5sum: 842671ab0b7ad5a16fd92bb157a4b233
+SHA1: ccc740b31e74e4124579e53172235e8745f90f24
+SHA256: 589b0cdea95078a3e7c5b63a758457b9b374ed10374a66fc54026ab928b63628
+Section: Tweaks
+Description: Compose and Likes at bottom, the rest at above.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/igclassiclayout.html
+Name: IGClassicLayout
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/igclassiclayout.json
+
 Package: com.ps.igotallemojis
 Version: 1.0.1
 Architecture: iphoneos-arm

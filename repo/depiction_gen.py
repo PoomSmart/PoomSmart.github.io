@@ -405,7 +405,11 @@ tweaks = [
         "min_ios": "13.0",
         "screenshots": True,
         "has_source_code": True,
-        "description": "<p>Restore the original buttons layout in Instagram; Home-Reels-Compose-Likes-Profile at bottom and Search-Messages at top.</p>"
+        "description": "<p>Restore the original buttons layout in Instagram; Home-Search-Compose-Likes-Profile at bottom and Messages at top.</p>",
+        "changes": [
+            [ "1.0.1", "Remove top Reels section in Search page" ],
+            [ "1.0.0", "Initial release" ]
+        ]
     },
     {
         "file": "nottodayhomescreensidebar",
