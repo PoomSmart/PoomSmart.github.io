@@ -1169,6 +1169,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
 Name: NoYTPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
 
+Package: com.ps.noytpremium
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.noytpremium_1.0.2_iphoneos-arm.deb
+Size: 2520
+MD5sum: f0e6d10ea178c81261ae719339a55340
+SHA1: b684f0265599d00d5cc586f478aa0e8872765911
+SHA256: 7b5d11cf8c9d7f13779bdca5deefa58f7a57aebfcf2de68b36d44854d2492466
+Section: Tweaks
+Description: Remove YouTube Premium upsell alerts.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noytpremium.html
+Name: NoYTPremium
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
+
 Package: com.ps.padgrid
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -2199,6 +2217,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youremembercaption
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.youremembercaption_1.0.0_iphoneos-arm.deb
+Size: 2294
+MD5sum: 73822285a0361b843e8bfe130d9d9ae2
+SHA1: 67c4338e1670124c41f96467f5459163e466919d
+SHA256: 92ec80f7869223ba89fe4cebcce50ecc51ec5141019b792902a6046641a668c5
+Section: Tweaks
+Description: Make YouTube remember your video caption setting.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youremembercaption.html
+Name: YouRememberCaption
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youremembercaption.json
 
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.0

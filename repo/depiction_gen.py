@@ -491,7 +491,7 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>",
         "changes": [
-            [ "1.0.1", "Hook more methods" ],
+            [ "1.0.1 - 1.0.2", "Hook more methods" ],
             [ "1.0.0", "Initial release" ]
         ]
     },
@@ -501,6 +501,13 @@ tweaks = [
         "min_ios": "11.0",
         "has_source_code": True,
         "description": "<p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
+    },
+    {
+        "file": "youremembercaption",
+        "title": "youremembercaption",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>Make YouTube remember your video caption setting, if not already.</p>"
     }
 ]
 
