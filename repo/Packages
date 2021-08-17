@@ -2225,10 +2225,10 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/com.ps.youremembercaption_1.0.0_iphoneos-arm.deb
-Size: 2294
-MD5sum: 73822285a0361b843e8bfe130d9d9ae2
-SHA1: 67c4338e1670124c41f96467f5459163e466919d
-SHA256: 92ec80f7869223ba89fe4cebcce50ecc51ec5141019b792902a6046641a668c5
+Size: 2292
+MD5sum: 736e4f91abc25fcc40479f3c94cf0cba
+SHA1: 62032b280ad06dd909e42322f3d0c908af62b13e
+SHA256: 088b3548c5d32006fe4454416b8f7026b8cf2a22aab504051207108aaff7d06c
 Section: Tweaks
 Description: Make YouTube remember your video caption setting.
 Author: PoomSmart
