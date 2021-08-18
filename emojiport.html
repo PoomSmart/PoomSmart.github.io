@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ultimate Guide for EmojiPort</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <style>
+        .table {
+            table-layout: fixed;
+            font-weight: bold;
+            min-width: 700px;
+        }
+    
+        .table th {
+            text-align: center;
+            vertical-align: middle;
+            background-color: #ccc;
+        }
+    
+        .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+    
+        .table tr {
+            background-color: #fafafa;
+        }
+    
+        #tweakname {
+            text-align: left;
+            white-space: nowrap;
+            width: 1%;
+        }
+    
+        #iosver th {
+            background-color: #dfdfdf;
+        }
+
+        #blue {
+            color: blue;
+        }
+
+        #red {
+            color: red;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            p, h1, h2, h3, h4, h5, h6, th, tr {
+                color: #bbb;
+            }
+
+            li {
+                color: #aaa;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            .table th, #tweakname {
+                background-color: #333;
+            }
+
+            .table tr {
+                background-color: #727272;
+            }
+
+            #iosver th {
+                background-color: #4b4b4b;
+            }
+
+            .table-success {
+                background-color: green;
+            }
+
+            .text-success {
+                color: lightgreen !important;
+            }
+
+            .table-warning {
+                background-color: #c4ae6f;
+            }
+
+            .text-warning {
+                color: yellow !important;
+            }
+
+            #blue {
+                color: skyblue;
+            }
+
+            #red {
+                color: crimson;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h1>EmojiPort</h1>
+                <p>A set of open-source tweaks that enable latest emojis on your device, developed by
+                    <a href="https://twitter.com/PoomSmart">PoomSmart</a>.</p>
+            </div>
+            <div class="col-12" style="text-align:center;">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/8.1.png">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/8.4.png">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/9.0.png">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/9.3.png">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/10.1.png">
+                <img class="img-fluid d-inline-block m-auto" style="max-width:15%;" src="web/10.3.png">
+                <h5 class="text-center mt-2">EmojiPort: iOS 8.1 / 8.4 / 9.0 / 9.3 / 10.1 / 10.3</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Compatibility and Dependencies</h2>
+                <hr>
+                <table class="table table-bordered text-center">
+                    <tr>
+                        <th rowspan="2" width="220px">Tweak</th>
+                        <th colspan="6">iOS Versions</th>
+                    </tr>
+                    <tr id="iosver">
+                        <th>5.1</th>
+                        <th>6.0 - 8.2</th>
+                        <th>8.3 - 8.4</th>
+                        <th>9.0 - 9.3</th>
+                        <th>10.0 - 11.4</th>
+                        <th>12.0 - 14.4</th>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-Alpha">EmojiPort (iOS 5.1)</a>
+                        </th>
+                        <td class="table-success text-success">Yes</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-Legacy">EmojiPort (iOS 6.0-8.2)</a>
+                        </th>
+                        <td>-</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-Fix">EmojiPort (iOS 8.3-8.4)</a>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-PS">EmojiPort (iOS 9.0-9.3)</a>
+                        </td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-WT">EmojiPort (iOS 10.0-11.4)</a>
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiPort-PE">EmojiPort (iOS 12.0-14.4)</a>
+                        </th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="table-success text-success">Yes</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiAttributes">EmojiAttributes</a>
+                        </th>
+                        <td colspan="6" class="table-success text-success">Required</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiLibrary">EmojiLibrary</a>
+                        </th>
+                        <td colspan="6" class="table-success text-success">Required</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiLocalization">EmojiLocalization</a>
+                        </th>
+                        <td class="table-success text-success">Required</td>
+                        <td class="table-success text-success">Required</td>
+                        <td class="table-success text-success">Required</td>
+                        <td class="table-success text-success">Required, &lt; 9.1</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiResources">EmojiResources</a>
+                        </th>
+                        <td>-</td>
+                        <td class="table-success text-success">Required, 7.0+</td>
+                        <td class="table-success text-success">Required</td>
+                        <td class="table-success text-success">Required, &lt; 9.1</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiFontManager">EmojiFontManager</a>
+                        </th>
+                        <td class="table-warning text-warning">Unknown</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">Yes</td>
+                    </tr>
+                    <tr>
+                        <th id="tweakname">
+                            <a href="https://github.com/PoomSmart/EmojiDarkStyle">EmojiDarkStyle</a>
+                        </th>
+                        <td>-</td>
+                        <td class="table-success text-success">7.0+</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">Yes</td>
+                        <td class="table-success text-success">&lt; 10.2</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Which does what?</h2>
+                <hr>
+                <p>EmojiPort adds latest emojis on your emoji keyboard. It may need the following other tweaks depending on the iOS version you are on to make everything work as intended.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <h3>EmojiAttributes</h3>
+                <p>This tweak
+                    <b>helps display emoji characters properly</b>. Otherwise, you may see "?", "U", square or just blank space instead of actual emojis.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <h3>EmojiLocalization</h3>
+                <p>(iOS 5.1 - 9.0) This tweak
+                    <b>updates localization</b> on the emoji keyboard to match the latest. For example: "People", "Nature", "Objects" and "Flags".</p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <h3>EmojiResources</h3>
+                <p>(iOS 7.0 - 9.0) This tweak
+                    <b>updates category icons</b> on the emoji keyboard to match the latest. That is, the icons you see at the bottom-middle of the emoji keyboard.</p>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <h3>EmojiFontManager</h3>
+                <p>This tweak allows users to
+                    <b>install the correct emoji font without filesystem modifications.</b>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>EmojiLibrary</h3>
+                <p>Required for all EmojiPort tweaks, it contains a set of latest emojis and <b>handles any kinds of emojis correctly</b>.</p>
+            </div>
+            <div class="col-sm-6">
+                <h3>EmojiDarkStyle</h3>
+                <p>This tweak is optional. It
+                    <b>enables dark variants of emoji category icons seen in iOS 10.2+</b>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2 id="red">Read first about EmojiPort</h2>
+                <hr>
+                <p>Emojis are available on iOS through a keyboard. All emojis you see on the keyboard are predefined on iOS. Newer iOS versions usually include more emojis, thus the users at the lower versions
+                    won't be able to use or see unless they update their iOS to the latest.</p>
+                <p>Emojis are images, packed as a font, named AppleColorEmoji (and called internally .AppleColorEmojiUI on iOS 10+). The font gets updated to include new emojis.</p>
+                <p>EmojiPort works with an up-to-date emoji font that contains all emoji images needed. Without the new font installed, users are going to see "blank" emojis - in
+                    other words, new emojis won't show up.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>How to install EmojiPort?</h2>
+                <hr>
+                <p>First of all, add this repository:
+                    <a href=https://poomsmart.github.io/repo>https://poomsmart.github.io/repo</a>
+                </p>
+                <p>
+                    Note that "XY.Z" means the iOS version that have new emojis. For example, 14.5
+                </p>
+            </div>
+            <div class="col-12">
+                <h2 id="red">1. Get the latest emoji font</h2>
+                <h3 id="blue">Option #1: BytaFont (iOS 6 - 9)</h3>
+                <h4>Installation</h4>
+                <ol>
+                    <b>
+						<li id="red">Make sure you have enough space on the system partition (over 50 MB is recommended)</li>
+					</b>
+                    <b>
+						<li id="red">If BytaFont app cannot be run as root (for example: on iOS 9.3.5 with stashing tweak), you cannot proceed and have
+							to choose another method</li>
+					</b>
+                    <li>Install BytaFont app (<b>BytaFont 3</b> for iOS 9, <b>BytaFont 2</b> for iOS 7 - 8, <b>BytaFont</b> for iOS 5 - 6)</li>
+                    <li>Add this repository:
+                        <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a>
+                    </li>
+                    <li>Install
+                        <b>Emoji iOS "XY.Z"</b> font for BytaFont (<code>com.ps-vxbakerxv.emoji{xyz}font</code>)</li>
+                    <li>Open BytaFont app, go to Swap Mode &gt; Emoji and tap
+                        <b>Emoji_"XY.Z"</b> to enable the font, and respring.</li>
+                </ol>
+                <h4>Uninstallation</h4>
+                <ol>
+                    <b>
+						<li id="red">Open BytaFont app, go to Swap mode &gt; Emoji then tap on Restore BytaFont Backup to restore the default emoji font,
+							and respring.</li>
+					</b>
+                    <li>Uninstall
+                        <b>Emoji iOS "XY.Z"</b> font (<code>com.ps-vxbakerxv.emoji{xyz}font</code>)</li>
+                    <li>Respring your device.</li>
+                </ol>
+                <h3 id="blue">Option #2: EmojiFontManager (iOS 6+)</h3>
+                <p>Note: It supports Anemone emoji fonts.</p>
+                <h4>Installation</h4>
+                <ol>
+                    <b>
+						<li>Disable any emoji font applied by Anemone, as this tweak simply overrides it.</li>
+					</b>
+                    <li>Add this repository:
+                        <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a>
+                    </li>
+                    <li>Install
+                        <b>EmojiFontManager</b> and
+                        <b>Emoji iOS "XY.Z"</b> font for EmojiFontManager (<code>com.ps-vxbakerxv.emoji{xyz}fontefm</code>)</li>
+                    <li>Go to Settings &gt; EmojiFontManger, select
+                        <b>Emoji_"XY.Z"</b> to enable the font and tap
+                        <b>Respring</b> button to apply changes.
+                    </li>
+                </ol>
+                <h4>Uninstallation</h4>
+                <ol>
+                    <li>Uninstall
+                        <b>Emoji iOS "XY.Z"</b> font (<code>com.ps-vxbakerxv.emoji{xyz}fontefm</code>) and
+                        <b>EmojiFontManager</b>
+                    </li>
+                    <li>Respring your device.</li>
+                </ol>
+                <h3 id="blue">Option #3: SnowBoard</h3>
+                <h4>Installation</h4>
+                <ol>
+                    <li>Install <b>SnowBoard Fonts Extension</b> if you haven't already.</li>
+                    <li>Add this repository:
+                        <a href="https://vxbakerxv.github.io/repo">https://vxbakerxv.github.io/repo</a>
+                    </li>
+                    <li>Install <b>Emoji iOS "XY.Z"</b> font for Anemone (<code>com.ps-vxbakerxv.emoji{xyz}fonta</code>)</li>
+                    <li>Go to Settings > SnowBoard > Select Theme..., enable <b>Fonts (Emoji)</b> then hit <b>Apply Change</b>.</li>
+                    <li>Resring your device.</li>
+                </ol>
+                <h4>Uninstallation</h4>
+                <ol>
+                    <li>Go to Settings > SnowBoard > Select Theme..., disable <b>Fonts (Emoji)</b> then hit <b>Apply Change</b>.</li>
+                    <li>Uninstall <b>Emoji iOS "XY.Z"</b> font (<code>com.ps-vxbakerxv.emoji{xyz}fonta</code>).</li>
+                    <li>Respring your device.</li>
+                </ol>
+                <h3 id="blue">Option #4: Manual</h3>
+                <h4>Download a compatible font (choose one)</h4>
+                <ol>
+                    <li>
+                        <a href="https://github.com/PoomSmart/EmojiLibrary/releases/download/0.14.5/AppleColorEmoji.ttc">iOS 14.5 emoji font for iOS 14+</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/PoomSmart/EmojiLibrary/releases/download/0.14.5/AppleColorEmoji@2x.ttc">iOS 14.5 emoji font for iOS 10 - 13</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/PoomSmart/EmojiLibrary/releases/download/0.14.5/AppleColorEmoji@2x.ttf">iOS 14.5 emoji font for iOS &lt;=9.3</a>
+                    </li>
+                </ol>
+                <h4>Back up the original fonts</h4>
+                <ol>
+                    <li id="red">Backup the default
+                        <b>AppleColorEmoji(@2x).ttc</b> (or
+                        <b>AppleColorEmoji(@2x).ttf</b>) and
+                        <b>AppleColorEmoji(@2x).ccf</b> (if there is one) in
+                        <code>/System/Library/Fonts/CoreAddition</code> or
+                        <code>/System/Library/Fonts/Core</code> or
+                        <code>/System/Library/Fonts/Cache</code> of your device (Rename by adding .bak or simply move them to somewhere else)
+                        <b>MAKE SURE you don't let the default and the new font files in the same directory - or your keyboard will break.</b>
+                    </li>
+                    <li>If you device is non-retina, all font names won't include
+                        <b>@2x</b>, instead will be
+                        <b>_1x</b> (in iOS 8.2) or nothing otherwise.
+                    </li>
+                </ol>
+                <h4>Copy the font to the correct location</h4>
+                <ol>
+                    <li>For iOS 5.1 - 8.1 users, place downloaded files at
+                        <code>/System/Library/Fonts/Cache</code> on your device.</li>
+                    <li>For iOS 8.2 - 14.0 users, place downloaded files at
+                        <code>/System/Library/Fonts/Core</code> on your device.</li>
+                    <li>For iOS 14.1+ users, place downloaded files at
+                        <code>/System/Library/Fonts/CoreAddition</code> on your device.</li>
+                </ol>
+                <h4 id="red">Important Notes</h4>
+                <ol>
+                    <li>(iOS 9.3 or lower, non-Retina devices) If you choose
+                        <b>iOS "XY.Z" font for iOS &lt;=9.3</b>, rename the font name from AppleColorEmoji@2x.ttf to
+                        <b>AppleColorEmoji.ttf (iOS != 8.2)</b>, or from AppleColorEmoji@2x.ttf to
+                        <b>AppleColorEmoji_1x.ttf</b> otherwise.</li>
+                    <li>(iOS 8.3 - 9.3) If you choose
+                        <b>iOS "XY.Z" font for iOS &lt;=9.3</b>, make sure you don't have the original CCF file in the same directory. You can either move this CCF to somewhere else or rename it to something else.</li>
+                </ol>
+                <h2 id="red">2. Install EmojiPort of your iOS version</h2>
+                <ol>
+                    <li>In your package manager, search for
+                        <b>EmojiPort</b>
+                    </li>
+                    <li>Select and install the one with the corresponding iOS version in the parentheses.</li>
+                    <li>Respring your device.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Troubleshooting</h2>
+                <hr>
+                <h3>Common mistake</h3>
+                <p>Many people
+                    <b>don't use the correct emoji font</b> after they install the tweaks. They expect EmojiPort alone to work out-of-the-box.
+                    <b>The original emoji font won't contain any new emojis</b>. This is why they experience emojis not displaying correctly.
+                </p>
+            </div>
+            <div class="col-12">
+                <h3>Issues with fonts</h3>
+                <p>Some people don't know what they did. The emoji font, if installed manually, must be in the correct location and with the correct file name and extension. Doing anything wrong will cause the emoji keyboard to be either full of blanks, full of "U" symbols or full of "?" symbols.</p>
+                <p>To ensure that everything works correctly, you have to see what happened inside the directory
+                    <code>/System/Library/Fonts/CoreAddition</code> (iOS 14.1+), 
+                    <code>/System/Library/Fonts/Core</code> (iOS 8.2 - iOS 14.0) or
+                    <code>/System/Library/Fonts/Cache</code> otherwise. The original font should still be there, but maybe with a wrong file extension.</p>
+                <ul>
+                    <li>For
+                        <b>iOS 5.1 - 8.1</b>, the exactly correct name of the emoji font is
+                        <b>AppleColorEmoji@2x.ttf</b> (retina devices) or
+                        <b>AppleColorEmoji.ttf</b> otherwise</li>
+                    <li>For
+                        <b>iOS 8.2</b>, the exactly correct name of the emoji font is
+                        <b>AppleColorEmoji_2x.ttf</b> (retina devices) or
+                        <b>AppleColorEmoji_1x.ttf</b> otherwise</li>
+                    <li>For
+                        <b>iOS 8.3 - 9.3</b>, similar to 5.1 - 8.1 ones but you will
+                        <b>also have AppleColorEmoji@2x.ccf</b> (or
+                        <b>AppleColorEmoji.ccf</b>), which is larger than the ttf</li>
+                    <li>For
+                        <b>iOS 10.0 - 13.x</b>, similar to 8.3 - 9.3 but
+                        <b>AppleColorEmoji@2x.ttc</b> instead of
+                        <b>AppleColorEmoji@2x.ttf</b>
+                    </li>
+                    <li>For
+                        <b>iOS 14.0</b>, it is <b>AppleColorEmoji.ttc</b>
+                    </li>
+                    <li>For
+                        <b>iOS 14.1+</b>, it is <b>AppleColorEmoji-160px.ttc</b>
+                    </li>
+                </ul>
+                <p>If you see something different, you likely have issues with the font. To restore the default fonts, there are multiple ways:
+                </p>
+                <ul>
+                    <li>[BytaFont] Get
+                        <b>BytaFont Backup fonts</b> that should be in your package manager for you to recover lost fonts.</li>
+                    <li>
+                        [BytaFont] <code>/User/Library/Preferences/BytaFontBackup</code> should keep all the default fonts, you can get the old emoji font from there.</li>
+                    <li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original ones to the font directory.</li>
+                </ul>
+                <p>By installing the correct font, this should fix 90% of problems installing EmojiPort that new users usually encounter.</p>
+                <p>[iOS 8.2] Apple named emoji font to be AppleColorEmoji
+                    <b>(underscore)</b>(2 or 1)x.ttf. BytaFont might not be able to handle this special case and you might need to rename the file manually, by changing from "@ " to "_ ".</p>
+                <h4>Font on non-retina devices</h4>
+                <p>Some font management tool like Anemone may not handle the new emoji font correctly. Most of the emoji font packages have only
+                    <b>AppleColorEmoji@2x.ttf</b>. In other words, only the font is recognized by retina devices. The simplest recommendation is, you install the font manually so that you can make sure the font name contains no
+                    <b>@2x</b> nor
+                    <b>_2x</b>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h2>Known issues</h2>
+                <hr>
+                <h3>EmojiPort (iOS 5.1)</h3>
+                <ul>
+                    <li>Unforeseen issue about keyboard</li>
+                    <li>Emoji HUD may accidentally show as swiping across emoji pages</li>
+                </ul>
+                <h3>EmojiPort (iOS 6.0-8.2)</h3>
+                <ul>
+                    <li>Keyboard appearance issue in rare cases</li>
+                    <li>Emoji HUD may accidentally show as swiping across emoji pages</li>
+                </ul>
+                <h3>EmojiPort (iOS 8.3-8.4)</h3>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h3>EmojiPort (iOS 9.0-9.3)</h3>
+                <ul>
+                    <li>Couple emojis picker isn't sized correctly</li>
+                </ul>
+                <h3>EmojiPort (iOS 10.0-11.4)</h3>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h3>EmojiPort (iOS 12.0-14.4)</h3>
+                <ul>
+                    <li>Inherited from EmojiPort (iOS 10.0-11.4)</li>
+                </ul>
+                <h3>EmojiLibrary</h3>
+                <ul>
+                    <li>-</li>
+                </ul>
+                <h3>EmojiAttributes</h3>
+                <ul>
+                    <li>Skinned couple emojis don't seem to be combined programmatically (iOS &lt; 13.2)</li>
+                    <li>Display issue of the three flag emojis (iOS &lt; 11.2)</li>
+                    <li>Emoji split and wrong glyph size issues on websites (iOS &lt; 10)</li>
+                    <li>Emoji won't combine (iOS 5.1, WebCore version too old)</li>
+                </ul>
+                <h3>EmojiFontManager</h3>
+                <ul>
+                    <li>-</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img class="img-fluid w-25 d-inline-block m-auto" src="web/6.1.png">
+                <img class="img-fluid w-25 d-inline-block m-auto" src="web/7.1.png">
+                <h5 class="text-center mt-2">EmojiPort iOS 6.1 / 7.1</h5>
+            </div>
+        </div>
+        <br/>
+    </div>
+</body>
+
+</html>

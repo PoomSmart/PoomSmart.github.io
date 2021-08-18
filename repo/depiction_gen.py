@@ -73,7 +73,7 @@ tweaks = [
             [ "1.0.10", "Adopted fixes related to emoji split keyboard from EmojiPort (iOS 6.0-8.2)" ]
         ],
         "description": "<p>Latest emojis for iOS 5.1</p>\
-            <p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a href=\"https://poomsmart.github.io/repo/emoji10.html\">here</a>.</p>"
+            <p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a href=\"https://poomsmart.github.io/emojiport.html\">here</a>.</p>"
     },
     {
         "file": "emojiport_6",
@@ -86,7 +86,7 @@ tweaks = [
             [ "1.7.5", "Fixed crashing when selecting skinned emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
-                <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
+                <p><a href=\"https://poomsmart.github.io/emojiport.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
         "file": "emojiport_8_3",
@@ -99,7 +99,7 @@ tweaks = [
             [ "1.6.5", "Fixed emoji category icons not being the latest" ]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 8.4</p>\
-                <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
+                <p><a href=\"https://poomsmart.github.io/emojiport.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
         "file": "emojiport_9",
@@ -112,7 +112,7 @@ tweaks = [
             [ "1.6.5", "Fixed emoji category icons not being the latest (iOS 9.0)" ]
         ],
         "description": "<p>Latest emojis for iOS 9.0 - 9.3</p>\
-            <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
+            <p><a href=\"https://poomsmart.github.io/emojiport.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
         "file": "emojiport_10",
@@ -124,7 +124,7 @@ tweaks = [
             [ "1.3.4", "Fixed crashing when using normal skinned emojis" ]
         ],
         "description": "<p>Latest emojis for iOS 10.0 - 11.4</p>\
-            <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
+            <p><a href=\"https://poomsmart.github.io/emojiport.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
         "file": "emojiport_12",
@@ -137,7 +137,7 @@ tweaks = [
             [ "1.1.1", "Release version" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.4</p>\
-            <p><a href=\"https://poomsmart.github.io/repo/emoji10.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
+            <p><a href=\"https://poomsmart.github.io/emojiport.html\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
         "file": "letmeblock",
@@ -279,9 +279,10 @@ tweaks = [
         "tintColor": "red",
         "featured_as_banner": True,
         "description": "<p>Enable native PiP in YouTube app.</p>\
-            <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ or use iOS 15.0b2+.</p>\
+            <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
+            [ "1.5.8 (15.10.4+)", "Minor code optimizations" ],
             [ "1.5.7 (15.10.4+)", "Fixed YouPiP settings not showing on older versions of YouTube" ],
             [ "1.5.6 (15.10.4+)", "Fixed crashing on YouTube version 16.29.4" ],
             [ "1.5.5 (15.10.4 - 16.28.2)", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
