@@ -807,10 +807,10 @@ Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 14.5), gsc.ipad
 Filename: ./debs/com.ps.emojisearchforipad_1.0.0_iphoneos-arm.deb
-Size: 3188
-MD5sum: 16e701a2b1fc2a9a2f0c1c78973cfcd9
-SHA1: a2d921a7f5c7432f5af89bb57330f0202df1c392
-SHA256: 326a394ef8f2841bdba1b51441c0d76c32350004d8fd98b3d87253b693a3f4d6
+Size: 3190
+MD5sum: d9721efa6c3c5fd36d6e2f8d078177ab
+SHA1: 7016dd1b348693eeaa9e1582c3e3349cd3cba7c5
+SHA256: ea10614fc45c599196ac69fe3d9d235a41be6c0438eba2519292b8d59cb10932
 Section: Tweaks
 Description: Enable emoji search on iPadOS 14.0 - 14.4
 Author: PoomSmart
