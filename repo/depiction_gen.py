@@ -134,6 +134,7 @@ tweaks = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            [ "1.1.2", "Improved hooks" ],
             [ "1.1.1", "Release version" ]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 14.4</p>\
@@ -404,7 +405,6 @@ tweaks = [
         "file": "igclassiclayout",
         "title": "IGClassicLayout",
         "min_ios": "13.0",
-        "screenshots": True,
         "has_source_code": True,
         "description": "<p>Restore the original buttons layout in Instagram; Home-Search-Compose-Likes-Profile at bottom and Messages at top.</p>",
         "changes": [
@@ -509,6 +509,15 @@ tweaks = [
         "min_ios": "11.0",
         "has_source_code": True,
         "description": "<p>Make YouTube remember your video caption setting, if not already.</p>"
+    },
+    {
+        "file": "emojisearchforipad",
+        "title": "Emoji Search for iPad",
+        "min_ios": "14.0",
+        "max_ios": "14.4.2",
+        "strict_range": True,
+        "screenshots": True,
+        "description": "<p>Enable emoji search on iPadOS 14.0 - 14.4</p>"
     }
 ]
 

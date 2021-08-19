@@ -711,6 +711,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 Name: EmojiPort (iOS 12.0-14.4)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
+Package: com.ps.emojiportpe
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 288
+Depends: firmware (>= 12.0), firmware (<< 14.5), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), com.ps.emojiport10resources (>= 1.2.2)
+Filename: ./debs/com.ps.emojiportpe_1.1.2_iphoneos-arm.deb
+Size: 16214
+MD5sum: 8885efc68633a12b2afc1dc5581cecbe
+SHA1: 9404bcdc0b8464c8abb3dca66448ea9291a46732
+SHA256: 18507c078eed46d3b2f4c778c5765d682cbcc1abf6de7645a330d82093534894
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-14.4
+Tag: compatible::ios12, compatible::ios13, compatible::ios14
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-14.4)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
 Package: com.ps.emojiportps
 Version: 1.6.5
 Architecture: iphoneos-arm
@@ -780,6 +799,24 @@ Description: Latest emoji category icons.
 Tag: compatible::ios7, compatible::ios8, compatible::ios9
 Author: PoomSmart
 Name: EmojiResources
+
+Package: com.ps.emojisearchforipad
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 14.5), gsc.ipad
+Filename: ./debs/com.ps.emojisearchforipad_1.0.0_iphoneos-arm.deb
+Size: 3188
+MD5sum: 16e701a2b1fc2a9a2f0c1c78973cfcd9
+SHA1: a2d921a7f5c7432f5af89bb57330f0202df1c392
+SHA256: 326a394ef8f2841bdba1b51441c0d76c32350004d8fd98b3d87253b693a3f4d6
+Section: Tweaks
+Description: Enable emoji search on iPadOS 14.0 - 14.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojisearchforipad.html
+Name: Emoji Search for iPad
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojisearchforipad.json
 
 Package: com.ps.expandedclassicscreen
 Version: 1.0.0

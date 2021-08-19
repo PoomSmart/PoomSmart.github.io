@@ -2,7 +2,7 @@
 #import &LTdlfcn.h>
 
 @interface BluetoothManager (Addition)
-@property(assign) BOOL ignoreAirplaneModeCheck;
+@property (assign) BOOL ignoreAirplaneModeCheck;
 @end
 
 @interface WFWiFiStateMonitor : NSObject
@@ -12,12 +12,12 @@
 @end
 
 @interface WFControlCenterStateMonitor (Addition)
-@property(assign) BOOL forceAirplaneMode;
+@property (assign) BOOL forceAirplaneMode;
 @end
 
 %hook BluetoothManager
 
-%property(assign) BOOL ignoreAirplaneModeCheck;
+%property (assign) BOOL ignoreAirplaneModeCheck;
 
 - (void)_updateAirplaneModeStatus {
     if (self.ignoreAirplaneModeCheck)
@@ -38,7 +38,7 @@
 
 %hook WFControlCenterStateMonitor
 
-%property(assign) BOOL forceAirplaneMode;
+%property (assign) BOOL forceAirplaneMode;
 
 - (BOOL)_airplaneModeEnabled {
     return self.forceAirplaneMode ? YES : %orig;
