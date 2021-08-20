@@ -2,55 +2,72 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>PoomSmart's Repository</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>PoomSmart's Repository</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        @media (prefers-color-scheme: dark) {
+            p, h1, h2, h3, h4, h5, h6 {
+                color: #bbb;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            .form-control {
+                color: #bbb !important;
+                background-color: #727272 !important;
+                border: 1px solid #333;
+            }
+        }
+    </style>
 </head>
 
 <body>
-	<div class="container">
-		<h1>&nbsp;</h1>
-		<h1>PoomSmart's Repository</h1>
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-			<div class="btn-group btn-group-justified btn-group-repo">
-				<a class="btn btn-default" rel="nofollow noopener" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/cydia.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/cydia.png" alt="Cydia" data-was-processed="true"> Cydia</a>
-				<a class="btn btn-default" rel="nofollow noopener" href="installer://add/repo=https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/installer.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/installer.png" alt="Installer" data-was-processed="true"> Installer</a>
-				<a class="btn btn-default" rel="nofollow noopener" href="sileo://source/https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/sileo.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/sileo.png" alt="Sileo" data-was-processed="true"> Sileo</a>
-				<a class="btn btn-default" rel="nofollow noopener" href="zbra://sources/add/https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/zebra.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/zebra.png" alt="Zebra" data-was-processed="true"> Zebra</a>
-			</div>
-		</div>
-		<br>
-		<h3>Support Dev</h3>
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<table>
-				<tr>
-					<td><input type="hidden" name="on0" value="Donation Amount" />Donation Amount</td>
-				</tr>
-				<tr>
-					<td>
-						<select class="form-control" name="os0">
-							<option value="Donate 5 USD">Donate 5 USD $5.00 USD</option>
-							<option value="Donate 10 USD">Donate 10 USD $10.00 USD</option>
-							<option value="Donate 15 USD">Donate 15 USD $15.00 USD</option>
-							<option value="Donate 20 USD">Donate 20 USD $20.00 USD</option>
-							<option value="Donate 50 USD">Donate 50 USD $50.00 USD</option>
-							<option value="Donate 100 USD">Donate 100 USD $100.00 USD</option>
-							<option value="Donate 200 USD">Donate 200 USD $200.00 USD</option>
-							<option value="Donate 300 USD">Donate 300 USD $300.00 USD</option>
-							<option value="Donate 500 USD">Donate 500 USD $500.00 USD</option>
-						</select>
-					</td>
-				</tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<input type="hidden" name="encrypted"
-				value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-			<input type="image" src="https://www.paypalobjects.com/th_TH/TH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal">
-			<img alt="" border="0" src="https://www.paypalobjects.com/th_TH/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
+    <div class="container">
+        <h1>&nbsp;</h1>
+        <h1>PoomSmart's Repository</h1>
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <div class="btn-group btn-group-justified btn-group-repo">
+                <a class="btn btn-default" rel="nofollow noopener" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/cydia.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/cydia.png" alt="Cydia" data-was-processed="true"> <p>Cydia</p></a>
+                <a class="btn btn-default" rel="nofollow noopener" href="installer://add/repo=https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/installer.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/installer.png" alt="Installer" data-was-processed="true"> <p>Installer</p></a>
+                <a class="btn btn-default" rel="nofollow noopener" href="sileo://source/https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/sileo.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/sileo.png" alt="Sileo" data-was-processed="true"> <p>Sileo</p></a>
+                <a class="btn btn-default" rel="nofollow noopener" href="zbra://sources/add/https://poomsmart.github.io/repo/"><img width="25" height="25" src="https://poomsmart.github.io/web/zebra.png" class="img-rounded lazy loaded" loading="lazy" data-src="https://poomsmart.github.io/web/zebra.png" alt="Zebra" data-was-processed="true"> <p>Zebra</p></a>
+            </div>
+        </div>
+        <br>
+        <h3>Support Dev</h3>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <table>
+                <tr>
+                    <td><input type="hidden" name="on0" value="Donation Amount" /><p>Donation Amount</p></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="form-control" name="os0">
+                            <option value="Donate 5 USD">Donate 5 USD $5.00 USD</option>
+                            <option value="Donate 10 USD">Donate 10 USD $10.00 USD</option>
+                            <option value="Donate 15 USD">Donate 15 USD $15.00 USD</option>
+                            <option value="Donate 20 USD">Donate 20 USD $20.00 USD</option>
+                            <option value="Donate 50 USD">Donate 50 USD $50.00 USD</option>
+                            <option value="Donate 100 USD">Donate 100 USD $100.00 USD</option>
+                            <option value="Donate 200 USD">Donate 200 USD $200.00 USD</option>
+                            <option value="Donate 300 USD">Donate 300 USD $300.00 USD</option>
+                            <option value="Donate 500 USD">Donate 500 USD $500.00 USD</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="encrypted"
+                value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://www.paypalobjects.com/th_TH/TH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal">
+            <img alt="" border="0" src="https://www.paypalobjects.com/th_TH/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
 </body>
 
 </html>
