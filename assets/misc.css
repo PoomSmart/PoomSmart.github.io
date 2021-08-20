@@ -5,6 +5,10 @@
     overflow-x: auto;
 }
 
+.screenshots-container > img {
+    display: inline-flex;
+}
+
 .overflow-x {
     overflow-x: auto;
 }
