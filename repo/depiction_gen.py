@@ -218,7 +218,7 @@ tweaks = [
         "min_ios": "9.0",
         "changes": [
             [ "1.0.0", "Fixed issues with GoodNotes 5 app" ],
-            [ "0.0.2.5", "Improved iOS 14 support" ]
+            [ "0.0.2.5", "Improved iOS/iPadOS 14 support" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>\
             <p>For more details, visit tweak's <a href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
@@ -248,11 +248,12 @@ tweaks = [
     },
     {
         "file": "ytuhd",
-        "title": "YTUHD HW",
-        "min_ios": "13.0",
+        "title": "YTUHD",
+        "min_ios": "11.0",
         "has_source_code": True,
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.2.3", "Added back support for iOS 11 and 12" ],
             [ "1.2.2", "Forces using local ABR rather than server to allow for UHD resolutions" ],
             [ "1.2.1", "Fixed YTUHD setting doesn't display on YouTube 15.33.4 or lower" ],
             [ "1.2.0", "Make A10/A10X and lower devices use hardware acceleration for VP9" ],
@@ -261,7 +262,7 @@ tweaks = [
                 [
                     "Added in-app settings for using VP9 codec (Settings > Video quality preferences)",
                     "Deprecated support for iOS 11 - 12",
-                    "Spoof iOS version to iOS 14.7 for iOS 13"
+                    "Spoof OS version to 14.7 for iOS/iPadOS 13"
                 ]
             ],
             [ "1.0.2",
@@ -317,18 +318,18 @@ tweaks = [
             [ "1.4.7 (15.19.4+)",
                 [
                     "Fixed crashing on YouTube version 15.49.6 (and maybe lower)",
-                    "Fixed crashing on iOS 14.0-14.1 for YouTube version 16.25.2"
+                    "Fixed crashing on iOS/iPadOS 14.0-14.1 for YouTube version 16.25.2"
                 ]
             ],
             [ "1.4.5 (15.19.4+)", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people" ],
-            [ "1.4.4 (15.19.4+)", "Added Sample Buffer Hack in settings (iOS 14)" ],
+            [ "1.4.4 (15.19.4+)", "Added Sample Buffer Hack in settings (iOS/iPadOS 14)" ],
             [ "1.4.3 (15.19.4+)",
                 [
-                    "Fixed app crashing on some versions of iOS 14",
+                    "Fixed app crashing on some versions of iOS/iPadOS 14",
                     "Added a warning alert if YouTube version is lower than the lowest supported"
                 ]
             ],
-            [ "1.4.2 (15.19.4+)", "Fixed PiP not working on iOS 14.0 - 14.4 for YouTube 16.25.2" ],
+            [ "1.4.2 (15.19.4+)", "Fixed PiP not working on iOS/iPadOS 14.0 - 14.4 for YouTube 16.25.2" ],
             [ "1.4.1 (15.19.4+)", "Added few more missing logic from iOS 15.0b2 approach" ],
             [ "1.4.0 (15.19.4+)", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
             [ "1.3.4 (15.19.4+)", "Enable native PiP toggle inside YouTube settings" ],
@@ -342,15 +343,8 @@ tweaks = [
             ],
             [ "1.2.3 (15.19.4+)", "Removed armv7 slice as YouTube targets iOS 11 and above" ],
             [ "1.2.2 (15.19.4+)", "Added backward compatibility with YouTube 15.22.4" ],
-            [ "1.2.1 (16.17.4)", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS 14+)" ],
-            [ "1.2.0 (16.17.4)", "Added settings page to choose how to activate PiP" ],
-            [ "1.1.0 (16.17.4)",
-                [
-                    "Made PiP activated the first time the app is dismissed (iOS 14+)",
-                    "Made PiP activated only when the app is dismissed (iOS 13-)"
-                ]
-            ],
-            [ "1.0.0 (16.17.4)", "Implemented PiP backward-compatible with iOS 13-" ]
+            [ "1.2.1 (16.17.4)", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS/iPadOS 14+)" ],
+            [ "1.2.0 (16.17.4)", "Added settings page to choose how to activate PiP" ]
         ]
     },
     {
@@ -463,7 +457,7 @@ tweaks = [
         "title": "YTSystemAppearance",
         "min_ios": "13.0",
         "has_source_code": True,
-        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports i(Pad)OS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
+        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
     },
     {
         "file": "ytreexplore",
