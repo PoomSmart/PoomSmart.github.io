@@ -836,6 +836,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/expandedclassicscreen.htm
 Name: ExpandedClassicScreen
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandedclassicscreen.json
 
+Package: com.ps.expandlesscamcontrols
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/com.ps.expandlesscamcontrols_1.0.0_iphoneos-arm.deb
+Size: 3560
+MD5sum: fa6997bd729fda427f954f4ec6ee2fe8
+SHA1: 9e552137650047e6e3458906afe9bae6183bff2c
+SHA256: 39440fe081aa952fd2714299b0ac65a612b9fbe768d42ba1052ccff96bf046bc
+Section: Tweaks
+Description: Adjusting Flash/HDR/Timer has never been easier.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/expandlesscamcontrols.html
+Name: ExpandlessCamControls
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/expandlesscamcontrols.json
+
 Package: com.ps.flexibleflipswitch
 Version: 0.0.2-5
 Architecture: iphoneos-arm

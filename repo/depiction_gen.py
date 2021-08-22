@@ -512,7 +512,14 @@ tweaks = [
         "strict_range": True,
         "screenshots": True,
         "description": "<p>Enable emoji search on iPadOS 14.0 - 14.4</p>"
-    }
+    },
+    {
+        "file": "expandlesscamcontrols",
+        "title": "expandlesscamcontrols",
+        "min_ios": "9.0",
+        "has_source_code": True,
+        "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
+    },
 ]
 
 sileo_keys = [
