@@ -253,6 +253,7 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there" ],
             [ "1.2.3", "Added back support for iOS 11 and 12" ],
             [ "1.2.2", "Forces using local ABR rather than server to allow for UHD resolutions" ],
             [ "1.2.1", "Fixed YTUHD setting doesn't display on YouTube 15.33.4 or lower" ],
