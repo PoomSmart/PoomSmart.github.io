@@ -570,6 +570,25 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
+Package: com.ps.emojifontmanager
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.16)
+Filename: ./debs/com.ps.emojifontmanager_1.1.0_iphoneos-arm.deb
+Size: 35186
+MD5sum: 056ad5d83fda9b24cb1949ef0df92e27
+SHA1: 67e8cd7cf04d864b8d4adad93de602db865af36a
+SHA256: 8638d4cb01ae20af0331349e912f53afa798086c41103832d671f7fe7fa7b59b
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
 Package: com.ps.emojilayout
 Version: 1.1.21
 Architecture: iphoneos-arm
@@ -599,6 +618,24 @@ SHA1: 1388ac09cad7d427036cdac443994e06e220bae5
 SHA256: 02a06fa84375a5af7f7c3396c7fa0ad9152770c00ffff82ab04368963e4bf16e
 Section: Development
 Description: Master library for PoomSmart's emoji tweaks.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
+Package: com.ps.emojilibrary
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 592
+Filename: ./debs/com.ps.emojilibrary_1.3.0_iphoneos-arm.deb
+Size: 84390
+MD5sum: ac5520a9e18a17857ec8fb04b592d86d
+SHA1: c240a29cece507ea88d771d8affda633acda6514
+SHA256: 1334c412b02162c81a2a5f302d2ed433722aa75451fecd6d5585db99b6f76130
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
@@ -2483,24 +2520,6 @@ Size: 81904
 MD5sum: 328092fe751c780ac4a997a7647690f6
 SHA1: f99dadefbc31cc3457b3b823c804712771350abd
 SHA256: f9948f2d9df59b3d2a3d4bd5c23c1425cb4a60ba302d1c8775b64862c4783a37
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD HW
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
-Version: 1.2.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 372
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debs/com.ps.ytuhd_1.2.1_iphoneos-arm.deb
-Size: 82216
-MD5sum: d9ab58f34feaf1b826e2e22157dbdf52
-SHA1: c3a9b8eee99cb2c7e282e7cecb2f09d08ee68776
-SHA256: 28d6cce2c2ae59b86ec6e2c89e9dba93e3cc4e25be1783429c4ae1863a8edf52
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart

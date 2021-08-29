@@ -32,6 +32,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            [ "1.1.0", "Compiled with ARC" ],
             [ "1.0.0", "Reworked Settings page for better visual in recent iOS versions" ]
         ],
         "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
@@ -56,6 +57,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            [ "1.3.0", "Compiled with ARC" ],
             [ "1.2.3", "Release version" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
@@ -255,8 +257,12 @@ tweaks = [
         "changes": [
             [ "1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there" ],
             [ "1.2.3", "Added back support for iOS 11 and 12" ],
-            [ "1.2.2", "Forces using local ABR rather than server to allow for UHD resolutions" ],
-            [ "1.2.1", "Fixed YTUHD setting doesn't display on YouTube 15.33.4 or lower" ],
+            [ "1.2.2",
+                [
+                    "Forces using local ABR rather than server to allow for UHD resolutions",
+                    "Fixed YTUHD setting doesn't display on YouTube 15.33.4 or lower"
+                ]
+            ],
             [ "1.2.0", "Make A10/A10X and lower devices use hardware acceleration for VP9" ],
             [ "1.1.2", "Simplified logic in settings creation" ],
             [ "1.1.1",
