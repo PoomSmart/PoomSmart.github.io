@@ -148,6 +148,7 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
+            [ "1.0.0", "Increased Jetsam memory limit to 512 MB" ],
             [ "0.0.7.8", "Auto-kill mDNSResponderHelper when mDNSResponder keeps crashing" ],
             [ "0.0.7.5", "Compiled with ARC to support devices with libhooker (Credits to @Diatrus)" ]
         ],
