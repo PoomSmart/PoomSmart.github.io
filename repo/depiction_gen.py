@@ -32,6 +32,7 @@ tweaks = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            [ "1.1.2", "Fixed buttons not working" ],
             [ "1.1.1", "Compiled with ARC" ],
             [ "1.0.0", "Reworked Settings page for better visual in recent iOS versions" ]
         ],
