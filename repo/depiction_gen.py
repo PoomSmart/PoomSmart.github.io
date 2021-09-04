@@ -167,6 +167,7 @@ tweaks = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
+            [ "1.0.1", "Compiled Amber CC Module with ARC" ],
             [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ]
         ],
         "description": "<p>A CC module/Flipswitch tweak to allow setting of Amber LED, or both White and Amber LEDs.</p>"
