@@ -530,6 +530,14 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
     },
+    {
+        "file": "ytnochecklocalnetwork",
+        "title": "YTNoCheckLocalNetwork",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "screenshots": True,
+        "description": "<p>Remove Local Network permission check in YouTube app.</p>"
+    }
 ]
 
 sileo_keys = [

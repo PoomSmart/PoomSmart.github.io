@@ -2438,6 +2438,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.htm
 Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
+Package: com.ps.ytnochecklocalnetwork
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.ytnochecklocalnetwork_1.0.0_iphoneos-arm.deb
+Size: 2320
+MD5sum: 1793b8f5631c1c26be728b7820e8f319
+SHA1: df5c331c6f508ce46d8c340190a63252971c7e99
+SHA256: 940d14bdfbf1b8d31fccfb1173faf233957e631736ebdcbaeff326ca46cf20e8
+Section: Tweaks
+Description: Remove Local Network permission check in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytnochecklocalnetwork.html
+Name: YTNoCheckLocalNetwork
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytnochecklocalnetwork.json
+
 Package: com.ps.ytreexplore
 Version: 1.0.0
 Architecture: iphoneos-arm
