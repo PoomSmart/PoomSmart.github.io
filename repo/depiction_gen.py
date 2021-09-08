@@ -294,6 +294,7 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
+            [ "1.5.9 (15.10.4+)", "Fixed PiP controller not working on iOS 13 and below in recent YouTube versions" ],
             [ "1.5.8 (15.10.4+)", "Minor code optimizations" ],
             [ "1.5.7 (15.10.4+)", "Fixed YouPiP settings not showing on older versions of YouTube" ],
             [ "1.5.6 (15.10.4+)", "Fixed crashing on YouTube version 16.29.4" ],
