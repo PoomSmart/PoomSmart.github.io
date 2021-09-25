@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><title>YTABGoodies</title><meta name=viewport content="initial-scale=1, maximum-scale=1, user-scalable=0"><link rel=stylesheet href=../../assets/ios7.min.css><link rel=stylesheet href=../../assets/misc.css><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=11.0 id=prerequisite><p id=pt>Compatible with iOS 11.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa. This tweak will enable or disable those features in a way useful to you. This replaces the following tweaks:</ul><ul><li><a href=https://poomsmart.github.io/repo/depictions/youarethere>YouAreThere</a><li><a href=https://poomsmart.github.io/repo/depictions/youremembercaption>YouRememberCaption</a><li><a href=https://poomsmart.github.io/repo/depictions/ytnochecklocalnetwork>YTNoCheckLocalNetwork</a><li><a href=https://poomsmart.github.io/repo/depictions/ytsystemappearance>YTSystemAppearance</a></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>%hook YTColdConfig
+
+- (BOOL)respectDeviceCaptionSetting { return NO; }
+- (BOOL)shouldUseAppThemeSetting { return YES; }
+- (BOOL)enableYouthereCommandsOnIos { return NO; }
+
+%end
+
+%hook YTHotConfig
+
+- (BOOL)isPromptForLocalNetworkPermissionsEnabled { return NO; }
+
+%end
+
+%hook YTYouThereController
+
+- (BOOL)shouldShowYouTherePrompt { return NO; }
+
+%end</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>

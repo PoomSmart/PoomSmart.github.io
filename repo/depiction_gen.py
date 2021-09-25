@@ -8,6 +8,9 @@ screenshots_dir = os.path.join(root, 'screenshots')
 env = Environment(loader=FileSystemLoader(templates_dir), trim_blocks=True, lstrip_blocks=True)
 html_template = env.get_template('index.html')
 
+def tweak_url(name):
+    return f"https://poomsmart.github.io/repo/depictions/{name}"
+
 tweaks = [
     {
         "file": "60fps",
@@ -544,6 +547,26 @@ tweaks = [
         "has_source_code": True,
         "screenshots": True,
         "description": "<p>Remove Local Network permission check in YouTube app.</p>"
+    },
+    {
+        "file": "ytabgoodies",
+        "title": "YTABGoodies",
+        "min_ios": "11.0",
+        "has_source_code": True,
+        "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
+            This tweak will enable or disable those features in a way useful to you.\
+            This replaces the following tweaks:</p>",
+        "extra_content": "<ul>\
+                <li><a href=\"{}\">YouAreThere</a></li>\
+                <li><a href=\"{}\">YouRememberCaption</a></li>\
+                <li><a href=\"{}\">YTNoCheckLocalNetwork</a></li>\
+                <li><a href=\"{}\">YTSystemAppearance</a></li>\
+            </ul>".format(
+                tweak_url("youarethere"),
+                tweak_url("youremembercaption"),
+                tweak_url("ytnochecklocalnetwork"),
+                tweak_url("ytsystemappearance")
+            )
     }
 ]
 
@@ -563,6 +586,9 @@ for entry in tweaks:
     has_source_code = entry.get("has_source_code")
     debug = entry.get("debug")
     description = re.sub(r'\s+', ' ', entry.get("description"))
+    extra_content = entry.get("extra_content")
+    if extra_content:
+        extra_content = re.sub(r'\s+', ' ', extra_content)
     output_path = os.path.join(root, "depictions", "%s.html" % file)
 
     source_code = None
@@ -590,6 +616,7 @@ for entry in tweaks:
             changes=changes,
             screenshots=screenshot_objects,
             description=description,
+            extra_content=extra_content,
             source_code=html.escape(source_code) if source_code is not None else None,
             debug=debug
         ), minify_js=False, minify_css=False))
@@ -622,6 +649,13 @@ for entry in tweaks:
                         "itemSize": "{160,284}"
                     }
                     views.insert(0, screenshots_json)
+                if extra_content:
+                    views.append({
+                        "class": "DepictionMarkdownView",
+                        "markdown": extra_content,
+                        "useSpacing": True,
+                        "useRawFormat": True
+                    })
         if min_ios:
             support_versions = {
                 "class": "DepictionSubheaderView",

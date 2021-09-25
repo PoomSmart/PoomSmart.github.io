@@ -2446,6 +2446,27 @@ Depiction: https://poomsmart.github.io/repo/depictions/youremembercaption.html
 Name: YouRememberCaption
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youremembercaption.json
 
+Package: com.ps.ytabgoodies
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Replaces: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Provides: com.ps.youremembercaption, com.ps.ytnochecklocalnetwork, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/com.ps.ytabgoodies_1.0.0_iphoneos-arm.deb
+Size: 4218
+MD5sum: 43e5e0411b1d53943e5b303402e55834
+SHA1: c5d62d174db09fffcf3087a0de3c94a68c67b126
+SHA256: 9e860a288dbbcbfa8592496ab4d65ff3a1cbc3510afa649031766ade74307ac3
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.0
 Architecture: iphoneos-arm

@@ -50,6 +50,9 @@
                 {{ description }}
             </li>
         </ul>
+{% if extra_content %}
+        {{ extra_content }}
+{% endif %}
 {% if changes %}
         <h2 role="header">Changelog</h2>
         <ul>
