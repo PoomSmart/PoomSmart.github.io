@@ -39,10 +39,11 @@ tweaks = [
             [ "1.1.1", "Compiled with ARC" ],
             [ "1.0.0", "Reworked Settings page for better visual in recent iOS versions" ]
         ],
-        "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b> This tweak allows you to override system's emoji font without swapping them. Access <b>Settings app &gt; EmojFontManager</b>\
-                        to choose your font. Fonts (folder with extension .font AND having AppleColorEmoji@2x.ttf/.ttc font inside)\
-                        that can be used by this tweak should be placed in <code>/Library/Themes/EmojiFontManager</code>. It is highly recommended\
-                        to respring after you change the font.</p>"
+        "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b><br/>\
+            This tweak allows you to theme emoji font wihout touching filesystem.\
+            Access <b>Settings app &gt; EmojFontManager</b> to choose your font.<br/>\
+            EFM fonts must be in this format: <code>/Library/Themes/EmojiFontManager/&lt;Font-Name&gt;.font/AppleColorEmoji@2x.{ttf,ttc}</code><br/>\
+            It is highly recommended to respring after you change the font.</p>"
     },
     {
         "file": "emojilayout",
@@ -258,7 +259,7 @@ tweaks = [
         "file": "ytuhd",
         "title": "YTUHD",
         "min_ios": "11.0",
-        "has_source_code": True,
+        "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
             [ "1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there" ],
@@ -408,6 +409,7 @@ tweaks = [
         "file": "ytclassicvideoquality",
         "title": "YTClassicVideoQuality",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
@@ -419,6 +421,7 @@ tweaks = [
         "file": "igclassiclayout",
         "title": "IGClassicLayout",
         "min_ios": "13.0",
+        "tintColor": "orange",
         "has_source_code": True,
         "description": "<p>Restore the original buttons layout in Instagram; Home-Search-Compose-Likes-Profile at bottom and Messages at top.</p>",
         "changes": [
@@ -450,6 +453,7 @@ tweaks = [
         "title": "LPM Enabler",
         "min_ios": "11.0",
         "max_ios": "14.8",
+        "tintColor": "yellow",
         "strict_range": True,
         "has_source_code": True,
         "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
@@ -466,7 +470,7 @@ tweaks = [
         "title": "CC On & Off",
         "min_ios": "11.0",
         "has_source_code": True,
-        "description": "<p>Toggle Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11 and above.</p>",
+        "description": "<p>Toggle Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11+.</p>",
         "changes": [
             [ "1.0.0", "Compiled with ARC" ],
             [ "0.0.1.1", "Initial release" ]
@@ -476,6 +480,7 @@ tweaks = [
         "file": "ytsystemappearance",
         "title": "YTSystemAppearance",
         "min_ios": "13.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
     },
@@ -483,6 +488,7 @@ tweaks = [
         "file": "ytreexplore",
         "title": "YTReExplore",
         "min_ios": "11.0",
+        "tintColor": "red",
         "screenshots": True,
         "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
@@ -496,6 +502,7 @@ tweaks = [
         "file": "youarethere",
         "title": "YouAreThere",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Disable \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
     },
@@ -503,8 +510,9 @@ tweaks = [
         "file": "noytpremium",
         "title": "noytpremium",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
-        "description": "<p>Remove YouTube Premium upsell alerts <b>(Mass testing release)</b>.</p>",
+        "description": "<p>Remove YouTube Premium upsell alerts.</p>",
         "changes": [
             [ "1.0.1 - 1.0.2", "Hook more methods" ],
             [ "1.0.0", "Initial release" ]
@@ -514,6 +522,7 @@ tweaks = [
         "file": "noytmpremium",
         "title": "noytmpremium",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
     },
@@ -521,6 +530,7 @@ tweaks = [
         "file": "youremembercaption",
         "title": "youremembercaption",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Make YouTube remember your video caption setting, if not already.</p>"
     },
@@ -544,6 +554,7 @@ tweaks = [
         "file": "ytnochecklocalnetwork",
         "title": "YTNoCheckLocalNetwork",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "screenshots": True,
         "description": "<p>Remove Local Network permission check in YouTube app.</p>"
@@ -552,6 +563,7 @@ tweaks = [
         "file": "ytabgoodies",
         "title": "YTABGoodies",
         "min_ios": "11.0",
+        "tintColor": "red",
         "has_source_code": True,
         "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
             This tweak will enable or disable those features in a way useful to you.\
