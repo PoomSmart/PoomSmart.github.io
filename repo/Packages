@@ -2567,7 +2567,7 @@ Maintainer: Spica T
 Installed-Size: 160
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.appcolorclose
-Filename: ./debs/spicat/com.spicat.appcolorclose_1.2_iphoneos-arm.deb
+Filename: ./debs/springboard/com.spicat.appcolorclose_1.2_iphoneos-arm.deb
 Size: 20512
 MD5sum: 544928b1ee498d993a4666ce7b3c2f8a
 SHA1: 858b68c3cd0f289c1fcafc879d88f5d8fdf632be
@@ -2586,7 +2586,7 @@ Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 4) | cy+model.ip
 Conflicts: org.thebigboss.flashorama
 Replaces: org.thebigboss.flashorama
 Provides: org.thebigboss.flashorama
-Filename: ./debs/spicat/com.spicat.flashorama_1.6.2_iphoneos-arm.deb
+Filename: ./debs/camera/com.spicat.flashorama_1.6.2_iphoneos-arm.deb
 Size: 38944
 MD5sum: 5e0d654fe9321e3e18f7511c623a3909
 SHA1: 2a9d41c068a2a10a56ecf52253a81985b922ef66
@@ -2606,7 +2606,7 @@ Depends: mobilesubstrate, firmware (>= 7.0)
 Conflicts: org.thebigboss.internalphotos
 Replaces: org.thebigboss.internalphotos
 Provides: org.thebigboss.internalphotos
-Filename: ./debs/spicat/com.spicat.internalphotos_1.2.1_iphoneos-arm.deb
+Filename: ./debs/com.spicat.internalphotos_1.2.1_iphoneos-arm.deb
 Size: 12856
 MD5sum: ba162ef65cb8f62f256705f00c95d342
 SHA1: 12c243bee8a5a6ca802c526fdc0934ee874d7e78
@@ -2623,7 +2623,7 @@ Maintainer: Spica T
 Installed-Size: 364
 Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), ws.hbang.common (>= 1.2)
 Conflicts: org.thebigboss.photores
-Filename: ./debs/spicat/com.spicat.photores_1.4.2_iphoneos-arm.deb
+Filename: ./debs/camera/com.spicat.photores_1.4.2_iphoneos-arm.deb
 Size: 33206
 MD5sum: e575fb33f096d633264079308677f374
 SHA1: 23fd41ba6ccb1c072bf984dab6ca94fc6f8cf403
@@ -2642,7 +2642,7 @@ Depends: firmware (>= 6.0), gsc.camera-flash, mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.phototorch
 Replaces: org.thebigboss.phototorch
 Provides: org.thebigboss.phototorch
-Filename: ./debs/spicat/com.spicat.phototorch_1.7.1_iphoneos-arm.deb
+Filename: ./debs/camera/com.spicat.phototorch_1.7.1_iphoneos-arm.deb
 Size: 163808
 MD5sum: 9f3550b7d968e2c2ca3d0c3c963c6181
 SHA1: 5ba9cb5a13a3a4faba1f9ceb8cbc27a0611b65b9
@@ -2659,7 +2659,7 @@ Maintainer: SpicaT
 Installed-Size: 156
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0), gsc.camera-flash, gsc.still-camera, ws.hbang.common (>= 1.2)
 Conflicts: org.thebigboss.recordntorch
-Filename: ./debs/spicat/com.spicat.recordntorch_1.8_iphoneos-arm.deb
+Filename: ./debs/camera/com.spicat.recordntorch_1.8_iphoneos-arm.deb
 Size: 18128
 MD5sum: da887b3fecfc781b1831d9f779e3cc7a
 SHA1: f12849a04b943837b24aa8dbee041231ae38c391
@@ -2679,7 +2679,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), ws.hbang.common (
 Conflicts: org.thebigboss.transparentcamerabar
 Replaces: org.thebigboss.transparentcamerabar
 Provides: org.thebigboss.transparentcamerabar
-Filename: ./debs/spicat/com.spicat.transparentcamerabar_1.8_iphoneos-arm.deb
+Filename: ./debs/camera/com.spicat.transparentcamerabar_1.8_iphoneos-arm.deb
 Size: 67716
 MD5sum: 90d9c8d47cac5c3795020b240667a7a2
 SHA1: 15bfdf21d879e2dd691c57389b0bd02e384169f6
@@ -2696,7 +2696,7 @@ Architecture: iphoneos-arm
 Maintainer: Spica T
 Installed-Size: 136
 Depends: mobilesubstrate, com.ps.emojilibrary
-Filename: ./debs/spicat/com.spicat.whatsallemojis_0.0.1_iphoneos-arm.deb
+Filename: ./debs/com.spicat.whatsallemojis_0.0.1_iphoneos-arm.deb
 Size: 4590
 MD5sum: c7601c7cd4a9e04a71d77dd43dc3be90
 SHA1: 8452f02617061184230ea2b062efc27e7de3013a
