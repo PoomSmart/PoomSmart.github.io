@@ -642,6 +642,24 @@ Description: Necessary resources for EmojiPort iOS 10 and higher.
 Author: PoomSmart
 Name: EmojiPort Resources (iOS 10+)
 
+Package: com.ps.emojiport10resources
+Version: 1.2.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 119820
+Depends: firmware (>= 10.0)
+Filename: ./debs/emojiport/com.ps.emojiport10resources_1.2.6_iphoneos-arm.deb
+Size: 29738048
+MD5sum: ed6bb9ddc1194e1f0cbe3b62dc119849
+SHA1: ee4ce43f1f23ce42cb3e6b1c06ad4125027d370f
+SHA256: 6dc7bbd7accd88ff56874b5e640dfacd58fda2b7b437b24b817f287a5cbb81a9
+Section: Tweaks
+Description: Necessary resources for EmojiPort running on iOS 10+.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
+Name: EmojiPort Resources (iOS 10+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
+
 Package: com.ps.emojiportalpha
 Version: 1.0.10
 Architecture: iphoneos-arm

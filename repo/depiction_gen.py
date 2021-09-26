@@ -31,6 +31,15 @@ tweaks = [
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
     },
     {
+        "file": "emojiport10resources",
+        "title": "emojiport10resources",
+        "min_ios": "10.0",
+        "changes": [
+            [ "1.2.6", "Updated to iOS 15.0 assets" ]
+        ],
+        "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata, translation) for iOS 10 and above.</p>"
+    },
+    {
         "file": "emojifontmanager",
         "title": "EmojiFontManager",
         "min_ios": "6.0",
