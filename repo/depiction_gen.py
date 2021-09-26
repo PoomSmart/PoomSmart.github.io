@@ -62,8 +62,7 @@ tweaks = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            [ "1.3.0", "Compiled with ARC" ],
-            [ "1.2.3", "Release version" ]
+            [ "1.3.0", "Compiled with ARC" ]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
@@ -226,8 +225,7 @@ tweaks = [
         "title": "Pencil Pro",
         "min_ios": "9.0",
         "changes": [
-            [ "1.0.0", "Fixed issues with GoodNotes 5 app" ],
-            [ "0.0.2.5", "Improved iOS/iPadOS 14 support" ]
+            [ "1.0.0", "Fixed issues with GoodNotes 5 app" ]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>\
             <p>For more details, visit tweak's <a href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
@@ -384,13 +382,7 @@ tweaks = [
         "featured_as_banner": True,
         "description": "<p>Allow widgets to be on home screen on iPad.</p>",
         "changes": [
-            [ "1.4.0", "Removed icon grid size overrides, please use PadGrid to adjust this instead" ],
-            [ "1.3.0",
-                [
-                    "Fixed widgets being off grid at the edge",
-                    "Added one more row for Portrait grid"
-                ]
-            ]
+            [ "1.4.0", "Removed icon grid size overrides, please use PadGrid to adjust this instead" ]
         ]
     },
     {
@@ -425,8 +417,7 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Restore the original buttons layout in Instagram; Home-Search-Compose-Likes-Profile at bottom and Messages at top.</p>",
         "changes": [
-            [ "1.0.1", "Remove top Reels section in Search page" ],
-            [ "1.0.0", "Initial release" ]
+            [ "1.0.1", "Remove top Reels section in Search page" ]
         ]
     },
     {
@@ -494,8 +485,7 @@ tweaks = [
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
             <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
         "changes": [
-            [ "1.0.1", "Minor optimization" ],
-            [ "1.0.0", "Initial release" ]
+            [ "1.0.1", "Minor optimization" ]
         ]
     },
     {
@@ -514,8 +504,7 @@ tweaks = [
         "has_source_code": True,
         "description": "<p>Remove YouTube Premium upsell alerts.</p>",
         "changes": [
-            [ "1.0.1 - 1.0.2", "Hook more methods" ],
-            [ "1.0.0", "Initial release" ]
+            [ "1.0.2", "Hook more methods" ]
         ]
     },
     {
