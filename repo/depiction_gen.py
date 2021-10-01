@@ -591,6 +591,7 @@ tweaks = [
             <li>Plants vs Zombies 2</li>\
             <li>Bejeweled Blitz</li>\
             <li>Bejeweled Classic (HD)</li>\
+            <li>Bloons TD 5</li>\
         </ul>"
     },
 ]
