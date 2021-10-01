@@ -343,6 +343,24 @@ Description: Add customizable blur to SpringBoard icon badges.
 Author: PoomSmart
 Name: BlurryBadges
 
+Package: com.ps.cahighfps
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.ps.cahighfps_1.0.0_iphoneos-arm.deb
+Size: 4782
+MD5sum: 41de5bc2c44b41d2359f7a469c15bd22
+SHA1: 6a104faf3e389523c71ff58ae5c73f10dfaefdc6
+SHA256: 843a1761d775aa523466d13c6e07f2caa4092856373253ab6f4fd0a68885e852
+Section: Tweaks
+Description: Make your CoreAnimation applications use the highest available FPS.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
 Package: com.ps.calleridfs
 Version: 0.0.2
 Architecture: iphoneos-arm

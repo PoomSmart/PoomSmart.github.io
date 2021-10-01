@@ -577,7 +577,22 @@ tweaks = [
                 tweak_url("ytnochecklocalnetwork"),
                 tweak_url("ytsystemappearance")
             )
-    }
+    },
+    {
+        "file": "cahighfps",
+        "title": "CoreAnimationHighFPS",
+        "min_ios": "7.0",
+        "description": "<p>Make your CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
+            Head to Settings > CAHighFPS and enable the tweak for each of your apps.\
+            Tested on these apps:</p>",
+        "extra_content": "<ul>\
+            <li>Where's My Water 2</li>\
+            <li>Plants vs Zombies (HD)</li>\
+            <li>Plants vs Zombies 2</li>\
+            <li>Bejeweled Blitz</li>\
+            <li>Bejeweled Classic (HD)</li>\
+        </ul>"
+    },
 ]
 
 sileo_keys = [
