@@ -583,7 +583,7 @@ tweaks = [
         "title": "CoreAnimationHighFPS",
         "min_ios": "7.0",
         "description": "<p>Make your CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
-            Head to Settings > CAHighFPS and enable the tweak for each of your apps.\
+            Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ul>\
             <li>Where's My Water 2</li>\
@@ -592,7 +592,11 @@ tweaks = [
             <li>Bejeweled Blitz</li>\
             <li>Bejeweled Classic (HD)</li>\
             <li>Bloons TD 5</li>\
-        </ul>"
+        </ul>",
+        "changes": [
+            [ "1.0.1", "Enforces the value of preferredFramesPerSecond to zero (highest)" ],
+            [ "1.0.0", "Initial release" ]
+        ]
     },
 ]
 
