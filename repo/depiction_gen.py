@@ -582,7 +582,7 @@ tweaks = [
         "file": "cahighfps",
         "title": "CoreAnimationHighFPS",
         "min_ios": "7.0",
-        "description": "<p>Make your CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
+        "description": "<p>Make CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ul>\
@@ -592,8 +592,11 @@ tweaks = [
             <li>Bejeweled Blitz</li>\
             <li>Bejeweled Classic (HD)</li>\
             <li>Bloons TD 5</li>\
+            <li>Tiny Wings</li>\
+            <li>Real Racing 3</li>\
         </ul>",
         "changes": [
+            [ "1.0.2", "List only user apps because Apple apps are not capped" ],
             [ "1.0.1", "Enforces the value of preferredFramesPerSecond to zero (highest)" ],
             [ "1.0.0", "Initial release" ]
         ]
