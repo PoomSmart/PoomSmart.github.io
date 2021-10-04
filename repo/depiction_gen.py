@@ -596,9 +596,13 @@ tweaks = [
             <li>Real Racing 3</li>\
         </ul>",
         "changes": [
-            [ "1.0.2", "List only user apps because Apple apps are not capped" ],
-            [ "1.0.1", "Enforces the value of preferredFramesPerSecond to zero (highest)" ],
-            [ "1.0.0", "Initial release" ]
+            [ "1.0.3",
+                [
+                    "Added arm64e slice",
+                    "Separate system and user apps in sections"
+                ]
+            ],
+            [ "1.0.1", "Enforces the value of preferredFramesPerSecond to zero (highest)" ]
         ]
     },
 ]
