@@ -586,6 +586,7 @@ tweaks = [
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ul>\
+            <li>Safari Browser</li>\
             <li>Where's My Water 2</li>\
             <li>Plants vs Zombies (HD)</li>\
             <li>Plants vs Zombies 2</li>\
