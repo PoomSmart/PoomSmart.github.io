@@ -599,6 +599,7 @@ tweaks = [
             <li>Jelly Defense</li>\
         </ul>",
         "changes": [
+            [ "1.1.0", "Added support for an array of Metal-based apps" ],
             [ "1.0.3",
                 [
                     "Added arm64e slice",
