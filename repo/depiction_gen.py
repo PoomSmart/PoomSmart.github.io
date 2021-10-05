@@ -586,7 +586,7 @@ tweaks = [
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ul>\
-            <li>Safari Browser</li>\
+            <li>Safari Browser (1.0.3+)</li>\
             <li>Where's My Water 2</li>\
             <li>Plants vs Zombies (HD)</li>\
             <li>Plants vs Zombies 2</li>\
@@ -595,6 +595,8 @@ tweaks = [
             <li>Bloons TD 5</li>\
             <li>Tiny Wings</li>\
             <li>Real Racing 3</li>\
+            <li>Asphalt 8/9 (1.1.0+)</li>\
+            <li>Jelly Defense</li>\
         </ul>",
         "changes": [
             [ "1.0.3",
