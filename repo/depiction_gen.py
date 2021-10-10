@@ -179,6 +179,7 @@ tweaks = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
+            [ "1.0.2", "Fixed crashing on iOS 12 when opening flashlight CC module" ],
             [ "1.0.1", "Compiled Amber CC Module with ARC" ],
             [ "1.0.0", "Amber Flipswitch now includes arm64e slice" ]
         ],
@@ -586,6 +587,7 @@ tweaks = [
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ul>\
+            <li>Asphalt 8/9 (1.1.0+)</li>\
             <li>Safari Browser (1.0.3+)</li>\
             <li>Where's My Water 2</li>\
             <li>Plants vs Zombies (HD)</li>\
@@ -595,7 +597,6 @@ tweaks = [
             <li>Bloons TD 5</li>\
             <li>Tiny Wings</li>\
             <li>Real Racing 3</li>\
-            <li>Asphalt 8/9 (1.1.0+)</li>\
             <li>Jelly Defense</li>\
         </ul>",
         "changes": [
