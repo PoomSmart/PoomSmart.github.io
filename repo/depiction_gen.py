@@ -270,6 +270,7 @@ tweaks = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            [ "1.2.5", "Fixed crashing on some older YouTube versions" ],
             [ "1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there" ],
             [ "1.2.3", "Added back support for iOS 11 and 12" ],
             [ "1.2.2",
@@ -306,6 +307,13 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
+            [ "1.5.11 (15.10.4+)",
+                [
+                    "Known issue: PiP may not work on iOS 12",
+                    "Fixed crashing on some older YouTube versions",
+                    "Enforces legacy video decoder when legacy PiP is enabled"
+                ]
+            ],
             [ "1.5.10 (15.10.4+)",
                 [
                     "Compiled with iOS 15.0 SDK",

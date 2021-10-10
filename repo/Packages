@@ -1780,7 +1780,7 @@ Depends: mobilesubstrate, firmware (>= 14.0) | gsc.ipad | com.cabralcole.forcein
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.0.0_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.0.0_iphoneos-arm.deb
 Size: 12730
 MD5sum: 944a6409a173e703f3e8f5d567242b41
 SHA1: 8966f25e77ef236969e6d1311f2386e9577033b6
@@ -1801,7 +1801,7 @@ Depends: mobilesubstrate, firmware (>= 14.0) | gsc.ipad | com.cabralcole.forcein
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.1.0_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.1.0_iphoneos-arm.deb
 Size: 13180
 MD5sum: dcf0b24076c57990be4925b196a6817c
 SHA1: 1fb2dea7719a939e8bf4a6ab80101b9b6a533671
@@ -1822,7 +1822,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0) | gsc.ipad | com.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.2.0_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.2.0_iphoneos-arm.deb
 Size: 19856
 MD5sum: ec6c7e059d8b91c37c9df4b88aae4c92
 SHA1: c2390cbea60751d461e255061e5d92dbc7d9ec5a
@@ -1843,7 +1843,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0) | gsc.ipad | com.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.2.1_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.2.1_iphoneos-arm.deb
 Size: 19866
 MD5sum: 637b47c4cef20bc25414ad54ffef9172
 SHA1: 885dfda69e947c2ade6319d786d538cc57164e2f
@@ -1864,7 +1864,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0) | gsc.ipad | com.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.2.2_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.2.2_iphoneos-arm.deb
 Size: 26312
 MD5sum: df65b427bca270f549230fc64fbea50f
 SHA1: 17f7a1eafd08682a55dbf7142dc4da6404d32884
@@ -1885,7 +1885,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.2.3_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.2.3_iphoneos-arm.deb
 Size: 17012
 MD5sum: 6d207ba3202e644536bd58149fbe00c8
 SHA1: 2e06bbfc06b160c2f7cbf0d3cd95a0aa8f64866a
@@ -1906,7 +1906,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.3.1_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.3.1_iphoneos-arm.deb
 Size: 17528
 MD5sum: 2604a1ae3497026f20a2b156989c4e88
 SHA1: b8325168956707d21eee4bf386a903ff37d09125
@@ -1927,7 +1927,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.3.2_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.3.2_iphoneos-arm.deb
 Size: 17574
 MD5sum: 22582f11095b9f0a851a572f093dd13a
 SHA1: 0f856e6a8e89f1918b00a43f1f9a8bca2cd7cb5e
@@ -1948,7 +1948,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.3.3_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.3.3_iphoneos-arm.deb
 Size: 17344
 MD5sum: ca689f5a41ba0284dc0985ae9013bd10
 SHA1: a8b3f6f13134a7c5aba21f547658c0a3afd112cd
@@ -1969,7 +1969,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.3.4_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.3.4_iphoneos-arm.deb
 Size: 17370
 MD5sum: 027abc1278fa826e3bbadfd72f64e85c
 SHA1: 189d207e760006a80a9029fb9d150e0623473ea7
@@ -1990,7 +1990,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.0_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.0_iphoneos-arm.deb
 Size: 18858
 MD5sum: aaa2bfc4703c742093241846d6839e9c
 SHA1: 91f000273ad634335267fefbf7b09169c76a044d
@@ -2011,7 +2011,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.1_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.1_iphoneos-arm.deb
 Size: 17060
 MD5sum: 3ab01a9f37d1f1f5542fd920c10261c3
 SHA1: ef4cf667a3114a4a68329100c61fb6b249dd1367
@@ -2032,7 +2032,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.10_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.10_iphoneos-arm.deb
 Size: 18342
 MD5sum: 7f2bf914a3b21ee395da9dc021aa967d
 SHA1: c8723d1ecdd71dd16db295cc45aa74fd1e6509de
@@ -2053,7 +2053,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.11_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.11_iphoneos-arm.deb
 Size: 18446
 MD5sum: 3c2c73e856fae3d16b1eec15e393c62a
 SHA1: dbbb8895e361eafeb3d6d71f177fdf6d5fd2e43d
@@ -2074,7 +2074,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.2_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.2_iphoneos-arm.deb
 Size: 17090
 MD5sum: 322b8b7aa1f3c65f957a9d73c19fdf01
 SHA1: 2d9edafe5fc5c976be85bf5cf2ecf3aace7d1a3a
@@ -2095,7 +2095,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.3_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.3_iphoneos-arm.deb
 Size: 17584
 MD5sum: bc65b288db52c5be42b9fd56c49eabd5
 SHA1: ab01711f1ba35b4e479ea453ea0fb759fa2f3c93
@@ -2116,7 +2116,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.4_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.4_iphoneos-arm.deb
 Size: 16240
 MD5sum: 42cb9f452ce7bfaa4dc9440ac68422e5
 SHA1: 7417613787a83aad3c60025662b62404f3f895fb
@@ -2137,7 +2137,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.5_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.5_iphoneos-arm.deb
 Size: 18008
 MD5sum: f95639eb3b37e5e460d9a33207148747
 SHA1: d143adde1ae509317e6f56702acbf1a147829341
@@ -2158,7 +2158,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.7_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.7_iphoneos-arm.deb
 Size: 18412
 MD5sum: 0add87ab22150be38ab9e40d141ed862
 SHA1: eacbb1d2495fc190044184d6f7d8eca48bcf88b5
@@ -2179,7 +2179,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.8_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.8_iphoneos-arm.deb
 Size: 18272
 MD5sum: 28b4acbb8e6621ba0dd7f62b9f274801
 SHA1: ea1cac3e97fe4312d1d622cdf491d338fc91cd85
@@ -2200,7 +2200,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 14.
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.4.9_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.4.9_iphoneos-arm.deb
 Size: 18240
 MD5sum: 3a49f5ec1b55e6130fab29bd496136a2
 SHA1: 5464b67ed1009b06a108e106e6d412fc1ef68e2b
@@ -2221,11 +2221,32 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.10_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.10_iphoneos-arm.deb
 Size: 18970
 MD5sum: 0183b26d305adfdfc7e2dfdc2ac42340
 SHA1: d08428d7c4eba9fffa0bc7060b8455c6592e3523
 SHA256: 18df62e1903b3b845308b25a70cfa6ce4eb7de5db455ab409ed5cb49379e55c2
+Section: Tweaks
+Description: Enable native PiP in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.5.11
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.11_iphoneos-arm.deb
+Size: 19456
+MD5sum: e8c701c8f6c19cebe3c72ff08100a795
+SHA1: 580bcf988c71fd1c4007a62db84565147edddd0f
+SHA256: 47cb867066f52d2aae6f8728f7e60767b5ad70fec2b9b02275f5072daf17313f
 Section: Tweaks
 Description: Enable native PiP in YouTube app.
 Author: PoomSmart
@@ -2242,7 +2263,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.2_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.2_iphoneos-arm.deb
 Size: 18708
 MD5sum: e5fe3a938c29374725c4b72d2218cd7d
 SHA1: 87ab7730e83d43887aa11e61270a583fe2ea616a
@@ -2263,7 +2284,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.4_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.4_iphoneos-arm.deb
 Size: 18772
 MD5sum: 8d18a6010ad91bcfe8bf6c721195fa4b
 SHA1: 4cc1007ac15314d56d72e21c9ffe91e2168cb185
@@ -2284,7 +2305,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.5_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.5_iphoneos-arm.deb
 Size: 19162
 MD5sum: 11c61b34dca480deaa6bf04868462594
 SHA1: 1e566534808e3085a440f3fa804562cc89afd364
@@ -2305,7 +2326,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.6_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.6_iphoneos-arm.deb
 Size: 18778
 MD5sum: 78fbc0b6f194c7d26ce421d0e392979a
 SHA1: bb6e53313fb6a75bc3abe57863a9ae02342e13a6
@@ -2326,7 +2347,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.7_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.7_iphoneos-arm.deb
 Size: 18804
 MD5sum: cd4b9d2638da55b5fe90dd2c48b3113e
 SHA1: 535ef991874c7a13961d8085cfdec139a697dd03
@@ -2347,7 +2368,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.8_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.8_iphoneos-arm.deb
 Size: 18816
 MD5sum: 076b7510d3411cab76b70f6554a2704f
 SHA1: 933acc1af09d0af64c557f3443a48b99df78fdf4
@@ -2368,7 +2389,7 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youpip/com.ps.youpip_1.5.9_iphoneos-arm.deb
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.5.9_iphoneos-arm.deb
 Size: 18860
 MD5sum: 973823199dc96421b3d432069f47dc87
 SHA1: 972910ae6e0c29b091ee9f315af7743e48ed4517
@@ -2511,7 +2532,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.0.1_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.0.1_iphoneos-arm.deb
 Size: 3252
 MD5sum: 29c4e87918229ad8c86512de2ccd006a
 SHA1: 759b2fe7f78489fb5941ee8fbde41a06379a114f
@@ -2529,7 +2550,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.0.2_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.0.2_iphoneos-arm.deb
 Size: 3394
 MD5sum: 6ccc3fcf54018ecfb838585974c5d2ab
 SHA1: 5e721bfe5d80523c4ea69bf472d159933747343d
@@ -2547,7 +2568,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.1.1_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.1.1_iphoneos-arm.deb
 Size: 4342
 MD5sum: 81650720f92fd32e43abb11144b51cbb
 SHA1: 9c4b2430e35775b8e00527dd08a3b020374bb89f
@@ -2565,7 +2586,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.1.2_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.1.2_iphoneos-arm.deb
 Size: 3974
 MD5sum: f783a335439ad1c1bb2120ea78bb0c43
 SHA1: e6abae2813e12a797517334e8f8fad0f39fce9c3
@@ -2583,7 +2604,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.2.0_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.2.0_iphoneos-arm.deb
 Size: 81904
 MD5sum: 328092fe751c780ac4a997a7647690f6
 SHA1: f99dadefbc31cc3457b3b823c804712771350abd
@@ -2601,7 +2622,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.2.2_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.2.2_iphoneos-arm.deb
 Size: 82326
 MD5sum: 0ab02116ea205078790b6ab343450cc6
 SHA1: f0049121533a9f5474e5ac282ad1bedb82d4dde9
@@ -2619,7 +2640,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.2.3_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.2.3_iphoneos-arm.deb
 Size: 82188
 MD5sum: a7b1f7ade50150284b03050405888702
 SHA1: 8fc73de5d595dd4c8955d33909d553aa46598c02
@@ -2637,11 +2658,29 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/ytuhd/com.ps.ytuhd_1.2.4_iphoneos-arm.deb
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.2.4_iphoneos-arm.deb
 Size: 82094
 MD5sum: 8703113c5f443e5079584a8f49ff856c
 SHA1: de9598104ed8fdc96714a7980e06a80077ce356c
 SHA256: 1d104af633dbf83c942068afdd94b443f3d4e5d3e7868bba26be452e6ae44c04
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.2.5_iphoneos-arm.deb
+Size: 82330
+MD5sum: e3ce6d3a4ca26a487f892359de2eb0e7
+SHA1: 756b55cfee7661bb83614116b4b05b2fc7c8ee8a
+SHA256: bcf8d518ab2b7daff073768df6e8eb1d956afbd7c66d35855b75ab03fd9b99d4
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
