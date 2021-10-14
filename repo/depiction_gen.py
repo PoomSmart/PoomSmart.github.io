@@ -307,25 +307,26 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.5.12 (15.10.4+)", "Make PiP toggle displays for non-premium users on YouTube 16.40.3" ],
-            [ "1.5.11 (15.10.4+)",
+            [ "1.5.13", "Make Legacy PiP enabled by default for iOS 11/12" ],
+            [ "1.5.12", "Make PiP toggle displays for non-premium users on YouTube 16.40.3" ],
+            [ "1.5.11",
                 [
                     "Known issue: PiP may not work on iOS 12",
                     "Fixed crashing on some older YouTube versions",
                     "Enforces legacy video decoder when legacy PiP is enabled"
                 ]
             ],
-            [ "1.5.10 (15.10.4+)",
+            [ "1.5.10",
                 [
                     "Compiled with iOS 15.0 SDK",
                     "Inject PiP controller into YTAutonavEndscreenController for better iOS 13- compatibility"
                 ]
             ],
-            [ "1.5.9 (15.10.4+)", "Fixed PiP controller not working on iOS 13- in recent YouTube versions" ],
-            [ "1.5.8 (15.10.4+)", "Minor code optimizations" ],
-            [ "1.5.7 (15.10.4+)", "Fixed YouPiP settings not showing on older versions of YouTube" ],
+            [ "1.5.9", "Fixed PiP controller not working on iOS 13- in recent YouTube versions" ],
+            [ "1.5.8", "Minor code optimizations" ],
+            [ "1.5.7", "Fixed YouPiP settings not showing on older versions of YouTube" ],
             [ "1.5.6 (15.10.4+)", "Fixed crashing on YouTube version 16.29.4" ],
-            [ "1.5.5 (15.10.4 - 16.28.2)", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
+            [ "1.5.5", "Fixed YouPiP settings being unsynchronized when other native settings are toggled" ],
             [ "1.5.4 (15.10.4 - 16.28.2)",
                 [
                     "Fixed PiP still being activated when \"Use PiP Button\" is on, on app dismiss",
@@ -333,7 +334,7 @@ tweaks = [
                     "PiP button now shows or hides according to the setting"
                 ]
             ],
-            [ "1.5.2 (15.10.4+)",
+            [ "1.5.2",
                 [
                     "Migrated YouPiP settings into YouTube's native settings (Settings > General)",
                     "Added \"Non-backgroundable PiP\" option in settings"
@@ -345,43 +346,43 @@ tweaks = [
                     "Removed potentially unneeded hooks"
                 ]
             ],
-            [ "1.4.10 (15.19.4+)", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9" ],
-            [ "1.4.9 (15.19.4+)",
+            [ "1.4.10", "Fixed PiP activating on app dismiss even when the mode is \"On PiP button tap\" issue introduced in 1.4.9" ],
+            [ "1.4.9",
                 [
                     "Refactored logic around PiP activation via button tap",
                     "Reworked settings page"
                 ]
             ],
-            [ "1.4.8 (15.19.4+)", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself" ],
-            [ "1.4.7 (15.19.4+)",
+            [ "1.4.8", "YouPiP no longer dismisses the app automatically when PiP is activated from the button because the legacy app assertion leads to PiP closing itself" ],
+            [ "1.4.7",
                 [
                     "Fixed crashing on YouTube version 15.49.6 (and maybe lower)",
                     "Fixed crashing on iOS/iPadOS 14.0-14.1 for YouTube version 16.25.2"
                 ]
             ],
-            [ "1.4.5 (15.19.4+)", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people" ],
-            [ "1.4.4 (15.19.4+)", "Added Sample Buffer Hack in settings (iOS/iPadOS 14)" ],
-            [ "1.4.3 (15.19.4+)",
+            [ "1.4.5", "Force-enabled YouTube's enablePipForNonBackgroundableContent flag that may fix PiP crashing issue for some people" ],
+            [ "1.4.4", "Added Sample Buffer Hack in settings (iOS/iPadOS 14)" ],
+            [ "1.4.3",
                 [
                     "Fixed app crashing on some versions of iOS/iPadOS 14",
                     "Added a warning alert if YouTube version is lower than the lowest supported"
                 ]
             ],
-            [ "1.4.2 (15.19.4+)", "Fixed PiP not working on iOS/iPadOS 14.0 - 14.4 for YouTube 16.25.2" ],
-            [ "1.4.1 (15.19.4+)", "Added few more missing logic from iOS 15.0b2 approach" ],
-            [ "1.4.0 (15.19.4+)", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
-            [ "1.3.4 (15.19.4+)", "Enable native PiP toggle inside YouTube settings" ],
-            [ "1.3.3 (15.19.4+)", "Refactored logic related to bootstraping PiP functionality" ],
-            [ "1.3.2 (15.19.4+)", "Fixed crashing due to adding PiP button to the overlay for some users" ],
-            [ "1.3.1 (15.19.4+)",
+            [ "1.4.2", "Fixed PiP not working on iOS/iPadOS 14.0 - 14.4 for YouTube 16.25.2" ],
+            [ "1.4.1", "Added few more missing logic from iOS 15.0b2 approach" ],
+            [ "1.4.0", "Attempted to fix PiP playback speedup bug using iOS 15.0b2 approach" ],
+            [ "1.3.4", "Enable native PiP toggle inside YouTube settings" ],
+            [ "1.3.3", "Refactored logic related to bootstraping PiP functionality" ],
+            [ "1.3.2", "Fixed crashing due to adding PiP button to the overlay for some users" ],
+            [ "1.3.1",
                 [
                     "Fixed crash on YouTube version 15.49.6",
                     "Added legacy PiP implementation in settings"
                 ]
             ],
-            [ "1.2.3 (15.19.4+)", "Removed armv7 slice as YouTube targets iOS 11 and above" ],
+            [ "1.2.3", "Removed armv7 slice as YouTube targets iOS 11 and above" ],
             [ "1.2.2 (15.19.4+)", "Added backward compatibility with YouTube 15.22.4" ],
-            [ "1.2.1 (16.17.4)", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS/iPadOS 14+)" ],
+            [ "1.2.1", "\"On PiP button tap\" should no longer make PiP activated on app dismiss (iOS/iPadOS 14+)" ],
             [ "1.2.0 (16.17.4)", "Added settings page to choose how to activate PiP" ]
         ]
     },
