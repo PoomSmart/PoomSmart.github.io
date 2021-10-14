@@ -1717,16 +1717,16 @@ Author: PoomSmart
 Name: TapVideoConfig
 
 Package: com.ps.uyoucompat
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (<< 13.0)
-Filename: ./debs/youtube/com.ps.uyoucompat_1.0.0_iphoneos-arm.deb
-Size: 2744
-MD5sum: 7cb8b2fdae90ed42e132c984de757109
-SHA1: 1204656dd37674c858c734201bc898cb4f9ae50e
-SHA256: 90038b629e9c16d7141dae3ed10a4926bd09a65fa47803e8b4269d1e8d510565
+Filename: ./debs/youtube/com.ps.uyoucompat_1.0.1_iphoneos-arm.deb
+Size: 2850
+MD5sum: 06a89dfd1632d954cece22fc147628c9
+SHA1: ac97de58bba29c8db7b53af63baafb007fc1e06c
+SHA256: 31e5298034c49a37d47f135466c24f2206f72067114354f561a489318cc51f06
 Section: Tweaks
 Description: uYou compatibility tweak for iOS < 13
 Author: PoomSmart
