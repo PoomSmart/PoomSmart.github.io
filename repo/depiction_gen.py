@@ -522,8 +522,9 @@ tweaks = [
         "min_ios": "11.0",
         "tintColor": "red",
         "has_source_code": True,
-        "description": "<p>Remove YouTube Premium upsell alerts.</p>",
+        "description": "<p>Remove YouTube Premium upsells.</p>",
         "changes": [
+            [ "1.0.3", "Removed \"Try new features\" from YouTube settings" ],
             [ "1.0.2", "Hook more methods" ]
         ]
     },
