@@ -592,7 +592,7 @@ tweaks = [
     },
     {
         "file": "cahighfps",
-        "title": "CoreAnimationHighFPS",
+        "title": "CAHighFPS",
         "min_ios": "7.0",
         "description": "<p>Make CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
