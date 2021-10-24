@@ -1097,10 +1097,10 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Filename: ./debs/com.ps.injectionfoundation_1.0.0_iphoneos-arm.deb
-Size: 5870
-MD5sum: 60e8664c5537ee8e3db65a2c5da7458b
-SHA1: f27a8102b621986cc8ac5b42f68881ea44c1ab3f
-SHA256: 080eeb71a7bd708f436b3b4f08eec8838eb41805b0600860e8afe9789f17e997
+Size: 5894
+MD5sum: 8f604982c70dcc40447acd5d01fe027b
+SHA1: b43deba1498fe9a1ffd01d1e4fb3faaab5d5782e
+SHA256: b2d43801d62235927f999668f17fb6a872f4abb9825b148a7332a300e268a721
 Section: Tweaks
 Description: Inject UIKit tweaks into Foundation apps.
 Author: PoomSmart
