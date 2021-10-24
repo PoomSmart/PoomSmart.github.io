@@ -361,6 +361,26 @@ Description: Add customizable blur to SpringBoard icon badges.
 Author: PoomSmart
 Name: BlurryBadges
 
+Package: com.ps.boldtextflipswitch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 252
+Depends: mobilesubstrate (>= 0.9.5000), com.a3tweaks.flipswitch, firmware (>= 7.0)
+Conflicts: org.thebigboss.boldtextflipswitch
+Replaces: org.thebigboss.boldtextflipswitch
+Provides: org.thebigboss.boldtextflipswitch
+Filename: ./debs/flipswitch/com.ps.boldtextflipswitch_1.0.0_iphoneos-arm.deb
+Size: 41086
+MD5sum: 195675d9deb6abcefc6614e43fd0338b
+SHA1: 882b68a2febd5faa0ddbccd9a1f1980423a51b2b
+SHA256: 6b5ca5c478043ea2330fba354fc57f78c79e260e3765f5718e51bf398f0f930f
+Section: Addons (Flipswitch)
+Description: Flipswitch for Bold Text
+Tag: purpose::extension
+Author: PoomSmart
+Name: Bold Text Flipswitch
+
 Package: com.ps.cahighfps
 Version: 1.0.0
 Architecture: iphoneos-arm
