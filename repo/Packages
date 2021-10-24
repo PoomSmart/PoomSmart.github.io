@@ -1090,6 +1090,24 @@ Description: Ensure you have latest emojis on Facebook and Instagram.
 Author: PoomSmart
 Name: IGotAllEmojis
 
+Package: com.ps.injectionfoundation
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: ./debs/com.ps.injectionfoundation_1.0.0_iphoneos-arm.deb
+Size: 5870
+MD5sum: 60e8664c5537ee8e3db65a2c5da7458b
+SHA1: f27a8102b621986cc8ac5b42f68881ea44c1ab3f
+SHA256: 080eeb71a7bd708f436b3b4f08eec8838eb41805b0600860e8afe9789f17e997
+Section: Tweaks
+Description: Inject UIKit tweaks into Foundation apps.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/injectionfoundation.html
+Name: Injection Foundation
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/injectionfoundation.json
+
 Package: com.ps.keyboardflipswitchs
 Version: 1.0.0
 Architecture: iphoneos-arm

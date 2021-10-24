@@ -621,6 +621,12 @@ tweaks = [
             [ "1.0.1", "Enforces the value of preferredFramesPerSecond to zero (highest)" ]
         ]
     },
+    {
+        "file": "injectionfoundation",
+        "title": "Injection Foundation",
+        "min_ios": "7.0",
+        "description": "<p>Inject UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
+    }
 ]
 
 sileo_keys = [
