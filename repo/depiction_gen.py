@@ -506,6 +506,7 @@ tweaks = [
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
             <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
         "changes": [
+            [ "1.0.2", "Supports YouTube 16.45.4" ],
             [ "1.0.1", "Minor optimization" ]
         ]
     },
