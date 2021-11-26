@@ -2592,6 +2592,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
 
+Package: com.ps.ytautofullscreen
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.0_iphoneos-arm.deb
+Size: 3506
+MD5sum: 10f863b1d82a2610733d6d87b9b81fa8
+SHA1: bc7f93d24dc18a02ad9b68c594e715420e2ab313
+SHA256: 2c592a0f5768835b03370cd61a1c7c1efc1c07de76375fc8ff9572c55ecd126d
+Section: Tweaks
+Description: Automatically play videos in full screen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
+Name: YTAutoFullScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
+
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.0
 Architecture: iphoneos-arm

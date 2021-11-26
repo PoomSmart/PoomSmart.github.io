@@ -629,6 +629,14 @@ tweaks = [
         "title": "Injection Foundation",
         "min_ios": "7.0",
         "description": "<p>Inject UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
+    },
+    {
+        "file": "ytautofullscreen",
+        "title": "YTAutoFullScreen",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "has_source_code": True,
+        "description": "<p>Make your video full-screen on playing.</p>",
     }
 ]
 
