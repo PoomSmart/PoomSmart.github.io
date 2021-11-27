@@ -216,7 +216,7 @@ tweaks = [
         "min_ios": "7.0",
         "description": "<p>Increase home screen icon grid size for iPad.</p>",
         "changes": [
-            [ "1.1.0", "Added support for setting folder rows and columns (iOS 14+, credits to @UInt2048)" ],
+            [ "1.1.1", "Added support for setting folder rows and columns (iOS 14+, credits to @UInt2048)" ],
             [ "1.0.3", "Added Custom rows and columns option" ],
             [ "1.0.2", "Added 9x6, 10x7 and 10x8 layouts" ],
             [ "1.0.1", "Added IconAnus and Icon Layout Manager as alternative dependencies to IconState" ]
