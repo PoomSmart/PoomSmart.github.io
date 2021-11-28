@@ -216,7 +216,7 @@ tweaks = [
         "min_ios": "7.0",
         "description": "<p>Increase home screen icon grid size for iPad.</p>",
         "changes": [
-            [ "1.1.1", "Added support for setting folder rows and columns (iOS 14+, credits to @UInt2048)" ],
+            [ "1.1.1", "Added folder rows and columns settings (iOS 14+, credits to @UInt2048)" ],
             [ "1.0.3", "Added Custom rows and columns option" ],
             [ "1.0.2", "Added 9x6, 10x7 and 10x8 layouts" ],
             [ "1.0.1", "Added IconAnus and Icon Layout Manager as alternative dependencies to IconState" ]
@@ -638,7 +638,14 @@ tweaks = [
         "tintColor": "red",
         "has_source_code": True,
         "description": "<p>Make your video full-screen on playing.</p>",
-    }
+    },
+    {
+        "file": "replaykitmax",
+        "title": "ReplayKit Max",
+        "min_ios": "9.0",
+        "description": "<p>Remove screen recording resolution cap from ReplayKit-based applications, including SpringBoard.</p>\
+            <p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
+    },
 ]
 
 sileo_keys = [
