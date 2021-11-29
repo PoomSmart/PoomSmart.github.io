@@ -1625,16 +1625,16 @@ Author: PoomSmart
 Name: Reduce Transparency Flipswitch
 
 Package: com.ps.replaykitmax
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
-Filename: ./debs/com.ps.replaykitmax_1.0.0_iphoneos-arm.deb
-Size: 3662
-MD5sum: e5e45ddac8f85fb9672a7b1d78f4e17a
-SHA1: 07ea72cef0607265096268986dc59719a225a538
-SHA256: bbcbf50a8fae92e5b8b7279d25585d01bfe1e906f574db29f889f1d4d5a98f2d
+Filename: ./debs/com.ps.replaykitmax_1.0.1_iphoneos-arm.deb
+Size: 3826
+MD5sum: 1dbad5dfb8a001dc76fd78bf75905b7e
+SHA1: 34e68d80d72cf7ba0825767ccca039a4bc54feb8
+SHA256: c145e3f20851ef71bb79e80c28d37531513a6dbab3428ba7f0c286d32b6eb9eb
 Section: Tweaks
 Description: Record screen without resolution cap.
 Author: PoomSmart
