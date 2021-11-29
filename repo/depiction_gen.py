@@ -643,7 +643,7 @@ tweaks = [
         "file": "replaykitmax",
         "title": "ReplayKit Max",
         "min_ios": "9.0",
-        "description": "<p>Remove screen recording resolution cap from ReplayKit-based applications, including SpringBoard.</p>\
+        "description": "<p>Remove screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p>\
             <p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
     },
 ]
