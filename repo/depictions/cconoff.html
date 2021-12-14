@@ -25,7 +25,7 @@
     %orig;
 }
 
-- (void)bluetoothStateActionWithCompletion:(void *)completion {
+- (void)bluetoothStateActionWithCompletion:(id)completion {
     BOOL airplaneMode = [[self valueForKey:@"_airplaneMode"] boolValue];
     [self setValue:@(YES) forKey:@"_airplaneMode"];
     self.ignoreAirplaneModeCheck = YES;
@@ -44,7 +44,7 @@
     return self.forceAirplaneMode ? YES : %orig;
 }
 
-- (void)performAction:(void *)completion {
+- (void)performAction:(id)completion {
     self.forceAirplaneMode = YES;
     %orig;
     self.forceAirplaneMode = NO;
