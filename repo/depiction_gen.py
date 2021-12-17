@@ -309,7 +309,7 @@ tweaks = [
             <p>If you encounter playback speedup issue for your PiP, try to upgrade to YouPiP 1.4.3+ (and enable Sample Buffer Hack in YouPiP settings) or use iOS 15.0b2+.</p>\
             <p>If you encounter \"No stream Tap to Retry\" error for your video, you are recommended to upgrade YouTube to the latest version.</p>",
         "changes": [
-            [ "1.6.2", "Fixed app crashing on iOS 13- when skipping ads" ],
+            [ "1.6.2", "Fixed app crashing on iOS 13- when skipping ads (credits testing to @NguyenAsang)" ],
             [ "1.6.1", "Fixed PiP not working on iOS 12- for clean YouTube install" ],
             [ "1.6.0", "Added an option to display PiP button in video tab bar (credits to @BandarHL)" ],
             [ "1.5.15", "Fixed support for iOS 12-" ],
