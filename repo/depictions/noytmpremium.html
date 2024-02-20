@@ -1,0 +1,30 @@
+<!doctypehtml><html lang=en><meta charset=utf-8><title>noytmpremium</title><meta content=initial-scale=1,maximum-scale=1,user-scalable=0 name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=11.0 id=prerequisite><p id=pt>Compatible with iOS 11.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>#import "../YouTubeHeader/YTPivotBarItemView.h"
+
+// Hide premium banner at the bottom of account page
+%hook YTMMusicAppMetadata
+- (id)sidePanelPromo { return nil; }
+%end
+
+// Hide Upgrade tab bar item at the bottom
+%hook YTPivotBarView
+- (YTPivotBarItemView *)itemView4 {
+    YTPivotBarItemView *view = %orig;
+    view.navigationButton.hidden = YES;
+    return nil;
+}
+%end
+
+// Suppress full-screen premium upgrade alert
+%hook YTIShowFullscreenInterstitialCommand
+- (BOOL)shouldThrottleInterstitial { return YES; }
+%end
+
+// Suppress other premium upgrade alert
+%hook YTMAppResponder
+- (void)presentInterstitialPromoForEvent:(id)event {}
+%end
+
+// Whatever this is for, I suppress
+%hook YTPromosheetController
+- (void)presentPromosheetWithEvent:(id)event {}
+%end</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>

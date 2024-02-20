@@ -1,0 +1,16 @@
+<!doctypehtml><html lang=en><meta charset=utf-8><title>expandedclassicscreen</title><meta content=initial-scale=1,maximum-scale=1,user-scalable=0 name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=14.0 id=prerequisite><p id=pt>Compatible with iOS 14.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><div class=screenshots-container><img alt=original.png height=284 src=https://poomsmart.github.io/repo/screenshots/expandedclassicscreen/original.png><img alt=tweak.png height=284 src=https://poomsmart.github.io/repo/screenshots/expandedclassicscreen/tweak.png></div><ul><li><p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>#import &LTSpringBoard/SBApplicationClassicMode.h>
+#import &LTSpringBoardHome/SBHScreenType.h>
+
+%hook SBApplication
+
+- (SBApplicationClassicMode)_classicMode {
+    SBApplicationClassicMode orig = %orig;
+    return orig && orig < SBApplicationClassicModePad ? SBApplicationClassicModePhone5_5 : orig;
+}
+
+- (SBHScreenType)_screenTypeForClassicMode:(SBApplicationClassicMode)classicMode {
+    return SBHScreenTypeiPhone6Plus;
+}
+
+%end
+</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>

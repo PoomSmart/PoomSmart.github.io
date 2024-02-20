@@ -1,0 +1,1 @@
+{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionMarkdownView", "markdown": "<p>Google Noto Color Cursed emoji font for EmojiFontManager (Unicode 15.0).</p><br/> <p>Try it for yourself... it's cursed.</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}]}
