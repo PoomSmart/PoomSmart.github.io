@@ -264,7 +264,7 @@ tweaks = [
         "max_ios": "16.7.5",
         "description": "<p>Make Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
         "changes": [
-            ["6.0.0", "Added new languages from iOS 17"]
+            ["6.0.1", "Added new languages from iOS 17"]
         ]
     },
 ] + youtube + emoji + camera
