@@ -2600,6 +2600,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/latesttranslate.html
 Name: LatestTranslate
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/latesttranslate.json
 
+Package: com.ps.latesttranslate
+Version: 6.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 46592
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 17.0)
+Filename: ./debs/com.ps.latesttranslate_6.0.0_iphoneos-arm.deb
+Size: 228178
+MD5sum: 94b272e690c443d4cb0f8dd6367d401a
+SHA1: 2c5902d46063a412d2b27f90a100808381a8f4e0
+SHA256: a19e1a3016bb5f7fddbe638e0c6082840f73a5fef073f9f13defb7ffc29c2e97
+Section: Tweaks
+Description: Make Apple's Translate app support all languages to date.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/latesttranslate.html
+Name: LatestTranslate
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/latesttranslate.json
+
+Package: com.ps.latesttranslate
+Version: 6.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 46592
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 17.0)
+Filename: ./debs/com.ps.latesttranslate_6.0.0_iphoneos-arm64.deb
+Size: 228510
+MD5sum: 6583ec577d6dd06ae3a48f6f173c6ea5
+SHA1: 2bc1b1a94366524d014c2e20099dfa0d54fd95c1
+SHA256: e3d1630d24f8bde72ea783976925b7ffe9fb03aa8057a820f322c6cae2ab2ac7
+Section: Tweaks
+Description: Make Apple's Translate app support all languages to date.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/latesttranslate.html
+Name: LatestTranslate
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/latesttranslate.json
+
 Package: com.ps.letmeblock
 Version: 1.0.0
 Architecture: iphoneos-arm
