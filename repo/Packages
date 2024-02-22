@@ -2156,6 +2156,22 @@ Name: ForceInPicture
 
 Package: com.ps.gboardall
 Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/keyboard/com.ps.gboardall_1.0.2_iphoneos-arm64.deb
+Size: 3342
+MD5sum: 3d9bc45030f4cb16fefa873b01c2c1a0
+SHA1: 0b0d1a604bb3c63b2e3546c1edc452af0d086a5d
+SHA256: 94d60f91dc418b3c60d894d0a7e920d1b2346a03183490ed9887469dec86c2af
+Section: Tweaks
+Description: Allow unsupported emojis to show on Gboard keyboard.
+Author: PoomSmart
+Name: GboardAll
+
+Package: com.ps.gboardall
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
@@ -3787,6 +3803,44 @@ Description: Fade animation across keyboard typing.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
 Name: SmoothKB
+
+Package: com.ps.smoothkb
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.smoothpop
+Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm64.deb
+Size: 4612
+MD5sum: 0dc62a6a5237b07e358ca0adf56cedfc
+SHA1: 46f9551f3a7fd0a558526f3a8b70ea7f10eed4a2
+SHA256: 3c12d4a9bc04c710ce0dcef73407a032effc2d5ef36d3fb207b5306d4286a8a0
+Section: Tweaks
+Description: Fade animation across keyboard typing.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
+Name: SmoothKB
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
+
+Package: com.ps.smoothkb
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.smoothpop
+Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm.deb
+Size: 4380
+MD5sum: 3342bb1e5707a2428929e47e6f0032c1
+SHA1: bd97881e63435e42be8d1d33c160a3564ade9b26
+SHA256: 064b275de9f764dac6cdb6732abc809db4b94f6bdf0d982f360cc3b16b1e56c2
+Section: Tweaks
+Description: Fade animation across keyboard typing.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
+Name: SmoothKB
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
 
 Package: com.ps.smsgroupname
 Version: 0.0.1-1
@@ -6964,16 +7018,16 @@ Author: PoomSmart
 Name: SmoothCursor
 
 Package: org.thebigboss.swipeformore
-Version: 1.2.2
+Version: 1.2.3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 172
+Installed-Size: 188
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.2_iphoneos-arm.deb
-Size: 16762
-MD5sum: faac6bb9ea72815cd57c5cb136302ad3
-SHA1: 7bfce4992ae8435cb040be33e634bb5ad22b2887
-SHA256: 5bc5e8b715dd3a63832020c5f49c7165a5a5652d8bf2e755e562e04be14c46a5
+Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.3_iphoneos-arm.deb
+Size: 20990
+MD5sum: 3d122da42ea10bbbfd236dfba96b342a
+SHA1: 527dc818e9987eea4f2f27db4e960ebab3719764
+SHA256: 532930d9d3c813a44181ce6d67a63eca3dce776db897bb84f3ece156e44dcea3
 Section: Tweaks
 Description: Manage packages in Cydia via swipe.
 Author: PoomSmart

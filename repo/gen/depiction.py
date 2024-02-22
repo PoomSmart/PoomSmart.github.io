@@ -9,6 +9,7 @@ from jinja2 import Environment, FileSystemLoader
 from youtube import *
 from emoji import *
 from camera import *
+from springboard import *
 
 root = os.path.dirname(os.path.abspath(__file__))
 templates_dir = os.path.join(root, '../templates')
@@ -44,17 +45,6 @@ tweaks = [
         ],
         "description": "<p>This is a compatibility library for runtime modification tweaks via Substitute and CydiaSubstrate.</p>\
             <p>The motivation of this project is the lack of Substrate support on A12/arm64e for those using Chimera. As Substitute API usually works better on this environment, libSubstitrate will, if available, try to use Substitute API first. Otherwise, it will fall back to Cydia Substrate.</p>"
-    },
-    {
-        "file": "padgrid",
-        "title": "PadGrid",
-        "min_ios": "7.0",
-        "description": "<p>Increase home screen icon grid size for iPad.</p>",
-        "changes": [
-            ["1.2.0", "Added Reduce edge insets option for iPadOS 15+"],
-            ["1.1.2", "Made IconOrder an option for icon layout persistence library"],
-            ["1.1.1", "Added folder rows and columns settings (iOS 14+, contributed by @UInt2048)"]
-        ]
     },
     {
         "file": "splitit",
@@ -100,28 +90,6 @@ tweaks = [
         ]
     },
     {
-        "file": "anywherewidgetsforipad",
-        "title": "Anywhere Widgets for iPad",
-        "min_ios": "14.0",
-        "max_ios": "14.8.1",
-        "strict_range": True,
-        "featured_as_banner": True,
-        "description": "<p>Allow widgets to be on home screen on iPad.</p>",
-        "changes": [
-            ["1.4.0", "Removed icon grid size overrides, please use PadGrid to adjust this instead"]
-        ]
-    },
-    {
-        "file": "apppad",
-        "title": "AppPad",
-        "min_ios": "9.0",
-        "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
-        "changes": [
-            ["1.1.2", "(Rootless-only) Fixed preference not working"],
-            ["1.1.1", "Fixed tweak not being injected into SpringBoard sometimes"]
-        ]
-    },
-    {
         "file": "igclassiclayout",
         "title": "IGClassicLayout",
         "min_ios": "13.0",
@@ -141,25 +109,6 @@ tweaks = [
         "description": "<p>Allow for more than 4 choices for Quiz sticker in Instagram.</p>"
     },
     {
-        "file": "nottodayhomescreensidebar",
-        "title": "NotTodayHomeScreenSideBar",
-        "min_ios": "14.0",
-        "max_ios": "14.8.1",
-        "strict_range": True,
-        "screenshots": True,
-        "featured_as_banner": True,
-        "inline_source_code": True,
-        "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
-    },
-    {
-        "file": "expandedclassicscreen",
-        "title": "expandedclassicscreen",
-        "min_ios": "14.0",
-        "screenshots": True,
-        "inline_source_code": True,
-        "description": "<p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
-    },
-    {
         "file": "lpmenabler",
         "title": "LPM Enabler",
         "min_ios": "11.0",
@@ -175,16 +124,6 @@ tweaks = [
         "min_ios": "11.3",
         "featured_as_banner": True,
         "description": "<p>Natively enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
-    },
-    {
-        "file": "cconoff",
-        "title": "CC On & Off",
-        "min_ios": "11.0",
-        "description": "<p>Toggle Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11+.</p>",
-        "changes": [
-            ["1.1.0", "Fixed Bluetooth not turning off on iOS 15"],
-            ["1.0.0", "Compiled with ARC"]
-        ]
     },
     {
         "file": "cahighfps",
@@ -234,24 +173,6 @@ tweaks = [
             <p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
     },
     {
-        "file": "blurrybadges",
-        "title": "Blurry Badges",
-        "min_ios": "14.0",
-        "description": "<p>Add colored blur to SpringBoard icon badges.</p>",
-        "changes": [
-            ["1.5.2", "Fixed crash on iOS 14"],
-            ["1.5.1", [
-                "Fixed crash when Continuity apps appear on the home screen",
-                "Fixed badge icon of Continuity apps not being displayed"
-            ]],
-            ["1.5.0", [
-                "Significantly improved performance of blurry badges implementation",
-                "iOS 16+ support"
-            ]],
-            ["1.4.3", "iOS 15 support"]
-        ]
-    },
-    {
         "file": "advancedmapenabler",
         "title": "Advanced Map Enabler",
         "min_ios": "15.0",
@@ -267,7 +188,7 @@ tweaks = [
             ["6.0.1", "Added new languages from iOS 17"]
         ]
     },
-] + youtube + emoji + camera
+] + youtube + emoji + camera + springboard
 
 sileo_keys = [
     "headerImage", "tintColor", "backgroundColor"

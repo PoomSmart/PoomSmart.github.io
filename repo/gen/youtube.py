@@ -85,7 +85,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
-            ["1.2.0", "Add Premium formats to the classic video quality selector, if the video supports it"],
+            ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
             ["1.1.0", "Use an alternative method to restore the video quality selector"],
             ["1.0.1", "Fixed crashing in YouTube 16.20.5"]
         ]
