@@ -180,6 +180,11 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.1", [
+                "Fixed killswitch and grouped settings toggles not respecting the user's cancel action",
+                "Refactored the code",
+                "Updated es, ro and vi localization"
+            ]],
             ["1.7.0", [
                 "Changed the format of exported current settings to be prefixed with YT(Cold|Hot|Global)Config.",
                 "The imported settings that have the same value as the current one will not be imported"
