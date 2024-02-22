@@ -3812,10 +3812,10 @@ Installed-Size: 216
 Depends: mobilesubstrate, firmware (>= 7.0)
 Conflicts: org.thebigboss.smoothpop
 Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm64.deb
-Size: 4612
-MD5sum: 0dc62a6a5237b07e358ca0adf56cedfc
-SHA1: 46f9551f3a7fd0a558526f3a8b70ea7f10eed4a2
-SHA256: 3c12d4a9bc04c710ce0dcef73407a032effc2d5ef36d3fb207b5306d4286a8a0
+Size: 4670
+MD5sum: 1a41d5dcfbe3daf0f1d59d024b856485
+SHA1: c6df68e3d2c36a9a145d2aae610f6b637ae47ba0
+SHA256: 54d569064bc2cbe30a56b5de681d42171c54824ff341f65dd16b0c25890024c7
 Section: Tweaks
 Description: Fade animation across keyboard typing.
 Author: PoomSmart
@@ -3831,10 +3831,10 @@ Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 7.0)
 Conflicts: org.thebigboss.smoothpop
 Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm.deb
-Size: 4380
-MD5sum: 3342bb1e5707a2428929e47e6f0032c1
-SHA1: bd97881e63435e42be8d1d33c160a3564ade9b26
-SHA256: 064b275de9f764dac6cdb6732abc809db4b94f6bdf0d982f360cc3b16b1e56c2
+Size: 4484
+MD5sum: 4c66293036eb76657fc29d593f750302
+SHA1: c19332c899f1b01f2713c2ffc2b55c47dda23aa2
+SHA256: 14d9225cdec7ed945b7315ff3249c5f6c0378909afdf51331018806417193dc1
 Section: Tweaks
 Description: Fade animation across keyboard typing.
 Author: PoomSmart
