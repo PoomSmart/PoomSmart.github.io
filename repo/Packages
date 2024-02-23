@@ -2901,6 +2901,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/livetextenabler.html
 Name: Live Text Enabler
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/livetextenabler.json
 
+Package: com.ps.livetextenabler
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), cy+cpu.arm64
+Filename: ./debs/camera/com.ps.livetextenabler_1.3.0_iphoneos-arm64.deb
+Size: 4012
+MD5sum: 513566b2579f570d65edc3e41e93b8d2
+SHA1: 4db64a40892794a49fcd5236a1e768b7e28f6d66
+SHA256: 5c95cdb3c259b923b1dd24f046ffbd5125a17050a48392f0df16992571a76b2b
+Section: Tweaks
+Description: Enable Live Text on unsupported iOS 15+ devices
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/livetextenabler.html
+Name: Live Text Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/livetextenabler.json
+
 Package: com.ps.lpmenabler
 Version: 1.0.0
 Architecture: iphoneos-arm

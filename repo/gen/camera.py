@@ -65,6 +65,7 @@ camera = [
         "title": "Live Text Enabler",
         "min_ios": "15.0",
         "changes": [
+            ["1.3.0", "Hooks into mediaserverd, this should now let you detect the text on iOS Camera app"],
             ["1.2.0", "Added support for iOS 16+"]
         ],
         "description": "<p>Enable Live Text on unsupported iOS 15+ devices.</p>"
