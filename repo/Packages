@@ -488,6 +488,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/blobmojiefm.html
 Name: Blobmoji Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blobmojiefm.json
 
+Package: com.ps.blobmojiefm
+Version: 15.1.0~b1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.blobmojiefm_15.1.0~b1_iphoneos-arm.deb
+Size: 734
+MD5sum: 7a0b0a7c5fa56ef061f13833dd8bbb37
+SHA1: 4671d42ee4b68fe723fa8cb61684bfd09614e213
+SHA256: df3468008d980d1fcc8aac35379718e89b9fb0650c3fcda0d5fcdc05b55fe593
+Section: Fonts (EFM)
+Description: Unicode 15.1 Google Blobmoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blobmojiefm.html
+Name: Blobmoji Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blobmojiefm.json
+
+Package: com.ps.blobmojiefm
+Version: 15.1.0~b1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.blobmojiefm_15.1.0~b1_iphoneos-arm64.deb
+Size: 736
+MD5sum: 2cad1e25eea9769eb29ff4184f64b305
+SHA1: 331f3879357058673b360c3387c1d76a2aa468b2
+SHA256: 5ec3d4ca8079d290e870720e8457e30175c5a3122c6665fa4db7e7ccd03c3e26
+Section: Fonts (EFM)
+Description: Unicode 15.1 Google Blobmoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blobmojiefm.html
+Name: Blobmoji Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blobmojiefm.json
+
 Package: com.ps.blockemall
 Version: 1.0.0
 Architecture: iphoneos-arm

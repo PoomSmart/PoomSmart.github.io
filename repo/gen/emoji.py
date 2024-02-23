@@ -198,12 +198,13 @@ emoji = [
     },
     {
         "file": "blobmojiefm",
-        "title": "Blobmoji Unicode 15.0 (EFM)",
+        "title": "Blobmoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
+            ["15.1.0~b1", "Updated to Unicode 15.1"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
-        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.0).</p><br/>\
+        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
