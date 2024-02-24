@@ -3928,6 +3928,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
 Name: SmoothKB
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
 
+Package: com.ps.smoothkb
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.smoothpop
+Filename: ./debs/keyboard/com.ps.smoothkb_1.0.3_iphoneos-arm64.deb
+Size: 3638
+MD5sum: 8c3263992edcd8f75491cf04d1931772
+SHA1: 3ef8bd2337300f610825c6b147cded90888919ab
+SHA256: 7d5d7bdbb31e3ddedfa8591d0837613425504eb3786eaeeb93caefd4e2d6ff6b
+Section: Tweaks
+Description: Fade animation across keyboard typing.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
+Name: SmoothKB
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
+
+Package: com.ps.smoothkb
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.smoothpop
+Filename: ./debs/keyboard/com.ps.smoothkb_1.0.3_iphoneos-arm.deb
+Size: 4756
+MD5sum: 1694f649477ed68527f52d563fc515ae
+SHA1: 106ef024a79f220ea9277eb82233bbae76782ae9
+SHA256: 7b831c3a994801cb3dbaa559d93f0bcd5b111ad3e19aac03fcb0195940dba02d
+Section: Tweaks
+Description: Fade animation across keyboard typing.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
+Name: SmoothKB
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
+
 Package: com.ps.smsgroupname
 Version: 0.0.1-1
 Architecture: iphoneos-arm

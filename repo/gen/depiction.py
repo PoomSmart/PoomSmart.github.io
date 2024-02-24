@@ -34,6 +34,9 @@ tweaks = [
         "file": "smoothkb",
         "title": "SmoothKB",
         "min_ios": "7.0",
+        "changes": [
+            ["1.0.3", "Fixed animation bug on the Globe key"]
+        ],
         "description": "<p>Fade animation across keyboard typing.</p>"
     },
     {
