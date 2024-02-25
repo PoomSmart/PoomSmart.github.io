@@ -72,6 +72,10 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.6.0~b2", [
+                "Refactored for better code maintainability",
+                "Removed redundant methods"
+            ]],
             ["1.6.0~b1", "Initial iOS 17.4 emojis support"],
             ["1.5.0", "iOS 16.4 emojis support"]
         ],
@@ -100,6 +104,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.8.2", "Updated for new EmojiLibrary"],
             ["1.8.1", "Fixed emoji category images not displaying correctly"]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
@@ -113,6 +118,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.7.1", "Updated for new EmojiLibrary"],
             ["1.7.0", "Combined with EmojiPort (iOS 8.3 - 8.4)"]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 9.3</p>\
@@ -125,6 +131,7 @@ emoji = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            ["1.4.1", "Updated for new EmojiLibrary"],
             ["1.4.0", [
                 "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
                 "Use _NSGetExecutablePath to detect process type"
@@ -141,6 +148,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.5.0~b3", "Updated for new EmojiLibrary"],
             ["1.5.0~b2", "(Rootless) Allow EmojiAttributes (meowbrek) to be a dependency"],
             ["1.5.0~b1", "Initial iOS 17.4 emojis support"],
             ["1.4.3", [
