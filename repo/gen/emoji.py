@@ -4,7 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
-            ["1.6.0~b2", "Updated to iOS 17.4b3 assets"],
+            ["1.6.0", "Updated to iOS 17.4 assets"],
             ["1.5.1", "Updated to iOS 17.0 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
@@ -178,7 +178,7 @@ emoji = [
         "file": "emojifontefm",
         "title": "AppleColorEmoji Unicode 15.1 (EFM)",
         "changes": [
-            ["15.1.0~b1", "Updated to Unicode 15.1"],
+            ["15.1.0", "Updated to Unicode 15.1"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Unicode 15.1 (iOS 17.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
@@ -190,7 +190,7 @@ emoji = [
         "title": "AppleColorEmoji Low Quality (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0~b1", "Updated to Unicode 15.1"],
+            ["15.1.0", "Updated to Unicode 15.1"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/>\
@@ -209,7 +209,7 @@ emoji = [
         "title": "Blobmoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0~b1", "Updated to Unicode 15.1"],
+            ["15.1.0", "Updated to Unicode 15.1"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.1).</p><br/>\
@@ -253,7 +253,7 @@ emoji = [
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to JoyPixels 8.0 (Unicode 15.0)"],
-            ["14.0.5", "Theme 00a9 and 00ae emojis"]
+            ["14.0.5", "Themed 00a9 and 00ae emojis"]
         ],
         "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -264,7 +264,7 @@ emoji = [
         "title": "Noto Color Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0~b1", "Updated to Unicode 15.1"],
+            ["15.1.0", "Updated to Unicode 15.1"],
             ["15.0.1", "Included 160x160 PNG images by default"]
         ],
         "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
@@ -325,7 +325,7 @@ emoji = [
         "screenshots": True,
         "changes": [
             ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.2", "Optimizing PNG images further with oxipng"]
+            ["14.0.2", "Optimized PNG images further with oxipng"]
         ],
         "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
