@@ -3170,6 +3170,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/notoemojicursedefm.html
 Name: Noto Color Emoji Cursed Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojicursedefm.json
 
+Package: com.ps.notoemojicursedefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemojicursedefm_15.1.0_iphoneos-arm.deb
+Size: 760
+MD5sum: 662bc7b47f816cf3adf396ecf84cfd2c
+SHA1: 1db68e7a35a8b0b96067185e4feb2af1870c2315
+SHA256: 6a1cf56bd576741053ea9e894fb90628d99bbb1c3eba0d22f85a299bef34ca32
+Section: Fonts (EFM)
+Description: Unicode 15.1 Google Noto Color Emoji Cursed (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojicursedefm.html
+Name: Noto Color Emoji Cursed Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojicursedefm.json
+
+Package: com.ps.notoemojicursedefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemojicursedefm_15.1.0_iphoneos-arm64.deb
+Size: 760
+MD5sum: b1923140194eda3c9d48805e270d7297
+SHA1: b289b165054fd774a6de97d7da6d9526014afef5
+SHA256: 982e3c0b439e130896308a5cc2b83444ad8f640470756c5cee45bc9936df1b8d
+Section: Fonts (EFM)
+Description: Unicode 15.1 Google Noto Color Emoji Cursed (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojicursedefm.html
+Name: Noto Color Emoji Cursed Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojicursedefm.json
+
 Package: com.ps.notoemojiefm
 Version: 15.0.1~d
 Architecture: iphoneos-arm64

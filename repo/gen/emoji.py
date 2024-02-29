@@ -272,8 +272,11 @@ emoji = [
     },
     {
         "file": "notoemojicursedefm",
-        "title": "Noto Color Emoji Cursed Unicode 15.0 (EFM)",
-        "description": "<p>Google Noto Color Cursed emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+        "title": "Noto Color Emoji Cursed Unicode 15.1 (EFM)",
+        "changes": [
+            ["15.1.0", "Updated to Unicode 15.1"]
+        ],
+        "description": "<p>Google Noto Color Cursed emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Try it for yourself... it's cursed.</p>"
     },
     {
