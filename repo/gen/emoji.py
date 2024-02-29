@@ -72,11 +72,12 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.6.0", "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes"],
             ["1.6.0~b2", [
                 "Refactored for better code maintainability",
                 "Removed redundant methods"
             ]],
-            ["1.6.0~b1", "Initial iOS 17.4 emojis support"],
+            ["1.6.0~b1", "iOS 17.4 emojis support"],
             ["1.5.0", "iOS 16.4 emojis support"]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
