@@ -14,7 +14,10 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            ["1.8.0~b2", "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)"],
+            ["1.8.0~b2", [
+                "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
+                "Rootful: Fixed crash on iOS 12 arm64e devices"
+            ]],
             ["1.8.0~b1", "Initial Unicode 15.1 support"],
             ["1.7.1", [
                 "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
