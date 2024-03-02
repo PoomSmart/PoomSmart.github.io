@@ -7253,6 +7253,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
 Name: YouTube X
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
 
+Package: com.ps.ytx
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.6.0_iphoneos-arm64.deb
+Size: 4406
+MD5sum: ed979e498c3c00cd868faaf1cf5dffb3
+SHA1: ee6045eaed78b030519fe250373d08d4e7a2e887
+SHA256: 9d5f0fe3100f6fb041f917824e08cb732609c1165ac2eb52f49dd8c45fc43b8a
+Section: Tweaks
+Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ps.ytx
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.6.0_iphoneos-arm.deb
+Size: 4346
+MD5sum: b95d97e91f6e7844542316d37c09b20a
+SHA1: 3711ddcaa34a4f29088abbd97910889817f73a58
+SHA256: a91b92effca34ca2547b4d18fd45363b603be162e7ee8b26f1f55d354e286ff0
+Section: Tweaks
+Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
 Package: com.ps.zoomtouchflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
