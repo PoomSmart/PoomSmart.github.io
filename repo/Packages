@@ -6009,7 +6009,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm64.deb
 Size: 2744
 MD5sum: bcc6377fc3074bf6c4f05a65e9e7d862
 SHA1: 00f015850d346f2a738a2ebe9564a4ba67eb36db
@@ -6027,7 +6027,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.0.1_iphoneos-arm.deb
 Size: 2640
 MD5sum: 4480bb27e9ed91522e52413221419c27
 SHA1: e36c5bff69ef49fef21d6b60fb0084d16a1a9583
@@ -6045,7 +6045,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm.deb
 Size: 2332
 MD5sum: 2c878d87de509c8b18fa5e83b401490d
 SHA1: 500c7c10d2c0e81d88656e495aeca237b090fe5a
@@ -6063,7 +6063,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.1.0_iphoneos-arm64.deb
 Size: 2396
 MD5sum: c8347e8995bfb03e5219b226cdd30ee4
 SHA1: 1f7f9b12592c10a5e178ccd10df47082829e675c
@@ -6081,7 +6081,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.2.0_iphoneos-arm.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.2.0_iphoneos-arm.deb
 Size: 3426
 MD5sum: 092623df8399e741a725717d2310e902
 SHA1: 3d77580cb6c235ccc444dc5ac4f4f02392eb0036
@@ -6099,11 +6099,47 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytclassicvideoquality_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.2.0_iphoneos-arm64.deb
 Size: 3486
 MD5sum: a0341e8c200bf04371e2c367b7a901d2
 SHA1: 6b79b3ae99a3660fde2ba0f3563842dea0f4b3d0
 SHA256: 46f91c1a939b08fe0e8b16d59af76a06babf909ebe7007037f272f1142fe9416
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.0_iphoneos-arm64.deb
+Size: 4300
+MD5sum: 20f347f8319696a25f1c69ab6681aa68
+SHA1: f36626fe58e93ad2cec434299317baa69c76de0f
+SHA256: 92b28fba7a92d6321dcac48b35a78eb93becc767a0c4efaff55f741968d42fc6
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.0_iphoneos-arm.deb
+Size: 4226
+MD5sum: c9390df5a8249f839c5ff6151df2e1ce
+SHA1: e60c39d7e8e832d4bbc75c7bd48e0f8c46d6c693
+SHA256: 87f3735d0cee0eec1074116c1124af61782eeae87fddea0dfdb7a999268b4536
 Section: Tweaks
 Description: Revert to the original video quality selector in YouTube app.
 Author: PoomSmart
