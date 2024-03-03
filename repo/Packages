@@ -6112,16 +6112,16 @@ Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
 Package: com.ps.ytclassicvideoquality
-Version: 1.3.0
-Architecture: iphoneos-arm64
+Version: 1.3.1
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.0_iphoneos-arm64.deb
-Size: 4300
-MD5sum: 20f347f8319696a25f1c69ab6681aa68
-SHA1: f36626fe58e93ad2cec434299317baa69c76de0f
-SHA256: 92b28fba7a92d6321dcac48b35a78eb93becc767a0c4efaff55f741968d42fc6
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.1_iphoneos-arm.deb
+Size: 4380
+MD5sum: d7ae6537708413861e9163a16ac54343
+SHA1: 92cc2924c5449f80e9a67787b22df401e1b030b8
+SHA256: 52ead5fb68c937e4dac3de08eeb672ec631d552af303589bfdc7910515d3f8be
 Section: Tweaks
 Description: Revert to the original video quality selector in YouTube app.
 Author: PoomSmart
@@ -6130,16 +6130,16 @@ Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
 Package: com.ps.ytclassicvideoquality
-Version: 1.3.0
-Architecture: iphoneos-arm
+Version: 1.3.1
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.0_iphoneos-arm.deb
-Size: 4226
-MD5sum: c9390df5a8249f839c5ff6151df2e1ce
-SHA1: e60c39d7e8e832d4bbc75c7bd48e0f8c46d6c693
-SHA256: 87f3735d0cee0eec1074116c1124af61782eeae87fddea0dfdb7a999268b4536
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.3.1_iphoneos-arm64.deb
+Size: 4470
+MD5sum: c22a44c505fa6c30a74a6096538bd7eb
+SHA1: 2b5ee40b677b92c50f5c562a82afe45cce06fdb4
+SHA256: 3300d0ae27b08af0935e8acca9b96f2f9b445e7580c701d9931103ab728894b4
 Section: Tweaks
 Description: Revert to the original video quality selector in YouTube app.
 Author: PoomSmart
