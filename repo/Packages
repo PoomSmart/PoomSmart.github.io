@@ -6195,6 +6195,42 @@ Description: Make YTDarker work correctly with uYou tweak.
 Author: PoomSmart
 Name: YTDarker for uYou Patch
 
+Package: com.ps.ytmabconfig
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytmabconfig/com.ps.ytmabconfig_1.0.0_iphoneos-arm64.deb
+Size: 21158
+MD5sum: 5bd18b678d927b13a24862181ac0bf54
+SHA1: 1eac112bd6096f3f12696704aa6151e874a801f3
+SHA256: ce4ff0a88dcd0182dd26d8a512c3f17b15951b11dd28ed5aabbd7d55a0a3a495
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytmabconfig.html
+Name: YTMABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytmabconfig.json
+
+Package: com.ps.ytmabconfig
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytmabconfig/com.ps.ytmabconfig_1.0.0_iphoneos-arm.deb
+Size: 21154
+MD5sum: 0ee2322dda5b9babb853fe6858ae9e48
+SHA1: 8a17305ee7766fa67cd83d6f7ee1c5a88b12165b
+SHA256: bce09ae7847bb591b0f8198fe09e912dd7adce0fd91e9b78b93617f509549bb4
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytmabconfig.html
+Name: YTMABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytmabconfig.json
+
 Package: com.ps.ytnochecklocalnetwork
 Version: 1.0.0
 Architecture: iphoneos-arm

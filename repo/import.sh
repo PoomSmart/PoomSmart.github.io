@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source ~/.venv/bin/activate
+
 # brew install dpkg
 
 # rm -f depictions/* sileodepictions/*

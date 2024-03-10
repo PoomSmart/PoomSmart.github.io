@@ -236,6 +236,14 @@ youtube = [
         ]
     },
     {
+        "file": "ytmabconfig",
+        "title": "YTMABConfig",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>YouTube Music usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
+            This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.</p>"
+    },
+    {
         "file": "ytabgoodies",
         "title": "YTABGoodies",
         "min_ios": "11.0",
