@@ -4633,6 +4633,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
 Name: Twemoji 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
 
+Package: com.ps.twemojiefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.twemojiefm_15.1.0_iphoneos-arm.deb
+Size: 724
+MD5sum: dbf7d51dc1a3fd08d5b529a81bdd3b66
+SHA1: 150ce04c720e823d56bfd445cb014d25df66f789
+SHA256: 310c30475dbb2fb811bf8538672762febe96238e23dc0d9f8bdec9b654f1aeb4
+Section: Fonts (EFM)
+Description: Twemoji Emoji 15.1 (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
+Name: Twemoji 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
+
+Package: com.ps.twemojiefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.twemojiefm_15.1.0_iphoneos-arm64.deb
+Size: 728
+MD5sum: 7ea5e410921124daaed35287a46a57b0
+SHA1: e36709aa2e8b355097945d6ead1ad05497e7160d
+SHA256: 260df734b4efd2176e503c281b0c37552ac7e709a1a2c8181c5694374cf3f7f1
+Section: Fonts (EFM)
+Description: Twemoji Emoji 15.1 (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
+Name: Twemoji 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
+
 Package: com.ps.uyoucompat
 Version: 1.0.2
 Architecture: iphoneos-arm
