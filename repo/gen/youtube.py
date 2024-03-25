@@ -59,6 +59,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
         "changes": [
+            ["1.8.5", "Removed obsoleted Fake YouTube Version setting"],
             ["1.8.4", "Improved compatibility with iOS 14 and lower"],
             ["1.8.3", "Improved the logic to add PiP button to the video tab bar (contributed by NguyenASang)"],
             ["1.8.2", "Fixed crash on YouTube 19.03.2 and higher"],
