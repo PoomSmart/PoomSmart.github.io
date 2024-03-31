@@ -19,7 +19,7 @@ youtube = [
                 "Updated spoof version to 15.8.1 (for iOS 14-)",
                 "Updated zh_cn localization"
             ]],
-            ["1.4.2", "Fixed crash on YouTube 19.03.2 and higher"],
+            ["1.4.2", "Fixed crash on YouTube version 19.03.2 and higher"],
             ["1.4.1", [
                 "Updated spoof version to 15.8 (for iOS 14-)",
                 "Added note about YouPiP tweak when used in conjunction with YTUHD",
@@ -37,7 +37,7 @@ youtube = [
             ["1.3.4-2", "Added ar, de, fr, hu, it, ja, ko, nl, pt, ro, ru, tr, vi, zh_cn, zh_tw localization"],
             ["1.2.10", "Prevent the app from choosing AVC1 over VP9 codec"],
             ["1.2.9", [
-                "Hooks MLABRPolicyNew and MLABRPolicyOld classes (introduced in YouTube 17.30.3)",
+                "Hooks MLABRPolicyNew and MLABRPolicyOld classes (introduced in YouTube version 17.30.3)",
                 "Updated spoofed version to iOS 15.6 (for iOS 13-)"
             ]],
             ["1.2.8", "Reverted non-HDR 720p+ workaround because YouTube has fixed the issue"],
@@ -59,14 +59,15 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
         "changes": [
+            ["1.8.6", "Fixed crash on tapping PiP button in video tab bar for YouTube version 16"],
             ["1.8.5", "Removed obsoleted Fake YouTube Version setting"],
             ["1.8.4", "Improved compatibility with iOS 14 and lower"],
             ["1.8.3", "Improved the logic to add PiP button to the video tab bar (contributed by NguyenASang)"],
-            ["1.8.2", "Fixed crash on YouTube 19.03.2 and higher"],
+            ["1.8.2", "Fixed crash on YouTube version 19.03.2 and higher"],
             ["1.8.1", "Fixed PiP button in video tab bar not colored correctly for new YouTube versions"],
             ["1.8.0", "Added PiP button to video tab bar for new YouTube versions (contributed by NguyenASang)"],
             ["1.7.22", [
-                "Fixed Legacy PiP compatibility on YouTube 18.41.2 and higher",
+                "Fixed Legacy PiP compatibility on YouTube version 18.41.2 and higher",
                 "Known issue: Non-Legacy PiP may not work on iOS 14 and lower on recent YouTube versions"
             ]],
             ["1.7.21", "Corrected type encoding for the added methods"],
@@ -97,7 +98,7 @@ youtube = [
             ["1.3.1", "Fixed original video quality selector not showing on recent YouTube versions on iPhone devices"],
             ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
             ["1.1.0", "Use an alternative method to restore the video quality selector"],
-            ["1.0.1", "Fixed crashing in YouTube 16.20.5"]
+            ["1.0.1", "Fixed crashing in YouTube version 16.20.5"]
         ]
     },
     {
@@ -118,7 +119,7 @@ youtube = [
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
             <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
         "changes": [
-            ["1.0.2", "Supports YouTube 16.45.4"]
+            ["1.0.2", "Supports YouTube version 16.45.4"]
         ]
     },
     {
@@ -200,7 +201,7 @@ youtube = [
                 "The imported settings that have the same value as the current one will not be imported"
             ]],
             ["1.6.0", "You can now import the YTABConfig settings from the clipboard"],
-            ["1.5.1", "Fixed crash on YouTube 19.03.2 and higher"],
+            ["1.5.1", "Fixed crash on YouTube version 19.03.2 and higher"],
             ["1.5.0-3", [
                 "Added ro localization",
                 "Updated de, tr localization"
@@ -222,7 +223,7 @@ youtube = [
                 "Added hu, ru, zh_cn localization, Updated ar, tr, zh_tw localization"
             ]],
             ["1.4.4", [
-                "Added support for YouTube 16.42.3 and lower",
+                "Added support for YouTube version 16.42.3 and lower",
                 "Added search functionality (contributed by @level3tjg)",
                 "Added \"Group settings by prefixes\" option",
                 "Optimized the existence check of modified settings",
@@ -299,14 +300,15 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
-            ["1.1.6", "Fixed the bottom buttons not showing on YouTube 16.45.4 and lower"],
+            ["1.2.0", "Added support for text button"],
+            ["1.1.6", "Fixed the bottom buttons not showing on YouTube version 16.45.4 and lower"],
             ["1.1.5", "Fixed the bottom buttons not showing for some users"],
-            ["1.1.4", "Fixed crash on YouTube 19.03.2 and higher"],
+            ["1.1.4", "Fixed crash on YouTube version 19.03.2 and higher"],
             ["1.1.3", [
                 "Increased the spacing between bottom buttons for better accessibility",
                 "Fixed bottom buttons not positioned correctly on small iPhone devices",
             ]],
-            ["1.1.2", "Fixed overlay buttons not appearing on YouTube 19.02.1 and higher"],
+            ["1.1.2", "Fixed overlay buttons not appearing on YouTube version 19.02.1 and higher"],
             ["1.1.1-2", [
                 "Added de localization",
                 "Updated ja localization"
@@ -335,6 +337,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.2.0", "Make label programmatically generated, removing the label image files"],
             ["1.1.4-2", [
                 "Added de localization",
                 "Updated es localization"
