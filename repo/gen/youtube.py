@@ -94,7 +94,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
-            ["1.3.2", "Fixed app crash on older YouTube versions"],
+            ["1.3.2", "Fixed crash on older YouTube versions"],
             ["1.3.1", "Fixed original video quality selector not showing on recent YouTube versions on iPhone devices"],
             ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
             ["1.1.0", "Use an alternative method to restore the video quality selector"],
@@ -191,6 +191,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.2", "Fixed crash when copying settings on YouTube version 19.13.1 and higher"],
             ["1.7.1", [
                 "Fixed killswitch and grouped settings toggles not respecting the user's cancel action",
                 "Refactored the code",
