@@ -339,6 +339,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.2.1", "Fixed quality label arrangement when the current video format has HDR"],
             ["1.2.0", "Make label programmatically generated, removing the label image files"],
             ["1.1.4-2", [
                 "Added de localization",
