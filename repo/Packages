@@ -7997,6 +7997,42 @@ Author: SpicaT
 Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@2x.png
 Name: TransparentCameraBar
 
+Package: daniel.analytics
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/daniel.analytics_0.0.1_iphoneos-arm64.deb
+Size: 2914
+MD5sum: 4942463a5ea3e269a0dc638218ba7527
+SHA1: 83651c745cf8df8557619573c4d8643c79caafac
+SHA256: ef2b031baf5b4b65077cb5edfa9ae8812cde2cec312890b5ae4d84a50efaca64
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/daniel.analytics_0.0.1_iphoneos-arm.deb
+Size: 2836
+MD5sum: 64030ab8ed2c49f90e421922c2d2d85e
+SHA1: 8840687516c3d7c50512c36a930093b5b579881e
+SHA256: 4bfae70e8bc9312e97c250328e3d87744e42beae4f6436af3c5a5b18942eae9a
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
 Package: org.thebigboss.dismissprogress
 Version: 1.1.1
 Architecture: iphoneos-arm
