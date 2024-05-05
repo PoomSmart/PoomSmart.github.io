@@ -185,7 +185,7 @@ tweaks = [
         "file": "latesttranslate",
         "title": "LatestTranslate",
         "min_ios": "14.0",
-        "max_ios": "16.7.6",
+        "max_ios": "16.7.7",
         "description": "<p>Make Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
         "changes": [
             ["6.0.1", "Added new languages from iOS 17"]
@@ -195,7 +195,10 @@ tweaks = [
         "file": "osanalytics",
         "title": "OSAnalytics",
         "min_ios": "14.0",
-        "description": "<p>Enable the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>"
+        "description": "<p>Enable the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
+        "changes": [
+            ["0.0.2", "Properly support iOS 15 (credits to @NightwindDev)"]
+        ]
     }
 ] + youtube + emoji + camera + springboard
 

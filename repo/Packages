@@ -8075,6 +8075,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
 Name: OSAnalytics
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
 
+Package: daniel.analytics
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/daniel.analytics_0.0.2_iphoneos-arm64.deb
+Size: 2974
+MD5sum: 0505daf0b04a39479e2d9f0973dc967c
+SHA1: 19f7f862c75ab5df38a6006f1301b5ab3c3082d8
+SHA256: 12a5ab570dd67e09b010691ac763ffe584c40dbd23ac7750ccea6cb998294c5d
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/daniel.analytics_0.0.2_iphoneos-arm.deb
+Size: 2890
+MD5sum: 129aab70ff8d1065c5e20fb25faefc1d
+SHA1: 2dae36a29fe2811eda9bbeedd283d2416cdb5c8c
+SHA256: 81d643949266c0a1793f2774387eaea52658dcf85d8e709785d0f1a3b0c62c69
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
 Package: org.thebigboss.dismissprogress
 Version: 1.1.1
 Architecture: iphoneos-arm
