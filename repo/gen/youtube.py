@@ -57,8 +57,9 @@ youtube = [
         "tintColor": "red",
         "featured_as_banner": True,
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
-            <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 15.10.4 but full compatibility for older versions is low-priority.</p>",
+            <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.10", "Optimized the hooks"],
             ["1.8.9", [
                 "Removed legacy code and files, minimum supported YouTube version is now 16.29.4",
                 "Optimized the logic to add PiP button to the video tab bar"
