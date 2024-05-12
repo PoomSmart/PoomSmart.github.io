@@ -60,7 +60,7 @@ youtube = [
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
             ["1.8.10", "Optimized the hooks"],
-            ["1.8.9", [
+            ["1.8.9 (16.29.4+)", [
                 "Removed legacy code and files, minimum supported YouTube version is now 16.29.4",
                 "Optimized the logic to add PiP button to the video tab bar"
             ]],
@@ -101,6 +101,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
+            ["1.4.0", "Use an alternative method to restore the video quality selector (contributed by @dayanch96)"],
             ["1.3.2", "Fixed crash on older YouTube versions"],
             ["1.3.1", "Fixed original video quality selector not showing on recent YouTube versions on iPhone devices"],
             ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
