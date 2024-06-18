@@ -60,6 +60,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.11", "Fixed crash on YouTube version 19.24.2 and higher"],
             ["1.8.10", "Optimized the hooks"],
             ["1.8.9 (16.29.4+)", [
                 "Removed legacy code and files, minimum supported YouTube version is now 16.29.4",
