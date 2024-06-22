@@ -60,6 +60,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.12", "Corrected legacy PiP availability logic"],
             ["1.8.11", "Fixed crash on YouTube version 19.24.2 and higher"],
             ["1.8.10", "Optimized the hooks"],
             ["1.8.9 (16.29.4+)", [
@@ -368,6 +369,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
+            ["1.6.7", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
             ["1.6.6", "Improve ads blocking logic"],
             ["1.6.4", "Remove new format shorts ads"],
             ["1.6.3", [
