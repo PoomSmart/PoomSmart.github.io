@@ -370,7 +370,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
-            ["1.6.7", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
+            ["1.6.8", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
             ["1.6.6", "Improve ads blocking logic"],
             ["1.6.4", "Remove new format shorts ads"],
             ["1.6.3", [
