@@ -8276,10 +8276,10 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
 Filename: ./debs/youtube/ytx/com.ps.ytx_1.6.10_iphoneos-arm.deb
-Size: 3950
-MD5sum: 5a6669657eb54cf495678c20da4f6d4a
-SHA1: 221f3790adeb99fc83bcad2e3d34ba078591027c
-SHA256: 0cef602f729d9d224de64244b8fd6a47947a04d67f89a620fa037866572319f6
+Size: 4384
+MD5sum: 480b551dfc533b0c3907baa65c0636ef
+SHA1: d03e01a75385a34930b8462ae3745158a29b65c4
+SHA256: 6bacd5c7598a7e42fd3bbb2381cc55724e5e64fb6b6c39be0ae707c21baaa586
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart
@@ -8294,10 +8294,10 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytabgoodies
 Filename: ./debs/youtube/ytx/com.ps.ytx_1.6.10_iphoneos-arm64.deb
-Size: 4036
-MD5sum: 1850b4e875daf867f45e251cdc010c8e
-SHA1: c932af69497ec48092ca1880ab91d1280efa8d6a
-SHA256: 4dcd5892dca7249578c7c6f923aae544024c13497b5309138a1687a864dc852a
+Size: 4454
+MD5sum: 7294623ac7fc34e43d999cda6b01cfcc
+SHA1: 215de045f5dfe48bd40b4eb9ff750c9cb1b2dfbc
+SHA256: 0713cab03c0b8c166f1b86ce187cbe21e656802e78a6470c51822faae3722faf
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart
