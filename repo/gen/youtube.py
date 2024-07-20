@@ -372,23 +372,23 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
-            ["1.7.0", "Implement efficient ads blocking logic"],
-            ["1.6.10", "Improve ads blocking logic"],
+            ["1.7.1", "Block new kind of video ads"],
+            ["1.7.0", "Implement efficient feed ads blocking logic"],
+            ["1.6.10", "Improve feed ads blocking logic"],
             ["1.6.8", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
-            ["1.6.6", "Improve ads blocking logic"],
+            ["1.6.6", "Improve feed ads blocking logic"],
             ["1.6.4", "Remove new format shorts ads"],
             ["1.6.3", [
-                "Improved ads blocking logic",
+                "Improved feed ads blocking logic",
                 "Spoof YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly"
             ]],
-            ["1.6.2", "Improved the performance of ads blocking"],
-            ["1.6.1", "Use an alternative way to hide statement_banner ads"],
-            ["1.6.0", "Use an alternative way to hide product carousel ads"],
-            ["1.5.0", "Block ads by truly setting their size to zero"],
+            ["1.6.2", "Improved the performance of feed ads blocking"],
+            ["1.6.1", "Use an alternative way to hide statement_banner feed ads"],
+            ["1.6.0", "Use an alternative way to hide product_carousel feed ads"],
+            ["1.5.0", "Block feed ads by truly setting their size to zero"],
             ["1.4.3", "Block YouTube upgrade dialog"],
-            ["1.4.2", "Switched to collection view hook, Block more kinds of ads"],
-            ["1.3.0", "Improved hooks"],
-            ["1.2.5", "Hide statement_banner.eml ads"]
+            ["1.4.2", "Switched to collection view hook, Block more kinds of feed ads"],
+            ["1.3.0", "Improved hooks"]
         ]
     },
     {
