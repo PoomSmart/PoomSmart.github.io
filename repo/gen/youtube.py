@@ -397,6 +397,16 @@ youtube = [
         "title": "YouGroupSettings",
         "min_ios": "14.0",
         "tintColor": "red",
-        "description": "<p>Allow tweak-made settings to be grouped and displayed in iOS YouTube app. <a href=\"https://github.com/PoomSmart/YouGroupSettings\">README</a></p>"
+        "description": "<p>Allow tweak-made settings to be grouped and displayed in iOS YouTube app. <a href=\"https://github.com/PoomSmart/YouGroupSettings\">README</a></p>",
+        "changes": [
+            ["1.0.1", "Added YouChooseQuality tweak"]
+        ]
+    },
+    {
+        "file": "youchoosequality",
+        "title": "YouChooseQuality",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>"
     }
 ]
