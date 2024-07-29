@@ -2558,42 +2558,6 @@ Name: Injection Foundation
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/injectionfoundation.json
 
 Package: com.ps.joypixelsdecalefm
-Version: 15.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_15.0.0_iphoneos-arm.deb
-Size: 758
-MD5sum: f421b7db72a3f2a9bb0fa48608f8c148
-SHA1: fac5412465a161d64810c67f62e686f2a35484f1
-SHA256: ce2a82887b762833f41413fca105010d8c77f86e9f829d7f87c0f8bf43ce00a4
-Section: Fonts (EFM)
-Description: Unicode 15.0 JoyPixels 8 Emoji (with Decal) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
-Name: JoyPixels Decal Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
-
-Package: com.ps.joypixelsdecalefm
-Version: 15.0.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_15.0.0_iphoneos-arm64.deb
-Size: 758
-MD5sum: de513f6fce4aabf16667bc1cb6051db0
-SHA1: deeb6cf9fe89620b57bb61f26d786b89f2821a23
-SHA256: e9f80ec10f8fdce4df87536b7292a74738f9f3e7974fd12c9dbe44b9eb41fd4d
-Section: Fonts (EFM)
-Description: Unicode 15.0 JoyPixels 8 Emoji (with Decal) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
-Name: JoyPixels Decal Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
-
-Package: com.ps.joypixelsdecalefm
 Version: 15.1.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -2628,48 +2592,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
 Name: JoyPixels Decal Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
-
-Package: com.ps.joypixelsefm
-Version: 15.0.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Conflicts: com.ps-vxbakerxv.joypixelsefm
-Replaces: com.ps-vxbakerxv.joypixelsefm
-Provides: com.ps-vxbakerxv.joypixelsefm
-Filename: ./debs/emojifont/com.ps.joypixelsefm_15.0.0_iphoneos-arm64.deb
-Size: 778
-MD5sum: 3b1529574b176fd0a5af8d35010fa884
-SHA1: a3bbd540991da7dbf9555bc8e3444942ffddde21
-SHA256: 500aed2010c088a8b18c721935295a2a6cf6a7cc0f9b0edf0b276e4a3f977e55
-Section: Fonts (EFM)
-Description: Unicode 15.0 JoyPixels 8 Emoji (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/joypixelsefm.html
-Name: JoyPixels Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsefm.json
-
-Package: com.ps.joypixelsefm
-Version: 15.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Conflicts: com.ps-vxbakerxv.joypixelsefm
-Replaces: com.ps-vxbakerxv.joypixelsefm
-Provides: com.ps-vxbakerxv.joypixelsefm
-Filename: ./debs/emojifont/com.ps.joypixelsefm_15.0.0_iphoneos-arm.deb
-Size: 778
-MD5sum: dd60bc99d6d96056d4f34fe728fa9186
-SHA1: 5508dfb89cacdb04fad2e335bdeb2cf741d85462
-SHA256: 9609484e82477062ebdec9a031d4a15c424a7bc764c2e143842a186fb9807683
-Section: Fonts (EFM)
-Description: Unicode 15.0 JoyPixels 8 Emoji (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/joypixelsefm.html
-Name: JoyPixels Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsefm.json
 
 Package: com.ps.joypixelsefm
 Version: 15.1.0
@@ -4456,6 +4378,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
 Name: WhatsApp Emoji Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
 
+Package: com.ps.whatsappefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.whatsappefm_15.1.0_iphoneos-arm64.deb
+Size: 738
+MD5sum: d7ed43956e174841a046f5d680335bd3
+SHA1: cfc548f9ca85efa3b53f13407243cd46ef617b07
+SHA256: a3c409732f1b1baafde1e4111d010efc6a529aee9039e4035a74c6b47cfae3ee
+Section: Fonts (EFM)
+Description: WhatsApp Emoji (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
+Name: WhatsApp Emoji Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
+
+Package: com.ps.whatsappefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.whatsappefm_15.1.0_iphoneos-arm.deb
+Size: 734
+MD5sum: 8d8861f8565290d1bd7ec595dbb9b886
+SHA1: 9f58eb274e90a2ffb02139a6733d0bf04cd227a8
+SHA256: 7971096c9fbafca4f394fe91bd7e1c39560a843fb0beeb2a8647fe952370e288
+Section: Fonts (EFM)
+Description: WhatsApp Emoji (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
+Name: WhatsApp Emoji Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
+
 Package: com.ps.youarethere
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -4475,16 +4433,16 @@ Name: YouAreThere
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youarethere.json
 
 Package: com.ps.youchoosequality
-Version: 1.0.0
+Version: 1.0.0-1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 68
+Installed-Size: 76
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.0_iphoneos-arm.deb
-Size: 8028
-MD5sum: 81c272570a53fe6ea75061a34f9e7cbd
-SHA1: 3c8d5eed0cd57bd5c50f86ea9ff4935723ea5f49
-SHA256: fe221245e92237d163d9d514e0a23ccf3bde271673f4c26cb3a1cab0cccdfcfc
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.0-1_iphoneos-arm.deb
+Size: 8468
+MD5sum: a8e4e37f82a2966e6988eb39eb79c737
+SHA1: 5e404c4fcf379be45322b86378b52e0f025299af
+SHA256: a233221bccb42b850803cc16c7317fac41ea42ebe27fd154f410f8d951ea8b27
 Section: Tweaks
 Description: Auto-select the video quality of choice in iOS YouTube app.
 Author: PoomSmart
@@ -4493,16 +4451,16 @@ Name: YouChooseQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
 
 Package: com.ps.youchoosequality
-Version: 1.0.0
+Version: 1.0.0-1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 68
+Installed-Size: 76
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.0_iphoneos-arm64.deb
-Size: 8030
-MD5sum: 4913da7581b81b1d7910e81f9043695d
-SHA1: 3a21358d599ea6a50514aa18ac434ebfc37da62f
-SHA256: e067c846506e3b689443e08b0ce4143408f215d8e43386a3be60946d832e4012
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.0-1_iphoneos-arm64.deb
+Size: 8472
+MD5sum: 8ef4e8e14d8279d579314283b5f0cbc2
+SHA1: e9e0be764121a77ffbfda25eba8287ac2cd9c5bb
+SHA256: 8fc3a3ab766f7d8742df825108172c9ff17abd8907dc9e1ced7c7512eab84b2d
 Section: Tweaks
 Description: Auto-select the video quality of choice in iOS YouTube app.
 Author: PoomSmart
@@ -6170,16 +6128,16 @@ Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
 Package: com.ps.ytabconfig
-Version: 1.7.2
+Version: 1.7.2-1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 152
+Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.2_iphoneos-arm64.deb
-Size: 21274
-MD5sum: 70f583ad5c77409c015bd15cfff6ebc8
-SHA1: 8229783aec80f0978a2f476826405b62fbade36e
-SHA256: 3cf53456d52b3c12c01848f65324f8f6424b77ef7be66d777760df268ccf89c8
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.2-1_iphoneos-arm64.deb
+Size: 20960
+MD5sum: 97741fb20c8ad146b08202b979885477
+SHA1: ea19a611e14aa3f789b36f11af4cbf57fd40accb
+SHA256: 89e78558de173bd72206df8397aad02ccc16c6bae8b08b8f0b0a62ff4259d469
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
 Author: PoomSmart
@@ -6188,16 +6146,16 @@ Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
 Package: com.ps.ytabconfig
-Version: 1.7.2
+Version: 1.7.2-1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 152
+Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.2_iphoneos-arm.deb
-Size: 21292
-MD5sum: 38b7572210fd63c78472e641c110d5f5
-SHA1: 84a2364259cffbf082bd373ac6c718a04249e50e
-SHA256: d6a404fc30c9fb0b9102aa3a8733b65b7bcf4d8fe6c3d904d961d3ec9f072ea5
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.2-1_iphoneos-arm.deb
+Size: 20986
+MD5sum: 2361027c2da6aa4b511fd81fd99c9b09
+SHA1: f6f2f04dd7c4eacdbb2889a90f92fdc36ca93be9
+SHA256: 41b4d2b427eef77dbda25c89274e2b4515b2c8881d6a5dba3df2e10308855b1b
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
 Author: PoomSmart
@@ -7310,6 +7268,42 @@ Size: 12078
 MD5sum: bed41f424e1f82ab8e24da664f3c9c38
 SHA1: 037379860d15bd9771b62cf499268bec9485429d
 SHA256: aa5da7b2fd58b01e4c97f15d32f0f407b8eea340b99f50702770a08e4c16a0ab
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.5.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.4_iphoneos-arm64.deb
+Size: 12128
+MD5sum: da707116a6e48ae4cf1f04e417fc0b9e
+SHA1: 8141290447e0efaf28370c8a23d6eb2a86cd3811
+SHA256: ad7cb51742595887784140684215ae67ce5126983a376cb7b3e3999155e4a63d
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.4_iphoneos-arm.deb
+Size: 12118
+MD5sum: 9d7b42fab5aa8414a1d3fe725c35ad9d
+SHA1: 948af32ad6677b97c094a20aa6e8be3cadf5ac31
+SHA256: 4d86de7128c2562127bed963ee29981f08104aff294a174a97da906d5619113d
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart

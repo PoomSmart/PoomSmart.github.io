@@ -8,6 +8,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.5.4", [
+                "Updated spoof version to 15.8.2 (for iOS 14-)",
+                "Updated tr localization"
+            ]],
             ["1.5.3", "Fixed 1440p+ formats not showing on YouTube version 19.24.2 and higher"],
             ["1.5.2", "Fixed crash on YouTube version 19.22.3 and higher"],
             ["1.5.1", [
@@ -204,7 +208,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
-            ["1.7.2", "Fixed crash when copying settings on YouTube version 19.13.1 and higher"],
+            ["1.7.2-1", [
+                "Fixed crash when copying settings on YouTube version 19.13.1 and higher",
+                "Updated tr localization"
+            ]],
             ["1.7.1", [
                 "Fixed killswitch and grouped settings toggles not respecting the user's cancel action",
                 "Refactored the code",
@@ -407,6 +414,9 @@ youtube = [
         "title": "YouChooseQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>"
+        "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
+        "changes": [
+            ["1.0.0-1", "Added vi, zh-Hans localization"]
+        ]
     }
 ]

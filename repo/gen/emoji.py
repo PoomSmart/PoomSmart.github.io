@@ -182,8 +182,7 @@ emoji = [
         "file": "emojifontefm",
         "title": "AppleColorEmoji Unicode 15.1 (EFM)",
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>Unicode 15.1 (iOS 17.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
             <p>Regular version of this font has all emoji images in PNG format and better compressed than Apple's EMJC image compression.</p><br/>\
@@ -194,8 +193,7 @@ emoji = [
         "title": "AppleColorEmoji Low Quality (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/>\
             <p>All not quite. It's because sometimes you need not a high quality work to cause <a href=\"https://www.youtube.com/watch?v=7Qxa19ODUIQ\">a global impact such as this one</a>.</p><br/>\
@@ -213,8 +211,7 @@ emoji = [
         "title": "Blobmoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -245,8 +242,7 @@ emoji = [
         "title": "JoyPixels Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"],
-            ["15.0.0", "Updated to JoyPixels 8.0 (Unicode 15.0)"]
+            ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
         "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -257,8 +253,7 @@ emoji = [
         "title": "JoyPixels Decal Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"],
-            ["15.0.0", "Updated to JoyPixels 8.0 (Unicode 15.0)"]
+            ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
         "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
@@ -269,8 +264,7 @@ emoji = [
         "title": "Noto Color Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.1", "Included 160x160 PNG images by default"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
@@ -300,11 +294,9 @@ emoji = [
         "title": "Samsung One UI Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0~beta7", "Updated to One UI 6 beta 7"],
-            ["15.0.1~beta6", "Updated to One UI 6 beta"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0~beta7", "Updated to One UI 6 beta 7"]
         ],
-        "description": "<p>Samsung One UI (5.0 or 6 beta) emoji font for EmojiFontManager (Unicode 15.0 or 15.1).</p><br/>\
+        "description": "<p>Samsung One UI (6 beta) emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
     {
@@ -320,22 +312,22 @@ emoji = [
     },
     {
         "file": "twemojiefm",
-        "title": "Twemoji Unicode 15.0 (EFM)",
+        "title": "Twemoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 15.0).</p>"
+        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 15.1).</p>"
     },
     {
         "file": "whatsappefm",
-        "title": "WhatsApp Emoji Unicode 15.0 (EFM)",
+        "title": "WhatsApp Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.0.0", "Updated to Unicode 15.0"],
-            ["14.0.2", "Optimized PNG images further with oxipng"]
+            ["15.1.0", "Updated to Unicode 15.1"],
+            ["15.0.0", "Updated to Unicode 15.0"]
         ],
-        "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+        "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
 ]
