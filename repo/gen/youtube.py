@@ -344,6 +344,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.2.3", "Fixed app crash on YouTube version 19.30.2 and higher"],
             ["1.2.2", "Fixed app crash on YouTube version 19.26.5 and higher"],
             ["1.2.1-3", "Added de, tr localization"],
             ["1.2.1", "Depends on YTVideoOverlay helper tweak"],

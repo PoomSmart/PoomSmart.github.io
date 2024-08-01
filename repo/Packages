@@ -4738,6 +4738,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
 Name: YouMute
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
 
+Package: com.ps.youmute
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
+Filename: ./debs/youtube/youmute/com.ps.youmute_1.2.3_iphoneos-arm.deb
+Size: 6346
+MD5sum: 3a1c4f4e466abacfd90739371187995a
+SHA1: 1b193786858a9d76faee858df016e71e74f03fb0
+SHA256: ed2de408e0fdf2d194e420fb1f42740d3d22b39e80c3810ce301d14766e411ae
+Section: Tweaks
+Description: Mute/unmute videos in YouTube directly.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
+Package: com.ps.youmute
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 1.1.0)
+Filename: ./debs/youtube/youmute/com.ps.youmute_1.2.3_iphoneos-arm64.deb
+Size: 6352
+MD5sum: 758f910553a748cb708fdb431dcef7d3
+SHA1: 556e339c03fab9d8383edfb7e2f66779e846601e
+SHA256: e7ebbdd2e9a481ca8a7b035a27d1a3a174d1f33162c172670babf9acb4eb660f
+Section: Tweaks
+Description: Mute/unmute videos in YouTube directly.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
 Package: com.ps.youpip
 Version: 1.7.16
 Architecture: iphoneos-arm
