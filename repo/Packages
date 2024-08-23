@@ -765,40 +765,44 @@ Author: PoomSmart
 Name: Caller ID Flipswitch
 
 Package: com.ps.camelapsedplus
-Version: 1.0.0
+Version: 1.0.0-1
 Architecture: iphoneos-arm
 Installed-Size: 164
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: org.thebigboss.camelapsedplus
 Replaces: org.thebigboss.camelapsedplus
 Provides: org.thebigboss.camelapsedplus
-Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0_iphoneos-arm.deb
-Size: 19884
-MD5sum: 4528ef7c8d6bdc848941d6e1eab77483
-SHA1: 35fb5aacf20a0ef6cece3b3116b06d1bbc892800
-SHA256: c7459c6352478c8e0b54e0cc5f4458896631cefa59e974d9fbe6f5184cf6052b
+Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0-1_iphoneos-arm.deb
+Size: 19958
+MD5sum: d87efff38a510b9d071ba58d47f7514d
+SHA1: eb0be94f3cbedcc93cb88a30d35c48975bae5e5e
+SHA256: ff73a6a60a698ee301c0144e6d6d4a9eeba5e1a58ec622f6ee77aa907c8a0038
 Section: Tweaks
-Description: Add more accurate video time to Camera app.
+Description: Add sub-seconds to an elapsed time when recording a video in Camera app.
 Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/camelapsedplus.html
 Name: CamElapsed+
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/camelapsedplus.json
 
 Package: com.ps.camelapsedplus
-Version: 1.0.0
+Version: 1.0.0-1
 Architecture: iphoneos-arm64
-Installed-Size: 180
+Installed-Size: 164
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: org.thebigboss.camelapsedplus
 Replaces: org.thebigboss.camelapsedplus
 Provides: org.thebigboss.camelapsedplus
-Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0_iphoneos-arm64.deb
-Size: 20264
-MD5sum: 444be784c4d788430b1c7270fea13177
-SHA1: f9e0eac901e0c2762bad6df5a5dbda5d816abe04
-SHA256: 89815967db7b27f1eb22eb604e78b3380722b872334f6ab630bddc72ed12cbb3
+Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0-1_iphoneos-arm64.deb
+Size: 20028
+MD5sum: 86755783d61eef11f9ab5d7323266719
+SHA1: be35b54e893ad1bd1322d1f3fddb1c7d41e20127
+SHA256: 9886f73bf882c868766f0bed792de070aa747230b188b20415fc14a351b7203c
 Section: Tweaks
-Description: Add more accurate video time to Camera app.
+Description: Add sub-seconds to an elapsed time when recording a video in Camera app.
 Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/camelapsedplus.html
 Name: CamElapsed+
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/camelapsedplus.json
 
 Package: com.ps.cameragridflipswitch
 Version: 1.0.0

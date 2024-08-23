@@ -75,5 +75,12 @@ camera = [
         "title": "TrollLEDs",
         "min_ios": "11.0",
         "description": "<p>An iOS application to control individual flashlight LEDs. <a href=\"https://github.com/PoomSmart/TrollLEDs\">README</a></p>"
+    },
+    {
+        "file": "camelapsedplus",
+        "title": "CamElapsed+",
+        "min_ios": "11.0",
+        "screenshots": True,
+        "description": "<p>Add sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
     }
 ]
