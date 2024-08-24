@@ -289,15 +289,14 @@ youtube = [
         "extra_content": "<ul>\
                 <li><a href=\"{}\">YouAreThere</a></li>\
                 <li><a href=\"{}\">YouRememberCaption</a></li>\
-                <li><a href=\"{}\">YTNoCheckLocalNetwork</a></li>\
                 <li><a href=\"{}\">YTSystemAppearance</a></li>\
             </ul>".format(
                 tweak_url("youarethere"),
                 tweak_url("youremembercaption"),
-                tweak_url("ytnochecklocalnetwork"),
                 tweak_url("ytsystemappearance")
         ),
         "changes": [
+            ["1.0.5", "Remove YTNoCheckLocalNetwork feature"],
             ["1.0.4", "Enabled video zoom in/out feature"]
         ]
     },
