@@ -212,6 +212,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.3", [
+                "Reduced hooks used for constructing tweak settings",
+                "Updated vi localization"
+            ]],
             ["1.7.2-1", [
                 "Fixed crash when copying settings on YouTube version 19.13.1 and higher",
                 "Updated tr localization"
