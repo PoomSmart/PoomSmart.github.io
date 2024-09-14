@@ -4075,6 +4075,38 @@ Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/staticzoom/index.html
 Name: StaticZoom
 
+Package: com.ps.stillcaptureenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), gsc.ipad, gsc.still-camera | gsc.front-facing-camera
+Filename: ./debs/camera/com.ps.stillcaptureenabler_1.0.0_iphoneos-arm.deb
+Size: 3600
+MD5sum: 1ad5df4acdee9cb109490de3d0dd1b0a
+SHA1: 6f85da3aac7e5437d87d079b71aad9aa6b7268fb
+SHA256: 6a698de89cbbac09bd650a3b26219d5375a1fce49034ef523b31925a0b5c6bda
+Section: Tweaks
+Description: Takes still images during video recording for iPadOS.
+Author: PoomSmart
+Name: Still Capture Enabler (iPadOS 15+)
+
+Package: com.ps.stillcaptureenabler
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), gsc.ipad, gsc.still-camera | gsc.front-facing-camera
+Filename: ./debs/camera/com.ps.stillcaptureenabler_1.0.0_iphoneos-arm64.deb
+Size: 3678
+MD5sum: 1f9625831f2c30d7eb4f124b3375227a
+SHA1: 3a54db4d6e151e88676dd88e8b24ac450f4d36f5
+SHA256: 0e2a0cf3b12ca24752db9a2b4a51dbda836498f3c78227af1bbdfb927b81177e
+Section: Tweaks
+Description: Takes still images during video recording for iPadOS.
+Author: PoomSmart
+Name: Still Capture Enabler (iPadOS 15+)
+
 Package: com.ps.tapformore
 Version: 1.0.2
 Architecture: iphoneos-arm
