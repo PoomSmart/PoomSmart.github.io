@@ -823,6 +823,44 @@ Description: Flipswitch toggle for camera grid.
 Author: PoomSmart
 Name: Camera Grid Flipswitch
 
+Package: com.ps.cameramodes
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.0_iphoneos-arm.deb
+Size: 36960
+MD5sum: 0a5c9f900a1b1aadc642510441a884bb
+SHA1: 21ff7cae85c80b9b34e6ddeeda87174783f7462c
+SHA256: 9e43f351c81c39c4bbc922c3ca87fadb9cbe19e0f172df517f3a4feb7889c032
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
+Package: com.ps.cameramodes
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.0_iphoneos-arm64.deb
+Size: 36698
+MD5sum: 8a131d72d6d5509e1e082dd4df4e1878
+SHA1: fcd397f6c07b141d66769982b83d99cd34972dfd
+SHA256: 456c9bb8b05dd1680ded64eb2b6ddefbff8c9717e6eeb4623eb02966460a0836
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
 Package: com.ps.camswitchdown
 Version: 1.5.0
 Architecture: iphoneos-arm
