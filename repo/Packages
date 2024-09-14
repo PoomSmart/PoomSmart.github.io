@@ -1116,6 +1116,38 @@ Description: Emoji on camera modes.
 Author: PoomSmart
 Name: EModeji
 
+Package: com.ps.emodeji
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/camera/com.ps.emodeji_1.0.2_iphoneos-arm64.deb
+Size: 5514
+MD5sum: fb27a2cf9ae61061214b5ead5adf415e
+SHA1: 5484b37357dd3e6ab8daecbf0240545b26ec3f6b
+SHA256: 4f5c8e9b265fde3140a37b2d2be0719f53ccda76348d7d020abc2df49057bfc0
+Section: Tweaks
+Description: Emoji on camera modes.
+Author: PoomSmart
+Name: EModeji
+
+Package: com.ps.emodeji
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/camera/com.ps.emodeji_1.0.2_iphoneos-arm.deb
+Size: 5388
+MD5sum: bb8c027d83da28a710926c4ec6573cdb
+SHA1: fea493a2b72e7f9657a488f72d53743bb2b26d21
+SHA256: eb34ac5998bd18c847803632d3a9fd9ce6fb5b033a69c6c26de68394857bc862
+Section: Tweaks
+Description: Emoji on camera modes.
+Author: PoomSmart
+Name: EModeji
+
 Package: com.ps.emojiattributes
 Version: 1.7.1
 Architecture: iphoneos-arm64
@@ -3647,6 +3679,40 @@ Size: 11578
 MD5sum: fc3d19723e9f4b2d574c3f65c602e35e
 SHA1: bb58b89ab9db5750ce44a98402a5b4e14674d868
 SHA256: 8cadcdeaddb675cf63f99098a1dc30a352a3408b19405b6a6c769937f54e0388
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: PoomSmart
+Name: RecordPause
+
+Package: com.ps.recordpause
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_1.4.1_iphoneos-arm.deb
+Size: 11598
+MD5sum: 1344aae05c83bea5d6faa6489139ad35
+SHA1: 6003e4cbc59ee0d8b08f6c3ac00265b01f36a69c
+SHA256: b03c0daa1c8b92183ebd493e3903a959972ccaabc27419adc20144be7b9c9d90
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: PoomSmart
+Name: RecordPause
+
+Package: com.ps.recordpause
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_1.4.1_iphoneos-arm64.deb
+Size: 11694
+MD5sum: 8d890a7ccf76dff3a2709822ad868cf6
+SHA1: 1141e9b780c16a3d11c50bcbbbcf4fe465383f37
+SHA256: b29a2ae97424c70045adba9846ec69d99c93fb3e50a545d1d5ac4a5845b7a0ed
 Section: Tweaks
 Description: Pause/resume video recording.
 Author: PoomSmart
