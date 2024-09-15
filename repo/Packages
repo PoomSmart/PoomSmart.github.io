@@ -3756,6 +3756,40 @@ Description: Pause/resume video recording.
 Author: PoomSmart
 Name: RecordPause
 
+Package: com.ps.recordpause
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.0_iphoneos-arm.deb
+Size: 9558
+MD5sum: 1c688a004635913a6e25be36c1ce333e
+SHA1: 483be09c3a0c7886410d20e8871d9d555b218ec0
+SHA256: 3a899e106f73587e4ee01f543890685725d6603b9bcd0725ab31c173e69e4b9f
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: PoomSmart
+Name: RecordPause
+
+Package: com.ps.recordpause
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.0_iphoneos-arm64.deb
+Size: 9634
+MD5sum: 44a7c97902adaf215ad38b9b9e0cb179
+SHA1: 886a7e6207c62ae5014d14d33334c9845a271eca
+SHA256: 03b08a16911110a1cc30f2379977c071aca25020b5fc32efe0287dbc26454d1b
+Section: Tweaks
+Description: Pause/resume video recording.
+Author: PoomSmart
+Name: RecordPause
+
 Package: com.ps.reducemotionflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
