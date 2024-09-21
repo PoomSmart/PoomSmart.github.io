@@ -4271,6 +4271,44 @@ Description: Change video configuration directly in Camera app.
 Author: PoomSmart
 Name: TapVideoConfig
 
+Package: com.ps.tapvideoconfig
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/camera/com.ps.tapvideoconfig_1.0.1_iphoneos-arm.deb
+Size: 5830
+MD5sum: 913996670302a23244b9273a37d89e4d
+SHA1: 2348dec6c42e911295763aaaa93ebfc3d0517746
+SHA256: f956d0a4a4a0165dac95097b8b0088d34e4a473e185222250f049c36948461c7
+Section: Tweaks
+Description: Change video configuration directly in iOS Camera app.
+Author: PoomSmart
+Name: TapVideoConfig
+
+Package: com.ps.tapvideoconfig
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/camera/com.ps.tapvideoconfig_1.0.1_iphoneos-arm64.deb
+Size: 5912
+MD5sum: 27474618afa11f14d7a4ae47858ffee1
+SHA1: 54fcdcd99e4945dafe92922bbf933b08efcd5036
+SHA256: 60248928876ecdf6f301b9ddaa149d0e5736b478c202f19776e26d5ed93ea3fa
+Section: Tweaks
+Description: Change video configuration directly in iOS Camera app.
+Author: PoomSmart
+Name: TapVideoConfig
+
 Package: com.ps.tossfaceefm
 Version: 15.0.0
 Architecture: iphoneos-arm
