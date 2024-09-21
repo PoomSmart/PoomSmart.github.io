@@ -861,6 +861,44 @@ Description: Specify available camera modes.
 Author: PoomSmart
 Name: CameraModes
 
+Package: com.ps.cameramodes
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.1_iphoneos-arm64.deb
+Size: 36072
+MD5sum: d983be8d1d56fced72b84c9d034949ce
+SHA1: bc642fcc86f09161dd5a1faaade9f7de56175c46
+SHA256: 133f72edaca7701b9f1414c7f4e0c27538238e6be0c8f5c49a5f4c0c9e65168c
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
+Package: com.ps.cameramodes
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.1_iphoneos-arm.deb
+Size: 36234
+MD5sum: 68726be73b899197e70c82dc29470b13
+SHA1: 61a5f85030d64cc10fc2a1b046ae55c0a8734d79
+SHA256: fb4a9adb552facc31574ace4b26f6af4cc00e04de6beab87592b12b7c8af097c
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
 Package: com.ps.camswitchdown
 Version: 1.5.0
 Architecture: iphoneos-arm
