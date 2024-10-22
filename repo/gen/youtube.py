@@ -311,6 +311,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Make your video full-screen on playing.</p>",
         "changes": [
+            ["1.0.4", "Added support for YouTube version 19.42.1"],
             ["1.0.3", "Fixed possible crash in some cases (contributed by @bakedpotato191)"]
         ]
     },

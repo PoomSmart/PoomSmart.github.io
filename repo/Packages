@@ -6671,6 +6671,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
 Name: YTAutoFullScreen
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
 
+Package: com.ps.ytautofullscreen
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.4_iphoneos-arm64.deb
+Size: 2874
+MD5sum: 6ea3333bd272af4688fe7d4d4871d037
+SHA1: 29a44941418b6b3462f4a7f99b0b136c590bca24
+SHA256: 54ca41e0b5d92874b91d6d475c658c8724787531f1e5213d6132ff4635b0ef2a
+Section: Tweaks
+Description: Automatically play videos in full screen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
+Name: YTAutoFullScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
+
+Package: com.ps.ytautofullscreen
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.4_iphoneos-arm.deb
+Size: 2792
+MD5sum: ea801e447945765210c7e7899e93104a
+SHA1: fcc45b0792fb4ecd1a32b75d5dfe941a16fb84a6
+SHA256: 3c48877d51088dfcdc6f553daf26c51c12c3cbb800018d33c86a60a8256397b3
+Section: Tweaks
+Description: Automatically play videos in full screen.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
+Name: YTAutoFullScreen
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
+
 Package: com.ps.ytclassicvideoquality
 Version: 1.0.1
 Architecture: iphoneos-arm64
