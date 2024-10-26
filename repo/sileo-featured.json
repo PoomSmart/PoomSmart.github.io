@@ -1,0 +1,42 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "title": "YouPiP",
+            "package": "com.ps.youpip",
+            "url": "https://poomsmart.github.io/repo/features/youpip.png"
+        },
+        {
+            "title": "Amber",
+            "package": "com.ps.amber",
+            "url": "https://poomsmart.github.io/repo/features/amber.png"
+        },
+        {
+            "title": "EmojiPort",
+            "package": "com.ps.emojiportpe",
+            "url": "https://poomsmart.github.io/repo/features/emojiport.png"
+        },
+        {
+            "title": "HighGraphics",
+            "package": "com.ps.highgraphics",
+            "url": "https://poomsmart.github.io/repo/features/highgraphics.png"
+        },
+        {
+            "title": "Anywhere Widgets for iPad",
+            "package": "com.ps.anywherewidgetsforipad",
+            "url": "https://poomsmart.github.io/repo/features/anywherewidgetsforipad.png"
+        },
+        {
+            "title": "NotTodayHomeScreenSideBar",
+            "package": "com.ps.nottodayhomescreensidebar",
+            "url": "https://poomsmart.github.io/repo/features/nottodayhomescreensidebar.png"
+        },
+        {
+            "title": "Battery Health Enabler",
+            "package": "com.ps.batteryhealthenabler",
+            "url": "https://poomsmart.github.io/repo/features/batteryhealthenabler.png"
+        }
+    ]
+}

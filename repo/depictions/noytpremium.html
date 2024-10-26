@@ -1,0 +1,33 @@
+<!doctypehtml><html lang=en><meta charset=utf-8><title>noytpremium</title><meta content=initial-scale=1,maximum-scale=1,user-scalable=0 name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=11.0 id=prerequisite><p id=pt>Compatible with iOS 11.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>Remove YouTube Premium upsells.</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>// Alert
+%hook YTCommerceEventGroupHandler
+- (void)addEventHandlers {}
+%end
+
+// Full-screen
+%hook YTInterstitialPromoEventGroupHandler
+- (void)addEventHandlers {}
+%end
+
+%hook YTPromosheetEventGroupHandler
+- (void)addEventHandlers {}
+%end
+
+%hook YTPromoThrottleController
+- (BOOL)canShowThrottledPromo { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCap:(id)arg1 { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCaps:(id)arg1 { return NO; }
+%end
+
+%hook YTIShowFullscreenInterstitialCommand
+- (BOOL)shouldThrottleInterstitial { return YES; }
+%end
+
+// "Try new features" in settings
+%hook YTSettingsSectionItemManager
+- (void)updatePremiumEarlyAccessSectionWithEntry:(id)arg1 {}
+%end
+
+// Survey
+%hook YTSurveyController
+- (void)showSurveyWithRenderer:(id)arg1 surveyParentResponder:(id)arg2 {}
+%end</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>

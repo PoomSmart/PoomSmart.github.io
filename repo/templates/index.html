@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="../../assets/ios7.min.css">
+    <link rel="stylesheet" href="../../assets/misc.css">
+    <script src="../../assets/ios7.min.js"></script>
+</head>
+
+<body>
+    <main class="ios-table ios-main">
+        <h2 role="header">Compatibility</h2>
+        <ul>
+            <li>
+                <div
+{% if min_ios %}
+                    data-min-ios="{{ min_ios }}"
+{% endif %}
+{% if max_ios %}
+                    data-max-ios="{{ max_ios }}"
+{% endif %}
+{% if strict_range %}
+                    data-unsupported
+{% endif %}
+                    id="prerequisite">
+                    <p id="pt">
+{% if min_ios and max_ios %}
+                        Compatible with iOS {{ min_ios }} to {{ max_ios }}
+{% elif min_ios %}
+                        Compatible with iOS {{ min_ios }} +
+{% endif %}
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <script src="../../misc/iosver.js"></script>
+        <h2 role="header">Description</h2>
+{% if screenshots %}
+        <div class="screenshots-container">
+{% for screenshot in screenshots %}
+            <img height="284" src="{{ screenshot.url }}" alt="{{ screenshot.accessibilityText }}">
+{% endfor %}
+        </div>
+{% endif %}
+        <ul>
+            <li>
+                {{ description }}
+            </li>
+        </ul>
+{% if extra_content %}
+        {{ extra_content }}
+{% endif %}
+{% if changes %}
+        <h2 role="header">Changelog</h2>
+        <ul>
+{% for change in changes %}
+            <li>
+{% if change[1] is iterable and (change[1] is not string and change[1] is not mapping) %}
+                <div style="display: flex;">
+                    <p>{{ change[0] }}:&nbsp;</p>
+                    <div>
+{% for subchange in change[1] %}
+                        <p>{{ subchange }}</p>
+{% endfor %}
+                    </div>
+                </div>
+{% else %}
+                <p>{{ change[0] }}: {{ change[1] }}</p>
+{% endif %}
+            </li>
+{% endfor %}
+        </ul>
+{% endif %}
+{% if source_code %}
+        <h2 role="header">Source Code</h2>
+        <ul>
+            <li>
+                <div class="overflow-x">
+                    <pre>{{ source_code }}</pre>
+                </div>
+            </li>
+        </ul>
+{% endif %}
+        <h2 role="header">Information</h2>
+        <ul>
+			<li>
+                <a href="https://twitter.com/PoomSmart">Dev's Twitter</a>
+			</li>
+			<li>
+                <a href="https://github.com/PoomSmart">Dev's GitHub</a>
+			</li>
+			<li>
+                <a href="https://poomsmart.github.io">Support Dev</a>
+			</li>
+		</ul>
+    </main>
+</body>
+
+</html>

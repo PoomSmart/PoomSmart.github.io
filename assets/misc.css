@@ -1,0 +1,18 @@
+.screenshots-container {
+    width: 100%;
+    max-height: 284px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.screenshots-container > img {
+    display: inline-flex;
+}
+
+.overflow-x {
+    overflow-x: auto;
+}
+
+.ios-main {
+    max-width: 100%;
+}

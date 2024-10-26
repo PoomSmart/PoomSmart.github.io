@@ -1,0 +1,7 @@
+<!doctypehtml><html lang=en><meta charset=utf-8><title>LPM Enabler</title><meta content=initial-scale=1,maximum-scale=1,user-scalable=0 name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-max-ios=14.8.1 data-min-ios=11.0 data-unsupported id=prerequisite><p id=pt>Compatible with iOS 11.0 to 14.8.1</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>%hook PLModelingUtilities
+
++ (bool)isLowPowerModeSupported {
+    return true;
+}
+
+%end</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>
