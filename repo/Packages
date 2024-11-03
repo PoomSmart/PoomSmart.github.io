@@ -7121,6 +7121,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytmabconfig.html
 Name: YTMABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytmabconfig.json
 
+Package: com.ps.ytmabconfig
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytmabconfig/com.ps.ytmabconfig_1.0.1_iphoneos-arm.deb
+Size: 20860
+MD5sum: c9bd8d4a78aefb260c71c2ac25dce953
+SHA1: ac3b6fde0b21d01b002f12bd05757379caca1acd
+SHA256: 7d04c2fb2bd29b09c543bd9eb0f04aff7f263f64b4bce90524b32b11fc5a553c
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytmabconfig.html
+Name: YTMABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytmabconfig.json
+
+Package: com.ps.ytmabconfig
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytmabconfig/com.ps.ytmabconfig_1.0.1_iphoneos-arm64.deb
+Size: 20880
+MD5sum: dab4826f65cd0dc48859de1c0c9f21a0
+SHA1: 29ca127259e1ab77d09d2a206213e1ce3c5c5c60
+SHA256: 5a27cd31e8eeb19bc86e62dabf9bf160379629395d794f68ec61a4f3720fd99f
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytmabconfig.html
+Name: YTMABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytmabconfig.json
+
 Package: com.ps.ytnochecklocalnetwork
 Version: 1.0.0
 Architecture: iphoneos-arm
