@@ -405,6 +405,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.5", "Improve shorts ads blocking logic"],
             ["1.7.4", "Block shopping_item_card_list ads"],
             ["1.7.3", "Block shopping_carousel ads"],
             ["1.7.2", "Re-block search ads"],
