@@ -70,6 +70,10 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.16", [
+                "Fixed the logic for adding PiP button to the video tab bar (contributed by NguyenASang)",
+                "Added YouGroupSettings tweak as a dependency"
+            ]],
             ["1.8.15", [
                 "Updated setting icon",
                 "Added id localization"
@@ -217,6 +221,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.5", "Added YouGroupSettings tweak as a dependency"],
             ["1.7.4", [
                 "Updated setting icon",
                 "Added id localization"
@@ -341,6 +346,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
+            ["1.2.2", "Added YouGroupSettings tweak as a dependency"],
             ["1.2.1", [
                 "Updated setting icon",
                 "Added id localization"
@@ -445,6 +451,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
         "changes": [
+            ["1.0.1", "Added YouGroupSettings tweak as a dependency"],
             ["1.0.0-1", "Added vi, zh-Hans localization"]
         ]
     }
