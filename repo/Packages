@@ -2982,6 +2982,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
 Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/network/com.ps.letmeblock_1.3.0_iphoneos-arm.deb
+Size: 9368
+MD5sum: 7efd2198a4d5ce5fb724b22488f844a4
+SHA1: 45f53125dfe2e6c72ff145c3fc86ae394b7ea021
+SHA256: f202da2ca06de614ff1334c580cfad766eaac42d0c2d191e632e2c3a62c9b144
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/network/com.ps.letmeblock_1.3.0_iphoneos-arm64.deb
+Size: 6190
+MD5sum: eaebb6437016a6b043e31fa258e85803
+SHA1: a577ade337190ea7c7aaae42b801c0983be611d8
+SHA256: 72cd74890de21f2f94115ee347d7e7a6131e38f7811f0dcdffce6ae37b58c1a0
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
 Package: com.ps.libsubstitrate
 Version: 0.0.1-3
 Architecture: iphoneos-arm
