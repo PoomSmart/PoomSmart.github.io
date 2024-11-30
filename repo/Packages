@@ -1263,44 +1263,6 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.8.0~b1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 508
-Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
-Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.8.0~b1_iphoneos-arm64.deb
-Size: 43072
-MD5sum: 67c7de6d54b020869e7b44f080e52c99
-SHA1: 66ab6f6210b84be2c638ddd8bdf7e059fbac0370
-SHA256: aed331da2877a49bfdc9ef23ac26526032c711717ee54d6219b6e3323feb0d72
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
-Version: 1.8.0~b1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 632
-Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
-Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.8.0~b1_iphoneos-arm.deb
-Size: 54680
-MD5sum: 64e9c57330858f8277a809be9f139a22
-SHA1: 18938977643cd88eee12777e45342b803d05a999
-SHA256: 06d5b5f0c60d128d1b46ca71a9ea5f0c918b439fdd83cc2c80eff9a038cbdba0
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes
 Version: 1.8.0~b2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1336,27 +1298,6 @@ Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
 Name: EmojiAttributes
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
-
-Package: com.ps.emojiattributes-meowbrek
-Version: 1.8.0~b1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 312
-Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.0)
-Conflicts: com.ps.flexmoji, com.ps.emojiattributes
-Replaces: com.ps.emojiattributes
-Provides: com.ps.emojiattributes
-Filename: ./debs/emojiport/com.ps.emojiattributes-meowbrek_1.8.0~b1_iphoneos-arm64.deb
-Size: 21552
-MD5sum: 17f5ef2f17477c9e9b5cfe2359db7ec3
-SHA1: f2b49573ce2572a89495a7964f80b97b6bbca3bc
-SHA256: ff66fa54cd0dbf09446086a9a42b9adaa82e5bd89d6ec12a6668497b2f3d27fa
-Section: Tweaks
-Description: Various under-the-hood fixes for emoji display.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
-Name: EmojiAttributes (meowbrek)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojidarkstyle
@@ -1521,44 +1462,6 @@ Name: AppleColorEmoji Low Quality (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontlqefm.json
 
 Package: com.ps.emojifontmanager
-Version: 1.3.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 336
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
-Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.4_iphoneos-arm.deb
-Size: 36714
-MD5sum: d775ebc476509e6cb92ed9d0fee8b7d4
-SHA1: 8f6b23f5a02c7561f32be91896f249ca2ff4da16
-SHA256: 9a8161fbe33bd58fa0ab8496b5cff8ad1b270108c04c80c5c47ebcfc246a2324
-Section: Tweaks
-Description: Emoji font override and management.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-Name: EmojiFontManager
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
-
-Package: com.ps.emojifontmanager
-Version: 1.3.4
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 404
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
-Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.4_iphoneos-arm64.deb
-Size: 31274
-MD5sum: 26665564c77ba27bcf5ff306db556bf6
-SHA1: 8dd2d573a8b495bd1c13f294462051ec6434b33d
-SHA256: a697a8a1bda1b8d1d85ee8cf55c03977dfe66b1e086ad2e54d6083f7f827c765
-Section: Tweaks
-Description: Emoji font override and management.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-Name: EmojiFontManager
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
-
-Package: com.ps.emojifontmanager
 Version: 1.3.5
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -1632,42 +1535,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilayout.html
 Name: EmojiLayout
 
 Package: com.ps.emojilibrary
-Version: 1.5.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 680
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.5.0_iphoneos-arm.deb
-Size: 92538
-MD5sum: 019956ef4e23cbac3b8e2910c9f773c5
-SHA1: 98a7f8253fa57ce0005d8d8efb113f297f4f77cd
-SHA256: 19033e58576269a5f873c6d83d81387849c52e1247adbe2028fa370c0ea036f8
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
-Package: com.ps.emojilibrary
-Version: 1.5.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 508
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.5.0_iphoneos-arm64.deb
-Size: 48608
-MD5sum: 474d1bcdacdbd68ead06c861365e26ee
-SHA1: 7f09b0e3b4e1f9f3cd42cb04d14dfa8970d0330d
-SHA256: 95a0afbb18fdff0fa41c4fc9faa842f318079d00bb4c73bd0155e7d816da1874
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
-Package: com.ps.emojilibrary
 Version: 1.6.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -1703,78 +1570,6 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
-Package: com.ps.emojilibrary
-Version: 1.6.0~b1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 680
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.6.0~b1_iphoneos-arm.deb
-Size: 94854
-MD5sum: 169d4c62d180a9a7f481eecf051f1cc7
-SHA1: 0e6feaf19ed6a2736dd038c5d319bb5a5d921e08
-SHA256: 74b2da5358b45e491a8c375c57c97af8a208302dbf0380825791176217487e62
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
-Package: com.ps.emojilibrary
-Version: 1.6.0~b1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 424
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.6.0~b1_iphoneos-arm64.deb
-Size: 34590
-MD5sum: ad1eda5eb0f415fb3d0e1c2ea603aac7
-SHA1: 59f6f226de945d280ea6e72dabb4fbbe789d537a
-SHA256: 2c3e47803ea2303f34abcad9d1038623e77baa415fb1e09464d91fb446409cc7
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
-Package: com.ps.emojilibrary
-Version: 1.6.0~b2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 680
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.6.0~b2_iphoneos-arm.deb
-Size: 93074
-MD5sum: 34c99fafdd639ac26018125f076f5580
-SHA1: 95e42bcf086e86a5ba5bcc6442763dffe1f8a9a0
-SHA256: fead2fb18dde6f6803946de35ce62006b7e0b17b033dba1cf323f2e4e8d77843
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
-Package: com.ps.emojilibrary
-Version: 1.6.0~b2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 408
-Filename: ./debs/emojiport/com.ps.emojilibrary_1.6.0~b2_iphoneos-arm64.deb
-Size: 34214
-MD5sum: 3c5415ff02bbaefafe97cb775482da3f
-SHA1: df13ff553a40e127a1f99e9156f8f111c05a1856
-SHA256: 1e7faa3f51fd072b30996ca79dba6cc5981eafa0b5764e1a04375a335eb8c2fc
-Section: Development
-Description: Master library for PoomSmart's emoji tweaks.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
-Name: EmojiLibrary
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
-
 Package: com.ps.emojilocalization
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -1791,42 +1586,6 @@ Description: Latest localization for emoji keyboard.
 Tag: compatible::ios5, compatible::ios6, compatible::ios7, compatible::ios8, compatible::ios9
 Author: PoomSmart
 Name: EmojiLocalization
-
-Package: com.ps.emojiport10resources
-Version: 1.5.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 216508
-Depends: firmware (>= 10.0)
-Filename: ./debs/emojiport/com.ps.emojiport10resources_1.5.1_iphoneos-arm64.deb
-Size: 55320614
-MD5sum: a6cc893c649dcc7850b935bb9da055b8
-SHA1: b75e75ac48442f986cf0280eaff6276445f74747
-SHA256: ceb3b95c8134ec9cbffaa00977402129ed4b252ee7ae1e61fbe8378f8135704c
-Section: Tweaks
-Description: Latest emoji localization and metadata for iOS 10+
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
-Name: EmojiPort Resources (iOS 10+)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
-
-Package: com.ps.emojiport10resources
-Version: 1.5.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 216508
-Depends: firmware (>= 10.0)
-Filename: ./debs/emojiport/com.ps.emojiport10resources_1.5.1_iphoneos-arm.deb
-Size: 55356868
-MD5sum: 356d5900dbc676b79651f6b7d0be2196
-SHA1: f70c2eb2157f109a126d97b21c24a7a8d319e984
-SHA256: 9592df784fcba1ed5b2b0a6135a22c394fa614ffc485beb400bbf07faa332b45
-Section: Tweaks
-Description: Latest emoji localization and metadata for iOS 10+
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport10resources.html
-Name: EmojiPort Resources (iOS 10+)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport10resources.json
 
 Package: com.ps.emojiport10resources
 Version: 1.6.0
@@ -1884,25 +1643,6 @@ Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
 Name: EmojiPort (iOS 5.1)
 
 Package: com.ps.emojiportlegacy
-Version: 1.8.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 432
-Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.2.2~b5), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
-Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
-Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.1_iphoneos-arm.deb
-Size: 65074
-MD5sum: 1916c75e8deff6d1a54e925c3ae115ad
-SHA1: 543752428336d3e5b26cc6afedc8be1040c24994
-SHA256: e5a54fdf8b460cf2dfbf843f0dfffb2ed3386317223c321d7075e4046de56bb3
-Section: Tweaks
-Description: Latest emojis for iOS 6.0-8.2
-Tag: compatible::ios6, compatible::ios7, compatible::ios8
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
-Name: EmojiPort (iOS 6.0-8.2)
-
-Package: com.ps.emojiportlegacy
 Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -1920,43 +1660,6 @@ Tag: compatible::ios6, compatible::ios7, compatible::ios8
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
 Name: EmojiPort (iOS 6.0-8.2)
-
-Package: com.ps.emojiportpe
-Version: 1.4.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 304
-Depends: firmware (>= 12.0), firmware (<< 16.4), com.ps.emojiattributes (>= 1.7.0~b1), com.ps.emojilibrary (>= 1.5.0), com.ps.emojiport10resources (>= 1.4.0)
-Filename: ./debs/emojiport/com.ps.emojiportpe_1.4.1_iphoneos-arm.deb
-Size: 17308
-MD5sum: 75786794715632e6b0a21878e87afed6
-SHA1: 7fbfe110aa0c61c2f2fcf3d7a3b31c780cb09d82
-SHA256: a5948dfb6872cc6ba1683d15142e8359fde281a4ad04c69fc9768df14f3c2fb7
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-16.3
-Tag: compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-16.3)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 336
-Depends: firmware (>= 12.0), firmware (<< 16.4), com.ps.emojiattributes (>= 1.7.0~b1), com.ps.emojilibrary (>= 1.5.0), com.ps.emojiport10resources (>= 1.4.0)
-Filename: ./debs/emojiport/com.ps.emojiportpe_1.4.1_iphoneos-arm64.deb
-Size: 17688
-MD5sum: 5894a59e537d1e003985cfa24cec1d3d
-SHA1: 77497fb9a0fd4420bf8fc2a8980915aa984d8f24
-SHA256: 2d948dfb11fa6253fcdfeffc508df362a27624796d3c06ea40cbc30b9271e1dc
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-16.3
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-16.3)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
 Package: com.ps.emojiportpe
 Version: 1.4.3
@@ -1992,60 +1695,6 @@ Description: Latest emojis for iOS 12.0-16.3
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
 Name: EmojiPort (iOS 12.0-16.3)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
-Version: 1.5.0~b1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 400
-Depends: firmware (>= 12.0), firmware (<< 17.4), com.ps.emojiattributes (>= 1.8.0~b1), com.ps.emojilibrary (>= 1.6.0~b1), com.ps.emojiport10resources (>= 1.6.0~b1)
-Filename: ./debs/emojiport/com.ps.emojiportpe_1.5.0~b1_iphoneos-arm64.deb
-Size: 17852
-MD5sum: 71cd63ac73acadf4b6702c2368db0bfe
-SHA1: 53e515ab6fb86d6b2b36652fefc75cd5abf2efed
-SHA256: 3be6508f431045d79925b214b08f29e55a7228f0ffc6f803ef08abb722738ad3
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-17.3
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-17.3)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
-Version: 1.5.0~b1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 336
-Depends: firmware (>= 12.0), firmware (<< 17.4), com.ps.emojiattributes (>= 1.8.0~b1), com.ps.emojilibrary (>= 1.6.0~b1), com.ps.emojiport10resources (>= 1.6.0~b1)
-Filename: ./debs/emojiport/com.ps.emojiportpe_1.5.0~b1_iphoneos-arm.deb
-Size: 19082
-MD5sum: bc77876fd991c38bfae3bf6efc6dd2e2
-SHA1: d87d2ec5e3a6c3fecf1df1ca4f50063d9f26bc76
-SHA256: fb3bd09bb104e4754dbe21c6bdffa2bc57c7d99664f53746ebf1e6aa4cc3ff28
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-17.3
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-17.3)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
-
-Package: com.ps.emojiportpe
-Version: 1.5.0~b2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 400
-Depends: firmware (>= 12.0), firmware (<< 17.4), com.ps.emojiattributes (>= 1.8.0~b1) | com.ps.emojiattributes-meowbrek (>= 1.8.0~b1), com.ps.emojilibrary (>= 1.6.0~b1), com.ps.emojiport10resources (>= 1.6.0~b1)
-Filename: ./debs/emojiport/com.ps.emojiportpe_1.5.0~b2_iphoneos-arm64.deb
-Size: 17876
-MD5sum: fc975f6b19613ca417fa81bc18a0969b
-SHA1: 3ecf4af780c4a02a41a5a77723ee0065651cb4ae
-SHA256: 32adb2951f2f3c1ef6c5cedd2b41eb784e47290a73e12b885c44ccce17daa20f
-Section: Tweaks
-Description: Latest emojis for iOS 12.0-17.3
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
-Name: EmojiPort (iOS 12.0-17.3)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
 Package: com.ps.emojiportpe
@@ -2085,27 +1734,6 @@ Name: EmojiPort (iOS 12.0-17.3)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
 
 Package: com.ps.emojiportps
-Version: 1.7.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 268
-Depends: firmware (>= 8.3), firmware (<< 10.0), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilibrary (>= 1.2.2~b5), firmware (>= 9.1) | com.ps.emojilocalization (>= 1.1), firmware (>= 9.1) | com.ps.emojiresources (>= 1.1)
-Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps, com.ps.emojiportfix
-Replaces: com.ps.emojiportfix
-Provides: com.ps.emojiportfix
-Filename: ./debs/emojiport/com.ps.emojiportps_1.7.0_iphoneos-arm.deb
-Size: 15252
-MD5sum: f64960e12ed2f6b52d2ef7595bf8ae2d
-SHA1: c2de6dc7dff2bcce331d3d80664ad247b65a28a4
-SHA256: af071168cf1ae90a8ebfc1b925d62691ce32d8e94d907c06c4bf8e01ba287075
-Section: Tweaks
-Description: Latest emojis for iOS 8.3-9.3
-Tag: compatible::ios8, compatible::ios9
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_9.html
-Name: EmojiPort (iOS 8.3-9.3)
-
-Package: com.ps.emojiportps
 Version: 1.7.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -2125,25 +1753,6 @@ Tag: compatible::ios8, compatible::ios9
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_8_9.html
 Name: EmojiPort (iOS 8.3-9.3)
-
-Package: com.ps.emojiportwt
-Version: 1.4.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 336
-Depends: firmware (>= 10.0), firmware (<< 12.0), com.ps.emojiattributes (>= 1.4.5), com.ps.emojilibrary (>= 1.3.0), com.ps.emojiport10resources (>= 1.5.0)
-Conflicts: com.ps.emoji10wt
-Filename: ./debs/emojiport/com.ps.emojiportwt_1.4.0_iphoneos-arm.deb
-Size: 15454
-MD5sum: a7e6e3cd3d88f61b8513b45ce6d6a4dd
-SHA1: e737cbeba8f3ad54f8f5538a566fa899c5690143
-SHA256: 1ddb689f036b0ce68e9946f5707ada40d86dee1ab4ca2e73323b7a8822f20298
-Section: Tweaks
-Description: Latest emojis for iOS 10.0-11.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_10.html
-Name: EmojiPort (iOS 10.0-11.4)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_10.json
 
 Package: com.ps.emojiportwt
 Version: 1.4.1
@@ -4703,42 +4312,6 @@ Author: PoomSmart
 Name: WhatsAllEmojis
 
 Package: com.ps.whatsappefm
-Version: 15.0.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.whatsappefm_15.0.0_iphoneos-arm64.deb
-Size: 738
-MD5sum: b36a64f1ae3c7fa732f3fa3a5202f6b9
-SHA1: 3f1bcb4d120c282490ce3d430fbba36e8ab30172
-SHA256: bba4fa8c9b1e8d769efebfa159bf6db12adff0fcb21a247831b2ad97bb64b370
-Section: Fonts (EFM)
-Description: WhatsApp Emoji (Unicode 15.0) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
-Name: WhatsApp Emoji Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
-
-Package: com.ps.whatsappefm
-Version: 15.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.whatsappefm_15.0.0_iphoneos-arm.deb
-Size: 738
-MD5sum: 8bc67fa91769cd8787f197099082752b
-SHA1: c710c119bbed1b0d751a64c3a2878f61d3138f08
-SHA256: a695c72e71daf02d3d22eeb20bc1995660585504e17ec313d460e0b7ffd1c076
-Section: Fonts (EFM)
-Description: WhatsApp Emoji (Unicode 15.0) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
-Name: WhatsApp Emoji Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
-
-Package: com.ps.whatsappefm
 Version: 15.1.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -4857,6 +4430,42 @@ Size: 8480
 MD5sum: 3d9875df1259bf6322beb1851b88d4d7
 SHA1: 4f6a0fd7e3c876a0276a0562a561daff710103c4
 SHA256: 1441c9d7871b01752645c2d882393b59608c8b6e860bef31496d5bf07bac9ff6
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
+Package: com.ps.youchoosequality
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.2_iphoneos-arm64.deb
+Size: 8594
+MD5sum: 4faf8242c43d454e22e748ea19db3bdd
+SHA1: 595cf9bd2a80cbec7a45aca1f92a5a7b678e1de1
+SHA256: 6ee4887f98c1a6d916c4a79c8358d2eefe11e61cfa10af860c5f5dd0ad6f2486
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
+Package: com.ps.youchoosequality
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.2_iphoneos-arm.deb
+Size: 8594
+MD5sum: 7b345d02f38fdb28b8c120d6ef98d5fa
+SHA1: 0992a898821e07bf4fd86d359181189b9dbd1e23
+SHA256: 27daa46ce39f15062f1cecad763738f14c933238eb0bbb95238f441ff5a745e6
 Section: Tweaks
 Description: Auto-select the video quality of choice in iOS YouTube app.
 Author: PoomSmart
@@ -5724,6 +5333,48 @@ Size: 25718
 MD5sum: be097095fba1a0d864f1b0d9d83259ad
 SHA1: c977a76a1d7079f54e4d864421135d4fbc4b6e1a
 SHA256: 515fb0ba3a28faf44ce58364e67e00af4eb7d9eef0740f8721dc344a298b78a7
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.8.17
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 192
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.17_iphoneos-arm64.deb
+Size: 26290
+MD5sum: c6687995e41c832eaf6cf5930f5b41a2
+SHA1: 28dc25dced87ab7b00a0d37495d5f87db693c972
+SHA256: b60915285b5cc33524c64157b608d744ec5d867bf7c9a360745ae2d37d5d8820
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.8.17
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 192
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.17_iphoneos-arm.deb
+Size: 26320
+MD5sum: b2bc85f86f542931d930860f538c2987
+SHA1: 7a49a2f2e3097ecb28fda9409ede119f7c8e99c1
+SHA256: 9bc034761672e8e8aa2d027dba43297e68b38052e8f56be65629c67cf406eeea
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart
@@ -6823,6 +6474,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
 Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
+Package: com.ps.ytabconfig
+Version: 1.7.6
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.6_iphoneos-arm64.deb
+Size: 21604
+MD5sum: f48a2cee74f4c89d6310c79f2077c445
+SHA1: 41559241bce37729814ea9fe59fee5aec308bdd0
+SHA256: 7b65bc1a3cac0ae9713ed735a45d58189ad5b7a4e61b5d1036e7d2498c0dd71c
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.7.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.6_iphoneos-arm.deb
+Size: 21688
+MD5sum: 6d08255d44343da8bece6504493ca1ff
+SHA1: d5c88f8126a36147f104db71754f01974f72ada0
+SHA256: e61d1531f7080b41b61d0966e3225da5c41bcf092c689ff7755a9e9f71c1e067
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
 Package: com.ps.ytabgoodies
 Version: 1.0.4
 Architecture: iphoneos-arm
@@ -6898,42 +6585,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
-
-Package: com.ps.ytautofullscreen
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.3_iphoneos-arm.deb
-Size: 2858
-MD5sum: 0a66dc4dcecf227f44e643fd8a60ea8a
-SHA1: d5549773a922eadbf5f4c0609363969b0c541b1c
-SHA256: fcaca042b66a907fd61e32836fbf2d28672e9e04a94b825c0c37254faf41d525
-Section: Tweaks
-Description: Automatically play videos in full screen.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
-Name: YTAutoFullScreen
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
-
-Package: com.ps.ytautofullscreen
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytautofullscreen_1.0.3_iphoneos-arm64.deb
-Size: 2966
-MD5sum: 4c1a639a722166dea4f35f49634d717a
-SHA1: 243b7266c10ea5101853ea6b85841f0e0a580489
-SHA256: 21be5917e771e2327248d4ebcdd4b12a9d97afd061e4a2352767444c91fbf166
-Section: Tweaks
-Description: Automatically play videos in full screen.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytautofullscreen.html
-Name: YTAutoFullScreen
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytautofullscreen.json
 
 Package: com.ps.ytautofullscreen
 Version: 1.0.4
@@ -7396,42 +7047,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
 Name: YTReExplore
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
-
-Package: com.ps.ytshortsprogress
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.2_iphoneos-arm.deb
-Size: 2558
-MD5sum: a285c0af078f779b3b6c25d31b62fac5
-SHA1: fc1f175e4b53ea61603212e2c87849a303962d30
-SHA256: e53682fa1db7596847bf71c2c2bab6fdb01aa68ba8f46607169bc56762300483
-Section: Tweaks
-Description: Enable YouTube shorts progress/scrubber.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
-Name: YTShortsProgress
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
-
-Package: com.ps.ytshortsprogress
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytshortsprogress_1.0.2_iphoneos-arm64.deb
-Size: 2644
-MD5sum: 9120eb965c14c96a2a730e73a1ed2b0a
-SHA1: cf72374bba805a144f85e070d8075b616f1afe9f
-SHA256: af090003b0223856c7c8a616de7e9071a3a6f6f40da500519acec3da84fdb9a5
-Section: Tweaks
-Description: Enable YouTube shorts progress/scrubber.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
-Name: YTShortsProgress
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
 
 Package: com.ps.ytshortsprogress
 Version: 1.0.3
@@ -8046,42 +7661,6 @@ Name: YTUHD
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: com.ps.ytuhd
-Version: 1.5.4-1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 132
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.4-1_iphoneos-arm64.deb
-Size: 12242
-MD5sum: 407974bdfd3c838a637e393d0724a561
-SHA1: 101bccbb2d956eb771bb5047ce99e9cd2ab77565
-SHA256: b1a5f6ec920634e3c08c8fca662601845a46a194df06e53184456ae874a8d5a5
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
-Version: 1.5.4-1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 132
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.4-1_iphoneos-arm.deb
-Size: 12266
-MD5sum: 93c2744ad908b73be8635618a005a3ed
-SHA1: ea1f02007433239aaa65440097e3c3fd24bc4f61
-SHA256: 0b74d79872ff491f908dccd5b1a68c5b58bf87e5a617d8172e08069838c3f89d
-Section: Tweaks
-Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
-Name: YTUHD
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
-
-Package: com.ps.ytuhd
 Version: 1.5.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -8118,16 +7697,16 @@ Name: YTUHD
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: com.ps.ytuhd
-Version: 1.5.5-1
-Architecture: iphoneos-arm
+Version: 1.5.5-2
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 140
+Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.5-1_iphoneos-arm.deb
-Size: 13264
-MD5sum: b132a287d848b6619fbbabf433b8e10a
-SHA1: ab6b58f9b119292025603187c8d42b132e345cf3
-SHA256: ff0b81bdbe78a6bdfc347aea68a90ad5a5ff133731804ecf0abff8c77abb4863
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.5-2_iphoneos-arm64.deb
+Size: 13646
+MD5sum: abfc477cbb98bc38a1be65c32fee996f
+SHA1: bed4359fa4962ee736eb70a276a812fcf4116bb0
+SHA256: 66a9d12728fc0344884ee30e9e3b15391a677046696488e7afc4ba13dbe9b85e
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
@@ -8136,16 +7715,16 @@ Name: YTUHD
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
 Package: com.ps.ytuhd
-Version: 1.5.5-1
-Architecture: iphoneos-arm64
+Version: 1.5.5-2
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 140
+Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.5-1_iphoneos-arm64.deb
-Size: 13266
-MD5sum: 7114bb512c419156f81ee36b3d164e66
-SHA1: 45019cc6fe837a46902d87d060b17f1fba8e738e
-SHA256: d4935901ea75f5f7bf1d7119cf5a0175995b7ff9c5a6e7131a1d0906ae75a9a3
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.5-2_iphoneos-arm.deb
+Size: 13652
+MD5sum: 25918a9a178240f30b8750cef0065a0b
+SHA1: bfddc45c85e7559f861c0e72215eda9cbe95312a
+SHA256: b4209ff210637c5b01bda0ca63b867d22d6f026f2f1c2c688d5a8e961a06aef3
 Section: Tweaks
 Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
@@ -8160,7 +7739,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.0.1_iphoneos-arm64.deb
 Size: 2682
 MD5sum: 986118da9f923f93e2a16c0dc0ae4e0a
 SHA1: 584e1312ee6f504fa2ea2e3654b6652e9b341800
@@ -8177,7 +7756,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.0.1_iphoneos-arm.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.0.1_iphoneos-arm.deb
 Size: 2616
 MD5sum: 6f22e35ded06178153c8a28e1920513d
 SHA1: a95fe8897312e188bf922c033205beb541fd6d6e
@@ -8194,7 +7773,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.1.0_iphoneos-arm.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.1.0_iphoneos-arm.deb
 Size: 2694
 MD5sum: 9abfb4f305a71610f8bf6775cb0a81a3
 SHA1: 6bafbb3f384cae90ceaaf58af6f78b20d64ab109
@@ -8211,7 +7790,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.1.0_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.1.0_iphoneos-arm64.deb
 Size: 2756
 MD5sum: 12697f7a19b265fc8bc2806a875b12fb
 SHA1: 3a65526de72aed8c0f557c05781d4895a9bc49d6
@@ -8228,7 +7807,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.0_iphoneos-arm64.deb
 Size: 2952
 MD5sum: a5da941d41e54e9223e1deac7906a64d
 SHA1: e6e296470090fdc5cf09c695cee35df9ae75e5df
@@ -8245,7 +7824,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.2.0_iphoneos-arm.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.0_iphoneos-arm.deb
 Size: 2870
 MD5sum: 9d9e3e89290b1ba135bbfd6cba859acd
 SHA1: 4b6136fba881b12a1b8dc90b4b4f6ab495639280
@@ -8262,7 +7841,7 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.2.1_iphoneos-arm.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.1_iphoneos-arm.deb
 Size: 2844
 MD5sum: 7fb64b08ee794453bf316ceea33dbaf9
 SHA1: 9c64132ead0af1d8c52307c1b5f730b14abdeae0
@@ -8279,7 +7858,7 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
 Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
-Filename: ./debs/youtube/com.ps.ytunshorts_1.2.1_iphoneos-arm64.deb
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.1_iphoneos-arm64.deb
 Size: 2930
 MD5sum: a81fca4ebaacda2b6a453f71014268d3
 SHA1: 1414231a6b0d40492c8dd10bd10a531ba54ffae2
@@ -8642,6 +8221,42 @@ Size: 11030
 MD5sum: 383c923755e675eba56614166060a5d6
 SHA1: 43f1d05ee4934ecf8ac6a40a09bd293c5fdd3de2
 SHA256: 587a2bc70ec3c20e59e657312591a1975d946e22c420853aec66caf88fe81bde
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.2.3_iphoneos-arm64.deb
+Size: 11128
+MD5sum: 55c114bf62efed81b61ff1108a3240d6
+SHA1: 5bef782aa95ec2866061b20c6b64712e37884c8b
+SHA256: 0f4689e4961521362961e222330f45532e000c0b1a2b0f3f68000a873f26cae3
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.2.3_iphoneos-arm.deb
+Size: 11142
+MD5sum: 77a8505ebf4324ce6720d1115626b2dc
+SHA1: a6fa30c6752ae1107682cbf8ce9164a01883c0b5
+SHA256: 86d6d8c1496eb170daad2dfd8773a97b07c59df010f99a77bffd928a293d0be3
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart

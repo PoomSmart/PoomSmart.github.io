@@ -8,13 +8,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
-            ["1.5.5-1", "Added id localization"],
+            ["1.5.5-2", "Added id, pl localization"],
             ["1.5.5", [
                 "Added a future-proof hook for when iosPlayerClientSharedConfigPostponeCabrPreferredFormatFiltering will be removed",
                 "Updated spoof version to 15.8.3 (for iOS 14-)",
-            ]],
-            ["1.5.4-1", [
-                "Updated spoof version to 15.8.2 (for iOS 14-)",
                 "Updated ru, tr localization"
             ]],
             ["1.5.3", "Fixed 1440p+ formats not showing on YouTube version 19.24.2 and higher"],
@@ -70,6 +67,10 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.17", [
+                "Made tweak settings displayed without YouGroupSettings tweak (contributed by @dayanch96)",
+                "Added pl localization"
+            ]],
             ["1.8.16", [
                 "Fixed the logic for adding PiP button to the video tab bar (contributed by NguyenASang)",
                 "Added YouGroupSettings tweak as a dependency"
@@ -159,8 +160,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Always enable progress bar and scrubbing in YouTube Shorts.</p>",
         "changes": [
-            ["1.0.3", "Added more hooks (contributed by @dayanch96)"],
-            ["1.0.2", "Fixed a bug where swiping on a full-screen video always triggers progress bar change"]
+            ["1.0.3", [  
+                "Added more hooks (contributed by @dayanch96)",
+                "Fixed a bug where swiping on a full-screen video always triggers progress bar change"
+            ]]
         ]
     },
     {
@@ -221,6 +224,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.6", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.7.5", "Added YouGroupSettings tweak as a dependency"],
             ["1.7.4", [
                 "Updated setting icon",
@@ -328,8 +332,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Make your video full-screen on playing.</p>",
         "changes": [
-            ["1.0.4", "Added support for YouTube version 19.42.1"],
-            ["1.0.3", "Fixed possible crash in some cases (contributed by @bakedpotato191)"]
+            ["1.0.4", [
+                "Added support for YouTube version 19.42.1",
+                "Fixed possible crash in some cases (contributed by @bakedpotato191)"
+            ]]
         ]
     },
     {
@@ -346,6 +352,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
+            ["1.2.3", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.2.2", "Added YouGroupSettings tweak as a dependency"],
             ["1.2.1", [
                 "Updated setting icon",

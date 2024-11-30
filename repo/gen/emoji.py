@@ -4,8 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
-            ["1.6.0", "Updated to iOS 17.4 assets"],
-            ["1.5.1", "Updated to iOS 17.0 assets"]
+            ["1.6.0", "Updated to iOS 17.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
     },
@@ -17,8 +16,8 @@ emoji = [
             ["1.8.0~b2", [
                 "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
                 "Rootful: Fixed crash on iOS 12 arm64e devices"
+                "Initial Unicode 15.1 support"
             ]],
-            ["1.8.0~b1", "Initial Unicode 15.1 support"],
             ["1.7.1", [
                 "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
                 "Rootful: Optimized hooks"
@@ -35,8 +34,8 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
-            ["1.3.5", "Fixed emojis not rendered correctly on iOS 10"],
-            ["1.3.4", [
+            ["1.3.5", [
+                "Fixed emojis not rendered correctly on iOS 10",
                 "Use _NSGetExecutablePath to detect process type",
                 "Rootless: Disabled injection into WebContent due to ongoing issues with ElleKit",
                 "Rootful: Fixed theming not working on iOS 12"
@@ -75,13 +74,11 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            ["1.6.0", "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes"],
-            ["1.6.0~b2", [
-                "Refactored for better code maintainability",
-                "Removed redundant methods"
-            ]],
-            ["1.6.0~b1", "iOS 17.4 emojis support"],
-            ["1.5.0", "iOS 16.4 emojis support"]
+            ["1.6.0", [
+                "iOS 17.4 emojis support",
+                "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes",
+                "Refactored for better code maintainability"
+            ]]
         ],
         "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including\
                     algorithms and functionalities that handle any kind of emojis - display as images properly. Developers\
@@ -108,8 +105,10 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            ["1.8.2", "Updated for new EmojiLibrary"],
-            ["1.8.1", "Fixed emoji category images not displaying correctly"]
+            ["1.8.2", [
+                "Fixed emoji category images not displaying correctly",
+                "Updated for new EmojiLibrary"
+            ]]
         ],
         "description": "<p>Latest emojis for iOS 6.0 - 8.2</p>\
                 <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -122,8 +121,10 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            ["1.7.1", "Updated for new EmojiLibrary"],
-            ["1.7.0", "Combined with EmojiPort (iOS 8.3 - 8.4)"]
+            ["1.7.1", [
+                "Combined with EmojiPort (iOS 8.3 - 8.4)",
+                "Updated for new EmojiLibrary"
+            ]]
         ],
         "description": "<p>Latest emojis for iOS 8.3 - 9.3</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
@@ -135,8 +136,8 @@ emoji = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            ["1.4.1", "Updated for new EmojiLibrary"],
-            ["1.4.0", [
+            ["1.4.1", [
+                "Updated for new EmojiLibrary",
                 "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
                 "Use _NSGetExecutablePath to detect process type"
             ]]
@@ -152,16 +153,15 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
-            ["1.5.0~b3", "Updated for new EmojiLibrary"],
-            ["1.5.0~b2", "(Rootless) Allow EmojiAttributes (meowbrek) to be a dependency"],
-            ["1.5.0~b1", "Initial iOS 17.4 emojis support"],
+            ["1.5.0~b3", [
+                "Initial iOS 17.4 emojis support",
+                "Updated for new EmojiLibrary"
+            ]],
             ["1.4.3", [
                 "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
                 "Use _NSGetExecutablePath to detect process type",
                 "Fixed tweak not loading on some rootful devices",
-                "(Rootless-only) Disabled injection into WebContent due to ElleKit issues"
-            ]],
-            ["1.4.1", [
+                "(Rootless-only) Disabled injection into WebContent due to ElleKit issues",
                 "Allow installation on iOS 15.4 - 16.3.1",
                 "Fixed app crash on rootful palera1n devices"
             ]]
