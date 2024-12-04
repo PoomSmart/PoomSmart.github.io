@@ -67,6 +67,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.8.18", "Added a localized version of tweak name for Polish"],
             ["1.8.17", [
                 "Made tweak settings displayed without YouGroupSettings tweak (contributed by @dayanch96)",
                 "Added pl localization"
@@ -352,6 +353,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
         "changes": [
+            ["1.2.4", "Added a localized version of tweak name for Polish"],
             ["1.2.3", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.2.2", "Added YouGroupSettings tweak as a dependency"],
             ["1.2.1", [
@@ -381,6 +383,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.2.4", "Added a localized version of tweak name for Polish"],
             ["1.2.3-1", "Added id localization"],
             ["1.2.3", "Fixed app crash on YouTube version 19.30.2 and higher"],
             ["1.2.2", "Fixed app crash on YouTube version 19.26.5 and higher"],
