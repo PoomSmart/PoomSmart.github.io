@@ -7126,6 +7126,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
 Name: YTReExplore
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
 
+Package: com.ps.ytreexplore
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytreexplore_1.0.3_iphoneos-arm64.deb
+Size: 3680
+MD5sum: 22d2f883e0f1ca8c6a124955127d7f8c
+SHA1: f5e02d4d61314e7a55e3e20b691b48ffb20a9d72
+SHA256: 8f7c258206008e67500f3ad3af8f95b15209c9272d407bf2363b479e6f96830d
+Section: Tweaks
+Description: Remove Shorts tab and replace with Explore tab in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
+Name: YTReExplore
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
+
+Package: com.ps.ytreexplore
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytreexplore_1.0.3_iphoneos-arm.deb
+Size: 3600
+MD5sum: 64b97d7a99f7f1050980912c685d917e
+SHA1: 14d999295cd2b080199cacbafd52159bd196c6ef
+SHA256: d1730ea89e0bba7f058c2fb0147e2a504c1a855215645b6b80b23ed2011584da
+Section: Tweaks
+Description: Remove Shorts tab and replace with Explore tab in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytreexplore.html
+Name: YTReExplore
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytreexplore.json
+
 Package: com.ps.ytshortsprogress
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -7941,6 +7977,40 @@ Size: 2930
 MD5sum: a81fca4ebaacda2b6a453f71014268d3
 SHA1: 1414231a6b0d40492c8dd10bd10a531ba54ffae2
 SHA256: 407603848c809953d382f968bc3c573e890c5dcdf7212049ff3f29c9f469b2e3
+Section: Tweaks
+Description: Remove Shorts from YouTube app's feed.
+Author: PoomSmart
+Name: YTUnShorts
+
+Package: com.ps.ytunshorts
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
+Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.2_iphoneos-arm.deb
+Size: 2746
+MD5sum: bf89543092d1beb5e1bccea437b5b968
+SHA1: dbc7b4f4dd445dbe847bf4da8722786f2fb3de2e
+SHA256: f86d57c8f6ac0ac3167ab8fc28728abb6634e9b98e854b9a789adbd9c6d00197
+Section: Tweaks
+Description: Remove Shorts from YouTube app's feed.
+Author: PoomSmart
+Name: YTUnShorts
+
+Package: com.ps.ytunshorts
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
+Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.2.2_iphoneos-arm64.deb
+Size: 2836
+MD5sum: be558d6e4b7ef4f7079c01fd79590b56
+SHA1: d9f7a46bcc75aa1c94acbb21ca317b5e0cb07ff9
+SHA256: bc6a09954f1e01f72478f89ae9848b5e029db1f185bb2961fda081620389aee3
 Section: Tweaks
 Description: Remove Shorts from YouTube app's feed.
 Author: PoomSmart
