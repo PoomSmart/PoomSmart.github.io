@@ -2053,6 +2053,38 @@ Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
 Name: GboardAll
 
+Package: com.ps.gboardall
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/keyboard/com.ps.gboardall_1.0.3_iphoneos-arm.deb
+Size: 3440
+MD5sum: 1841c2c43040e5b1b68e8117f5416ba6
+SHA1: c7b015a195dee84ab40b22104c3e79bd617de9cf
+SHA256: 8c87366c1b3d7034c6550671a0d4a8c34c840662299dc5334233c6145e4470cd
+Section: Tweaks
+Description: Allow unsupported emojis to show on Gboard keyboard.
+Author: PoomSmart
+Name: GboardAll
+
+Package: com.ps.gboardall
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/keyboard/com.ps.gboardall_1.0.3_iphoneos-arm64.deb
+Size: 3522
+MD5sum: bc89050100f21e56713607d881e135dd
+SHA1: fa142947abd53f6ab2b60ac103f00169839d99da
+SHA256: abeefaf75929f42afcd4829c147044dbc1db1950a674cfd0ed10c6f9f5fa945b
+Section: Tweaks
+Description: Allow unsupported emojis to show on Gboard keyboard.
+Author: PoomSmart
+Name: GboardAll
+
 Package: com.ps.grayscaleflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -2626,6 +2658,44 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
 Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.letmeswitch
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 8.0)
+Conflicts: org.thebigboss.letmeswitch
+Replaces: org.thebigboss.letmeswitch
+Provides: org.thebigboss.letmeswitch
+Filename: ./debs/keyboard/com.ps.letmeswitch_1.2.0_iphoneos-arm64.deb
+Size: 6834
+MD5sum: 08e6cf0d77771efc88b251c3186122d1
+SHA1: 25d5460263e5ea73ce15fa19c4d0c63b534d576b
+SHA256: c58fa5ea6d86a7490bed02c5027a551f8a93388c7d4237dfb1299d2ea0cc94a7
+Section: Tweaks
+Description: Keyboard choosing from 3rd-party keyboard.
+Author: PoomSmart
+Name: LetMeSwitch
+
+Package: com.ps.letmeswitch
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 8.0)
+Conflicts: org.thebigboss.letmeswitch
+Replaces: org.thebigboss.letmeswitch
+Provides: org.thebigboss.letmeswitch
+Filename: ./debs/keyboard/com.ps.letmeswitch_1.2.0_iphoneos-arm.deb
+Size: 9796
+MD5sum: d640e64bef335121d8af1bda11e6e4a1
+SHA1: 175e5064558603580bec752742eecb408c2bab12
+SHA256: fb2e2fa204834656a0ac40da2dfed20f1c1d1561732330ad18088fe78dcd136e
+Section: Tweaks
+Description: Keyboard choosing from 3rd-party keyboard.
+Author: PoomSmart
+Name: LetMeSwitch
 
 Package: com.ps.libsubstitrate
 Version: 0.0.1-3
