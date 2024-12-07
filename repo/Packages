@@ -5489,7 +5489,7 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
-Version: 1.8.18
+Version: 1.8.19
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 192
@@ -5497,11 +5497,11 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.18_iphoneos-arm.deb
-Size: 26368
-MD5sum: e44e91fb42209ed253019ed65379c6f1
-SHA1: ccad7bd76404c62cb05708768b3810c16cdc9d85
-SHA256: e8993279d4126735a1a0d13072d5bff1561e8d7913039035a8335745c0451124
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.19_iphoneos-arm.deb
+Size: 26372
+MD5sum: d3bd3367beada201eaada2294cd5fa10
+SHA1: bb64ec24acbfca2b164d98799d904c94abb2c975
+SHA256: 2be305c764a3e752e83b73e2a6ea07c32da9ab8b2c4cc0d5fa090870b2261b7c
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart
@@ -5510,7 +5510,7 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
-Version: 1.8.18
+Version: 1.8.19
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 192
@@ -5518,11 +5518,11 @@ Depends: mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | co
 Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
-Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.18_iphoneos-arm64.deb
-Size: 26392
-MD5sum: fbd81de24f04cd885436827f7cdc54b3
-SHA1: e7e7e934f9371203d30c4d46f543031f06f47e58
-SHA256: 31d9d542d9f759cfef59cc47bf70d35041aa597c38b0aa8e80a1134fbaf23b07
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.8.19_iphoneos-arm64.deb
+Size: 26376
+MD5sum: 778586baabbcdff07c01a76fc37c8955
+SHA1: 1fcad4889f9800c314cf95ba2f4588d9ae6ee8fb
+SHA256: d9f345b6cb483946064ea7e0857a5788e277be7e25b665daabcd2cd411a5c870
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart

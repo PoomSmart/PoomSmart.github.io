@@ -67,7 +67,10 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
-            ["1.8.18", "Added a localized version of tweak name for Polish"],
+            ["1.8.19", [
+                "Fixed a possible crash on old YouTube versions when opening settings",
+                "Added a localized version of tweak name for Polish"
+            ]],
             ["1.8.17", [
                 "Made tweak settings displayed without YouGroupSettings tweak (contributed by @dayanch96)",
                 "Added pl localization"
