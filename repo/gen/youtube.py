@@ -355,8 +355,9 @@ youtube = [
         "title": "YTVideoOverlay",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute and YouQuality.</p>",
+        "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute, YouSpeed and YouQuality.</p>",
         "changes": [
+            ["1.2.5", "Added default text style for text button"],
             ["1.2.4", "Added a localized version of tweak name for Polish"],
             ["1.2.3", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.2.2", "Added YouGroupSettings tweak as a dependency"],
@@ -405,6 +406,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.2.2", "Removed unused code"],
             ["1.2.1", "Fixed quality label arrangement when the current video format has HDR"],
             ["1.2.0", "Make label programmatically generated, removing the label image files"],
             ["1.1.4-2", [
@@ -416,6 +418,16 @@ youtube = [
             ["1.1.2", "Use YouTube-styled font for the quality label (contributed by @dayanch96)"],
             ["1.1.1", "Depends on YTVideoOverlay helper tweak"],
             ["1.0.0-1", "Added ru and zh_cn localization"]
+        ]
+    },
+    {
+        "file": "youspeed",
+        "title": "YouSpeed",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
+        "changes": [
+            ["1.0.0", "Initial release"]
         ]
     },
     {
