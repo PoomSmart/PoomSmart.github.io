@@ -477,6 +477,8 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
         "changes": [
+            ["1.0.3", "Fixed incorrect resolution choosing when a video is vertical"],
+            ["1.0.2", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.0.1", "Added YouGroupSettings tweak as a dependency"],
             ["1.0.0-1", "Added vi, zh-Hans localization"]
         ]
