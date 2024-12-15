@@ -765,40 +765,42 @@ Author: PoomSmart
 Name: Caller ID Flipswitch
 
 Package: com.ps.camelapsedplus
-Version: 1.0.0-1
-Architecture: iphoneos-arm
-Installed-Size: 164
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 196
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: org.thebigboss.camelapsedplus
 Replaces: org.thebigboss.camelapsedplus
 Provides: org.thebigboss.camelapsedplus
-Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0-1_iphoneos-arm.deb
-Size: 19958
-MD5sum: d87efff38a510b9d071ba58d47f7514d
-SHA1: eb0be94f3cbedcc93cb88a30d35c48975bae5e5e
-SHA256: ff73a6a60a698ee301c0144e6d6d4a9eeba5e1a58ec622f6ee77aa907c8a0038
+Filename: ./debs/camera/com.ps.camelapsedplus_1.0.1_iphoneos-arm64.deb
+Size: 19942
+MD5sum: c3c03862ab86a4e31f3658d0daaf06a2
+SHA1: 94096ccda7ccc4545130c87ecfcf12fab6c39f11
+SHA256: 48058756ad693f482b67896fe8262cf20fe37ecee9708c97ee442a22295e5ead
 Section: Tweaks
-Description: Add sub-seconds to an elapsed time when recording a video in Camera app.
+Description: Add sub-seconds to an elapsed time when recording a video in iOS Camera app.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/camelapsedplus.html
 Name: CamElapsed+
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/camelapsedplus.json
 
 Package: com.ps.camelapsedplus
-Version: 1.0.0-1
-Architecture: iphoneos-arm64
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
 Installed-Size: 164
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: org.thebigboss.camelapsedplus
 Replaces: org.thebigboss.camelapsedplus
 Provides: org.thebigboss.camelapsedplus
-Filename: ./debs/camera/com.ps.camelapsedplus_1.0.0-1_iphoneos-arm64.deb
-Size: 20028
-MD5sum: 86755783d61eef11f9ab5d7323266719
-SHA1: be35b54e893ad1bd1322d1f3fddb1c7d41e20127
-SHA256: 9886f73bf882c868766f0bed792de070aa747230b188b20415fc14a351b7203c
+Filename: ./debs/camera/com.ps.camelapsedplus_1.0.1_iphoneos-arm.deb
+Size: 19946
+MD5sum: 73fe600359225e5a989b69bbaffb3193
+SHA1: 2b25f47f177bcc722b894a06c72b617ef5fee870
+SHA256: 65365547fa0dc82a61a16d2f1936deacb55da875f47c394d18ac57ed46bb4d06
 Section: Tweaks
-Description: Add sub-seconds to an elapsed time when recording a video in Camera app.
+Description: Add sub-seconds to an elapsed time when recording a video in iOS Camera app.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/camelapsedplus.html
 Name: CamElapsed+
