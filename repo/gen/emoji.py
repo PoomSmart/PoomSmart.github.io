@@ -74,6 +74,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.6.1", "Removed misspelled and rather unused function"],
             ["1.6.0", [
                 "iOS 17.4 emojis support",
                 "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes",
@@ -105,6 +106,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.8.3", "Depend on EmojiLibrary 1.6.1+"],
             ["1.8.2", [
                 "Fixed emoji category images not displaying correctly",
                 "Updated for new EmojiLibrary"
@@ -136,6 +138,7 @@ emoji = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
+            ["1.4.2", "Depend on EmojiLibrary 1.6.1+"],
             ["1.4.1", [
                 "Updated for new EmojiLibrary",
                 "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
@@ -153,6 +156,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.5.1", "Depend on EmojiLibrary 1.6.1+"],
             ["1.5.0~b3", [
                 "Initial iOS 17.4 emojis support",
                 "Updated for new EmojiLibrary"
