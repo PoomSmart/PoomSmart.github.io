@@ -93,6 +93,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.0.11", "Depend on EmojiLibrary 1.6.1+"],
             ["1.0.10", "Adopted fixes related to emoji split keyboard from EmojiPort (iOS 6.0-8.2)"]
         ],
         "description": "<p>Latest emojis for iOS 5.1</p>\

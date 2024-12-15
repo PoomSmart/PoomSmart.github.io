@@ -1680,6 +1680,25 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
 Name: EmojiPort (iOS 5.1)
 
+Package: com.ps.emojiportalpha
+Version: 1.0.11
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 112
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 6.0), com.ps.emojilayout, com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojilibrary (>= 1.6.1)
+Conflicts: com.ps.emoji10alpha
+Filename: ./debs/emojiport/com.ps.emojiportalpha_1.0.11_iphoneos-arm.deb
+Size: 24350
+MD5sum: 22fd784e79c9f41317abaa9a53edf9f6
+SHA1: d5136262dcb3367e9f671a773a2b410131bbd0fe
+SHA256: aaa9ae71d0765326e545d45d405f26c0d7f24455cd2db7556824f0f38dab73a8
+Section: Tweaks
+Description: Latest emojis for iOS 5.1
+Tag: compatible::ios5
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
+Name: EmojiPort (iOS 5.1)
+
 Package: com.ps.emojiportlegacy
 Version: 1.8.2
 Architecture: iphoneos-arm
