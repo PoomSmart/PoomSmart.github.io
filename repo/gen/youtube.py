@@ -8,7 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
-            ["1.5.6", "Fixed an issue where a video may start with a random non-preferred caption track"],
+            ["1.5.6", "Maybe Fixed an issue where a video may start with a random non-preferred caption track"],
             ["1.5.5-2", "Added id, pl localization"],
             ["1.5.5", [
                 "Added a future-proof hook for when iosPlayerClientSharedConfigPostponeCabrPreferredFormatFiltering will be removed",
@@ -407,6 +407,10 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.2.3", [
+                "[Technical] On memory deallocation, only unregister its own observer",
+                "Added ar localization"
+            ]],
             ["1.2.2", "Removed unused code"],
             ["1.2.1", "Fixed quality label arrangement when the current video format has HDR"],
             ["1.2.0", "Make label programmatically generated, removing the label image files"],
@@ -428,6 +432,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
         "changes": [
+            ["1.0.1", [
+                "[Technical] On memory deallocation, only unregister its own observer",
+                "Added vi localization"
+            ]],
             ["1.0.0", "Initial release"]
         ]
     },
