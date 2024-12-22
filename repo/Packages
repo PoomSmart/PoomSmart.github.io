@@ -6033,6 +6033,48 @@ Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
 Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
+Package: com.ps.youpip
+Version: 1.9.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 196
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 1.3.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.9.0_iphoneos-arm.deb
+Size: 25124
+MD5sum: b10f7b8a2ff9c906eb49d398ea6632f9
+SHA1: fe852e93398f0558d8558e6ad52a7a28b706f69f
+SHA256: f6295737b01501c25bfe17cacd843d63dc4484239c9a8007dfd9c531674204af
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 196
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 1.3.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.9.0_iphoneos-arm64.deb
+Size: 25090
+MD5sum: c28438ec4f79c9aa12153a5b86e0c930
+SHA1: 4c21d9653f3a705201dec62f4c0a31004412cc27
+SHA256: b5901d4e19171abb9450d60658ca69520a73ded3b209d50b4064a5a318311753
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
 Package: com.ps.youquality
 Version: 1.0.0-1
 Architecture: iphoneos-arm
@@ -8894,6 +8936,42 @@ Size: 11568
 MD5sum: b1ead3bbdc3d87b07d0af3d30a93e47b
 SHA1: d6ca449bd332d847ed728de022b0ae27cfe4626f
 SHA256: e0fd303ddf7495fdc10c9bffb836eef4f64de6692abdc579c91c019f7050df8a
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.3.0_iphoneos-arm64.deb
+Size: 11868
+MD5sum: 751baf194bc5674032ce6e49a7a2e640
+SHA1: 78ca947a6e349fbd715b4c29b4de9d61d7dae89c
+SHA256: 985fcfcf2fae624acd419e56d131e1508a72e766264b2aa7e4066bc9d4362a7a
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.3.0_iphoneos-arm.deb
+Size: 11918
+MD5sum: 3600742abc739bad3c83095413c049dc
+SHA1: b2cf60342c1eb24c11ad34dd28c662fc2f23889c
+SHA256: 299dc7b6477297d972e12bdeb43c27f9b1e994de1387f25804bad23d971b80b9
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart
