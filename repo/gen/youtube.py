@@ -70,6 +70,7 @@ youtube = [
         "changes": [
             ["1.9.0", [
                 "Added YTVideoOverlay as a dependency, allowing you to make PiP button appear either top or bottom of the video overlay",
+                "Made the tweak enabled by default",
                 "Added th localization"
             ]],
             ["1.8.19", [

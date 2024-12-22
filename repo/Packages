@@ -6043,10 +6043,10 @@ Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
 Filename: ./debs/youtube/youpip/com.ps.youpip_1.9.0_iphoneos-arm.deb
-Size: 25124
-MD5sum: b10f7b8a2ff9c906eb49d398ea6632f9
-SHA1: fe852e93398f0558d8558e6ad52a7a28b706f69f
-SHA256: f6295737b01501c25bfe17cacd843d63dc4484239c9a8007dfd9c531674204af
+Size: 25104
+MD5sum: fdda0f0fd886e77cbf103879c38f0751
+SHA1: 55855cd0e448531c5df022ffb275b6df8f2da8c8
+SHA256: ba1824ab9ea3b9f6bb249118d1d223c500511f9739ec971a73d0466c7bd7a341
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart
@@ -6064,10 +6064,10 @@ Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
 Filename: ./debs/youtube/youpip/com.ps.youpip_1.9.0_iphoneos-arm64.deb
-Size: 25090
-MD5sum: c28438ec4f79c9aa12153a5b86e0c930
-SHA1: 4c21d9653f3a705201dec62f4c0a31004412cc27
-SHA256: b5901d4e19171abb9450d60658ca69520a73ded3b209d50b4064a5a318311753
+Size: 25104
+MD5sum: 72176546b6fa9e1dda1439db5a0f32ae
+SHA1: 481e5acf806a832bab88b49fb307d87e00bf6b85
+SHA256: f8a12f37f72e4d46d1daf84d183b36ca960659bafc05facd00c0360be686ae4e
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart
@@ -8950,10 +8950,10 @@ Maintainer: PoomSmart
 Installed-Size: 128
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.3.0_iphoneos-arm64.deb
-Size: 11868
-MD5sum: 751baf194bc5674032ce6e49a7a2e640
-SHA1: 78ca947a6e349fbd715b4c29b4de9d61d7dae89c
-SHA256: 985fcfcf2fae624acd419e56d131e1508a72e766264b2aa7e4066bc9d4362a7a
+Size: 12006
+MD5sum: 32365441a08e82c945da9c19357ebdbf
+SHA1: ae45a18218890d2dad7267edb191bd6f8c0c0e28
+SHA256: eaf8cc802fcae7afbb6e1d9fb424b6845f13df814e5988bc7761ad3dde3b4fce
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart
@@ -8968,10 +8968,10 @@ Maintainer: PoomSmart
 Installed-Size: 128
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_1.3.0_iphoneos-arm.deb
-Size: 11918
-MD5sum: 3600742abc739bad3c83095413c049dc
-SHA1: b2cf60342c1eb24c11ad34dd28c662fc2f23889c
-SHA256: 299dc7b6477297d972e12bdeb43c27f9b1e994de1387f25804bad23d971b80b9
+Size: 12006
+MD5sum: c0304c411d1a3dfe260ad44f21e7e762
+SHA1: 5ca6455af7f6effa8cbdf2d04954d5f724c96a5d
+SHA256: 583a4fe7e0c17e0238c8eed3beba06f6079144c90cea7b765e69311c33a5ff09
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart
