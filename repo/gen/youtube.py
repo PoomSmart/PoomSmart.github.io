@@ -366,7 +366,8 @@ youtube = [
             ["1.3.0", [
                 "Added +[YTSettingsSectionItemManager setTweak:hasOwnToggle:] method, for tweaks that have their own toggle",
                 "Added tweak name above each button settings",
-                "Added th localization"
+                "Added th localization",
+                "Updated pl localization"
             ]],
             ["1.2.5", "Added default text style for text button"],
             ["1.2.4", "Added a localized version of tweak name for Polish"],
@@ -419,7 +420,7 @@ youtube = [
         "changes": [
             ["1.2.3", [
                 "[Technical] On memory deallocation, only unregister its own observer",
-                "Added ar localization"
+                "Added ar, pl localization"
             ]],
             ["1.2.2", "Removed unused code"],
             ["1.2.1", "Fixed quality label arrangement when the current video format has HDR"],
