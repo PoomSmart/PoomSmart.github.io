@@ -22,8 +22,10 @@ youtube = [
                 "Force enabled AV1 codec alongside VP9",
                 "Updated ja localization"
             ]],
-            ["1.5.0-1", "Updated es and zh_cn localization"],
-            ["1.5.0", "Added \"VP9 for all\" option where you can enable VP9 for all resolutions"],
+            ["1.5.0-1", [
+                "Added \"VP9 for all\" option where you can enable VP9 for all resolutions",
+                "Updated es and zh_cn localization"
+            ]],
             ["1.4.3", [
                 "Updated spoof version to 15.8.1 (for iOS 14-)",
                 "Updated zh_cn localization"
@@ -37,26 +39,10 @@ youtube = [
             ["1.4.0-1", [
                 "Force VP9 formats only for 1440p and higher",
                 "Updated spoof version to 15.7.6 (for iOS 14-)",
-                "Updated ja localization"
-            ]],
-            ["1.3.5", [
-                "Updated spoof version to 15.7.2 (for iOS 14-)",
-                "Updated tr, zh_cn localization"
-            ]],
-            ["1.3.4-2", "Added ar, de, fr, hu, it, ja, ko, nl, pt, ro, ru, tr, vi, zh_cn, zh_tw localization"],
-            ["1.2.10", "Prevent the app from choosing AVC1 over VP9 codec"],
-            ["1.2.9", [
                 "Hooks MLABRPolicyNew and MLABRPolicyOld classes (introduced in YouTube version 17.30.3)",
-                "Updated spoofed version to iOS 15.6 (for iOS 13-)"
-            ]],
-            ["1.2.8", "Reverted non-HDR 720p+ workaround because YouTube has fixed the issue"],
-            ["1.2.7", [
-                "Allows non-HDR 720p+ formats of UHD HDR videos to display as options (for iOS 14/sideloaded?)",
-                "Updated spoofed version to iOS 15.4.1 (for iOS 13-)"
-            ]],
-            ["1.2.6", "Updated spoofed version to iOS 14.8.1 (for iOS 13-)"],
-            ["1.2.5", "Fixed crashing on some older YouTube versions"],
-            ["1.2.4", "Forces enabling Video quality settings on older YouTube to have YTUHD setting there"]
+                "Fixed crashing on some older YouTube versions",
+                "Forces enabling Video quality settings on older YouTube to have YTUHD setting there"
+            ]]
         ]
     },
     {
@@ -111,13 +97,12 @@ youtube = [
                 "Known issue: Non-Legacy PiP may not work on iOS 14 and lower on recent YouTube versions"
             ]],
             ["1.7.21", "Corrected type encoding for the added methods"],
-            ["1.7.19-2", [
+            ["1.7.19-2 (15.10.4+)", [
                 "You may now enable or disable YouPiP from its settings",
-                "Updated ar localization"
-            ]],
-            ["1.7.18", "Fixed PiP not activating for some people"],
-            ["1.7.17", "Fixed \"Fake YouTube version\" not restoring the old video bar for some people"],
-            ["1.7.16 (15.10.4+)", "Fixed crashing when activating PiP with \"Legacy PiP\" enabled on recent YouTube versions"]
+                "Fixed PiP not activating for some people",
+                "Fixed \"Fake YouTube version\" not restoring the old video bar for some people",
+                "Fixed crashing when activating PiP with \"Legacy PiP\" enabled on recent YouTube versions"
+            ]]
         ]
     },
     {
@@ -261,45 +246,24 @@ youtube = [
             ["1.6.0", "You can now import the YTABConfig settings from the clipboard"],
             ["1.5.1", "Fixed crash on YouTube version 19.03.2 and higher"],
             ["1.5.0-3", [
-                "Added ro localization",
-                "Updated de, tr localization"
-            ]],
-            ["1.5.0", [
                 "Tap on each A/B setting to reveal its class, copy it to clipboard or delete itself from the modified list",
-                "Fixed \"View modified settings\" showing outdated settings"
-            ]],
-            ["1.4.7", [
-                "Minor optimizations",
-                "Updated ja, pt, zh_cn localization"
-            ]],
-            ["1.4.6", [
+                "Fixed \"View modified settings\" showing outdated settings",
                 "Modified settings are now suffixed with \"*\"",
-                "Search feature is now available only if grouped settings is disabled"
-            ]],
-            ["1.4.5-4", [
+                "Search feature is now available only if grouped settings is disabled",
                 "Confirmation alert will now show if you perform an action that requires quitting app",
-                "Added hu, ru, zh_cn localization, Updated ar, tr, zh_tw localization"
-            ]],
-            ["1.4.4", [
                 "Added support for YouTube version 16.42.3 and lower",
                 "Added search functionality (contributed by @level3tjg)",
                 "Added \"Group settings by prefixes\" option",
                 "Optimized the existence check of modified settings",
                 "Display \"Copied to clipboard\" alert also when modified settings are copied",
                 "For long-named settings on iPhone, the non-truncated version will display",
-                "Added ar, ja, ko, pt, vi, zh_tw localization"
-            ]],
-            ["1.3.0", [
                 "Categorize feature flags into short prefixes for easier navigation",
-                "Supports localization"
-            ]],
-            ["1.2.2", "Filtered out irrelevant features starting with amsterdam and unplugged"],
-            ["1.2.1", "Added settings from YTGlobalConfig class"],
-            ["1.2.0", [
+                "Filtered out irrelevant features starting with amsterdam and unplugged",
+                "Added settings from YTGlobalConfig class",
                 "Breaking: Changed setting key format to \"YTABC.[Class].[Method]\" for future expansion but this also means you have to re-set your changes again",
-                "Reduced memory footprint"
-            ]],
-            ["1.1.0", "Added \"View modified settings\" and \"Copy current settings\" options"]
+                "Reduced memory footprint",
+                "Added \"View modified settings\" and \"Copy current settings\" options"
+            ]]
         ]
     },
     {
@@ -405,9 +369,11 @@ youtube = [
             ["1.2.3", "Fixed app crash on YouTube version 19.30.2 and higher"],
             ["1.2.2", "Fixed app crash on YouTube version 19.26.5 and higher"],
             ["1.2.1-3", "Added de, tr localization"],
-            ["1.2.1", "Depends on YTVideoOverlay helper tweak"],
-            ["1.1.1", "Corrected mute button position when placed at the bottom and the audio track button is visible"],
-            ["1.1.0", "Added setting page, allowing you to toggle tweak and change mute button position"]
+            ["1.2.1", [
+                "Depends on YTVideoOverlay helper tweak",
+                "Corrected mute button position when placed at the bottom and the audio track button is visible",
+                "Added setting page, allowing you to toggle tweak and change mute button position"
+            ]]
         ]
     },
     {
