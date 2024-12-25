@@ -54,6 +54,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.10.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.9.0", [
                 "Added YTVideoOverlay as a dependency, allowing you to make PiP button appear either top or bottom of the video overlay",
                 "Made the tweak enabled by default",
@@ -327,6 +328,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute, YouSpeed and YouQuality.</p>",
         "changes": [
+            ["2.0.0", [
+                "Simplified the code needed to add buttons to the video overlay from the tweak side",
+                "Improved memory management"
+            ]],
             ["1.3.0", [
                 "Added +[YTSettingsSectionItemManager setTweak:hasOwnToggle:] method, for tweaks that have their own toggle",
                 "Added tweak name above each button settings",
@@ -364,6 +369,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.3.0", [
+                "Updated for YTVideoOverlay 2.0.0",
+                "If the video is muted then the user closes the video, the mute icon will update correctly when the user opens the video again"
+            ]],
             ["1.2.4", "Added a localized version of tweak name for Polish"],
             ["1.2.3-1", "Added id localization"],
             ["1.2.3", "Fixed app crash on YouTube version 19.30.2 and higher"],
@@ -384,6 +393,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.2.3", [
                 "[Technical] On memory deallocation, only unregister its own observer",
                 "Added ar, pl localization"
@@ -409,6 +419,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
         "changes": [
+            ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
                 "[Technical] On memory deallocation, only unregister its own observer",
                 "Added vi localization"
