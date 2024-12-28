@@ -275,6 +275,7 @@ youtube = [
         "description": "<p>YouTube Music usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.</p>",
         "changes": [
+            ["1.0.2", "Removed debug code"],
             ["1.0.1", "Fixed crash when copying settings"]
         ]
     },
