@@ -7618,6 +7618,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
 Name: YTSilentVote
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
 
+Package: com.ps.ytsilentvote
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.1_iphoneos-arm.deb
+Size: 2762
+MD5sum: e709b534440f04c94eed74e4962b34bd
+SHA1: ff81cf249676c49257e2835794fed93f15270e89
+SHA256: 1e43cb7c8ba44b8ae2ec9bec8bc1d787302f719e6b3259a76d64cfe8ee775aa6
+Section: Tweaks
+Description: No messages will pop up as you like/dislike videos.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
+Name: YTSilentVote
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
+
+Package: com.ps.ytsilentvote
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.1_iphoneos-arm64.deb
+Size: 2802
+MD5sum: 3e5713deb8d87fb7ea8ebdb8cb2b8e68
+SHA1: ac9ce74d92377f88f223e1425760cd17bcab8197
+SHA256: d0c697f989a181c963010635fedddc3f8b88946b1592055176c2bf3dceaa211b
+Section: Tweaks
+Description: No messages will pop up as you like/dislike videos.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
+Name: YTSilentVote
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
+
 Package: com.ps.ytsystemappearance
 Version: 1.0.0
 Architecture: iphoneos-arm
