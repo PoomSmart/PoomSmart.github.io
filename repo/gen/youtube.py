@@ -111,7 +111,10 @@ youtube = [
         "title": "YouMusicPiP",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Enable native PiP in YouTube Music app. This works for videos present in the app.</p>"
+        "description": "<p>Enable native PiP in iOS YouTube Music app. This works for videos present in the app.</p>",
+        "changes": [
+            ["1.1.0", "Fixed support for modern app versions"]
+        ]
     },
     {
         "file": "ytclassicvideoquality",

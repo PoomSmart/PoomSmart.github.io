@@ -4783,18 +4783,36 @@ Name: YouGroupSettings
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/yougroupsettings.json
 
 Package: com.ps.youmusicpip
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 88
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
-Filename: ./debs/youtube/com.ps.youmusicpip_1.0.0_iphoneos-arm.deb
-Size: 8408
-MD5sum: 005597ec1ae7684949c5a841f7f35426
-SHA1: d7a7045ce0969a542f3cd94ab75cc0c4a288d1da
-SHA256: dcbbf68193d53330ac26f71c5741c4ea31d37cc5ac896b00b20c2a1ce11f8d08
+Filename: ./debs/youtube/youmusicpip/com.ps.youmusicpip_1.1.0_iphoneos-arm.deb
+Size: 8296
+MD5sum: e4076b039055edfc4a37d0ccba14ca27
+SHA1: 5f3d61363b237a261bd07be4a6ee16f7adb80083
+SHA256: af1fc9faef8521a282be66ea472bf53d591a1e7a9a26132d265f79b05d7514f9
 Section: Tweaks
-Description: Enable native PiP in YouTube Music app.
+Description: Enable native PiP in iOS YouTube Music app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmusicpip.html
+Name: YouMusicPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmusicpip.json
+
+Package: com.ps.youmusicpip
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.cabralcole.forceinpicture | com.ps.forceinpicture
+Filename: ./debs/youtube/youmusicpip/com.ps.youmusicpip_1.1.0_iphoneos-arm64.deb
+Size: 8368
+MD5sum: 4c2a948d853f2f4600a060eb19d277c7
+SHA1: 762a3d68778c3ad774be36e40e062898e7287f3f
+SHA256: 6649491a1a91beb8412bec17e3ea80c2aba1f06e755eda0af65522ca6a895490
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube Music app.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youmusicpip.html
 Name: YouMusicPiP
@@ -7581,42 +7599,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytshortsprogress.html
 Name: YTShortsProgress
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytshortsprogress.json
-
-Package: com.ps.ytsilentvote
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.0_iphoneos-arm.deb
-Size: 2686
-MD5sum: 99ca5c25b8a671bb48c9c4d491c5dc1d
-SHA1: 105e03a67447acfa4b3b2d2bc8755e932d269b52
-SHA256: c0eb9b9390f0dcac3b7c41ac5a99c862f630c6f1b76e4c5c4308d85677641e37
-Section: Tweaks
-Description: No messages will pop up as you like/dislike videos.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
-Name: YTSilentVote
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
-
-Package: com.ps.ytsilentvote
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytsilentvote_1.0.0_iphoneos-arm64.deb
-Size: 2770
-MD5sum: ed421689aef0b3bb09c4d3ef50a0547d
-SHA1: 8f51cc0d0ce1f1bcdeca1f36cd83b50d39b8da0e
-SHA256: 4e733237523d8cb64f64f5016a8283948b5c67307524b4e81fbec829d17f7461
-Section: Tweaks
-Description: No messages will pop up as you like/dislike videos.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/ytsilentvote.html
-Name: YTSilentVote
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytsilentvote.json
 
 Package: com.ps.ytsilentvote
 Version: 1.0.1
