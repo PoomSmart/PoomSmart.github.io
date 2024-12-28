@@ -393,6 +393,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.1", "Removed unused code"],
             ["1.3.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.2.3", [
                 "[Technical] On memory deallocation, only unregister its own observer",
@@ -419,6 +420,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
         "changes": [
+            ["1.1.1", "Removed unused code"],
             ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
                 "[Technical] On memory deallocation, only unregister its own observer",
