@@ -2138,6 +2138,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
 Name: FluentUI Color Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
 
+Package: com.ps.fluentuicolorefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.fluentuicolorefm_15.1.0_iphoneos-arm64.deb
+Size: 764
+MD5sum: 0273f8db02e14c9d8a6674015cb528e4
+SHA1: 3c2f80030b5301c8caae8ef776fa2dab775bb48a
+SHA256: d52ac53f9c9837b2e68cdbec017c4a76d7dfad172d39abc979e8147528342a17
+Section: Fonts (EFM)
+Description: Unicode 15.1 FluentUI Color Emoji (Windows 11) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
+Name: FluentUI Color Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
+
+Package: com.ps.fluentuicolorefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.fluentuicolorefm_15.1.0_iphoneos-arm.deb
+Size: 764
+MD5sum: c430665875524637887ac1795588bb2e
+SHA1: be7c27865efbc3f67f46766b3ec64b54758e1fbe
+SHA256: e58e3118b061a7c10725f984cdd139c056f1209475b3e5a76f1b679f94cc227d
+Section: Fonts (EFM)
+Description: Unicode 15.1 FluentUI Color Emoji (Windows 11) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
+Name: FluentUI Color Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
+
 Package: com.ps.fluentuiflatefm
 Version: 15.0.0
 Architecture: iphoneos-arm64
@@ -2172,6 +2208,42 @@ Description: Unicode 15.0 FluentUI Flat Emoji (Windows 11) (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
 Name: FluentUI Flat Unicode 15.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
+
+Package: com.ps.fluentuiflatefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.1.0_iphoneos-arm.deb
+Size: 764
+MD5sum: efdfc2a8fa58371aee25a6119fa6de68
+SHA1: d99a822b4f598689a3b4563f1873b4360d47c4dd
+SHA256: d2856f824478e5f32c4727851d410214e2b7e1266f8f419e451987d0467eee30
+Section: Fonts (EFM)
+Description: Unicode 15.1 FluentUI Flat Emoji (Windows 11) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
+Name: FluentUI Flat Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
+
+Package: com.ps.fluentuiflatefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.1.0_iphoneos-arm64.deb
+Size: 764
+MD5sum: 3d71aee53d15c632f348f37def728e68
+SHA1: bb282c5e31ea786ce11de2100f9d51f427f68544
+SHA256: 6fa26a0e7933964bd80b79cae4afb9b1ed267b1a463894e3ef68cb7f3a973a5f
+Section: Fonts (EFM)
+Description: Unicode 15.1 FluentUI Flat Emoji (Windows 11) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
+Name: FluentUI Flat Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
 
 Package: com.ps.forceinpicture
