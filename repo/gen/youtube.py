@@ -333,7 +333,6 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute, YouSpeed and YouQuality.</p>",
         "changes": [
-            ["2.0.1", "Fixed a possible rare crash when trying to play a video"],
             ["2.0.0", [
                 "Simplified the code needed to add buttons to the video overlay from the tweak side",
                 "Improved memory management"
