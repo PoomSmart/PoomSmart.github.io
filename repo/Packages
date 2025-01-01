@@ -2145,10 +2145,10 @@ Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
 Filename: ./debs/emojifont/com.ps.fluentuicolorefm_15.1.0_iphoneos-arm64.deb
-Size: 764
-MD5sum: 0273f8db02e14c9d8a6674015cb528e4
-SHA1: 3c2f80030b5301c8caae8ef776fa2dab775bb48a
-SHA256: d52ac53f9c9837b2e68cdbec017c4a76d7dfad172d39abc979e8147528342a17
+Size: 762
+MD5sum: c7aca3b2dff60e076bea1ca54cfddf71
+SHA1: 60192048b7892aa5b6bc587a6d3adb3e4ac4acc7
+SHA256: 88d52b542f51385a5df555f85d31947f2fa8d93a5dcda0d07a02434419d6e13e
 Section: Fonts (EFM)
 Description: Unicode 15.1 FluentUI Color Emoji (Windows 11) (EFM)
 Author: PoomSmart
@@ -2163,10 +2163,10 @@ Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
 Filename: ./debs/emojifont/com.ps.fluentuicolorefm_15.1.0_iphoneos-arm.deb
-Size: 764
-MD5sum: c430665875524637887ac1795588bb2e
-SHA1: be7c27865efbc3f67f46766b3ec64b54758e1fbe
-SHA256: e58e3118b061a7c10725f984cdd139c056f1209475b3e5a76f1b679f94cc227d
+Size: 760
+MD5sum: 816e448808251b9741ec379f6a828243
+SHA1: 47b4b7135f8cf80808735e7174b2d41d4d382a13
+SHA256: 1741e008c6a89f96600b9bad0fc23d4a8e3cabbb399a1d829768a458cf85b596
 Section: Fonts (EFM)
 Description: Unicode 15.1 FluentUI Color Emoji (Windows 11) (EFM)
 Author: PoomSmart
@@ -2217,10 +2217,10 @@ Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
 Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.1.0_iphoneos-arm.deb
-Size: 764
-MD5sum: efdfc2a8fa58371aee25a6119fa6de68
-SHA1: d99a822b4f598689a3b4563f1873b4360d47c4dd
-SHA256: d2856f824478e5f32c4727851d410214e2b7e1266f8f419e451987d0467eee30
+Size: 756
+MD5sum: 2398c040c03d7d81237544381d157a43
+SHA1: cce9739566957b232c558fd010ac69c3f7e10d4f
+SHA256: c8505ebc1321bc45463ab0497e3118eb3316be0d141238851bd0848144f71a25
 Section: Fonts (EFM)
 Description: Unicode 15.1 FluentUI Flat Emoji (Windows 11) (EFM)
 Author: PoomSmart
@@ -2235,10 +2235,10 @@ Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
 Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.1.0_iphoneos-arm64.deb
-Size: 764
-MD5sum: 3d71aee53d15c632f348f37def728e68
-SHA1: bb282c5e31ea786ce11de2100f9d51f427f68544
-SHA256: 6fa26a0e7933964bd80b79cae4afb9b1ed267b1a463894e3ef68cb7f3a973a5f
+Size: 760
+MD5sum: b499913736cc5799142a1bd48c0cb573
+SHA1: 15505a2003286ad62749c39770b0a39be74e1ee1
+SHA256: bc539d49100d7947be31a4bb7a7d2e9e75782815194c19d7806ba1aeff0af919
 Section: Fonts (EFM)
 Description: Unicode 15.1 FluentUI Flat Emoji (Windows 11) (EFM)
 Author: PoomSmart
