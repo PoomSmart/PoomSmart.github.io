@@ -333,6 +333,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay. Used by YouMute, YouSpeed and YouQuality.</p>",
         "changes": [
+            ["2.1.0", [
+                "Added an ability to reorder the buttons",
+                "Removed unnecessary YouQuality-specific code"
+            ]],
             ["2.0.0", [
                 "Simplified the code needed to add buttons to the video overlay from the tweak side",
                 "Improved memory management"
@@ -398,6 +402,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.2", "Depends on YTVideoOverlay 2.1.0+"],
             ["1.3.1", "Removed unused code"],
             ["1.3.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.2.3", [
