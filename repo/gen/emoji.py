@@ -13,6 +13,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.1", "Compiled with the latest Theos revision"],
             ["1.8.0~b2", [
                 "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
                 "Rootful: Fixed crash on iOS 12 arm64e devices"
