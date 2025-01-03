@@ -34,6 +34,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.7", "Sort fonts alphabetically"],
             ["1.3.6", "Removed debug code"],
             ["1.3.5", [
                 "Fixed emojis not rendered correctly on iOS 10",
