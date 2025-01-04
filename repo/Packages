@@ -1357,6 +1357,23 @@ Description: iOS 10.2+ dark emoji icons.
 Author: PoomSmart
 Name: EmojiDarkStyle
 
+Package: com.ps.emojidarkstyle
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 276
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 10.2)
+Conflicts: com.ps.emojiresourcesdark
+Filename: ./debs/keyboard/com.ps.emojidarkstyle_1.0.7_iphoneos-arm.deb
+Size: 23532
+MD5sum: 12be041953d2d5b0702b58b7d339f30c
+SHA1: 7a7469cc2058c0ddd85b18780b6062f1a042fffd
+SHA256: 3b7a65edac2bc6ce54fd9f22f1821d60a1419bbaac3fd55b4f74b56fb9c880f6
+Section: Tweaks
+Description: iOS 10.2+ dark emoji icons.
+Author: PoomSmart
+Name: EmojiDarkStyle
+
 Package: com.ps.emojifontefm
 Version: 15.1.0
 Architecture: iphoneos-arm64
