@@ -215,6 +215,13 @@ emoji = [
             <p>Unicode version will be in sync with the regular Apple emoji font.</p>"
     },
     {
+        "file": "emojifontpxefm",
+        "title": "AppleColorEmoji Pixel (EFM)",
+        "screenshots": True,
+        "description": "<p>It's your usual AppleColorEmoji font but everything is pixelated.</p><br/>\
+            <p>Unicode version will be in sync with the regular Apple emoji font.</p>"
+    },
+    {
         "file": "blobmojiefm",
         "title": "Blobmoji Unicode 15.1 (EFM)",
         "screenshots": True,

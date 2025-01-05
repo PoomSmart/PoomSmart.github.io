@@ -1632,6 +1632,42 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
+Package: com.ps.emojifontpxefm
+Version: 15.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.emojifontpxefm_15.1.0_iphoneos-arm.deb
+Size: 758
+MD5sum: 104c2f0ca3ed4d7275f63b9d39189ef6
+SHA1: 6086f87fcb7ad7593589b71c3fd371802e9b686d
+SHA256: b4dcee685b871a59372dc8008b7368e3f8c326e969f7a06de0b2e0330cbc0469
+Section: Fonts (EFM)
+Description: AppleColorEmoji font with pixellated effect (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontpxefm.html
+Name: AppleColorEmoji Pixellated (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontpxefm.json
+
+Package: com.ps.emojifontpxefm
+Version: 15.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.emojifontpxefm_15.1.0_iphoneos-arm64.deb
+Size: 764
+MD5sum: 53a6610b2163aa24c7dc225483595d92
+SHA1: 896d4fa4892f19ce2eb3ffed34a487ec3e848444
+SHA256: 880d411be84f781b7e5732cb49fc152bc4ae6fb005e23aa0b15dcb8f23e9d808
+Section: Fonts (EFM)
+Description: AppleColorEmoji font with pixellated effect (Unicode 15.1) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontpxefm.html
+Name: AppleColorEmoji Pixellated (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontpxefm.json
+
 Package: com.ps.emojilayout
 Version: 1.1.21
 Architecture: iphoneos-arm
