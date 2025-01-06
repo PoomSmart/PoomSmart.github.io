@@ -187,6 +187,13 @@ emoji = [
         "description": "<p>Enable emoji search on iPadOS 14.0 - 14.4</p>"
     },
     {
+        "file": "emojiskinprefs",
+        "title": "EmojiSkinPrefs",
+        "min_ios": "8.3",
+        "screenshots": True,
+        "description": "<p>Change the default skin tone of emojis.</p>"
+    }
+    {
         "file": "emojifontefm",
         "title": "AppleColorEmoji Unicode 15.1 (EFM)",
         "changes": [
