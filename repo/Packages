@@ -2528,38 +2528,6 @@ Name: HD Avatar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/hdavatar.json
 
 Package: com.ps.highgraphics
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 152
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.0.5_iphoneos-arm64.deb
-Size: 4060
-MD5sum: ece8abb16439e9b6579068b79d0c4c96
-SHA1: ad134c662750f9d517d1ab917c07299c89841f39
-SHA256: c40f7043c54dd49400246c11a43060491e0182a67949952bbcf468c18e7c1a28
-Section: Tweaks
-Description: Best UIKit graphics for older devices.
-Author: PoomSmart
-Name: HighGraphics
-
-Package: com.ps.highgraphics
-Version: 1.0.5
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.0.5_iphoneos-arm.deb
-Size: 4752
-MD5sum: 7445fbf2d477ae396f2f000f318af24a
-SHA1: 642627c40ef844e42dcfc70c727c3a1f54236afb
-SHA256: b78208b1f1bc312eb852ada045ab5b37a7683cd15a2b6bc61bba893a4e0e641e
-Section: Tweaks
-Description: Best UIKit graphics for older devices.
-Author: PoomSmart
-Name: HighGraphics
-
-Package: com.ps.highgraphics
 Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -2586,6 +2554,38 @@ Size: 4222
 MD5sum: 750a6ca53d714a8e456797071a6d580a
 SHA1: fe9ef05fbd713187d184c09720a0bf58c8e1312e
 SHA256: 6dba3ab16ed0d5ac658d84f28f106bea88fd418dd4efdee435f01de9d3dca14b
+Section: Tweaks
+Description: Best UIKit graphics for older devices.
+Author: PoomSmart
+Name: HighGraphics
+
+Package: com.ps.highgraphics
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.highgraphics_1.1.1_iphoneos-arm.deb
+Size: 5264
+MD5sum: 11472a247cbbac245cbbfacf911da95a
+SHA1: 9701f96108d8147b69ca182e3b16ad873526ccbb
+SHA256: 78ec6883cb3af70fc598b81b10132f8f92c722f2072297c806bc24c9d8af4889
+Section: Tweaks
+Description: Best UIKit graphics for older devices.
+Author: PoomSmart
+Name: HighGraphics
+
+Package: com.ps.highgraphics
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/com.ps.highgraphics_1.1.1_iphoneos-arm64.deb
+Size: 3998
+MD5sum: 4c72b5bf0c0cf6b0d0d5ec487b025673
+SHA1: b0b4fbdaf4b0702bd807a2de870c22136a74f428
+SHA256: 2c8d1c07e79888e8bdf88919bbe0e53ec45b97fbd5921baca52d1778f16b44f8
 Section: Tweaks
 Description: Best UIKit graphics for older devices.
 Author: PoomSmart
