@@ -192,7 +192,7 @@ emoji = [
         "min_ios": "8.3",
         "screenshots": True,
         "description": "<p>Change the default skin tone of emojis.</p>"
-    }
+    },
     {
         "file": "emojifontefm",
         "title": "AppleColorEmoji Unicode 15.1 (EFM)",
