@@ -9929,16 +9929,16 @@ Icon: file:///Library/PreferenceBundles/TransparentCameraBarSettings.bundle/TCB@
 Name: TransparentCameraBar
 
 Package: com.vxbakerxv.emojiskinprefs
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 188
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.2), firmware (>= 8.3), com.ps.emojilibrary (>= 1.6.0)
-Filename: ./debs/emojiport/com.vxbakerxv.emojiskinprefs_1.0.0_iphoneos-arm64.deb
-Size: 15250
-MD5sum: ccb56ba5d203d54aab56135308ba817e
-SHA1: d74e17c11f8d872eda75ade240fb20ce913be504
-SHA256: a7cfbd293cc463f18e8f84864597db958225c5ae7460a01856a8b7b7330a3f3d
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.3), com.ps.emojilibrary (>= 1.6.0)
+Filename: ./debs/emojiport/com.vxbakerxv.emojiskinprefs_1.0.1_iphoneos-arm64.deb
+Size: 15242
+MD5sum: 3307c2189247e8837462bcee820a6c00
+SHA1: b6a35c1a0e9dbb3770138489981201067e934447
+SHA256: e780306d7342bb3bf7913561c539c798ca5868a5072341d70e8984c01677fdbd
 Section: Tweaks
 Description: Defaults emoji skin tone.
 Author: PoomSmart & vXBaKeRXv
@@ -9947,16 +9947,16 @@ Name: EmojiSkinPrefs
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiskinprefs.json
 
 Package: com.vxbakerxv.emojiskinprefs
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 220
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.2), firmware (>= 8.3), com.ps.emojilibrary (>= 1.6.0)
-Filename: ./debs/emojiport/com.vxbakerxv.emojiskinprefs_1.0.0_iphoneos-arm.deb
-Size: 17220
-MD5sum: 40cb24a6af2712e66024c5d5dd85871d
-SHA1: 07ab555ccdd8834ac92bad7b03005da751ad6af6
-SHA256: 3a52b6c17771a3a2c74fc08b832cf1f13e6cdd52b1e9b8118886f056b9b77aed
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.3), com.ps.emojilibrary (>= 1.6.0)
+Filename: ./debs/emojiport/com.vxbakerxv.emojiskinprefs_1.0.1_iphoneos-arm.deb
+Size: 17212
+MD5sum: c2d7bfa3f0aee7c386b1bb9c5d515410
+SHA1: 0210e75a9c732079e3973669173a9015602c93b8
+SHA256: a958d90ada518cc5dc7413343186118eddf5c35935ca2e65c22a509efb763d39
 Section: Tweaks
 Description: Defaults emoji skin tone.
 Author: PoomSmart & vXBaKeRXv
