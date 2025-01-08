@@ -8,6 +8,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.5.7", [
+                "Translated the rest of untranslated languages using AI",
+                "Removed redundant hook"
+            ]],
             ["1.5.6", "Maybe Fixed an issue where a video may start with a random non-preferred caption track"],
             ["1.5.5-2", "Added id, pl localization"],
             ["1.5.5", [

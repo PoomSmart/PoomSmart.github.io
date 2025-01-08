@@ -8390,6 +8390,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
+Package: com.ps.ytuhd
+Version: 1.5.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.7_iphoneos-arm64.deb
+Size: 14454
+MD5sum: 9108f6d394e442be6c50dbee8ac2c0f1
+SHA1: cb31353f69021d98d29d722d87f5015961d37ddb
+SHA256: fcb493f8ae332e444d284f9698962b21fed4ad4516d897f4a2e8cfe3ead9490d
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.5.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.5.7_iphoneos-arm.deb
+Size: 14564
+MD5sum: c32e681f563810fe6534776eeffc826e
+SHA1: 712833696759ca2fe69ec1558547009fe33970a4
+SHA256: 520e43016981f613fe23a0373ff476bdc5777a9c9773bec9d8432f6ff0a408f4
+Section: Tweaks
+Description: Unlock 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
 Package: com.ps.ytunshorts
 Version: 1.0.1
 Architecture: iphoneos-arm64
