@@ -15,6 +15,7 @@ camera = [
         "tintColor": "orange",
         "featured_as_banner": True,
         "changes": [
+            ["1.2.2", "Removed debug logging"],
             ["1.2.1", [
                 "You can also tap the text under the flashlight icon to switch between modes",
                 "Some code refactoring"
@@ -33,6 +34,7 @@ camera = [
         "title": "QuadHighCurrent",
         "min_ios": "10.0",
         "changes": [
+            ["1.1.2", "Removed debug logging"],
             ["1.1.1", "Fixed support for H10ISP cameras"],
             ["1.1.0", "Rootless mode (Enabled-only)"],
             ["1.0.0", [
