@@ -4445,6 +4445,22 @@ Description: Manage packages via tap.
 Author: PoomSmart
 Name: TapForMore
 
+Package: com.ps.tapformore
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 48
+Depends: firmware (>= 4.0), firmware (<< 8.0), preferenceloader
+Filename: ./debs/cydia/com.ps.tapformore_1.0.3_iphoneos-arm.deb
+Size: 10574
+MD5sum: 34efd814fcf3dbc4915e980267b56eef
+SHA1: 161825f73c547c9b080ca955351c4a7299ab23e9
+SHA256: 6372713001bf2d91576d5220487d3cffdea7081e23b58a4dfba25884ad8091e6
+Section: Tweaks
+Description: Manage packages via tap.
+Author: PoomSmart
+Name: TapForMore
+
 Package: com.ps.tapvideoconfig
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -10195,6 +10211,22 @@ Size: 20990
 MD5sum: 3d122da42ea10bbbfd236dfba96b342a
 SHA1: 527dc818e9987eea4f2f27db4e960ebab3719764
 SHA256: 532930d9d3c813a44181ce6d67a63eca3dce776db897bb84f3ece156e44dcea3
+Section: Tweaks
+Description: Manage packages in Cydia via swipe.
+Author: PoomSmart
+Name: SwipeForMore
+
+Package: org.thebigboss.swipeformore
+Version: 1.2.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 188
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.4_iphoneos-arm.deb
+Size: 26970
+MD5sum: 79a5e07832976cc7c67449e1c7c60bd5
+SHA1: 6858d562c123780cc0e7578cc15ea86260784a4b
+SHA256: c7fd3990008e1aa07101d8b0abe12e585f23ea32cfc2d30ec222eb1338d34b6a
 Section: Tweaks
 Description: Manage packages in Cydia via swipe.
 Author: PoomSmart
