@@ -208,7 +208,10 @@ tweaks = [
         "title": "GitHubWebLegacyCompat",
         "min_ios": "12.0",
         "max_ios": "15.3.1",
-        "description": "<p>Make GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>"
+        "description": "<p>Make GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
+        "changes": [
+            ["1.0.1", "Removed unnecessary bits"]
+        ]
     }
 ] + youtube + emoji + camera + springboard
 
