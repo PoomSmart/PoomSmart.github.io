@@ -160,6 +160,10 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.5.2", [
+                "(Rootless-only) Removed unnecessary hooks",
+                "Use more correct type encoding for the added methods"
+            ]],
             ["1.5.1", "Depend on EmojiLibrary 1.6.1+"],
             ["1.5.0~b3", [
                 "Initial iOS 17.4 emojis support",
