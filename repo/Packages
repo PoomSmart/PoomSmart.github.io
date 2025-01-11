@@ -2544,6 +2544,42 @@ Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
 Name: GboardAll
 
+Package: com.ps.githubweblegacycompat
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
+Filename: ./debs/network/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm64.deb
+Size: 18978
+MD5sum: 7ee9a42411f024e6a314deb43f6e4196
+SHA1: 49b622ab0c13926f976335e0ccc9e7469d2f1503
+SHA256: 857f7b0c473f12d177fd19ce36d8ce058ad4ee7e280f62fb3dc0076506ea92da
+Section: Tweaks
+Description: Make GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
+Package: com.ps.githubweblegacycompat
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
+Filename: ./debs/network/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm.deb
+Size: 17862
+MD5sum: ebddd2cc3f4feecfd7e933d72335fd92
+SHA1: 79a712e21df48b064c71280e48f4c21c12278e72
+SHA256: 1262c6258f9f414c35045557fc28cb7e6af4a1a1e96ff38cd0f23727784f8e9c
+Section: Tweaks
+Description: Make GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
 Package: com.ps.grayscaleflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm

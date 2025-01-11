@@ -202,6 +202,13 @@ tweaks = [
             ["0.0.3", "Fixed crash in some processes"],
             ["0.0.2", "Properly support iOS 15 (credits to @NightwindDev)"]
         ]
+    },
+    {
+        "file": "githubweblegacycompat",
+        "title": "GitHubWebLegacyCompat",
+        "min_ios": "12.0",
+        "max_ios": "15.3.1",
+        "description": "<p>Make GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>"
     }
 ] + youtube + emoji + camera + springboard
 
