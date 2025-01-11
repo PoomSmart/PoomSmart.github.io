@@ -150,6 +150,7 @@ tweaks = [
             <li>Jelly Defense</li>\
         </ul>",
         "changes": [
+            ["1.3.2", "Removed debug logging"],
             ["1.3.1", "(Rootless-only) Fixed preference not working"],
             ["1.3.0", "Reworked support for Metal apps"],
             ["1.1.2", "Added iOS 15 support"],
