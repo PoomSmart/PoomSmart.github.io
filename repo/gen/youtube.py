@@ -312,7 +312,8 @@ youtube = [
                 tweak_url("ytsystemappearance")
         ),
         "changes": [
-            ["1.0.5", "Remove YTNoCheckLocalNetwork feature"],
+            ["1.0.6", "Disabled the new floating mini-player style"],
+            ["1.0.5", "Removed YTNoCheckLocalNetwork feature"],
             ["1.0.4", "Enabled video zoom in/out feature"]
         ]
     },

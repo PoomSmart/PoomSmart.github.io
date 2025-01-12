@@ -7682,6 +7682,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
 
+Package: com.ps.ytabgoodies
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/ytabgoodies/com.ps.ytabgoodies_1.0.6_iphoneos-arm64.deb
+Size: 2718
+MD5sum: 0bb32b215d9edf7eeacef0ba83b54525
+SHA1: ad48457ed9a9e9f9d57c35d9b30a7f131c5dfc4e
+SHA256: 21cc7971a0447451e06c842c5bc0acd7028af870174e7ad7c4d28f2cd47d1bd6
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
+Package: com.ps.ytabgoodies
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.youremembercaption, com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/ytabgoodies/com.ps.ytabgoodies_1.0.6_iphoneos-arm.deb
+Size: 2634
+MD5sum: 7e08eebcf505982f7a3a789326ec1299
+SHA1: 1bdecee803d08bb7ac3569dcee1972f06d15d696
+SHA256: 8157eb5379b789082e3a8c1732727dffa3d3c806bd1e3e10af37c83a562d9f24
+Section: Tweaks
+Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
 Package: com.ps.ytautofullscreen
 Version: 1.0.4
 Architecture: iphoneos-arm64
