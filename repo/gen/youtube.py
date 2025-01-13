@@ -58,6 +58,9 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.1", [
+                "Fixed the tweak setting icon being black in dark mode on YouTube version 20.02.3"
+            ]],
             ["1.12.0", [
                 "Simplified PiP enabling logic",
                 "Fixed setting icon not appearing when the tweak is disabled and grouped settings experiment is on",
