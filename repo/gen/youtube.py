@@ -393,6 +393,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.3.1", "Added th localization"],
             ["1.3.0", [
                 "Updated for YTVideoOverlay 2.0.0",
                 "If the video is muted then the user closes the video, the mute icon will update correctly when the user opens the video again"
@@ -417,6 +418,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.4", "Added th localization"],
             ["1.3.3", "Fixed 720p and lower quality text entering a new line when the button is placed at the top"],
             ["1.3.2", "Depends on YTVideoOverlay 2.1.0+"],
             ["1.3.1", "Removed unused code"],
@@ -446,6 +448,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
         "changes": [
+            ["1.1.2", "Added th localization"],
             ["1.1.1", "Removed unused code"],
             ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
@@ -492,6 +495,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
         "changes": [
+            ["1.0.4", "Added th localization"],
             ["1.0.3", "Fixed incorrect resolution choosing when a video is vertical"],
             ["1.0.2", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.0.1", "Added YouGroupSettings tweak as a dependency"],
