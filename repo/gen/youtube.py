@@ -10,7 +10,7 @@ youtube = [
         "changes": [
             ["1.5.8", "Added 2K/4K formats to AVPlayer video playback (YouPiP with Legacy PiP option enabled)"],
             ["1.5.7", [
-                "Translated the rest of untranslated languages using AI",
+                "Translated the remaining languages using AI",
                 "Removed redundant hook"
             ]],
             ["1.5.6", "Maybe Fixed an issue where a video may start with a random non-preferred caption track"],
@@ -239,6 +239,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.7", [
+                "Translated the remaining languages using AI",
+                "Added th localization"
+            ]],
             ["1.7.6", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.7.5", "Added YouGroupSettings tweak as a dependency"],
             ["1.7.4", [
