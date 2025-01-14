@@ -13,6 +13,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.1", "Compiled with the latest Theos revision"],
             ["1.8.0~b2", [
                 "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
@@ -35,6 +36,7 @@ emoji = [
         "title": "EmojiFontManager",
         "min_ios": "6.0",
         "changes": [
+            ["1.3.8", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.3.7", "Sort fonts alphabetically"],
             ["1.3.6", "Removed debug code"],
             ["1.3.5", [
@@ -77,6 +79,10 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.6.2", [
+                "Fixed crash on iOS 6 due to using modern-only libroot",
+                "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
+            ]],
             ["1.6.1", "Removed misspelled and rather unused function"],
             ["1.6.0", [
                 "iOS 17.4 emojis support",
@@ -110,6 +116,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.8.4", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.3", "Depend on EmojiLibrary 1.6.1+"],
             ["1.8.2", [
                 "Fixed emoji category images not displaying correctly",
