@@ -9335,6 +9335,38 @@ Description: Remove Shorts from YouTube app's feed.
 Author: PoomSmart
 Name: YTUnShorts
 
+Package: com.ps.ytvideoerroralert
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.0_iphoneos-arm64.deb
+Size: 2730
+MD5sum: 3930099a71f83ca8336d6dcc20c10c92
+SHA1: 898ecd56c7ae3f88fa5e8ac1e844bb9378b25d28
+SHA256: 12978036e190c9d7c16c5a4eb389e00f2a5dfcbe9d4837194b538e393db7eed0
+Section: Tweaks
+Description: Alert you with exact details when YouTube video error occurred.
+Author: PoomSmart
+Name: YTVideoErrorAlert
+
+Package: com.ps.ytvideoerroralert
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.0_iphoneos-arm.deb
+Size: 2650
+MD5sum: 2a2d8aed79083b3ee3cc4a15449b3ce8
+SHA1: 664e68c99ec0eaaf56a924c40276830a846245ba
+SHA256: 3480930fe3c495d8ae15f570c8e152a31a91f9e4ea2803fb2ef39b73b0e96cd8
+Section: Tweaks
+Description: Alert you with exact details when YouTube video error occurred.
+Author: PoomSmart
+Name: YTVideoErrorAlert
+
 Package: com.ps.ytvideooverlay
 Version: 1.1.1
 Architecture: iphoneos-arm
