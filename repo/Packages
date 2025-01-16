@@ -420,6 +420,22 @@ Description: Fix backupd not working on Xina jailbreak.
 Author: PoomSmart
 Name: backupd_fix
 
+Package: com.ps.backupdfix10
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<< 11.0)
+Filename: ./debs/com.ps.backupdfix10_1.0.0_iphoneos-arm.deb
+Size: 3368
+MD5sum: 7557b90fe5c978689591a4893f312d0d
+SHA1: 6f5fa8a49f4009f7ee4dbed5173cf28b850e2321
+SHA256: ab3bc20a889cdb270c3d35e9c135b6f67de0c8648bde6487aebe400f2079c5f9
+Section: Tweaks
+Description: Prevent backupd from crashing on iOS 10 and lower.
+Author: PoomSmart
+Name: backupd_fix Legacy
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm64
