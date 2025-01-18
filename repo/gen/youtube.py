@@ -352,6 +352,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.1.1", "Ensure text overlay buttons are sized to be visible"],
             ["2.1.0", [
                 "Added an ability to reorder the buttons",
                 "Removed unnecessary YouQuality-specific code"
@@ -422,6 +423,7 @@ youtube = [
         "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.5", "Depends on YTVideoOverlay 2.1.1+"],
             ["1.3.4", "Added th localization"],
             ["1.3.3", "Fixed 720p and lower quality text entering a new line when the button is placed at the top"],
             ["1.3.2", "Depends on YTVideoOverlay 2.1.0+"],
