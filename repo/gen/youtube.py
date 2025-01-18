@@ -98,26 +98,6 @@ youtube = [
             ["1.8.9 (16.29.4+)", [
                 "Removed legacy code and files, minimum supported YouTube version is now 16.29.4",
                 "Optimized the logic to add PiP button to the video tab bar"
-            ]],
-            ["1.8.8", "Fixed crash on tapping PiP button on the video overlay for some users"],
-            ["1.8.7", "Fixed Legacy PiP not working on YouTube version 19.14.2 and higher"],
-            ["1.8.6", "Fixed crash on tapping PiP button in video tab bar for YouTube version 16"],
-            ["1.8.5", "Removed obsoleted Fake YouTube Version setting"],
-            ["1.8.4", "Improved compatibility with iOS 14 and lower"],
-            ["1.8.3", "Improved the logic to add PiP button to the video tab bar (contributed by NguyenASang)"],
-            ["1.8.2", "Fixed crash on YouTube version 19.03.2 and higher"],
-            ["1.8.1", "Fixed PiP button in video tab bar not colored correctly for new YouTube versions"],
-            ["1.8.0", "Added PiP button to video tab bar for new YouTube versions (contributed by NguyenASang)"],
-            ["1.7.22", [
-                "Fixed Legacy PiP compatibility on YouTube version 18.41.2 and higher",
-                "Known issue: Non-Legacy PiP may not work on iOS 14 and lower on recent YouTube versions"
-            ]],
-            ["1.7.21", "Corrected type encoding for the added methods"],
-            ["1.7.19-2 (15.10.4+)", [
-                "You may now enable or disable YouPiP from its settings",
-                "Fixed PiP not activating for some people",
-                "Fixed \"Fake YouTube version\" not restoring the old video bar for some people",
-                "Fixed crashing when activating PiP with \"Legacy PiP\" enabled on recent YouTube versions"
             ]]
         ]
     },
@@ -403,15 +383,13 @@ youtube = [
                 "Updated for YTVideoOverlay 2.0.0",
                 "If the video is muted then the user closes the video, the mute icon will update correctly when the user opens the video again"
             ]],
-            ["1.2.4", "Added a localized version of tweak name for Polish"],
-            ["1.2.3-1", "Added id localization"],
-            ["1.2.3", "Fixed app crash on YouTube version 19.30.2 and higher"],
-            ["1.2.2", "Fixed app crash on YouTube version 19.26.5 and higher"],
-            ["1.2.1-3", "Added de, tr localization"],
-            ["1.2.1", [
+            ["1.2.4", [
                 "Depends on YTVideoOverlay helper tweak",
+                "Added setting page, allowing you to toggle tweak and change mute button position",
+                "Fixed app crash on YouTube version 19.26.5 and higher",
                 "Corrected mute button position when placed at the bottom and the audio track button is visible",
-                "Added setting page, allowing you to toggle tweak and change mute button position"
+                "Added de, id, tr localization",
+                "Added a localized version of tweak name for Polish"
             ]]
         ]
     },
@@ -431,20 +409,11 @@ youtube = [
             ["1.3.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.2.3", [
                 "[Technical] On memory deallocation, only unregister its own observer",
-                "Added ar, pl localization"
-            ]],
-            ["1.2.2", "Removed unused code"],
-            ["1.2.1", "Fixed quality label arrangement when the current video format has HDR"],
-            ["1.2.0", "Make label programmatically generated, removing the label image files"],
-            ["1.1.4-2", [
-                "Added de localization",
-                "Updated es localization"
-            ]],
-            ["1.1.4", "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K"],
-            ["1.1.2-1", "Added ja and tr localization"],
-            ["1.1.2", "Use YouTube-styled font for the quality label (contributed by @dayanch96)"],
-            ["1.1.1", "Depends on YTVideoOverlay helper tweak"],
-            ["1.0.0-1", "Added ru and zh_cn localization"]
+                "Added ar, de, ja, pl, ru, tr, zh_cn localization",
+                "Fixed quality label arrangement when the current video format has HDR",
+                "Make label displays for non 60 FPS 720p, 1080p, 2K and 4K",
+                "Depends on YTVideoOverlay helper tweak"
+            ]]
         ]
     },
     {
@@ -460,8 +429,8 @@ youtube = [
             ["1.0.1", [
                 "[Technical] On memory deallocation, only unregister its own observer",
                 "Added vi localization"
-            ]],
-            ["1.0.0", "Initial release"]
+                "Initial release"
+            ]]
         ]
     },
     {
@@ -482,16 +451,14 @@ youtube = [
             ["1.6.6", "Improve feed ads blocking logic"],
             ["1.6.4", "Remove new format shorts ads"],
             ["1.6.3", [
-                "Improved feed ads blocking logic",
                 "Spoof YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly"
-            ]],
-            ["1.6.2", "Improved the performance of feed ads blocking"],
-            ["1.6.1", "Use an alternative way to hide statement_banner feed ads"],
-            ["1.6.0", "Use an alternative way to hide product_carousel feed ads"],
-            ["1.5.0", "Block feed ads by truly setting their size to zero"],
-            ["1.4.3", "Block YouTube upgrade dialog"],
-            ["1.4.2", "Switched to collection view hook, Block more kinds of feed ads"],
-            ["1.3.0", "Improved hooks"]
+                "Improved the performance of feed ads blocking",
+                "Use an alternative way to hide statement_banner feed ads",
+                "Use an alternative way to hide product_carousel feed ads",
+                "Block feed ads by truly setting their size to zero",
+                "Block YouTube upgrade dialog",
+                "Switched to collection view hook, Block more kinds of feed ads"
+            ]]
         ]
     },
     {
