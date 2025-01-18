@@ -10965,3 +10965,19 @@ Description: Manage packages in Cydia via swipe.
 Author: PoomSmart
 Name: SwipeForMore
 
+Package: org.thebigboss.swipeformore
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 188
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/cydia/org.thebigboss.swipeformore_1.2.5_iphoneos-arm.deb
+Size: 27178
+MD5sum: 0a2eea45d3452bb1e9d9b17128d69332
+SHA1: 6f20e183e2ea76a2f2d29b6fe558e6a9a8ffe740
+SHA256: 8ddd5fb1c7eb3d8b40e55b64b25e75c7117a04cfbd702ff3a22b939d53ffe76a
+Section: Tweaks
+Description: Manage packages in Cydia via swipe.
+Author: PoomSmart
+Name: SwipeForMore
+

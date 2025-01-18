@@ -26,7 +26,7 @@ camera = [
             ["1.0.2", "Fixed crashing on iOS 12 when opening flashlight CC module"]
         ],
         "description": "<p><b>As of version 1.2.0, you simply tap the flashlight icon to switch between modes and it targets iOS 14+.</b> Check this <a href=\"https://twitter.com/PoomSmart/status/1614107542342492160\">video</a> for how it works.</p><br/>\
-            <b>As of version 1.1.0, the toggle has been removed and it targets iOS 11+.</b> You can change amber mode through swipe. Check this <a href=\"https://twitter.com/PoomSmart/status/1499984245640495107\">video</a> for how it works.</p><br/>\
+            <p><b>As of version 1.1.0, the toggle has been removed and it targets iOS 11+.</b> You can change amber mode through swipe. Check this <a href=\"https://twitter.com/PoomSmart/status/1499984245640495107\">video</a> for how it works.</p><br/>\
             <p>A tweak that allows setting of Amber LED, or both White and Amber LEDs. Read <a href=\"https://github.com/PoomSmart/Amber/blob/rootless/README.md\">here</a> for more information.</p>"
     },
     {
