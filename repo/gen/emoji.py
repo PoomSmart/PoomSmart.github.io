@@ -116,6 +116,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.8.5", "Compiled with ARC"],
             ["1.8.4", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.3", "Depend on EmojiLibrary 1.6.1+"],
             ["1.8.2", [
