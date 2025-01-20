@@ -8,6 +8,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlock 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.5.9", [
+                "Made \"Use VP9\" option enabled by default",
+                "Removed message about UHD resolutions not working with YouPiP from settings (v1.5.8 made it work)"
+            ]],
             ["1.5.8", "Added 2K/4K formats to AVPlayer video playback (YouPiP with Legacy PiP option enabled)"],
             ["1.5.7", [
                 "Translated the remaining languages using AI",
@@ -468,6 +472,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
         "changes": [
+            ["1.0.5", "Moved the tweak description in the settings to under \"Enabled\" option so that the text is not cut off"],
             ["1.0.4", "Added th localization"],
             ["1.0.3", "Fixed incorrect resolution choosing when a video is vertical"],
             ["1.0.2", "Made tweak settings displayed without YouGroupSettings tweak"],
