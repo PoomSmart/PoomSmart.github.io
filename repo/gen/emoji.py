@@ -102,7 +102,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            ["1.0.11", "Depend on EmojiLibrary 1.6.1+"],
+            ["1.0.11", "Depends on EmojiLibrary 1.6.1+"],
             ["1.0.10", "Adopted fixes related to emoji split keyboard from EmojiPort (iOS 6.0-8.2)"]
         ],
         "description": "<p>Latest emojis for iOS 5.1</p>\
@@ -116,9 +116,10 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
+            ["1.8.6", "Removed unused code for each architecture"],
             ["1.8.5", "Compiled with ARC"],
             ["1.8.4", "Fixed crash on iOS 6 due to using modern-only libroot"],
-            ["1.8.3", "Depend on EmojiLibrary 1.6.1+"],
+            ["1.8.3", "Depends on EmojiLibrary 1.6.1+"],
             ["1.8.2", [
                 "Fixed emoji category images not displaying correctly",
                 "Updated for new EmojiLibrary"
@@ -150,7 +151,7 @@ emoji = [
         "max_ios": "11.4.1",
         "strict_range": True,
         "changes": [
-            ["1.4.2", "Depend on EmojiLibrary 1.6.1+"],
+            ["1.4.2", "Depends on EmojiLibrary 1.6.1+"],
             ["1.4.1", [
                 "Updated for new EmojiLibrary",
                 "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
@@ -172,7 +173,7 @@ emoji = [
                 "(Rootless-only) Removed unnecessary hooks",
                 "Use more correct type encoding for the added methods"
             ]],
-            ["1.5.1", "Depend on EmojiLibrary 1.6.1+"],
+            ["1.5.1", "Depends on EmojiLibrary 1.6.1+"],
             ["1.5.0~b3", [
                 "Initial iOS 17.4 emojis support",
                 "Updated for new EmojiLibrary"

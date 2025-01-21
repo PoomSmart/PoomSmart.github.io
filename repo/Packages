@@ -2159,6 +2159,25 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
 Name: EmojiPort (iOS 6.0-8.2)
 
+Package: com.ps.emojiportlegacy
+Version: 1.8.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 432
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
+Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
+Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.6_iphoneos-arm.deb
+Size: 78622
+MD5sum: fdb4da56c3099fd70598b360776a406f
+SHA1: dd8701aff52ff9db6e2ff64bf80a3f3195c4185a
+SHA256: f0d044f8a7243ff2ec981a007df56001a1d6927bf88f5aede572fbdfd72c8428
+Section: Tweaks
+Description: Latest emojis for iOS 6.0-8.2
+Tag: compatible::ios6, compatible::ios7, compatible::ios8
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
+Name: EmojiPort (iOS 6.0-8.2)
+
 Package: com.ps.emojiportpe
 Version: 1.4.3
 Architecture: iphoneos-arm64
