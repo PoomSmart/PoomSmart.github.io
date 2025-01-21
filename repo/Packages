@@ -6669,16 +6669,16 @@ Name: YouSpeed
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
 
 Package: com.ps.youspeed
-Version: 1.1.2
-Architecture: iphoneos-arm64
+Version: 1.1.3
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 88
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
-Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.1.2_iphoneos-arm64.deb
-Size: 5496
-MD5sum: 89c8c1438cc3be2d9511f6000e0e168e
-SHA1: c79c25cc4cddbbb51dd34407034dc35b85e89f16
-SHA256: e1e388642b53111dbf14eb8fed5607531d787008cb0939b1e5af4ae637f544ae
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.1.3_iphoneos-arm.deb
+Size: 5668
+MD5sum: dddbb8f37af16e81c90a4dd6cb1a4bbd
+SHA1: b25a981c36d7fa85e9023991944ee05eb3fd6de5
+SHA256: ec3386f836743209d4f28e5c2009f8ffd1eb2c789fcef9371c9318202a8f8407
 Section: Tweaks
 Description: View/change video speed in iOS YouTube app faster.
 Author: PoomSmart
@@ -6687,16 +6687,16 @@ Name: YouSpeed
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
 
 Package: com.ps.youspeed
-Version: 1.1.2
-Architecture: iphoneos-arm
+Version: 1.1.3
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 72
+Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
-Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.1.2_iphoneos-arm.deb
-Size: 5676
-MD5sum: 11fb08b876760dd9c2e827057ae04a9b
-SHA1: 60afec3e29fc5cb7e64bd9792faefc8eb10f09fa
-SHA256: 24372186117a7e28bf932ba40278aa801cf397233a7d9647ddf0b583895db752
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.1.3_iphoneos-arm64.deb
+Size: 5554
+MD5sum: 62a1575ff52c92c1d6fe85aa46d4ea43
+SHA1: 7c241bcf7e6fe37e318e71be04acd4cdf2c38b3e
+SHA256: 79a95907db2699c5b169e7a64ed0fd38df0fd0f9b8be792a37d6ae5ca1e02876
 Section: Tweaks
 Description: View/change video speed in iOS YouTube app faster.
 Author: PoomSmart

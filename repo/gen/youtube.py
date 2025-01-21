@@ -426,7 +426,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
         "changes": [
-            ["1.1.2", "Added th localization"],
+            ["1.1.3", [
+                "Fixed vi localization not working",
+                "Added th localization"
+            ]],
             ["1.1.1", "Removed unused code"],
             ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
