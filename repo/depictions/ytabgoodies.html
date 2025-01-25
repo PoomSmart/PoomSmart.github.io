@@ -10,7 +10,7 @@
 %end
 
 %hook YTIMediaQualitySettingsHotConfig
-%new(c@:) - (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
+%new(B@:) - (BOOL)omitAdvancedMenuOptionForAirPlay { return NO; }
 %end
 
 %hook YTYouThereController

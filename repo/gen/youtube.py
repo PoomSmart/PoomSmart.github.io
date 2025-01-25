@@ -63,6 +63,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.3", "Background playback is no longer forcibly enabled for YouPiP, you should ensure it is enabled in the original YouTube app settings"],
             ["1.12.2", "Fixed Video Tab Bar PiP button being black in dark mode on YouTube version 20.02.3"],
             ["1.12.1", "Fixed the tweak setting icon being black in dark mode on YouTube version 20.02.3"],
             ["1.12.0", [
@@ -446,15 +447,16 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.7", "Added background playback setting (under Offline)"],
             ["1.7.6", "Properly block shopping_item_card_list ads"],
-            ["1.7.5", "Improve shorts ads blocking logic"],
+            ["1.7.5", "Improved shorts ads blocking logic"],
             ["1.7.3", "Block shopping_carousel ads"],
             ["1.7.2", "Re-block search ads"],
             ["1.7.1", "Block new kind of video ads"],
             ["1.7.0", "Implement efficient feed ads blocking logic"],
-            ["1.6.10", "Improve feed ads blocking logic"],
+            ["1.6.10", "Improved feed ads blocking logic"],
             ["1.6.8", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
-            ["1.6.6", "Improve feed ads blocking logic"],
+            ["1.6.6", "Improved feed ads blocking logic"],
             ["1.6.4", "Remove new format shorts ads"],
             ["1.6.3", [
                 "Spoof YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly"

@@ -5890,6 +5890,48 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
+Version: 1.12.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 252
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.12.3_iphoneos-arm.deb
+Size: 37528
+MD5sum: f3716d4ed3cc5fd6bd308a3d843ae5e1
+SHA1: 4bb4941e35e626d6385dbfee5c3e4d9b1f27825f
+SHA256: 1128589793e8b8cd846d99de9fa35eba3795331c9af3bc0996417c95eb30c7db
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.12.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.12.3_iphoneos-arm64.deb
+Size: 26464
+MD5sum: 0ac3121d312590f377a3057ae13514d4
+SHA1: fc7a3033187319fee45ba585d4e439d98ceba46a
+SHA256: 62f5149df23164e06c733710b19cc6b7209bf12b80098867dbb6fec472d6f90e
+Section: Tweaks
+Description: Enable native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
 Version: 1.8.10
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -9564,6 +9606,42 @@ Size: 5030
 MD5sum: ab0e7efdc5fe977e1d2e5cda99a5b7f3
 SHA1: 80fd5871e1bca1fe2458700ea17fed762f333c96
 SHA256: 603ebed42400e21c0e810c1d0c65c3d8c0514efa87893dd1016469b5c4419a06
+Section: Tweaks
+Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ps.ytx
+Version: 1.7.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.7.7_iphoneos-arm64.deb
+Size: 5062
+MD5sum: 1714d02870a6f94f9297c2ecf23ad320
+SHA1: 93ebb61076d1e8db177f9987bee05dfce5d32a5e
+SHA256: 738b287219183d928ec7ec2d99cc5b06a2db22533ec15b26e3ec650777c64d9a
+Section: Tweaks
+Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ps.ytx
+Version: 1.7.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.7.7_iphoneos-arm.deb
+Size: 5054
+MD5sum: ff3788f7fae0bab7a2589ecde5190124
+SHA1: fd1af5da4fb2c068f5c23613f23341e2be819699
+SHA256: 44b61878369b32bafec9e4e15ba9211a5a6f8d1c052edbcb1f66c05ee4e5b82f
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart
