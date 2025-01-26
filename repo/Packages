@@ -726,6 +726,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
 Name: BlurryBadges (iOS 14+)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
 
+Package: com.ps.blurrybadges
+Version: 1.5.2
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 436
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/springboard/com.ps.blurrybadges_1.5.2_iphoneos-arm64e.deb
+Size: 41060
+MD5sum: 8a6ff48dda6d53a5be6dd32cb3661fb7
+SHA1: 479f9383e5ecc4e73ad078ec5d63822d65a4d3f0
+SHA256: 1ac76738e476fbc59de32bd8878027b9e328f93ce26d1d8bd8df4113dc90f8aa
+Section: Tweaks
+Description: Colored blur for SpringBoard icon badges.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
+Name: BlurryBadges (iOS 14+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
+
 Package: com.ps.boldtextflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -10052,6 +10071,24 @@ Size: 2894
 MD5sum: d276fa4c297d173ccd5ee154c492da8c
 SHA1: 8fe581745aea2e52b3c2ce120cb94398fba23363
 SHA256: 10ea66b0e8cbe99299c595cc9e3cecd94465592536db7d84fcf35d74452a1201
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/daniel.analytics_0.0.3_iphoneos-arm64e.deb
+Size: 2908
+MD5sum: 1969c9fe9077790ed44830bdd7012163
+SHA1: 48a4555567a2437d641d460baaf9caaafd27e130
+SHA256: 730ae56ba18d440d0bbc9dd4066f9dc6397434739b2c6d4de5a793e1dfa805bf
 Section: Tweaks
 Description: Enables various enhancements within stock iOS crashlogs
 Author: daniel & PoomSmart
