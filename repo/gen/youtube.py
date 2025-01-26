@@ -340,6 +340,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.1.2", [
+                "Fixed button order not visually changing in the settings",
+                "Translated the remaining languages using AI"
+            ]],
             ["2.1.1", "Ensure text overlay buttons are sized to be visible"],
             ["2.1.0", [
                 "Added an ability to reorder the buttons",
