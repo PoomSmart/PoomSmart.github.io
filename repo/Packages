@@ -6486,10 +6486,10 @@ Conflicts: com.spicat.youpip
 Replaces: com.spicat.youpip
 Provides: com.spicat.youpip
 Filename: ./debs/youtube/youpip/com.ps.youpip_1.12.3_iphoneos-arm64e.deb
-Size: 25718
-MD5sum: 045d6322c7a510219b760e65e40a3945
-SHA1: 2ff82f37af3bff16852aa592d10c755446494108
-SHA256: 660c275dba0c587e7a482380b090938479ad5d16ebabd49baae1e4fc7ae94495
+Size: 25734
+MD5sum: 13557d46efd46cbbb4da4afb4135e82d
+SHA1: a39784c1e850fb0bc6619a81b7062b3c4aa9b119
+SHA256: 5628713758860c20b292a5e8511897529d557dd818f3dd2d07075fdb7a293d9a
 Section: Tweaks
 Description: Enable native PiP in iOS YouTube app.
 Author: PoomSmart
