@@ -248,7 +248,7 @@ for entry in tweaks:
 
     if inline_source_code:
         SOURCE_CODE_FOUND = False
-        POSSIBLE_FOLDERS = ['SpringBoard-Switch', 'System-iOS', 'YouTube', 'Camera']
+        POSSIBLE_FOLDERS = ['SpringBoard', 'YouTube', 'Camera']
         try:
             for folder in POSSIBLE_FOLDERS:
                 source_code_path = f'../../{folder}/{file}/Tweak.x'

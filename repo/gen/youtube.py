@@ -175,7 +175,7 @@ youtube = [
     },
     {
         "file": "noytpremium",
-        "title": "noytpremium",
+        "title": "NoYTPremium",
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
@@ -183,7 +183,7 @@ youtube = [
     },
     {
         "file": "noytmpremium",
-        "title": "noytmpremium",
+        "title": "NoYTMPremium",
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
