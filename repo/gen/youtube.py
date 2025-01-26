@@ -54,11 +54,10 @@ youtube = [
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
             ["1.12.3", "Background playback is no longer forcibly enabled for YouPiP, you should ensure it is enabled in the original YouTube app settings"],
-            ["1.12.2", "Fixed Video Tab Bar PiP button being black in dark mode on YouTube version 20.02.3"],
-            ["1.12.1", "Fixed the tweak setting icon being black in dark mode on YouTube version 20.02.3"],
-            ["1.12.0", [
+            ["1.12.2", [
                 "Simplified PiP enabling logic",
                 "Fixed setting icon not appearing when the tweak is disabled and grouped settings experiment is on",
+                "Fixed the tweak setting icon and Video Tab Bar PiP button being black in dark mode on YouTube version 20.02.3",
                 "When iOS Text Size is not default, the Video Tab Bar PiP button will be resized accordingly"
             ]],
             ["1.11.0", "Added a new setting to make it possible for PiP to activate from either the video overlay button, the video tab bar button or dismissing the app at the same time"],
@@ -69,29 +68,17 @@ youtube = [
                 "Made the tweak enabled by default",
                 "Added th localization"
             ]],
-            ["1.8.19", [
-                "Fixed a possible crash on old YouTube versions when opening settings",
-                "Added a localized version of tweak name for Polish"
-            ]],
-            ["1.8.17", [
-                "Made tweak settings displayed without YouGroupSettings tweak (contributed by @dayanch96)",
-                "Added pl localization"
-            ]],
-            ["1.8.16", [
-                "Fixed the logic for adding PiP button to the video tab bar (contributed by NguyenASang)",
-                "Added YouGroupSettings tweak as a dependency"
-            ]],
-            ["1.8.15", [
-                "Updated setting icon",
-                "Added id localization"
-            ]],
-            ["1.8.14", "Corrected detection of Module_Framework.framework"],
-            ["1.8.12", "Corrected legacy PiP availability logic"],
-            ["1.8.11", "Fixed crash on YouTube version 19.24.2 and higher"],
-            ["1.8.10", "Optimized the hooks"],
-            ["1.8.9 (16.29.4+)", [
+            ["1.8.19 (16.29.4+)", [
                 "Removed legacy code and files, minimum supported YouTube version is now 16.29.4",
-                "Optimized the logic to add PiP button to the video tab bar"
+                "Added YouGroupSettings tweak as an optional dependency",
+                "Fixed the logic for adding PiP button to the video tab bar (contributed by NguyenASang)",
+                "Fixed crash on YouTube version 19.24.2 and higher",
+                "Fixed a possible crash on old YouTube versions when opening settings",
+                "Corrected Legacy PiP availability logic",
+                "Corrected detection of Module_Framework.framework",
+                "Optimized the logic to add PiP button to the video tab bar",
+                "Added a localized version of tweak name for Polish",
+                "Added id, pl localization"
             ]]
         ]
     },
@@ -240,27 +227,7 @@ youtube = [
                 "Changed the format of exported current settings to be prefixed with YT(Cold|Hot|Global)Config.",
                 "The imported settings that have the same value as the current one will not be imported"
             ]],
-            ["1.6.0", "You can now import the YTABConfig settings from the clipboard"],
-            ["1.5.1", "Fixed crash on YouTube version 19.03.2 and higher"],
-            ["1.5.0-3", [
-                "Tap on each A/B setting to reveal its class, copy it to clipboard or delete itself from the modified list",
-                "Fixed \"View modified settings\" showing outdated settings",
-                "Modified settings are now suffixed with \"*\"",
-                "Search feature is now available only if grouped settings is disabled",
-                "Confirmation alert will now show if you perform an action that requires quitting app",
-                "Added support for YouTube version 16.42.3 and lower",
-                "Added search functionality (contributed by @level3tjg)",
-                "Added \"Group settings by prefixes\" option",
-                "Optimized the existence check of modified settings",
-                "Display \"Copied to clipboard\" alert also when modified settings are copied",
-                "For long-named settings on iPhone, the non-truncated version will display",
-                "Categorize feature flags into short prefixes for easier navigation",
-                "Filtered out irrelevant features starting with amsterdam and unplugged",
-                "Added settings from YTGlobalConfig class",
-                "Breaking: Changed setting key format to \"YTABC.[Class].[Method]\" for future expansion but this also means you have to re-set your changes again",
-                "Reduced memory footprint",
-                "Added \"View modified settings\" and \"Copy current settings\" options"
-            ]]
+            ["1.6.0", "You can now import the YTABConfig settings from the clipboard"]
         ]
     },
     {
@@ -472,8 +439,7 @@ youtube = [
             ["1.0.4", "Added th localization"],
             ["1.0.3", "Fixed incorrect resolution choosing when a video is vertical"],
             ["1.0.2", "Made tweak settings displayed without YouGroupSettings tweak"],
-            ["1.0.1", "Added YouGroupSettings tweak as a dependency"],
-            ["1.0.0-1", "Added vi, zh-Hans localization"]
+            ["1.0.1", "Added YouGroupSettings tweak as a dependency"]
         ]
     }
 ]
