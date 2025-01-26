@@ -32,25 +32,15 @@ youtube = [
                 "Updated ja localization"
             ]],
             ["1.5.0-1", [
-                "Added \"VP9 for all\" option where you can enable VP9 for all resolutions",
-                "Updated es and zh_cn localization"
-            ]],
-            ["1.4.3", [
-                "Updated spoof version to 15.8.1 (for iOS 14-)",
-                "Updated zh_cn localization"
-            ]],
-            ["1.4.2", "Fixed crash on YouTube version 19.03.2 and higher"],
-            ["1.4.1", [
-                "Updated spoof version to 15.8 (for iOS 14-)",
-                "Added note about YouPiP tweak when used in conjunction with YTUHD",
-                "Added th localization"
-            ]],
-            ["1.4.0-1", [
                 "Force VP9 formats only for 1440p and higher",
-                "Updated spoof version to 15.7.6 (for iOS 14-)",
+                "Added \"VP9 for all\" option where you can enable VP9 for all resolutions",
+                "Fixed crash on YouTube version 19.03.2 and higher",
+                "Updated spoof version to 15.8.1 (for iOS 14-)",
                 "Hooks MLABRPolicyNew and MLABRPolicyOld classes (introduced in YouTube version 17.30.3)",
                 "Fixed crashing on some older YouTube versions",
-                "Forces enabling Video quality settings on older YouTube to have YTUHD setting there"
+                "Forces enabling Video quality settings on older YouTube to have YTUHD setting there",
+                "Added th localization",
+                "Updated es, zh_cn localization"
             ]]
         ]
     },
@@ -364,23 +354,18 @@ youtube = [
             ["1.2.3", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.2.2", "Added YouGroupSettings tweak as a dependency"],
             ["1.2.1", [
+                "Added support for text button",
                 "Updated setting icon",
-                "Added id localization"
-            ]],
-            ["1.2.0", "Added support for text button"],
-            ["1.1.6", "Fixed the bottom buttons not showing on YouTube version 16.45.4 and lower"],
-            ["1.1.5", "Fixed the bottom buttons not showing for some users"],
-            ["1.1.4", "Fixed crash on YouTube version 19.03.2 and higher"],
-            ["1.1.3", [
-                "Increased the spacing between bottom buttons for better accessibility",
+                "Fixed the bottom buttons not showing on YouTube version 16.45.4 and lower",
+                "Fixed the bottom buttons not showing for some users",
+                "Fixed crash on YouTube version 19.03.2 and higher",
                 "Fixed bottom buttons not positioned correctly on small iPhone devices",
-            ]],
-            ["1.1.2", "Fixed overlay buttons not appearing on YouTube version 19.02.1 and higher"],
-            ["1.1.1-2", [
-                "Added de localization",
-                "Updated ja localization"
-            ]],
-            ["1.1.1", "Fixed incorrect button positioning in some scenarios"]
+                "Fixed overlay buttons not appearing on YouTube version 19.02.1 and higher",
+                "Fixed incorrect button positioning in some scenarios",
+                "Added de, id localization",
+                "Updated ja localization",
+                "Increased the spacing between bottom buttons for better accessibility"
+            ]]
         ]
     },
     {
@@ -462,13 +447,12 @@ youtube = [
             ["1.7.2", "Re-block search ads"],
             ["1.7.1", "Block new kind of video ads"],
             ["1.7.0", "Implement efficient feed ads blocking logic"],
-            ["1.6.10", "Improved feed ads blocking logic"],
-            ["1.6.8", "Hook YTAdShieldUtils class and Improve ads blocking logic"],
-            ["1.6.6", "Improved feed ads blocking logic"],
-            ["1.6.4", "Remove new format shorts ads"],
-            ["1.6.3", [
-                "Spoof YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly"
+            ["1.6.10", [
+                "Spoof YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly",
+                "Improved feed ads blocking logic",
                 "Improved the performance of feed ads blocking",
+                "Remove new format shorts ads",
+                "Hook YTAdShieldUtils class",
                 "Use an alternative way to hide statement_banner feed ads",
                 "Use an alternative way to hide product_carousel feed ads",
                 "Block feed ads by truly setting their size to zero",
