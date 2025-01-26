@@ -1061,6 +1061,25 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
 
 Package: com.ps.cconandoff
 Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./debs/springboard/com.ps.cconandoff_1.1.0_iphoneos-arm64e.deb
+Size: 5118
+MD5sum: 856aeb0e6eaa0a9fb3a0f69bce8f0c12
+SHA1: 3ff4fe219c86b7b47c7a8158b540b7a26d963844
+SHA256: aba49fc2f6ac50c9ec643e761dac769870cc86b611c2f79ae0706d2e7bfd0982
+Section: Tweaks
+Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+Name: CC On & Off
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+
+Package: com.ps.cconandoff
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 152
