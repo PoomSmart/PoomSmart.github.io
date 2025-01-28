@@ -7293,13 +7293,13 @@ Package: com.ps.ytabconfig
 Version: 1.7.8
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 160
+Installed-Size: 144
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.8_iphoneos-arm.deb
-Size: 22882
-MD5sum: 2420012a068cf514943cc4f6d1d7b456
-SHA1: e2c398cdde8792dd3ade03a760c7335100fac643
-SHA256: a90f72e4b4c832efdafd726452cc51038bc4cd20ea56b5cdc5ce6d2dbe14b195
+Size: 23176
+MD5sum: 5affa7ab95ca632acbddf1f20483302c
+SHA1: 3418f46da087c4d6c9521c80d4cbaa20125878c7
+SHA256: 988e60887083d28a499d9fd31a2d54198453e7c1837f6f8117f4125c2b6624df
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
 Author: PoomSmart
@@ -9389,10 +9389,10 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.ps.ytabgoodies
 Filename: ./debs/youtube/ytx/com.ps.ytx_1.7.7_iphoneos-arm.deb
-Size: 5054
-MD5sum: ff3788f7fae0bab7a2589ecde5190124
-SHA1: fd1af5da4fb2c068f5c23613f23341e2be819699
-SHA256: 44b61878369b32bafec9e4e15ba9211a5a6f8d1c052edbcb1f66c05ee4e5b82f
+Size: 5146
+MD5sum: 1ec04a4a558d6642cf69fcf696d7615f
+SHA1: beebde06e644abca718fc003c9e5ed017dc64f31
+SHA256: 34872ffa592eb59ab2f1d041e8cf37c886e5454788b00b5cf70c44eae93b5627
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
 Author: PoomSmart
