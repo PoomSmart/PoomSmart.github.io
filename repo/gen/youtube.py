@@ -200,6 +200,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.8", "Removed kidsClient* and musicOfflineClient* A/B flags as they are unrelated to YouTube app"],
             ["1.7.7", [
                 "Translated the remaining languages using AI",
                 "Added th localization"

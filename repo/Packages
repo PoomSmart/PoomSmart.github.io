@@ -7253,6 +7253,60 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
 Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
+Package: com.ps.ytabconfig
+Version: 1.7.8
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.8_iphoneos-arm64e.deb
+Size: 22264
+MD5sum: 8ce9e851e68206a1bda148e5dffdb08f
+SHA1: 894315b1f1262a5b3a305c92a546ef424b0e70ef
+SHA256: 379da49a6d262dc0c45bfb302398e01c4869e727bf362ae068f8fac16309c7d0
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.7.8
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.8_iphoneos-arm64.deb
+Size: 22958
+MD5sum: 638660914ac527f1f1c04b93f292cd9f
+SHA1: 17224678059c806acf4d95e8e5c6262f8f3fd37f
+SHA256: 9068edf92a5491ddbc488f332f0d07e282ff0131d4cb8e124d9cd955f82d0e85
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.7.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.8_iphoneos-arm.deb
+Size: 22882
+MD5sum: 2420012a068cf514943cc4f6d1d7b456
+SHA1: e2c398cdde8792dd3ade03a760c7335100fac643
+SHA256: a90f72e4b4c832efdafd726452cc51038bc4cd20ea56b5cdc5ce6d2dbe14b195
+Section: Tweaks
+Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
 Package: com.ps.ytabgoodies
 Version: 1.0.4
 Architecture: iphoneos-arm
