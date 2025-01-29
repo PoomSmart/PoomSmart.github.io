@@ -53,6 +53,7 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.4", "Added missing hooks for Legacy PiP for recent YouTube versions"],
             ["1.12.3", "Background playback is no longer forcibly enabled for YouPiP, you should ensure it is enabled in the original YouTube app settings"],
             ["1.12.2", [
                 "Simplified PiP enabling logic",
