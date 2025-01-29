@@ -6911,6 +6911,63 @@ Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
 Name: YouSpeed
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
 
+Package: com.ps.youspeed
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.2.0_iphoneos-arm64.deb
+Size: 6600
+MD5sum: 1ebfb2a2cfa652f3199a2332a7c4522b
+SHA1: b70c98cb6398742d612d0e22af01e193f5941a14
+SHA256: 878965481f0074fecfe163c55bdfe7fbdd2a2134d92e503d31a63c7bee181938
+Section: Tweaks
+Description: View/change video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.2.0_iphoneos-arm.deb
+Size: 6656
+MD5sum: 476a6e14c11faf7cae6c9a370516ded7
+SHA1: e6c04661e4a805d19455506577d48f01aaf4c047
+SHA256: 8d278febcb6134c33a622e1203b16aaa85866d4f77cf514efc94a755f57e9f5d
+Section: Tweaks
+Description: View/change video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.2.0_iphoneos-arm64e.deb
+Size: 5854
+MD5sum: b6fe761b588666c05d684c7a1fd17b0a
+SHA1: 49f923b5971a544fe0e7e5513778ff37384b741e
+SHA256: 312c57dc568d6b4bae1194d6eb085c9d340ff45b171836894068c5d6b19cdcc2
+Section: Tweaks
+Description: View/change video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
 Package: com.ps.ytabconfig
 Version: 1.6.0
 Architecture: iphoneos-arm64
@@ -9087,6 +9144,60 @@ Size: 13902
 MD5sum: 41616e70e08bbdb82ab1b82a9d9132fa
 SHA1: 0edb99fd0dd3f09b5f8a30430bd5b0242853eece
 SHA256: e7f6039c803345691cb6033aa2dd70909ab97c8ddcf38d386a6699af2fefef72
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_2.2.0_iphoneos-arm64.deb
+Size: 14194
+MD5sum: 7cd4767e9b4e187492ca50501fdddb1f
+SHA1: cb184ca17ebbe934f765b10f5e9e0f03f3aa266a
+SHA256: b7302a9bd0ad179da493ea748d96b03f8558a5c0143ded568b722034ebe87505
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_2.2.0_iphoneos-arm.deb
+Size: 14296
+MD5sum: fa502d29edb732803dfe93c3b72f4f57
+SHA1: 6ed267e32d21134b3db57cc7c3cc1c44d1f5b2b1
+SHA256: d9824df4b73ecb399c03fdbd091a0d9390f77f5621296fb95f3f656237d88a98
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 2.2.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_2.2.0_iphoneos-arm64e.deb
+Size: 13430
+MD5sum: 72f32eb1dcd2ad0d68dd5d18b0b444f5
+SHA1: 28e1086b9253bc918c73ead7c156d8e7cf99a5b0
+SHA256: 9d318f018c1075aa00fba07d016ffe09056207c83372ebd49db72065ef8ac9e3
 Section: Tweaks
 Description: A helper tweak to add buttons on YouTube video overlay.
 Author: PoomSmart

@@ -298,6 +298,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.2.0", "Added support for extra boolean settings from the tweak side"],
             ["2.1.2", [
                 "Fixed button order not visually changing in the settings",
                 "Translated the remaining languages using AI"
@@ -386,8 +387,9 @@ youtube = [
         "title": "YouSpeed",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Add a speed button to the video overlay where you can directly change the video speed.</p>",
+        "description": "<p>Add a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.2.0", "Added more video speeds to choose from, configured from YTVideoOverlay settings"],
             ["1.1.3", [
                 "Fixed vi localization not working",
                 "Added th localization"
@@ -395,7 +397,6 @@ youtube = [
             ["1.1.1", "Removed unused code"],
             ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
-                "[Technical] On memory deallocation, only unregister its own observer",
                 "Added vi localization"
                 "Initial release"
             ]]
