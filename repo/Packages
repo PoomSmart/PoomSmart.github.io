@@ -1186,6 +1186,22 @@ Description: Hide iphoneos-arm64 packages from Cydia.
 Author: PoomSmart
 Name: cyarchfix
 
+Package: com.ps.cyarchfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Filename: ./debs/cydia/com.ps.cyarchfix_1.0.1_iphoneos-arm.deb
+Size: 3514
+MD5sum: 6ff2f3d490bf2acdb238de3b5dfec499
+SHA1: b216401206795871b887a1f5b465f3703cfc2bd2
+SHA256: c94361ed127c9257d488cd8921c2ab43db159476b4f3985564799f11088766f0
+Section: Tweaks
+Description: Hide iphoneos-arm64(e) packages from Cydia.
+Author: PoomSmart
+Name: cyarchfix
+
 Package: com.ps.efmfontdl
 Version: 1.0.3
 Architecture: iphoneos-arm64
