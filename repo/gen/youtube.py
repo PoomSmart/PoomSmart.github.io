@@ -233,6 +233,13 @@ youtube = [
         ]
     },
     {
+        "file": "ytabconfig",
+        "title": "YTABConfigReset",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Reset all A/B flags in YTABConfig tweak on YouTube app launch. This is useful when changing some A/B flags may cause the app to crash outright and there is no simple way to recover it. Once installed and you launched the YouTube app, all A/B flags will be reset. You will then uninstall YTABConfigReset tweak. Otherwise, A/B flags will keep being reset every time you launch the app.</p>"
+    },
+    {
         "file": "ytmabconfig",
         "title": "YTMABConfig",
         "min_ios": "11.0",

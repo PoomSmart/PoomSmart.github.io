@@ -7554,6 +7554,60 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
 Name: YTABConfig
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
 
+Package: com.ps.ytabconfigreset
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfigreset_1.0.0_iphoneos-arm64e.deb
+Size: 3266
+MD5sum: 8b603567283e3184e008983673de832b
+SHA1: 137d93196274994d5411a71ef2a1c470012337c6
+SHA256: 1321d06702f3d627888b26e15d26555299f0683708a6625d385417df82eb1ff8
+Section: Tweaks
+Description: Reset all A/B flags in YTABConfig on YouTube app launch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfigreset.html
+Name: YTABConfig Reset
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfigreset.json
+
+Package: com.ps.ytabconfigreset
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfigreset_1.0.0_iphoneos-arm64.deb
+Size: 3326
+MD5sum: bd3b46256bb79a4d546e661e5f9e6907
+SHA1: b65fa9b825e04e76755ed685467f8fe1a3c8f039
+SHA256: 80a4fef98db5f39b1edb5cea021c3003a5f3e59411bbd6e2f8c6af0945772ab5
+Section: Tweaks
+Description: Reset all A/B flags in YTABConfig on YouTube app launch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfigreset.html
+Name: YTABConfig Reset
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfigreset.json
+
+Package: com.ps.ytabconfigreset
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfigreset_1.0.0_iphoneos-arm.deb
+Size: 3284
+MD5sum: 5d3d82b5a9076b7c16c7a4fa2f115424
+SHA1: 34a363fd4bfc7b4b13f5b993e90c974da714f24b
+SHA256: d3921e1ee4bb6871e28f2c4a2b40724f81b5cebd9db28b7cb9bc86747c722b54
+Section: Tweaks
+Description: Reset all A/B flags in YTABConfig on YouTube app launch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfigreset.html
+Name: YTABConfig Reset
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfigreset.json
+
 Package: com.ps.ytabgoodies
 Version: 1.0.4
 Architecture: iphoneos-arm
