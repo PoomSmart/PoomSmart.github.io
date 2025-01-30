@@ -233,7 +233,7 @@ youtube = [
         ]
     },
     {
-        "file": "ytabconfig",
+        "file": "ytabconfigreset",
         "title": "YTABConfigReset",
         "min_ios": "11.0",
         "tintColor": "red",
