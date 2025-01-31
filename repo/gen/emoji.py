@@ -13,6 +13,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.3", "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15"],
             ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.1", "Compiled with the latest Theos revision"],
             ["1.8.0~b2", [
