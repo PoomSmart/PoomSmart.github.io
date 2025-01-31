@@ -1203,42 +1203,6 @@ Author: PoomSmart
 Name: cyarchfix
 
 Package: com.ps.efmfontdl
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 8
-Depends: wget
-Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.3_iphoneos-arm64.deb
-Size: 1422
-MD5sum: 843f9df918729c3e1f71443d63532cef
-SHA1: 21a7e283dd1fd0c2170a9e3cc67c018679b61933
-SHA256: 8c08982c3fc15768c5d92c3c3a96eac9ef8902a21d336185a8b2418a2ac1bbe8
-Section: Fonts (EFM)
-Description: Shell script to download emoji font for EFM.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/efmfontdl.html
-Name: EFM Font Downloader
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
-
-Package: com.ps.efmfontdl
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 8
-Depends: wget
-Filename: ./debs/emojifont/com.ps.efmfontdl_1.0.3_iphoneos-arm.deb
-Size: 1392
-MD5sum: 662af941367bbace9d64c133ab4fcf21
-SHA1: 283aa8e66a0b4d82685521af28db4bd243f603ab
-SHA256: 530333a4966264fcd6ee518c9b6b04198a2614f2c97b7733ecb357ab57b2f57b
-Section: Fonts (EFM)
-Description: Shell script to download emoji font for EFM.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/efmfontdl.html
-Name: EFM Font Downloader
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
-
-Package: com.ps.efmfontdl
 Version: 1.0.4-2
 Architecture: iphoneos-arm64e
 Maintainer: PoomSmart
@@ -2995,42 +2959,6 @@ Name: FluentUI Color Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
 
 Package: com.ps.fluentuiflatefm
-Version: 15.0.0
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.0.0_iphoneos-arm64.deb
-Size: 758
-MD5sum: b48506d479cc1be5af42975827d9d994
-SHA1: cf26ea03b82a28092c227825e66b8d535b8fd6bf
-SHA256: a974af1cf79b82b5a475cb099c505f5e7f4143aaea31a03efd31e44f8a9587bb
-Section: Fonts (EFM)
-Description: Unicode 15.0 FluentUI Flat Emoji (Windows 11) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
-Name: FluentUI Flat Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
-
-Package: com.ps.fluentuiflatefm
-Version: 15.0.0
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.fluentuiflatefm_15.0.0_iphoneos-arm.deb
-Size: 756
-MD5sum: 1f6714291a64989e0a250722d9019bf2
-SHA1: 5f6913dc45e26124309df032bf776210fe31304d
-SHA256: 9ea52f8affa93e182cfb53a1d745faf83d6ee9e131c094ff9937e3088de931db
-Section: Fonts (EFM)
-Description: Unicode 15.0 FluentUI Flat Emoji (Windows 11) (EFM)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/fluentuiefm.html
-Name: FluentUI Flat Unicode 15.0 (EFM)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/fluentuiefm.json
-
-Package: com.ps.fluentuiflatefm
 Version: 15.1.0
 Architecture: iphoneos-arm64e
 Maintainer: PoomSmart
@@ -3886,25 +3814,6 @@ Section: Tweaks
 Description: Keyboard choosing from 3rd-party keyboard.
 Author: PoomSmart
 Name: LetMeSwitch
-
-Package: com.ps.libsubstitrate
-Version: 0.0.1-3
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 212
-Depends: mobilesubstrate
-Filename: ./debs/com.ps.libsubstitrate_0.0.1-3_iphoneos-arm.deb
-Size: 4460
-MD5sum: 973eab2f66209ab438de762cda6f2d1b
-SHA1: afd39223657a565124ae1b09b7e75aeb30980441
-SHA256: fecfd57d3ace5155f2fd266be6c9dea9c9b650d56390ae247ae4f5ee88bbc37b
-Section: System
-Description: Substrate/Substitute hooking selector.
-Tag: role::developer
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/libsubstitrate.html
-Name: libSubstitrate
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/libsubstitrate.json
 
 Package: com.ps.linebreakliberator
 Version: 1.0.0
@@ -5094,62 +5003,6 @@ Author: PoomSmart
 Name: SmoothCursor iOS 13
 
 Package: com.ps.smoothkb
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 152
-Depends: mobilesubstrate, firmware (>= 7.0)
-Conflicts: org.thebigboss.smoothpop
-Filename: ./debs/keyboard/com.ps.smoothkb_1.0.1_iphoneos-arm.deb
-Size: 3234
-MD5sum: 35424bb36b0a08cad484dd370bc78c37
-SHA1: 0bbe94462da85926cc0c90813032e60fd8d3a2f8
-SHA256: d914c62b9cf5ac85d6370caa1d6def8b82f27829cfe32d339126008bb7cf99bd
-Section: Tweaks
-Description: Fade animation across keyboard typing.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
-Name: SmoothKB
-
-Package: com.ps.smoothkb
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 216
-Depends: mobilesubstrate, firmware (>= 7.0)
-Conflicts: org.thebigboss.smoothpop
-Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm64.deb
-Size: 4670
-MD5sum: 1a41d5dcfbe3daf0f1d59d024b856485
-SHA1: c6df68e3d2c36a9a145d2aae610f6b637ae47ba0
-SHA256: 54d569064bc2cbe30a56b5de681d42171c54824ff341f65dd16b0c25890024c7
-Section: Tweaks
-Description: Fade animation across keyboard typing.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
-Name: SmoothKB
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
-
-Package: com.ps.smoothkb
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 7.0)
-Conflicts: org.thebigboss.smoothpop
-Filename: ./debs/keyboard/com.ps.smoothkb_1.0.2_iphoneos-arm.deb
-Size: 4484
-MD5sum: 4c66293036eb76657fc29d593f750302
-SHA1: c19332c899f1b01f2713c2ffc2b55c47dda23aa2
-SHA256: 14d9225cdec7ed945b7315ff3249c5f6c0378909afdf51331018806417193dc1
-Section: Tweaks
-Description: Fade animation across keyboard typing.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/smoothkb.html
-Name: SmoothKB
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/smoothkb.json
-
-Package: com.ps.smoothkb
 Version: 1.0.3
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -5202,24 +5055,6 @@ Section: Tweaks
 Description: Rename SMS group conversation.
 Author: PoomSmart
 Name: SMSGroupName
-
-Package: com.ps.splitit
-Version: 0.0.2
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 3584
-Depends: firmware (>= 10.0), mobilesubstrate, gsc.ipad
-Filename: ./debs/keyboard/com.ps.splitit_0.0.2_iphoneos-arm.deb
-Size: 669854
-MD5sum: 50fe8305f8a27c87ae4df3f32aa355da
-SHA1: c825405a6063e3e07bbcd8a75b2567fccee9b928
-SHA256: e6aba33dd8aeb8536b31e83fa401c2ddce56af3803825e4ce4d4930fcda68b63
-Section: Tweaks
-Description: Enable keyboard split feature on borderless iPads.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/splitit.html
-Name: SplitIt
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/splitit.json
 
 Package: com.ps.ssgesturesios12fix
 Version: 0.0.1.1

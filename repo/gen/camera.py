@@ -57,7 +57,7 @@ camera = [
     },
     {
         "file": "expandlesscamcontrols",
-        "title": "expandlesscamcontrols",
+        "title": "ExpandlessCamControls",
         "min_ios": "9.0",
         "inline_source_code": True,
         "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
@@ -67,7 +67,7 @@ camera = [
         "title": "Live Text Enabler",
         "min_ios": "15.0",
         "changes": [
-            ["1.3.0", "Hooks into mediaserverd, this should now let you detect the text on iOS Camera app"],
+            ["1.3.0", "Hooked mediaserverd, this should now let you detect the text on iOS Camera app"],
             ["1.2.0", "Added support for iOS 16+"]
         ],
         "description": "<p>Enable Live Text on unsupported iOS 15+ devices.</p>"

@@ -35,30 +35,7 @@ tweaks = [
         "file": "smoothkb",
         "title": "SmoothKB",
         "min_ios": "7.0",
-        "changes": [
-            ["1.0.3", "Fixed animation bug on the Globe key"]
-        ],
         "description": "<p>Fade animation across keyboard typing.</p>"
-    },
-    {
-        "file": "libsubstitrate",
-        "title": "libSubstitrate",
-        "min_ios": "5.0",
-        "changes": [
-            ["0.0.1-3", "Crash fix for Substrate users"]
-        ],
-        "description": "<p>This is a compatibility library for runtime modification tweaks via Substitute and CydiaSubstrate.</p>\
-            <p>The motivation of this project is the lack of Substrate support on A12/arm64e for those using Chimera. As Substitute API usually works better on this environment, libSubstitrate will, if available, try to use Substitute API first. Otherwise, it will fall back to Cydia Substrate.</p>"
-    },
-    {
-        "file": "splitit",
-        "title": "SplitIt",
-        "min_ios": "10.0",
-        "max_ios": "13.7",
-        "changes": [
-            ["0.0.2", "Deprecated libSubstitrate"]
-        ],
-        "description": "<p>Enable keyboard split feature on borderless iPads.</p>"
     },
     {
         "file": "pencilpro",

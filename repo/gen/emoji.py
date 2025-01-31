@@ -57,8 +57,7 @@ emoji = [
         "file": "efmfontdl",
         "title": "EFM Font Downloader",
         "changes": [
-            ["1.0.4", "Fallback to cURL if downloading using wget fails"],
-            ["1.0.3", "Fixed path logic"]
+            ["1.0.4", "Fallback to cURL if downloading using wget fails"]
         ],
         "description": "<p>A simple shell script to download an emoji font for EFM from GitHub releases.</p>"
     },
@@ -268,8 +267,7 @@ emoji = [
         "title": "FluentUI Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
@@ -361,8 +359,7 @@ emoji = [
         "title": "WhatsApp Emoji Unicode 15.1 (EFM)",
         "screenshots": True,
         "changes": [
-            ["15.1.0", "Updated to Unicode 15.1"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
