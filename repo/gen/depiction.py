@@ -173,9 +173,10 @@ tweaks = [
     {
         "file": "osanalytics",
         "title": "OSAnalytics",
-        "min_ios": "14.0",
+        "min_ios": "13.0",
         "description": "<p>Enable the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
         "changes": [
+            ["0.0.4", "Added support for iOS 13"],
             ["0.0.3", "Fixed crash in some processes"],
             ["0.0.2", "Properly support iOS 15 (credits to @NightwindDev)"]
         ]

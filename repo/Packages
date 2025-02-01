@@ -228,6 +228,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.amber
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 320
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: ./debs/camera/com.ps.amber_1.2.3_iphoneos-arm.deb
+Size: 9508
+MD5sum: 2512bb34885256567e4ec92b69f69cf3
+SHA1: 6bc71abda1c459d79938170cdabcff081f72445a
+SHA256: e7cd2410a0f823485cd05727e4bcc1b92d7de8f5a248ceed2ea99339ee8a1197
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.ps.amber
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 304
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: ./debs/camera/com.ps.amber_1.2.3_iphoneos-arm64.deb
+Size: 8772
+MD5sum: da05f39547a9c24a265c9abe15d961b2
+SHA1: 335d68e3b05d07cc356f9540a987f80748e5277e
+SHA256: cbe9b9f736de7fbb7aa5603fd2dc323da625eba23f26676d9d3706e70fd92f5d
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -1078,6 +1114,44 @@ Size: 36234
 MD5sum: 68726be73b899197e70c82dc29470b13
 SHA1: 61a5f85030d64cc10fc2a1b046ae55c0a8734d79
 SHA256: fb4a9adb552facc31574ace4b26f6af4cc00e04de6beab87592b12b7c8af097c
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
+Package: com.ps.cameramodes
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 400
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.2_iphoneos-arm64.deb
+Size: 36300
+MD5sum: 7217704f1283801df07d459142702115
+SHA1: 95c9a6f1f46c8c0f5bef2cf72ef96042edcf7367
+SHA256: 9e09776050daeeb52608b1c5ac297e87de282d733ab3efc1369429e14c53544d
+Section: Tweaks
+Description: Specify available camera modes.
+Author: PoomSmart
+Name: CameraModes
+
+Package: com.ps.cameramodes
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: org.thebigboss.cameramodes
+Replaces: org.thebigboss.cameramodes
+Provides: org.thebigboss.cameramodes
+Filename: ./debs/camera/com.ps.cameramodes_1.2.2_iphoneos-arm.deb
+Size: 37198
+MD5sum: ec1770dbebe040a1fc7252879d44e95f
+SHA1: 7e00ac6866bc9d2d58b0a6141df1a582f1cc1c18
+SHA256: 7aa4c97e1ac8ebb656660d8f07e5de52450429090c64056681f5a47f628976e4
 Section: Tweaks
 Description: Specify available camera modes.
 Author: PoomSmart
@@ -10092,6 +10166,60 @@ Size: 2978
 MD5sum: 5c00cd2df62eae594a2ae833c2d21501
 SHA1: 5044831c78bdab0fc64c4b79c7663ff2676ad248
 SHA256: b96e3b3ecdc8505e44dbd9f35eb7f75c91acdb75850e13311a5a8bdda1b382c3
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm64.deb
+Size: 2972
+MD5sum: 8ea0180d14e9cf6bc14fe39a1f0aa5d9
+SHA1: 1fd41c07fafdb9e5efdae030d7cb498eb1a80ef6
+SHA256: 1d277dc6e72e9186ecb4890c2d5215762610e4617de4043f8e76e0374e650a67
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: daniel & PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm.deb
+Size: 3156
+MD5sum: 678f2437e39525fc65bcd8ac3ecf86a7
+SHA1: 894bc7d63950c36027d44c7eb9fe3f69ed53a68c
+SHA256: 3ed6779bba2243018fdb99a6e70daf7074abe0f62ab10c5e6b81705571e0584b
+Section: Tweaks
+Description: Enables various enhancements within stock iOS crashlogs
+Author: daniel & PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/osanalytics.html
+Name: OSAnalytics
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/osanalytics.json
+
+Package: daniel.analytics
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: daniel & PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm64e.deb
+Size: 2904
+MD5sum: eeae0f287671e49b0c6bfca39eba6e43
+SHA1: 451868676aff8fa31612e2fc70c560cee40c35ce
+SHA256: d75c55dc57a377889a4d03e351ab347c0353d48ead5b7b6486b66eb0ac35994b
 Section: Tweaks
 Description: Enables various enhancements within stock iOS crashlogs
 Author: daniel & PoomSmart
