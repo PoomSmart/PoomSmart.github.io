@@ -84,5 +84,20 @@ camera = [
         "min_ios": "11.0",
         "screenshots": True,
         "description": "<p>Add sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
+    },
+    {
+        "file": "recordpause",
+        "title": "RecordPause",
+        "min_ios": "9.0",
+        "description": "<p>Pause and resume video recording in iOS Camera app.</p><br/>\
+            <p><b>Version 2.0.5+ supports iOS 13+</b></p><br/>\
+            <p><b>Version 2.0.0 - 2.0.4 support only iOS 14+</b></p>",
+        "changes": [
+            ["2.0.5", "Allowed installation on iOS 13"],
+            ["2.0.4", "Improved type encoding for added methods"],
+            ["2.0.3", "Fixed button layout in RTL"],
+            ["2.0.2", "Disabled pause/resume feature for unsupported recording modes"],
+            ["2.0.1", "Fixed button layout logic"]
+        ]
     }
 ]
