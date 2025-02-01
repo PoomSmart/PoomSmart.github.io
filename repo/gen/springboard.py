@@ -12,9 +12,10 @@ springboard = [
     {
         "file": "blurrybadges",
         "title": "Blurry Badges",
-        "min_ios": "14.0",
+        "min_ios": "13.0",
         "description": "<p>Add colored blur to SpringBoard icon badges.</p>",
         "changes": [
+            ["1.5.3", "Added support for iOS 13"],
             ["1.5.2", "Fixed crash on iOS 14"],
             ["1.5.1", [
                 "Fixed crash when Continuity apps appear on the home screen",
