@@ -53,6 +53,13 @@ youtube = [
         "description": "<p>Enable native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.5", [
+                "Fixed PiP not working on iOS 13",
+                "Removed Legacy PiP option from iOS 13, because it must be enabled regardless",
+                "Known issue (iOS 13): PiP may not activate if it is not activated from the PiP button",
+                "Depends on ForceInPicture 1.0.1+ for iPhones running iOS 13 and lower",
+                "Fixed appWillEnterBackground: method not being called on iOS 14"
+            ]],
             ["1.12.4", "Added missing hooks for Legacy PiP for recent YouTube versions"],
             ["1.12.3", "Background playback is no longer forcibly enabled for YouPiP, you should ensure it is enabled in the original YouTube app settings"],
             ["1.12.2", [
