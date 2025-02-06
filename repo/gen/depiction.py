@@ -75,7 +75,7 @@ tweaks = [
         "title": "IGClassicLayout",
         "min_ios": "13.0",
         "tintColor": "orange",
-        "description": "<p>Restore the original-ish buttons layout in Instagram.</p>",
+        "description": "<p>Restores the original-ish buttons layout in Instagram.</p>",
         "changes": [
             ["1.0.2", "Removed Shopping tab for recent Instagram versions"]
         ]
@@ -87,7 +87,7 @@ tweaks = [
         "tintColor": "orange",
         "screenshots": True,
         "link_source_code": True,
-        "description": "<p>Allow for more than 4 choices for Quiz sticker in Instagram.</p>"
+        "description": "<p>Allows for more than 4 choices for Quiz sticker in Instagram.</p>"
     },
     {
         "file": "lpmenabler",
@@ -97,23 +97,23 @@ tweaks = [
         "tintColor": "yellow",
         "strict_range": True,
         "inline_source_code": True,
-        "description": "<p>Natively enable Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
+        "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
     },
     {
         "file": "batteryhealthenabler",
         "title": "Battery Health Enabler",
         "min_ios": "11.3",
         "featured_as_banner": True,
-        "description": "<p>Natively enable Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
+        "description": "<p>Natively enables Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
     },
     {
         "file": "cahighfps",
         "title": "CAHighFPS",
         "min_ios": "7.0",
-        "description": "<p>Make CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
+        "description": "<p>Makes CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
             Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
-        "extra_content": "<ul>\
+        "extra_content": "<ol>\
             <li>Asphalt 8/9 (1.1.0+)</li>\
             <li>Safari Browser (1.0.3+)</li>\
             <li>Where's My Water 2</li>\
@@ -125,7 +125,7 @@ tweaks = [
             <li>Tiny Wings</li>\
             <li>Real Racing 3</li>\
             <li>Jelly Defense</li>\
-        </ul>",
+        </ol>",
         "changes": [
             ["1.3.2", "Removed debug logging"],
             ["1.3.1", "(Rootless-only) Fixed preference not working"],
@@ -142,7 +142,7 @@ tweaks = [
         "file": "injectionfoundation",
         "title": "Injection Foundation",
         "min_ios": "7.0",
-        "description": "<p>Inject UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
+        "description": "<p>Injects UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
         "changes": [
             ["1.0.1", "Support rootless jailbreaks"]
         ]
@@ -151,21 +151,21 @@ tweaks = [
         "file": "replaykitmax",
         "title": "ReplayKit Max",
         "min_ios": "9.0",
-        "description": "<p>Remove screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p>\
+        "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p>\
             <p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
     },
     {
         "file": "advancedmapenabler",
         "title": "Advanced Map Enabler",
         "min_ios": "15.0",
-        "description": "<p>Enable Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15+.</p>"
+        "description": "<p>Enables Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15+.</p>"
     },
     {
         "file": "latesttranslate",
         "title": "LatestTranslate",
         "min_ios": "14.0",
         "max_ios": "16.7.10",
-        "description": "<p>Make Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
+        "description": "<p>Makes Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
         "changes": [
             ["6.0.1", "Added new languages from iOS 17"]
         ]
@@ -174,7 +174,7 @@ tweaks = [
         "file": "osanalytics",
         "title": "OSAnalytics",
         "min_ios": "13.0",
-        "description": "<p>Enable the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
+        "description": "<p>Enables the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
         "changes": [
             ["0.0.4", "Added support for iOS 13"],
             ["0.0.3", "Fixed crash in some processes"],
@@ -186,10 +186,23 @@ tweaks = [
         "title": "GitHubWebLegacyCompat",
         "min_ios": "12.0",
         "max_ios": "15.3.1",
-        "description": "<p>Make GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
+        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
             ["1.0.1", "Removed unnecessary bits"]
         ]
+    },
+    {
+        "file": "sfsymbols",
+        "title": "SFSymbols",
+        "min_ios": "13.0",
+        "max_ios": "17.7.4",
+        "description": "<p>Adds SF Symbols icons/images from the latest iOS to your device. The tweak itself doesn't do anything. It should be utilized by other tweaks that depend on it.</p><br/>\
+            <p>For developers, include <code>com.ps.sfsymbols</code> in your control file.</p><br/>\
+            <p>There are two SFSymbols packages that have to be used together:</p>",
+        "extra_content": "<ol>\
+            <li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li>\
+            <li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li>\
+        </ol>"
     }
 ] + youtube + emoji + camera + springboard
 

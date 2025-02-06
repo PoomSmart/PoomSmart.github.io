@@ -36,7 +36,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.ps.advancedmapenabler_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/backport/com.ps.advancedmapenabler_1.0.0_iphoneos-arm64.deb
 Size: 2874
 MD5sum: afd07a782fe8a000e126f0024a41b1e1
 SHA1: 67fc353a1187e16a22e2cd4d7ab0fe95c5ac0211
@@ -54,7 +54,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.ps.advancedmapenabler_1.0.0_iphoneos-arm.deb
+Filename: ./debs/backport/com.ps.advancedmapenabler_1.0.0_iphoneos-arm.deb
 Size: 2714
 MD5sum: ddeafd2b48fbaff15f9f6c4c6bdb37b7
 SHA1: 9991afbc8e3e6d26227420edcc52bcde8fa52139
@@ -3714,7 +3714,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/com.ps.latesttranslate_4.0.0_iphoneos-arm64.deb
+Filename: ./debs/backport/com.ps.latesttranslate_4.0.0_iphoneos-arm64.deb
 Size: 4746
 MD5sum: e3492ce70ae1db459c4013ef88fc84f5
 SHA1: f60054e86530a3939df8f1f60b2438fc883e3d31
@@ -3732,7 +3732,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/com.ps.latesttranslate_4.0.0_iphoneos-arm.deb
+Filename: ./debs/backport/com.ps.latesttranslate_4.0.0_iphoneos-arm.deb
 Size: 4702
 MD5sum: 4c018e644244aae1aa3f6e4b7e8221c4
 SHA1: d87f039eee209897010b0df2fa1c050b69b58997
@@ -3750,7 +3750,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 46592
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 17.0)
-Filename: ./debs/com.ps.latesttranslate_6.0.1_iphoneos-arm64.deb
+Filename: ./debs/backport/com.ps.latesttranslate_6.0.1_iphoneos-arm64.deb
 Size: 228888
 MD5sum: 881d5c9d58aafdb775bb3891afce48c2
 SHA1: 5ec88c17bec178eeb350d055e1a9506bcdb0e3d2
@@ -3768,7 +3768,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 46592
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 17.0)
-Filename: ./debs/com.ps.latesttranslate_6.0.1_iphoneos-arm.deb
+Filename: ./debs/backport/com.ps.latesttranslate_6.0.1_iphoneos-arm.deb
 Size: 228244
 MD5sum: bd15bf374c42daaa2c9d9eaa94eb38a1
 SHA1: 75986dce23d9c916557d32aeed8b5ef010851eeb
@@ -4729,7 +4729,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 16.0), gsc.ipad
-Filename: ./debs/com.ps.quicknotesenabler_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/backport/com.ps.quicknotesenabler_1.2.0_iphoneos-arm64.deb
 Size: 3584
 MD5sum: a10a420a07fc3d11826f3fe0404fb811
 SHA1: 29805c18b80bfca302678475396ffdb53f1e3854
@@ -4745,7 +4745,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 16.0), gsc.ipad
-Filename: ./debs/com.ps.quicknotesenabler_1.2.0_iphoneos-arm.deb
+Filename: ./debs/backport/com.ps.quicknotesenabler_1.2.0_iphoneos-arm.deb
 Size: 3524
 MD5sum: 8ffc1cb8bf0962e7d596431bdbe3dab5
 SHA1: ed3da3e8adf0b49f7890bf2bbfcd050a5e55106d
@@ -5148,6 +5148,78 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
 Name: ReplayKit Max
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
+
+Package: com.ps.sfsymbols
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
+Filename: ./debs/backport/com.ps.sfsymbols_1.0.0_iphoneos-arm64.deb
+Size: 5514
+MD5sum: 2ab832ebb3fcecd9fe4aa64c33cdd380
+SHA1: 6fbcc757bf4ab25ba0c162bb7a7cdcb7992592a0
+SHA256: 4aaf03144b7b01f9a7c4852ec85ec09957e5f6b26cf05e56940bb94073920329
+Section: Tweaks
+Description: Tweak to make iOS uses SF Symbols provided by SFSymbolsAssets package.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
+
+Package: com.ps.sfsymbols
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
+Filename: ./debs/backport/com.ps.sfsymbols_1.0.0_iphoneos-arm.deb
+Size: 5926
+MD5sum: d0e19194017033365d7ad6baebdef1b0
+SHA1: 5b00545b9e8849b74cde8f9a37d7712161498895
+SHA256: 438820f073f8976de370e7a5018a58ea06490268c7851af27d9445aedcbd9494
+Section: Tweaks
+Description: Tweak to make iOS uses SF Symbols provided by SFSymbolsAssets package.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
+
+Package: com.ps.sfsymbolsassets
+Version: 18.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 146364
+Depends: firmware (>= 13.0)
+Filename: ./debs/backport/com.ps.sfsymbolsassets_18.2_iphoneos-arm.deb
+Size: 48672554
+MD5sum: 70c323ce64505fc8d5a8a4d7b9e25f63
+SHA1: ab5bb5125e6d3ec2e89e0c5d5f39a391316fe7b8
+SHA256: 2a2f9583d8e2d65aae8ec8efb3db6536bb5d083ae392be91dfbb1813cb2420c7
+Section: Tweaks
+Description: SF Symbols from the latest iOS version.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols Assets
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
+
+Package: com.ps.sfsymbolsassets
+Version: 18.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 146364
+Depends: firmware (>= 13.0)
+Filename: ./debs/backport/com.ps.sfsymbolsassets_18.2_iphoneos-arm64.deb
+Size: 48659368
+MD5sum: 0bcc53788f35b1d7322658fdb12f2d50
+SHA1: eb96a7dab5a8d1dfb1f26d0c8b5224813b72af9a
+SHA256: 5e2c5ab4dabd12fbf0a34b6bb9246549a463509b744d01f6e93836ec746db78b
+Section: Tweaks
+Description: SF Symbols from the latest iOS version.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols Assets
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
 
 Package: com.ps.sixtyfps
 Version: 1.0.0~b1
