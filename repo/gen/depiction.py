@@ -196,7 +196,7 @@ tweaks = [
         "title": "SFSymbols",
         "min_ios": "13.0",
         "max_ios": "17.7.4",
-        "description": "<p>Adds SF Symbols icons/images from the latest iOS to your device. The tweak itself doesn't do anything. It should be utilized by other tweaks that depend on it.</p><br/>\
+        "description": "<p>Backports latest SF Symbols to your device. The tweak doesn't do anything by itself. It should be utilized by other tweaks that depend on it.</p><br/>\
             <p>For developers, include <code>com.ps.sfsymbols</code> in your control file.</p><br/>\
             <p>There are two SFSymbols packages that have to be used together:</p>",
         "extra_content": "<ol>\
