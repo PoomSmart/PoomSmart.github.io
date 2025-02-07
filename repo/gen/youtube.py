@@ -460,5 +460,12 @@ youtube = [
             ["1.0.2", "Made tweak settings displayed without YouGroupSettings tweak"],
             ["1.0.1", "Added YouGroupSettings tweak as a dependency"]
         ]
+    },
+    {
+        "file": "youslider",
+        "title": "YouSlider",
+        "min_ios": "13.0",
+        "tintColor": "red",
+        "description": "<p>Customize YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>"
     }
 ]
