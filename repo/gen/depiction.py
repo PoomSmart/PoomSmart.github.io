@@ -196,8 +196,8 @@ tweaks = [
         "title": "SFSymbols",
         "min_ios": "13.0",
         "max_ios": "17.7.4",
-        "description": "<p>Backports latest SF Symbols to your device. The tweak doesn't do anything by itself. It should be utilized by other tweaks that depend on it.</p><br/>\
-            <p>For developers, include <code>com.ps.sfsymbols</code> in your control file.</p><br/>\
+        "description": "<p>Backports latest SF Symbols to your device.</p><br/>\
+            <p>For developers who want to benefit from the latest SF Symbols in their app, include <code>com.ps.sfsymbols</code> in your control file.</p><br/>\
             <p>There are two SFSymbols packages that have to be used together:</p>",
         "extra_content": "<ol>\
             <li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li>\
