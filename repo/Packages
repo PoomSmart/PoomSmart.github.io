@@ -7414,6 +7414,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
 Name: YouSlider
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
 
+Package: com.ps.youslider
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/youtube/youslider/com.ps.youslider_1.1.0_iphoneos-arm.deb
+Size: 12534
+MD5sum: dd85b785bb55496b4f11e433a42d21d5
+SHA1: 78e00d036c3df32dbaa2d779b01f8d6013fa346d
+SHA256: daa800eb45f9efe13d8e55f7b150434f10ecade45317a2d190df78f19c550def
+Section: Tweaks
+Description: Customize YouTube video slider and scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
+Name: YouSlider
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
+
+Package: com.ps.youslider
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/youtube/youslider/com.ps.youslider_1.1.0_iphoneos-arm64.deb
+Size: 12612
+MD5sum: d952450b686bec719c05666ae556a8a3
+SHA1: 4c6ee92c0a7446939c86e606362701c853ac780b
+SHA256: 2bdb296913c4cb51cf19a16ab250e8aab5fc9d3915078b116a71f99ee70b3719
+Section: Tweaks
+Description: Customize YouTube video slider and scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
+Name: YouSlider
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
+
 Package: com.ps.youspeed
 Version: 1.0.1
 Architecture: iphoneos-arm64

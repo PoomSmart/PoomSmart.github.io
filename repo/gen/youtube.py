@@ -469,6 +469,14 @@ youtube = [
         "title": "YouSlider",
         "min_ios": "13.0",
         "tintColor": "red",
-        "description": "<p>Customize YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>"
+        "description": "<p>Customize YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
+        "changes": [
+            ["1.1.0", [
+                "Fixed scrubber sizing logic in regular videos",
+                "Fixed scrubber styling when the scrubber size is non-default",
+                "Added 55% - 200% scrubber size options",
+                "Applied slider and scrubber customization to auto-playing videos in the home page"
+            ]]
+        ]
     }
 ]
