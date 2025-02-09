@@ -9552,32 +9552,32 @@ Author: PoomSmart
 Name: YTUnShorts
 
 Package: com.ps.ytvideoerroralert
-Version: 1.0.0
-Architecture: iphoneos-arm64
+Version: 1.0.1
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.0_iphoneos-arm64.deb
-Size: 2730
-MD5sum: 3930099a71f83ca8336d6dcc20c10c92
-SHA1: 898ecd56c7ae3f88fa5e8ac1e844bb9378b25d28
-SHA256: 12978036e190c9d7c16c5a4eb389e00f2a5dfcbe9d4837194b538e393db7eed0
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.1_iphoneos-arm.deb
+Size: 2702
+MD5sum: a92cbd4682998f839ffcc934f1ee60dc
+SHA1: 695534c4010fdb477de55c01706ee396f0e9489d
+SHA256: 5cd5eaadda44b23fac5b0a391c2de3da21b32dbb0c74f7586a9568807ec1c4b3
 Section: Tweaks
 Description: Alert you with exact details when YouTube video error occurred.
 Author: PoomSmart
 Name: YTVideoErrorAlert
 
 Package: com.ps.ytvideoerroralert
-Version: 1.0.0
-Architecture: iphoneos-arm
+Version: 1.0.1
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 56
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.0_iphoneos-arm.deb
-Size: 2650
-MD5sum: 2a2d8aed79083b3ee3cc4a15449b3ce8
-SHA1: 664e68c99ec0eaaf56a924c40276830a846245ba
-SHA256: 3480930fe3c495d8ae15f570c8e152a31a91f9e4ea2803fb2ef39b73b0e96cd8
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.1_iphoneos-arm64.deb
+Size: 2780
+MD5sum: 6a3ee4504725aa17ee2e5f7501446693
+SHA1: 90074fecabf7d4fbddf2dcb407f5936fb0b20bbf
+SHA256: 2489c6272b5ed2cfead76ada4665f50713d42fce8238570ff2ebd63c0ee70af4
 Section: Tweaks
 Description: Alert you with exact details when YouTube video error occurred.
 Author: PoomSmart
