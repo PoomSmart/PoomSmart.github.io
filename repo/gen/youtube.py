@@ -8,9 +8,12 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
-            ["1.5.10", "In settings, corrected the minimum hardware VP9 device requirement from A11 to A12"],
-            ["1.5.9", [
-                "Made \"Use VP9\" option enabled by default",
+            ["1.5.11", [
+                "\"Use VP9\" setting is no longer enabled by default",
+                "Removed the hooks to fall back to use the old ABR policy"
+            ]],
+            ["1.5.10", [
+                "In settings, corrected the minimum hardware VP9 device requirement from A11 to A12",
                 "Removed message about UHD resolutions not working with YouPiP from settings (v1.5.8 made it work)"
             ]],
             ["1.5.8", "Added 2K/4K formats to AVPlayer video playback (YouPiP with Legacy PiP option enabled)"],
@@ -179,7 +182,7 @@ youtube = [
     },
     {
         "file": "youremembercaption",
-        "title": "youremembercaption",
+        "title": "YouRememberCaption",
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
