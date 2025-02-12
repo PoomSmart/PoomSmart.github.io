@@ -9767,6 +9767,40 @@ Description: Remove Shorts from YouTube app's feed.
 Author: PoomSmart
 Name: YTUnShorts
 
+Package: com.ps.ytunshorts
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
+Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.3.0_iphoneos-arm64.deb
+Size: 3302
+MD5sum: e9cf38c602b0249fd43cb9429060a6e4
+SHA1: e66062bacb24f6a6e053ba0038396bb4cdb26777
+SHA256: eafaf44b0ed7c57a8c695b3c5094c4b92294e292b8cd7072de7bb1d6ca46b8c4
+Section: Tweaks
+Description: Remove Shorts from YouTube app's feed.
+Author: PoomSmart
+Name: YTUnShorts
+
+Package: com.ps.ytunshorts
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytreexplore
+Conflicts: com.ps.ytshortsprogress, com.miro.ytnoshorts
+Filename: ./debs/youtube/ytunshorts/com.ps.ytunshorts_1.3.0_iphoneos-arm.deb
+Size: 3222
+MD5sum: beaac528e484b8db7c7027b4ddcf3202
+SHA1: ef90a4d9015122aa54dc53ac6ff0acdaf0d5e865
+SHA256: 707be90d687774d9c194d1a1cb8713558f5a6ecfac2ac5b7311287852f36ca82
+Section: Tweaks
+Description: Remove Shorts from YouTube app's feed.
+Author: PoomSmart
+Name: YTUnShorts
+
 Package: com.ps.ytvideoerroralert
 Version: 1.0.1
 Architecture: iphoneos-arm
