@@ -8,6 +8,9 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.6.0", [
+                "Added some libvpx settings that you can configure for VP9 decoding behavior, mainly setting the number of decoding threads"
+            ]],
             ["1.5.11", [
                 "\"Use VP9\" setting is no longer enabled by default",
                 "Removed the hooks to fall back to use the old ABR policy"

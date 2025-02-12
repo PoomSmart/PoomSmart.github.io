@@ -9509,6 +9509,60 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
 Name: YTUHD
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
 
+Package: com.ps.ytuhd
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.6.0_iphoneos-arm64.deb
+Size: 17088
+MD5sum: 2176c357742080047d21f49022da5795
+SHA1: 229da9e84d938350e28716a708b82d03e05e9d74
+SHA256: de79472b0bc856f12002685ee5a1535c6ba3b9e6bd402fe29b54073250456638
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.6.0_iphoneos-arm.deb
+Size: 17252
+MD5sum: 899338b839862f3bf2b5142ff0668f0c
+SHA1: 5a9d6266edf0e588366f2b0d0d8e494f200df9ce
+SHA256: 2a7b47c2fda236be1158c231bdc837337c2a405a89a6c22175ef4cb2c4d8b6d5
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.6.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.6.0_iphoneos-arm64e.deb
+Size: 16222
+MD5sum: 77475ee112725644df95da2adf3f8697
+SHA1: a55b71ab5eca2ed964855b7ab0e3476adffd0ce6
+SHA256: cdfa2794d468ec5bf0e05e03f9be65de15617c6339c6dcaffa6e8f8d5be76ffa
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
 Package: com.ps.ytunshorts
 Version: 1.0.1
 Architecture: iphoneos-arm64
