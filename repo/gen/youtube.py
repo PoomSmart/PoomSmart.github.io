@@ -116,11 +116,12 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
-            ["1.4.0", "Use an alternative method to restore the video quality selector (contributed by @dayanch96)"],
+            ["1.5.0", "Fixed the tweak not working inside video premium controls"],
+            ["1.4.0", "Used an alternative method to restore the video quality selector (contributed by @dayanch96)"],
             ["1.3.2", "Fixed crash on older YouTube versions"],
             ["1.3.1", "Fixed original video quality selector not showing on recent YouTube versions on iPhone devices"],
             ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
-            ["1.1.0", "Use an alternative method to restore the video quality selector"],
+            ["1.1.0", "Used an alternative method to restore the video quality selector"],
             ["1.0.1", "Fixed crashing in YouTube version 16.20.5"]
         ]
     },
@@ -413,6 +414,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Add a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.3.0", "Added the ability to replace the default video speed selector with the primitive one, where custom speeds can be added"],
             ["1.2.1", "Fixed video speed button not updating when changing the video speed on old YouTube versions"],
             ["1.2.0", "Added more video speeds to choose from, configured from YTVideoOverlay settings"],
             ["1.1.3", [

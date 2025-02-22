@@ -7798,6 +7798,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
 Name: YouSpeed
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
 
+Package: com.ps.youspeed
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.3.0_iphoneos-arm64.deb
+Size: 8294
+MD5sum: 72c34b3bdb446935baf5cd58cee834be
+SHA1: dc38d2c2dc3dbfe695d1b4e381a397c9cd325119
+SHA256: 9186200ebc1ac403ff176dc098b19d80d09f420ac66308bd3c51a5dcfd0ff89c
+Section: Tweaks
+Description: View/change video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.3.0_iphoneos-arm.deb
+Size: 8350
+MD5sum: 5589f99a322144323e797765629169f3
+SHA1: 89cd26d1c9d148539edb3aabe2d12789c07858e4
+SHA256: b690505624ff1e707699e03499ceb5f53b3d31ce46914fa87c7017d540a0245f
+Section: Tweaks
+Description: View/change video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
 Package: com.ps.ytabconfig
 Version: 1.6.0
 Architecture: iphoneos-arm64
@@ -8662,6 +8700,42 @@ Size: 4368
 MD5sum: a2d0c810f7969d086f1f58db7402d114
 SHA1: f8123591b894a827b1b49ee84d7c12f8fe05aa67
 SHA256: 5d108de2e7ae94a56e3655710363f29e2e1cd5ac8e2d67eeb0d175612238c1b9
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.5.0_iphoneos-arm.deb
+Size: 4928
+MD5sum: 7f0e83051aa64f4f9e7cbdaeafd6a03f
+SHA1: 8e2daeafae003e20edb6c469b676c24850be5826
+SHA256: eefe2aaef1d22e6a42c15cddd51b8e2ede7f41662e621b68e3908f5cd5ce1381
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.5.0_iphoneos-arm64.deb
+Size: 4944
+MD5sum: 61479fd64dc0eb6008a8e13deb4a7b8e
+SHA1: 90b035af18a6f59e83bc987fe684e8f4ac8d60ad
+SHA256: fa7b468919a0b3ad9087d524309e7a9cfa1b650c55b63049c60e24879caaaee6
 Section: Tweaks
 Description: Revert to the original video quality selector in YouTube app.
 Author: PoomSmart
