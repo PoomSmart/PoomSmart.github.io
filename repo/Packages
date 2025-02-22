@@ -9802,32 +9802,32 @@ Author: PoomSmart
 Name: YTUnShorts
 
 Package: com.ps.ytvideoerroralert
-Version: 1.0.1
-Architecture: iphoneos-arm
+Version: 1.0.2
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 56
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.1_iphoneos-arm.deb
-Size: 2702
-MD5sum: a92cbd4682998f839ffcc934f1ee60dc
-SHA1: 695534c4010fdb477de55c01706ee396f0e9489d
-SHA256: 5cd5eaadda44b23fac5b0a391c2de3da21b32dbb0c74f7586a9568807ec1c4b3
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.2_iphoneos-arm64.deb
+Size: 3112
+MD5sum: b2ca67e5d8f0ee1db8b3ce6cf76fb56a
+SHA1: abef0ff348a7c0e4191d2696a9ff0c421194fb15
+SHA256: ba546bb7eefb7b2ddf81e26c21f4db067b5b3d8dfdfe1576d5fc5e50c61173d7
 Section: Tweaks
 Description: Alert you with exact details when YouTube video error occurred.
 Author: PoomSmart
 Name: YTVideoErrorAlert
 
 Package: com.ps.ytvideoerroralert
-Version: 1.0.1
-Architecture: iphoneos-arm64
+Version: 1.0.2
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 72
+Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.1_iphoneos-arm64.deb
-Size: 2780
-MD5sum: 6a3ee4504725aa17ee2e5f7501446693
-SHA1: 90074fecabf7d4fbddf2dcb407f5936fb0b20bbf
-SHA256: 2489c6272b5ed2cfead76ada4665f50713d42fce8238570ff2ebd63c0ee70af4
+Filename: ./debs/youtube/com.ps.ytvideoerroralert_1.0.2_iphoneos-arm.deb
+Size: 3030
+MD5sum: f5506069b05b6abf411d8dfb2b333b96
+SHA1: e12ec73e31af107c7c86fd517a46aed27156d395
+SHA256: da53598afdbb94e9b5e8dc55766b4e418fce63168a87cc7243d18d457d974585
 Section: Tweaks
 Description: Alert you with exact details when YouTube video error occurred.
 Author: PoomSmart
@@ -10368,6 +10368,42 @@ SHA1: bcc6b5ca2526df4886c7200f376d5a72edd3cb4d
 SHA256: 9ffdc614a95679836ca925279b52eec9c8358c6822071da41bca4a1050485377
 Section: Tweaks
 Description: A lightweight YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ps.ytx
+Version: 1.7.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.7.10_iphoneos-arm.deb
+Size: 5806
+MD5sum: de18fa3dde856c5f3f8de2617e4b8069
+SHA1: 4760fd8a82cbc23679fb2494f793c2705ae2d75b
+SHA256: 1367c4469e2eaa8a00a4199a81ce3ea577a4ff273ed9a248e7493bc8c459fec3
+Section: Tweaks
+Description: A YouTube improvement tweak.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
+Name: YouTube X
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytx.json
+
+Package: com.ps.ytx
+Version: 1.7.10
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.ps.ytabgoodies
+Filename: ./debs/youtube/ytx/com.ps.ytx_1.7.10_iphoneos-arm64.deb
+Size: 5770
+MD5sum: 767a9607869a6d46cdcbf331a08335b7
+SHA1: 0897f9db25cb21b7d99e3284a6823d290b2089a4
+SHA256: 6a985b94b75b0c530a289f945466dacf506ac000be73c60841e7d312b977b5ee
+Section: Tweaks
+Description: A YouTube improvement tweak.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytx.html
 Name: YouTube X
