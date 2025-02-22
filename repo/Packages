@@ -8779,6 +8779,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.htm
 Name: YTClassicVideoQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
 
+Package: com.ps.ytclassicvideoquality
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.5.1_iphoneos-arm64.deb
+Size: 5016
+MD5sum: e3c0003741ed694f9abc12eb63f71849
+SHA1: c8043e31dcb6e3772a5e69d7f48a0b264156d262
+SHA256: 21e8b65ccbcc44561222b882f6f3fed394d87653a24779429f9922df95959384
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
+Package: com.ps.ytclassicvideoquality
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytclassicvideoquality/com.ps.ytclassicvideoquality_1.5.1_iphoneos-arm.deb
+Size: 5000
+MD5sum: b4eda6fdb5ff642171730fec413b8148
+SHA1: e3f45a7310a26f71e568aa6857fe72d09ab1d0bb
+SHA256: 185ab66ce3bda75ac382bfea752a39e3ca5464ed10314771657336e7fa320b6b
+Section: Tweaks
+Description: Revert to the original video quality selector in YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytclassicvideoquality.html
+Name: YTClassicVideoQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytclassicvideoquality.json
+
 Package: com.ps.ytdarker
 Version: 1.0.3
 Architecture: iphoneos-arm

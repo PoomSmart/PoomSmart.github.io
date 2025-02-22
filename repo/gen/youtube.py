@@ -116,6 +116,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
         "changes": [
+            ["1.5.1", "Fixed incorrect video quality list position on iPad"],
             ["1.5.0", "Fixed the tweak not working inside video premium controls"],
             ["1.4.0", "Used an alternative method to restore the video quality selector (contributed by @dayanch96)"],
             ["1.3.2", "Fixed crash on older YouTube versions"],
