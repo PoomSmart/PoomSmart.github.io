@@ -202,7 +202,10 @@ tweaks = [
         "extra_content": "<ol>\
             <li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li>\
             <li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li>\
-        </ol>"
+        </ol>",
+        "changes": [
+            ["1.0.1", "Improved icon compatibility on iOS 15"]
+        ]
     }
 ] + youtube + emoji + camera + springboard
 
