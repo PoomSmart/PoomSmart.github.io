@@ -3347,6 +3347,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.htm
 Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
+Package: com.ps.githubweblegacycompat
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
+Filename: ./debs/network/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm64.deb
+Size: 19272
+MD5sum: 423c5369b180c874bc9cfa2cbde4511b
+SHA1: 85082d4e1a91a9b24ae6352af15339eb1e1237c7
+SHA256: 051de7f5dc7fe1a6a4e7d221bc497f5400a79470334e6e52f5322575c40b88cd
+Section: Tweaks
+Description: Make GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
+Package: com.ps.githubweblegacycompat
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 328
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
+Filename: ./debs/network/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm.deb
+Size: 18000
+MD5sum: 0af315b2c5d54579bb45d595d44f9437
+SHA1: 653947b82b04d6883c24b735c7625dc3085c6793
+SHA256: 57b0c845f9607f64afad1116f6067ac7b1bf7f12a0f3db5e689b18bdac0e053e
+Section: Tweaks
+Description: Make GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
 Package: com.ps.grayscaleflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm

@@ -186,8 +186,12 @@ tweaks = [
         "title": "GitHubWebLegacyCompat",
         "min_ios": "12.0",
         "max_ios": "15.3.1",
-        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
+        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed, and also some polyfills.</p>",
         "changes": [
+            ["1.0.3", [
+                "Added stub value for HTMLDialogElement interface so that GitHub Search feature can work",
+                "Added com.apple.WebKit to the tweak plist so that it works on App Store browsers"
+            ]],
             ["1.0.2", "Added polyfill for Array.prototype.at so that Issues page can be loaded"],
             ["1.0.1", "Removed unnecessary bits"]
         ]
