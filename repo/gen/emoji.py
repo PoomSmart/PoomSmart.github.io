@@ -4,6 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
+            ["1.7.0~b1", "Updated to iOS 18.4 assets"],
             ["1.6.0", "Updated to iOS 17.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
@@ -13,6 +14,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.9.0~b1", "Initial iOS 18.4 emojis support"],
             ["1.8.3", "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15"],
             ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.1", "Compiled with the latest Theos revision"],
@@ -163,12 +165,13 @@ emoji = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 17.3)",
+        "title": "EmojiPort (iOS 12.0 - 18.4)",
         "min_ios": "12.0",
-        "max_ios": "17.3.1",
+        "max_ios": "18.3.1",
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.6.0~b1", "Initial iOS 18.4 emojis support"],
             ["1.5.2", [
                 "(Rootless-only) Removed unnecessary hooks",
                 "Use more correct type encoding for the added methods"
@@ -208,11 +211,12 @@ emoji = [
     },
     {
         "file": "emojifontefm",
-        "title": "AppleColorEmoji Unicode 15.1 (EFM)",
+        "title": "AppleColorEmoji Unicode 16.0 (EFM)",
         "changes": [
+            ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Unicode 15.1 (iOS 17.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
+        "description": "<p>Unicode 16.0 (iOS 18.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
             <p>Regular version of this font has all emoji images in PNG format and better compressed than Apple's EMJC image compression.</p><br/>\
             <p>HD version of this font includes additional 160x160 PNG emoji images. They work best if you like large emojis.</p>"
     },
@@ -221,6 +225,7 @@ emoji = [
         "title": "AppleColorEmoji Low Quality (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/>\
@@ -296,12 +301,13 @@ emoji = [
     },
     {
         "file": "notoemojiefm",
-        "title": "Noto Color Emoji Unicode 15.1 (EFM)",
+        "title": "Noto Color Emoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
+        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
@@ -315,12 +321,13 @@ emoji = [
     },
     {
         "file": "openmojiefm",
-        "title": "OpenMoji Unicode 15.0 (EFM)",
+        "title": "OpenMoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to Unicode 16.0"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
-        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
+        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
             <p>Refer to <a href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a href=\"https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE.txt\">here</a> for licensing.</p>"
     },
