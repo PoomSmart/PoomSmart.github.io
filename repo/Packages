@@ -2746,10 +2746,10 @@ Maintainer: PoomSmart
 Installed-Size: 277100
 Depends: firmware (>= 10.0)
 Filename: ./debs/emojiport/com.ps.emojiport10resources_1.7.0~b1_iphoneos-arm.deb
-Size: 606
-MD5sum: 8e85888de8d600edd9988f18e2277302
-SHA1: 9e51f0ab59cdfed7e231580825f8201eff1c99d1
-SHA256: 6e4b9f8a5cd576355824d16e26bf64408c64468048810e28c882be0499d5dca5
+Size: 71358674
+MD5sum: 92bb4b1ff14d408339f051d897522d6a
+SHA1: c7ae8e8caad676d0bc36dd8c5ce5d9cfe49e205d
+SHA256: f4a0e7c6a0b3ea7ec821c3620a5db821d59dffbc06b5aef13c4306359a4a93a7
 Section: Tweaks
 Description: Latest emoji localization and metadata for iOS 10+
 Author: PoomSmart
