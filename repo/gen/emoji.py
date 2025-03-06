@@ -168,7 +168,7 @@ emoji = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 18.4)",
+        "title": "EmojiPort (iOS 12.0 - 18.3)",
         "min_ios": "12.0",
         "max_ios": "18.3.1",
         "strict_range": True,
