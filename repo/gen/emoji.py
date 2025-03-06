@@ -59,6 +59,7 @@ emoji = [
         "file": "efmfontdl",
         "title": "EFM Font Downloader",
         "changes": [
+            ["1.0.5", "Fail gracefully if downloading fails for cURL"],
             ["1.0.4", "Fallback to cURL if downloading using wget fails"]
         ],
         "description": "<p>A simple shell script to download an emoji font for EFM from GitHub releases.</p>"
