@@ -193,7 +193,7 @@ emoji = [
                 "Fixed app crash on rootful palera1n devices"
             ]]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 17.3</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 18.4</p>\
             <p><a href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
