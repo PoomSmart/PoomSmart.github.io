@@ -14,19 +14,20 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            ["1.9.0~b1", "Initial iOS 18.4 emojis support"],
+            ["1.9.0~b2", "Improved Unicode 16.0 emojis support on older iOS versions"],
+            ["1.9.0~b1", "Added Unicode 16.0 emojis"],
             ["1.8.3", "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15"],
             ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.1", "Compiled with the latest Theos revision"],
             ["1.8.0~b2", [
                 "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
                 "Rootful: Fixed crash on iOS 12 arm64e devices"
-                "Initial Unicode 15.1 support"
+                "Added Unicode 15.1 emojis"
             ]],
             ["1.7.1", [
                 "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
                 "Rootful: Optimized hooks"
-                "Unicode 15.0 support",
+                "Added Unicode 15.0 emojis",
                 "Fixed installation issue on readonly filesystems devices",
                 "Fixed new emojis displayed as ? on iOS 10 and lower",
                 "Use _NSGetExecutablePath to detect process type"
@@ -82,14 +83,14 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            ["1.7.0~b1", "Initial iOS 18.4 emojis support"],
+            ["1.7.0~b1", "Added Unicode 16.0 emojis"],
             ["1.6.2", [
                 "Fixed crash on iOS 6 due to using modern-only libroot",
                 "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
             ]],
             ["1.6.1", "Removed misspelled and rather unused function"],
             ["1.6.0", [
-                "iOS 17.4 emojis support",
+                "Added Unicode 15.1 emojis",
                 "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes",
                 "Refactored for better code maintainability"
             ]]
@@ -173,7 +174,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
-            ["1.6.0~b1", "Initial iOS 18.4 emojis support"],
+            ["1.6.0~b1", "Added Unicode 16.0 emojis"],
             ["1.5.2", [
                 "(Rootless-only) Removed unnecessary hooks",
                 "Use more correct type encoding for the added methods"
