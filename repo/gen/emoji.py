@@ -81,6 +81,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.7.0~b1", "Initial iOS 18.4 emojis support"],
             ["1.6.2", [
                 "Fixed crash on iOS 6 due to using modern-only libroot",
                 "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
