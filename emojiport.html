@@ -93,11 +93,11 @@
                 color: yellow !important;
             }
 
-            #blue {
+            .blue {
                 color: skyblue;
             }
 
-            #red {
+            .red {
                 color: crimson;
             }
         }
@@ -176,7 +176,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>Compatibility and Dependencies</h2>
+                <h2 id="compatibility">Compatibility and Dependencies</h2>
                 <hr>
                 <table class="table table-bordered text-center">
                     <tr>
@@ -316,7 +316,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>Which does what?</h2>
+                <h2 id="explain-tweaks">Which does what?</h2>
                 <hr>
                 <p>EmojiPort adds latest emojis on your emoji keyboard. It may need the following other tweaks depending on the iOS version you are on to make everything work as intended.</p>
             </div>
@@ -361,7 +361,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2 id="red">Read first about EmojiPort</h2>
+                <h2 class="red" id="read-first">Read first about EmojiPort</h2>
                 <hr>
                 <p>Emojis are available on iOS through a keyboard. All emojis you see on the keyboard are predefined on iOS. Newer iOS versions usually include more emojis, thus the users at the lower versions
                     won't be able to use or see unless they update their iOS to the latest.</p>
@@ -372,7 +372,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>How to install EmojiPort?</h2>
+                <h2 id="how-to-install">How to install EmojiPort?</h2>
                 <hr>
                 <code>
                     TL;DR:<br>
@@ -394,8 +394,8 @@
                 </p>
             </div>
             <div class="col-12">
-                <h2 id="red">1. Get the latest emoji font</h2>
-                <h3 id="blue">Option #1: EmojiFontManager (iOS 6+)</h3>
+                <h2 class="red" id="get-font">1. Get the latest emoji font</h2>
+                <h3 class="blue">Option #1: EmojiFontManager (iOS 6+)</h3>
                 <h4>Installation</h4>
                 <ol>
                     <b>
@@ -418,7 +418,7 @@
                     </li>
                     <li>Respring your device.</li>
                 </ol>
-                <h3 id="blue">Option #2: WDBFontOverwrite</h3>
+                <h3 class="blue">Option #2: WDBFontOverwrite</h3>
                 <p>If you are on iOS 15 - 16.1.2, you can use this method. iOS 14 also works, but is not recommended.</p>
                 <h4>Installation</h4>
                 <ol>
@@ -432,7 +432,7 @@
                 <ol>
                     <li>Reboot your device.</li>
                 </ol>
-                <h3 id="blue">Option #3: Manual (Rootful)</h3>
+                <h3 class="blue">Option #3: Manual (Rootful)</h3>
                 <p>If your root filesystem is not writable (i.e., you are on a rootless jailbreak), you cannot use this method.</p>
                 <h4>1. Download a compatible font (choose one)</h4>
                 <ol>
@@ -448,7 +448,7 @@
                 </ol>
                 <h4>2. Back up the original fonts</h4>
                 <ol>
-                    <li id="red">Back up the default fonts with the following names (if any):
+                    <li class="red">Back up the default fonts with the following names (if any):
                         <b>AppleColorEmoji-160px.ttc</b>,
                         <b>AppleColorEmoji(@2x).ttc</b>,
                         <b>AppleColorEmoji(@2x).ttf</b>,
@@ -503,7 +503,7 @@
                         </div>
                     </div>
                 </form>
-                <h4 id="red">Important Notes</h4>
+                <h4 class="red">Important Notes</h4>
                 <ol>
                     <li>(iOS 9.3 or lower, non-Retina devices) If you choose
                         <b>iOS [VERSION] font for iOS &lt;=9.3</b>, rename the font name from AppleColorEmoji@2x.ttf to
@@ -512,7 +512,7 @@
                     <li>(iOS 8.3 - 9.3) If you choose
                         <b>iOS [VERSION] font for iOS &lt;=9.3</b>, make sure you don't have the original CCF file in the same directory. You can either move this CCF to somewhere else or rename it to something else.</li>
                 </ol>
-                <h2 id="red">2. Install EmojiPort of your iOS version</h2>
+                <h2 class="red" id="install-emojiport">2. Install EmojiPort of your iOS version</h2>
                 <ol>
                     <li>In your package manager, search for<b>EmojiPort</b>.</li>
                     <li>Select and install "EmojiPort (YOUR IOS VERSION)".</li>
@@ -522,7 +522,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>Troubleshooting</h2>
+                <h2 id="troubleshooting">Troubleshooting</h2>
                 <hr>
                 <h3>Common mistake</h3>
                 <p>Some people
@@ -622,7 +622,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>Known issues</h2>
+                <h2 id="known-issues">Known issues</h2>
                 <hr>
                 <h3>EmojiPort (iOS 5.1)</h3>
                 <ul>
