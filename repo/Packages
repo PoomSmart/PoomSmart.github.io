@@ -1423,6 +1423,27 @@ Depiction: https://poomsmart.github.io/repo/depictions/efmfontdl.html
 Name: EFM Font Downloader
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
 
+Package: com.ps.efmfontdl-insecure
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: wget, curl
+Conflicts: com.ps.efmfontdl
+Replaces: com.ps.efmfontdl
+Provides: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.efmfontdl-insecure_1.0.5_iphoneos-arm.deb
+Size: 1590
+MD5sum: f31aedcf7e14b99b10f908cebf2c3491
+SHA1: abb4252d864b6900286d1fda781510d0e56020f7
+SHA256: 7858420204ad1df8a62bf4be5f86c8cdd7347b9e9086aa39e5b3c34b307dfd78
+Section: Fonts (EFM)
+Description: Shell script to download emoji font for EFM (Skip certificate check on download).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/efmfontdl.html
+Name: EFM Font Downloader (Insecure)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
+
 Package: com.ps.efmfontsetter
 Version: 99.1
 Architecture: iphoneos-arm
