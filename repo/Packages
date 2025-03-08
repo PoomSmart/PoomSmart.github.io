@@ -472,6 +472,22 @@ Description: Prevent backupd from crashing on iOS 10 and lower.
 Author: PoomSmart
 Name: backupd_fix Legacy
 
+Package: com.ps.backupdfix10
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<< 12.0)
+Filename: ./debs/com.ps.backupdfix10_1.0.1_iphoneos-arm.deb
+Size: 3374
+MD5sum: 3146f32089aacb95096463b3d6c7253a
+SHA1: b17c1e3643c11a5fcf32cb1dd463b9a49125fcc3
+SHA256: 084a667f52906a08a9a823e278ba8afb6a9f6016e948143e25bb96d2334caa09
+Section: Tweaks
+Description: Prevent backupd from crashing on iOS 11 and lower.
+Author: PoomSmart
+Name: backupd_fix Legacy
+
 Package: com.ps.batteryhealthenabler
 Version: 1.0.0
 Architecture: iphoneos-arm64
