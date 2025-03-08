@@ -14,9 +14,11 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            ["1.9.0~b3", "Fixed the weird behavior when deleting characters"],
-            ["1.9.0~b2", "Improved Unicode 16.0 emojis support on older iOS versions"],
-            ["1.9.0~b1", "Added Unicode 16.0 emojis"],
+            ["1.9.0~b3", [
+                "Added Unicode 16.0 emojis",
+                "Fixed the weird behavior when deleting characters",
+                "Improved Unicode 16.0 emojis support on older iOS versions",
+            ]],
             ["1.8.3", "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15"],
             ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.1", "Compiled with the latest Theos revision"],
@@ -26,12 +28,12 @@ emoji = [
                 "Added Unicode 15.1 emojis"
             ]],
             ["1.7.1", [
-                "Rootless: Use alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
+                "Rootless: Uses alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
                 "Rootful: Optimized hooks"
                 "Added Unicode 15.0 emojis",
                 "Fixed installation issue on readonly filesystems devices",
                 "Fixed new emojis displayed as ? on iOS 10 and lower",
-                "Use _NSGetExecutablePath to detect process type"
+                "Uses _NSGetExecutablePath to detect process type"
             ]]
         ],
         "description": "<p>Various under-the-hood fixes for emoji display. See <a href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
@@ -89,10 +91,10 @@ emoji = [
                 "Fixed crash on iOS 6 due to using modern-only libroot",
                 "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
             ]],
-            ["1.6.1", "Removed misspelled and rather unused function"],
-            ["1.6.0", [
+            ["1.6.1", [
                 "Added Unicode 15.1 emojis",
                 "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes",
+                "Removed misspelled and rather unused function",
                 "Refactored for better code maintainability"
             ]]
         ],
