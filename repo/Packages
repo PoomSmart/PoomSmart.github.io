@@ -5412,6 +5412,48 @@ Depiction: https://poomsmart.github.io/repo/depictions/recordntorch.html
 Name: Record 'n' Torch (iOS 12+)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordntorch.json
 
+Package: com.ps.recordntorch
+Version: 1.8.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 11.0), gsc.camera-flash
+Conflicts: org.thebigboss.recordntorch, com.spicat.recordntorch
+Replaces: org.thebigboss.recordntorch, com.spicat.recordntorch
+Provides: org.thebigboss.recordntorch, com.spicat.recordntorch
+Filename: ./debs/camera/com.ps.recordntorch_1.8.4_iphoneos-arm64.deb
+Size: 4360
+MD5sum: 4750605a939f2a3dbbe7a15f9e2e7f89
+SHA1: 819c966f2c349137d4ce2e0040f5eacb1e9f5075
+SHA256: 7cd580ff7014d27267118cbf25bbfb8c6a23e3bd61b6fe61c84f776793c533ca
+Section: Tweaks
+Description: Toggles flashlight LEDs while recording video.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordntorch.html
+Name: Record 'n' Torch (iOS 11+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordntorch.json
+
+Package: com.ps.recordntorch
+Version: 1.8.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0), gsc.camera-flash
+Conflicts: org.thebigboss.recordntorch, com.spicat.recordntorch
+Replaces: org.thebigboss.recordntorch, com.spicat.recordntorch
+Provides: org.thebigboss.recordntorch, com.spicat.recordntorch
+Filename: ./debs/camera/com.ps.recordntorch_1.8.4_iphoneos-arm.deb
+Size: 4472
+MD5sum: 21f892ed678c4e391262da1a786b9c21
+SHA1: 9925c31f8428b6030a1b0c6c406fd089b23aa447
+SHA256: 11f15d95bdc37f6adce4bccdf05168d7145174f86cd3045c097f3cd5ddec6567
+Section: Tweaks
+Description: Toggles flashlight LEDs while recording video.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordntorch.html
+Name: Record 'n' Torch (iOS 11+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordntorch.json
+
 Package: com.ps.recordpause
 Version: 1.4.0
 Architecture: iphoneos-arm64
