@@ -1620,6 +1620,38 @@ Description: Emoji on camera modes.
 Author: PoomSmart
 Name: EModeji
 
+Package: com.ps.emodeji
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/camera/com.ps.emodeji_1.0.3_iphoneos-arm64.deb
+Size: 5690
+MD5sum: d2f4df049e819c30525818ee29a71054
+SHA1: be294997ca84b7e8a87946ef2f6d3c436f73264b
+SHA256: 842f8b4d790caa4b8f605f0db2c8065ca91ba813ec88916716f456fe76530550
+Section: Tweaks
+Description: Emoji on camera modes.
+Author: PoomSmart
+Name: EModeji
+
+Package: com.ps.emodeji
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/camera/com.ps.emodeji_1.0.3_iphoneos-arm.deb
+Size: 5996
+MD5sum: b55474e15108b2cad7cb5f52668cf7b9
+SHA1: 141a33f97c2db0bfd5123fc82bc2ef6e33602277
+SHA256: 09a0038dadd60403f816fbc078edcf82edd760731bcaa1c4ffb02354f1a9230b
+Section: Tweaks
+Description: Emoji on camera modes.
+Author: PoomSmart
+Name: EModeji
+
 Package: com.ps.emojiattributes
 Version: 1.7.1
 Architecture: iphoneos-arm64
