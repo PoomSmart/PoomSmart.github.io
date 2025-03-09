@@ -1461,80 +1461,32 @@ Name: EFM Font Downloader (Insecure)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/efmfontdl.json
 
 Package: com.ps.efmfontsetter
-Version: 99.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_99.1_iphoneos-arm.deb
-Size: 706
-MD5sum: 2e79bba85472472bb96624d17a3bf4ff
-SHA1: 2ab42516fd0b209b72f548a439a8002ecc82ae81
-SHA256: 4e447373fcb856414de2bac1d574a1e5f80a730654dda91e40eb4b20d510b4ad
-Section: Utilities
-Description: Apply AppleColorEmoji EFM font with a shell script.
-Author: PoomSmart
-Name: EFM Font Setter
-
-Package: com.ps.efmfontsetter
-Version: 99.1
+Version: 99.3
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 0
-Depends: defaults | ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_99.1_iphoneos-arm64.deb
-Size: 712
-MD5sum: e5b165098ffce8e7ff91e24b82b4c20d
-SHA1: f836e7c03c9e7b73a4f2ecb215056b9a770a89db
-SHA256: 00074d4d3389efe1a1a1a650ff57ea0b1dc30d8c52153ec31714498acd5f8966
+Depends: defaults | ws.hbang.common, sudo, com.ps.emojifontmanager, com.ps.emojifontefm
+Filename: ./debs/emojifont/com.ps.efmfontsetter_99.3_iphoneos-arm64.deb
+Size: 730
+MD5sum: 9b91353c45c529ba1f7e477c67d76793
+SHA1: 6a11b5646060e237a09a91547053700b56c4c0c5
+SHA256: a50ded5c6508be03341e5cfdb95b5213f8345d134b12f98e3ec48a3648d95b36
 Section: Utilities
 Description: Apply AppleColorEmoji EFM font with a shell script.
 Author: PoomSmart
 Name: EFM Font Setter
 
 Package: com.ps.efmfontsetter
-Version: 99.2
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: defaults | ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_99.2_iphoneos-arm64e.deb
-Size: 718
-MD5sum: 4c1890f7a95cad15d8f8bc9d61da8b52
-SHA1: 3aed34fbdd54c8a376248b36e1828a12453d0a21
-SHA256: 0ff860c6d0d154523d224553962f701fd0454fc62eaaf356572a5215bb41aca5
-Section: Utilities
-Description: Apply AppleColorEmoji EFM font with a shell script.
-Author: PoomSmart
-Name: EFM Font Setter
-
-Package: com.ps.efmfontsetter
-Version: 99.2
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 0
-Depends: defaults | ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_99.2_iphoneos-arm64.deb
-Size: 724
-MD5sum: 532474ca6b301f5dd522142d0e38b6f2
-SHA1: 779276862c4cac6fed6a420bf43f74fce53ad8d2
-SHA256: fe7dc41e174f4c60799b10ff88c09b7e5588f5975ef87f0ead921bad03fcd5bf
-Section: Utilities
-Description: Apply AppleColorEmoji EFM font with a shell script.
-Author: PoomSmart
-Name: EFM Font Setter
-
-Package: com.ps.efmfontsetter
-Version: 99.2
+Version: 99.3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 0
-Depends: defaults | ws.hbang.common, com.ps.emojifontmanager, com.ps.emojifontefm
-Filename: ./debs/emojifont/com.ps.efmfontsetter_99.2_iphoneos-arm.deb
-Size: 722
-MD5sum: df9d2da1f6b14dd4a8e2348e935b4118
-SHA1: f421a077c6ab11e509eb25576f4557b606c0f4c2
-SHA256: 2f286be0571b22e7d3644f86715380b6429b4d16541095d63d8d19333084fcc3
+Depends: defaults | ws.hbang.common, sudo, com.ps.emojifontmanager, com.ps.emojifontefm
+Filename: ./debs/emojifont/com.ps.efmfontsetter_99.3_iphoneos-arm.deb
+Size: 726
+MD5sum: e6031dc23ca3511fcf8d3cec5327cf8e
+SHA1: 8e21fc395431e7df7285248d5c6e843bad729e8b
+SHA256: fdd315f0fe75e4c5ea43553f879f559a929edbea25edb608cdd5e1e2e5ec29c2
 Section: Utilities
 Description: Apply AppleColorEmoji EFM font with a shell script.
 Author: PoomSmart
