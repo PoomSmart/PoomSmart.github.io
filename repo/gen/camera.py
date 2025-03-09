@@ -93,10 +93,11 @@ camera = [
         "title": "RecordPause",
         "min_ios": "9.0",
         "description": "<p>Pause and resume video recording in iOS Camera app.</p><br/>\
-            <p><b>Version 2.0.5+ supports iOS 13+</b></p><br/>\
-            <p><b>Version 2.0.0 - 2.0.4 support only iOS 14+</b></p>",
+            <p><b>Version 2.0.6+ supports iOS 11+</b></p><br/>\
+            <p><b>Version 1.x supports iOS 9+</b></p>",
         "changes": [
-            ["2.0.5", "Allowed installation on iOS 13"],
+            ["2.0.6", "Added support for iOS 11 - 12"],
+            ["2.0.5", "Allows installation on iOS 13"],
             ["2.0.4", "Improved type encoding for added methods"],
             ["2.0.3", "Fixed button layout in RTL"],
             ["2.0.2", "Disabled pause/resume feature for unsupported recording modes"],

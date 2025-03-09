@@ -5632,6 +5632,48 @@ Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
 Name: RecordPause
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
 
+Package: com.ps.recordpause
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.6_iphoneos-arm64.deb
+Size: 11484
+MD5sum: 770136b55893523b32a56e7ee37f864d
+SHA1: d217a34595064cd927316d104491efc169e31219
+SHA256: 84f206a126796101ea5e83818dd85ba2fcda56be53721278b8f0af8322e16abd
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
+Package: com.ps.recordpause
+Version: 2.0.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.6_iphoneos-arm.deb
+Size: 13350
+MD5sum: b48cff4042f892df62f5045ab33f7069
+SHA1: fa70efc5c01c7b18264c071e603a51d69a47cd07
+SHA256: aa9e8622cf27a5ba1c071382b94c5d73e3dddad5c9858e646f9cc555b2b71739
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
 Package: com.ps.reducemotionflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
