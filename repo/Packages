@@ -2907,36 +2907,17 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
 Name: EmojiPort (iOS 6.0-8.2)
 
 Package: com.ps.emojiportlegacy
-Version: 1.8.6
+Version: 1.8.8
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 432
+Installed-Size: 448
 Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
 Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
-Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.6_iphoneos-arm.deb
-Size: 78622
-MD5sum: fdb4da56c3099fd70598b360776a406f
-SHA1: dd8701aff52ff9db6e2ff64bf80a3f3195c4185a
-SHA256: f0d044f8a7243ff2ec981a007df56001a1d6927bf88f5aede572fbdfd72c8428
-Section: Tweaks
-Description: Latest emojis for iOS 6.0-8.2
-Tag: compatible::ios6, compatible::ios7, compatible::ios8
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
-Name: EmojiPort (iOS 6.0-8.2)
-
-Package: com.ps.emojiportlegacy
-Version: 1.8.7
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 432
-Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
-Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
-Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.7_iphoneos-arm.deb
-Size: 78034
-MD5sum: 4ef7231f4ba31f8f639f9cb979a1cfca
-SHA1: f6e0b19d055b515031842cdb65f6803c33f69b9a
-SHA256: 5ffacde6dfb7f6cc480ce85d642082f5dcf6a5547c2d35e87271bfaccecddc03
+Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.8_iphoneos-arm.deb
+Size: 78986
+MD5sum: c57b0be5daff09c3d3deedf0da3804ee
+SHA1: 5e2884b511cd7dd11e25329071bfae67f7e4ef0b
+SHA256: ca0586250ce11ddb67412d2f4af5a5c71894c7746d0a862178c39e33ce34c177
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Tag: compatible::ios6, compatible::ios7, compatible::ios8

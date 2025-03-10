@@ -125,7 +125,6 @@ emoji = [
         "no_sileo": True,
         "changes": [
             ["1.8.7", "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"],
-            ["1.8.6", "Removed unused code for each architecture"],
             ["1.8.5", "Compiled with ARC"],
             ["1.8.4", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.3", "Depends on EmojiLibrary 1.6.1+"],
