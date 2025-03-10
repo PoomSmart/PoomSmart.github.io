@@ -2933,10 +2933,10 @@ Installed-Size: 432
 Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
 Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
 Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.7_iphoneos-arm.deb
-Size: 77980
-MD5sum: e387d276e7a5794bea3224d0a57a6aea
-SHA1: 8b4fc9907379b5f581bdb29b2b7ae2e163f9ed96
-SHA256: a34e2a79da92b9f979f492c845c6b28515f2a5ea87ebeb89fa2d63f11c436f74
+Size: 78034
+MD5sum: 4ef7231f4ba31f8f639f9cb979a1cfca
+SHA1: f6e0b19d055b515031842cdb65f6803c33f69b9a
+SHA256: 5ffacde6dfb7f6cc480ce85d642082f5dcf6a5547c2d35e87271bfaccecddc03
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Tag: compatible::ios6, compatible::ios7, compatible::ios8
