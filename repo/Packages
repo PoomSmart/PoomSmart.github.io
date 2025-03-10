@@ -4482,6 +4482,38 @@ Description: Safari Quick Search results without truncation.
 Author: PoomSmart
 Name: LineBreakLiberator
 
+Package: com.ps.linebreakliberator
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.linebreakliberator_1.0.1_iphoneos-arm.deb
+Size: 3138
+MD5sum: c0b421bfab2b8f9607a7987de374d550
+SHA1: 2f764826151cc6f0709440617ac2f7027964133c
+SHA256: f085d0d984bfc7bfdcdc52e58ffdf689570dfe93a8fffef4dc286401bf13b917
+Section: Tweaks
+Description: Safari Quick Search results without truncation.
+Author: PoomSmart
+Name: LineBreakLiberator
+
+Package: com.ps.linebreakliberator
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.ps.linebreakliberator_1.0.1_iphoneos-arm64.deb
+Size: 3214
+MD5sum: d06924fe1b3e07117ee87c73c9bec861
+SHA1: adfb0ea71752444f2943dc46f1171332b8b1877e
+SHA256: 144ba2794ec00551bbfbc3279c272e88f76030b6950c1371d2221164417c0a2f
+Section: Tweaks
+Description: Safari Quick Search results without truncation.
+Author: PoomSmart
+Name: LineBreakLiberator
+
 Package: com.ps.livetextenabler
 Version: 1.1.1
 Architecture: iphoneos-arm64
