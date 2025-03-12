@@ -5732,6 +5732,48 @@ Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
 Name: RecordPause
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
 
+Package: com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.7_iphoneos-arm.deb
+Size: 20872
+MD5sum: 528123a78c10617ff759fdf98eec4814
+SHA1: 911786135b29b302318f68571fa887de874035af
+SHA256: 01389a374f201adcff3948b68d1278241899bac30f616364f4b6ce355b21f2e7
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
+Package: com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: ./debs/camera/com.ps.recordpause_2.0.7_iphoneos-arm64.deb
+Size: 11786
+MD5sum: 3968671729a8d2aaf53fcabbeb90f348
+SHA1: 611f532fd0420147ad2880b8ccd8d5534baa92aa
+SHA256: 6f6caa54f78d06b629c9b807b0f95a5bbe2100350a55848895de931f10a07ecb
+Section: Tweaks
+Description: Pauses/resumes video recording in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/recordpause.html
+Name: RecordPause
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/recordpause.json
+
 Package: com.ps.reducemotionflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm

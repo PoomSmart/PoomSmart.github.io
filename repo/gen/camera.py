@@ -87,16 +87,15 @@ camera = [
         "title": "CamElapsed+",
         "min_ios": "11.0",
         "screenshots": True,
-        "description": "<p>Add sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
+        "description": "<p>Adds sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
     },
     {
         "file": "recordpause",
         "title": "RecordPause",
         "min_ios": "9.0",
-        "description": "<p>Pause and resume video recording in iOS Camera app.</p><br/>\
-            <p><b>Version 2.0.6+ supports iOS 11+</b></p><br/>\
-            <p><b>Version 1.x supports iOS 9+</b></p>",
+        "description": "<p>Pauses and resumes video recording in iOS Camera app.</p>",
         "changes": [
+            ["2.0.7", "Added support for iOS 9 - 10"],
             ["2.0.6", "Added support for iOS 11 - 12"],
             ["2.0.5", "Allows installation on iOS 13"],
             ["2.0.4", "Improved type encoding for added methods"],
