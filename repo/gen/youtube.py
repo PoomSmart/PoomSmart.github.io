@@ -208,7 +208,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "description": "<p>Removes \"Include paid promotion\" banner from videos on YouTube app.\
-            <a href=\"https://www.youtube.com/watch?v=FxyW7Gp9Jd4\">What is paid promotion?</a></p>"
+            <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=FxyW7Gp9Jd4\">What is paid promotion?</a></p>"
     },
     {
         "file": "ytabconfig",
@@ -283,9 +283,9 @@ youtube = [
             This tweak enables or disables those features in a way useful to you.\
             This replaces the following tweaks:</p>",
         "extra_content": "<ul>\
-                <li><a href=\"{}\">YouAreThere</a></li>\
-                <li><a href=\"{}\">YouRememberCaption</a></li>\
-                <li><a href=\"{}\">YTSystemAppearance</a></li>\
+                <li><a target=\"_blank\" href=\"{}\">YouAreThere</a></li>\
+                <li><a target=\"_blank\" href=\"{}\">YouRememberCaption</a></li>\
+                <li><a target=\"_blank\" href=\"{}\">YTSystemAppearance</a></li>\
             </ul>".format(
                 tweak_url("youarethere"),
                 tweak_url("youremembercaption"),

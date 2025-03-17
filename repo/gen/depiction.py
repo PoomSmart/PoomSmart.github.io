@@ -29,7 +29,7 @@ tweaks = [
             ["1.1.0", "Added support for rootless jailbreaks (/var/jb/etc/hosts)"],
             ["1.0.0", "Increased Jetsam memory limit to 512 MB"]
         ],
-        "description": "<p><a href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
+        "description": "<p><a target=\"_blank\" href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
     },
     {
         "file": "smoothkb",
@@ -45,7 +45,7 @@ tweaks = [
             ["1.0.0", "Fixed issues with GoodNotes 5 app"]
         ],
         "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>\
-            <p>For more details, visit tweak's <a href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
+            <p>For more details, visit tweak's <a target=\"_blank\" href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
     },
     {
         "file": "pearltracking",
@@ -111,7 +111,7 @@ tweaks = [
         "title": "CAHighFPS",
         "min_ios": "7.0",
         "description": "<p>Makes CoreAnimation apps use the highest available FPS (same as your device's refresh rate).\
-            Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
+            Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a target=\"_blank\" href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.\
             Tested on these apps:</p>",
         "extra_content": "<ol>\
             <li>Asphalt 8/9 (1.1.0+)</li>\
@@ -142,7 +142,7 @@ tweaks = [
         "file": "injectionfoundation",
         "title": "Injection Foundation",
         "min_ios": "7.0",
-        "description": "<p>Injects UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
+        "description": "<p>Injects UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a target=\"_blank\" href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
         "changes": [
             ["1.0.1", "Support rootless jailbreaks"]
         ]
@@ -174,7 +174,7 @@ tweaks = [
         "file": "osanalytics",
         "title": "OSAnalytics",
         "min_ios": "13.0",
-        "description": "<p>Enables the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
+        "description": "<p>Enables the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a target=\"_blank\" href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
         "changes": [
             ["0.0.4", "Added support for iOS 13"],
             ["0.0.3", "Fixed crash in some processes"],
