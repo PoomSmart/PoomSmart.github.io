@@ -78,7 +78,7 @@ camera = [
     {
         "file": "trollleds",
         "title": "TrollLEDs",
-        "min_ios": "11.0",
+        "min_ios": "10.0",
         "description": "<p>An iOS application to control individual flashlight LEDs. <a href=\"https://github.com/PoomSmart/TrollLEDs\">README</a></p><br/>\
             <p><a href=\"https://github.com/PoomSmart/TrollLEDs/releases\">Changelog</a></p>"
     },
