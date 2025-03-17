@@ -4638,6 +4638,25 @@ Depiction: https://poomsmart.github.io/repo/depictions/lpmenabler.html
 Name: LPM Enabler
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/lpmenabler.json
 
+Package: com.ps.lpmenabler
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000), com.bingner.plutil, firmware (>= 9.0), firmware (<< 15.0)
+Conflicts: com.icraze.lpmpad
+Filename: ./debs/battery/com.ps.lpmenabler_1.0.1_iphoneos-arm.deb
+Size: 4076
+MD5sum: 339df9ffc14426ed6d6bdeb0df9def93
+SHA1: 65e671fe190c9faff759a45e90b14db6748b8c1f
+SHA256: 21a3e9e7ff51f132f1484be2f41712512b0f2ccbd8a9415fcafe7a1ce319b5d0
+Section: Tweaks
+Description: Enables Low Power Mode natively on unsupported iPad and iPod devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/lpmenabler.html
+Name: LPM Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/lpmenabler.json
+
 Package: com.ps.mywifs
 Version: 0.0.1
 Architecture: iphoneos-arm

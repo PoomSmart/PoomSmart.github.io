@@ -92,12 +92,15 @@ tweaks = [
     {
         "file": "lpmenabler",
         "title": "LPM Enabler",
-        "min_ios": "11.0",
+        "min_ios": "9.0",
         "max_ios": "14.8.1",
         "tintColor": "yellow",
         "strict_range": True,
         "inline_source_code": True,
-        "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
+        "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>",
+        "changes": [
+            ["1.0.1", "Added support for iOS 9 - 10"]
+        ]
     },
     {
         "file": "batteryhealthenabler",
