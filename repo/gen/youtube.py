@@ -57,7 +57,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "featured_as_banner": True,
-        "description": "<p>Enable native PiP in iOS YouTube app.</p>\
+        "description": "<p>Enables native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
             ["1.12.7", "PiP should no longer activate if either \"Use PiP Button\" or \"Use Video Tab Bar Button\" is enabled"],
@@ -104,7 +104,7 @@ youtube = [
         "title": "YouMusicPiP",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Enable native PiP in iOS YouTube Music app. This works for videos present in the app.</p>",
+        "description": "<p>Enables native PiP in iOS YouTube Music app. This works for videos present in the app.</p>",
         "changes": [
             ["1.1.0", "Fixed support for modern app versions"]
         ]
@@ -114,7 +114,7 @@ youtube = [
         "title": "YTClassicVideoQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Revert to the original video quality selector in YouTube app.</p>",
+        "description": "<p>Reverts to the original video quality selector in YouTube app.</p>",
         "changes": [
             ["1.5.1", "Fixed incorrect video quality list position on iPad"],
             ["1.5.0", "Fixed the tweak not working inside video premium controls"],
@@ -132,7 +132,7 @@ youtube = [
         "min_ios": "13.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Enable setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
+        "description": "<p>Enables setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
     },
     {
         "file": "ytreexplore",
@@ -140,7 +140,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "screenshots": True,
-        "description": "<p>Remove Shorts tab and replace with Explore tab in YouTube app.</p>\
+        "description": "<p>Removes Shorts tab and replace with Explore tab in YouTube app.</p>\
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
             <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
         "changes": [
@@ -153,7 +153,7 @@ youtube = [
         "title": "YTShortsProgress",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Always enable progress bar and scrubbing in YouTube Shorts.</p>",
+        "description": "<p>Always enables progress bar and scrubbing in YouTube Shorts.</p>",
         "changes": [
             ["1.0.3", [  
                 "Added more hooks (contributed by @dayanch96)",
@@ -167,7 +167,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Disable \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
+        "description": "<p>Disables \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
     },
     {
         "file": "noytpremium",
@@ -175,7 +175,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Remove YouTube Premium upsells.</p>"
+        "description": "<p>Removes YouTube Premium upsells.</p>"
     },
     {
         "file": "noytmpremium",
@@ -183,7 +183,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Remove YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
+        "description": "<p>Removes YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
     },
     {
         "file": "youremembercaption",
@@ -191,7 +191,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Make YouTube remember your video caption setting, if not already.</p>"
+        "description": "<p>Makes YouTube remember your video caption setting, if not already.</p>"
     },
     {
         "file": "ytnochecklocalnetwork",
@@ -200,14 +200,14 @@ youtube = [
         "tintColor": "red",
         "inline_source_code": True,
         "screenshots": True,
-        "description": "<p>Remove Local Network permission check in YouTube app.</p>"
+        "description": "<p>Removes Local Network permission check in YouTube app.</p>"
     },
     {
         "file": "ytnopaidpromo",
         "title": "YTNoPaidPromo",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Remove \"Include paid promotion\" banner from videos on YouTube app.\
+        "description": "<p>Removes \"Include paid promotion\" banner from videos on YouTube app.\
             <a href=\"https://www.youtube.com/watch?v=FxyW7Gp9Jd4\">What is paid promotion?</a></p>"
     },
     {
@@ -255,7 +255,7 @@ youtube = [
         "title": "YTABConfigReset",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Reset all A/B flags in YTABConfig tweak on YouTube app launch. This is useful when changing some A/B flags may cause the app to crash outright and there is no simple way to recover it. Once installed and you launched the YouTube app, all A/B flags will be reset. You will then uninstall YTABConfigReset tweak. Otherwise, A/B flags will keep being reset every time you launch the app.</p>"
+        "description": "<p>Resets all A/B flags in YTABConfig tweak on YouTube app launch. This is useful when changing some A/B flags may cause the app to crash outright and there is no simple way to recover it. Once installed and you launched the YouTube app, all A/B flags will be reset. You will then uninstall YTABConfigReset tweak. Otherwise, A/B flags will keep being reset every time you launch the app.</p>"
     },
     {
         "file": "ytmabconfig",
@@ -302,7 +302,7 @@ youtube = [
         "title": "YTAutoFullScreen",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Make your video full-screen on playing.</p>",
+        "description": "<p>Makes your video full-screen on playing.</p>",
         "changes": [
             ["1.0.4", [
                 "Added support for YouTube version 19.42.1",
@@ -315,7 +315,7 @@ youtube = [
         "title": "YTSilentVote",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Remove popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
+        "description": "<p>Removes popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
     },
     {
         "file": "ytvideooverlay",
@@ -368,7 +368,7 @@ youtube = [
         "title": "YouMute",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Add a mute button to the video overlay where you can directly mute or unmute the video.</p>",
+        "description": "<p>Adds a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
             ["1.3.1", "Added th localization"],
             ["1.3.0", [
@@ -390,7 +390,7 @@ youtube = [
         "title": "YouQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Add a video quality to the video overlay where you can easily change the video quality.</p>\
+        "description": "<p>Adds a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
             ["1.3.5", "Depends on YTVideoOverlay 2.1.1+"],
@@ -413,7 +413,7 @@ youtube = [
         "title": "YouSpeed",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Add a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
+        "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
             ["1.3.0", "Added the ability to replace the default video speed selector with the primitive one, where custom speeds can be added"],
             ["1.2.1", "Fixed video speed button not updating when changing the video speed on old YouTube versions"],
@@ -467,7 +467,7 @@ youtube = [
         "title": "YouChooseQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Auto-select the video quality of choice in iOS YouTube app.</p>",
+        "description": "<p>Auto-selects the video quality of choice in iOS YouTube app.</p>",
         "changes": [
             ["1.0.6", "Shortened each scenario label in settings so that devices of a small form factor can see the full text"],
             ["1.0.5", "Moved the tweak description in the settings to under \"Enabled\" option so that the text is not cut off"],
@@ -482,7 +482,7 @@ youtube = [
         "title": "YouSlider",
         "min_ios": "13.0",
         "tintColor": "red",
-        "description": "<p>Customize YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
+        "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
         "changes": [
             ["1.1.1", "Fixed app crash on older 19.x YouTube versions"],
             ["1.1.0", [

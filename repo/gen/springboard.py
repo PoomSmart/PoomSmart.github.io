@@ -3,7 +3,7 @@ springboard = [
         "file": "cconoff",
         "title": "CC On & Off",
         "min_ios": "11.0",
-        "description": "<p>Toggle Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11+.</p>",
+        "description": "<p>Toggles Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11+.</p>",
         "changes": [
             ["1.1.0", "Fixed Bluetooth not turning off on iOS 15"],
             ["1.0.0", "Compiled with ARC"]
@@ -13,7 +13,7 @@ springboard = [
         "file": "blurrybadges",
         "title": "Blurry Badges",
         "min_ios": "13.0",
-        "description": "<p>Add colored blur to SpringBoard icon badges.</p>",
+        "description": "<p>Adds colored blur to SpringBoard icon badges.</p>",
         "changes": [
             ["1.5.3", "Added support for iOS 13"],
             ["1.5.2", "Fixed crash on iOS 14"],
@@ -37,7 +37,7 @@ springboard = [
         "screenshots": True,
         "featured_as_banner": True,
         "inline_source_code": True,
-        "description": "<p>Prevent Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
+        "description": "<p>Prevents Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
     },
     {
         "file": "expandedclassicscreen",
@@ -45,7 +45,7 @@ springboard = [
         "min_ios": "14.0",
         "screenshots": True,
         "inline_source_code": True,
-        "description": "<p>Use a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
+        "description": "<p>Uses a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
     },
     {
         "file": "anywherewidgetsforipad",
@@ -54,7 +54,7 @@ springboard = [
         "max_ios": "14.8.1",
         "strict_range": True,
         "featured_as_banner": True,
-        "description": "<p>Allow widgets to be on home screen on iPad.</p>",
+        "description": "<p>Allows widgets to be on home screen on iPad.</p>",
         "changes": [
             ["1.4.0", "Removed icon grid size overrides, please use PadGrid to adjust this instead"]
         ]
@@ -73,7 +73,7 @@ springboard = [
         "file": "padgrid",
         "title": "PadGrid",
         "min_ios": "7.0",
-        "description": "<p>Increase home screen icon grid size for iPad.</p>",
+        "description": "<p>Increases home screen icon grid size for iPad.</p>",
         "changes": [
             ["1.2.0", "Added Reduce edge insets option for iPadOS 15+"],
             ["1.1.2", "Made IconOrder an option for icon layout persistence library"],

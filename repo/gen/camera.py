@@ -55,8 +55,6 @@ camera = [
         "min_ios": "11.0",
         "changes": [
             ["1.8.4", "Allows installation on iOS 11"],
-            ["1.8.3", "Fixed torch not turning on for some devices"],
-            ["1.8.2", "Fixed torch not turning on for modern camera devices"]
         ],
         "description": "<p>Toggles torch while recording video on iOS camera app.</p>"
     },
@@ -102,8 +100,7 @@ camera = [
             ["2.0.5", "Allows installation on iOS 13"],
             ["2.0.4", "Improved type encoding for added methods"],
             ["2.0.3", "Fixed button layout in RTL"],
-            ["2.0.2", "Disabled pause/resume feature for unsupported recording modes"],
-            ["2.0.1", "Fixed button layout logic"]
+            ["2.0.2", "Disabled pause/resume feature for unsupported recording modes"]
         ]
     }
 ]

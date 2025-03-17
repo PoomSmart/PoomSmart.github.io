@@ -12,6 +12,7 @@
 
 <body>
     <main class="ios-table ios-main">
+{% if min_ios or max_ios %}
         <h2 role="header">Compatibility</h2>
         <ul>
             <li>
@@ -37,6 +38,7 @@
             </li>
         </ul>
         <script src="../../misc/iosver.js"></script>
+{% endif %}
         <h2 role="header">Description</h2>
 {% if screenshots %}
         <div class="screenshots-container">
