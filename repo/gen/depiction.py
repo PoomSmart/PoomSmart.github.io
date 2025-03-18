@@ -23,11 +23,13 @@ tweaks = [
         "title": "LetMeBlock",
         "min_ios": "9.0",
         "changes": [
-            ["1.3.0", "Fixed jetsam memory limit bypass not working presumably since iOS 9, causing the tweak to have never been working when hosts file is very large"],
-            ["1.2.1", "Fixed mDNSResponderHelper not being spawn on modern iOS versions so that the memory limit can be lifted for mDNSResponder"],
-            ["1.2.0", "(Rootless) Added libSandy profile to allow access to /var/jb/etc/hosts"],
-            ["1.1.0", "Added support for rootless jailbreaks (/var/jb/etc/hosts)"],
-            ["1.0.0", "Increased Jetsam memory limit to 512 MB"]
+            ["1.3.0", [
+                "Fixed jetsam memory limit bypass not working presumably since iOS 9, causing the tweak to have never been working when hosts file is very large",
+                "Fixed mDNSResponderHelper not being spawn on modern iOS versions so that the memory limit can be lifted for mDNSResponder",
+                "(Rootless) Added libSandy profile to allow access to /var/jb/etc/hosts",
+                "Added support for rootless jailbreaks (/var/jb/etc/hosts)",
+                "Increased Jetsam memory limit to 512 MB"
+            ]]
         ],
         "description": "<p><a target=\"_blank\" href=\"https://github.com/PoomSmart/LetMeBlock/blob/master/README.md\">README</a></p>"
     },
