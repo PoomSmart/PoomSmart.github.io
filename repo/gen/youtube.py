@@ -324,6 +324,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.2.1", "Fixed incorrect button position in full-screen mode on recent YouTube versions"],
             ["2.2.0", "Added support for extra boolean settings from the tweak side"],
             ["2.1.2", [
                 "Fixed button order not visually changing in the settings",
