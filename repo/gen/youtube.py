@@ -436,8 +436,9 @@ youtube = [
         "title": "YouTube X",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>No ads and background playback for iOS YouTube app.</p>",
+        "description": "<p>No ads, background playback and legacy compatibility for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.12", "Made YouTube version < 19 functional again"],
             ["1.7.11", "Fixed video comments section not loading on old YouTube versions"],
             ["1.7.10", "Blocked in-video product ads overlay and engagement panel"],
             ["1.7.9", "Fixed shorts ads blocking on YouTube version 20.06.3 and higher"],
