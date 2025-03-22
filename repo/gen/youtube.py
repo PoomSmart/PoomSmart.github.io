@@ -494,5 +494,12 @@ youtube = [
                 "Applied slider and scrubber customization to auto-playing videos in the home page"
             ]]
         ]
+    },
+    {
+        "file": "ytlegacy",
+        "title": "YouTube Legacy",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>"
     }
 ]

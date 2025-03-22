@@ -9517,6 +9517,42 @@ Description: Make YTDarker work correctly with uYou tweak.
 Author: PoomSmart
 Name: YTDarker for uYou Patch
 
+Package: com.ps.ytlegacy
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytx
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.0.0_iphoneos-arm.deb
+Size: 2476
+MD5sum: 24cafbe349dfb6d0092251661c907192
+SHA1: c6cbdf4ac514b959e8db1f8398d57ad0e2f9cf59
+SHA256: 94e365c831ee544997bc4417ad4cfc2e9dce1ca8a63b1460a72e853c8cb5ae29
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytx
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.0.0_iphoneos-arm64.deb
+Size: 2542
+MD5sum: 86d7b58112d104bad7f49ca466194d27
+SHA1: 876ccf0b424ce47959e414eb44c5ee88b9cb1d3d
+SHA256: 05744ec3cbb122e9867e381f4ac631d7668e2277fa98e9a7b6b3f79126e52308
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
 Package: com.ps.ytmabconfig
 Version: 1.0.0
 Architecture: iphoneos-arm64
