@@ -11137,6 +11137,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
 Name: YTVideoOverlay
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
 
+Package: com.ps.ytvideooverlay
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_2.2.2_iphoneos-arm.deb
+Size: 14474
+MD5sum: 7f164e9c3a7e3ec87c5965f7ae1fd586
+SHA1: de85f4ffb8a2b40d606aeb73d1292bbecd677e89
+SHA256: 94e22e4b301db6327517274ad021b92c26a9d91018623713e9f9c15ed1815e25
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
+Package: com.ps.ytvideooverlay
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytvideooverlay/com.ps.ytvideooverlay_2.2.2_iphoneos-arm64.deb
+Size: 14368
+MD5sum: c5ab9b4e12f2d4e1aac4c909a2d506e4
+SHA1: a47639c8ae042c1a45f9e56eb9bd9f9f09ba0752
+SHA256: a119c1c935e334e92c2ae985c9f98700739ae4cca6734cd44211108403da2a75
+Section: Tweaks
+Description: A helper tweak to add buttons on YouTube video overlay.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytvideooverlay.html
+Name: YTVideoOverlay
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytvideooverlay.json
+
 Package: com.ps.ytx
 Version: 1.6.10
 Architecture: iphoneos-arm
