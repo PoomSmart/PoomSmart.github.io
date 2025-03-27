@@ -4,7 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
-            ["1.7.0~b1", "Updated to iOS 18.4 assets"],
+            ["1.7.0", "Updated to iOS 18.4 assets"],
             ["1.6.0", "Updated to iOS 17.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
