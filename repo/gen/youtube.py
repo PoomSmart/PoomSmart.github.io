@@ -501,6 +501,9 @@ youtube = [
         "title": "YouTube Legacy",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>"
+        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
+        "changes": [
+            ["1.1.0", "Added Play option when you tap on the video more button (to work around video not playing when you tap on the video)"],
+        ]
     }
 ]

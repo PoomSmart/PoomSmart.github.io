@@ -44,7 +44,7 @@ emoji = [
         "min_ios": "6.0",
         "changes": [
             ["1.3.8", "Fixed crash on iOS 6 due to using modern-only libroot"],
-            ["1.3.7", "Sort fonts alphabetically"],
+            ["1.3.7", "Sorts fonts alphabetically"],
             ["1.3.6", "Removed debug code"],
             ["1.3.5", [
                 "Fixed emojis not rendered correctly on iOS 10",
