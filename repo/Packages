@@ -6781,6 +6781,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
 Name: WhatsApp Emoji Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
 
+Package: com.ps.whatsappefm
+Version: 16.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.whatsappefm_16.0.0_iphoneos-arm64.deb
+Size: 736
+MD5sum: 427b98ce65eb5e53a1d732cebf9a01f4
+SHA1: a76e6be3eda1718e694c9aaaf8d728ad1ea79ede
+SHA256: 6914ce97c571d1c06a3f6c354a5123c6c4245f4b11e8bad6c431ee5ee218a89b
+Section: Fonts (EFM)
+Description: WhatsApp Emoji (Unicode 16.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
+Name: WhatsApp Emoji Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
+
+Package: com.ps.whatsappefm
+Version: 16.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.whatsappefm_16.0.0_iphoneos-arm.deb
+Size: 738
+MD5sum: c0a63662a91478580983a47c09e97345
+SHA1: f1faee19066ad6c8cf41d18700592fdeddab3edf
+SHA256: d6d7a6ad22321f22c7c9c0fc9edb40001b42f22b43dba817a2e3707a7aa82470
+Section: Fonts (EFM)
+Description: WhatsApp Emoji (Unicode 16.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/whatsappefm.html
+Name: WhatsApp Emoji Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/whatsappefm.json
+
 Package: com.ps.youarethere
 Version: 1.0.1
 Architecture: iphoneos-arm
