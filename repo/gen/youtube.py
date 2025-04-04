@@ -503,6 +503,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.1.3", [
+                "Fixed tapping on a video not playing gracefully",
+                "Added NoYTPremium tweak as a dependency as it actually blocks a variant of the update dialog"
+            ]],
             ["1.1.2", "Added YouSpeed and YTClassicVideoQuality tweaks as dependencies to work around broken video speed and quality selectors"],
             ["1.1.1", "Added Play option to the video menu (to work around video not playing when you tap on the video, only for videos that tapping does nothing)"],
         ]
