@@ -503,6 +503,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.3.0", [
+                "Added Return YouTube Dislike tweak as a dependency",
+                "Fixed missing number in like/dislike buttons under the video (RYD tweak must be enabled)"
+            ]],
             ["1.2.0", [
                 "Added Play option to the video menu for videos that can also be tapped to play",
                 "Added Play option to the video menu for videos inside a playlist"
