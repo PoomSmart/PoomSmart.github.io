@@ -503,6 +503,11 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.4.0", [
+                "Added \"Select another account\" menu to the account overflow menu, making it possible to switch accounts",
+                "Fixed video like/dislike numbers being dark in dark mode",
+                "Fixed the account image not showing in the bottom bar"
+            ]],
             ["1.3.0", [
                 "Added Return YouTube Dislike tweak as a dependency",
                 "Fixed missing number in like/dislike buttons under the video (RYD tweak must be enabled)"
