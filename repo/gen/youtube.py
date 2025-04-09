@@ -503,6 +503,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.4.1", [
+                "Fixed Play option playing a different video if the video is in a grid",
+                "Fixed video like/dislike numbers still being dark in dark mode (you have to update Return YouTube Dislike tweak to v1.13.7+)"
+            ]],
             ["1.4.0", [
                 "Added \"Select another account\" menu to the account overflow menu, making it possible to switch accounts",
                 "Fixed video like/dislike numbers being dark in dark mode",
