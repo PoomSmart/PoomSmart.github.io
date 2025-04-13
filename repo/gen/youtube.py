@@ -8,9 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
-            ["1.6.0", [
-                "Added some libvpx settings that you can configure for VP9 decoding behavior, mainly setting the number of decoding threads"
-            ]],
+            ["1.6.0", "Added some libvpx settings that you can configure for VP9 decoding behavior, mainly setting the number of decoding threads"],
             ["1.5.11", [
                 "\"Use VP9\" setting is no longer enabled by default",
                 "Removed the hooks to fall back to use the old ABR policy"
@@ -487,6 +485,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
         "changes": [
+            ["1.1.2", "Added vi localization"],
             ["1.1.1", "Fixed app crash on older 19.x YouTube versions"],
             ["1.1.0", [
                 "Fixed scrubber sizing logic in regular videos",
