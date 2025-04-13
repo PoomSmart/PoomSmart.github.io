@@ -503,6 +503,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.4.2", "Removed NoYTPremium tweak as a dependency and included some of its code inside this tweak to work around uYou tweak's strict outdated requirements"],
             ["1.4.1", [
                 "Fixed Play option playing a different video if the video is in a grid",
                 "Fixed video like/dislike numbers still being dark in dark mode (you have to update Return YouTube Dislike tweak to v1.13.7+)"
