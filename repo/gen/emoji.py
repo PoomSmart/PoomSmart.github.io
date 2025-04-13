@@ -361,12 +361,13 @@ emoji = [
     },
     {
         "file": "twemojiefm",
-        "title": "Twemoji Unicode 15.1 (EFM)",
+        "title": "Twemoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 15.1).</p>"
+        "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 16.0).</p>"
     },
     {
         "file": "whatsappefm",
