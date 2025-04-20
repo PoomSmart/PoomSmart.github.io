@@ -507,6 +507,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.4.3", [
+                "Fixed Play option not showing for videos in the search results, history, user's playlists and channel playlists",
+                "Fixed \"Your movies\" icon in Subscriptions tab not rendering correctly"
+            ]],
             ["1.4.2", "Removed NoYTPremium tweak as a dependency and included some of its code inside this tweak to work around uYou tweak's strict outdated requirements"],
             ["1.4.1", [
                 "Fixed Play option playing a different video if the video is in a grid",
