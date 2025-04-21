@@ -507,6 +507,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by.</p>",
         "changes": [
+            ["1.5.0", [
+                "Restored like/dislike buttons in Shorts",
+                "Added missing \"Play all\" button to Watch Later playlist on iPad"
+            ]],
             ["1.4.3", [
                 "Fixed Play option not showing for videos in the search results, history, user's playlists and channel playlists",
                 "Fixed \"Your movies\" icon in Subscriptions tab not rendering correctly"
