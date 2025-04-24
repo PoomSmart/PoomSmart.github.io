@@ -507,6 +507,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 17.38+.</p>",
         "changes": [
+            ["1.5.3", "Fixed Play option on videos under scrollable lists playing an entirely different video"],
             ["1.5.2", [
                 "Fixed tapping on a video in Home not playing on iPhones",
                 "Fixed Play option not showing for videos in Home tab and the search results on iPhones"
