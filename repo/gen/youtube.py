@@ -507,6 +507,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 17.10.2+.</p>",
         "changes": [
+            ["1.5.5", [
+                "Fixed play video overlay button not working on old YouTube versions",
+                "Fixed app crash when tapping on a video card on old YouTube versions"
+            ]],
             ["1.5.4", [
                 "Fixed You tab image not showing on YouTube version 17.09.1 and lower",
                 "Fixed You tab not showing the default icon in signed-out state"
