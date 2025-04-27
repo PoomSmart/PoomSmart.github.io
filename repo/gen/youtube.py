@@ -508,6 +508,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 17.10.2+.</p>",
         "changes": [
+            ["1.5.7", "Fixed app crash when watching a video in new YouTube versions (regression of 1.5.6)"],
             ["1.5.6", "Fixed video previous/next buttons and autoplay not working on old YouTube versions"],
             ["1.5.5", [
                 "Fixed play video overlay button not working on old YouTube versions",
