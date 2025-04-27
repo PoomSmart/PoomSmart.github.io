@@ -419,6 +419,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.4.1", "Fixed the current speed slider value not updating correctly"],
             ["1.4.0", "Added the ability to replace the primitive video speed selector with a slider, for more precise speed selection"],
             ["1.3.0", "Added the ability to replace the default video speed selector with the primitive one, where custom speeds can be added"],
             ["1.2.1", "Fixed video speed button not updating when changing the video speed on old YouTube versions"],
