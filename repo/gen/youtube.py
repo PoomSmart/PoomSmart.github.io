@@ -443,6 +443,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads, background playback and legacy compatibility for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.13", "Spoofed YouTube version to 19.14.2 for clients with version 17.09.1 and lower to make app functional"],
             ["1.7.12", "Made YouTube version 17.x.x/18.x.x functional again"],
             ["1.7.11", "Fixed video comments section not loading on old YouTube versions"],
             ["1.7.10", "Blocked in-video product ads overlay and engagement panel"],
@@ -456,7 +457,7 @@ youtube = [
             ["1.7.1", "Blocked new kind of video ads"],
             ["1.7.0", "Implemented efficient feed ads blocking logic"],
             ["1.6.10", [
-                "Spoofed YouTube version to 17.33.2 for clients with version as low as 16.29.4 to function properly",
+                "Spoofed YouTube version to 17.33.2 for clients with version as low as 16.29.4 to make app functional",
                 "Improved feed ads blocking logic",
                 "Improved the performance of feed ads blocking",
                 "Removed new format shorts ads",
@@ -509,6 +510,11 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 17.10.2+.</p>",
         "changes": [
+            ["1.5.8", [
+                "Required YouTube X 1.7.13+ to make video cards appear properly on YouTube version 17.09.1 and lower",
+                "Fixed app crash when revealing the video menu on old YouTube versions",
+                "Fixed \"Select another account\" menu not showing on old YouTube versions"
+            ]],
             ["1.5.7", "Fixed app crash when watching a video in new YouTube versions (regression of 1.5.6)"],
             ["1.5.6", "Fixed video previous/next buttons and autoplay not working on old YouTube versions"],
             ["1.5.5", [
