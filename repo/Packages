@@ -6736,10 +6736,10 @@ Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
 Filename: ./debs/backport/com.ps.watchinstallfix_1.0.0_iphoneos-arm.deb
-Size: 3140
-MD5sum: 675ca64d9e97c9fb370cc32c05b84da4
-SHA1: d368c8f05bae662f1f03ab6f34d38807c8a7a39a
-SHA256: 8d78a14ab3ca9d46b48718b845db3a6ea2e1395f00c8e6381a1d2fb83e8f6657
+Size: 3284
+MD5sum: b1851dd54c1d6f3bbe10b2e5068ee2a5
+SHA1: 813c69f9c0682f7c558ff7a5e30dc6a104aff320
+SHA256: 2037c5b3592bb217ec4917297439b9c6432024cb0b2f2ac3e49aaa0de230c508
 Section: Tweaks
 Description: Fixes AppStore apps with extensionless Watch app not installable on incompatible devices.
 Author: PoomSmart
@@ -6752,10 +6752,10 @@ Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
 Filename: ./debs/backport/com.ps.watchinstallfix_1.0.0_iphoneos-arm64.deb
-Size: 3212
-MD5sum: bbaf2b46b558052c62783cf367cc0a73
-SHA1: 237d6228dac91640a6e4234135139a8c0d199ed6
-SHA256: fe0c6bdb1057a217791f1ffa448308290dc8db329de35c2e171e17f18e31790b
+Size: 3358
+MD5sum: f28a0ff7858fa6cd464d51d598f37e18
+SHA1: 6202e881f1bc2594b8cc825c1a8349cc4270db7e
+SHA256: 2ea2190fca26854b4abf6e62c44a3108575d9b0391fc1072f4d085bf2cd803db
 Section: Tweaks
 Description: Fixes AppStore apps with extensionless Watch app not installable on incompatible devices.
 Author: PoomSmart
