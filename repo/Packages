@@ -6729,6 +6729,38 @@ Description: Flipswitch toggle for VoiceOver.
 Author: PoomSmart
 Name: VoiceOver Flipswitch
 
+Package: com.ps.watchinstallfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
+Filename: ./debs/backport/com.ps.watchinstallfix_1.0.0_iphoneos-arm.deb
+Size: 3140
+MD5sum: 675ca64d9e97c9fb370cc32c05b84da4
+SHA1: d368c8f05bae662f1f03ab6f34d38807c8a7a39a
+SHA256: 8d78a14ab3ca9d46b48718b845db3a6ea2e1395f00c8e6381a1d2fb83e8f6657
+Section: Tweaks
+Description: Fixes AppStore apps with extensionless Watch app not installable on incompatible devices.
+Author: PoomSmart
+Name: WatchInstallFix
+
+Package: com.ps.watchinstallfix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
+Filename: ./debs/backport/com.ps.watchinstallfix_1.0.0_iphoneos-arm64.deb
+Size: 3212
+MD5sum: bbaf2b46b558052c62783cf367cc0a73
+SHA1: 237d6228dac91640a6e4234135139a8c0d199ed6
+SHA256: fe0c6bdb1057a217791f1ffa448308290dc8db329de35c2e171e17f18e31790b
+Section: Tweaks
+Description: Fixes AppStore apps with extensionless Watch app not installable on incompatible devices.
+Author: PoomSmart
+Name: WatchInstallFix
+
 Package: com.ps.whatsallemojis
 Version: 1.0.0
 Architecture: iphoneos-arm

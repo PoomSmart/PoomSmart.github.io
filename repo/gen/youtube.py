@@ -194,7 +194,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Makes YouTube remember your video caption setting, if not already.</p>"
+        "description": "<p><b>This tweak does nothing on YouTube 20.16.7 and higher.</b><br/>Makes YouTube remember your video caption setting, if not already.</p>"
     },
     {
         "file": "ytnochecklocalnetwork",
