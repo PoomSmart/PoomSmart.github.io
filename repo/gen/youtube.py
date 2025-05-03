@@ -448,8 +448,7 @@ youtube = [
             ["1.7.12", "Made YouTube version 17.x.x/18.x.x functional again"],
             ["1.7.11", "Fixed video comments section not loading on old YouTube versions"],
             ["1.7.10", "Blocked in-video product ads overlay and engagement panel"],
-            ["1.7.9", "Fixed shorts ads blocking on YouTube version 20.06.3 and higher"],
-            ["1.7.8", "Fixed shorts ads blocking on old YouTube versions"],
+            ["1.7.9", "Fixed shorts ads blocking"],
             ["1.7.7", "Added background playback setting (under Offline)"],
             ["1.7.6", "Properly blocked shopping_item_card_list ads"],
             ["1.7.5", "Improved shorts ads blocking logic"],
@@ -509,8 +508,9 @@ youtube = [
         "title": "YouTube Legacy",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 17.10.2+.</p>",
+        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
+            ["1.5.9", "Fixed broken autoplay functionality on old YouTube versions (regression of 1.5.7)"],
             ["1.5.8", [
                 "Required YouTube X 1.7.13+ to make video cards appear properly on YouTube version 17.09.1 and lower",
                 "Fixed app crash when revealing the video menu on old YouTube versions",

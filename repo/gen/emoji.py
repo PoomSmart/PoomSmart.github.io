@@ -15,8 +15,7 @@ emoji = [
         "changes": [
             ["1.9.0~b3", [
                 "Added Unicode 16.0 emojis",
-                "Fixed the weird behavior when deleting characters",
-                "Improved Unicode 16.0 emojis support on older iOS versions",
+                "Fixed the weird behavior when deleting characters"
             ]],
             ["1.8.3", [
                 "Added Unicode 15.1 emojis",
