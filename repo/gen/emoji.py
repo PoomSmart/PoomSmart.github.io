@@ -4,8 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
-            ["1.7.0", "Updated to iOS 18.4 assets"],
-            ["1.6.0", "Updated to iOS 17.4 assets"]
+            ["1.7.0", "Updated to iOS 18.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
     },
@@ -19,18 +18,10 @@ emoji = [
                 "Fixed the weird behavior when deleting characters",
                 "Improved Unicode 16.0 emojis support on older iOS versions",
             ]],
-            ["1.8.3", "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15"],
-            ["1.8.2", "Fixed crash on iOS 6 due to using modern-only libroot"],
-            ["1.8.1", "Compiled with the latest Theos revision"],
-            ["1.8.0~b2", [
-                "Rootless: Simplify hooks for iOS 15.4+ (may require Dopamine 2)",
+            ["1.8.3", [
+                "Added Unicode 15.1 emojis",
+                "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15",
                 "Rootful: Fixed crash on iOS 12 arm64e devices"
-                "Added Unicode 15.1 emojis"
-            ]],
-            ["1.7.1", [
-                "Rootless: Uses alternative libicucore hooks to work around ElleKit issues (REQUIRE ElleKit 0.6+)",
-                "Rootful: Optimized hooks"
-                "Added Unicode 15.0 emojis",
                 "Fixed installation issue on readonly filesystems devices",
                 "Fixed new emojis displayed as ? on iOS 10 and lower",
                 "Uses _NSGetExecutablePath to detect process type"
@@ -86,8 +77,10 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            ["1.7.0", "Changed the position of the new emojis to be the same as on iOS 18.4b3+"],
-            ["1.7.0~b1", "Added Unicode 16.0 emojis"],
+            ["1.7.0", [
+                "Added Unicode 16.0 emojis",
+                "Changed the position of the new emojis to be the same as on iOS 18.4b3+"
+            ]],
             ["1.6.2", [
                 "Fixed crash on iOS 6 due to using modern-only libroot",
                 "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
@@ -125,7 +118,7 @@ emoji = [
         "strict_range": True,
         "no_sileo": True,
         "changes": [
-            ["1.8.7", "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"],
+            ["1.8.8", "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"],
             ["1.8.5", "Compiled with ARC"],
             ["1.8.4", "Fixed crash on iOS 6 due to using modern-only libroot"],
             ["1.8.3", "Depends on EmojiLibrary 1.6.1+"],
@@ -180,21 +173,10 @@ emoji = [
         "changes": [
             ["1.6.0~b1", "Added Unicode 16.0 emojis"],
             ["1.5.2", [
-                "(Rootless-only) Removed unnecessary hooks",
-                "Use more correct type encoding for the added methods"
-            ]],
-            ["1.5.1", "Depends on EmojiLibrary 1.6.1+"],
-            ["1.5.0~b3", [
                 "Initial iOS 17.4 emojis support",
-                "Updated for new EmojiLibrary"
-            ]],
-            ["1.4.3", [
-                "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
-                "Use _NSGetExecutablePath to detect process type",
-                "Fixed tweak not loading on some rootful devices",
-                "(Rootless-only) Disabled injection into WebContent due to ElleKit issues",
-                "Allow installation on iOS 15.4 - 16.3.1",
-                "Fixed app crash on rootful palera1n devices"
+                "(Rootless-only) Removed unnecessary hooks",
+                "Use more correct type encoding for the added methods",
+                "Depends on EmojiLibrary 1.6.1+"
             ]]
         ],
         "description": "<p>Latest emojis for iOS 12.0 - 18.3</p>\
