@@ -132,6 +132,10 @@ tweaks = [
             <li>Jelly Defense</li>\
         </ol>",
         "changes": [
+            ["1.3.3", [
+                "Fixed preference not working",
+                "Disabled this tweak on SpringBoard"
+            ]],
             ["1.3.2", "Removed debug logging"],
             ["1.3.1", "(Rootless-only) Fixed preference not working"],
             ["1.3.0", "Reworked support for Metal apps"],
