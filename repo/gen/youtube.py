@@ -510,6 +510,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
+            ["1.5.10", [
+                "Fixed the left side of the video player (with live chat) not responding to double tap to seek gesture on iPads",
+                "Added the check to not apply this tweak on YouTube version 19.01.1 and higher"
+            ]],
             ["1.5.9", "Fixed broken autoplay functionality on old YouTube versions (regression of 1.5.7)"],
             ["1.5.8", [
                 "Required YouTube X 1.7.13+ to make video cards appear properly on YouTube version 17.09.1 and lower",
