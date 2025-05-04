@@ -99,10 +99,7 @@ tweaks = [
         "tintColor": "yellow",
         "strict_range": True,
         "inline_source_code": True,
-        "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>",
-        "changes": [
-            ["1.0.1", "Added support for iOS 9 - 10"]
-        ]
+        "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
     },
     {
         "file": "batteryhealthenabler",
