@@ -515,6 +515,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
+            ["1.5.12", "Fixed missing icon for some video menus"],
             ["1.5.11", "Fixed Shorts like/dislike buttons not showing on YouTube version around 17.39.4 (regression of 1.5.9)"],
             ["1.5.10", [
                 "Fixed the left side of the video player (with live chat) not responding to double tap to seek gesture on iPads",
