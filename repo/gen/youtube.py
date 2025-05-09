@@ -516,7 +516,7 @@ youtube = [
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
             ["1.6.0", [
-                "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.7 at the time of writing)",
+                "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)",
                 "Added crash prevention when a TV is connected to the network (untested and unverified)"
             ]],
             ["1.5.12", "Fixed missing icon for some video menus"],
@@ -570,15 +570,11 @@ youtube = [
                 "Fixed missing number in like/dislike buttons under the video (RYD tweak must be enabled)"
             ]],
             ["1.2.0", [
-                "Added Play option to the video menu for videos that can also be tapped to play",
-                "Added Play option to the video menu for videos inside a playlist"
-            ]],
-            ["1.1.3", [
+                "Added Play option to the video and playlist menu (to work around video not playing when you tap on the video, only for videos that tapping does nothing)",
                 "Fixed tapping on a video not playing gracefully",
-                "Added NoYTPremium tweak as a dependency as it actually blocks a variant of the update dialog"
-            ]],
-            ["1.1.2", "Added YouSpeed and YTClassicVideoQuality tweaks as dependencies to work around broken video speed and quality selectors"],
-            ["1.1.1", "Added Play option to the video menu (to work around video not playing when you tap on the video, only for videos that tapping does nothing)"],
+                "Added NoYTPremium tweak as a dependency as it actually blocks a variant of the update dialog",
+                "Added YouSpeed and YTClassicVideoQuality tweaks as dependencies to work around broken video speed and quality selectors"
+            ]]
         ]
     }
 ]
