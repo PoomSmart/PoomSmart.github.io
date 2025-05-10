@@ -518,10 +518,8 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
-            ["1.6.0", [
-                "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)",
-                "Added crash prevention when a TV is connected to the network (untested and unverified)"
-            ]],
+            ["1.6.1", "Rewrote the logic to enabled refreshed Watch Later playlist on iPad so that it won't crash on problematic jailbreaks (regression of 1.5.0)"],
+            ["1.6.0", "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)"],
             ["1.5.12", "Fixed missing icon for some video menus"],
             ["1.5.11", "Fixed Shorts like/dislike buttons not showing on YouTube version around 17.39.4 (regression of 1.5.9)"],
             ["1.5.10", [
@@ -552,7 +550,7 @@ youtube = [
             ["1.5.1", "Fixed tapping on a video in Home and Subscription tabs not playing"],
             ["1.5.0", [
                 "Restored like/dislike buttons in Shorts",
-                "Added missing \"Play all\" button to Watch Later playlist on iPad"
+                "Restored refreshed Watch Later playlist on iPad"
             ]],
             ["1.4.3", [
                 "Fixed Play option not showing for videos in the search results, history, user's playlists and channel playlists",
