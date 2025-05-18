@@ -518,6 +518,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
+            ["1.6.2", [
+                "Reverted the logic rewrite in 1.6.1 because the root cause has to do with CydiaSubstrate being broken on iOS 12 jailbreaks in general",
+                "Suggestion: Switch from CydiaSubstrate to Substitute or Libhooker if you are on iOS 12 jailbreaks",
+            ]],
             ["1.6.1", "Rewrote the logic to enabled refreshed Watch Later playlist on iPad so that it won't crash on problematic jailbreaks (regression of 1.5.0)"],
             ["1.6.0", "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)"],
             ["1.5.12", "Fixed missing icon for some video menus"],
