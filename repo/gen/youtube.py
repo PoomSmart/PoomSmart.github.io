@@ -518,6 +518,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
         "changes": [
+            ["1.6.3", [
+                "Added a one-time alert to inform users that, to play a video, they may need to tap on the triple dot menu and select \"Play\"",
+                "Fixed missing icon for \"Purchases and membership\" menu in You tab"
+            ]],
             ["1.6.2", [
                 "Reverted the logic rewrite in 1.6.1 because the root cause has to do with CydiaSubstrate being broken on iOS 12 jailbreaks in general",
                 "Suggestion: Switch from CydiaSubstrate to Substitute or Libhooker if you are on iOS 12 jailbreaks",
