@@ -331,6 +331,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.2.3", "Fixed overflowing text button on old YouTube versions"],
             ["2.2.2", "Fixed bottom buttons being too far apart from each other on YouTube version 20.12.4"],
             ["2.2.1", "Fixed incorrect button position in full-screen mode on recent YouTube versions"],
             ["2.2.0", "Added support for extra boolean settings from the tweak side"],
@@ -424,6 +425,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.5.0", [
+                "Added increase and decrease speed buttons to the speed slider dialog",
+                "Tweaked the speed slider dialog UI",
+            ]],
             ["1.4.1", "Fixed the current speed slider value not updating correctly"],
             ["1.4.0", "Added the ability to replace the primitive video speed selector with a slider, for more precise speed selection"],
             ["1.3.0", "Added the ability to replace the default video speed selector with the primitive one, where custom speeds can be added"],
