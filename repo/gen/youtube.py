@@ -180,6 +180,7 @@ youtube = [
         "inline_source_code": True,
         "description": "<p>Removes YouTube Premium upsells.</p>",
         "changes": [
+            ["1.0.6", "Fixed premium full-screen dialog not being removed (regression of 1.0.5)"],
             ["1.0.5", "Fixed images in the community posts not being displayed in full-screen on tap"]
         ]
     },
