@@ -184,7 +184,7 @@ tweaks = [
         "changes": [
             ["0.0.4", "Added support for iOS 13"],
             ["0.0.3", "Fixed crash in some processes"],
-            ["0.0.2", "Properly support iOS 15 (credits to @NightwindDev)"]
+            ["0.0.2", "Properly added support for iOS 15 (credits to @NightwindDev)"]
         ]
     },
     {
@@ -194,6 +194,7 @@ tweaks = [
         "max_ios": "15.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed, and also some polyfills.</p>",
         "changes": [
+            ["1.0.5", "Added \"Get assets\" button to GitHub Releases page on iOS 14 and lower to work around the assets being not downloadable"],
             ["1.0.4", "Added support for iOS 9 - 11"],
             ["1.0.3", [
                 "Added stub value for HTMLDialogElement interface so that GitHub Search feature can work",
