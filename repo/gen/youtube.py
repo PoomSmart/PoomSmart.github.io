@@ -425,6 +425,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.5.1", [
+                "Improved the style of + and - buttons in the speed slider dialog",
+                "Fixed + and - buttons not having background color in light mode"
+            ]],
             ["1.5.0", [
                 "Added increase and decrease speed buttons to the speed slider dialog",
                 "Tweaked the speed slider dialog UI",
@@ -435,10 +439,10 @@ youtube = [
             ["1.2.1", "Fixed video speed button not updating when changing the video speed on old YouTube versions"],
             ["1.2.0", "Added more video speeds to choose from, configured from YTVideoOverlay settings"],
             ["1.1.3", [
+                "Removed unused code",
                 "Fixed vi localization not working",
                 "Added th localization"
             ]],
-            ["1.1.1", "Removed unused code"],
             ["1.1.0", "Updated for YTVideoOverlay 2.0.0"],
             ["1.0.1", [
                 "Added vi localization"
