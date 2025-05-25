@@ -118,6 +118,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Reverts to the original video quality selector in YouTube app.</p>",
         "changes": [
+            ["1.5.2", "Removed the now redundant hook"],
             ["1.5.1", "Fixed incorrect video quality list position on iPad"],
             ["1.5.0", "Fixed the tweak not working inside video premium controls"],
             ["1.4.0", "Used an alternative method to restore the video quality selector (contributed by @dayanch96)"],
@@ -425,6 +426,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.6.0", [
+                "Added speed presets to the speed slider dialog",
+                "Removed the now redundant hook"
+            ]],
             ["1.5.1", [
                 "Improved the style of + and - buttons in the speed slider dialog",
                 "Fixed + and - buttons not having background color in light mode"
