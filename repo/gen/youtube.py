@@ -427,6 +427,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.6.1", [
+                "Fixed tapping on speed presets not dismissing the dialog",
+                "Fixed speed presets not being aligned correctly in RTL languages"
+            ]],
             ["1.6.0", [
                 "Added speed presets to the speed slider dialog",
                 "Removed the now redundant hook"
