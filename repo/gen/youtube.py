@@ -468,6 +468,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads, background playback and legacy compatibility for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.14", "Disabled the new jailbreak detection in new YouTube versions"],
             ["1.7.13", "Spoofed YouTube version to 19.14.2 for clients with version 17.09.1 and lower to make app functional"],
             ["1.7.12", "Made YouTube version 17.x.x/18.x.x functional again"],
             ["1.7.11", "Fixed video comments section not loading on old YouTube versions"],
