@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.6.4", "Ensure software AV1 decoding is functional (untested)"],
             ["1.6.3", "Improved the stability of video playback when Use VP9 option is enabled"],
             ["1.6.2", "Fixed incorrect video formats filtering logic (for ex. 1080p VP9 format is not removed even when All VP9 option is disabled)"],
             ["1.6.1", [
