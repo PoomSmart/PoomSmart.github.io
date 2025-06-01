@@ -300,6 +300,38 @@ Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 Name: Amber
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
+Package: com.ps.ambercctoggle
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 11.0), gsc.camera-flash, com.opa334.ccsupport, com.ps.amber (>= 1.1.0)
+Filename: ./debs/camera/com.ps.ambercctoggle_1.0.0_iphoneos-arm.deb
+Size: 7224
+MD5sum: 61e2e0b625c0fbc5fc17425d3d34876f
+SHA1: 641efe43f96bc2ad75640e01c87b0ecd8f5a1288
+SHA256: a83295589ae7769a65fd1e9a36470230eef1552576b5d7e659c9622b77987151
+Section: Tweaks
+Description: Control Center toggle for Amber tweak.
+Author: PoomSmart
+Name: Amber CC Toggle
+
+Package: com.ps.ambercctoggle
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: firmware (>= 11.0), gsc.camera-flash, com.opa334.ccsupport, com.ps.amber (>= 1.1.0)
+Filename: ./debs/camera/com.ps.ambercctoggle_1.0.0_iphoneos-arm64.deb
+Size: 7184
+MD5sum: adb6948fb0c82c9a4edd6e27e023e2f9
+SHA1: 18b7e9031b2a5a9fbd4aa8d4b200becd49efaf16
+SHA256: f5b97ad6e7f2f8bbeef5189a4ecc0bd8f7807b8d8cfb79535c6fb50ad90eb0af
+Section: Tweaks
+Description: Control Center toggle for Amber tweak.
+Author: PoomSmart
+Name: Amber CC Toggle
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0.1
 Architecture: iphoneos-arm
