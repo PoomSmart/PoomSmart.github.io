@@ -539,7 +539,8 @@ youtube = [
         "title": "YouTube Legacy",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>",
+        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>\
+            <p>Note: Ensure that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
             ["1.6.4", "Fixed tapping on Audio Track video menu not working"],
             ["1.6.3", [
