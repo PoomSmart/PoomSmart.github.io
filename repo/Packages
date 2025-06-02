@@ -6454,6 +6454,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
 Name: YouMute
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
 
+Package: com.ps.youmute
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
+Filename: ./debs/youtube/youmute/com.ps.youmute_1.3.2_iphoneos-arm64.deb
+Size: 5884
+MD5sum: f8c7bad8952b62aff4f0c6cdec91efd6
+SHA1: 0375753a4ae20c9b364c0d86c28007960ed65c94
+SHA256: e6ae10eb66a6304e9a8e967007dea17e2b1d317cbd13d42849ea68730b4eedc8
+Section: Tweaks
+Description: Mutes/unmutes videos in YouTube directly.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
+Package: com.ps.youmute
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 112
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
+Filename: ./debs/youtube/youmute/com.ps.youmute_1.3.2_iphoneos-arm.deb
+Size: 6010
+MD5sum: bc2f72d7b76f73fd091d1335d1c3c17c
+SHA1: 05211521ccee4670b4bba75b0ab8795dc3885457
+SHA256: 15dcd11f0ed2015cd46df8617c87f2b4fa5342cb1af32d0b5121c64fde6361de
+Section: Tweaks
+Description: Mutes/unmutes videos in YouTube directly.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youmute.html
+Name: YouMute
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youmute.json
+
 Package: com.ps.youpip
 Version: 1.10.0
 Architecture: iphoneos-arm64
@@ -7286,6 +7322,42 @@ SHA1: a055a22f97907fa2848c79f71ffa648dc7750a2b
 SHA256: 85503f9a5c81320e631b941ea62610b73123c1a34ee5bccf3db6b64b523c0581
 Section: Tweaks
 Description: View/change video quality in iOS YouTube app faster.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
+Name: YouQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
+
+Package: com.ps.youquality
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.1.1)
+Filename: ./debs/youtube/youquality/com.ps.youquality_1.3.6_iphoneos-arm64.deb
+Size: 6556
+MD5sum: 95f4c48de7d529d9269f9c376d09585d
+SHA1: b77dce466f638844b285b97513d17f277b8bc695
+SHA256: 9ccf1b5aeef71051f2de59157096c9feea76258d25603a7096ecfd169e8dce45
+Section: Tweaks
+Description: Views/changes video quality in iOS YouTube app faster.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
+Name: YouQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
+
+Package: com.ps.youquality
+Version: 1.3.6
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.1.1)
+Filename: ./debs/youtube/youquality/com.ps.youquality_1.3.6_iphoneos-arm.deb
+Size: 6660
+MD5sum: 4870283524a8299dc82ef3ab6b947ff8
+SHA1: a04550f0a73bc0ba743637c24715a22263324846
+SHA256: 6c54be95ce5e323ca8235872400501bc180e24a3fee53518c7d8f06ab7c78a5c
+Section: Tweaks
+Description: Views/changes video quality in iOS YouTube app faster.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youquality.html
 Name: YouQuality
@@ -10977,6 +11049,42 @@ Size: 16920
 MD5sum: f8945a3229403f533eebe430778b92d8
 SHA1: f0466ed90e5e1d5b9e162956a968456fab9f5471
 SHA256: 2ed94781c6572a608c74af436789d6acc2945fc467b18eb73598dcb857b59b8b
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.6.5_iphoneos-arm64.deb
+Size: 17462
+MD5sum: a8f0549f0ca68cb8e52b6155e5dd0d6e
+SHA1: 8f64f8e1d7368f46ba1039b7d6aabe5b4a56aad5
+SHA256: c65181a83d7ad5bde1c830498f4c364a811dbbecfecbf69afcaf7107e8f3e5fe
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 1.6.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_1.6.5_iphoneos-arm.deb
+Size: 17512
+MD5sum: 7807a1216c8bb0def44b4094125934e9
+SHA1: a880c25aa7bcf45165e0418427e6594f1f7fcbd1
+SHA256: bd066d3e4f1eced5712963be407b421bac93aa6804f62a3c203fb92c1394c9bc
 Section: Tweaks
 Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart

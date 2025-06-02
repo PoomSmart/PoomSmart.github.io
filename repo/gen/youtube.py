@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.6.5", "Added the workaround to auto-reload a video when it is stuck at buffering state for more than 2 seconds, when VP9 is enabled"],
             ["1.6.4", "Ensure software AV1 decoding is functional (untested)"],
             ["1.6.3", "Improved the stability of video playback when Use VP9 option is enabled"],
             ["1.6.2", "Fixed incorrect video formats filtering logic (for ex. 1080p VP9 format is not removed even when All VP9 option is disabled)"],
@@ -384,6 +385,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.3.2", "Optimized the code to display mute/unmute image"],
             ["1.3.1", "Added th localization"],
             ["1.3.0", [
                 "Updated for YTVideoOverlay 2.0.0",
@@ -407,6 +409,7 @@ youtube = [
         "description": "<p>Adds a video quality to the video overlay where you can easily change the video quality.</p>\
             <p>Install YTClassicVideoQuality alongside this tweak to make video quality list appear right away.</p>",
         "changes": [
+            ["1.3.6", "Removed unused code"],
             ["1.3.5", "Depends on YTVideoOverlay 2.1.1+"],
             ["1.3.4", "Added th localization"],
             ["1.3.3", "Fixed 720p and lower quality text entering a new line when the button is placed at the top"],
