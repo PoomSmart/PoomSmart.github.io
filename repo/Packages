@@ -3993,6 +3993,42 @@ Description: Fix drag-and-drop emoji sticker feature for A10/A10X devices.
 Author: PoomSmart
 Name: NoANEEmojiSticker
 
+Package: com.ps.noswiftatruntime
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 16.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/system/com.ps.noswiftatruntime_1.0.0_iphoneos-arm.deb
+Size: 4708
+MD5sum: 3f01ac108724be8d00f6eb1de1816d40
+SHA1: 8cb7ead0e048594c4908d40368415eeff1ee27c5
+SHA256: d5cda434d3e7c82bc667aae085ad7a098719e751f5061b672fdf3f768b6a13f0
+Section: Tweaks
+Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on older iOS versions.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
+Name: NoSwiftAtRuntime
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
+
+Package: com.ps.noswiftatruntime
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 16.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/system/com.ps.noswiftatruntime_1.0.0_iphoneos-arm64.deb
+Size: 4776
+MD5sum: 705893e53a8444dc64d2cea0ad19a76a
+SHA1: 56f2b79056aa6cc74f025d1c981bc0c5ca591c07
+SHA256: 0f58462a3c15967428dcf8aaca39bf1616063a222ef91aa5a282b3f72f6ce7b8
+Section: Tweaks
+Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on older iOS versions.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
+Name: NoSwiftAtRuntime
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
+
 Package: com.ps.notoemojicursedefm
 Version: 15.1.0
 Architecture: iphoneos-arm64e
