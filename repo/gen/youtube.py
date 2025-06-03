@@ -521,6 +521,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
         "changes": [
+            ["1.2.1", "Fixed setting scrubber color not working on YouTube version 20.22.1"],
             ["1.2.0", [
                 "Added a new setting to animate slider and scrubber progress",
                 "Fixed slider color not being applied on some old YouTube versions",
