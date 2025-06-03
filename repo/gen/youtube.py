@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["1.6.6", "Fixed a possible app crash when viewing broken Shorts (regression of 1.6.5)"],
             ["1.6.5", "Added the workaround to auto-reload a video when it is stuck at buffering state for more than 2 seconds, when VP9 is enabled"],
             ["1.6.4", "Ensure software AV1 decoding is functional (untested)"],
             ["1.6.3", "Improved the stability of video playback when Use VP9 option is enabled"],
