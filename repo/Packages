@@ -4065,6 +4065,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
 Name: NoSwiftAtRuntime
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
 
+Package: com.ps.noswiftatruntime
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 17.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/system/com.ps.noswiftatruntime_1.0.2_iphoneos-arm64.deb
+Size: 4378
+MD5sum: 793058ffed7da320d67b7b3ab5d9a5e4
+SHA1: d2bb669d69ef18b4f754bf68c5102a2c4559ba7b
+SHA256: 2c7954fbee62a8c3f6cabb8a0b3c65c36fb48f7e215e48c0547a07240d64ef65
+Section: Tweaks
+Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on iOS <= 16.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
+Name: NoSwiftAtRuntime
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
+
+Package: com.ps.noswiftatruntime
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 17.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/system/com.ps.noswiftatruntime_1.0.2_iphoneos-arm.deb
+Size: 4596
+MD5sum: d39929dd7c3316282e358b16c8218b38
+SHA1: 0c4e0d7de3ba016d0f75eea7f4053ffa87dd1983
+SHA256: 6ab661e402f094cc45f846a719dbddeb69177cfa31a8b136433ba56ad8080a2c
+Section: Tweaks
+Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on iOS <= 16.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
+Name: NoSwiftAtRuntime
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
+
 Package: com.ps.notoemojicursedefm
 Version: 15.1.0
 Architecture: iphoneos-arm64e

@@ -231,6 +231,7 @@ tweaks = [
             <p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p>\
             <p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",
         "changes": [
+            ["1.0.2", "Fixed crashing to safe mode for some rootless devices"],
             ["1.0.1", "Allows installation on iOS 16"]
         ]
     }
