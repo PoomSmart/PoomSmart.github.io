@@ -190,11 +190,15 @@ tweaks = [
     {
         "file": "githubweblegacycompat",
         "title": "GitHubWebLegacyCompat",
-        "min_ios": "9.0",
+        "min_ios": "8.0",
         "max_ios": "15.3.1",
-        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed, and also some polyfills.</p>",
+        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["1.0.5", "Added \"Get assets\" button to GitHub Releases page on iOS 14 and lower to work around the assets being not downloadable"],
+            ["1.0.6", "Added Polyfills tweak as a dependency"],
+            ["1.0.5", [
+                "Added \"Get assets\" button to GitHub Releases page on iOS 14 and lower to work around the assets being not downloadable",
+                "Allows installation on iOS 8"
+            ]],
             ["1.0.4", "Added support for iOS 9 - 11"],
             ["1.0.3", [
                 "Added stub value for HTMLDialogElement interface so that GitHub Search feature can work",
@@ -203,6 +207,12 @@ tweaks = [
             ["1.0.2", "Added polyfill for Array.prototype.at so that Issues page can be loaded"],
             ["1.0.1", "Removed unnecessary bits"]
         ]
+    },
+    {
+        "file": "polyfills",
+        "title": "Polyfills",
+        "min_ios": "8.0",
+        "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>"
     },
     {
         "file": "sfsymbols",
