@@ -226,10 +226,13 @@ tweaks = [
         "file": "noswiftatruntime",
         "title": "NoSwiftAtRuntime",
         "min_ios": "13.0",
-        "max_ios": "15.8.4",
+        "max_ios": "16.7.11",
         "description": "<p>Avoids crashing when performing runtime instrumentation on apps with incompatible Swift classes (using recent Swift compiler versions).</p>\
             <p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p>\
             <p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",
+        "changes": [
+            ["1.0.1", "Allows installation on iOS 16"]
+        ]
     }
 ] + youtube + emoji + camera + springboard
 
