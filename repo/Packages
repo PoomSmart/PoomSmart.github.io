@@ -4036,10 +4036,10 @@ Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 17.0), com.opa334.altlist (>= 1.0.4)
 Filename: ./debs/system/com.ps.noswiftatruntime_1.0.1_iphoneos-arm64.deb
-Size: 4664
-MD5sum: 9e7f65204e52a8ddaf84cfced6273fd1
-SHA1: d078f874e56465fe2aaa0ff493aed8b30528ab7d
-SHA256: c69f783f64ba6c9c6dc4010c96a0d5e98ac02d218d5fdbdf779f0b8038de4da9
+Size: 4662
+MD5sum: 285873d787c35609401978f89caafab7
+SHA1: 99fde8b8c78cb134abce9e80b6ab642f8f389c94
+SHA256: 5e84e2a7580ee915cee1971841e4438e9589c1b2525a0687e2cf481cc8ca8427
 Section: Tweaks
 Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on iOS <= 16.
 Author: PoomSmart
@@ -4054,10 +4054,10 @@ Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 17.0), com.opa334.altlist (>= 1.0.4)
 Filename: ./debs/system/com.ps.noswiftatruntime_1.0.1_iphoneos-arm.deb
-Size: 4584
-MD5sum: 4c9822d766a39e33d26b627c6f179de8
-SHA1: 2cea562f50373eea573025f9e794a90cbf41a839
-SHA256: 7262f1a8bb0b51fd6bc5c4efe54e1d53123820da0e0214e43f37924806473760
+Size: 4582
+MD5sum: 3533396cd9d743bc1c1a7e330aff473c
+SHA1: 6fd30ed79c9b4aaa5068e05b3f229fcff12e554c
+SHA256: f3f4ef1c5bdd1a12919c5d4d4bbdee76f73c5e9e3996e7741e2f62e1d5d3b219
 Section: Tweaks
 Description: Avoids crashing when inspecting runtime on apps with incompatible Swift classes on iOS <= 16.
 Author: PoomSmart
