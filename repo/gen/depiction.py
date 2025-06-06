@@ -227,6 +227,7 @@ tweaks = [
             <li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li>\
         </ol>",
         "changes": [
+            ["1.0.4", "Improved icon compatibility on iOS 15"],
             ["1.0.3", "Fixed the tweak not working on iOS 17+"],
             ["1.0.2", "Fixed a possible crash on iOS 15"],
             ["1.0.1", "Improved icon compatibility on iOS 15"]
