@@ -422,7 +422,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 13.0), firmware (<< 13.5)
-Filename: ./debs/com.ps.applebtdeviceessupport_1.0.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.applebtdeviceessupport_1.0.0_iphoneos-arm.deb
 Size: 3080
 MD5sum: 69fc58c29cd03ed10300d49edffa517b
 SHA1: b48e75fe4b709dad96d0d7c8e2c65e7b6339ce12
@@ -514,7 +514,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/com.ps.backupdfix_1.0.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.backupdfix_1.0.0_iphoneos-arm.deb
 Size: 3140
 MD5sum: 3baa315c3676bc199052fc79d7cd260b
 SHA1: 30177fe20673964065ba497fcd12413b85142ff3
@@ -530,7 +530,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 120
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<< 11.0)
-Filename: ./debs/com.ps.backupdfix10_1.0.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.backupdfix10_1.0.0_iphoneos-arm.deb
 Size: 3368
 MD5sum: 7557b90fe5c978689591a4893f312d0d
 SHA1: 6f5fa8a49f4009f7ee4dbed5173cf28b850e2321
@@ -546,7 +546,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 120
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<< 12.0)
-Filename: ./debs/com.ps.backupdfix10_1.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.backupdfix10_1.0.1_iphoneos-arm.deb
 Size: 3374
 MD5sum: 3146f32089aacb95096463b3d6c7253a
 SHA1: b17c1e3643c11a5fcf32cb1dd463b9a49125fcc3
@@ -777,7 +777,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.1.0_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.cahighfps_1.1.0_iphoneos-arm.deb
 Size: 8436
 MD5sum: f5457b4c8ab3bad1dce9816e2ca92758
 SHA1: a36a4b84318efb68ecc86f76742bf38b1daf9234
@@ -795,7 +795,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.1.2_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.cahighfps_1.1.2_iphoneos-arm.deb
 Size: 8862
 MD5sum: e36f805d901cbecc20ea2c456ac05491
 SHA1: e61517043c5f3e38970da3dbd908e827cc748b4e
@@ -813,7 +813,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.0_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.0_iphoneos-arm.deb
 Size: 6522
 MD5sum: 3a6b17ac18a4eaf5bf450a87ca7e6bde
 SHA1: 5a29cc9507a758b832075fb1f4052bd1aafe4899
@@ -831,7 +831,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.1_iphoneos-arm64.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.1_iphoneos-arm64.deb
 Size: 5430
 MD5sum: c5eb1db2add17dd43645c876503e1607
 SHA1: 0ee1f009a5459442bc1969522eada3253ea9a052
@@ -849,7 +849,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.2_iphoneos-arm64.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.2_iphoneos-arm64.deb
 Size: 4972
 MD5sum: f056f0cb6a67d371fe1a38648cf850b1
 SHA1: 5c266ef1ebde905e227c083354e460362b4317e9
@@ -867,7 +867,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.2_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.2_iphoneos-arm.deb
 Size: 6630
 MD5sum: 3b77adc28c9ff6589a01cde52edfec51
 SHA1: 7bd5ba28e87d511779e1d997b4730eb09b4a2af1
@@ -885,7 +885,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.3_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.3_iphoneos-arm.deb
 Size: 6786
 MD5sum: 9ca7f4efe2beb4e0d9a6d8d4e921c45c
 SHA1: 65b253c6f1df8b2a706f3eb6383bf79eb87ec6f6
@@ -903,7 +903,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.ps.cahighfps_1.3.3_iphoneos-arm64.deb
+Filename: ./debs/app/com.ps.cahighfps_1.3.3_iphoneos-arm64.deb
 Size: 5038
 MD5sum: d2dc636b8116447b5716efaa58ccd97e
 SHA1: 8fe6ef8d825599ddbec38cc2fc08b0dfaf6a386a
@@ -2956,7 +2956,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.forceinpicture_1.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.forceinpicture_1.0_iphoneos-arm.deb
 Size: 3748
 MD5sum: 7199881f9c170b42307fd3fdcdf3c858
 SHA1: 84db8cf504b92db12e05c9eadc027e1e2e69dbab
@@ -2972,7 +2972,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.forceinpicture_1.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.forceinpicture_1.0.1_iphoneos-arm.deb
 Size: 3412
 MD5sum: 6126b30fd662eee84d3b4d7df29f98df
 SHA1: 2c74266b1c5d1d8f58f6e709a673df61747d99fd
@@ -3359,7 +3359,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.1.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.highgraphics_1.1.0_iphoneos-arm.deb
 Size: 5070
 MD5sum: 0e00ad70beeba96ea5170be849b023f0
 SHA1: 1d8d5079ddee18d21302e395893cdb41c7acd2e1
@@ -3375,7 +3375,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.1.0_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.highgraphics_1.1.0_iphoneos-arm64.deb
 Size: 4222
 MD5sum: 750a6ca53d714a8e456797071a6d580a
 SHA1: fe9ef05fbd713187d184c09720a0bf58c8e1312e
@@ -3391,7 +3391,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.1.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.highgraphics_1.1.1_iphoneos-arm.deb
 Size: 5264
 MD5sum: 11472a247cbbac245cbbfacf911da95a
 SHA1: 9701f96108d8147b69ca182e3b16ad873526ccbb
@@ -3407,7 +3407,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: ./debs/com.ps.highgraphics_1.1.1_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.highgraphics_1.1.1_iphoneos-arm64.deb
 Size: 3998
 MD5sum: 4c72b5bf0c0cf6b0d0d5ec487b025673
 SHA1: b0b4fbdaf4b0702bd807a2de870c22136a74f428
@@ -3529,7 +3529,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Filename: ./debs/com.ps.injectionfoundation_1.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.injectionfoundation_1.0.1_iphoneos-arm.deb
 Size: 6066
 MD5sum: 4b5066c5e53a8f151d6cacc7ad7d1875
 SHA1: d895d056ffe2fa7ed094d8bb5ae0060b6fdddd7b
@@ -3547,7 +3547,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Filename: ./debs/com.ps.injectionfoundation_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.injectionfoundation_1.0.1_iphoneos-arm64.deb
 Size: 4104
 MD5sum: 5336e1a268a433156a948ed7c136fa62
 SHA1: 3d912ce04d26758ab18208030aad2adad4a212e6
@@ -3847,7 +3847,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./debs/com.ps.linebreakliberator_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.linebreakliberator_1.0.0_iphoneos-arm64.deb
 Size: 3474
 MD5sum: 46f6c1469984db54bf562732033a46e7
 SHA1: 648d2583216a2eabbae5bd76d20487146e4da23b
@@ -3863,7 +3863,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: ./debs/com.ps.linebreakliberator_1.0.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.linebreakliberator_1.0.0_iphoneos-arm.deb
 Size: 3142
 MD5sum: 177d051f00d10aa6a846f79996703ca3
 SHA1: ed7e4b13981d317fa7a76612c2a63314b6c81294
@@ -3879,7 +3879,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.linebreakliberator_1.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.linebreakliberator_1.0.1_iphoneos-arm.deb
 Size: 3138
 MD5sum: c0b421bfab2b8f9607a7987de374d550
 SHA1: 2f764826151cc6f0709440617ac2f7027964133c
@@ -3895,7 +3895,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/com.ps.linebreakliberator_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.linebreakliberator_1.0.1_iphoneos-arm64.deb
 Size: 3214
 MD5sum: d06924fe1b3e07117ee87c73c9bec861
 SHA1: adfb0ea71752444f2943dc46f1171332b8b1877e
@@ -4019,7 +4019,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 104
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0), cy+model.ipad (= 7.1) | cy+model.ipad (= 7.2) | cy+model.ipad (= 7.3) | cy+model.ipad (= 7.4) | cy+model.ipad (= 7.5) | cy+model.ipad (= 7.6) | cy+model.ipad (= 7.11) | cy+model.ipad (= 7.12)
-Filename: ./debs/com.ps.noaneemojisticker_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/keyboard/com.ps.noaneemojisticker_1.0.0_iphoneos-arm64.deb
 Size: 3610
 MD5sum: abe67d975d5b94d27ed02aa604e6c48c
 SHA1: 4eccb1ec30d5df8e3cc8c952b262625f8c15cd5e
@@ -4659,7 +4659,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 356
 Depends: mobilesubstrate, firmware (>= 13.0), com.opa334.ccsupport
-Filename: ./debs/com.ps.pearltracking_0.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.pearltracking_0.0.1_iphoneos-arm.deb
 Size: 37348
 MD5sum: 29b741f273d3d3b1d8c4102ec8e71b6c
 SHA1: e79e67dd6f1029d07ac6433e8492561a3aa98a0b
@@ -4677,7 +4677,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.ccsupport
-Filename: ./debs/com.ps.pearltracking_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.pearltracking_0.0.1_iphoneos-arm64.deb
 Size: 25474
 MD5sum: ff3376a186d5a9f8aee06d742e624d4d
 SHA1: 2926acf29f90f5b919a7e3ed52cd6c9b354697f9
@@ -4695,7 +4695,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
-Filename: ./debs/com.ps.pencilpro_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.pencilpro_1.0.0_iphoneos-arm64.deb
 Size: 5116
 MD5sum: 0b31e6c5d2d465415ae63f80ac5fb0dd
 SHA1: d7734cb2f591aaea62b5aa110794e6704ad4dd7e
@@ -4713,7 +4713,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: firmware (>= 9.0), gsc.ipad, mobilesubstrate
-Filename: ./debs/com.ps.pencilpro_1.0.0_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.pencilpro_1.0.0_iphoneos-arm.deb
 Size: 7088
 MD5sum: 4aa63ab4abf4556a603f7cf8c10d4d34
 SHA1: 7094dad8831047441c66a3491251202b3f8bda7a
@@ -5310,7 +5310,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
-Filename: ./debs/com.ps.replaykitmax_1.0.1_iphoneos-arm.deb
+Filename: ./debs/system/com.ps.replaykitmax_1.0.1_iphoneos-arm.deb
 Size: 3826
 MD5sum: 1dbad5dfb8a001dc76fd78bf75905b7e
 SHA1: 34e68d80d72cf7ba0825767ccca039a4bc54feb8
@@ -5328,7 +5328,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
-Filename: ./debs/com.ps.replaykitmax_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/system/com.ps.replaykitmax_1.0.1_iphoneos-arm64.deb
 Size: 3332
 MD5sum: 3f9ad3a301f6d31b9969451ba85ea789
 SHA1: e785ab54560f53486bd7cad52a48b8b0c3727f2d
@@ -6085,7 +6085,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.emojilibrary
 Conflicts: com.spicat.whatsallemojis
-Filename: ./debs/com.ps.whatsallemojis_1.0.0_iphoneos-arm.deb
+Filename: ./debs/app/com.ps.whatsallemojis_1.0.0_iphoneos-arm.deb
 Size: 2880
 MD5sum: 9fedc1b73253051b6430f4f2facf4ef8
 SHA1: 57ab81935668062e340677b60db25cbe9f63afc0
@@ -6102,7 +6102,7 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.emojilibrary
 Conflicts: com.spicat.whatsallemojis
-Filename: ./debs/com.ps.whatsallemojis_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/com.ps.whatsallemojis_1.0.0_iphoneos-arm64.deb
 Size: 2974
 MD5sum: 7ff0f0bb32b8dbeeeafa3e5f153d50a8
 SHA1: cad1be6a08392f12b818bfe9a8012513dac59cd3
@@ -8355,6 +8355,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
 Name: YouSpeed
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
 
+Package: com.ps.youspeed
+Version: 1.6.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.6.2_iphoneos-arm.deb
+Size: 12056
+MD5sum: 59311cb53cc42a05f9b855308d337897
+SHA1: 3bc0b738c2d4e81fb1f19c9f565458d40311c08e
+SHA256: 41d5a3eae417268203b787bb407d05cc0a783c4befb9c26f1cb3bb814911b3e7
+Section: Tweaks
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.6.2_iphoneos-arm64.deb
+Size: 11920
+MD5sum: f9551dfd070043daaa082cc8640a9e8b
+SHA1: 8f79cae787fa921bdfa9a9eda2f5cd1e1a7617f0
+SHA256: 069d6ece15ac291bae6253f181081fe08b74bb94e9f92f302c303936fa72b12c
+Section: Tweaks
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
 Package: com.ps.ytabconfig
 Version: 1.6.0
 Architecture: iphoneos-arm64
@@ -8746,6 +8784,42 @@ SHA1: 3418f46da087c4d6c9521c80d4cbaa20125878c7
 SHA256: 988e60887083d28a499d9fd31a2d54198453e7c1837f6f8117f4125c2b6624df
 Section: Tweaks
 Description: Configure A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.7.9
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.9_iphoneos-arm64.deb
+Size: 23214
+MD5sum: 865c5eb70b0f7a9932cbc2340868f824
+SHA1: 729a469942c96de052401e8aa77ea8a43b776978
+SHA256: aa79ac4582ee233711ba7b09d0309ab86d9e3fe4f0fd6d4b204bbff0106de441
+Section: Tweaks
+Description: Configures A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.7.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.7.9_iphoneos-arm.deb
+Size: 23276
+MD5sum: 8ba60c68fd205c80d3c29b1fc9ff57d5
+SHA1: 19429625e0f877d038a16153140ebe5e4bbe1d1b
+SHA256: 04c00e10e911a0e7acc9b0aa55225c919d6cd66daf2a05b8e69df5642792e9c3
+Section: Tweaks
+Description: Configures A/B features in iOS YouTube app.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
 Name: YTABConfig
@@ -10239,6 +10313,42 @@ Size: 437618
 MD5sum: f5ac0bbc8a258ba3e546a94d2baec33a
 SHA1: ac64fd113d5c0d6903c4fcc5fe0564d4ec545712
 SHA256: 4c1fb90ca33d58bfce678ef252a4682c4e3fce7c9d60292d58566d791a4f7b6d
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 5256
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytx (>= 1.7.13), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.6.5_iphoneos-arm64.deb
+Size: 438268
+MD5sum: 411022b124aec09d7c3900930398957f
+SHA1: 85a9ab75a3ba23a815835a5ab93b4a60a33c9103
+SHA256: e5aef0e56adc93f21505753347fd58da48032f5308a70f77ffde7471ef25896e
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.6.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 5240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytx (>= 1.7.13), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.6.5_iphoneos-arm.deb
+Size: 438198
+MD5sum: ed750491654d1eddd6c8ff74dc9e11ea
+SHA1: 93ed0491e6a6c5380840c912be5c229bb04f9ab1
+SHA256: b317212350f5b6a11b2ce0db9da7d0bec8b3988396ccced8e74783fa08c07838
 Section: Tweaks
 Description: Attempts to make old YouTube versions work again.
 Author: PoomSmart
@@ -12850,7 +12960,7 @@ Architecture: iphoneos-arm64
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/daniel.analytics_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/system/daniel.analytics_0.0.1_iphoneos-arm64.deb
 Size: 2914
 MD5sum: 4942463a5ea3e269a0dc638218ba7527
 SHA1: 83651c745cf8df8557619573c4d8643c79caafac
@@ -12868,7 +12978,7 @@ Architecture: iphoneos-arm
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/daniel.analytics_0.0.1_iphoneos-arm.deb
+Filename: ./debs/system/daniel.analytics_0.0.1_iphoneos-arm.deb
 Size: 2836
 MD5sum: 64030ab8ed2c49f90e421922c2d2d85e
 SHA1: 8840687516c3d7c50512c36a930093b5b579881e
@@ -12886,7 +12996,7 @@ Architecture: iphoneos-arm
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/daniel.analytics_0.0.3_iphoneos-arm.deb
+Filename: ./debs/system/daniel.analytics_0.0.3_iphoneos-arm.deb
 Size: 2894
 MD5sum: d276fa4c297d173ccd5ee154c492da8c
 SHA1: 8fe581745aea2e52b3c2ce120cb94398fba23363
@@ -12904,7 +13014,7 @@ Architecture: iphoneos-arm64e
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/daniel.analytics_0.0.3_iphoneos-arm64e.deb
+Filename: ./debs/system/daniel.analytics_0.0.3_iphoneos-arm64e.deb
 Size: 2908
 MD5sum: 1969c9fe9077790ed44830bdd7012163
 SHA1: 48a4555567a2437d641d460baaf9caaafd27e130
@@ -12922,7 +13032,7 @@ Architecture: iphoneos-arm64
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: ./debs/daniel.analytics_0.0.3_iphoneos-arm64.deb
+Filename: ./debs/system/daniel.analytics_0.0.3_iphoneos-arm64.deb
 Size: 2978
 MD5sum: 5c00cd2df62eae594a2ae833c2d21501
 SHA1: 5044831c78bdab0fc64c4b79c7663ff2676ad248
@@ -12940,7 +13050,7 @@ Architecture: iphoneos-arm64
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm64.deb
+Filename: ./debs/system/daniel.analytics_0.0.4_iphoneos-arm64.deb
 Size: 2972
 MD5sum: 8ea0180d14e9cf6bc14fe39a1f0aa5d9
 SHA1: 1fd41c07fafdb9e5efdae030d7cb498eb1a80ef6
@@ -12958,7 +13068,7 @@ Architecture: iphoneos-arm
 Maintainer: daniel & PoomSmart
 Installed-Size: 152
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm.deb
+Filename: ./debs/system/daniel.analytics_0.0.4_iphoneos-arm.deb
 Size: 3156
 MD5sum: 678f2437e39525fc65bcd8ac3ecf86a7
 SHA1: 894bc7d63950c36027d44c7eb9fe3f69ed53a68c
@@ -12976,7 +13086,7 @@ Architecture: iphoneos-arm64e
 Maintainer: daniel & PoomSmart
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/daniel.analytics_0.0.4_iphoneos-arm64e.deb
+Filename: ./debs/system/daniel.analytics_0.0.4_iphoneos-arm64e.deb
 Size: 2904
 MD5sum: eeae0f287671e49b0c6bfca39eba6e43
 SHA1: 451868676aff8fa31612e2fc70c560cee40c35ce

@@ -232,6 +232,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.7.9", "Safely accesses YouTube configs"],
             ["1.7.8", "Removed kidsClient* and musicOfflineClient* A/B flags as they are unrelated to YouTube app"],
             ["1.7.7", [
                 "Translated the remaining languages using AI",
@@ -433,6 +434,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
+            ["1.6.2", "Fixed the icon of minus button not being displayed on old YouTube versions"],
             ["1.6.1", [
                 "Fixed tapping on speed presets not dismissing the dialog",
                 "Fixed speed presets not being aligned correctly in RTL languages"
@@ -442,8 +444,8 @@ youtube = [
                 "Removed the now redundant hook"
             ]],
             ["1.5.1", [
-                "Improved the style of + and - buttons in the speed slider dialog",
-                "Fixed + and - buttons not having background color in light mode"
+                "Improved the style of plus and minus buttons in the speed slider dialog",
+                "Fixed plus and minus buttons not having background color in light mode"
             ]],
             ["1.5.0", [
                 "Added increase and decrease speed buttons to the speed slider dialog",
@@ -547,6 +549,7 @@ youtube = [
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>\
             <p>Note: Ensure that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.6.5", "Added an alert on app startup if the user has modified Info.plist file to spoof the YouTube version, as this is discouraged while using this tweak"],
             ["1.6.4", "Fixed tapping on Audio Track video menu not working"],
             ["1.6.3", [
                 "Added a one-time alert to inform users that, to play a video, they may need to tap on the triple dot menu and select \"Play\"",
