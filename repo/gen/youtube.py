@@ -121,18 +121,7 @@ youtube = [
         "title": "YTClassicVideoQuality",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Reverts to the original video quality selector in YouTube app.</p>",
-        "changes": [
-            ["1.5.2", "Removed the now redundant hook"],
-            ["1.5.1", "Fixed incorrect video quality list position on iPad"],
-            ["1.5.0", "Fixed the tweak not working inside video premium controls"],
-            ["1.4.0", "Used an alternative method to restore the video quality selector (contributed by @dayanch96)"],
-            ["1.3.2", "Fixed crash on older YouTube versions"],
-            ["1.3.1", "Fixed original video quality selector not showing on recent YouTube versions on iPhone devices"],
-            ["1.2.0", "Added Premium formats to the classic video quality selector, if the video supports it"],
-            ["1.1.0", "Used an alternative method to restore the video quality selector"],
-            ["1.0.1", "Fixed crashing in YouTube version 16.20.5"]
-        ]
+        "description": "<p>Reverts to the original video quality selector in YouTube app.</p>"
     },
     {
         "file": "ytsystemappearance",
@@ -150,12 +139,7 @@ youtube = [
         "screenshots": True,
         "description": "<p>Removes Shorts tab and replace with Explore tab in YouTube app.</p>\
             <p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p>\
-            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>",
-        "changes": [
-            ["1.0.4", "Added support for YouTube version 20.16.7"],
-            ["1.0.3", "Added support for YouTube version 19.47.7"],
-            ["1.0.2", "Added support for YouTube version 16.45.4"]
-        ]
+            <p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>"
     },
     {
         "file": "ytshortsprogress",
@@ -184,11 +168,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Removes YouTube Premium upsells.</p>",
-        "changes": [
-            ["1.0.6", "Fixed premium full-screen dialog not being removed (regression of 1.0.5)"],
-            ["1.0.5", "Fixed images in the community posts not being displayed in full-screen on tap"]
-        ]
+        "description": "<p>Removes YouTube Premium upsells.</p>"
     },
     {
         "file": "noytmpremium",
@@ -304,12 +284,7 @@ youtube = [
                 tweak_url("youarethere"),
                 tweak_url("youremembercaption"),
                 tweak_url("ytsystemappearance")
-        ),
-        "changes": [
-            ["1.0.6", "Disabled the new floating mini-player style"],
-            ["1.0.5", "Removed YTNoCheckLocalNetwork feature"],
-            ["1.0.4", "Enabled video zoom in/out feature"]
-        ]
+        )
     },
     {
         "file": "ytautofullscreen",
