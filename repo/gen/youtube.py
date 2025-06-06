@@ -531,61 +531,36 @@ youtube = [
                 "Added a one-time alert to inform users that, to play a video, they may need to tap on the triple dot menu and select \"Play\"",
                 "Fixed missing icon for \"Purchases and membership\" menu in You tab"
             ]],
-            ["1.6.2", [
-                "Reverted the logic rewrite in 1.6.1 because the root cause has to do with CydiaSubstrate being broken on iOS 12 jailbreaks in general",
-                "Suggestion: Switch from CydiaSubstrate to Substitute or Libhooker if you are on iOS 12 jailbreaks",
-            ]],
-            ["1.6.1", "Rewrote the logic to enabled refreshed Watch Later playlist on iPad so that it won't crash on problematic jailbreaks (regression of 1.5.0)"],
             ["1.6.0", "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)"],
-            ["1.5.12", "Fixed missing icon for some video menus"],
-            ["1.5.11", "Fixed Shorts like/dislike buttons not showing on YouTube version around 17.39.4 (regression of 1.5.9)"],
-            ["1.5.10", [
-                "Fixed the left side of the video player (with live chat) not responding to double tap to seek gesture on iPads",
-                "Added the check to not apply this tweak on YouTube version 19.01.1 and higher"
-            ]],
-            ["1.5.9", "Fixed broken autoplay functionality on old YouTube versions (regression of 1.5.7)"],
-            ["1.5.8", [
-                "Required YouTube X 1.7.13+ to make video cards appear properly on YouTube version 17.09.1 and lower",
-                "Fixed app crash when revealing the video menu on old YouTube versions",
-                "Fixed \"Select another account\" menu not showing on old YouTube versions"
-            ]],
-            ["1.5.7", "Fixed app crash when watching a video in new YouTube versions (regression of 1.5.6)"],
-            ["1.5.6", "Fixed video previous/next buttons and autoplay not working on old YouTube versions"],
-            ["1.5.5", [
-                "Fixed play video overlay button not working on old YouTube versions",
-                "Fixed app crash when tapping on a video card on old YouTube versions"
-            ]],
-            ["1.5.4", [
-                "Fixed You tab image not showing on YouTube version 17.09.1 and lower",
-                "Fixed You tab not showing the default icon in signed-out state"
-            ]],
-            ["1.5.3", "Fixed Play option on videos under scrollable lists playing an entirely different video"],
-            ["1.5.2", [
-                "Fixed tapping on a video in Home not playing on iPhones",
-                "Fixed Play option not showing for videos in Home tab and the search results on iPhones"
-            ]],
-            ["1.5.1", "Fixed tapping on a video in Home and Subscription tabs not playing"],
-            ["1.5.0", [
+            ["1.5.12", [
                 "Restored like/dislike buttons in Shorts",
-                "Restored refreshed Watch Later playlist on iPad"
+                "Restored refreshed Watch Later playlist on iPad",
+                "Required YouTube X 1.7.13+ to make video cards appear properly on YouTube version 17.09.1 and lower",
+                "Added the check to not apply this tweak on YouTube version 19.01.1 and higher",
+                "Fixed app crash when tapping on a video card on old YouTube versions",
+                "Fixed video previous/next buttons and autoplay not working on old YouTube versions",
+                "Fixed play video overlay button not working on old YouTube versions",
+                "Fixed app crash when revealing the video menu on old YouTube versions",
+                "Fixed \"Select another account\" menu not showing on old YouTube versions",
+                "Fixed Play option on videos under scrollable lists playing an entirely different video",
+                "Fixed the left side of the video player (with live chat) not responding to double tap to seek gesture on iPads",
+                "Fixed missing icon for some video menus",
+                "Fixed You tab image not showing on YouTube version 17.09.1 and lower",
+                "Fixed You tab not showing the default icon in signed-out state",
+                "Fixed tapping on a video in Home not playing on iPhones",
+                "Fixed Play option not showing for videos in Home tab and the search results on iPhones",
+                "Fixed tapping on a video in Home and Subscription tabs not playing"
             ]],
             ["1.4.3", [
-                "Fixed Play option not showing for videos in the search results, history, user's playlists and channel playlists",
-                "Fixed \"Your movies\" icon in Subscriptions tab not rendering correctly"
-            ]],
-            ["1.4.2", "Removed NoYTPremium tweak as a dependency and included some of its code inside this tweak to work around uYou tweak's strict outdated requirements"],
-            ["1.4.1", [
-                "Fixed Play option playing a different video if the video is in a grid",
-                "Fixed video like/dislike numbers still being dark in dark mode (you have to update Return YouTube Dislike tweak to v1.13.7+)"
-            ]],
-            ["1.4.0", [
+                "Added Return YouTube Dislike tweak as a dependency",
                 "Added \"Select another account\" menu to the account overflow menu, making it possible to switch accounts",
+                "Removed NoYTPremium tweak as a dependency and included some of its code inside this tweak to work around uYou tweak's strict outdated requirements",
+                "Fixed Play option playing a different video if the video is in a grid",
+                "Fixed Play option not showing for videos in the search results, history, user's playlists and channel playlists",
+                "Fixed \"Your movies\" icon in Subscriptions tab not rendering correctly",
+                "Fixed missing number in like/dislike buttons under the video (RYD tweak must be enabled)",
                 "Fixed video like/dislike numbers being dark in dark mode",
                 "Fixed the account image not showing in the bottom bar"
-            ]],
-            ["1.3.0", [
-                "Added Return YouTube Dislike tweak as a dependency",
-                "Fixed missing number in like/dislike buttons under the video (RYD tweak must be enabled)"
             ]],
             ["1.2.0", [
                 "Added Play option to the video and playlist menu (to work around video not playing when you tap on the video, only for videos that tapping does nothing)",
