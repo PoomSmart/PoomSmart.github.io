@@ -214,6 +214,7 @@ tweaks = [
         "min_ios": "8.0",
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>",
         "changes": [
+            ["1.2.0", "Added polyfills for Promise.allSettled and the meta viewport min-width"],
             ["1.1.1", "Removed the code that removes all other user scripts"],
             ["1.1.0", [
                 "Minified all JavaScript codes before injecting",
