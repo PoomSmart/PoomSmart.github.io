@@ -3298,6 +3298,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.htm
 Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
+Package: com.ps.githubweblegacycompat
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
+Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm.deb
+Size: 21676
+MD5sum: e5c87e1d0c4b9bfbb4d2ea133a077b0f
+SHA1: 9937df17a14326f8a06ef909081f0650ac57a450
+SHA256: d562c7b3af045dc0afbf6da822b468cc7d5ded7723db638597b878f5b4f29071
+Section: Tweaks
+Description: Makes GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
+Package: com.ps.githubweblegacycompat
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
+Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm64.deb
+Size: 19294
+MD5sum: 28cf7ee398ece374605d0c0bdc0f60d8
+SHA1: 196ecaec5aa67e2c374403bb24d47b486431afeb
+SHA256: 7bb089910ff054f0f128e58d22f39f8a91aa9571eaca8af796a1c9258725b401
+Section: Tweaks
+Description: Makes GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
 Package: com.ps.grayscaleflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -5549,6 +5585,42 @@ Size: 8078
 MD5sum: 7f26ae7248011400ac4ef793207e6103
 SHA1: 887ecc3c594973fadfbf4f82f2cc487b86330e26
 SHA256: 55b23b8cf8ced05e7b7d0a1011f6bb09e60bcc9faa4adcdcfb46eec212645e65
+Section: Tweaks
+Description: Backports latest SF Symbols to older iOS versions.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
+
+Package: com.ps.sfsymbols
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
+Filename: ./debs/backport/com.ps.sfsymbols_1.0.8_iphoneos-arm64.deb
+Size: 8192
+MD5sum: ad2245e900cb2b680b50a1690bd560ac
+SHA1: 052ddd8645b63a96d5656b2e48eae07a02802605
+SHA256: 81db7cce6262ce1a575309830ebdc2611c38f388bb40c8a8de2a678bdb862691
+Section: Tweaks
+Description: Backports latest SF Symbols to older iOS versions.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/sfsymbols.html
+Name: SFSymbols
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
+
+Package: com.ps.sfsymbols
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
+Filename: ./debs/backport/com.ps.sfsymbols_1.0.8_iphoneos-arm.deb
+Size: 8994
+MD5sum: f4fa682623d42bd8af79f54da9b390db
+SHA1: 0f3f6006e21f09362fd804bc4f10a3293714a655
+SHA256: a88ed1311527d6414c30afd3fa360d2341c3aa2a13f1772802c95f073a2b374c
 Section: Tweaks
 Description: Backports latest SF Symbols to older iOS versions.
 Author: PoomSmart

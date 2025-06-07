@@ -194,6 +194,7 @@ tweaks = [
         "max_ios": "15.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["1.0.7", "Made \"Get assets\" button appear for expanded assets as well"],
             ["1.0.6", "Added Polyfills tweak as a dependency"],
             ["1.0.5", [
                 "Added \"Get assets\" button to GitHub Releases page on iOS 14 and lower to work around the assets being not downloadable",
@@ -237,6 +238,7 @@ tweaks = [
             <li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li>\
         </ol>",
         "changes": [
+            ["1.0.8", "Fixed potential crash on iOS 15"],
             ["1.0.7", "Improved icon compatibility on iOS 15"],
             ["1.0.3", "Fixed the tweak not working on iOS 17+"],
             ["1.0.2", "Fixed a possible crash on iOS 15"],
