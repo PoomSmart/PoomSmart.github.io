@@ -212,7 +212,15 @@ tweaks = [
         "file": "polyfills",
         "title": "Polyfills",
         "min_ios": "8.0",
-        "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>"
+        "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>",
+        "changes": [
+            ["1.1.0", [
+                "Minified all JavaScript codes before injecting",
+                "Added support for injecting JavaScript after the document is loaded",
+                "Added polyfills for Array.findLast, Array.findLastIndex, Object.hasOwn and String.replaceAll",
+                "Added `max-width: 100% and overflow-x: hidden` CSS for html and body to fix incomplete page width on iOS 14 and lower"
+            ]],
+        ]
     },
     {
         "file": "sfsymbols",
