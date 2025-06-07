@@ -214,6 +214,7 @@ tweaks = [
         "min_ios": "8.0",
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>",
         "changes": [
+            ["1.1.1", "Removed the code that removes all other user scripts"],
             ["1.1.0", [
                 "Minified all JavaScript codes before injecting",
                 "Added support for injecting JavaScript after the document is loaded",
