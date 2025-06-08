@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
-source ~/.venv/bin/activate
-
 # brew install dpkg
 
 # rm -f depictions/* sileodepictions/*
-python3 gen/depiction.py
+uv run python3 gen/depiction.py
 dpkg-scanpackages -m ./debs /dev/null > Packages
 gzip -cf Packages > Packages.gz
 xz -9fkev Packages > Packages.xz

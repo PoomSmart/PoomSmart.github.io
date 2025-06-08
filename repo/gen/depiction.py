@@ -1,5 +1,4 @@
 # follow https://rustup.rs
-# pip3 install maturin jinja2 minify-html
 import html
 import json
 import os
@@ -215,6 +214,11 @@ tweaks = [
         "min_ios": "8.0",
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>",
         "changes": [
+            ["1.3.0", [
+                "Allows polyfills to be injected into iframes",
+                "Added polyfill for CompressionStream API",
+                "Fixed support for old iOS versions"
+            ]],
             ["1.2.0", "Added polyfills for Promise.allSettled and the meta viewport min-width"],
             ["1.1.1", "Removed the code that removes all other user scripts"],
             ["1.1.0", [
