@@ -212,7 +212,8 @@ tweaks = [
         "file": "polyfills",
         "title": "Polyfills",
         "min_ios": "8.0",
-        "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions</p>",
+        "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
+            <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
             ["1.3.0", [
                 "Allows polyfills to be injected into iframes",
