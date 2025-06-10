@@ -216,9 +216,10 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
             ["1.4.0", [
+                "Added missing polyfill for Web Streams API (necessary for CompressionStream API)",
                 "Added polyfill for Element.checkVisibility",
                 "Removed problematic `max-width: 100% and overflow-x: hidden` CSS"
-            ]]
+            ]],
             ["1.3.0", [
                 "Allows polyfills to be injected into iframes",
                 "Added polyfill for CompressionStream API",
