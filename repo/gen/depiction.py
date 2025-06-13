@@ -215,6 +215,7 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
+            ["1.5.1", "Fixed websites always loading in desktop mode"],
             ["1.5.0", [
                 "Spoofed the user agent to iOS 18.5",
                 "Added polyfill for RegExp lookbehind feature"
