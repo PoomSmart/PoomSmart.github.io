@@ -215,6 +215,10 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
+            ["1.7.0", [
+                "Replaced existing streams polyfills with the unified one from @stardazed/streams-polyfill",
+                "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex"
+            ]],
             ["1.6.2", [
                 "Downgraded spoofed iOS version to 16.0 to improve compatibility on old devices",
                 "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower"
