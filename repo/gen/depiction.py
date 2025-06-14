@@ -209,12 +209,23 @@ tweaks = [
         ]
     },
     {
+        "file": "chatgptweblegacycompat",
+        "title": "ChatGPTWebLegacyCompat",
+        "min_ios": "15.0",
+        "max_ios": "15.3.1",
+        "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.3 by injecting CSS with unsupported syntax removed.</p>"
+    },
+    {
         "file": "polyfills",
         "title": "Polyfills",
         "min_ios": "8.0",
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
+            ["1.8.0", [
+                "Added polyfill for Array.toReversed",
+                "Fixed polyfill compatibility with iOS 13.0 and lower"
+            ]],
             ["1.7.1", "Rewrote polyfill for RegExp lookbehind"],
             ["1.7.0", [
                 "Replaced existing streams polyfills with the unified one from @stardazed/streams-polyfill",

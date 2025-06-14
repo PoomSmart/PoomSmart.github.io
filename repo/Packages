@@ -1174,6 +1174,24 @@ Description: Flipswitch for volume change with buttons
 Author: PoomSmart
 Name: Change Vol With Buttons Flipswitch
 
+Package: com.ps.chatgptweblegacycompat
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 1456
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.8.0), firmware (>= 15.0), firmware (<< 15.4)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.0.0_iphoneos-arm64.deb
+Size: 64392
+MD5sum: 41ef83abc9af53b9a0e3b6ce3869a248
+SHA1: abcf4075fc0bd44d47d067eca71ceb95decd1241
+SHA256: 0f0b0334c3461e60044a4d7c685f47a60afea137ad0c5bff8ea93fd40d15f57a
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -5114,6 +5132,42 @@ Size: 36784
 MD5sum: 8f92d0189290ccd8e1712f362a82f840
 SHA1: 8acfc63d2e8ef0fe6b8b06243d164a33085ef907
 SHA256: b61a35a8fbab85b134f92d64d5975b9af3ef8685d56c1589f25025dc34447f58
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
+Filename: ./debs/app/com.ps.polyfills_1.8.0_iphoneos-arm.deb
+Size: 36910
+MD5sum: b571624f0de3402363bd1540d68dae04
+SHA1: 3a053dd1e7beee797a5cf20482e0f8c8b051c183
+SHA256: 557fa3ad2dbde353a29f52d2a881acf397c3798a0e945af3a806ebd4c8c97b4f
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 396
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
+Filename: ./debs/app/com.ps.polyfills_1.8.0_iphoneos-arm64.deb
+Size: 34636
+MD5sum: bc01e2be55d8439aae5adcceed10e9f4
+SHA1: a552bf000916df4d30e10f6eb3b10ff26fc415dc
+SHA256: b4a8845d0c5f4e0662ee3e7a9b5930ccd4e8105c2f83c2a5bfa62b5f8bb19b7f
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart
