@@ -215,6 +215,7 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
+            ["1.7.1", "Rewrote polyfill for RegExp lookbehind"],
             ["1.7.0", [
                 "Replaced existing streams polyfills with the unified one from @stardazed/streams-polyfill",
                 "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex"
@@ -224,7 +225,7 @@ tweaks = [
                 "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower"
             ]],
             ["1.6.0", [
-                "Fixed broken polyfill for RegExp lookbehind feature",
+                "Fixed broken polyfill for RegExp lookbehind",
                 "Fixed spoofing user agent not working on non-Safari browsers",
                 "Added polyfill for BroadcastChannel API",
                 "Restricted WebStreams API polyfill to iOS 14.1 and lower"
@@ -232,7 +233,7 @@ tweaks = [
             ["1.5.1", "Fixed websites always loading in desktop mode"],
             ["1.5.0", [
                 "Spoofed the user agent to iOS 18.5",
-                "Added polyfill for RegExp lookbehind feature"
+                "Added polyfill for RegExp lookbehind"
             ]],
             ["1.4.0", [
                 "Added missing polyfill for Web Streams API (necessary for CompressionStream API)",
