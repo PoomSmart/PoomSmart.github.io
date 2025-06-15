@@ -225,7 +225,7 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
-            ["1.8.1", "Fixed the same polyfill scripts being injected multiple times"],
+            ["1.8.2", "Fixed the same polyfill scripts being injected multiple times"],
             ["1.8.0", [
                 "Added polyfill for Array.toReversed",
                 "Fixed polyfill compatibility with iOS 13.0 and lower"
