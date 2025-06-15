@@ -1192,6 +1192,24 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
+Package: com.ps.chatgptweblegacycompat
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 1424
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.8.1), firmware (>= 15.0), firmware (<< 16.0)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.1.0_iphoneos-arm64.deb
+Size: 65148
+MD5sum: 94f68b47c958e603cfbb96b469b0c55f
+SHA1: 00e617053de1d04f5ab3964226120bc97166d416
+SHA256: 41fb0ce9d91576c145c6974444c487539e29f2993a295294d23e2765b8c4954f
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm

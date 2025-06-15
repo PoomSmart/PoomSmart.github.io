@@ -212,8 +212,11 @@ tweaks = [
         "file": "chatgptweblegacycompat",
         "title": "ChatGPTWebLegacyCompat",
         "min_ios": "15.0",
-        "max_ios": "15.3.1",
-        "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.3 by injecting CSS with unsupported syntax removed.</p>"
+        "max_ios": "15.8.4",
+        "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
+        "changes": [
+            ["1.1.0", "Allows installation on iOS 15.4 - 15.8, fixing a small layout bug with the chat input box"]
+        ]
     },
     {
         "file": "polyfills",
