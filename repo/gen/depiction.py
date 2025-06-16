@@ -225,6 +225,7 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
         "changes": [
+            ["1.9.1", "Fixed high CPU usage bug on iOS 15 and lower"],
             ["1.9.0", [
                 "Restricted CompressionStream polyfill to iOS 16.3 and lower",
                 "Restricted ReadableStream, WritableStream and TransformStream polyfills to iOS 14.0 and lower"
@@ -247,7 +248,7 @@ tweaks = [
                 "Fixed broken polyfill for RegExp lookbehind",
                 "Fixed spoofing user agent not working on non-Safari browsers",
                 "Added polyfill for BroadcastChannel API",
-                "Restricted WebStreams API polyfill to iOS 14.1 and lower"
+                "Restricted WebStreams API polyfill to iOS 14.0 and lower"
             ]],
             ["1.5.1", "Fixed websites always loading in desktop mode"],
             ["1.5.0", [
