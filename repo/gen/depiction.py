@@ -227,6 +227,17 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 as there is a high CPU usage bug.</p>",
         "changes": [
+            ["1.10.0", [
+                "Fixed requesting desktop website not working in Safari",
+                "Added polyfills for Array.from, Array.fromAsync and Array.includes",
+                "Added polyfill for CSS.escape",
+                "Added polyfill for NodeList.forEach",
+                "Added polyfills for Object.assign, Object.entries and Object.values",
+                "Added polyfill for Proxy",
+                "Added polyfills for String.startsWith, String.endsWith and String.includes",
+                "Added polyfill for Symbol.asyncIterator",
+                "Added polyfill for WeakSet"
+            ]],
             ["1.9.2", [
                 "Fixed user agent spoofing not working (regression of 1.9.1)",
                 "Fixed Safari crashing on iOS 8"
