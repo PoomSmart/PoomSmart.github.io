@@ -227,16 +227,20 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 as there is a high CPU usage bug.</p>",
         "changes": [
+            ["1.11.0", [
+                "Added the settings page to enable/disable the tweak",
+                "Disabled RegExp lookbehind polyfill on twitter.com to avoid breaking the website (< 16.4)",
+            ]],
             ["1.10.0", [
                 "Fixed requesting desktop website not working in Safari",
-                "Added polyfills for Array.from, Array.fromAsync and Array.includes",
-                "Added polyfill for CSS.escape",
-                "Added polyfill for NodeList.forEach",
-                "Added polyfills for Object.assign, Object.entries and Object.values",
-                "Added polyfill for Proxy",
-                "Added polyfills for String.startsWith, String.endsWith and String.includes",
-                "Added polyfill for Symbol.asyncIterator",
-                "Added polyfill for WeakSet"
+                "Added polyfills for Array.from (< 9.0), Array.fromAsync (< 16.4) and Array.includes (< 9.0)",
+                "Added polyfill for CSS.escape (< 10.1)",
+                "Added polyfill for NodeList.forEach (< 10.0)",
+                "Added polyfills for Object.assign (< 9.0), Object.entries (< 10.1) and Object.values (< 10.1)",
+                "Added polyfill for Proxy (< 10.0)",
+                "Added polyfills for String.startsWith, String.endsWith and String.includes (< 9.0)",
+                "Added polyfill for Symbol.asyncIterator (< 11.1)",
+                "Added polyfill for WeakSet (< 9.0)"
             ]],
             ["1.9.2", [
                 "Fixed user agent spoofing not working (regression of 1.9.1)",
@@ -249,10 +253,10 @@ tweaks = [
             ]],
             ["1.8.2", "Fixed the same polyfill scripts being injected multiple times"],
             ["1.8.0", [
-                "Added polyfill for Array.toReversed",
+                "Added polyfill for Array.toReversed (< 16.0)",
                 "Fixed polyfill compatibility with iOS 13.0 and lower"
             ]],
-            ["1.7.1", "Rewrote polyfill for RegExp lookbehind"],
+            ["1.7.1", "Rewrote polyfill for RegExp lookbehind (< 16.4)"],
             ["1.7.0", [
                 "Replaced existing streams polyfills with the unified one from @stardazed/streams-polyfill",
                 "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex"
@@ -262,24 +266,24 @@ tweaks = [
                 "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower"
             ]],
             ["1.6.0", [
-                "Fixed broken polyfill for RegExp lookbehind",
+                "Fixed broken polyfill for RegExp lookbehind (< 16.4)",
                 "Fixed spoofing user agent not working on non-Safari browsers",
-                "Added polyfill for BroadcastChannel API",
-                "Restricted WebStreams API polyfill to iOS 14.0 and lower"
+                "Added polyfill for BroadcastChannel (< 15.4)",
+                "Restricted WebStreams polyfill to iOS 14.0 and lower"
             ]],
             ["1.5.1", "Fixed websites always loading in desktop mode"],
             ["1.5.0", [
                 "Spoofed the user agent to iOS 18.5",
-                "Added polyfill for RegExp lookbehind"
+                "Added polyfill for RegExp lookbehind. (< 16.4)"
             ]],
             ["1.4.0", [
-                "Added missing polyfill for Web Streams API (necessary for CompressionStream API)",
-                "Added polyfill for Element.checkVisibility",
+                "Added missing polyfill for Web Streams (necessary for CompressionStream API)",
+                "Added polyfill for Element.checkVisibility (< 17.4)",
                 "Removed problematic `max-width: 100% and overflow-x: hidden` CSS"
             ]],
             ["1.3.0", [
                 "Allows polyfills to be injected into iframes",
-                "Added polyfill for CompressionStream API",
+                "Added polyfill for CompressionStream (< 16.4)",
                 "Fixed support for old iOS versions"
             ]],
             ["1.2.0", "Added polyfills for Promise.allSettled and the meta viewport min-width"],
@@ -287,7 +291,8 @@ tweaks = [
             ["1.1.0", [
                 "Minified all JavaScript codes before injecting",
                 "Added support for injecting JavaScript after the document is loaded",
-                "Added polyfills for Array.findLast, Array.findLastIndex, Object.hasOwn and String.replaceAll",
+                "Added polyfills for Array.findLast, Array.findLastIndex and Object.hasOwn (< 15.4)",
+                "Added polyfill for String.replaceAll (< 13.1)",
                 "Added `max-width: 100% and overflow-x: hidden` CSS for html and body to fix incomplete page width on iOS 14 and lower"
             ]],
         ]
