@@ -5409,6 +5409,38 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
 Name: Polyfills
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
 
+Package: com.ps.polyfillscc
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 152
+Depends: firmware (>= 11.0), com.opa334.ccsupport, com.ps.polyfills (>= 1.11.0)
+Filename: ./debs/app/com.ps.polyfillscc_1.0.0_iphoneos-arm.deb
+Size: 16034
+MD5sum: f55c897a9aa792e4157ff0fbe427372d
+SHA1: ada164f11844c25626894f5251ff4448d65ae1d4
+SHA256: 051a720612851dd61f5cbf6d797b4467eaad8369583b8e7b2f1770ee8ca1d544
+Section: Tweaks
+Description: Control Center toggle for Polyfills tweak.
+Author: PoomSmart
+Name: Polyfills CC Toggle
+
+Package: com.ps.polyfillscc
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 184
+Depends: firmware (>= 11.0), com.opa334.ccsupport, com.ps.polyfills (>= 1.11.0)
+Filename: ./debs/app/com.ps.polyfillscc_1.0.0_iphoneos-arm64.deb
+Size: 16014
+MD5sum: 99b0c9cc9d8b1ee111cb5df5c0e28ad9
+SHA1: 23ecae015fcea7464ec1f7d787b54d83e2ff4c39
+SHA256: 176f448ca2c65fdc5336b7e7f3a7d9f8ea42110cf40ab82c6e1c6aadc940abfe
+Section: Tweaks
+Description: Control Center toggle for Polyfills tweak.
+Author: PoomSmart
+Name: Polyfills CC Toggle
+
 Package: com.ps.poweroptionfs
 Version: 0.0.2
 Architecture: iphoneos-arm
