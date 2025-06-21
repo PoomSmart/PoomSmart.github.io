@@ -215,6 +215,10 @@ tweaks = [
         "max_ios": "15.8.4",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["1.2.0", [
+                "Depends on Polyfills 1.12.0+",
+                "Allows installation on iOS 14, but the functionality is still broken"
+            ]],
             ["1.1.0", "Allows installation on iOS 15.4 - 15.8, fixing a small layout bug with the chat input box"]
         ]
     },
