@@ -526,6 +526,7 @@ youtube = [
             <p>You only need this tweak if you are on iOS 13 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.6.6", "Spoofed iOS version to 15.8.4 (for iOS 14-) to make account sign-in works"],
             ["1.6.5", "Added an alert on app startup if the user has modified Info.plist file to spoof the YouTube version, as this is discouraged while using this tweak"],
             ["1.6.4", "Fixed tapping on Audio Track video menu not working"],
             ["1.6.3", [
