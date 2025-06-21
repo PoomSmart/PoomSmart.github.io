@@ -1210,6 +1210,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
+Package: com.ps.chatgptweblegacycompat
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 3448
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm.deb
+Size: 872578
+MD5sum: d2b923e641f0a41c6595866d7948de69
+SHA1: 7746a34aae0e320d827e070542c43c59d95f2a93
+SHA256: 5a7fbbab41620640e1f0cf5e4b91c7ba5fe32d3c68a9f25794188924686ea742
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
+Package: com.ps.chatgptweblegacycompat
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 3448
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm64.deb
+Size: 872296
+MD5sum: ceb2cd889863b4867bf9eead2b14d817
+SHA1: 7fb5af1ebfd227336e6dbab73dba07933a0e0029
+SHA256: 49bab46f50800ec8bfda4f2ca1017b619ad5f74791e6ce4d8022df8b87ae846f
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -4898,6 +4934,42 @@ Size: 50650
 MD5sum: eb38fdf2f326cbf9542a3bf322d2507c
 SHA1: 10ed36a8c57ac997e7d4525515b5ca181bdf237d
 SHA256: 274cf6547c39f6ae6a1dbb4e2a6cd00799381803559b35edb06430888824774c
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 1.12.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 652
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
+Filename: ./debs/app/com.ps.polyfills_1.12.0_iphoneos-arm.deb
+Size: 56122
+MD5sum: 35f8a0cff6849fa7edb4e37265618a08
+SHA1: a61c6c1b962dff454259d3e22d58be4a5782febd
+SHA256: 47f2a8b2cbfaa7a1af7923f06e96d96fd106f279606f3eedf934406e0785749d
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 1.12.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 476
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
+Filename: ./debs/app/com.ps.polyfills_1.12.0_iphoneos-arm64.deb
+Size: 52890
+MD5sum: 1fa232c5a4243f8e21809a112ddc0509
+SHA1: e148cc2be476289b5ca50e62dc6765c087c85bb7
+SHA256: 57989677a3a672b58d9acd77ef457f9df15a735025294d28c9410db43ac26794
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart

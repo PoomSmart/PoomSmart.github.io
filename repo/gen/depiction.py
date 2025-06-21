@@ -225,11 +225,16 @@ tweaks = [
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p>\
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
-            <p>Avoid installing version 1.5.0 to 1.9.0 as there is a high CPU usage bug.</p>",
+            <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["1.12.0", [
+                "Worked around CSS dynamic viewport units by replacing `{d,s,l}v{w,h} with just v{w,h} (< 16.4)",
+                "Added basic support for CSS layers by stripping `@layer` from stylesheets (< 15.4)",
+                "Prevented HTMLDialogElement polyfill from being injected if its corresponding experimental WebKit feature is enabled (< 15.4)"
+            ]],
             ["1.11.0", [
                 "Added the settings page to enable/disable the tweak",
-                "Disabled RegExp lookbehind polyfill on twitter.com to avoid breaking the website (< 16.4)",
+                "Disabled RegExp lookbehind polyfill on twitter.com to avoid breaking the website (< 16.4)"
             ]],
             ["1.10.0", [
                 "Fixed requesting desktop website not working in Safari",
