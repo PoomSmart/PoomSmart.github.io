@@ -251,35 +251,19 @@ tweaks = [
                 "Fixed user agent spoofing not working (regression of 1.9.1)",
                 "Fixed Safari crashing on iOS 8"
             ]],
-            ["1.9.1", "Fixed high CPU usage bug on iOS 15 and lower"],
-            ["1.9.0", [
-                "Restricted CompressionStream polyfill to iOS 16.3 and lower",
-                "Restricted ReadableStream, WritableStream and TransformStream polyfills to iOS 14.0 and lower"
-            ]],
-            ["1.8.2", "Fixed the same polyfill scripts being injected multiple times"],
-            ["1.8.0", [
-                "Added polyfill for Array.toReversed (< 16.0)",
-                "Fixed polyfill compatibility with iOS 13.0 and lower"
-            ]],
-            ["1.7.1", "Rewrote polyfill for RegExp lookbehind (< 16.4)"],
-            ["1.7.0", [
-                "Replaced existing streams polyfills with the unified one from @stardazed/streams-polyfill",
-                "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex"
-            ]],
-            ["1.6.2", [
-                "Downgraded spoofed iOS version to 16.0 to improve compatibility on old devices",
-                "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower"
-            ]],
-            ["1.6.0", [
-                "Fixed broken polyfill for RegExp lookbehind (< 16.4)",
-                "Fixed spoofing user agent not working on non-Safari browsers",
+            ["1.9.1", [
+                "Added polyfill for RegExp lookbehind (< 16.4)",
                 "Added polyfill for BroadcastChannel (< 15.4)",
+                "Added polyfill for Array.toReversed (< 16.0)",
+                "Spoofed iOS version to 16.0",
+                "Fixed websites always loading in desktop mode",
+                "Fixed polyfill compatibility with iOS 13.0 and lower",
+                "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex",
+                "Fixed the same polyfill scripts being injected multiple times",
+                "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower",
+                "Restricted CompressionStream polyfill to iOS 16.3 and lower",
+                "Restricted ReadableStream, WritableStream and TransformStream polyfills to iOS 14.0 and lower",
                 "Restricted WebStreams polyfill to iOS 14.0 and lower"
-            ]],
-            ["1.5.1", "Fixed websites always loading in desktop mode"],
-            ["1.5.0", [
-                "Spoofed the user agent to iOS 18.5",
-                "Added polyfill for RegExp lookbehind. (< 16.4)"
             ]],
             ["1.4.0", [
                 "Added missing polyfill for Web Streams (necessary for CompressionStream API)",
