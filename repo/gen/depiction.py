@@ -231,9 +231,14 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.0.0", [
+                "Made all JS code loaded from files to reduce memory footprint",
+                "Added polyfills for Array.group, Array.groupBy, Array.groupToMap, Object.groupBy, Map.groupBy and Promise.withResolvers (< 17.4)",
+                "Fixed Element.matches compatibility workaround not working on iOS 15.4 - 15.5 (< 15.6)"
+            ]],
             ["1.12.0", [
-                "Worked around CSS dynamic viewport units by replacing `{d,s,l}v{w,h} with just v{w,h} (< 16.4)",
-                "Added basic support for CSS layers by stripping `@layer` from stylesheets (< 15.4)",
+                "Worked around CSS dynamic viewport units not working by replacing `{d,s,l}v{w,h} with just v{w,h} (< 16.4)",
+                "Worked around CSS layers not working by stripping `@layer` from stylesheets (< 15.4)",
                 "Prevented HTMLDialogElement polyfill from being injected if its corresponding experimental WebKit feature is enabled (< 15.4)"
             ]],
             ["1.11.0", [
