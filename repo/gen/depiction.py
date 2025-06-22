@@ -190,9 +190,14 @@ tweaks = [
         "file": "githubweblegacycompat",
         "title": "GitHubWebLegacyCompat",
         "min_ios": "8.0",
-        "max_ios": "15.8.4",
-        "description": "<p>Makes GitHub website more accessible on iOS 15.8 and lower by injecting CSS with unsupported syntax removed.</p>",
+        "max_ios": "16.3.1",
+        "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["2.1.0", [
+                "Fixed commit description and time not being displayed on iOS < 16.4",
+                "Fixed UI of control elements on iOS < 15.4",
+                "Minified CSS code before injecting"
+            ]],
             ["2.0.0", "Made JS code loaded from files"],
             ["1.0.7", "Made \"Get assets\" button appear for expanded assets as well"],
             ["1.0.6", "Added Polyfills tweak as a dependency"],
@@ -237,7 +242,7 @@ tweaks = [
                 "Simplified polyfill for CompressionStream"
             ]],
             ["2.0.0", [
-                "Made all JS code loaded from files to reduce memory footprint",
+                "Made all JS code loaded from files only when needed by that iOS version to reduce memory footprint on injection",
                 "Added polyfills for Array.group, Array.groupBy, Array.groupToMap, Object.groupBy, Map.groupBy and Promise.withResolvers (< 17.4)",
                 "Fixed Element.matches compatibility workaround not working on iOS 15.4 - 15.5 (< 15.6)"
             ]],
