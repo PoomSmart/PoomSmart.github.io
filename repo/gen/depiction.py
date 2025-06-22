@@ -190,9 +190,10 @@ tweaks = [
         "file": "githubweblegacycompat",
         "title": "GitHubWebLegacyCompat",
         "min_ios": "8.0",
-        "max_ios": "15.3.1",
-        "description": "<p>Makes GitHub website more accessible on iOS 15.3 and lower by injecting CSS with unsupported syntax removed.</p>",
+        "max_ios": "15.8.4",
+        "description": "<p>Makes GitHub website more accessible on iOS 15.8 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["2.0.0", "Made JS code loaded from files"],
             ["1.0.7", "Made \"Get assets\" button appear for expanded assets as well"],
             ["1.0.6", "Added Polyfills tweak as a dependency"],
             ["1.0.5", [
