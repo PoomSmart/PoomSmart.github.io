@@ -238,6 +238,12 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.2.0", [
+                "Made CSS Cascade layers workaround work for dynamically added stylesheets",
+                "Added polyfill for EventTarget (< 14.0)",
+                "Readded `max-width: 100% and overflow-x: hidden` CSS workaround (< 15.0)",
+                "Fixed HTMLDialogElement stub polyfill not working (< 15.4)"
+            ]],
             ["2.1.0", [
                 "Made the JS code injected as soon as it is loaded from the filesystem",
                 "Simplified polyfill for CompressionStream"
@@ -249,8 +255,8 @@ tweaks = [
             ]],
             ["1.12.0", [
                 "Worked around CSS dynamic viewport units not working by replacing `{d,s,l}v{w,h} with just v{w,h} (< 16.4)",
-                "Worked around CSS layers not working by stripping `@layer` from stylesheets (< 15.4)",
-                "Prevented HTMLDialogElement polyfill from being injected if its corresponding experimental WebKit feature is enabled (< 15.4)"
+                "Worked around CSS Cascade layers not working by stripping `@layer` from stylesheets (< 15.4)",
+                "Prevented HTMLDialogElement stub polyfill from being injected if its corresponding experimental WebKit feature is enabled (< 15.4)"
             ]],
             ["1.11.0", [
                 "Added the settings page to enable/disable the tweak",
@@ -286,9 +292,9 @@ tweaks = [
                 "Restricted WebStreams polyfill to iOS 14.0 and lower"
             ]],
             ["1.4.0", [
-                "Added missing polyfill for Web Streams (necessary for CompressionStream API)",
+                "Added missing polyfill for Web Streams (necessary for CompressionStream)",
                 "Added polyfill for Element.checkVisibility (< 17.4)",
-                "Removed problematic `max-width: 100% and overflow-x: hidden` CSS"
+                "Removed problematic `max-width: 100% and overflow-x: hidden` CSS workaround"
             ]],
             ["1.3.0", [
                 "Allows polyfills to be injected into iframes",
@@ -302,7 +308,7 @@ tweaks = [
                 "Added support for injecting JavaScript after the document is loaded",
                 "Added polyfills for Array.findLast, Array.findLastIndex and Object.hasOwn (< 15.4)",
                 "Added polyfill for String.replaceAll (< 13.1)",
-                "Added `max-width: 100% and overflow-x: hidden` CSS for html and body to fix incomplete page width on iOS 14 and lower"
+                "Added `max-width: 100% and overflow-x: hidden` CSS workaround for html and body to fix incomplete page width on iOS 14 and lower"
             ]],
         ]
     },
