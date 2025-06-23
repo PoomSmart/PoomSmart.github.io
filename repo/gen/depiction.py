@@ -193,7 +193,10 @@ tweaks = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.2.0", "Fixed some broken elements in the issues page on iOS < 15.4"],
+            ["2.2.0", [
+                "Fixed some broken elements in the issues page on iOS < 15.4",
+                "Made the JS code injected only once"
+            ]],
             ["2.1.1", "Fixed GitHub website crashing in some pages"],
             ["2.1.0", [
                 "Fixed commit description and time not being displayed on iOS < 16.4",
@@ -223,6 +226,7 @@ tweaks = [
         "max_ios": "15.8.4",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["1.3.1", "Made the JS code injected only once"],
             ["1.3.0", [
                 "Fixed the tweak not working on iOS 15.0 - 15.3",
                 "Made the CSS code loaded from files"

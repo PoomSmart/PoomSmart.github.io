@@ -1282,6 +1282,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
+Package: com.ps.chatgptweblegacycompat
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 3736
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm64.deb
+Size: 904466
+MD5sum: f9850b23a8e998e1dc4f8d2fef215624
+SHA1: 5999154a369ccbedf227bd562c23389c25df5422
+SHA256: ba1657803576fc56736576f86be96722583b0e20facc2110d73c7914f940dded
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
+Package: com.ps.chatgptweblegacycompat
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 3732
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm.deb
+Size: 905062
+MD5sum: c4c618eb6616062333520eef7e7ae960
+SHA1: ba92d2c24e34e4e89f00c6cfc5b9ab752f8b49ec
+SHA256: f9ac98616e272a0242f8323975d437a2ffdc3a76f8adb49ffde12335f8b61f23
+Section: Tweaks
+Description: Makes ChatGPT website functional on iOS 15.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.html
+Name: ChatGPTWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm

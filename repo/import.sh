@@ -9,5 +9,5 @@ gzip -cf Packages > Packages.gz
 xz -9fkev Packages > Packages.xz
 bzip2 -cf Packages > Packages.bz2
 zstd -c19 Packages > Packages.zst
-lzma -k Packages
-lz4 -q Packages
+lzma -kf Packages
+lz4 -qf Packages
