@@ -193,10 +193,11 @@ tweaks = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
+            ["2.2.0", "Fixed some broken elements in the issues page on iOS < 15.4"],
             ["2.1.1", "Fixed GitHub website crashing in some pages"],
             ["2.1.0", [
                 "Fixed commit description and time not being displayed on iOS < 16.4",
-                "Fixed UI of control elements on iOS < 15.4",
+                "Fixed some broken control elements on iOS < 15.4",
                 "Minified CSS code before injecting"
             ]],
             ["2.0.0", "Made JS code loaded from files"],
