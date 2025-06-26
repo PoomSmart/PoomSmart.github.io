@@ -250,6 +250,7 @@ tweaks = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.2.3", "Fixed app crash due to problematic RegExp (< 16.4)"],
             ["2.2.2", "Fixed RegExp lookbehind polyfill breaking some websites (< 16.4)"],
             ["2.2.1", "Improved RegExp lookbehind polyfill (< 16.4)"],
             ["2.2.0", [
