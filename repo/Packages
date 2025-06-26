@@ -5055,7 +5055,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.0.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.0.0_iphoneos-arm.deb
 Size: 6032
 MD5sum: 68d08ee1051b54defd2b7ad944ef26d4
 SHA1: 21f237931df9d39f752cae6e975262da49446ced
@@ -5073,7 +5073,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.0.0_iphoneos-arm64.deb
 Size: 4672
 MD5sum: 030b8acded8fb8cbae493e3b584e02cb
 SHA1: 974c7c956840f2fb59d11be28338b73aa84f16ac
@@ -5091,7 +5091,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.1.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.1.0_iphoneos-arm64.deb
 Size: 5010
 MD5sum: e9d04a565fe4ca1ec2ac2855cf67e86d
 SHA1: 65360c85c47270c2203a889544a8358219fbaa85
@@ -5109,7 +5109,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.1.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.1.0_iphoneos-arm.deb
 Size: 6436
 MD5sum: c66852a9cedaebf91d8201e74d5e8aed
 SHA1: a04a98d68491ce77c7212eaaab56f2ac8057e524
@@ -5127,7 +5127,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.1.1_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.1.1_iphoneos-arm64.deb
 Size: 5130
 MD5sum: c178e4a72c031f98e90e76aa0e1eec95
 SHA1: 4a779f11d43b07daadac398f336a6d2a67cc436e
@@ -5145,7 +5145,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.1.1_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.1.1_iphoneos-arm.deb
 Size: 6536
 MD5sum: 6fd9a29ce0fddca737880c19eaa3d34f
 SHA1: 21145fe5e097e78c56c0e447b792ec087a556721
@@ -5163,7 +5163,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 428
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.10.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.10.0_iphoneos-arm64.deb
 Size: 39332
 MD5sum: f40084077131eac45016c39e1245e02e
 SHA1: 66c7549a529738c3baefbebbc136e213831a99dd
@@ -5181,7 +5181,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 588
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.10.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.10.0_iphoneos-arm.deb
 Size: 42454
 MD5sum: 5af5832098c4f816cea01f2f53c75974
 SHA1: 5c117c14f216503a604d072705215cefe048f3d1
@@ -5199,7 +5199,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 444
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_1.11.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.11.0_iphoneos-arm64.deb
 Size: 47432
 MD5sum: f2aaf97d25f8c70bb1d6a8cd9c5c955e
 SHA1: 7847602f252532b26bb9b05db998a0513bcaa031
@@ -5217,7 +5217,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 604
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_1.11.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.11.0_iphoneos-arm.deb
 Size: 50650
 MD5sum: eb38fdf2f326cbf9542a3bf322d2507c
 SHA1: 10ed36a8c57ac997e7d4525515b5ca181bdf237d
@@ -5235,7 +5235,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 652
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_1.12.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.12.0_iphoneos-arm.deb
 Size: 55624
 MD5sum: 1a7c099a9947ba7b433069dea730b9c9
 SHA1: e9785c643b272c33ce6af176cb4b8df9cbceb307
@@ -5253,7 +5253,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 476
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_1.12.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.12.0_iphoneos-arm64.deb
 Size: 52378
 MD5sum: 5529d70eb1be94f1bb8b8552e2429a0b
 SHA1: 3d8d57aaaf11d70a40a8dc97c3fd831af86fceb3
@@ -5271,7 +5271,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.2.0_iphoneos-arm64.deb
 Size: 5414
 MD5sum: 2016521a87dd10adeaee0f97f05fbbbc
 SHA1: 1965f6a6cfcca5ca425db8fc3f6a090e323eee47
@@ -5289,7 +5289,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.2.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.2.0_iphoneos-arm.deb
 Size: 6898
 MD5sum: 4d07a4e5469966de78ea3ba7d8ad41f3
 SHA1: ad2dedffbc9d60517d213adcaa66c566d4ac6989
@@ -5307,7 +5307,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 248
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.3.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.3.0_iphoneos-arm.deb
 Size: 14282
 MD5sum: 4fb02b05bbfd86bca86ff9ae8a94469f
 SHA1: 318d8f7219d0947b16308ef21cb8e33ae22ea386
@@ -5325,7 +5325,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.3.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.3.0_iphoneos-arm64.deb
 Size: 12776
 MD5sum: 0644428ff5a4899d26a961ca0d843ab2
 SHA1: 72d56bfe8bee42f937f7c5514a0f54ebf9b25e9e
@@ -5343,7 +5343,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 440
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.4.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.4.0_iphoneos-arm.deb
 Size: 28874
 MD5sum: 85ede1e8c3e0cfd511b83df364f3f931
 SHA1: cdf5333a034edd69a822e316b900986c815b38e1
@@ -5361,7 +5361,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 328
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.4.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.4.0_iphoneos-arm64.deb
 Size: 27322
 MD5sum: 07101faa1ccb906c10726b9358cd0e92
 SHA1: db5bf926c56fd9c9e3abfd169652628478b62d17
@@ -5379,7 +5379,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 348
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.9.1_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.9.1_iphoneos-arm64.deb
 Size: 31664
 MD5sum: ac1c5f02f450d07927d0d09fcc7eb276
 SHA1: 630caa0d966f0b48189bef707758bd2f438eebda
@@ -5397,7 +5397,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 444
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.9.1_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.9.1_iphoneos-arm.deb
 Size: 34650
 MD5sum: b32d2bad080fd7f0bf77415e6ee7029d
 SHA1: f5df5f9849bb28bf639a90861ff99edbc344cf3e
@@ -5415,7 +5415,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 492
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.9.2_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.9.2_iphoneos-arm.deb
 Size: 35734
 MD5sum: 27ed30afa0b89dd78e8975765568c438
 SHA1: 48975023d430cfb323059a2cb310c8df312e4f82
@@ -5433,7 +5433,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
-Filename: ./debs/app/com.ps.polyfills_1.9.2_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_1.9.2_iphoneos-arm64.deb
 Size: 33020
 MD5sum: 89a115f6f7c5a92839a6b71a8218cf5a
 SHA1: ea2502d9916383032970444a263476f4ec402c48
@@ -5451,7 +5451,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.0.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.0.0_iphoneos-arm.deb
 Size: 59946
 MD5sum: 098c6ede755b199ff4eeaf059979fb1f
 SHA1: 225b7abbcd7d1e1b8be8f06b426bf54a7bf45cca
@@ -5469,7 +5469,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 448
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.0.0_iphoneos-arm64.deb
 Size: 53436
 MD5sum: 072ff1ed2b8930f6ee41b5d8e24d436e
 SHA1: fe77492fa0801e39d465ad4601923e1a91f363ae
@@ -5487,7 +5487,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 492
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.1.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.1.0_iphoneos-arm.deb
 Size: 64480
 MD5sum: 5c39584ab7451522054f58aa77b95254
 SHA1: e35feb3b8251a213b89db62b27beeb948fecadf9
@@ -5505,7 +5505,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 460
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.1.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.1.0_iphoneos-arm64.deb
 Size: 58558
 MD5sum: 0aebd9aa663582b65da881f96a8c84aa
 SHA1: 8dab28d3124e519e909f51af9f2779e01cd61f2a
@@ -5523,7 +5523,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 504
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.2.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.2.0_iphoneos-arm.deb
 Size: 65818
 MD5sum: e83b60b656bf2b99f3e90297d7ca28b0
 SHA1: 9d05a785b708959ddedb18cd549679b2a9868c81
@@ -5541,7 +5541,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 472
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
-Filename: ./debs/app/com.ps.polyfills_2.2.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.2.0_iphoneos-arm64.deb
 Size: 59898
 MD5sum: 2f794d47c1c33c461d9ca5d65946d07b
 SHA1: 0b6bcc7d0e2618dec13958e604e2dde3f9092d08
@@ -5559,7 +5559,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 152
 Depends: firmware (>= 11.0), com.opa334.ccsupport, com.ps.polyfills (>= 1.11.0)
-Filename: ./debs/app/com.ps.polyfillscc_1.0.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/com.ps.polyfillscc_1.0.0_iphoneos-arm.deb
 Size: 16034
 MD5sum: f55c897a9aa792e4157ff0fbe427372d
 SHA1: ada164f11844c25626894f5251ff4448d65ae1d4
@@ -5575,7 +5575,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 184
 Depends: firmware (>= 11.0), com.opa334.ccsupport, com.ps.polyfills (>= 1.11.0)
-Filename: ./debs/app/com.ps.polyfillscc_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/com.ps.polyfillscc_1.0.0_iphoneos-arm64.deb
 Size: 16014
 MD5sum: 99b0c9cc9d8b1ee111cb5df5c0e28ad9
 SHA1: 23ecae015fcea7464ec1f7d787b54d83e2ff4c39
@@ -5584,6 +5584,38 @@ Section: Tweaks
 Description: Control Center toggle for Polyfills tweak.
 Author: PoomSmart
 Name: Polyfills CC Toggle
+
+Package: com.ps.polyfillsdebug
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: com.ps.polyfills (>= 2.0.0)
+Filename: ./debs/app/polyfills/com.ps.polyfillsdebug_1.0.0_iphoneos-arm64.deb
+Size: 1412
+MD5sum: 8eb2fe4d97837fb02334bf4f02d5bfda
+SHA1: 304ae3f59737890d898ca04119643c4067717c4a
+SHA256: de5b0739740c725068e7a04ec952713519ccd61cb04a36dbbf085cfd04f2bb72
+Section: Tweaks
+Description: Prints browser console logs directly to the web page.
+Author: PoomSmart
+Name: Debug (Polyfills)
+
+Package: com.ps.polyfillsdebug
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: com.ps.polyfills (>= 2.0.0)
+Filename: ./debs/app/polyfills/com.ps.polyfillsdebug_1.0.0_iphoneos-arm.deb
+Size: 1382
+MD5sum: 428f1c4da9cb52044ac44668764adb0d
+SHA1: 725c352bd89f3ad0e11a705624eca5ca7f4a87ae
+SHA256: 75ca38c09c9daaf177d58c661b2d793640ba905febfdae6f994c392fa5b81b05
+Section: Tweaks
+Description: Prints browser console logs directly to the web page.
+Author: PoomSmart
+Name: Debug (Polyfills)
 
 Package: com.ps.poweroptionfs
 Version: 0.0.2
