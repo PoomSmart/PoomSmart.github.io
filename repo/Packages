@@ -1180,7 +1180,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 1456
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.8.0), firmware (>= 15.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.0.0_iphoneos-arm64.deb
 Size: 64392
 MD5sum: 41ef83abc9af53b9a0e3b6ce3869a248
 SHA1: abcf4075fc0bd44d47d067eca71ceb95decd1241
@@ -1198,7 +1198,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 1424
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.8.1), firmware (>= 15.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.1.0_iphoneos-arm64.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.1.0_iphoneos-arm64.deb
 Size: 65148
 MD5sum: 94f68b47c958e603cfbb96b469b0c55f
 SHA1: 00e617053de1d04f5ab3964226120bc97166d416
@@ -1216,7 +1216,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 3448
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm.deb
 Size: 872578
 MD5sum: d2b923e641f0a41c6595866d7948de69
 SHA1: 7746a34aae0e320d827e070542c43c59d95f2a93
@@ -1234,7 +1234,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 3448
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm64.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.2.0_iphoneos-arm64.deb
 Size: 872296
 MD5sum: ceb2cd889863b4867bf9eead2b14d817
 SHA1: 7fb5af1ebfd227336e6dbab73dba07933a0e0029
@@ -1252,7 +1252,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 3768
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.0_iphoneos-arm64.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.0_iphoneos-arm64.deb
 Size: 904614
 MD5sum: 1c5e753b0cc4e8fd75a101f4822dfc57
 SHA1: d36acb731f54eff27dc5f7fd427f7165921e85db
@@ -1270,7 +1270,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 3764
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.0_iphoneos-arm.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.0_iphoneos-arm.deb
 Size: 905360
 MD5sum: 28e48a5861e205df4c877cb8443a85f0
 SHA1: f3205da603442057706a2ab4443fdbca22598b59
@@ -1288,7 +1288,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 3736
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm64.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm64.deb
 Size: 904466
 MD5sum: f9850b23a8e998e1dc4f8d2fef215624
 SHA1: 5999154a369ccbedf227bd562c23389c25df5422
@@ -1306,7 +1306,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 3732
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm.deb
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.1_iphoneos-arm.deb
 Size: 905062
 MD5sum: c4c618eb6616062333520eef7e7ae960
 SHA1: ba92d2c24e34e4e89f00c6cfc5b9ab752f8b49ec
@@ -3196,7 +3196,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm64.deb
 Size: 18978
 MD5sum: 7ee9a42411f024e6a314deb43f6e4196
 SHA1: 49b622ab0c13926f976335e0ccc9e7469d2f1503
@@ -3214,7 +3214,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 328
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.0_iphoneos-arm.deb
 Size: 17862
 MD5sum: ebddd2cc3f4feecfd7e933d72335fd92
 SHA1: 79a712e21df48b064c71280e48f4c21c12278e72
@@ -3232,7 +3232,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 328
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.1_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.1_iphoneos-arm.deb
 Size: 17876
 MD5sum: 55ddcc972bca1b73c66dc9123ee7eac6
 SHA1: bd2aff1e5254ddcca0a57cf442decb06f5d1044d
@@ -3250,7 +3250,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.1_iphoneos-arm64.deb
 Size: 19000
 MD5sum: 69905c788a8f5c4652f7204cc08617f3
 SHA1: 62f59644e3eea2024457d2e8a503b618412f44cb
@@ -3268,7 +3268,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 328
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.2_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.2_iphoneos-arm.deb
 Size: 18064
 MD5sum: 1402b40609e48378cd0c83212cfa57d2
 SHA1: 143e9d6dbb626d2178bbc8af2cee2dc1d67e2678
@@ -3286,7 +3286,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.2_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.2_iphoneos-arm64.deb
 Size: 19132
 MD5sum: 7f3a52dacce96f8f0d6bd77f0d903328
 SHA1: 3eb2271fd300da16332c885b37aca57cb9940345
@@ -3304,7 +3304,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm64.deb
 Size: 19272
 MD5sum: 423c5369b180c874bc9cfa2cbde4511b
 SHA1: 85082d4e1a91a9b24ae6352af15339eb1e1237c7
@@ -3322,7 +3322,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 328
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.3_iphoneos-arm.deb
 Size: 18000
 MD5sum: 0af315b2c5d54579bb45d595d44f9437
 SHA1: 653947b82b04d6883c24b735c7625dc3085c6793
@@ -3340,7 +3340,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.4_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.4_iphoneos-arm.deb
 Size: 21768
 MD5sum: 85773fa39cbb9ad61993d7b0235593ae
 SHA1: ebd3ff806c8bd313e9403915239342ec616996e8
@@ -3358,7 +3358,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.4_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.4_iphoneos-arm64.deb
 Size: 19280
 MD5sum: 3c7162dd250bdcec62dbdc36daee4b54
 SHA1: d04b0e8ea873ffd7325d8a121e78bd7563817da9
@@ -3376,7 +3376,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.5_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.5_iphoneos-arm64.deb
 Size: 19496
 MD5sum: 8a8cc8a7305229c9cbb909a39b262601
 SHA1: 9dcdd51f02551c11a3cc7787b62e5f11ff7460eb
@@ -3394,7 +3394,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4)
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.5_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.5_iphoneos-arm.deb
 Size: 21918
 MD5sum: 2d3f9cb16b8bc26e263da0f8af6b2b81
 SHA1: 5ab0d7a2c58b2ee3ec1a08c8fb967ff61d91988c
@@ -3412,7 +3412,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.6_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.6_iphoneos-arm.deb
 Size: 21780
 MD5sum: 8f79130474eea502d2a92882f544bf7f
 SHA1: 4559be4cdca82813d5cb289f18861710b8d93047
@@ -3430,7 +3430,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.6_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.6_iphoneos-arm64.deb
 Size: 19486
 MD5sum: a94ed1ccb910354240b74f582737a8c5
 SHA1: c5bd72d93ffb3919743a2080c3beea6eef37c719
@@ -3448,7 +3448,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 488
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm.deb
 Size: 21676
 MD5sum: e5c87e1d0c4b9bfbb4d2ea133a077b0f
 SHA1: 9937df17a14326f8a06ef909081f0650ac57a450
@@ -3466,7 +3466,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_1.0.7_iphoneos-arm64.deb
 Size: 19294
 MD5sum: 28cf7ee398ece374605d0c0bdc0f60d8
 SHA1: 196ecaec5aa67e2c374403bb24d47b486431afeb
@@ -3484,7 +3484,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 368
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.0), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.0.0_iphoneos-arm64.deb
 Size: 21468
 MD5sum: 571a5d4b7fcb79d9f43e94e676092ada
 SHA1: 39b9bb8ba22ce7109ecb050603d6838f4f5b9a0e
@@ -3502,7 +3502,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 496
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.0), com.ps.polyfills
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.0.0_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.0.0_iphoneos-arm.deb
 Size: 25404
 MD5sum: e70f138379f0357eacc72833f3bf4d48
 SHA1: da019026d974452dff7fa7980241756967ae4335
@@ -3520,7 +3520,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 608
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.1.0_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.1.0_iphoneos-arm64.deb
 Size: 83294
 MD5sum: c2316ca87a25186628992cb48471248c
 SHA1: 61b3c0c17ade85f1eb3cd9bf252bd5b62c067d54
@@ -3538,7 +3538,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 640
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.1.0_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.1.0_iphoneos-arm.deb
 Size: 87198
 MD5sum: 1dd2801bcda8f68453fc6caf3bc6301a
 SHA1: fc98fbfc879ce474d22d83db7022214fc9d5d82e
@@ -3556,7 +3556,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 608
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.1.1_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.1.1_iphoneos-arm64.deb
 Size: 83308
 MD5sum: a6f904f83c2672aecb426c10c08c88ab
 SHA1: c2993a9e4f88e44b87b07c524e3a3c224947da23
@@ -3574,7 +3574,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 640
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.1.1_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.1.1_iphoneos-arm.deb
 Size: 87230
 MD5sum: 7337e639ebd98ec25f94eb314980b67f
 SHA1: 2360325816d67304034eb6a9954cb235f1e4aa42
@@ -3592,7 +3592,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 1280
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.2.0_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.2.0_iphoneos-arm64.deb
 Size: 206926
 MD5sum: bf368e899c365b33a157a1bf59c7e3c6
 SHA1: c74e2a49f3df0d9791f1f5788abbdccc8c664a4e
@@ -3610,7 +3610,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 1312
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.2.0_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.2.0_iphoneos-arm.deb
 Size: 210506
 MD5sum: fd09ce73839ddcd2bc926cecd5ab07e8
 SHA1: 019900a7b1f029824910a1277f2a2f2d0a8ab71d
@@ -3628,7 +3628,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 2176
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.3.0_iphoneos-arm.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.0_iphoneos-arm.deb
 Size: 322272
 MD5sum: 3c9045eda41b6736711ad2dfb01053d4
 SHA1: fc402f8f915b1378b8336ff3716a945d27a479d6
@@ -3646,7 +3646,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 2144
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.3.0_iphoneos-arm64.deb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.0_iphoneos-arm64.deb
 Size: 318598
 MD5sum: a70bfed334f9c77a67ceca5d0d9765cb
 SHA1: 9d9c3cbdb92ec6bc76d952c3ad67cc7bd61214b7
@@ -3659,16 +3659,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.1
-Architecture: iphoneos-arm
+Version: 2.3.2
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 2180
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.3.1_iphoneos-arm.deb
-Size: 322950
-MD5sum: 7d42fe44ca2b27d6dbaf59871c6d812e
-SHA1: 504066d842e0747d1491733122967783df8790c8
-SHA256: f0304c51e7fda161b02faebf854d87b03605b84f73f560658efa99679e35b61a
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.2_iphoneos-arm64.deb
+Size: 324758
+MD5sum: f15ab21fcafad4721b4c476efeeec06e
+SHA1: aad9cbeaa31906422c31e9664b3f81e3773857a2
+SHA256: 391f73dade8b1b7c6d99cd66e1e699cd6a565955f24f8465bbcb2491567bc154
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3677,16 +3677,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.1
-Architecture: iphoneos-arm64
+Version: 2.3.2
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2148
+Installed-Size: 2212
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.1.0)
-Filename: ./debs/app/com.ps.githubweblegacycompat_2.3.1_iphoneos-arm64.deb
-Size: 319494
-MD5sum: ae799226126b20dd7492c863b71aa715
-SHA1: 488e011385dc157a5d500d8d9fc21c0971f66105
-SHA256: eab85459acb742383a175317d641a6d14eb957c8b02e2d42832e7e6847d3db05
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.2_iphoneos-arm.deb
+Size: 328348
+MD5sum: 94f26cbf86933725d16b89e71d29f9cd
+SHA1: 757301913c0f40e28aec8bd4287e7b386b94d057
+SHA256: 38c349bf1df0b951499a0a3d45f03b96a70ff5ac4e0d42fd371735bc60f3265a
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
