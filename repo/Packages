@@ -5661,6 +5661,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
 Name: Polyfills
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
 
+Package: com.ps.polyfills
+Version: 2.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.3.0_iphoneos-arm64.deb
+Size: 60858
+MD5sum: 70b519bf25538dfa3cac8dfeb95ef3bd
+SHA1: e85667565c82bae4076588a9d0d900bbe213dab6
+SHA256: 51817b02b8bb122c4a811ef5ebad6b9b2857d944ec9d1a9ccf76a05a42d62381
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 512
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.3.0_iphoneos-arm.deb
+Size: 66874
+MD5sum: 50ecd383df47bc564fc0b1135f55f8f3
+SHA1: 1b54b72718c2562ae926ffc41a483a42313a2ee6
+SHA256: 866fbe6050e97500de46d596c4cb41c7eefe63cb07e11752f7eb065c33d25b32
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
 Package: com.ps.polyfillscc
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -5699,7 +5735,7 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 8
 Depends: com.ps.polyfills (>= 2.0.0)
-Filename: ./debs/app/polyfills/com.ps.polyfillsdebug_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.0_iphoneos-arm64.deb
 Size: 1412
 MD5sum: 8eb2fe4d97837fb02334bf4f02d5bfda
 SHA1: 304ae3f59737890d898ca04119643c4067717c4a
@@ -5715,7 +5751,7 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 8
 Depends: com.ps.polyfills (>= 2.0.0)
-Filename: ./debs/app/polyfills/com.ps.polyfillsdebug_1.0.0_iphoneos-arm.deb
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.0_iphoneos-arm.deb
 Size: 1382
 MD5sum: 428f1c4da9cb52044ac44668764adb0d
 SHA1: 725c352bd89f3ad0e11a705624eca5ca7f4a87ae
@@ -5724,6 +5760,42 @@ Section: Tweaks
 Description: Prints browser console logs directly to the web page.
 Author: PoomSmart
 Name: Debug (Polyfills)
+
+Package: com.ps.polyfillsregexplookbehind
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 12
+Depends: com.ps.polyfills (>= 2.2.4)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.0.0_iphoneos-arm64.deb
+Size: 3294
+MD5sum: b73b6fa6a6b3260185c39cbfa8e74a80
+SHA1: 2df131c094113a8e29c83cad7a5c1b08325fea71
+SHA256: 36f69ac8e69185a1a36b081bb48ce1aed829f1805804956c7f2f31cff040146e
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
+Name: RegExp Lookbehind (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
+
+Package: com.ps.polyfillsregexplookbehind
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 12
+Depends: com.ps.polyfills (>= 2.2.4)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.0.0_iphoneos-arm.deb
+Size: 3262
+MD5sum: afd0e9d0270d659d32e9f14d8b0d0273
+SHA1: 387ef6d52f33f2c3f5514c39260db3a35474fe3d
+SHA256: 1f0654d3ec582ff1b74fde4fae0a079c38151116097c8e562fc6a681ac3c80b6
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
+Name: RegExp Lookbehind (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
 
 Package: com.ps.poweroptionfs
 Version: 0.0.2

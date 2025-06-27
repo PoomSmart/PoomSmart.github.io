@@ -1,0 +1,1 @@
+{"minVersion": "0.4", "class": "DepictionTabView", "tabs": [{"class": "DepictionStackView", "tabname": "Details", "views": [{"class": "DepictionMarkdownView", "markdown": "<p>Provides a polyfill for RegExp lookbehind feature that is not available on iOS 16.4 and lower.</p>", "useSpacing": true, "useRawFormat": true}], "xPadding": 10}]}
