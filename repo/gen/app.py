@@ -63,6 +63,7 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.3.1", "Added RegExp Lookbehind (Polyfills) tweak as a dependency"],
             ["2.3.0", [
                 "Removed RegExp lookbehind polyfill as it is now part of a separate package RegExp Lookbehind (Polyfills)",
                 "Added polyfill for dynamic import (< 15.2)",
