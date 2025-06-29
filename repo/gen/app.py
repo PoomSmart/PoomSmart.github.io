@@ -63,6 +63,14 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.4.0", [
+                "Added polyfill for RegExp.escape (< 18.2)",
+                "Added polyfills for Array.toSorted, Array.toSpliced and Array.with (< 16.0)",
+                "Added polyfill for Promise.any (< 14.0)",
+                "Added polyfill for Object.fromEntries (< 12.1)",
+                "Fixed Element.matches compatibility workaround still not working correctly (< 15.6)",
+                "Included iOS 15.0 - 15.1 for the `max-width: 100% and overflow-x: hidden` CSS workaround"
+            ]],
             ["2.3.1", "Added RegExp Lookbehind (Polyfills) tweak as a dependency"],
             ["2.3.0", [
                 "Removed RegExp lookbehind polyfill as it is now part of a separate package RegExp Lookbehind (Polyfills)",
