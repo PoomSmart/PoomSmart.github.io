@@ -63,6 +63,13 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.5.0", [
+                "Included iOS 15.2 - 15.3 for the `max-width: 100% and overflow-x: hidden` CSS workaround",
+                "Made the `max-width: 100% and overflow-x: hidden` CSS workaround apply to only mobile devices",
+                "Added polyfills for Array.flat, String.trimStart, String.trimEnd and Symbol.description (< 12.0)",
+                "Added polyfill for Promise.finally (< 11.1)",
+                "Simplified NodeList.forEach polyfill (< 10.0)"
+            ]],
             ["2.4.0", [
                 "Added polyfill for RegExp.escape (< 18.2)",
                 "Added polyfills for Array.toSorted, Array.toSpliced and Array.with (< 16.0)",
