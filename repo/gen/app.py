@@ -171,7 +171,7 @@ app = [
         "title": "RegExp Lookbehind (Polyfills)",
         "description": "<p>Provides a polyfill for RegExp lookbehind feature that is not available on iOS 16.4 and lower.</p>",
         "changes": [
-            ["1.2.0", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
+            ["1.2.1", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
             ["1.1.2", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.1", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.0", "Rewrote the polyfill"],

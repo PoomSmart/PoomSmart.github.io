@@ -6121,6 +6121,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind
 Name: RegExp Lookbehind (Polyfills)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
 
+Package: com.ps.polyfillsregexplookbehind
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 16
+Depends: com.ps.polyfills (>= 2.2.4)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.2.1_iphoneos-arm64.deb
+Size: 4846
+MD5sum: 4661ad5b765079830434c51c397c4ec5
+SHA1: a16a4c6928c4f6b4ece871e12f6d9780060d6157
+SHA256: 280967a7197acc58f81af062e7e3aa9104cae4c47b5f7167e5ab4e37f7b02764
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
+Name: RegExp Lookbehind (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
+
+Package: com.ps.polyfillsregexplookbehind
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 16
+Depends: com.ps.polyfills (>= 2.2.4)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.2.1_iphoneos-arm.deb
+Size: 4818
+MD5sum: 947ca0f1de67abd712db7f28a97e4738
+SHA1: eeb41dd9973a4245790d9c6c00d663438070ea54
+SHA256: 9190584ee9fc4995ecefe5872d762582c82c13d900e366686b4f29c45fd0e4ea
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
+Name: RegExp Lookbehind (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
+
 Package: com.ps.poweroptionfs
 Version: 0.0.2
 Architecture: iphoneos-arm
