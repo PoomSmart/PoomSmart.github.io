@@ -63,6 +63,11 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.6.0", [
+                "Added polyfill for structuredClone (< 15.4)",
+                "Added polyfill for Object.getOwnPropertyDescriptors, String.padStart and String.padEnd (< 10.0)",
+                "Added polyfill for Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}. Number.isInteger and Number.isSafeInteger (< 9.0)"
+            ]],
             ["2.5.0", [
                 "Included iOS 15.2 - 15.3 for the `max-width: 100% and overflow-x: hidden` CSS workaround",
                 "Made the `max-width: 100% and overflow-x: hidden` CSS workaround apply to only mobile devices",
@@ -166,6 +171,7 @@ app = [
         "title": "RegExp Lookbehind (Polyfills)",
         "description": "<p>Provides a polyfill for RegExp lookbehind feature that is not available on iOS 16.4 and lower.</p>",
         "changes": [
+            ["1.2.0", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
             ["1.1.2", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.1", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.0", "Rewrote the polyfill"],
