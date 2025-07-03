@@ -177,5 +177,12 @@ app = [
             ["1.1.0", "Rewrote the polyfill"],
             ["1.0.1", "Fixed the polyfill crashing in some scenarios"],
         ]
+    },
+    {
+        "file": "steamweblegacycompat",
+        "title": "SteamWebLegacyCompat",
+        "min_ios": "14.1",
+        "max_ios": "16.3.1",
+        "description": "<p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>"
     }
 ]

@@ -7159,6 +7159,42 @@ Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/staticzoom/index.html
 Name: StaticZoom
 
+Package: com.ps.steamweblegacycompat
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.1), firmware (<< 16.4)
+Filename: ./debs/app/steam/com.ps.steamweblegacycompat_1.0.0_iphoneos-arm64.deb
+Size: 146742
+MD5sum: eb0259712beb44832deaab67a68ae9ee
+SHA1: 9ea21e58b8fbf347b4460edd429fc5f026bf70c6
+SHA256: 01c8691e910256252052164ff103c4d427b3ad07bac0f0c868a3928dfc575d15
+Section: Tweaks
+Description: Makes Steam website functional on iOS 14.1 - 16.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/steamweblegacycompat.html
+Name: SteamWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/steamweblegacycompat.json
+
+Package: com.ps.steamweblegacycompat
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 796
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.1), firmware (<< 16.4)
+Filename: ./debs/app/steam/com.ps.steamweblegacycompat_1.0.0_iphoneos-arm.deb
+Size: 147268
+MD5sum: fd8e58e0a723bbbc3a7c3ea67e96588d
+SHA1: 5230c44c22170cd6d1f8592028e30fc39d69422d
+SHA256: ba0b47631a1965336d64d38cb2adea520b7dc39f4a03683b32966dd259758679
+Section: Tweaks
+Description: Makes Steam website functional on iOS 14.1 - 16.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/steamweblegacycompat.html
+Name: SteamWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/steamweblegacycompat.json
+
 Package: com.ps.stillcaptureenabler
 Version: 1.0.0
 Architecture: iphoneos-arm
