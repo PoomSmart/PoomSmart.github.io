@@ -63,6 +63,11 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.7.0", [
+                "Added polyfill for String.matchAll (< 13.0)",
+                "Added polyfill for globalThis (< 12.1)",
+                "Added polyfill for Reflect (< 10.0)"
+            ]],
             ["2.6.0", [
                 "Added polyfill for structuredClone (< 15.4)",
                 "Added polyfill for Object.getOwnPropertyDescriptors, String.padStart and String.padEnd (< 10.0)",
