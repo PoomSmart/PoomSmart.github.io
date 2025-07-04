@@ -6,7 +6,7 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.4", "Updated JS for the recent GitHub changes"],
+            ["2.3.5", "Updated JS for the recent GitHub changes"],
             ["2.2.0", [
                 "Fixed some broken elements in the issues page on iOS < 15.4",
                 "Made the JS code injected only once"
@@ -173,7 +173,6 @@ app = [
         "changes": [
             ["1.2.1", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
             ["1.1.2", "Fixed the polyfill crashing in some scenarios"],
-            ["1.1.1", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.0", "Rewrote the polyfill"],
             ["1.0.1", "Fixed the polyfill crashing in some scenarios"],
         ]

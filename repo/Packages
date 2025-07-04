@@ -3659,16 +3659,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.4
+Version: 2.3.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 2248
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.4_iphoneos-arm.deb
-Size: 339258
-MD5sum: ae5e1c38d832f062159367946d02f90f
-SHA1: 08cd1f3decd5e9c8e13339690d1b65894a64dd8d
-SHA256: d5e9a8a3f7edf8f1258d8ded4683445a35dec1d8f6a96621456d6287ab3c7baa
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.5_iphoneos-arm.deb
+Size: 339266
+MD5sum: 6e371c07a952a0622c51990214c2206c
+SHA1: 3f76a78a251324add240404777210f7d1efeaf92
+SHA256: ae9e28df0c1c11858abc04561023521e2db5e224ee1a0cbda95ef933484b298e
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3677,16 +3677,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.4
+Version: 2.3.5
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 2216
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.4_iphoneos-arm64.deb
-Size: 335680
-MD5sum: bb9a0db3286215bd07bca00bb4d2e2c0
-SHA1: d3b781986b2c2e2bea8172b484e9bcb993b309f6
-SHA256: 3cd51638a9603a0120a1ee895040ce770f4c301e0d5563b9c6d3026167061fcc
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.5_iphoneos-arm64.deb
+Size: 335588
+MD5sum: 7722f2de1aa6a8c6441de4997c8c3381
+SHA1: 5d7e3e0fc6e4224fe816b00af5cbbcecea7ac6d9
+SHA256: 39c1b0af5b909ce8fd813e8f035d03c1773c0241b28fc203d839dc0d1727259b
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -6006,42 +6006,6 @@ Size: 3740
 MD5sum: 5b08dd34e47b51e8c0ad81efc8a9551d
 SHA1: 624c007cd141ef3ec61f5776ab63e9324faf14ac
 SHA256: 1f811af076dbaea48c22b9a43394321688e9c3d4235ff60c6d4bcf473acaab96
-Section: Tweaks
-Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
-Name: RegExp Lookbehind (Polyfills)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
-
-Package: com.ps.polyfillsregexplookbehind
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 12
-Depends: com.ps.polyfills (>= 2.2.4)
-Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.1.1_iphoneos-arm64.deb
-Size: 3890
-MD5sum: 2df1df6031d4adeb7f8ebf023e7edab4
-SHA1: 106f5fdfb8815442758bf3a7ba9d3a0709041b0f
-SHA256: 5862619000f51e7b08cbccdcea10951aa0b60af17e76b17e30709a209046ce36
-Section: Tweaks
-Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
-Name: RegExp Lookbehind (Polyfills)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
-
-Package: com.ps.polyfillsregexplookbehind
-Version: 1.1.1
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 12
-Depends: com.ps.polyfills (>= 2.2.4)
-Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexplookbehind_1.1.1_iphoneos-arm.deb
-Size: 3866
-MD5sum: 1030ffb1d41fed2ef388ff0140b1d4c1
-SHA1: d93c6da78e7fbf42d95df9324196190d2a18e340
-SHA256: c139e4723c3c34194f71858bb72d07b5200fdbea42453e240cd5b54b0706b5c4
 Section: Tweaks
 Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
 Author: PoomSmart
