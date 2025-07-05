@@ -20,20 +20,7 @@ app = [
                 "Fixed some broken control elements on iOS < 15.4",
                 "Minified CSS code before injecting"
             ]],
-            ["2.0.0", "Made JS code loaded from files"],
-            ["1.0.7", "Made \"Get assets\" button appear for expanded assets as well"],
-            ["1.0.6", "Added Polyfills tweak as a dependency"],
-            ["1.0.5", [
-                "Added \"Get assets\" button to GitHub Releases page on iOS 14 and lower to work around the assets being not downloadable",
-                "Allows installation on iOS 8"
-            ]],
-            ["1.0.4", "Added support for iOS 9 - 11"],
-            ["1.0.3", [
-                "Added stub value for HTMLDialogElement interface so that GitHub Search feature can work",
-                "Added com.apple.WebKit to the tweak plist so that it works on App Store browsers"
-            ]],
-            ["1.0.2", "Added polyfill for Array.prototype.at so that Issues page can be loaded"],
-            ["1.0.1", "Removed unnecessary bits"]
+            ["2.0.0", "Made JS code loaded from files"]
         ]
     },
     {
@@ -186,9 +173,7 @@ app = [
         "changes": [
             ["1.2.2", "Fixed polyfill compatibility on some websites"],
             ["1.2.1", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
-            ["1.1.2", "Fixed the polyfill crashing in some scenarios"],
-            ["1.1.0", "Rewrote the polyfill"],
-            ["1.0.1", "Fixed the polyfill crashing in some scenarios"],
+            ["1.1.2", "Fixed the polyfill crashing in some scenarios"]
         ]
     },
     {
@@ -196,6 +181,9 @@ app = [
         "title": "SteamWebLegacyCompat",
         "min_ios": "14.1",
         "max_ios": "16.3.1",
-        "description": "<p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>"
+        "description": "<p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>",
+        "changes": [
+            ["1.0.1", "Fixed compatibility on iOS 14"]
+        ]
     }
 ]
