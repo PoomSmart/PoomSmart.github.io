@@ -63,6 +63,7 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.8.1", "Spoofed iOS version to 16.3 for devices running under iOS 16.3"],
             ["2.8.0", [
                 "Added support for extended ISO 8601 date format (< 16.0)",
                 "Removed `max-width: 100% from viewport CSS workaround",
@@ -144,7 +145,7 @@ app = [
                 "Added polyfill for RegExp lookbehind (< 16.4)",
                 "Added polyfill for BroadcastChannel (< 15.4)",
                 "Added polyfill for Array.toReversed (< 16.0)",
-                "Spoofed iOS version to 16.0",
+                "Spoofed iOS version to 16.0 for devices running under iOS 16.0",
                 "Fixed websites always loading in desktop mode",
                 "Fixed polyfill compatibility with iOS 13.0 and lower",
                 "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex",
@@ -180,6 +181,7 @@ app = [
         "title": "RegExp Lookbehind (Polyfills)",
         "description": "<p>Provides a polyfill for RegExp lookbehind feature that is not available on iOS 16.4 and lower.</p>",
         "changes": [
+            ["1.2.2", "Fixed polyfill compatibility on some websites"],
             ["1.2.1", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
             ["1.1.2", "Fixed the polyfill crashing in some scenarios"],
             ["1.1.0", "Rewrote the polyfill"],
