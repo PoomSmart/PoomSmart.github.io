@@ -63,6 +63,10 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.8.0", [
+                "Added support for extended ISO 8601 date format (< 16.0)",
+                "Removed `max-width: 100% from viewport CSS workaround",
+            ]],
             ["2.7.0", [
                 "Added polyfill for String.matchAll (< 13.0)",
                 "Added polyfill for globalThis (< 12.1)",
@@ -74,8 +78,8 @@ app = [
                 "Added polyfill for Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}. Number.isInteger and Number.isSafeInteger (< 9.0)"
             ]],
             ["2.5.0", [
-                "Included iOS 15.2 - 15.3 for the `max-width: 100% and overflow-x: hidden` CSS workaround",
-                "Made the `max-width: 100% and overflow-x: hidden` CSS workaround apply to only mobile devices",
+                "Included iOS 15.2 - 15.3 for viewport CSS workaround",
+                "Made viewport CSS workaround apply to only mobile devices",
                 "Added polyfills for Array.flat, String.trimStart, String.trimEnd and Symbol.description (< 12.0)",
                 "Added polyfill for Promise.finally (< 11.1)",
                 "Simplified NodeList.forEach polyfill (< 10.0)"
@@ -86,7 +90,7 @@ app = [
                 "Added polyfill for Promise.any (< 14.0)",
                 "Added polyfill for Object.fromEntries (< 12.1)",
                 "Fixed Element.matches compatibility workaround still not working correctly (< 15.6)",
-                "Included iOS 15.0 - 15.1 for the `max-width: 100% and overflow-x: hidden` CSS workaround"
+                "Included iOS 15.0 - 15.1 for viewport CSS workaround"
             ]],
             ["2.3.1", "Added RegExp Lookbehind (Polyfills) tweak as a dependency"],
             ["2.3.0", [
@@ -100,7 +104,7 @@ app = [
             ["2.2.0", [
                 "Made CSS Cascade layers workaround work for dynamically added stylesheets",
                 "Added polyfill for EventTarget (< 14.0)",
-                "Readded `max-width: 100% and overflow-x: hidden` CSS workaround (< 15.0)",
+                "Readded viewport CSS workaround (< 15.0)",
                 "Fixed HTMLDialogElement stub polyfill not working (< 15.4)"
             ]],
             ["2.1.0", [
@@ -153,7 +157,7 @@ app = [
             ["1.4.0", [
                 "Added missing polyfill for Web Streams (necessary for CompressionStream)",
                 "Added polyfill for Element.checkVisibility (< 17.4)",
-                "Removed problematic `max-width: 100% and overflow-x: hidden` CSS workaround"
+                "Removed problematic viewport CSS workaround"
             ]],
             ["1.3.0", [
                 "Allows polyfills to be injected into iframes",
@@ -167,7 +171,7 @@ app = [
                 "Added support for injecting JavaScript after the document is loaded",
                 "Added polyfills for Array.findLast, Array.findLastIndex and Object.hasOwn (< 15.4)",
                 "Added polyfill for String.replaceAll (< 13.1)",
-                "Added `max-width: 100% and overflow-x: hidden` CSS workaround for html and body to fix incomplete page width on iOS 14 and lower"
+                "Added viewport CSS workaround to fix incomplete page width on iOS 14 and lower"
             ]],
         ]
     },
