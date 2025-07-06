@@ -53,6 +53,11 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.9.0", [
+                "Added polyfill for Float16Array (< 18.2)",
+                "Fixed CompressionStream polyfill not working in some cases (< 16.4)",
+                "Improved BroadcastChannel polyfill error handling (< 15.4)",
+            ]],
             ["2.8.1", "Spoofed iOS version to 16.3 for devices running under iOS 16.3"],
             ["2.8.0", [
                 "Added support for extended ISO 8601 date format (< 16.0)",
