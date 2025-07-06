@@ -55,7 +55,7 @@ app = [
         "changes": [
             ["2.10.0", [
                 "Added polyfill for Document Fullscreen API (< 16.4)",
-                "Fixed broken functionalities in BroadcastChannel (< 15.4)"
+                "Fixed broken functionalities in BroadcastChannel polyfill (< 15.4)"
             ]],
             ["2.9.0", [
                 "Added polyfill for Float16Array (< 18.2)",
