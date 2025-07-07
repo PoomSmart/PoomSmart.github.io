@@ -53,6 +53,10 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.11.0", [
+                "Improved safety checks in Document Fullscreen API polyfill (< 16.4)",
+                "Added polyfill for Crypto.subtle (< 11.0)"
+            ]],
             ["2.10.0", [
                 "Added polyfill for Document Fullscreen API (< 16.4)",
                 "Fixed broken functionalities in BroadcastChannel polyfill (< 15.4)"
