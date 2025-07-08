@@ -53,6 +53,11 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.12.0", [
+                "Added support for priority scripts (loaded before any other scripts)",
+                "Added polyfill for navigator.hardwareConcurrency (< 15.4)",
+                "Added support for smooth behavior in Scrolling API (< 15.4)"
+            ]],
             ["2.11.0", [
                 "Improved safety checks in Document Fullscreen API polyfill (< 16.4)",
                 "Added polyfill for Crypto.subtle (< 11.0)"
@@ -180,14 +185,9 @@ app = [
         ]
     },
     {
-        "file": "polyfillsregexplookbehind",
-        "title": "RegExp Lookbehind (Polyfills)",
-        "description": "<p>Provides a polyfill for RegExp lookbehind feature that is not available on iOS 16.4 and lower.</p>",
-        "changes": [
-            ["1.2.2", "Fixed polyfill compatibility on some websites"],
-            ["1.2.1", "Added regex replacement mechanism so that complex regexes are transformed to simpler ones without lookbehind"],
-            ["1.1.2", "Fixed the polyfill crashing in some scenarios"]
-        ]
+        "file": "polyfillsregexp",
+        "title": "RegExp Lookbehind/Indices (Polyfills)",
+        "description": "<p>Provides a polyfill for RegExp lookbehind feature (iOS 16.4+) and indices (iOS 15.0+) for older iOS versions.</p>"
     },
     {
         "file": "steamweblegacycompat",
