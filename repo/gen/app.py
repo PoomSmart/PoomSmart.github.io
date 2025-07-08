@@ -53,6 +53,10 @@ app = [
             <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.12.1", [
+                "Fixed Document Fullscreen API polyfill breaking some websites (< 16.4)",
+                "Fixed String.startsWith and String.endsWith polyfills not working (< 9.0)"
+            ]],
             ["2.12.0", [
                 "Added support for priority scripts (loaded before any other scripts)",
                 "Added polyfill for navigator.hardwareConcurrency (< 15.4)",
