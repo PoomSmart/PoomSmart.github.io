@@ -6,10 +6,7 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.6", [
-                "Improved compatibility on iOS 14 and lower",
-                "Updated JS for the recent GitHub changes"
-            ]],
+            ["2.3.7", "Updated JS for the recent GitHub changes"],
             ["2.2.0", [
                 "Fixed some broken elements in the issues page on iOS < 15.4",
                 "Made the JS code injected only once"

@@ -3371,16 +3371,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.6
+Version: 2.3.7
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 2760
+Installed-Size: 2724
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.6_iphoneos-arm64.deb
-Size: 421508
-MD5sum: 46855f8c73efa6224cb4867cf06d07ae
-SHA1: 031a21eb9b31f7524d156cab4738d14176f74016
-SHA256: 5e376a20cbce481bf88e86fa7e72cce7cfc36e576ec224bd20f1e4ea152f73b7
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.7_iphoneos-arm64.deb
+Size: 414898
+MD5sum: 5c8ce433b4a9897756f6c610edfda9ae
+SHA1: 96558fa76b754a4e54be6aeaebafa467c40400a3
+SHA256: 576b88894790cdbe12d3c2410aac16fb432e99eb1f90c95978d2ad86fd4df778
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3389,16 +3389,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.6
+Version: 2.3.7
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2792
+Installed-Size: 2756
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.6_iphoneos-arm.deb
-Size: 425282
-MD5sum: 9b12c054de676ccc159c08a1b40ce92c
-SHA1: 52f93d0810485b0e8de3130e4a54d3a86a3e2677
-SHA256: a393d451b51694105eb90cd858f7220926d4893d3eedb7cb221135c783ba12d6
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.7_iphoneos-arm.deb
+Size: 418526
+MD5sum: 3e3e2d4a01cf3d64413a7c72004d25f5
+SHA1: 83327b08ca5711b6356249e96c0fe69db4c000d1
+SHA256: 495d12f3b5e34a3db704912280396ff4219d8e099bf338c33fe5eea116b864b8
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
