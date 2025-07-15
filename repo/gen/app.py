@@ -6,7 +6,7 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.7", "Updated JS for the recent GitHub changes"],
+            ["2.3.8", "Updated JS for the recent GitHub changes"],
             ["2.2.0", [
                 "Fixed some broken elements in the issues page on iOS < 15.4",
                 "Made the JS code injected only once"
@@ -47,7 +47,7 @@ app = [
         "min_ios": "8.0",
         "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p>\
             <p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p>\
-            <p>Up until 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
+            <p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
             ["2.13.0", [
