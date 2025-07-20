@@ -450,6 +450,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads, background playback and legacy compatibility for iOS YouTube app.</p>",
         "changes": [
+            ["1.7.16", "Removed update dialog blocker (moved to YouTube Legacy tweak)"],
             ["1.7.15", "Removed version spoofing code (moved to YouTube Legacy tweak)"],
             ["1.7.14", "Disabled the new jailbreak detection in new YouTube versions"],
             ["1.7.13", "Spoofed YouTube version to 19.14.2 for clients with version 17.09.1 and lower to make app functional"],
@@ -527,6 +528,10 @@ youtube = [
             <p>You only need this tweak if you are on iOS 13 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.6.8", [
+                "Fixed the app hang on launch due to YouTube Playables (by removing them)",
+                "Added missing update dialog blocker (was in YouTube X tweak before)"
+            ]],
             ["1.6.7", "Removed YouTube X as a dependency, Ported its version spoofing code to this tweak"],
             ["1.6.6", "Spoofed iOS version to 15.8.4 (for iOS 14-) to make account sign-in works"],
             ["1.6.5", "Added an alert on app startup if the user has modified Info.plist file to spoof the YouTube version, as this is discouraged while using this tweak"],
