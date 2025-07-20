@@ -3371,16 +3371,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.8
+Version: 2.3.9
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 2744
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.8_iphoneos-arm64.deb
-Size: 416506
-MD5sum: 4274584a70e7bec81d27c63c2c8d290e
-SHA1: e3e7f2f86fc701a53be8257d04818743e576db5d
-SHA256: 0b1d9aefe39455a08958d5ff99176da1afcac60eb2eafde12a2f5b48cecad6b3
+Installed-Size: 2748
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.9_iphoneos-arm64.deb
+Size: 419262
+MD5sum: 6aafc24ad81f88c4183f11039561ee2b
+SHA1: b61097b0cb2e65b41c8bc42ef25fb13309455275
+SHA256: 1a1c10cf89643248c06af58f38d90fae0e81d7e30dfd9bddcd04cc29083c6da6
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3389,16 +3389,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.8
+Version: 2.3.9
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2776
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.8_iphoneos-arm.deb
-Size: 420144
-MD5sum: 231df607f2c92fe6da2430662f47ce45
-SHA1: ff6264229048101b0f2fb4576f77100321f2ebb2
-SHA256: 606c9e4807a5498c814a478700d6d86bc1914c816133012acdb3b9141e95b4c2
+Installed-Size: 2780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.9_iphoneos-arm.deb
+Size: 422944
+MD5sum: 13a60272fd466b4da95f6245f5fd009e
+SHA1: 47767df862820071c85467f9ef6186729294eca7
+SHA256: 45b74f4a2b5a52722fa3c27686373f14b6a056cb2ff8e9dbbad638cb526af5da
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -5982,32 +5982,32 @@ Author: PoomSmart
 Name: Polyfills CC Toggle
 
 Package: com.ps.polyfillsdebug
-Version: 1.0.0
-Architecture: iphoneos-arm64
+Version: 1.0.1
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 8
-Depends: com.ps.polyfills (>= 2.0.0)
-Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.0_iphoneos-arm64.deb
-Size: 1412
-MD5sum: 8eb2fe4d97837fb02334bf4f02d5bfda
-SHA1: 304ae3f59737890d898ca04119643c4067717c4a
-SHA256: de5b0739740c725068e7a04ec952713519ccd61cb04a36dbbf085cfd04f2bb72
+Depends: com.ps.polyfills (>= 2.12.0)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.1_iphoneos-arm.deb
+Size: 1392
+MD5sum: 4029209c68dd73d4b2c3b7ce8b29f33b
+SHA1: de2cccc8c5be5d16ce4c63f8ce5752e6160558ba
+SHA256: ce27f35f8de7fb7deb6749b02014e2674a5bb790ce7cf0697ea1587c1c635132
 Section: Tweaks
 Description: Prints browser console logs directly to the web page.
 Author: PoomSmart
 Name: Debug (Polyfills)
 
 Package: com.ps.polyfillsdebug
-Version: 1.0.0
-Architecture: iphoneos-arm
+Version: 1.0.1
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 8
-Depends: com.ps.polyfills (>= 2.0.0)
-Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.0_iphoneos-arm.deb
-Size: 1382
-MD5sum: 428f1c4da9cb52044ac44668764adb0d
-SHA1: 725c352bd89f3ad0e11a705624eca5ca7f4a87ae
-SHA256: 75ca38c09c9daaf177d58c661b2d793640ba905febfdae6f994c392fa5b81b05
+Depends: com.ps.polyfills (>= 2.12.0)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.0.1_iphoneos-arm64.deb
+Size: 1424
+MD5sum: c7c658a59c6a0119def73633ba936556
+SHA1: 4fe17585d54a78ed07015311387f1f640703147d
+SHA256: 51b951c322148ecbc2d2c0e66c41cabef6e2854ce80a157ecc479a13f246a25a
 Section: Tweaks
 Description: Prints browser console logs directly to the web page.
 Author: PoomSmart
