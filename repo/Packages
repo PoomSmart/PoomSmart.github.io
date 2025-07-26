@@ -3371,16 +3371,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.9
-Architecture: iphoneos-arm64
+Version: 2.3.10
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2748
+Installed-Size: 2800
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.9_iphoneos-arm64.deb
-Size: 419262
-MD5sum: 6aafc24ad81f88c4183f11039561ee2b
-SHA1: b61097b0cb2e65b41c8bc42ef25fb13309455275
-SHA256: 1a1c10cf89643248c06af58f38d90fae0e81d7e30dfd9bddcd04cc29083c6da6
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.10_iphoneos-arm.deb
+Size: 425590
+MD5sum: 9bbde29d971f7c6f2cf10ea01b307e20
+SHA1: 01b76e3c3e414bec64ed3ad244afa0975f64ae3e
+SHA256: 21f0f191e1672f5c68543a769137900d66f6a2bb813b4844bf0d14ebb2ad91fb
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3389,16 +3389,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.9
-Architecture: iphoneos-arm
+Version: 2.3.10
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 2780
+Installed-Size: 2768
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.9_iphoneos-arm.deb
-Size: 422944
-MD5sum: 13a60272fd466b4da95f6245f5fd009e
-SHA1: 47767df862820071c85467f9ef6186729294eca7
-SHA256: 45b74f4a2b5a52722fa3c27686373f14b6a056cb2ff8e9dbbad638cb526af5da
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.10_iphoneos-arm64.deb
+Size: 421904
+MD5sum: 207a2be6fb9aa6923b39a39c9f8609d2
+SHA1: 892293245b0205789b7b8b1861a080eedca50d63
+SHA256: 41a35aed316c8aaa7a00033798282c470213db012f18ac0cd8a4ccfdef70bcc9
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
