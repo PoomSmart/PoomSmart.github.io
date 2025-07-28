@@ -8,8 +8,17 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["2.0.0", [
+                "Made 2K/4K formats available on server ABR",
+                "Disabled client ABR forcing code",
+                "Added libundirect as a dependency",
+                "Removed video auto-reload workaround",
+                "Fixed the video buffering issue"
+                "Hopefully fixed the random audio track switching issue",
+                "Note: This version may be sideloading incompatible"
+            ]],
             ["1.6.6", "Fixed a possible app crash when viewing broken Shorts (regression of 1.6.5)"],
-            ["1.6.5", "Added the workaround to auto-reload a video when it is stuck at buffering state for more than 2 seconds, when VP9 is enabled"],
+            ["1.6.5", "Added the workaround to auto-reload a video when it is stuck at buffering state for more than 2 seconds"],
             ["1.6.4", "Ensure software AV1 decoding is functional (untested)"],
             ["1.6.3", "Improved the stability of video playback when Use VP9 option is enabled"],
             ["1.6.2", "Fixed incorrect video formats filtering logic (for ex. 1080p VP9 format is not removed even when All VP9 option is disabled)"],
