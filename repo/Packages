@@ -3371,16 +3371,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.10
+Version: 2.3.11
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2800
+Installed-Size: 2996
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.10_iphoneos-arm.deb
-Size: 425590
-MD5sum: 9bbde29d971f7c6f2cf10ea01b307e20
-SHA1: 01b76e3c3e414bec64ed3ad244afa0975f64ae3e
-SHA256: 21f0f191e1672f5c68543a769137900d66f6a2bb813b4844bf0d14ebb2ad91fb
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.11_iphoneos-arm.deb
+Size: 467620
+MD5sum: d1fa832fbd6d931bbbdafaee69d19b06
+SHA1: b1675d9fcbd64251d39a95dd9e5b79beaf6389af
+SHA256: 511c3b96fe760816fd73b5b941e610bd053c24a8f55a66b8bff7198f2927c38b
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3389,16 +3389,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.10
+Version: 2.3.11
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 2768
+Installed-Size: 2964
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.10_iphoneos-arm64.deb
-Size: 421904
-MD5sum: 207a2be6fb9aa6923b39a39c9f8609d2
-SHA1: 892293245b0205789b7b8b1861a080eedca50d63
-SHA256: 41a35aed316c8aaa7a00033798282c470213db012f18ac0cd8a4ccfdef70bcc9
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.11_iphoneos-arm64.deb
+Size: 463968
+MD5sum: 5541ec1c95c9d449b2c96c937df4fabc
+SHA1: 5b55dddeb1379426df056b37c13ca5cdac0e42f7
+SHA256: b677cf44fe31918d395bc5acd376bb31dda2e9c87602b3faf9c9efeed936d264
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
