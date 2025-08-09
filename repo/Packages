@@ -1319,16 +1319,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.4
+Version: 1.3.5
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 3984
+Installed-Size: 4088
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.4_iphoneos-arm64.deb
-Size: 964426
-MD5sum: 3fe73898f123d788c2382ecf0c951288
-SHA1: 7ca4d1192e0a172a8a34555ef4451d8a92d4cf5d
-SHA256: da112e7c2a73c8d18b8dc10affc18d2365d54c40e54b1452cfdd5a68f0135c0e
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.5_iphoneos-arm64.deb
+Size: 974924
+MD5sum: ac637b70788de8852c61e0520de59ca0
+SHA1: 8d49331027fb2a472846ea42aea52060c8652322
+SHA256: cd6a3f76aa0f1696175f622a113276019614ae179181c5a34c8b9cbce9b1a3c8
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -1337,16 +1337,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.4
+Version: 1.3.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 3980
+Installed-Size: 4084
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.4_iphoneos-arm.deb
-Size: 964790
-MD5sum: a7c308e2394925ae39b014ab9b9b5291
-SHA1: becf8c167cb3f5aff205c6b58c2cfeb0977e21c6
-SHA256: 4605b90c83bbdb6b7dc4f198dc2fc021356b15e52a306e420d3a5c65f6edf08f
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.5_iphoneos-arm.deb
+Size: 975682
+MD5sum: b21afde43aa4c18faaa84382fbdc9eab
+SHA1: 4b937f479fca52c0a1b0f5134a4b29bb6c8a5506
+SHA256: f2ebafa844f4521ec88f1c15064c4ff086ac0f1f7b14a46bb804637534d01212
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
