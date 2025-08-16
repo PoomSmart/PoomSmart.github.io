@@ -6,7 +6,7 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.12", [
+            ["2.3.13", [
                 "Updated JS and CSS for the recent GitHub changes",
                 "Known issue: File timestamp in repo overview page is not showing"
             ]],
@@ -54,6 +54,10 @@ app = [
             <p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.14.0", [
+                "Added experimental support for oklch color space (< 15.4)",
+                "Disabled user agent spoofing if the existing spoofing targets higher than iOS 16.3 (< 16.4)"
+            ]],
             ["2.13.0", [
                 "Made scripts from the same folder (scripts, scripts-priority or scripts-post) loaded all at once",
                 "Added \"Spoof User Agent\" option in tweak settings to manually spoof user agent to iOS 16.3 (Some websites could break with user agent spoofing enabled such as pinterest.com)"
@@ -88,12 +92,10 @@ app = [
                 "Removed `max-width: 100% from viewport CSS workaround",
             ]],
             ["2.7.0", [
+                "Added polyfill for structuredClone (< 15.4)",
                 "Added polyfill for String.matchAll (< 13.0)",
                 "Added polyfill for globalThis (< 12.1)",
-                "Added polyfill for Reflect (< 10.0)"
-            ]],
-            ["2.6.0", [
-                "Added polyfill for structuredClone (< 15.4)",
+                "Added polyfill for Reflect (< 10.0)",
                 "Added polyfill for Object.getOwnPropertyDescriptors, String.padStart and String.padEnd (< 10.0)",
                 "Added polyfill for Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}. Number.isInteger and Number.isSafeInteger (< 9.0)"
             ]],
