@@ -1354,6 +1354,40 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
+Package: com.ps.customsecheaders
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 4
+Filename: ./debs/app/polyfills/extensions/com.ps.customsecheaders_1.0.0_iphoneos-arm64.deb
+Size: 878
+MD5sum: 75d37946ba262d7396edb15e84c2070e
+SHA1: 2270db65bb0b52de0a7ef3e2d51bbe931197016b
+SHA256: 267e1a65408263026a300e56c9de115d79ab5d67b817bbb51590907a32a21898
+Section: Tweaks
+Description: Custom Sec-Fetch headers rules for Polyfills
+ This package ships sec-rules consumed by the Polyfills tweak to add
+ Sec-Fetch-* headers for specific sites.
+Author: PoomSmart
+Name: Custom Sec Headers
+
+Package: com.ps.customsecheaders
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 4
+Filename: ./debs/app/polyfills/extensions/com.ps.customsecheaders_1.0.0_iphoneos-arm.deb
+Size: 852
+MD5sum: fd99934ae056068d696067c5b53df0fc
+SHA1: 1218ce33d85bb85a202f8433b1a9e651d13be1eb
+SHA256: 26ac64457d4df8e57d473bb4b1eb6a172b1914e371dee63ebf268b06581c93d5
+Section: Tweaks
+Description: Custom Sec-Fetch headers rules for Polyfills
+ This package ships sec-rules consumed by the Polyfills tweak to add
+ Sec-Fetch-* headers for specific sites.
+Author: PoomSmart
+Name: Custom Sec Headers
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -5438,6 +5472,42 @@ Size: 98232
 MD5sum: 68e8de2f23b7f4a5fcd04db55f4d35c7
 SHA1: d07bd00eef49582469b1f4ae063781b985d336ef
 SHA256: 9a017e8f1664bf8228671106ce44cfb29c9f53bf03c461ae9f49e2531cbf81cd
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.17.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1020
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.17.0_iphoneos-arm.deb
+Size: 132378
+MD5sum: 81b3e4a966fc6542056f739d27ef3b07
+SHA1: 50505ec06aabd174be2d1c339c10d272435f4558
+SHA256: 6d796fb5c8df04674c7b9fe703816a0b6791deff1c5e2b36ae37c59fd3cb2b0e
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.17.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 924
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.17.0_iphoneos-arm64.deb
+Size: 107588
+MD5sum: 13fe253678cf807cb190d86fe1625d72
+SHA1: 939b172b2c3ffbbec23e956acf3c16ca632370da
+SHA256: 1f5d1baa1d3acd55d9fedd6ceed970b469e1d6aa8a31d8f04878372daacb5943
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart

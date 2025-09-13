@@ -39,6 +39,10 @@ app = [
             <p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>\
             <p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
         "changes": [
+            ["2.17.0", [
+                "Added experimental support for adding Sec-Fetch-* headers to improve website compatibility (>= 11.0, < 16.4)",
+                "Added experimental support for Media Query Range Syntax (< 16.4)"
+            ]],
             ["2.16.0", "Added ability to enable/disable and blacklist websites from each polyfill from the tweak settings"],
             ["2.15.0", [
                 "Fixed Document Fullscreen API polyfill breaking in strict website policy (< 16.4)",
