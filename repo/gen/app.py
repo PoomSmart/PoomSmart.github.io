@@ -6,14 +6,14 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.9", "Updated JS and CSS for the recent GitHub changes"]
+            ["2.3.20", "Updated JS and CSS for the recent GitHub changes"]
         ]
     },
     {
         "file": "chatgptweblegacycompat",
         "title": "ChatGPTWebLegacyCompat",
         "min_ios": "15.0",
-        "max_ios": "15.8.4",
+        "max_ios": "15.8.5",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
             ["1.3.9", "Updated CSS for the recent ChatGPT changes"],

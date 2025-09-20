@@ -170,7 +170,7 @@ tweaks = [
         "file": "latesttranslate",
         "title": "LatestTranslate",
         "min_ios": "14.0",
-        "max_ios": "16.7.11",
+        "max_ios": "16.7.12",
         "description": "<p>Makes Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
         "changes": [
             ["6.0.1", "Added new languages from iOS 17"]
@@ -212,7 +212,7 @@ tweaks = [
         "file": "noswiftatruntime",
         "title": "NoSwiftAtRuntime",
         "min_ios": "13.0",
-        "max_ios": "16.7.11",
+        "max_ios": "16.7.12",
         "description": "<p>Avoids crashing when performing runtime instrumentation on apps with incompatible Swift classes (using recent Swift compiler versions).</p>\
             <p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p>\
             <p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",

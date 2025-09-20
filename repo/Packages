@@ -3261,16 +3261,16 @@ Author: PoomSmart
 Name: GboardAll
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.19
-Architecture: iphoneos-arm64
+Version: 2.3.20
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 3144
+Installed-Size: 3080
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.19_iphoneos-arm64.deb
-Size: 492486
-MD5sum: f73351303d4c5c5b72e18a65c4c70688
-SHA1: 3285e80135127ae3d4fa602282c039c043952929
-SHA256: 950ad0b711285a37a42e71cb67cb9798766a88e55650a5f5a1db607113de9c53
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.20_iphoneos-arm.deb
+Size: 478164
+MD5sum: 5ab7d84888894fdff313eb33cecb12d9
+SHA1: a243cf2c1879110aaabc9e9482c8a05c31a654aa
+SHA256: d5bc21612616b821262f0ebd806c39b3350201ed8d0761e955470e460852f1dd
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3279,16 +3279,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.19
-Architecture: iphoneos-arm
+Version: 2.3.20
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 3176
+Installed-Size: 3048
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.19_iphoneos-arm.deb
-Size: 496242
-MD5sum: 965ce768dbbf636589e9a10db472687f
-SHA1: add78b36ff5df09ddc68a49888199f938f299f8e
-SHA256: 5d17c340006b23cbff32d33e3f0ce57ce80fce70fea78e9a0ce655482867abc8
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.20_iphoneos-arm64.deb
+Size: 474436
+MD5sum: d9c7ba9f59d4aba9631828892c006c5b
+SHA1: 9d824e8dc421d915fa4d5ad0b1d5a6ebc8ea6f58
+SHA256: 1b663ab1a8c958188956107d36e00b64f5ef8893c55a4bc6a0663209d95cee83
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
