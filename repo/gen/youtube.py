@@ -461,7 +461,7 @@ youtube = [
         "title": "YouTube X",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>No ads, background playback and legacy compatibility for iOS YouTube app.</p>",
+        "description": "<p>No ads and background playback.</p>",
         "changes": [
             ["1.7.17", "Restore update dialog blocker"],
             ["1.7.15", "Removed version spoofing code (moved to YouTube Legacy tweak)"],
