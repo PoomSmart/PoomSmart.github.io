@@ -81,6 +81,7 @@ youtube = [
         "description": "<p>Enables native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.9", "Adjusted setting icon to match the new icon style in recent YouTube versions"],
             ["1.12.8", [
                 "Fixed PiP not working on some videos in recent YouTube versions",
                 "Removed legacy code"
@@ -99,7 +100,7 @@ youtube = [
             ["1.12.2", [
                 "Simplified PiP enabling logic",
                 "Fixed setting icon not appearing when the tweak is disabled and grouped settings experiment is on",
-                "Fixed the tweak setting icon and Video Tab Bar PiP button being black in dark mode on YouTube version 20.02.3",
+                "Fixed setting icon and Video Tab Bar PiP button being black in dark mode on YouTube version 20.02.3",
                 "When iOS Text Size is not default, the Video Tab Bar PiP button will be resized accordingly"
             ]],
             ["1.11.0", "Added a new setting to make it possible for PiP to activate from either the video overlay button, the video tab bar button or dismissing the app at the same time"],
