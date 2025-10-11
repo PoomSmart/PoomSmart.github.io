@@ -505,6 +505,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Auto-selects the video quality of choice in iOS YouTube app.</p>",
         "changes": [
+            ["1.0.7", "Fixed incorrect resolution choosing in some videos"],
             ["1.0.6", "Shortened each scenario label in settings so that devices of a small form factor can see the full text"],
             ["1.0.5", "Moved the tweak description in the settings to under \"Enabled\" option so that the text is not cut off"],
             ["1.0.4", "Added th localization"],
