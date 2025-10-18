@@ -8126,6 +8126,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
 Name: YouChooseQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
 
+Package: com.ps.youchoosequality
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.8_iphoneos-arm64.deb
+Size: 9246
+MD5sum: 0ddf7cd1396699699e47c76e2e525a52
+SHA1: 5ee1e8405299fd752d47077905def6398e9b879c
+SHA256: 3dc9cb4d4a4e8b1e2cac76aeaade5492a10711f24418b9d4f90d47274d85afbf
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
+Package: com.ps.youchoosequality
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.8_iphoneos-arm.deb
+Size: 9310
+MD5sum: 49b7f8e36d82182660d6fc3aec069615
+SHA1: f8ab04195729ad2954ecd419f5402d3804dfbcda
+SHA256: e1fec34986490ef48d83f2ad05b16086e2e49b81b36a7accfaa6c5d6f8bfd55e
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
 Package: com.ps.youmusicpip
 Version: 1.1.0
 Architecture: iphoneos-arm
