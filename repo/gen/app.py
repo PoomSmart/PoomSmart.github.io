@@ -6,7 +6,7 @@ app = [
         "max_ios": "16.3.1",
         "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["2.3.22", "Updated JS and CSS for the recent GitHub changes"]
+            ["2.3.23", "Updated JS and CSS for the recent GitHub changes"]
         ]
     },
     {
@@ -16,7 +16,7 @@ app = [
         "max_ios": "15.8.5",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["1.3.9", "Updated CSS for the recent ChatGPT changes"],
+            ["1.3.10", "Updated CSS for the recent ChatGPT changes"],
             ["1.3.1", "Made the JS code injected only once"],
             ["1.3.0", [
                 "Fixed the tweak not working on iOS 15.0 - 15.3",

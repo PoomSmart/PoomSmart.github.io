@@ -1319,16 +1319,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.9
+Version: 1.3.10
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 4116
+Installed-Size: 4224
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.9_iphoneos-arm.deb
-Size: 979804
-MD5sum: 8f6b213d201aaf6e76a09d0ee2e2f8b7
-SHA1: b8d6709a5445e636b8bdc20ed0802afa4a61c3e6
-SHA256: 89fbbb2087e56642f92f4b640a4632ccac5f140e49926482062b6d849dff25c9
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.10_iphoneos-arm.deb
+Size: 989912
+MD5sum: 9de81c160e87092483cb83f7a031ea58
+SHA1: b39e9cce76d5870bfe8eb2a63e4362ae2d832b9e
+SHA256: fd94f3d7dee8e0f4a2b2f8af02ec14062b10a782b07ab081dd623425474c2dc5
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -1337,16 +1337,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.9
+Version: 1.3.10
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 4120
+Installed-Size: 4228
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.9_iphoneos-arm64.deb
-Size: 978626
-MD5sum: 82063ad2847cf18b0b58098ee505bea2
-SHA1: 2502cc5ffe08008a8b0ab03a3f8bcd3aab1f1b14
-SHA256: 97fb86b6f32ffbc0fd86d4b797c9793ea27957eb6d222557e7a0379cf273f1a4
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.10_iphoneos-arm64.deb
+Size: 988806
+MD5sum: 8ec344be3bdfa717a7a51a0f3c6830ed
+SHA1: 9b95bc341f90604e2bd26027cbeca4675cff89d3
+SHA256: d2fd1874ef27bc119597f708e84305fb08a6631ea024ca5e1f06361e56e4d7ec
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -3261,16 +3261,16 @@ Author: PoomSmart
 Name: GboardAll
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.22
+Version: 2.3.23
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 3240
+Installed-Size: 2292
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.22_iphoneos-arm64.deb
-Size: 524442
-MD5sum: 611afc376d77aece7ad2dd351f6cd26e
-SHA1: 7f0ad30257e5d646fe56f070197af9c78d1f0914
-SHA256: 60d886fd4da7be8e879f36d91637940f3235c54f41041fd71b1981b07bd7644d
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.23_iphoneos-arm64.deb
+Size: 398820
+MD5sum: 949350e367485ae7b74666d30598bf7e
+SHA1: 8a19ba577705cf9b3508d2c97d41e24a51ca759d
+SHA256: 48cbce920f3ef06be8a2305377c248cf0b6420cab1b0cf2174a9facee3fc38ce
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3279,16 +3279,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.22
+Version: 2.3.23
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 3272
+Installed-Size: 2324
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.22_iphoneos-arm.deb
-Size: 528114
-MD5sum: 4944df09ed01d49e2c2e2747f6bdfecb
-SHA1: 45f90d0fd97c657aa356dd428f252fbc100b25c3
-SHA256: 7d9f74b788c89f19ac9018f4a0806dabd731824d906a34e5914aeeea112cb51a
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.23_iphoneos-arm.deb
+Size: 402606
+MD5sum: 2293c347bf201292fa570c0ade39a0aa
+SHA1: 55dbd7969862c3206aaa9c0994627459095a60c1
+SHA256: bb088938873447104804372856216fa82cb92703cc0284ee17376023253f16e5
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
