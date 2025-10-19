@@ -549,6 +549,10 @@ youtube = [
             <p>You only need this tweak if you are on iOS 13 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.7.0", [
+                "Added missing view comments and share buttons to Shorts",
+                "Updated spoofed iOS version to 15.8.5 (for iOS 14-)"
+            ]],
             ["1.6.10", "Blocked another kind of YouTube upgrade dialog"],
             ["1.6.9", "Fixed going to the previous or next video in the second or more video of the playlist not working"],
             ["1.6.8", [
