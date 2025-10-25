@@ -522,6 +522,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
         "changes": [
+            ["1.2.3", "Fixed app crash on YouTube version 16.x"],
             ["1.2.2", "Fixed setting slider color not working in Subscription and You tabs on some YouTube version 19.x"],
             ["1.2.1", "Fixed setting scrubber color not working on YouTube version 20.22.1"],
             ["1.2.0", [
