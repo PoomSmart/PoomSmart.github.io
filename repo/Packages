@@ -8162,6 +8162,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
 Name: YouChooseQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
 
+Package: com.ps.youchoosequality
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.9_iphoneos-arm64.deb
+Size: 9428
+MD5sum: 088054c2b4accba5692cf056c115b518
+SHA1: e034fd4422cebb31a923789caa15b9bd01617793
+SHA256: de6eb2640d8bfee72dad75c36657031f9d4f991ed0058cf11906d80c51b50951
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
+Package: com.ps.youchoosequality
+Version: 1.0.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 80
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/youchoosequality/com.ps.youchoosequality_1.0.9_iphoneos-arm.deb
+Size: 9472
+MD5sum: 29c98668f1e41e5d642b1bd04f3a88ab
+SHA1: ef58c9a74079771a3b32be3eae654ae0d03a9b0e
+SHA256: 733bd369e27fa6f67131f0172f0cc3f5148bdefbda1765c7dfd5dceb4e09261a
+Section: Tweaks
+Description: Auto-select the video quality of choice in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
+Name: YouChooseQuality
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
+
 Package: com.ps.youmusicpip
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -11381,6 +11417,42 @@ Size: 440210
 MD5sum: 042fac611879954aa72da5933b429d14
 SHA1: de15b6775af42713cb6bef0e83a1266d97d5fc0a
 SHA256: 71b325c95b5a6d3273fdf633c173b4bafd1de9602a5ff23ab55f6a1068072bc1
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 5240
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.7.1_iphoneos-arm.deb
+Size: 440630
+MD5sum: 778158ae99d75ea83f3fab71daa51045
+SHA1: ff6400857308b3e093bbfc46f135cf73a9903e96
+SHA256: e1e076af91aed31df098d53ad05c7d3d4362ecf8d0242ab360682830c0ac5995
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 5256
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.7.1_iphoneos-arm64.deb
+Size: 440870
+MD5sum: c691578542d949cd441482dce24c3715
+SHA1: 5860dad01d841a78f413ec936800a02155703ea2
+SHA256: c3eacd9341dcf1edc02526b90fb7a533cdd59ed41df98e04718a62647e1dcd0a
 Section: Tweaks
 Description: Attempts to make old YouTube versions work again.
 Author: PoomSmart
