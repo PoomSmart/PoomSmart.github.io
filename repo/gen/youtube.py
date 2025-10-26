@@ -551,6 +551,11 @@ youtube = [
             <p>You only need this tweak if you are on iOS 13 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.8.0", [
+                "Made Shorts not activated as a separate view controller on old YouTube versions",
+                "Made Shorts share button open iOS native share sheet instead (from 1.7.0)",
+                "Fixed Shorts title and channel name not showing on old YouTube versions"
+            ]],
             ["1.7.1", [
                 "Fixed tapping on video cards in History and Playlists pages not playing the video on old YouTube versions",
                 "Made Shorts view comments button open Shorts URL on YouTube version 17.09.1 and lower"
