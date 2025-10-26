@@ -16,7 +16,7 @@ app = [
         "max_ios": "15.8.5",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
-            ["1.3.10", "Updated CSS for the recent ChatGPT changes"],
+            ["1.3.11", "Updated CSS for the recent ChatGPT changes"],
             ["1.3.1", "Made the JS code injected only once"],
             ["1.3.0", [
                 "Fixed the tweak not working on iOS 15.0 - 15.3",
