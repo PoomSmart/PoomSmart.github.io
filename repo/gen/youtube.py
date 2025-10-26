@@ -548,7 +548,7 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>\
-            <p>You only need this tweak if you are on iOS 13 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
+            <p>You only need this tweak if you are on iOS 14 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
             ["1.8.1", "Made certain videos in channel page play on tapping, or show the overflow menu with Play option if the workaround is required"],
