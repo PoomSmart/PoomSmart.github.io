@@ -551,6 +551,10 @@ youtube = [
             <p>You only need this tweak if you are on iOS 14 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.8.2", [
+                "Fixed app crash or video not playing for videos in You tab (YouTube premium users)",
+                "Made all videos in channel page play on tapping (no more showing overflow menu workaround)"
+            ]],
             ["1.8.1", "Made certain videos in channel page play on tapping, or show the overflow menu with Play option if the workaround is required"],
             ["1.8.0", [
                 "Made Shorts not activated as a separate view controller on old YouTube versions",
