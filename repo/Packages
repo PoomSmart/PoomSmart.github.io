@@ -11604,6 +11604,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
 Name: YouTube Legacy
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
 
+Package: com.ps.ytlegacy
+Version: 1.8.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 5256
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.8.4_iphoneos-arm64.deb
+Size: 441780
+MD5sum: 915d6c4cbd82c76808fe256606da0aad
+SHA1: 7a9d693e74111008277c008c9c25647d8c53afc5
+SHA256: 78743f80a324e8936151347d1a3c402f9b0205d6ea73971e6340e8cc13ac631a
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.8.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 5256
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed, com.ps.ytclassicvideoquality, weeb.lillie.youtubedislikesreturn (>= 1.13.9)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.8.4_iphoneos-arm.deb
+Size: 441434
+MD5sum: 7b92c25f518903f879e4e3d835b82f44
+SHA1: 57fdeb8897e93184d3d701684c25194a4dd29c50
+SHA256: 132af51a8c8391e8d8d7bcdc32fb5625c42ca83ebb78a21cda4c55df5d3ccbcc
+Section: Tweaks
+Description: Attempts to make old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
 Package: com.ps.ytmabconfig
 Version: 1.0.0
 Architecture: iphoneos-arm64
