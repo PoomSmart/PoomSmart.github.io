@@ -551,6 +551,11 @@ youtube = [
             <p>You only need this tweak if you are on iOS 14 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.8.6", [
+                "Made opening History or Playlist panel in You tab transition to a new page to prevent navigation issues",
+                "Fixed tapping on some video still playing a different video (possible regression from 1.8.2)",
+                "Fixed swipe to remove button not showing in History page"
+            ]],
             ["1.8.5", "Fixed app crash when playing Shorts on some devices"],
             ["1.8.4", "Fixed tapping on History or Playlist panel in You tab playing the first video instead of expanding the panel"],
             ["1.8.3", "Fixed app crash when tapping on certain elements (regression from 1.8.2)"],
