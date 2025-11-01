@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["2.1.0", "Added \"Disable Server ABR\" option to fix old YouTube versions (around 17.x.x) not being able to play a video when the tweak is enabled"],
             ["2.0.2", "Fixed tweak not working on recent YouTube versions"],
             ["2.0.1", [
                 "Fixed 2K/4K formats not showing on recent YouTube versions",
