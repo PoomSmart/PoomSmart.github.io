@@ -233,6 +233,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.8.0", [
+                "Improved performance throughout the tweak",
+                "Made \"View modified settings\" option navigate to a new page where flags can be toggled instead of just showing an alert"
+            ]],
             ["1.7.9", "Safely accesses YouTube configs"],
             ["1.7.8", "Removed kidsClient* and musicOfflineClient* A/B flags as they are unrelated to YouTube app"],
             ["1.7.7", [
@@ -280,6 +284,7 @@ youtube = [
         "description": "<p>YouTube Music usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.\
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.</p>",
         "changes": [
+            ["1.1.0", "Improved performance throughout the tweak"],
             ["1.0.3", [
                 "Removed \"shorts\" settings because they are irrelevant for YouTube Music",
                 "Added id, th localization"
