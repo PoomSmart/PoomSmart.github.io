@@ -12817,10 +12817,10 @@ Maintainer: PoomSmart
 Installed-Size: 176
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.libundirect (>= 1.1.6)
 Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_2.0.2_iphoneos-arm64.deb
-Size: 18280
-MD5sum: f75f9f3467a9628372c6a65e48f0c1bb
-SHA1: bfba01ab2f02f8a4c01192f134a32f1d7aa241bb
-SHA256: 679d7d1720909539f61dae108c5fed7ba546f4b81cb7082da86568c896d7cc58
+Size: 18296
+MD5sum: 5e06c2ceb56809438545d81252e11ea1
+SHA1: 63d94bb6842381ca0cbf22e26008d28705e559d1
+SHA256: f3e3422873f0cf9d93f35edd5075d96b8d06621d093214d482b6ab6f2f61f23c
 Section: Tweaks
 Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
@@ -12835,10 +12835,10 @@ Maintainer: PoomSmart
 Installed-Size: 160
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.libundirect (>= 1.1.6)
 Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_2.0.2_iphoneos-arm.deb
-Size: 18290
-MD5sum: 206b60e00c1eddc636f47c400371d68b
-SHA1: c2ac4d253450d88e6ab84d94eb8efceea0896492
-SHA256: 2b84d43ade4f93922baccff7d630bafe8f96e1cbf9b9dabaff9441033e2cce30
+Size: 18292
+MD5sum: b7b6e2eb23075788574c2c77839367db
+SHA1: bbb567f863d87a8444ca74db0d5d88e483bae6ec
+SHA256: 3bb89d26ee54e81603ce66ecc0159f610cb357ff70136c54c297b1dfa57f7dc4
 Section: Tweaks
 Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
