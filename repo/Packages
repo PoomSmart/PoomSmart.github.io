@@ -7504,6 +7504,42 @@ Name: Toss Face Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/tossfaceefm.json
 
 Package: com.ps.trollleds
+Version: 1.10.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 236
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.trollleds_1.10.0_iphoneos-arm64.deb
+Size: 75362
+MD5sum: 4d449d5832eff633d5fa3a1b6753b968
+SHA1: 78579d80de3d02fbfe1c471e05d971d2ac8ca77a
+SHA256: 41f77f68b6cfc95b89883067ec6a18c7c690c866252e34bbc41246a6833c0660
+Section: Utilities
+Description: Controls flashlight LEDs with eases.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Name: TrollLEDs
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
+Package: com.ps.trollleds
+Version: 1.10.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 240
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.trollleds_1.10.0_iphoneos-arm.deb
+Size: 79774
+MD5sum: 07ca6b66be86b0439298e2810bc678b6
+SHA1: 5d9fc1ef7b6588c211cfccb703402fc3572713de
+SHA256: cddf7e93596682efc6c522bcc0695e36c254261ec2f32ab39f7b312a99e483fb
+Section: Utilities
+Description: Controls flashlight LEDs with eases.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Name: TrollLEDs
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
+Package: com.ps.trollleds
 Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
