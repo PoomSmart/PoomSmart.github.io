@@ -558,52 +558,38 @@ youtube = [
             <p>You only need this tweak if you are on iOS 14 or lower, or you are using YouTube app version 18.49.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
-            ["1.8.8", "Fixed tapping on Playlist panel in You tab still playing the first video instead of expanding the panel"],
-            ["1.8.7", [
+            ["1.8.8", [
                 "Fixed app crash when opening History panel in You tab on old YouTube versions",
-                "Fixed tapping on Shorts channel name not opening the channel page on old YouTube versions"
-            ]],
-            ["1.8.6", [
-                "Made opening History or Playlist panel in You tab transition to a new page to prevent navigation issues",
-                "Fixed tapping on some video still playing a different video (possible regression from 1.8.2)",
-                "Fixed swipe to remove button not showing in History page"
-            ]],
-            ["1.8.5", "Fixed app crash when playing Shorts on some devices"],
-            ["1.8.4", "Fixed tapping on History or Playlist panel in You tab playing the first video instead of expanding the panel"],
-            ["1.8.3", "Fixed app crash when tapping on certain elements (regression from 1.8.2)"],
-            ["1.8.2", [
+                "Fixed tapping on Shorts channel name not opening the channel page on old YouTube versions",
+                "Fixed swipe to remove button not showing in History page",
+                "Fixed app crash when playing Shorts on some devices",
+                "Fixed tapping on History or Playlist panel in You tab playing the first video instead of expanding the panel",
                 "Fixed app crash or video not playing for videos in You tab (YouTube premium users)",
-                "Made all videos in channel page play on tapping (no more showing overflow menu workaround)"
-            ]],
-            ["1.8.1", "Made certain videos in channel page play on tapping, or show the overflow menu with Play option if the workaround is required"],
-            ["1.8.0", [
+                "Made opening History or Playlist panel in You tab transition to a new page to prevent navigation issues",
+                "Made all videos in channel page play on tapping",
                 "Made Shorts not activated as a separate view controller on old YouTube versions",
                 "Made Shorts share button open iOS native share sheet instead (from 1.7.0)",
                 "Fixed Shorts title and channel name not showing on old YouTube versions"
             ]],
             ["1.7.1", [
                 "Fixed tapping on video cards in History and Playlists pages not playing the video on old YouTube versions",
-                "Made Shorts view comments button open Shorts URL on old YouTube versions"
-            ]],
-            ["1.7.0", [
+                "Made Shorts view comments button open Shorts URL on old YouTube versions",
                 "Added missing view comments and share buttons to Shorts (view comments button works on YouTube version 17.10.2 and higher)",
                 "Updated spoofed iOS version to 15.8.5 (for iOS 14-)"
             ]],
-            ["1.6.10", "Blocked another kind of YouTube upgrade dialog"],
-            ["1.6.9", "Fixed going to the previous or next video in the second or more video of the playlist not working"],
-            ["1.6.8", [
+            ["1.6.10", [
+                "Spoofed iOS version to 15.8.4 (for iOS 14-) to make account sign-in works",
+                "Blocked another kind of YouTube upgrade dialog",
+                "Fixed going to the previous or next video in the second or more video of the playlist not working",
                 "Fixed the app hang on launch due to YouTube Playables (by removing them)",
-                "Added missing update dialog blocker (was in YouTube X tweak before)"
-            ]],
-            ["1.6.7", "Removed YouTube X as a dependency, Ported its version spoofing code to this tweak"],
-            ["1.6.6", "Spoofed iOS version to 15.8.4 (for iOS 14-) to make account sign-in works"],
-            ["1.6.5", "Added an alert on app startup if the user has modified Info.plist file to spoof the YouTube version, as this is discouraged while using this tweak"],
-            ["1.6.4", "Fixed tapping on Audio Track video menu not working"],
-            ["1.6.3", [
+                "Fixed tapping on Audio Track video menu not working",
+                "Fixed missing icon for \"Purchases and membership\" menu in You tab",
+                "Added missing update dialog blocker (was in YouTube X tweak before)",
+                "Added an alert on app startup if the user has modified Info.plist file to spoof the YouTube version, as this is discouraged while using this tweak",
                 "Added a one-time alert to inform users that, to play a video, they may need to tap on the triple dot menu and select \"Play\"",
-                "Fixed missing icon for \"Purchases and membership\" menu in You tab"
+                "Removed YouTube X as a dependency, Ported its version spoofing code to this tweak",
+                "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)"
             ]],
-            ["1.6.0", "Improved UI element compatibility by backporting the latest YouTube element metadata (20.18.4 at the time of writing, this works for the late versions of YouTube 17.x.x and above)"],
             ["1.5.12", [
                 "Restored like/dislike buttons in Shorts",
                 "Restored refreshed Watch Later playlist on iPad",
