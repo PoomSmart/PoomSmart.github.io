@@ -339,6 +339,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.3.1", "Fixed app crash on some YouTube versions (regression of 2.3.0)"],
             ["2.3.0", "Added an option to enable frosted glass effect behind the bottom buttons, supported by recent YouTube versions"],
             ["2.2.3", "Fixed overflowing text button on old YouTube versions"],
             ["2.2.2", "Fixed bottom buttons being too far apart from each other on YouTube version 20.12.4"],
