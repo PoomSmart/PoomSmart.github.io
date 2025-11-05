@@ -339,6 +339,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
         "changes": [
+            ["2.3.2", "Extended \"Update icon image on visible\" behavior to top buttons"],
             ["2.3.1", "Fixed app crash on some YouTube versions (regression of 2.3.0)"],
             ["2.3.0", "Added an option to enable frosted glass effect behind the bottom buttons, supported by recent YouTube versions"],
             ["2.2.3", "Fixed overflowing text button on old YouTube versions"],
@@ -390,6 +391,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.3.3", "Fixed mute button icon not updated correctly when it is placed at the top and the user muted the video before playing the next one"],
             ["1.3.2", "Optimized the code to display mute/unmute image"],
             ["1.3.1", "Added th localization"],
             ["1.3.0", [
