@@ -8,6 +8,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["2.2.1", "Improved the technique to enable 2K/4K formats with Server ABR enabled"],
             ["2.2.0", "Moved YTUHD settings to a dedicated page (requires YouGroupSettings tweak version 1.0.5+ if you have it installed previously)"],
             ["2.1.0", "Added \"Disable Server ABR\" option to fix old YouTube versions (around 17.x.x) not being able to play a video when the tweak is enabled"],
             ["2.0.2", "Fixed tweak not working on recent YouTube versions"],
