@@ -86,6 +86,7 @@ youtube = [
         "description": "<p>Enables native PiP in iOS YouTube app.</p>\
             <p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
         "changes": [
+            ["1.12.10", "Fixed PiP being stuck on some devices (contributed by @Tonwalter888)"],
             ["1.12.9", "Adjusted setting icon to match the new icon style in recent YouTube versions"],
             ["1.12.8", [
                 "Fixed PiP not working on some videos in recent YouTube versions",
