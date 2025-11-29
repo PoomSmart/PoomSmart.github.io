@@ -241,6 +241,10 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.9.0", [
+                "Added \"Remove removed settings\" inside the modified settings page to remove settings that are no longer available in the app",
+                "Added \"(Removed)\" suffix to settings under the modified settings page that are no longer available in the app"
+            ]],
             ["1.8.0", [
                 "Improved performance throughout the tweak",
                 "Made \"View modified settings\" option navigate to a new page where flags can be toggled instead of just showing an alert"
