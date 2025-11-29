@@ -8,6 +8,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
         "changes": [
+            ["2.2.3", [
+                "Removed VP9-specific settings on YouTube version 20.47.3 and higher (software VP9 decoding is no longer supported here)",
+                "Renamed the setting \"Use VP9\" to \"Use VP9/AV1\""
+            ]],
             ["2.2.2", "Prevented app crash in some very rare scenarios"],
             ["2.2.1", "Improved the technique to enable 2K/4K formats with Server ABR enabled"],
             ["2.2.0", "Moved YTUHD settings to a dedicated page (requires YouGroupSettings tweak version 1.0.5+ if you have it installed previously)"],
