@@ -3333,16 +3333,16 @@ Author: PoomSmart
 Name: GboardAll
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.25
+Version: 2.3.26
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 2268
+Installed-Size: 2980
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.25_iphoneos-arm.deb
-Size: 386858
-MD5sum: a7ccf010e9df02220658383e0712f862
-SHA1: 2163be5339ad1b573b01e24f326a8089d637813d
-SHA256: 39d9586c44ca0c935a5cc784339db4946bfd661352ea9e0471c6914100337bd6
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.26_iphoneos-arm.deb
+Size: 568020
+MD5sum: 1bb32139b0d4106b33b8eedaf6b0543c
+SHA1: 7df68431bbb31381d5c186333ef756850e392d68
+SHA256: 6c549b6ce8ef835c1989bd6b655f1174e71337b83e5bc86902431f0856db5260
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3351,16 +3351,16 @@ Name: GitHubWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
 
 Package: com.ps.githubweblegacycompat
-Version: 2.3.25
+Version: 2.3.26
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 2236
+Installed-Size: 2948
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
-Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.25_iphoneos-arm64.deb
-Size: 383192
-MD5sum: 2642a7a7ceef5d37c7d464dac2a28cc1
-SHA1: 0b5c9d16a6e49075fe2834fb78259f5b2d70fb0a
-SHA256: c1e6148c0a680253c183f59145caa81d2d4120234de44a4324aacdf3f8c9de2d
+Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.3.26_iphoneos-arm64.deb
+Size: 564362
+MD5sum: e1c9fa83ba1c94db6b528c5874136822
+SHA1: e298b70a06c798e2168dc391d799c0f1dee9d964
+SHA256: a98c7d69d32d6fd49e73eda16847e9c6f34872ec97c201f5c86bbe8d4ec05e8f
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
