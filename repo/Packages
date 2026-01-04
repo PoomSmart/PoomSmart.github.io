@@ -8342,6 +8342,38 @@ Depiction: https://poomsmart.github.io/repo/depictions/youchoosequality.html
 Name: YouChooseQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
 
+Package: com.ps.yougetcaption
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
+Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.0_iphoneos-arm.deb
+Size: 8886
+MD5sum: 5d82801b2277387a893f796ce8bb215c
+SHA1: e49aaac78f0d4fda7b063e79258d72b2aeeaff60
+SHA256: 50858932ddaa9688fbecfef4a8587bbc7724cbc8cb7ad997779d8ffd596b7036
+Section: Tweaks
+Description: Views and copies caption from YouTube videos.
+Author: PoomSmart
+Name: YouGetCaption
+
+Package: com.ps.yougetcaption
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
+Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.0_iphoneos-arm64.deb
+Size: 8972
+MD5sum: c033c8fd0c5d362e1b3d1b26dd79a0ba
+SHA1: b810fe60181b25335b1f7c1a5d1d026cf9e67ab0
+SHA256: 9a928312be4f84d3aab66e1cfd43ea734c017fe589bb4a55078564c6bcdabb76
+Section: Tweaks
+Description: Views and copies caption from YouTube videos.
+Author: PoomSmart
+Name: YouGetCaption
+
 Package: com.ps.youmusicpip
 Version: 1.1.0
 Architecture: iphoneos-arm

@@ -648,5 +648,12 @@ youtube = [
                 "Added YouSpeed and YTClassicVideoQuality tweaks as dependencies to work around broken video speed and quality selectors"
             ]]
         ]
+    },
+    {
+        "file": "yougetcaption",
+        "title": "YouGetCaption",
+        "min_ios": "11.0",
+        "tintColor": "red",
+        "description": "<p>Views and copies captions directly from YouTube videos.</p>",
     }
 ]
