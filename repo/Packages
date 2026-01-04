@@ -1355,16 +1355,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.11
-Architecture: iphoneos-arm64
+Version: 1.3.12
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 760
+Installed-Size: 836
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.11_iphoneos-arm64.deb
-Size: 72928
-MD5sum: 3c23de71e44cf712ce99caa0df8862fe
-SHA1: fb8a8e9b49573631034ec652e8f8a4f3cf1afcde
-SHA256: cfd95a4ada217abfdf7636fbba3c3c84b59a4a427f51129d776734ccd364ae03
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.12_iphoneos-arm.deb
+Size: 78296
+MD5sum: 530a015cffa7128934a7be9cb8fc8de0
+SHA1: 4c6041a20021dcd619ce662a3145e7c7900f4f3d
+SHA256: 11ef1a982803374adcd79131e7a4d2e9442b28695431f836535cc1ae8de2631c
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -1373,16 +1373,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.11
-Architecture: iphoneos-arm
+Version: 1.3.12
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 756
+Installed-Size: 840
 Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.11_iphoneos-arm.deb
-Size: 73688
-MD5sum: 1914ee517d7b96136ccc84642813e370
-SHA1: ff077d7b98da40a57afd1b841ff16d995eb95362
-SHA256: 07f2c636f030e952175b3c5918e55c64d6c209a931347071d44520d4ac9560d0
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.12_iphoneos-arm64.deb
+Size: 77506
+MD5sum: 4f14c65d686cacd2f9941f9dbcc6cdf1
+SHA1: db05337d08466f00ef59463c8c7eebe02ea1554c
+SHA256: 8d38c86fdbaf9bf855438773cdd1270b3a77d57178f5817c2bdaa2da52252077
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
