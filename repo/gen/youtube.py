@@ -241,6 +241,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.9.1", "Fixed a rare app crash on startup"],
             ["1.9.0", [
                 "Added \"Remove removed settings\" inside the modified settings page to remove settings that are no longer available in the app",
                 "Added \"(Removed)\" suffix to settings under the modified settings page that are no longer available in the app"
@@ -548,6 +549,10 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
         "changes": [
+            ["1.3.1", [
+                "Fixed setting scrubber color not working on recent YouTube versions",
+                "Added localization for many languages"
+            ]],
             ["1.3.0", "Added slider and scrubber color customization for live videos"],
             ["1.2.3", "Fixed app crash on YouTube version 16.x"],
             ["1.2.2", "Fixed setting slider color not working in Subscription and You tabs on some YouTube version 19.x"],

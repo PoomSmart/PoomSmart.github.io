@@ -10021,6 +10021,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
 Name: YouSlider
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
 
+Package: com.ps.youslider
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/youtube/youslider/com.ps.youslider_1.3.1_iphoneos-arm.deb
+Size: 36428
+MD5sum: 5d2ab058471284af428c5f1a80bce02f
+SHA1: 75723e53e8eaf8e5e636ef10ef1d274966919767
+SHA256: 1c4252c11a1c2a07db6542ccad35ff954c11da4012978b7dc9125e5676d51f2f
+Section: Tweaks
+Description: Customizes YouTube video slider and scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
+Name: YouSlider
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
+
+Package: com.ps.youslider
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 224
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/youtube/youslider/com.ps.youslider_1.3.1_iphoneos-arm64.deb
+Size: 36484
+MD5sum: 86473a8791044586c37774eff9b74293
+SHA1: c935aa17a6e226bacc66804faab14e791387799a
+SHA256: a3452ba4e4bea548f70fe77f436da9cfdc7b8703a80ac334a99fa225af8edc1b
+Section: Tweaks
+Description: Customizes YouTube video slider and scrubber.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youslider.html
+Name: YouSlider
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youslider.json
+
 Package: com.ps.youspeed
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -11062,6 +11098,42 @@ Size: 26820
 MD5sum: 3759a88a514d335d90b8a1b23ba66b4c
 SHA1: 758767b7afff6db620820c1c896f15b9534115f5
 SHA256: 5aa8903c15980d637cc57018e5fc34253ce29f2d81065af18c4c047207b06695
+Section: Tweaks
+Description: Configures A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.9.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.9.1_iphoneos-arm.deb
+Size: 27210
+MD5sum: fd7105e08b524d355e509ffb2e266882
+SHA1: f24d29e7d7a34cfc9aeabb4ee953d72744d57849
+SHA256: 66de63f1e8691ab96879621c33190732aa61c1ef781c59754bf6551747a01209
+Section: Tweaks
+Description: Configures A/B features in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabconfig.html
+Name: YTABConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabconfig.json
+
+Package: com.ps.ytabconfig
+Version: 1.9.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 160
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/ytabconfig/com.ps.ytabconfig_1.9.1_iphoneos-arm64.deb
+Size: 27018
+MD5sum: 3cb56799f268672e1db5aa169305213d
+SHA1: 88d5d5788cc2480313e1cd9c0e6a592aaf122287
+SHA256: 76fb3855772acbb190667c1e4bccd0074d69d35892b35fe6a68a0c03070f1572
 Section: Tweaks
 Description: Configures A/B features in iOS YouTube app.
 Author: PoomSmart
