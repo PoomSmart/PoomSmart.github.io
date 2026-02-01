@@ -170,6 +170,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.6.2", "Fixed the tweak not installable on iOS 18.3"],
             ["1.6.1", "Fixed emoji search engine not working on iOS 17.0+"],
             ["1.6.0~b1", "Added Unicode 16.0 emojis"],
             ["1.5.2", [
