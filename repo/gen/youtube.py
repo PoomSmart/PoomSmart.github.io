@@ -660,5 +660,8 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "description": "<p>Views and copies captions directly from YouTube videos.</p>",
+        "changes": [
+            ["1.0.1", "Fixed missing translations"]
+        ]
     }
 ]

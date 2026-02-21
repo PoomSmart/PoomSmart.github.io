@@ -8415,32 +8415,32 @@ Name: YouChooseQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youchoosequality.json
 
 Package: com.ps.yougetcaption
-Version: 1.0.0
-Architecture: iphoneos-arm
+Version: 1.0.1
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 188
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
-Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.0_iphoneos-arm.deb
-Size: 8886
-MD5sum: 5d82801b2277387a893f796ce8bb215c
-SHA1: e49aaac78f0d4fda7b063e79258d72b2aeeaff60
-SHA256: 50858932ddaa9688fbecfef4a8587bbc7724cbc8cb7ad997779d8ffd596b7036
+Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.1_iphoneos-arm64.deb
+Size: 10164
+MD5sum: 81b058f1e415516a76bd4152c4bf561e
+SHA1: b343431d732b20746ad00d2dd4cfb51792823763
+SHA256: c70c3e7651a72fa2611b4f72a1c6be7065cb1fe8449201244fda6d2491cf2a93
 Section: Tweaks
 Description: Views and copies caption from YouTube videos.
 Author: PoomSmart
 Name: YouGetCaption
 
 Package: com.ps.yougetcaption
-Version: 1.0.0
-Architecture: iphoneos-arm64
+Version: 1.0.1
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 188
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.0.0)
-Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.0_iphoneos-arm64.deb
-Size: 8972
-MD5sum: c033c8fd0c5d362e1b3d1b26dd79a0ba
-SHA1: b810fe60181b25335b1f7c1a5d1d026cf9e67ab0
-SHA256: 9a928312be4f84d3aab66e1cfd43ea734c017fe589bb4a55078564c6bcdabb76
+Filename: ./debs/youtube/yougetcaption/com.ps.yougetcaption_1.0.1_iphoneos-arm.deb
+Size: 10078
+MD5sum: 17cf3e3b119f7294f63331a0412c23bb
+SHA1: 65c82d7094eaf0b17166539829f05b399d189b77
+SHA256: 52625baf933b1a8051c1cc8a853b4513f446c63009efa581ad3773ca3f19b0d3
 Section: Tweaks
 Description: Views and copies caption from YouTube videos.
 Author: PoomSmart
