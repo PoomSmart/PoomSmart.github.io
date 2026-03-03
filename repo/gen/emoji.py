@@ -269,23 +269,25 @@ emoji = [
     },
     {
         "file": "joypixelsefm",
-        "title": "JoyPixels Emoji Unicode 15.1 (EFM)",
+        "title": "JoyPixels Emoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to JoyPixels 10.0 (Unicode 16.0)"],
             ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
-        "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
+        "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
         "file": "joypixelsdecalefm",
-        "title": "JoyPixels Decal Emoji Unicode 15.1 (EFM)",
+        "title": "JoyPixels Decal Emoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to JoyPixels 10.0 (Unicode 16.0)"],
             ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
-        "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 15.1).</p><br/>\
+        "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 16.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },

@@ -3719,6 +3719,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
 Name: JoyPixels Decal Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
 
+Package: com.ps.joypixelsdecalefm
+Version: 16.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_16.0.0_iphoneos-arm.deb
+Size: 756
+MD5sum: 1248b38eef40dc4ba4dc1b21c4e6e8c5
+SHA1: 9e0ea5b3a968058ef3098af7a60d223839aad338
+SHA256: ebfce3a0f4d3a3ca861b65669a4b44f71849644aec027ec28ce1b2331a011ffd
+Section: Fonts (EFM)
+Description: Unicode 16.0 JoyPixels 10 Emoji (with Decal) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
+Name: JoyPixels Decal Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
+
+Package: com.ps.joypixelsdecalefm
+Version: 16.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.joypixelsdecalefm_16.0.0_iphoneos-arm64.deb
+Size: 756
+MD5sum: e6d51d5dbc9e4e5289c1421c5edc1aa1
+SHA1: cdd1eeb0d23a3f88de8f10a2382c564aab809f3a
+SHA256: 8fe7cdbe3f89bf955a3f977a40b63311cfe3bc6e1772a95df93208f633969bef
+Section: Fonts (EFM)
+Description: Unicode 16.0 JoyPixels 10 Emoji (with Decal) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/joypixelsdecalefm.html
+Name: JoyPixels Decal Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsdecalefm.json
+
 Package: com.ps.joypixelsefm
 Version: 15.1.0
 Architecture: iphoneos-arm64
@@ -3780,6 +3816,48 @@ Description: Unicode 15.1 JoyPixels 9 Emoji (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/joypixelsefm.html
 Name: JoyPixels Unicode 15.1 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsefm.json
+
+Package: com.ps.joypixelsefm
+Version: 16.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Conflicts: com.ps-vxbakerxv.joypixelsefm
+Replaces: com.ps-vxbakerxv.joypixelsefm
+Provides: com.ps-vxbakerxv.joypixelsefm
+Filename: ./debs/emojifont/com.ps.joypixelsefm_16.0.0_iphoneos-arm64.deb
+Size: 778
+MD5sum: d323b3a8e649b59191d5c9c1212c5974
+SHA1: 2c60011cc3c760020094d3f6479939d79fce3498
+SHA256: 0aa7c044175b1139b64aa4cd114c423a9bf44a98e672405c6c573b11ceeff164
+Section: Fonts (EFM)
+Description: Unicode 16.0 JoyPixels 10 Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/joypixelsefm.html
+Name: JoyPixels Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsefm.json
+
+Package: com.ps.joypixelsefm
+Version: 16.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Conflicts: com.ps-vxbakerxv.joypixelsefm
+Replaces: com.ps-vxbakerxv.joypixelsefm
+Provides: com.ps-vxbakerxv.joypixelsefm
+Filename: ./debs/emojifont/com.ps.joypixelsefm_16.0.0_iphoneos-arm.deb
+Size: 774
+MD5sum: 2e21a96233314187341dbf909f0de0fe
+SHA1: 86a9286017d2c19a34351e37f092f696f45eb1f4
+SHA256: 794ecc53ffc9c41c8bedc2cacacc5505b99a17110b2ad94e3da43b46035f3501
+Section: Fonts (EFM)
+Description: Unicode 16.0 JoyPixels 10 Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/joypixelsefm.html
+Name: JoyPixels Unicode 16.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/joypixelsefm.json
 
 Package: com.ps.keyboardflipswitchs
