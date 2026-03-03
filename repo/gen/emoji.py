@@ -325,12 +325,13 @@ emoji = [
     },
     {
         "file": "oneuiefm",
-        "title": "Samsung One UI Unicode 15.1 (EFM)",
+        "title": "Samsung One UI Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["16.0.0", "Updated to One UI 7.0 (Unicode 16.0)"],
             ["15.1.0~beta7", "Updated to One UI 6 beta 7"]
         ],
-        "description": "<p>Samsung One UI (6 beta) emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
+        "description": "<p>Samsung One UI (7.0) emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
     },
     {

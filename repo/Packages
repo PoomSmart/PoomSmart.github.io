@@ -4591,6 +4591,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/oneuiefm.html
 Name: Samsung One UI 6.0 Unicode 15.1 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
 
+Package: com.ps.oneuiefm
+Version: 16.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.oneuiefm_16.0.0_iphoneos-arm64.deb
+Size: 748
+MD5sum: 08143920a8f8503eb7448ea2451399ed
+SHA1: 6672b7e33fb856e7668609b76779828d5d532896
+SHA256: 76e9a505df87a4ad2b9d14c9c86d319422e68ede0b72527a1d7cdd688c191800
+Section: Fonts (EFM)
+Description: Samsung One UI 7.0 Emoji (Unicode 16.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/oneuiefm.html
+Name: Samsung One UI 7.0 Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
+
+Package: com.ps.oneuiefm
+Version: 16.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.oneuiefm_16.0.0_iphoneos-arm.deb
+Size: 744
+MD5sum: fb2aeb3f6caa22d1ff6cd773221baa49
+SHA1: 4d455a72ef64626b06183d936d65967da212dcd6
+SHA256: c7894d5cc5af142565d8f614e245cf5d5c901fb5e1b4e1a5ddff4ecb5b0484f6
+Section: Fonts (EFM)
+Description: Samsung One UI 7.0 Emoji (Unicode 16.0) (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/oneuiefm.html
+Name: Samsung One UI 7.0 Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/oneuiefm.json
+
 Package: com.ps.openmojiefm
 Version: 15.0.0
 Architecture: iphoneos-arm64e
