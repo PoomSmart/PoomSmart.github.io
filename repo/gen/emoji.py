@@ -314,7 +314,7 @@ emoji = [
         "title": "OpenMoji Unicode 16.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["16.0.0", "Updated to Unicode 16.0"],
+            ["16.0.1", "Updated to Unicode 16.0 (Version 16.0.0 incorrectly installs 15.0.0 emojis)"],
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\

@@ -4568,16 +4568,16 @@ Name: OpenMoji Unicode 15.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/openmojiefm.json
 
 Package: com.ps.openmojiefm
-Version: 16.0.0
+Version: 16.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.openmojiefm_16.0.0_iphoneos-arm.deb
-Size: 734
-MD5sum: dabf6988affaad2cb37d7cb9ba046bc8
-SHA1: 4820fac8436a1c75f19ab846b8f37c569b04ac10
-SHA256: c1737ac76c66cf76d47dcbdb59c2cc41e6bdeb11a8d405c0ee5acae688cc462e
+Filename: ./debs/emojifont/com.ps.openmojiefm_16.0.1_iphoneos-arm.deb
+Size: 726
+MD5sum: d109934d7f968b7123ac1db44fc4d654
+SHA1: 11a070369c76e10476c7c97386ea210e24eb3c31
+SHA256: d6799aa8aa137270c6d731f3c042a9c81e3f06b7df076f05a27c8c357f9c9de7
 Section: Fonts (EFM)
 Description: Unicode 16.0 OpenMoji Emoji (EFM)
 Author: PoomSmart
@@ -4586,16 +4586,16 @@ Name: OpenMoji Unicode 16.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/openmojiefm.json
 
 Package: com.ps.openmojiefm
-Version: 16.0.0
+Version: 16.0.1
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 0
 Depends: com.ps.efmfontdl
-Filename: ./debs/emojifont/com.ps.openmojiefm_16.0.0_iphoneos-arm64.deb
+Filename: ./debs/emojifont/com.ps.openmojiefm_16.0.1_iphoneos-arm64.deb
 Size: 734
-MD5sum: 548bc8d0835f1eb1acb0ae6b677b8c5d
-SHA1: b9cecee4c337d20acdabc27cfa5fb27cee841b3b
-SHA256: 98440e0d06da0134dda7a64e4780098f37ca39ea32beed0958eda73432f31dfa
+MD5sum: 4bf7233bf9d12906f0887d171f33c466
+SHA1: dee99a3968511230c5bfd82ea7aabcf96ed8b65c
+SHA256: d06f0d6abe7cddf709616f4cfc6ae8a8a94cc05de0349d5763d661b9a1ae576b
 Section: Fonts (EFM)
 Description: Unicode 16.0 OpenMoji Emoji (EFM)
 Author: PoomSmart
