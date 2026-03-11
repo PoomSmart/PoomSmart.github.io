@@ -201,12 +201,13 @@ emoji = [
     },
     {
         "file": "emojifontefm",
-        "title": "AppleColorEmoji Unicode 16.0 (EFM)",
+        "title": "AppleColorEmoji Unicode 17.0 (EFM)",
         "changes": [
+            ["17.0.0", "Updated to Unicode 17.0"],
             ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Unicode 16.0 (iOS 18.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
+        "description": "<p>Unicode 17.0 (iOS 26.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/>\
             <p>Regular version of this font has all emoji images in PNG format and better compressed than Apple's EMJC image compression.</p><br/>\
             <p>HD version of this font includes additional 160x160 PNG emoji images. They work best if you like large emojis.</p>"
     },
@@ -214,10 +215,6 @@ emoji = [
         "file": "emojifontlqefm",
         "title": "AppleColorEmoji Low Quality (EFM)",
         "screenshots": True,
-        "changes": [
-            ["16.0.0", "Updated to Unicode 16.0"],
-            ["15.1.0", "Updated to Unicode 15.1"]
-        ],
         "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/>\
             <p>All not quite. It's because sometimes you need not a high quality work to cause <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=7Qxa19ODUIQ\">a global impact such as this one</a>.</p><br/>\
             <p>Unicode version will be in sync with the regular Apple emoji font.</p>"
