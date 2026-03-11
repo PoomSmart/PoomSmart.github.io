@@ -164,12 +164,13 @@ emoji = [
     },
     {
         "file": "emojiport_12",
-        "title": "EmojiPort (iOS 12.0 - 18.3)",
+        "title": "EmojiPort (iOS 12.0 - 26.3)",
         "min_ios": "12.0",
-        "max_ios": "18.3.1",
+        "max_ios": "26.3.1",
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.7.0~b1", "Allows installation on iOS 18.4 - 26.3"],
             ["1.6.2", "Fixed the tweak not installable on iOS 18.3"],
             ["1.6.1", "Fixed emoji search engine not working on iOS 17.0+"],
             ["1.6.0~b1", "Added Unicode 16.0 emojis"],
@@ -180,7 +181,7 @@ emoji = [
                 "Depends on EmojiLibrary 1.6.1+"
             ]]
         ],
-        "description": "<p>Latest emojis for iOS 12.0 - 18.3</p>\
+        "description": "<p>Latest emojis for iOS 12.0 - 26.3</p>\
             <p><a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
     },
     {
