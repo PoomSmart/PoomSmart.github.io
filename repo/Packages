@@ -2780,6 +2780,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
+Package: com.ps.emojilibrary
+Version: 1.8.0~b3
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 680
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.8.0~b3_iphoneos-arm.deb
+Size: 98412
+MD5sum: 0b912fa87c151366aa12ce882e218e0c
+SHA1: e1ee07b7b6e866fb914b19c3b9073eb3ea7a3736
+SHA256: 5609abd2832b30196bbde8033c69eb180761014e021fcb07d28daf141f2c6380
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
+Package: com.ps.emojilibrary
+Version: 1.8.0~b3
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 408
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.8.0~b3_iphoneos-arm64.deb
+Size: 35930
+MD5sum: 0a48813523feeb266ff8a7bbc6a13043
+SHA1: 1a690ac61169ac74e310fa92eeb199c98393a7b7
+SHA256: 1fea6ea823da694cbec808eb8444c665c4cd3e60f86071e6ef5bc814b727eb92
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
 Package: com.ps.emojilocalization
 Version: 1.1.2
 Architecture: iphoneos-arm

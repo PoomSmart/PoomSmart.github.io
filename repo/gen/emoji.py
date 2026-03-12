@@ -76,6 +76,10 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.0~b3", [
+                "Fixed handshake emojis rendering incorrectly in the skin tone chooser panel",
+                "Aligned implementation more to Apple"
+            ]],
             ["1.8.0~b2", "Added Unicode 17.0 emojis"],
             ["1.7.0", [
                 "Added Unicode 16.0 emojis",
