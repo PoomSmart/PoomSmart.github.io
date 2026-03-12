@@ -76,6 +76,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.0~b4", "Aligned implementation more to Apple"],
             ["1.8.0~b3", [
                 "Fixed handshake emojis rendering incorrectly in the skin tone chooser panel",
                 "Aligned implementation more to Apple"
@@ -296,13 +297,14 @@ emoji = [
     },
     {
         "file": "notoemojiefm",
-        "title": "Noto Color Emoji Unicode 16.0 (EFM)",
+        "title": "Noto Color Emoji Unicode 17.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["17.0.0", "Updated to Unicode 17.0"],
             ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
+        "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 17.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {

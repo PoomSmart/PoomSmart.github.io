@@ -2816,6 +2816,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
 Name: EmojiLibrary
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
 
+Package: com.ps.emojilibrary
+Version: 1.8.0~b4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 408
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.8.0~b4_iphoneos-arm64.deb
+Size: 36588
+MD5sum: 92f0ef63dc23d77e3d760cc150406b37
+SHA1: 45f040d5973ef7a40beca4bcf8013480cfe39ce1
+SHA256: 28135332d0cef1a47a7a3fa3062e828fafc80858c9dd2b3a53776418374c6ad6
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
+Package: com.ps.emojilibrary
+Version: 1.8.0~b4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 680
+Filename: ./debs/emojiport/com.ps.emojilibrary_1.8.0~b4_iphoneos-arm.deb
+Size: 99574
+MD5sum: 3a4f7bed07ba67efea59f5df29dfd41e
+SHA1: 8f95831e0c9f73f99a150fb366042996a621c0af
+SHA256: 5a1115514507c2c94736a7d39debe1b9c2a67c87f3638a76f7f5bcec51580955
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks.
+Tag: role::developer
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojilibrary.html
+Name: EmojiLibrary
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojilibrary.json
+
 Package: com.ps.emojilocalization
 Version: 1.1.2
 Architecture: iphoneos-arm
@@ -4825,6 +4861,42 @@ Description: Unicode 16.0 Google Noto Color Emoji (EFM)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
 Name: Noto Color Emoji Unicode 16.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
+
+Package: com.ps.notoemojiefm
+Version: 17.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemojiefm_17.0.0_iphoneos-arm.deb
+Size: 748
+MD5sum: a147af5ea57884ea3879e551d59e535e
+SHA1: 9707b6fe99a8489fb68f5c8396cf0b8cd1b997d0
+SHA256: 92aafb147e242b2fc6433b5acdf9938df66a9789d79d8f4b8cac69a4b809802f
+Section: Fonts (EFM)
+Description: Unicode 17.0 Google Noto Color Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Name: Noto Color Emoji Unicode 17.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
+
+Package: com.ps.notoemojiefm
+Version: 17.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemojiefm_17.0.0_iphoneos-arm64.deb
+Size: 746
+MD5sum: 7be1130d891134a71c753559df93db67
+SHA1: 077e01fc851624a8f013692d3472690822e575ee
+SHA256: 9b3bb51373cd56df4b63a6e36762330db094997594bbab6d68c2bd6f76762874
+Section: Fonts (EFM)
+Description: Unicode 17.0 Google Noto Color Emoji (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemojiefm.html
+Name: Noto Color Emoji Unicode 17.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemojiefm.json
 
 Package: com.ps.nottodayhomescreensidebar
