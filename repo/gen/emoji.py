@@ -247,13 +247,14 @@ emoji = [
     },
     {
         "file": "blobmojiefm",
-        "title": "Blobmoji Unicode 16.0 (EFM)",
+        "title": "Blobmoji Unicode 17.0 (EFM)",
         "screenshots": True,
         "changes": [
+            ["17.0.0", "Updated to Unicode 17.0"],
             ["16.0.0", "Updated to Unicode 16.0"],
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
-        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 16.0).</p><br/>\
+        "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 17.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
     },
     {
