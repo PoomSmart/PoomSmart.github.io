@@ -79,6 +79,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.0~b6", "Fixed bunny dancers and people wrestling emojis not having silhouette effect"],
             ["1.8.0~b5", "Re-added neutral handholding couple emoji"],
             ["1.8.0~b4", "Aligned implementation more to Apple"],
             ["1.8.0~b3", [
