@@ -265,7 +265,7 @@ emoji = [
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>"
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>"
     },
     {
         "file": "fluentuiefm",
@@ -275,7 +275,7 @@ emoji = [
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 15.1).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
     },
     {
         "file": "joypixelsefm",
@@ -286,7 +286,7 @@ emoji = [
             ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
         "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
@@ -298,7 +298,7 @@ emoji = [
             ["15.1.0", "Updated to JoyPixels 9.0 (Unicode 15.1)"]
         ],
         "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 16.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
     },
     {
@@ -331,7 +331,7 @@ emoji = [
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE.txt\">here</a> for licensing.</p>"
     },
     {
@@ -344,7 +344,7 @@ emoji = [
             ["15.1.0~beta7", "Updated to One UI 6 beta 7"]
         ],
         "description": "<p>Samsung One UI (9.0) emoji font for EmojiFontManager (Unicode 17.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
     },
     {
         "file": "tossfaceefm",
@@ -354,7 +354,7 @@ emoji = [
             ["15.0.0", "Updated to Unicode 15.0"]
         ],
         "description": "<p>Toss Face (토스페이스) emoji font for EmojiFontManager (Unicode 15.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p><br/>\
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://toss.im/tossface\">here</a> for licensing.</p>"
     },
     {
@@ -376,6 +376,6 @@ emoji = [
             ["15.1.0", "Updated to Unicode 15.1"]
         ],
         "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
-            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/CAVEATS.md\">here</a> for known issues and limitations.</p>"
+            <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
     },
 ]
