@@ -4,8 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
-            ["1.8.0~b1", "Updated to iOS 26.4 beta assets"],
-            ["1.7.0", "Updated to iOS 18.4 assets"]
+            ["1.8.0", "Updated to iOS 26.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
     },
@@ -14,8 +13,10 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
-            ["1.10.0~b2", "Updated uemoji.icu to the actual Unicode 17.0"],
-            ["1.10.0~b1", "Added Unicode 17.0 emojis"],
+            ["1.10.0~b2", [
+                "Updated uemoji.icu to the actual Unicode 17.0",
+                "Added Unicode 17.0 emojis"
+            ]],
             ["1.9.0~b3", [
                 "Added Unicode 16.0 emojis",
                 "Fixed the weird behavior when deleting characters"
@@ -79,14 +80,11 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
-            ["1.8.0~b6", "Fixed bunny dancers and people wrestling emojis not having silhouette effect"],
-            ["1.8.0~b5", "Re-added neutral handholding couple emoji"],
-            ["1.8.0~b4", "Aligned implementation more to Apple"],
-            ["1.8.0~b3", [
+            ["1.8.0~b6", [
+                "Fixed bunny dancers and people wrestling emojis not having silhouette effect",
                 "Fixed handshake emojis rendering incorrectly in the skin tone chooser panel",
-                "Aligned implementation more to Apple"
+                "Added Unicode 17.0 emojis"
             ]],
-            ["1.8.0~b2", "Added Unicode 17.0 emojis"],
             ["1.7.0", [
                 "Added Unicode 16.0 emojis",
                 "Changed the position of the new emojis to be the same as on iOS 18.4b3+"
