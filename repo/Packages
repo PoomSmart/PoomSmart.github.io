@@ -1652,17 +1652,17 @@ Author: PoomSmart
 Name: EModeji
 
 Package: com.ps.emojiattributes
-Version: 1.10.0~b2
-Architecture: iphoneos-arm
+Version: 1.10.0~b3
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 632
+Installed-Size: 472
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.1.6)
 Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.0~b2_iphoneos-arm.deb
-Size: 57324
-MD5sum: e1ee0c8d4701e23ee0557f307abf63f9
-SHA1: 457bd6f7c47fcd3c960985176568b46045003ff8
-SHA256: a81a0dc1b07e50b6bc8098691d945558e83e58eee4780244bb798010d1a1b928
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.0~b3_iphoneos-arm64.deb
+Size: 34198
+MD5sum: 3e108d1eb0a1f878364dec2d2b07c440
+SHA1: b0a9886f92b9e1aac68f69b246d121061d2715ba
+SHA256: 82aa36c49da170f6df0b130798fbb35e112dd71a8f62929242c06a5fffd9722b
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart
@@ -1671,17 +1671,17 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
-Version: 1.10.0~b2
-Architecture: iphoneos-arm64
+Version: 1.10.0~b3
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 472
+Installed-Size: 632
 Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.1.6)
 Conflicts: com.ps.flexmoji
-Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.0~b2_iphoneos-arm64.deb
-Size: 34196
-MD5sum: b923dcd8adf079c24d2be809d0d151c2
-SHA1: b73d7b4734619411b249f472bb9bf996f73f7949
-SHA256: 9f6106be246771e38396424346d3552b9adb785c045f5961f693c4f3fd4000f2
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.0~b3_iphoneos-arm.deb
+Size: 57288
+MD5sum: 218d4ecb5f3ca34935dbc3b86f9ea6ce
+SHA1: 81073b9422838f028aad3520d6eab26787150e17
+SHA256: 7b2ec76003e7c60f7c89e61d0b888098b2ab58f7d47240768edde2499b81e133
 Section: Tweaks
 Description: Various under-the-hood fixes for emoji display.
 Author: PoomSmart

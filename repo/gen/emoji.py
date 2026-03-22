@@ -13,6 +13,7 @@ emoji = [
         "title": "EmojiAttributes",
         "min_ios": "5.1",
         "changes": [
+            ["1.10.0~b3", "Fixed the tweak broken on iOS 12.1 - 15.3"],
             ["1.10.0~b2", [
                 "Updated uemoji.icu to the actual Unicode 17.0",
                 "Added Unicode 17.0 emojis"
