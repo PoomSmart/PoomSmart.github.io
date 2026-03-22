@@ -458,7 +458,8 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
         "changes": [
-            ["1.6.3", "Fixed custom video speeds not working on recent YouTube versions (contributed by @Tonwalter888)"],
+            ["1.6.4", "Fixed custom video speeds not working for some people"],
+            ["1.6.3", "Fixed custom video speeds not showing on recent YouTube versions (contributed by @Tonwalter888)"],
             ["1.6.2", "Fixed the icon of minus button not being displayed on old YouTube versions"],
             ["1.6.1", [
                 "Fixed tapping on speed presets not dismissing the dialog",
