@@ -81,6 +81,7 @@ emoji = [
         "title": "EmojiLibrary",
         "min_ios": "5.1",
         "changes": [
+            ["1.8.0~b7", "Fixed 0-9, * and # emojis showing incorrect image on iOS 6 keyboard"],
             ["1.8.0~b6", [
                 "Fixed bunny dancers and people wrestling emojis not having silhouette effect",
                 "Fixed handshake emojis rendering incorrectly in the skin tone chooser panel",
