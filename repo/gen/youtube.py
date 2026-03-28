@@ -589,6 +589,10 @@ youtube = [
             <p>You only need this tweak if you are on iOS 15 or lower, or you are using YouTube app version 20.23.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.9.1~b3", [
+                "Updated spoofed iOS version to 15.8.7 (for iOS 14-)",
+                "Added th localization"
+            ]],
             ["1.9.1~b2", "Fixed video previous/next buttons and autoplay not working on YouTube version 19"],
             ["1.9.1~b1", "Experimental: Updated spoofed app version to 20.21.6 and Added few fixes after the fact"],
             ["1.9.0", "Added support for iOS 15 a.k.a YouTube version 20.23.3 and lower"],
