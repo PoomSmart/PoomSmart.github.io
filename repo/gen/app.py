@@ -13,7 +13,7 @@ app = [
         "file": "chatgptweblegacycompat",
         "title": "ChatGPTWebLegacyCompat",
         "min_ios": "15.0",
-        "max_ios": "15.8.5",
+        "max_ios": "15.8.7",
         "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
         "changes": [
             ["1.3.12", "Updated CSS for the recent ChatGPT changes"],
