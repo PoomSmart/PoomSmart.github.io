@@ -2926,13 +2926,13 @@ Package: com.ps.emojiport10resources
 Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 237632
+Installed-Size: 237624
 Depends: firmware (>= 10.0), com.ps.emojiport10resources-assets17 | com.ps.emojiport10resources-assets16
 Filename: ./debs/emojiport/com.ps.emojiport10resources_1.9.0_iphoneos-arm64.deb
-Size: 49673094
-MD5sum: 3394dcf7df0c717ab2bdde621b9ded3e
-SHA1: f9c5ba71a00fe929b0051f4cfd3321a0426b5786
-SHA256: 4910c777a2b89b566780f5d258c35e38e3d0f40facf4193e7a9e52daa5c2838a
+Size: 49728258
+MD5sum: 2dede638912c8b4bc0466a1ff5b4ab93
+SHA1: e2c0083820f9ef8a310f2b2ddc596ae4736476e9
+SHA256: 489d7543c31db96c2d57dc24fe17031ce20454890dd9daa61ec2da58496482b7
 Section: Tweaks
 Description: Latest emoji localization and metadata for iOS 10+
 Author: PoomSmart
@@ -2944,13 +2944,13 @@ Package: com.ps.emojiport10resources
 Version: 1.9.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 237632
+Installed-Size: 237624
 Depends: firmware (>= 10.0), com.ps.emojiport10resources-assets17 | com.ps.emojiport10resources-assets16
 Filename: ./debs/emojiport/com.ps.emojiport10resources_1.9.0_iphoneos-arm.deb
-Size: 49760386
-MD5sum: 2bfcb7cb924d83bbaa9f88097f445b12
-SHA1: 4d67acd6b4f7a51219668c0a29bb77ee94f1a58c
-SHA256: 706be0d5cdee28a1c8de23df50a4c9d74ed2ef4abaea53121c37f39d876e0fcb
+Size: 49722658
+MD5sum: 359dd5c30677470a39eafaad9268ed79
+SHA1: 03b331b19fb820d151f9f2ea0015d2e78b37e4ea
+SHA256: a92d7f54f4dfab10d398cd96ef4e994c377d643344551d990b5e0476770f31db
 Section: Tweaks
 Description: Latest emoji localization and metadata for iOS 10+
 Author: PoomSmart
@@ -2962,13 +2962,13 @@ Package: com.ps.emojiport10resources-assets16
 Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 47344
+Installed-Size: 47348
 Conflicts: firmware (>= 17.0), com.ps.emojiport10resources-assets17
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm64.deb
-Size: 16031786
-MD5sum: 80e34ddb526a93522e5e5ec2d0f6c67e
-SHA1: 94000524c6b31929d808792368ae21461d1dd9e8
-SHA256: 7b418a6e72b8f32e36b3a4d5118f5914f501c835f49e79fb3de7380303cf600d
+Size: 16024226
+MD5sum: 87f67fdb384a98456af67378ebbc90a9
+SHA1: a1b98517ff93ba60fffa123a00ed399fcef9ad71
+SHA256: 3c233356f204b5bd5dc07c4c41294bbffff4cce31c43965dd3c07a91ab7b56c7
 Section: Tweaks
 Description: CFBurstTrie keyword index files for iOS 16 and earlier
 Author: PoomSmart
@@ -2978,14 +2978,14 @@ Package: com.ps.emojiport10resources-assets17
 Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 29700
+Installed-Size: 29708
 Depends: firmware (>= 17.0)
 Conflicts: com.ps.emojiport10resources-assets16
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets17_1.9.0_iphoneos-arm64.deb
-Size: 15963922
-MD5sum: 120b4a7178e9ef6daffd2065411ab108
-SHA1: 65a3517e02648bdf5bfdb530fdafe73c79e85fa5
-SHA256: 5be5f2d3c6ae4ed2adffa7899b0e688d370abc56cc3b754734f65f59e17dd2f8
+Size: 15964934
+MD5sum: 231d00b0515c125ca74c8bfce717a5b4
+SHA1: 336e8e87e61a7d39aaf2acf524be5ca05b172deb
+SHA256: 422691da66d4e1641012f99329a34baed3fa54061ddc60b24d86421a1fa5e54f
 Section: Tweaks
 Description: Marisa LOUDS trie keyword index files for iOS 17+
 Author: PoomSmart
@@ -3329,10 +3329,10 @@ Maintainer: PoomSmart
 Installed-Size: 304
 Depends: firmware (>= 12.0), firmware (<< 26.4), com.ps.emojiattributes (>= 1.10.0~b1), com.ps.emojilibrary (>= 1.8.0~b7), com.ps.emojiport10resources (>= 1.9.0)
 Filename: ./debs/emojiport/com.ps.emojiportpe_1.8.0_iphoneos-arm.deb
-Size: 20876
-MD5sum: 0885f5ac3e963ab110eeb63b7eae7dc8
-SHA1: ab037ccbe1246d71c15f3ae28b6ee2e4814f5b87
-SHA256: c6ec12a8d023a58b8bc475a2f5c852c02e3455f0b91c8785f5bfc9284621e1aa
+Size: 20910
+MD5sum: 05d6f264e9810df44d38b7d2567b3e99
+SHA1: 3b1a0ea81da3e2aba8f240010f5c90f41dc40e30
+SHA256: 2dd4b2f4d23bacb27db340d70016c16d25432bf1eece7d634a36667e1f903587
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-26.3
 Author: PoomSmart
@@ -3347,10 +3347,10 @@ Maintainer: PoomSmart
 Installed-Size: 336
 Depends: firmware (>= 12.0), firmware (<< 26.4), com.ps.emojiattributes (>= 1.10.0~b1), com.ps.emojilibrary (>= 1.8.0~b7), com.ps.emojiport10resources (>= 1.9.0)
 Filename: ./debs/emojiport/com.ps.emojiportpe_1.8.0_iphoneos-arm64.deb
-Size: 13260
-MD5sum: 84e8200b9fb5f4b2996c6d5838d7edf4
-SHA1: 8884d20ab62d42d523c2f77e69734f9bab17453a
-SHA256: b4ed62a1bfc023d1e96162f88e312fca70ec1ed5809800c5fce627e0fe828f8f
+Size: 13292
+MD5sum: 0a417e3c53d10a2a1db2c134097a3e7b
+SHA1: ce6b92d4a6cd90ffcc2f5c0a1d25ae3d08d4c5c1
+SHA256: 787b762d5bc98e4d86f8827c550042a8c69e055d370fb38d78df934fbc49441b
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-26.3
 Author: PoomSmart
