@@ -4,6 +4,7 @@ emoji = [
         "title": "EmojiPort Resources (iOS 10+)",
         "min_ios": "10.0",
         "changes": [
+            ["1.9.0", "Extracted iOS 16- and iOS 17+ assets into separate resource tweaks"],
             ["1.8.0", "Updated to iOS 26.4 assets"]
         ],
         "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
@@ -181,6 +182,7 @@ emoji = [
         "strict_range": True,
         "featured_as_banner": True,
         "changes": [
+            ["1.8.0", "Updated to support EmojiPort Resources (iOS 10+) 1.9.0+"],
             ["1.7.0~b1", "Allows installation on iOS 18.4 - 26.3"],
             ["1.6.2", "Fixed the tweak not installable on iOS 18.3"],
             ["1.6.1", "Fixed emoji search engine not working on iOS 17.0+"],
