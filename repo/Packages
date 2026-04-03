@@ -2754,6 +2754,22 @@ Description: CFBurstTrie keyword index files for iOS 16 and earlier
 Author: PoomSmart
 Name: EmojiPort Resources — iOS 16 Assets
 
+Package: com.ps.emojiport10resources-assets16
+Version: 1.9.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 47348
+Depends: firmware (<< 17.0)
+Filename: ./debs/emojiport/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm.deb
+Size: 16026182
+MD5sum: 814ade2bfcd9556dd4ceb699aa4513b5
+SHA1: 6432cc69066552bb36bf3e07c44e5097b1132835
+SHA256: b80e32cc447519eef1a0bdb12fd7d7275f584a96a213ffd03335c0957fbfc44f
+Section: Tweaks
+Description: CFBurstTrie keyword index files for iOS 16 and earlier
+Author: PoomSmart
+Name: EmojiPort Resources — iOS 16 Assets
+
 Package: com.ps.emojiport10resources-assets17
 Version: 1.9.0
 Architecture: iphoneos-arm64
