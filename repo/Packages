@@ -2743,12 +2743,12 @@ Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 47348
-Conflicts: firmware (>= 17.0), com.ps.emojiport10resources-assets17
+Depends: firmware (<< 17.0)
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm64.deb
-Size: 16024226
-MD5sum: 87f67fdb384a98456af67378ebbc90a9
-SHA1: a1b98517ff93ba60fffa123a00ed399fcef9ad71
-SHA256: 3c233356f204b5bd5dc07c4c41294bbffff4cce31c43965dd3c07a91ab7b56c7
+Size: 16026786
+MD5sum: dc2a879045f7173937c0814b675d4250
+SHA1: b2c042f8e5ba14ee0811088cf0e6e0161dad4816
+SHA256: 43b919a8e7ba9e4fb8c80f61d8c94a7fd7047a98d945204678bdba11a5fbd90c
 Section: Tweaks
 Description: CFBurstTrie keyword index files for iOS 16 and earlier
 Author: PoomSmart
@@ -2760,12 +2760,11 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 29708
 Depends: firmware (>= 17.0)
-Conflicts: com.ps.emojiport10resources-assets16
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets17_1.9.0_iphoneos-arm64.deb
-Size: 15964934
-MD5sum: 231d00b0515c125ca74c8bfce717a5b4
-SHA1: 336e8e87e61a7d39aaf2acf524be5ca05b172deb
-SHA256: 422691da66d4e1641012f99329a34baed3fa54061ddc60b24d86421a1fa5e54f
+Size: 15963870
+MD5sum: 0110c9cfa6ade6e610aa521b75866a55
+SHA1: 9f3bf8d1309f531c4bb4b60ec33d39a10a0d7bef
+SHA256: a030cc5acc13d71e1fa5f1436bef844b9faf91ad0398c6b07e5d0d3fd1bcdb71
 Section: Tweaks
 Description: Marisa LOUDS trie keyword index files for iOS 17+
 Author: PoomSmart
