@@ -2744,11 +2744,13 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 47348
 Depends: firmware (<< 17.0)
+Conflicts: com.ps.emojiport10resources (<< 1.9.0)
+Replaces: com.ps.emojiport10resources (<< 1.9.0)
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm64.deb
-Size: 16026786
-MD5sum: dc2a879045f7173937c0814b675d4250
-SHA1: b2c042f8e5ba14ee0811088cf0e6e0161dad4816
-SHA256: 43b919a8e7ba9e4fb8c80f61d8c94a7fd7047a98d945204678bdba11a5fbd90c
+Size: 16028378
+MD5sum: 0a40a0d61a065e32001ab5614a22f774
+SHA1: 4d0029911db9ecbd6d03536dce3daeeac9d54dba
+SHA256: 7583a8adf2b35469212a2aebf21a9fd97d24a0a208c3e63f1e8d16c477043b5b
 Section: Tweaks
 Description: CFBurstTrie keyword index files for iOS 16 and earlier
 Author: PoomSmart
@@ -2760,11 +2762,13 @@ Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 47348
 Depends: firmware (<< 17.0)
+Conflicts: com.ps.emojiport10resources (<< 1.9.0)
+Replaces: com.ps.emojiport10resources (<< 1.9.0)
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets16_1.9.0_iphoneos-arm.deb
-Size: 16026182
-MD5sum: 814ade2bfcd9556dd4ceb699aa4513b5
-SHA1: 6432cc69066552bb36bf3e07c44e5097b1132835
-SHA256: b80e32cc447519eef1a0bdb12fd7d7275f584a96a213ffd03335c0957fbfc44f
+Size: 16026376
+MD5sum: 7d8739623f447ca69d676b129dc87f84
+SHA1: 4f9881f901767c3d159ded5fe0b7bbf3eb8175e7
+SHA256: 9a779fe9afbe09a2f95b3b0f759faf52f2f3630c7064577a380eda170f4d2546
 Section: Tweaks
 Description: CFBurstTrie keyword index files for iOS 16 and earlier
 Author: PoomSmart
@@ -2776,11 +2780,13 @@ Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 29708
 Depends: firmware (>= 17.0)
+Conflicts: com.ps.emojiport10resources (<< 1.9.0)
+Replaces: com.ps.emojiport10resources (<< 1.9.0)
 Filename: ./debs/emojiport/com.ps.emojiport10resources-assets17_1.9.0_iphoneos-arm64.deb
-Size: 15963870
-MD5sum: 0110c9cfa6ade6e610aa521b75866a55
-SHA1: 9f3bf8d1309f531c4bb4b60ec33d39a10a0d7bef
-SHA256: a030cc5acc13d71e1fa5f1436bef844b9faf91ad0398c6b07e5d0d3fd1bcdb71
+Size: 15964286
+MD5sum: 0e9e3b98e292fc29c828eb59bfa9c262
+SHA1: 693429c3e49400a91a0533b02848244a7edb57e4
+SHA256: 7cdf5a335cd11e85a9cc74fe0fd97e78ced1ca9112c1f16f8184e1a6a2d1db2f
 Section: Tweaks
 Description: Marisa LOUDS trie keyword index files for iOS 17+
 Author: PoomSmart
