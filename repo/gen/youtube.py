@@ -410,6 +410,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>Adds a mute button to the video overlay where you can directly mute or unmute the video.</p>",
         "changes": [
+            ["1.4.0", "Made mute setting persists between videos (contributed by @Tonwalter888, refined by owner)"],
             ["1.3.3", "Fixed mute button icon not updated correctly when it is placed at the top and the user muted the video before playing the next one"],
             ["1.3.2", "Optimized the code to display mute/unmute image"],
             ["1.3.1", "Added th localization"],
