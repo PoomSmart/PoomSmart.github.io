@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# brew install dpkg
+# brew install dpkg zstd lz4
 
 # rm -f depictions/* sileodepictions/*
 uv run python3 gen/depiction.py
