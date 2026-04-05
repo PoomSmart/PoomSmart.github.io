@@ -4794,10 +4794,10 @@ Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/com.ps.noytpremium_1.0.7_iphoneos-arm64.deb
-Size: 2916
-MD5sum: d1b3fbf9b31b1a9240e54f9aa9df4bd5
-SHA1: a981507596e7cca2377d6733878e3e723c14d211
-SHA256: 8f47e4cf599e69c01871ee5a3ed0472ce7ad5311e341a757d4ffaea1ff0497f3
+Size: 2912
+MD5sum: 94181997ffc52c18fcdd651103bbfe82
+SHA1: fc6b345c8fd490aa9ac40cbda0e08d2786a7482a
+SHA256: 2058d61d38b9aba8b69f35ab85d0e4cdd40498a40ed2037ebdf1ff4b9fbdf61b
 Section: Tweaks
 Description: Removes YouTube Premium upsells.
 Author: PoomSmart
@@ -4812,10 +4812,10 @@ Maintainer: PoomSmart
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
 Filename: ./debs/youtube/com.ps.noytpremium_1.0.7_iphoneos-arm.deb
-Size: 2842
-MD5sum: c8822406448994c0a0b1e316501b2da2
-SHA1: bbdd609cd6007ba0cfaa7982821ff4782b6a5843
-SHA256: 3283e35eeed1b8526e389056571a1110dfd0c9541ac29d34b4c495f6b500a934
+Size: 2840
+MD5sum: 287ac6d8cbbfa3fe892587a269218c6e
+SHA1: f0b1f05c56368daa1a9fb5f8669fa8e3868e2b1b
+SHA256: 37587a7e3d3e1b6c42ca855f607bbb9dcac13ac8ebfcdc6c9072667a0ed4f51f
 Section: Tweaks
 Description: Removes YouTube Premium upsells.
 Author: PoomSmart
@@ -10942,10 +10942,10 @@ Installed-Size: 108
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
 Conflicts: com.lyvendia.ytspeed
 Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.6.5_iphoneos-arm64.deb
-Size: 12126
-MD5sum: 2f5903f162d4baee31ccb71e075d2219
-SHA1: d82e8144614acbb4a5bbf0e5a8a442b7b3bd3459
-SHA256: 6d7595d9f1479d9bf07e270e131a92ab4f33935defe17b53ddeda07f16d991d8
+Size: 12068
+MD5sum: 5edc36219e8c5d67b46ea6cdda25ef22
+SHA1: 922cd75220deae5e76b443cac64006b5244ea70a
+SHA256: af1c5674bb2315292390a91739f4e8227ea87ee572d77ec5a88db7a8b60dc590
 Section: Tweaks
 Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
 Author: PoomSmart
@@ -10961,10 +10961,10 @@ Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
 Conflicts: com.lyvendia.ytspeed
 Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.6.5_iphoneos-arm.deb
-Size: 12266
-MD5sum: a44be5f677ab7d3e46432dcb35f71294
-SHA1: 8ed6bd1e606a5c28d11360a56ca67021106e7027
-SHA256: 122bbebbbc549b042fc432d82de47ddc7406d8807cb3e92f951ccc0a53b546db
+Size: 12182
+MD5sum: c64c280b2b10864d73a91010be3df0a2
+SHA1: 3a2440de3e7d0f4bf3040b0c4fb2cec6db2b0a32
+SHA256: df282a3c6bd393fbba3837ef8050406328d01b59d8b6f3c0bfd4ab018211d418
 Section: Tweaks
 Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
 Author: PoomSmart
