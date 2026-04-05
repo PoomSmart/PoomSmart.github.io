@@ -201,7 +201,10 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Removes YouTube Premium upsells.</p>"
+        "description": "<p>Removes YouTube Premium upsells.</p>",
+        "changes": [
+            ["1.0.7", "Added more hooks for recent YouTube versions"]
+        ]
     },
     {
         "file": "noytmpremium",

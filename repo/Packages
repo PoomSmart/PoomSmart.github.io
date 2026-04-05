@@ -4788,16 +4788,16 @@ Name: NoYTMPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytmpremium.json
 
 Package: com.ps.noytpremium
-Version: 1.0.6
-Architecture: iphoneos-arm
+Version: 1.0.7
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 56
+Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.noytpremium_1.0.6_iphoneos-arm.deb
-Size: 2826
-MD5sum: d297e997503c1b549043ac05a1a3755e
-SHA1: ae8427aa3556d3374e960e69e3fc1f758d57ea99
-SHA256: fbf09ddf8dd5aea8eed4913180a1f6c98f678acbe30aea5002998d77d588e685
+Filename: ./debs/youtube/com.ps.noytpremium_1.0.7_iphoneos-arm64.deb
+Size: 2916
+MD5sum: d1b3fbf9b31b1a9240e54f9aa9df4bd5
+SHA1: a981507596e7cca2377d6733878e3e723c14d211
+SHA256: 8f47e4cf599e69c01871ee5a3ed0472ce7ad5311e341a757d4ffaea1ff0497f3
 Section: Tweaks
 Description: Removes YouTube Premium upsells.
 Author: PoomSmart
@@ -4806,16 +4806,16 @@ Name: NoYTPremium
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytpremium.json
 
 Package: com.ps.noytpremium
-Version: 1.0.6
-Architecture: iphoneos-arm64
+Version: 1.0.7
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 72
+Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.noytpremium_1.0.6_iphoneos-arm64.deb
-Size: 2892
-MD5sum: 4ee1ae1b5e04c6b13279e89e223eaf4c
-SHA1: 9a9cf25954512851cee3a26a586cfd633a7d8ccc
-SHA256: a77c970848f561129e3b7c7d3f9e3cb0cba230162fd993107b958af4407ff6ee
+Filename: ./debs/youtube/com.ps.noytpremium_1.0.7_iphoneos-arm.deb
+Size: 2842
+MD5sum: c8822406448994c0a0b1e316501b2da2
+SHA1: bbdd609cd6007ba0cfaa7982821ff4782b6a5843
+SHA256: 3283e35eeed1b8526e389056571a1110dfd0c9541ac29d34b4c495f6b500a934
 Section: Tweaks
 Description: Removes YouTube Premium upsells.
 Author: PoomSmart
