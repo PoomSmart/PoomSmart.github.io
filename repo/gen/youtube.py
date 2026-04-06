@@ -506,7 +506,8 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback.</p>",
         "changes": [
-            ["1.7.17", "Restore update dialog blocker"],
+            ["1.7.18", "Experimental: Removed the probably unnecessary hooks related to ads"],
+            ["1.7.17", "Restored update dialog blocker"],
             ["1.7.15", "Removed version spoofing code (moved to YouTube Legacy tweak)"],
             ["1.7.14", "Disabled the new jailbreak detection in new YouTube versions"],
             ["1.7.13", "Spoofed YouTube version to 19.14.2 for clients with version 17.09.1 and lower to make app functional"],
