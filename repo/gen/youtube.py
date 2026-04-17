@@ -248,6 +248,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
+            ["1.9.2" "Added pl localization"],
             ["1.9.1", "Fixed a rare app crash on startup"],
             ["1.9.0", [
                 "Added \"Remove removed settings\" inside the modified settings page to remove settings that are no longer available in the app",
@@ -506,6 +507,7 @@ youtube = [
         "tintColor": "red",
         "description": "<p>No ads and background playback.</p>",
         "changes": [
+            ["1.7.19", "Blocked new kind of video ads on recent YouTube versions"],
             ["1.7.18", "Experimental: Removed the probably unnecessary hooks related to ads"],
             ["1.7.17", "Restored update dialog blocker"],
             ["1.7.15", "Removed version spoofing code (moved to YouTube Legacy tweak)"],
