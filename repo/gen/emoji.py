@@ -331,13 +331,13 @@ emoji = [
     },
     {
         "file": "openmojiefm",
-        "title": "OpenMoji Unicode 16.0 (EFM)",
+        "title": "OpenMoji Unicode 17.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["16.0.1", "Updated to Unicode 16.0 (Version 16.0.0 incorrectly installs 15.0.0 emojis)"],
-            ["15.0.0", "Updated to Unicode 15.0"]
+            ["17.0.0", "Updated to Unicode 17.0"],
+            ["16.0.1", "Updated to Unicode 16.0 (Version 16.0.0 incorrectly installs 15.0.0 emojis)"]
         ],
-        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
+        "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 17.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE.txt\">here</a> for licensing.</p>"
     },
@@ -377,13 +377,13 @@ emoji = [
     },
     {
         "file": "whatsappefm",
-        "title": "WhatsApp Emoji Unicode 16.0 (EFM)",
+        "title": "WhatsApp Emoji Unicode 17.0 (EFM)",
         "screenshots": True,
         "changes": [
-            ["16.0.0", "Updated to Unicode 16.0"],
-            ["15.1.0", "Updated to Unicode 15.1"]
+            ["17.0.0", "Updated to Unicode 17.0"],
+            ["16.0.0", "Updated to Unicode 16.0"]
         ],
-        "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 16.0).</p><br/>\
+        "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 17.0).</p><br/>\
             <p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
     },
 ]
