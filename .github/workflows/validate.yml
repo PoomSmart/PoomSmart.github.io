@@ -1,0 +1,30 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  depictions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Sync Python dependencies
+        run: uv sync --frozen --directory repo
+
+      - name: Regenerate depictions
+        run: uv run --directory repo python main.py
+
+      - name: Verify generated files are committed
+        run: git diff --exit-code -- repo/depictions repo/sileodepictions

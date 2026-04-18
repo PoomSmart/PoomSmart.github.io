@@ -1,10 +1,13 @@
 [project]
 name = "repo"
 version = "0.1.0"
-description = ""
+description = "Build tooling for PoomSmart's package repository depictions"
 requires-python = ">=3.11"
 dependencies = [
     "jinja2>=3.1.6",
     "maturin>=1.8.6",
     "minify-html>=0.16.4",
 ]
+
+[project.scripts]
+repo-build = "main:main"

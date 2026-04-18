@@ -1,21 +1,68 @@
 # follow https://rustup.rs
 import html
 import json
-import os
 import re
+from pathlib import Path
+
 import minify_html
 from jinja2 import Environment, FileSystemLoader
-from youtube import *
-from emoji import *
-from camera import *
-from springboard import *
-from app import *
 
-root = os.path.dirname(os.path.abspath(__file__))
-templates_dir = os.path.join(root, '../templates')
-screenshots_dir = os.path.join(root, '../screenshots')
+from app import app
+from camera import camera
+from emoji import emoji
+from springboard import springboard
+from youtube import youtube
+
+root = Path(__file__).resolve().parent
+templates_dir = root / "../templates"
+screenshots_dir = root / "../screenshots"
+depictions_dir = root / "../depictions"
+sileo_depictions_dir = root / "../sileodepictions"
 env = Environment(loader=FileSystemLoader(templates_dir), trim_blocks=True, lstrip_blocks=True)
 html_template = env.get_template('index.html')
+
+REQUIRED_ENTRY_KEYS = ("file", "title", "description")
+SOURCE_CODE_FOLDERS = ("SpringBoard", "YouTube", "Camera")
+
+
+def normalize_markup(value):
+    return re.sub(r'\s+', ' ', value)
+
+
+def validate_entry(entry):
+    missing_keys = [key for key in REQUIRED_ENTRY_KEYS if not entry.get(key)]
+    if missing_keys:
+        raise ValueError(f"Entry is missing required keys: {', '.join(missing_keys)}")
+
+
+def collect_screenshots(file_name):
+    screenshot_dir = screenshots_dir / file_name
+    if not screenshot_dir.exists():
+        print(f"Screenshots directory for {file_name} not found")
+        return []
+
+    return [
+        {
+            "url": f"https://poomsmart.github.io/repo/screenshots/{file_name}/{entry.name}",
+            "accessibilityText": entry.name,
+        }
+        for entry in sorted(screenshot_dir.iterdir(), key=lambda item: item.name)
+        if not entry.name.startswith('.') and entry.is_file()
+    ]
+
+
+def load_inline_source_code(file_name, title):
+    for folder in SOURCE_CODE_FOLDERS:
+        source_code_path = (root / f"../../{folder}/{file_name}/Tweak.x").resolve()
+        if source_code_path.exists():
+            try:
+                return source_code_path.read_text(encoding="utf-8")
+            except OSError:
+                print(f"Could not read source code of {title}")
+                return None
+
+    print(f"Source code of {title} not found")
+    return None
 
 tweaks = [
     {
@@ -228,6 +275,7 @@ sileo_keys = [
 ]
 
 for entry in tweaks:
+    validate_entry(entry)
     file = entry.get("file")
     title = entry.get("title")
     min_ios = entry.get("min_ios")
@@ -239,39 +287,20 @@ for entry in tweaks:
     # link_source_code = entry.get("link_source_code")
     inline_source_code = entry.get("inline_source_code")
     debug = entry.get("debug")
-    description = re.sub(r'\s+', ' ', entry.get("description"))
+    description = normalize_markup(entry.get("description"))
     extra_content = entry.get("extra_content")
     if extra_content:
-        extra_content = re.sub(r'\s+', ' ', extra_content)
-    output_path = os.path.join(root, "../depictions", f"{file}.html")
+        extra_content = normalize_markup(extra_content)
+    output_path = depictions_dir / f"{file}.html"
 
     SOURCE_CODE = None
-    screenshot_objects = list(filter(None, list(map(
-        lambda e: None if e.name.startswith('.') else {
-            "url": f"https://poomsmart.github.io/repo/screenshots/{file}/{e.name}",
-            "accessibilityText": e.name
-        },
-        os.scandir(os.path.join(screenshots_dir, file))
-    )))) if screenshots else None
+    screenshot_objects = collect_screenshots(file) if screenshots else []
 
     if inline_source_code:
-        SOURCE_CODE_FOUND = False
-        POSSIBLE_FOLDERS = ['SpringBoard', 'YouTube', 'Camera']
-        try:
-            for folder in POSSIBLE_FOLDERS:
-                source_code_path = f'../../{folder}/{file}/Tweak.x'
-                if os.path.exists(source_code_path):
-                    with open(source_code_path, 'r') as source_code_content:
-                        SOURCE_CODE = source_code_content.read()
-                        SOURCE_CODE_FOUND = True
-                        break
-        except IOError:
-            print(f"Could not read source code of {title}")
-        if not SOURCE_CODE_FOUND:
-            print(f"Source code of {title} not found")
+        SOURCE_CODE = load_inline_source_code(file, title)
+        if SOURCE_CODE is None:
             continue
-    with open(output_path, 'w') as fh:
-        fh.write(minify_html.minify(html_template.render(
+    output_path.write_text(minify_html.minify(html_template.render(
             title=title,
             min_ios=min_ios,
             max_ios=max_ios,
@@ -282,15 +311,15 @@ for entry in tweaks:
             extra_content=extra_content,
             source_code=html.escape(SOURCE_CODE) if SOURCE_CODE is not None else None,
             debug=debug
-        ), minify_js=False, minify_css=False))
+        ), minify_js=False, minify_css=False), encoding="utf-8")
     print(f"Generated {output_path}")
 
     no_sileo = entry.get("no_sileo")
     if no_sileo:
         continue
-    sileo_output_path = os.path.join(root, "../sileodepictions", f"{file}.json")
+    sileo_output_path = sileo_depictions_dir / f"{file}.json"
 
-    with open(os.path.join(templates_dir, "index.json")) as json_file:
+    with (templates_dir / "index.json").open(encoding="utf-8") as json_file:
         data = json.load(json_file)
         for key in sileo_keys:
             val = entry.get(key)
@@ -305,7 +334,7 @@ for entry in tweaks:
             if tabname == "Details":
                 VIEWS = json_entry["views"]
                 VIEWS[0]["markdown"] = description
-                if screenshot_objects is not None and screenshot_objects.count:
+                if screenshot_objects:
                     screenshots_json = {
                         "class": "DepictionScreenshotsView",
                         "itemCornerRadius": 14,
@@ -370,6 +399,6 @@ for entry in tweaks:
                 FIRST_CHANGE = False
             tabs.append(changes_tab)
 
-    with open(sileo_output_path, 'w') as out_file:
+    with sileo_output_path.open('w', encoding="utf-8") as out_file:
         json.dump(data, out_file)
     print(f"Generated {sileo_output_path}")

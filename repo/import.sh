@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 # brew install dpkg zstd lz4
 
 # rm -f depictions/* sileodepictions/*
-uv run python3 gen/depiction.py
+uv run python main.py
 dpkg-scanpackages -m ./debs /dev/null > Packages
 gzip -cf Packages > Packages.gz
 xz -9fkev Packages > Packages.xz
