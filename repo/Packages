@@ -4770,18 +4770,36 @@ Name: NotTodayHomeScreenSideBar
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/nottodayhomescreensidebar.json
 
 Package: com.ps.noytmpremium
-Version: 1.0.1
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.noytmpremium_1.0.2_iphoneos-arm64.deb
+Size: 3394
+MD5sum: 07f3dcf11503613ea0608ad97e89816e
+SHA1: 33e3689a3db5f0cc4dfd874a6003fa8a7b819933
+SHA256: e5cf94b859354301727d9ae242026998050769fe58e506fa9b4ad1406d0ab272
+Section: Tweaks
+Description: Removes YouTube Music Premium upsell elements.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/noytmpremium.html
+Name: NoYTMPremium
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noytmpremium.json
+
+Package: com.ps.noytmpremium
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 72
+Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/com.ps.noytmpremium_1.0.1_iphoneos-arm.deb
-Size: 2662
-MD5sum: c06ce9ef425531c469e3d7533c5c37a1
-SHA1: 5b32878ab3c68923dded55e91384849575c5baca
-SHA256: ab095eb575afd8cc5502fcdf33f31de49b8e81215e555371ab47374e22cf78a5
+Filename: ./debs/youtube/com.ps.noytmpremium_1.0.2_iphoneos-arm.deb
+Size: 3318
+MD5sum: 5d399cad64fed1c7677ea111bf8c037e
+SHA1: 4afa850386c52c587894417634b25f5d39ae8584
+SHA256: 2a5725940ed65ebc9d765d889361885e39a54e704b8654cebf5fe0856d3eb43b
 Section: Tweaks
-Description: Remove YouTube Music Premium upsell elements.
+Description: Removes YouTube Music Premium upsell elements.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/noytmpremium.html
 Name: NoYTMPremium

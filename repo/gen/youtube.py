@@ -212,7 +212,10 @@ youtube = [
         "min_ios": "11.0",
         "tintColor": "red",
         "inline_source_code": True,
-        "description": "<p>Removes YouTube Music Premium upsell elements (banner, alerts, tab item).</p>"
+        "description": "<p>Removes YouTube Music Premium upsell elements (banner, alerts, tab item).</p>",
+        "changes": [
+            ["1.0.2", "Added more hooks for recent YouTube Music versions (contributed by @Tonwalter888)"]
+        ]
     },
     {
         "file": "youremembercaption",

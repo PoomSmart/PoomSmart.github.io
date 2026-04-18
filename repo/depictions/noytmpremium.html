@@ -1,7 +1,11 @@
-<!doctype html><html lang=en><meta charset=utf-8><title>NoYTMPremium</title><meta content="initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=11.0 id=prerequisite><p id=pt>Compatible with iOS 11.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>Removes YouTube Music Premium upsell elements (banner, alerts, tab item).</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>#import &lt;YouTubeHeader/YTPivotBarItemView.h>
+<!doctype html><html lang=en><meta charset=utf-8><title>NoYTMPremium</title><meta content="initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport><link href=../../assets/ios7.min.css rel=stylesheet><link href=../../assets/misc.css rel=stylesheet><script src=../../assets/ios7.min.js></script><body><main class="ios-table ios-main"><h2 role=header>Compatibility</h2><ul><li><div data-min-ios=11.0 id=prerequisite><p id=pt>Compatible with iOS 11.0 +</div></ul><script src=../../misc/iosver.js></script><h2 role=header>Description</h2><ul><li><p>Removes YouTube Music Premium upsell elements (banner, alerts, tab item).</p></ul><h2 role=header>Changelog</h2><ul><li><p>1.0.2: Added more hooks for recent YouTube Music versions (contributed by @Tonwalter888)</p></ul><h2 role=header>Source Code</h2><ul><li><div class=overflow-x><pre>#import &lt;YouTubeHeader/YTPivotBarItemView.h>
 
 // Hide premium banner at the bottom of account page
 %hook YTMMusicAppMetadata
+- (id)sidePanelPromo { return nil; }
+%end
+
+%hook YTMMusicAppMetadataImpl
 - (id)sidePanelPromo { return nil; }
 %end
 
@@ -24,7 +28,68 @@
 - (void)presentInterstitialPromoForEvent:(id)event {}
 %end
 
+%hook YTMAppResponderImpl
+- (void)presentInterstitialksPromoForEvent:(id)event {}
+%end
+
 // Whatever this is for, I suppress
 %hook YTPromosheetController
 - (void)presentPromosheetWithEvent:(id)event {}
-%end</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>
+%end
+
+// Full-screen
+%hook YTPromoThrottleController
+- (BOOL)canShowThrottledPromo { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCap:(id)arg1 { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCaps:(id)arg1 { return NO; }
+%end
+
+%hook YTPromoThrottleControllerImpl
+- (BOOL)canShowThrottledPromo { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCap:(id)arg1 { return NO; }
+- (BOOL)canShowThrottledPromoWithFrequencyCaps:(id)arg1 { return NO; }
+%end
+
+// Survey
+%hook YTSurveyController
+- (void)showSurveyWithRenderer:(id)arg1 surveyParentResponder:(id)arg2 {}
+%end
+
+// Extra
+%hook YTIPlayabilityStatus
+- (id)backgroundUpsell { return nil; }
+- (id)offlineUpsell { return nil; }
+%end
+
+%hook YTIPlayerResponse 
+- (id)backgroundUpsell { return nil; }
+- (id)offlineUpsell { return nil; }
+%end
+
+%hook YTIBackgroundabilityRenderer
+- (id)backgroundUpsell { return nil; }
+%end
+
+%hook YTMealbarPromoController
+- (void)showMealbarPromoWithEvent:(id)arg {}
+%end
+
+%hook YTMAppDelegate
+- (void)showUpsellAlertWithTitle:(id)arg1 subtitle:(id)arg2 upgradeButtonTitle:(id)arg3 upsellURLString:(id)arg4 sourceApplication:(id)arg5 {}
+%end
+
+%hook YTMUpsellDialogController
+- (void)fillAlertViewWithUpsell:(id)upsell {}
+- (void)showUpsellDialogWithUpsell:(id)upsell upsellParentResponder:(id)responder {}
+- (void)showUpsellDialogWithUpsell:(id)upsell videoID:(id)ID toastType:(NSInteger)type upsellParentResponder:(id)reponder shouldDismissOnBackgroundTap:(BOOL)shouldDismissOnBackgroundTap {}
+- (void)showUpsellDialogWithUpsellResponderEvent:(id)responderevent {}
+%end
+
+%hook MDXFeatureFlags
+- (BOOL)areMementoPromotionsEnabled { return NO; }
+%end
+
+%hook YTColdConfig
+- (BOOL)cxClientDisableMementoPromotions { return YES; }
+%end
+</pre></div></ul><h2 role=header>Information</h2><ul><li><a href=https://twitter.com/PoomSmart>Dev's Twitter</a><li><a href=https://github.com/PoomSmart>Dev's GitHub</a><li><a href=https://poomsmart.github.io>Support Dev</a></ul></main>
