@@ -25,8 +25,16 @@ REQUIRED_ENTRY_KEYS = ("file", "title", "description")
 SOURCE_CODE_FOLDERS = ("SpringBoard", "YouTube", "Camera")
 
 
+class DepictionAssetError(FileNotFoundError):
+    pass
+
+
 def normalize_markup(value):
     return re.sub(r'\s+', ' ', value)
+
+
+def warn(message):
+    print(f"Warning: {message}")
 
 
 def validate_entry(entry):
@@ -35,10 +43,13 @@ def validate_entry(entry):
         raise ValueError(f"Entry is missing required keys: {', '.join(missing_keys)}")
 
 
-def collect_screenshots(file_name):
+def collect_screenshots(file_name, strict=False):
     screenshot_dir = screenshots_dir / file_name
     if not screenshot_dir.exists():
-        print(f"Screenshots directory for {file_name} not found")
+        message = f"Screenshots directory for {file_name} not found"
+        if strict:
+            raise DepictionAssetError(message)
+        warn(message)
         return []
 
     return [
@@ -51,17 +62,23 @@ def collect_screenshots(file_name):
     ]
 
 
-def load_inline_source_code(file_name, title):
+def load_inline_source_code(file_name, title, strict=False):
     for folder in SOURCE_CODE_FOLDERS:
         source_code_path = (root / f"../../{folder}/{file_name}/Tweak.x").resolve()
         if source_code_path.exists():
             try:
                 return source_code_path.read_text(encoding="utf-8")
             except OSError:
-                print(f"Could not read source code of {title}")
+                message = f"Could not read source code of {title}"
+                if strict:
+                    raise DepictionAssetError(message)
+                warn(message)
                 return None
 
-    print(f"Source code of {title} not found")
+    message = f"Source code of {title} not found"
+    if strict:
+        raise DepictionAssetError(message)
+    warn(message)
     return None
 
 tweaks = [
@@ -274,7 +291,7 @@ sileo_keys = [
     "headerImage", "tintColor", "backgroundColor"
 ]
 
-def generate_depictions(entries=None):
+def generate_depictions(entries=None, strict=False):
     generated_count = 0
     for entry in tweaks if entries is None else entries:
         validate_entry(entry)
@@ -296,10 +313,10 @@ def generate_depictions(entries=None):
         output_path = depictions_dir / f"{file}.html"
 
         source_code = None
-        screenshot_objects = collect_screenshots(file) if screenshots else []
+        screenshot_objects = collect_screenshots(file, strict=strict) if screenshots else []
 
         if inline_source_code:
-            source_code = load_inline_source_code(file, title)
+            source_code = load_inline_source_code(file, title, strict=strict)
             if source_code is None:
                 continue
         output_path.write_text(minify_html.minify(html_template.render(

@@ -36,6 +36,8 @@ Run the smoke tests:
 uv run --directory repo python -m unittest discover -s tests
 ```
 
+For stricter asset validation when working on a specific entry, import the generator and call `generate_depictions(..., strict=True)` so missing screenshot folders or missing inline source files fail immediately instead of being treated as warnings.
+
 You can also invoke the script directly:
 
 ```bash
