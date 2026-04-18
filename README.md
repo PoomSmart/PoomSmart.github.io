@@ -30,6 +30,12 @@ Generate depiction HTML and Sileo JSON:
 uv run --directory repo python main.py
 ```
 
+Run the smoke tests:
+
+```bash
+uv run --directory repo python -m unittest discover -s tests
+```
+
 You can also invoke the script directly:
 
 ```bash

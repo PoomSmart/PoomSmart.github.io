@@ -23,6 +23,9 @@ jobs:
       - name: Sync Python dependencies
         run: uv sync --frozen --directory repo
 
+      - name: Run smoke tests
+        run: uv run --directory repo python -m unittest discover -s tests
+
       - name: Regenerate depictions
         run: uv run --directory repo python main.py
 

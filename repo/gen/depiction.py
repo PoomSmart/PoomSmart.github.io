@@ -274,131 +274,144 @@ sileo_keys = [
     "headerImage", "tintColor", "backgroundColor"
 ]
 
-for entry in tweaks:
-    validate_entry(entry)
-    file = entry.get("file")
-    title = entry.get("title")
-    min_ios = entry.get("min_ios")
-    max_ios = entry.get("max_ios")
-    strict_range = entry.get("strict_range")
-    screenshots = entry.get("screenshots")
-    featured_as_banner = entry.get("featured_as_banner")
-    changes = entry.get("changes")
-    # link_source_code = entry.get("link_source_code")
-    inline_source_code = entry.get("inline_source_code")
-    debug = entry.get("debug")
-    description = normalize_markup(entry.get("description"))
-    extra_content = entry.get("extra_content")
-    if extra_content:
-        extra_content = normalize_markup(extra_content)
-    output_path = depictions_dir / f"{file}.html"
+def generate_depictions(entries=None):
+    generated_count = 0
+    for entry in tweaks if entries is None else entries:
+        validate_entry(entry)
+        file = entry.get("file")
+        title = entry.get("title")
+        min_ios = entry.get("min_ios")
+        max_ios = entry.get("max_ios")
+        strict_range = entry.get("strict_range")
+        screenshots = entry.get("screenshots")
+        featured_as_banner = entry.get("featured_as_banner")
+        changes = entry.get("changes")
+        # link_source_code = entry.get("link_source_code")
+        inline_source_code = entry.get("inline_source_code")
+        debug = entry.get("debug")
+        description = normalize_markup(entry.get("description"))
+        extra_content = entry.get("extra_content")
+        if extra_content:
+            extra_content = normalize_markup(extra_content)
+        output_path = depictions_dir / f"{file}.html"
 
-    SOURCE_CODE = None
-    screenshot_objects = collect_screenshots(file) if screenshots else []
+        source_code = None
+        screenshot_objects = collect_screenshots(file) if screenshots else []
 
-    if inline_source_code:
-        SOURCE_CODE = load_inline_source_code(file, title)
-        if SOURCE_CODE is None:
+        if inline_source_code:
+            source_code = load_inline_source_code(file, title)
+            if source_code is None:
+                continue
+        output_path.write_text(minify_html.minify(html_template.render(
+                title=title,
+                min_ios=min_ios,
+                max_ios=max_ios,
+                strict_range=strict_range,
+                changes=changes,
+                screenshots=screenshot_objects,
+                description=description,
+                extra_content=extra_content,
+                source_code=html.escape(source_code) if source_code is not None else None,
+                debug=debug
+            ), minify_js=False, minify_css=False), encoding="utf-8")
+        print(f"Generated {output_path}")
+        generated_count += 1
+
+        no_sileo = entry.get("no_sileo")
+        if no_sileo:
             continue
-    output_path.write_text(minify_html.minify(html_template.render(
-            title=title,
-            min_ios=min_ios,
-            max_ios=max_ios,
-            strict_range=strict_range,
-            changes=changes,
-            screenshots=screenshot_objects,
-            description=description,
-            extra_content=extra_content,
-            source_code=html.escape(SOURCE_CODE) if SOURCE_CODE is not None else None,
-            debug=debug
-        ), minify_js=False, minify_css=False), encoding="utf-8")
-    print(f"Generated {output_path}")
+        sileo_output_path = sileo_depictions_dir / f"{file}.json"
 
-    no_sileo = entry.get("no_sileo")
-    if no_sileo:
-        continue
-    sileo_output_path = sileo_depictions_dir / f"{file}.json"
-
-    with (templates_dir / "index.json").open(encoding="utf-8") as json_file:
-        data = json.load(json_file)
-        for key in sileo_keys:
-            val = entry.get(key)
-            if val:
-                data[key] = val
-        if featured_as_banner and 'headerImage' not in entry:
-            data['headerImage'] = f"https://poomsmart.github.io/repo/features/{file}.png"
-        tabs = data["tabs"]
-        VIEWS = None
-        for json_entry in tabs:
-            tabname = json_entry["tabname"]
-            if tabname == "Details":
-                VIEWS = json_entry["views"]
-                VIEWS[0]["markdown"] = description
-                if screenshot_objects:
-                    screenshots_json = {
-                        "class": "DepictionScreenshotsView",
-                        "itemCornerRadius": 14,
-                        "screenshots": screenshot_objects,
-                        "itemSize": "{160,284}"
-                    }
-                    VIEWS.insert(0, screenshots_json)
-                if extra_content:
-                    VIEWS.append({
-                        "class": "DepictionMarkdownView",
-                        "markdown": extra_content,
-                        "useSpacing": True,
-                        "useRawFormat": True
-                    })
-        if VIEWS and min_ios:
-            support_versions = {
-                "class": "DepictionSubheaderView",
-                "useMargins": True,
-                "title": f"Compatible with iOS {min_ios} to {max_ios}" if min_ios and max_ios else f"Compatible with iOS {min_ios} +"
-            }
-            VIEWS.insert(0, support_versions)
-        if SOURCE_CODE:
-            source_code_tab = {
-                "class": "DepictionStackView",
-                "tabname": "Source Code",
-                "views": [
-                    {
-                        "class": "DepictionMarkdownView",
-                        "markdown": f"```\n{SOURCE_CODE}\n```"
-                    }
-                ]
-            }
-            tabs.append(source_code_tab)
-        if changes:
-            changes_tab = {
-                "class": "DepictionStackView",
-                "tabname": "Changelog",
-                "views": []
-            }
-            VIEWS = changes_tab["views"]
-            FIRST_CHANGE = True
-            for change in changes:
-                if not FIRST_CHANGE:
-                    VIEWS.append({
-                        "class": "DepictionSeparatorView"
-                    })
-
-                VIEWS.append({
+        with (templates_dir / "index.json").open(encoding="utf-8") as json_file:
+            data = json.load(json_file)
+            for key in sileo_keys:
+                val = entry.get(key)
+                if val:
+                    data[key] = val
+            if featured_as_banner and 'headerImage' not in entry:
+                data['headerImage'] = f"https://poomsmart.github.io/repo/features/{file}.png"
+            tabs = data["tabs"]
+            views = None
+            for json_entry in tabs:
+                tabname = json_entry["tabname"]
+                if tabname == "Details":
+                    views = json_entry["views"]
+                    views[0]["markdown"] = description
+                    if screenshot_objects:
+                        screenshots_json = {
+                            "class": "DepictionScreenshotsView",
+                            "itemCornerRadius": 14,
+                            "screenshots": screenshot_objects,
+                            "itemSize": "{160,284}"
+                        }
+                        views.insert(0, screenshots_json)
+                    if extra_content:
+                        views.append({
+                            "class": "DepictionMarkdownView",
+                            "markdown": extra_content,
+                            "useSpacing": True,
+                            "useRawFormat": True
+                        })
+            if views and min_ios:
+                support_versions = {
                     "class": "DepictionSubheaderView",
-                    "title": f"Version {change[0]}"
-                })
-                CHANGE_PART = ""
-                if isinstance(change[1], list):
-                    for c in change[1]:
-                        CHANGE_PART += f"- {c}\n"
-                else:
-                    CHANGE_PART = f"- {change[1]}"
-                VIEWS.append({
-                    "class": "DepictionMarkdownView",
-                    "markdown": CHANGE_PART
-                })
-                FIRST_CHANGE = False
-            tabs.append(changes_tab)
+                    "useMargins": True,
+                    "title": f"Compatible with iOS {min_ios} to {max_ios}" if min_ios and max_ios else f"Compatible with iOS {min_ios} +"
+                }
+                views.insert(0, support_versions)
+            if source_code:
+                source_code_tab = {
+                    "class": "DepictionStackView",
+                    "tabname": "Source Code",
+                    "views": [
+                        {
+                            "class": "DepictionMarkdownView",
+                            "markdown": f"```\n{source_code}\n```"
+                        }
+                    ]
+                }
+                tabs.append(source_code_tab)
+            if changes:
+                changes_tab = {
+                    "class": "DepictionStackView",
+                    "tabname": "Changelog",
+                    "views": []
+                }
+                views = changes_tab["views"]
+                first_change = True
+                for change in changes:
+                    if not first_change:
+                        views.append({
+                            "class": "DepictionSeparatorView"
+                        })
 
-    with sileo_output_path.open('w', encoding="utf-8") as out_file:
-        json.dump(data, out_file)
-    print(f"Generated {sileo_output_path}")
+                    views.append({
+                        "class": "DepictionSubheaderView",
+                        "title": f"Version {change[0]}"
+                    })
+                    change_part = ""
+                    if isinstance(change[1], list):
+                        for item in change[1]:
+                            change_part += f"- {item}\n"
+                    else:
+                        change_part = f"- {change[1]}"
+                    views.append({
+                        "class": "DepictionMarkdownView",
+                        "markdown": change_part
+                    })
+                    first_change = False
+                tabs.append(changes_tab)
+
+        with sileo_output_path.open('w', encoding="utf-8") as out_file:
+            json.dump(data, out_file)
+        print(f"Generated {sileo_output_path}")
+
+    return generated_count
+
+
+def main():
+    generate_depictions()
+
+
+if __name__ == "__main__":
+    main()
