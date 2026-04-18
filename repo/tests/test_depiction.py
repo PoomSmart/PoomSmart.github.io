@@ -7,38 +7,44 @@ import sys
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-GEN_DIR = REPO_ROOT / "gen"
-sys.path.insert(0, str(GEN_DIR))
+sys.path.insert(0, str(REPO_ROOT))
 
-import depiction
+from gen import app, data_loader, depiction, rendering
 
 
 class DepictionTests(unittest.TestCase):
     def test_validate_entry_rejects_missing_keys(self):
-        with self.assertRaises(ValueError):
-            depiction.validate_entry({"file": "broken"})
+        with self.assertRaises(data_loader.DepictionSchemaError):
+            data_loader.validate_entry({"file": "broken"})
+
+    def test_load_category_uses_json_data(self):
+        youtube_entries = data_loader.load_category("youtube")
+        self.assertTrue(any(entry["file"] == "ytuhd" for entry in youtube_entries))
+
+    def test_legacy_category_module_uses_json_loader(self):
+        self.assertEqual(app.app, data_loader.load_category("app"))
 
     def test_collect_screenshots_missing_directory_returns_empty_list(self):
-        with mock.patch.object(depiction, "warn") as warn:
-            screenshots = depiction.collect_screenshots("missing-screenshots")
+        with mock.patch.object(rendering, "warn") as warn:
+            screenshots = rendering.collect_screenshots("missing-screenshots")
 
         self.assertEqual(screenshots, [])
         warn.assert_called_once()
 
     def test_collect_screenshots_missing_directory_raises_in_strict_mode(self):
-        with self.assertRaises(depiction.DepictionAssetError):
-            depiction.collect_screenshots("missing-screenshots", strict=True)
+        with self.assertRaises(rendering.DepictionAssetError):
+            rendering.collect_screenshots("missing-screenshots", strict=True)
 
     def test_collect_screenshots_is_sorted(self):
-        screenshots = depiction.collect_screenshots("igetmorechoices")
+        screenshots = rendering.collect_screenshots("igetmorechoices")
         self.assertEqual(
             [shot["accessibilityText"] for shot in screenshots],
             sorted(shot["accessibilityText"] for shot in screenshots),
         )
 
     def test_load_inline_source_code_raises_in_strict_mode(self):
-        with self.assertRaises(depiction.DepictionAssetError):
-            depiction.load_inline_source_code("missing-source", "Missing Source", strict=True)
+        with self.assertRaises(rendering.DepictionAssetError):
+            rendering.load_inline_source_code("missing-source", "Missing Source", strict=True)
 
     def test_generate_depictions_writes_expected_outputs(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
@@ -55,10 +61,10 @@ class DepictionTests(unittest.TestCase):
                 "description": "<p>Fade animation across keyboard typing.</p>",
             }
 
-            with mock.patch.object(depiction, "depictions_dir", depictions_dir), mock.patch.object(
-                depiction, "sileo_depictions_dir", sileo_depictions_dir
+            with mock.patch.object(rendering, "depictions_dir", depictions_dir), mock.patch.object(
+                rendering, "sileo_depictions_dir", sileo_depictions_dir
             ):
-                generated_count = depiction.generate_depictions([entry])
+                generated_count = rendering.generate_depictions([entry])
 
             self.assertEqual(generated_count, 1)
             self.assertTrue((depictions_dir / "smoothkb.html").exists())
@@ -72,8 +78,16 @@ class DepictionTests(unittest.TestCase):
             "screenshots": True,
         }
 
-        with self.assertRaises(depiction.DepictionAssetError):
-            depiction.generate_depictions([entry], strict=True)
+        with self.assertRaises(rendering.DepictionAssetError):
+            rendering.generate_depictions([entry], strict=True)
+
+    def test_main_uses_loaded_tweaks(self):
+        with mock.patch.object(depiction, "load_all_tweaks", return_value=[]), mock.patch.object(
+            depiction, "generate_depictions", return_value=0
+        ) as generate_depictions:
+            depiction.main()
+
+        generate_depictions.assert_called_once_with([], strict=False)
 
 
 if __name__ == "__main__":

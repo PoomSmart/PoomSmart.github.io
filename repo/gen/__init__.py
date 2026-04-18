@@ -1,0 +1,1 @@
+"""Generator package for depiction metadata loading and rendering."""

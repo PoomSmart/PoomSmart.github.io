@@ -6,9 +6,12 @@ This repository contains both the public website and the build inputs for the pa
 
 - `index.html`, `emojiport.html`, `assets/`, `misc/`, `web/`: static site content served by GitHub Pages.
 - `repo/gen/`: Python source for generating depiction HTML and Sileo JSON.
+- `repo/data/`: JSON metadata for tweaks and depictions.
 - `repo/templates/`: Jinja templates used by the generator.
 - `repo/depictions/`, `repo/sileodepictions/`: generated outputs committed to the repository.
 - `repo/debs/`, `repo/Packages*`, `repo/Release`: APT-style repository artifacts.
+
+The metadata source of truth now lives in `repo/data/*.json`. The legacy modules in `repo/gen/*.py` are compatibility wrappers that load those JSON files.
 
 ## Requirements
 
