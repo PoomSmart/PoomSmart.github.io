@@ -248,7 +248,7 @@ youtube = [
             This tweak adds a new section named \"A/B\" in the app settings where all features can be toggled freely by you.\
             There are thousands of features available. Some of them are already overridden by tweaks like YTABGoodies and its predecessors.</p>",
         "changes": [
-            ["1.9.2" "Added pl localization"],
+            ["1.9.2", "Added pl localization"],
             ["1.9.1", "Fixed a rare app crash on startup"],
             ["1.9.0", [
                 "Added \"Remove removed settings\" inside the modified settings page to remove settings that are no longer available in the app",
@@ -594,10 +594,14 @@ youtube = [
         "title": "YouTube Legacy",
         "min_ios": "11.0",
         "tintColor": "red",
-        "description": "<p>Attempts to make old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>\
+        "description": "<p>Makes old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p>\
             <p>You only need this tweak if you are on iOS 15 or lower, or you are using YouTube app version 20.23.3 or lower.</p>\
             <p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
         "changes": [
+            ["1.9.2", [
+                "Added a workaround to make texts white on dark mode on old YouTube versions",
+                "Fixed missing tab icons on old YouTube versions"
+            ]],
             ["1.9.1~b3", [
                 "Updated spoofed iOS version to 15.8.7 (for iOS 14-)",
                 "Added th localization"
