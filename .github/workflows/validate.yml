@@ -23,6 +23,9 @@ jobs:
       - name: Sync Python dependencies
         run: uv sync --frozen --directory repo
 
+      - name: Validate metadata schema
+        run: uv run --directory repo repo-validate-data
+
       - name: Run smoke tests
         run: uv run --directory repo python -m unittest discover -s tests
 

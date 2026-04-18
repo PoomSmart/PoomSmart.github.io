@@ -14,12 +14,26 @@ from gen import app, data_loader, depiction, rendering
 
 class DepictionTests(unittest.TestCase):
     def test_validate_entry_rejects_missing_keys(self):
-        with self.assertRaises(data_loader.DepictionSchemaError):
+        with self.assertRaisesRegex(data_loader.DepictionSchemaError, "required property"):
             data_loader.validate_entry({"file": "broken"})
+
+    def test_validate_entry_rejects_unknown_keys(self):
+        with self.assertRaisesRegex(data_loader.DepictionSchemaError, "Additional properties"):
+            data_loader.validate_entry(
+                {
+                    "file": "broken",
+                    "title": "Broken",
+                    "description": "<p>Broken</p>",
+                    "unexpected": True,
+                }
+            )
 
     def test_load_category_uses_json_data(self):
         youtube_entries = data_loader.load_category("youtube")
         self.assertTrue(any(entry["file"] == "ytuhd" for entry in youtube_entries))
+
+    def test_validate_all_categories_accepts_current_repo_data(self):
+        data_loader.validate_all_categories()
 
     def test_legacy_category_module_uses_json_loader(self):
         self.assertEqual(app.app, data_loader.load_category("app"))

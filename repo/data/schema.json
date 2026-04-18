@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://poomsmart.github.io/repo/data/schema.json",
+  "title": "Depiction metadata category",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/entry"
+  },
+  "$defs": {
+    "changeDetail": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    },
+    "change": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "prefixItems": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "$ref": "#/$defs/changeDetail"
+        }
+      ]
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "file",
+        "title",
+        "description"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "min_ios": {
+          "type": "string"
+        },
+        "max_ios": {
+          "type": "string"
+        },
+        "extra_content": {
+          "type": "string"
+        },
+        "headerImage": {
+          "type": "string"
+        },
+        "tintColor": {
+          "type": "string"
+        },
+        "backgroundColor": {
+          "type": "string"
+        },
+        "strict_range": {
+          "type": "boolean"
+        },
+        "screenshots": {
+          "type": "boolean"
+        },
+        "featured_as_banner": {
+          "type": "boolean"
+        },
+        "inline_source_code": {
+          "type": "boolean"
+        },
+        "link_source_code": {
+          "type": "boolean"
+        },
+        "no_sileo": {
+          "type": "boolean"
+        },
+        "debug": {
+          "type": "boolean"
+        },
+        "changes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/change"
+          }
+        }
+      }
+    }
+  }
+}
