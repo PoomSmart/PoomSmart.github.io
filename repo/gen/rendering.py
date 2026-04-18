@@ -27,7 +27,9 @@ class DepictionAssetError(FileNotFoundError):
 
 
 def normalize_markup(value):
-    return re.sub(r"\s+", " ", value)
+    value = value.strip()
+    value = re.sub(r">\s+<", "><", value)
+    return re.sub(r"\s{2,}", " ", value)
 
 
 def warn(message):

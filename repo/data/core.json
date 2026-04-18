@@ -33,13 +33,13 @@
         "Fixed issues with GoodNotes 5 app"
       ]
     ],
-    "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p>            <p>For more details, visit tweak's <a target=\"_blank\" href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
+    "description": "<p>A little better Apple Pencil functionalities, even though most of the aimed features are somewhat broken.</p><p>For more details, visit tweak's <a target=\"_blank\" href=\"https://github.com/PoomSmart/PencilPro/blob/master/README.md\">README</a>.</p>"
   },
   {
     "file": "pearltracking",
     "title": "Pearl Tracking",
     "min_ios": "13.0",
-    "description": "<ol>            <li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li>            <li>Enable Assistive Touch</li>            <li>Invoke Control Center</li>            <li><b>Get some painkiller</b></li>            <li>Turn on Pearl Tracking</li>            <li>???</li>        </ol>"
+    "description": "<ol><li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li><li>Enable Assistive Touch</li><li>Invoke Control Center</li><li><b>Get some painkiller</b></li><li>Turn on Pearl Tracking</li><li>???</li></ol>"
   },
   {
     "file": "hdavatar",
@@ -98,7 +98,7 @@
     "title": "CAHighFPS",
     "min_ios": "7.0",
     "description": "<p>Makes CoreAnimation apps use the highest available FPS (same as your device's refresh rate).            Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a target=\"_blank\" href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.            Tested on these apps:</p>",
-    "extra_content": "<ol>            <li>Asphalt 8/9 (1.1.0+)</li>            <li>Safari Browser (1.0.3+)</li>            <li>Where's My Water 2</li>            <li>Plants vs Zombies (HD)</li>            <li>Plants vs Zombies 2</li>            <li>Bejeweled Blitz</li>            <li>Bejeweled Classic (HD)</li>            <li>Bloons TD 5</li>            <li>Tiny Wings</li>            <li>Real Racing 3</li>            <li>Jelly Defense</li>        </ol>",
+    "extra_content": "<ol><li>Asphalt 8/9 (1.1.0+)</li><li>Safari Browser (1.0.3+)</li><li>Where's My Water 2</li><li>Plants vs Zombies (HD)</li><li>Plants vs Zombies 2</li><li>Bejeweled Blitz</li><li>Bejeweled Classic (HD)</li><li>Bloons TD 5</li><li>Tiny Wings</li><li>Real Racing 3</li><li>Jelly Defense</li></ol>",
     "changes": [
       [
         "1.3.3",
@@ -148,7 +148,7 @@
     "file": "replaykitmax",
     "title": "ReplayKit Max",
     "min_ios": "9.0",
-    "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p>            <p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
+    "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
   },
   {
     "file": "advancedmapenabler",
@@ -194,8 +194,8 @@
     "title": "SFSymbols",
     "min_ios": "13.0",
     "max_ios": "17.7.5",
-    "description": "<p>Backports latest SF Symbols to your device.</p><br/>            <p>For developers who want to benefit from the latest SF Symbols in their app, include <code>com.ps.sfsymbols</code> in your control file.</p><br/>            <p>There are two SFSymbols packages that have to be used together:</p>",
-    "extra_content": "<ol>            <li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li>            <li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li>        </ol>",
+    "description": "<p>Backports latest SF Symbols to your device.</p><br/><p>For developers who want to benefit from the latest SF Symbols in their app, include <code>com.ps.sfsymbols</code> in your control file.</p><br/><p>There are two SFSymbols packages that have to be used together:</p>",
+    "extra_content": "<ol><li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li><li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li></ol>",
     "changes": [
       [
         "1.0.10",
@@ -228,7 +228,7 @@
     "title": "NoSwiftAtRuntime",
     "min_ios": "13.0",
     "max_ios": "16.7.15",
-    "description": "<p>Avoids crashing when performing runtime instrumentation on apps with incompatible Swift classes (using recent Swift compiler versions).</p>            <p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p>            <p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",
+    "description": "<p>Avoids crashing when performing runtime instrumentation on apps with incompatible Swift classes (using recent Swift compiler versions).</p><p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p><p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",
     "changes": [
       [
         "1.0.2",

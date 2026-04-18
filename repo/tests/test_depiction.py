@@ -45,6 +45,10 @@ class DepictionTests(unittest.TestCase):
         self.assertEqual(screenshots, [])
         warn.assert_called_once()
 
+    def test_normalize_markup_removes_inter_tag_whitespace(self):
+        markup = "  <p>First</p>            <p>Second</p><br/>            <p>Third</p>  "
+        self.assertEqual(rendering.normalize_markup(markup), "<p>First</p><p>Second</p><br/><p>Third</p>")
+
     def test_collect_screenshots_missing_directory_raises_in_strict_mode(self):
         with self.assertRaises(rendering.DepictionAssetError):
             rendering.collect_screenshots("missing-screenshots", strict=True)
