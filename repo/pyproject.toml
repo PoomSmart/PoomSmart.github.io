@@ -9,7 +9,3 @@ dependencies = [
     "maturin>=1.8.6",
     "minify-html>=0.16.4",
 ]
-
-[project.scripts]
-repo-build = "main:main"
-repo-validate-data = "validate_data:main"
