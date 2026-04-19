@@ -138,7 +138,9 @@ def build_sileo_depiction(entry, description, extra_content, screenshots, source
     if changes:
         change_views = []
         first_change = True
-        for version, details in changes:
+        for change in changes:
+            version = change["version"]
+            details = change["details"]
             if not first_change:
                 change_views.append({"class": "DepictionSeparatorView"})
             change_views.append({

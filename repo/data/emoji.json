@@ -4,14 +4,14 @@
     "title": "EmojiPort Resources (iOS 10+)",
     "min_ios": "10.0",
     "changes": [
-      [
-        "1.9.0",
-        "Extracted iOS 16- and iOS 17+ assets into separate resource tweaks"
-      ],
-      [
-        "1.8.0",
-        "Updated to iOS 26.4 assets"
-      ]
+      {
+        "version": "1.9.0",
+        "details": "Extracted iOS 16- and iOS 17+ assets into separate resource tweaks"
+      },
+      {
+        "version": "1.8.0",
+        "details": "Updated to iOS 26.4 assets"
+      }
     ],
     "description": "<p>Up-to-date emoji assets (bitmap, localization, metadata) specific to iOS 10 and above.</p>"
   },
@@ -20,34 +20,34 @@
     "title": "EmojiAttributes",
     "min_ios": "5.1",
     "changes": [
-      [
-        "1.10.0~b3",
-        "Fixed the tweak broken on iOS 12.1 - 15.3"
-      ],
-      [
-        "1.10.0~b2",
-        [
+      {
+        "version": "1.10.0~b3",
+        "details": "Fixed the tweak broken on iOS 12.1 - 15.3"
+      },
+      {
+        "version": "1.10.0~b2",
+        "details": [
           "Updated uemoji.icu to the actual Unicode 17.0",
           "Added Unicode 17.0 emojis"
         ]
-      ],
-      [
-        "1.9.0~b3",
-        [
+      },
+      {
+        "version": "1.9.0~b3",
+        "details": [
           "Added Unicode 16.0 emojis",
           "Fixed the weird behavior when deleting characters"
         ]
-      ],
-      [
-        "1.8.3",
-        [
+      },
+      {
+        "version": "1.8.3",
+        "details": [
           "Added Unicode 15.1 emojis",
           "Ported the latest changes in CFStringGetRangeOfCharacterClusterAtIndex to iOS < 15",
           "Rootful: Fixed crash on iOS 12 arm64e devicesFixed installation issue on readonly filesystems devices",
           "Fixed new emojis displayed as ? on iOS 10 and lower",
           "Uses _NSGetExecutablePath to detect process type"
         ]
-      ]
+      }
     ],
     "description": "<p>Various under-the-hood fixes for emoji display. See <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiAttributes/blob/master/README.md\">here</a> for more information.</p>"
   },
@@ -56,27 +56,27 @@
     "title": "EmojiFontManager",
     "min_ios": "6.0",
     "changes": [
-      [
-        "1.3.8",
-        "Fixed crash on iOS 6 due to using modern-only libroot"
-      ],
-      [
-        "1.3.7",
-        "Sorts fonts alphabetically"
-      ],
-      [
-        "1.3.6",
-        "Removed debug code"
-      ],
-      [
-        "1.3.5",
-        [
+      {
+        "version": "1.3.8",
+        "details": "Fixed crash on iOS 6 due to using modern-only libroot"
+      },
+      {
+        "version": "1.3.7",
+        "details": "Sorts fonts alphabetically"
+      },
+      {
+        "version": "1.3.6",
+        "details": "Removed debug code"
+      },
+      {
+        "version": "1.3.5",
+        "details": [
           "Fixed emojis not rendered correctly on iOS 10",
           "Use _NSGetExecutablePath to detect process type",
           "Rootless: Disabled injection into WebContent due to ongoing issues with ElleKit",
           "Rootful: Fixed theming not working on iOS 12"
         ]
-      ]
+      }
     ],
     "description": "<p><b>**EmojiPort needs to be installed if you also want new emojis.**</b><br/> This tweak allows you to theme emoji font without touching filesystem. Access <b>Settings app &gt; EmojiFontManager</b> to choose your font.<br/> EFM fonts must be in this format: <code>(/var/jb)/Library/Themes/EmojiFontManager/&lt;Font-Name&gt;.font/AppleColorEmoji@2x.ttc</code><br/> It is highly recommended to respring after you change the font.</p>"
   },
@@ -84,21 +84,21 @@
     "file": "efmfontdl",
     "title": "EFM Font Downloader",
     "changes": [
-      [
-        "1.0.6",
-        [
+      {
+        "version": "1.0.6",
+        "details": [
           "Fixed font deletion script not working on rootless jailbreaks",
           "Cleans up partially downloaded font files if downloading fails"
         ]
-      ],
-      [
-        "1.0.5",
-        "Fails gracefully if downloading fails for cURL"
-      ],
-      [
-        "1.0.4",
-        "Fall backs to cURL if downloading using wget fails"
-      ]
+      },
+      {
+        "version": "1.0.5",
+        "details": "Fails gracefully if downloading fails for cURL"
+      },
+      {
+        "version": "1.0.4",
+        "details": "Fall backs to cURL if downloading using wget fails"
+      }
     ],
     "description": "<p>A simple shell script to download an emoji font for EFM from GitHub releases.</p>"
   },
@@ -110,14 +110,14 @@
     "strict_range": true,
     "no_sileo": true,
     "changes": [
-      [
-        "1.2.0",
-        "Compiled with ARC, iOS 6 minimum compatibility as of this version"
-      ],
-      [
-        "1.1.21",
-        "Recognizes iPad emoji landscape keyboard variant"
-      ]
+      {
+        "version": "1.2.0",
+        "details": "Compiled with ARC, iOS 6 minimum compatibility as of this version"
+      },
+      {
+        "version": "1.1.21",
+        "details": "Recognizes iPad emoji landscape keyboard variant"
+      }
     ],
     "description": "<p>Layout emoji keyboard. Specifically, set number of rows and columns of emoji display.</p>"
   },
@@ -126,41 +126,41 @@
     "title": "EmojiLibrary",
     "min_ios": "5.1",
     "changes": [
-      [
-        "1.8.0~b7",
-        "Fixed 0-9, * and # emojis showing incorrect image on iOS 6 keyboard"
-      ],
-      [
-        "1.8.0~b6",
-        [
+      {
+        "version": "1.8.0~b7",
+        "details": "Fixed 0-9, * and # emojis showing incorrect image on iOS 6 keyboard"
+      },
+      {
+        "version": "1.8.0~b6",
+        "details": [
           "Fixed bunny dancers and people wrestling emojis not having silhouette effect",
           "Fixed handshake emojis rendering incorrectly in the skin tone chooser panel",
           "Added Unicode 17.0 emojis"
         ]
-      ],
-      [
-        "1.7.0",
-        [
+      },
+      {
+        "version": "1.7.0",
+        "details": [
           "Added Unicode 16.0 emojis",
           "Changed the position of the new emojis to be the same as on iOS 18.4b3+"
         ]
-      ],
-      [
-        "1.6.2",
-        [
+      },
+      {
+        "version": "1.6.2",
+        "details": [
           "Fixed crash on iOS 6 due to using modern-only libroot",
           "Fixed incorrect glyphs for 0 - 9, * and # emojis on iOS 6"
         ]
-      ],
-      [
-        "1.6.1",
-        [
+      },
+      {
+        "version": "1.6.1",
+        "details": [
           "Added Unicode 15.1 emojis",
           "(iOS 13.2+) Fixed silhouette hand-holding emojis not being silhouettes",
           "Removed misspelled and rather unused function",
           "Refactored for better code maintainability"
         ]
-      ]
+      }
     ],
     "description": "<p>EmojiLibrary is a developer library, and the master library for most of PoomSmart's Emoji tweaks, including algorithms and functionalities that handle any kind of emojis - display as images properly. Developers that want to create emoji-related tweaks would find this useful.</p>"
   },
@@ -172,14 +172,14 @@
     "strict_range": true,
     "no_sileo": true,
     "changes": [
-      [
-        "1.0.11",
-        "Depends on EmojiLibrary 1.6.1+"
-      ],
-      [
-        "1.0.10",
-        "Adopted fixes related to emoji split keyboard from EmojiPort (iOS 6.0-8.2)"
-      ]
+      {
+        "version": "1.0.11",
+        "details": "Depends on EmojiLibrary 1.6.1+"
+      },
+      {
+        "version": "1.0.10",
+        "details": "Adopted fixes related to emoji split keyboard from EmojiPort (iOS 6.0-8.2)"
+      }
     ],
     "description": "<p>Latest emojis for iOS 5.1</p><p>This EmojiPort variant ports some of the iOS 6 variant for best compatibility on iOS 5. The manual way is recommended, as written in <a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">here</a>.</p>"
   },
@@ -191,29 +191,29 @@
     "strict_range": true,
     "no_sileo": true,
     "changes": [
-      [
-        "1.8.8",
-        "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"
-      ],
-      [
-        "1.8.5",
-        "Compiled with ARC"
-      ],
-      [
-        "1.8.4",
-        "Fixed crash on iOS 6 due to using modern-only libroot"
-      ],
-      [
-        "1.8.3",
-        "Depends on EmojiLibrary 1.6.1+"
-      ],
-      [
-        "1.8.2",
-        [
+      {
+        "version": "1.8.8",
+        "details": "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"
+      },
+      {
+        "version": "1.8.5",
+        "details": "Compiled with ARC"
+      },
+      {
+        "version": "1.8.4",
+        "details": "Fixed crash on iOS 6 due to using modern-only libroot"
+      },
+      {
+        "version": "1.8.3",
+        "details": "Depends on EmojiLibrary 1.6.1+"
+      },
+      {
+        "version": "1.8.2",
+        "details": [
           "Fixed emoji category images not displaying correctly",
           "Updated for new EmojiLibrary"
         ]
-      ]
+      }
     ],
     "description": "<p>Latest emojis for iOS 6.0 - 8.2</p><p><a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
   },
@@ -225,13 +225,13 @@
     "strict_range": true,
     "no_sileo": true,
     "changes": [
-      [
-        "1.7.1",
-        [
+      {
+        "version": "1.7.1",
+        "details": [
           "Combined with EmojiPort (iOS 8.3 - 8.4)",
           "Updated for new EmojiLibrary"
         ]
-      ]
+      }
     ],
     "description": "<p>Latest emojis for iOS 8.3 - 9.3</p><p><a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
   },
@@ -242,18 +242,18 @@
     "max_ios": "11.4.1",
     "strict_range": true,
     "changes": [
-      [
-        "1.4.2",
-        "Depends on EmojiLibrary 1.6.1+"
-      ],
-      [
-        "1.4.1",
-        [
+      {
+        "version": "1.4.2",
+        "details": "Depends on EmojiLibrary 1.6.1+"
+      },
+      {
+        "version": "1.4.1",
+        "details": [
           "Updated for new EmojiLibrary",
           "Depends on EmojiPort Resources (iOS 10+) 1.5.0+",
           "Use _NSGetExecutablePath to detect process type"
         ]
-      ]
+      }
     ],
     "description": "<p>Latest emojis for iOS 10.0 - 11.4</p><p><a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
   },
@@ -265,35 +265,35 @@
     "strict_range": true,
     "featured_as_banner": true,
     "changes": [
-      [
-        "1.8.0",
-        "Updated to support EmojiPort Resources (iOS 10+) 1.9.0+"
-      ],
-      [
-        "1.7.0~b1",
-        "Allows installation on iOS 18.4 - 26.3"
-      ],
-      [
-        "1.6.2",
-        "Fixed the tweak not installable on iOS 18.3"
-      ],
-      [
-        "1.6.1",
-        "Fixed emoji search engine not working on iOS 17.0+"
-      ],
-      [
-        "1.6.0~b1",
-        "Added Unicode 16.0 emojis"
-      ],
-      [
-        "1.5.2",
-        [
+      {
+        "version": "1.8.0",
+        "details": "Updated to support EmojiPort Resources (iOS 10+) 1.9.0+"
+      },
+      {
+        "version": "1.7.0~b1",
+        "details": "Allows installation on iOS 18.4 - 26.3"
+      },
+      {
+        "version": "1.6.2",
+        "details": "Fixed the tweak not installable on iOS 18.3"
+      },
+      {
+        "version": "1.6.1",
+        "details": "Fixed emoji search engine not working on iOS 17.0+"
+      },
+      {
+        "version": "1.6.0~b1",
+        "details": "Added Unicode 16.0 emojis"
+      },
+      {
+        "version": "1.5.2",
+        "details": [
           "Initial iOS 17.4 emojis support",
           "(Rootless-only) Removed unnecessary hooks",
           "Use more correct type encoding for the added methods",
           "Depends on EmojiLibrary 1.6.1+"
         ]
-      ]
+      }
     ],
     "description": "<p>Latest emojis for iOS 12.0 - 26.3</p><p><a target=\"_blank\" href=\"https://poomsmart.github.io/emojiport\">** Follow instructions on installing emoji font here, otherwise emojis will render incorrectly**</a></p>"
   },
@@ -317,18 +317,18 @@
     "file": "emojifontefm",
     "title": "AppleColorEmoji Unicode 17.0 (EFM)",
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.0",
-        "Updated to Unicode 16.0"
-      ],
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to Unicode 16.0"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Unicode 17.0 (iOS 26.4) Apple's AppleColorEmoji font for EmojiFontManager.</p><br/><p>Regular version of this font has all emoji images in PNG format and better compressed than Apple's EMJC image compression.</p><br/><p>HD version of this font includes additional 160x160 PNG emoji images. They work best if you like large emojis.</p>"
   },
@@ -355,18 +355,18 @@
     "title": "Blobmoji Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.0",
-        "Updated to Unicode 16.0"
-      ],
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to Unicode 16.0"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Blobmoji emoji font (Blobified version of Google Noto Emoji) for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/C1710/blobmoji/blob/main/LICENSE\">here</a> for licensing.</p>"
   },
@@ -375,10 +375,10 @@
     "title": "Facebook Emoji Unicode 15.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "15.0.0",
-        "Updated to Unicode 15.0"
-      ]
+      {
+        "version": "15.0.0",
+        "details": "Updated to Unicode 15.0"
+      }
     ],
     "description": "<p>Facebook emoji font for EmojiFontManager (Unicode 15.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/>"
   },
@@ -387,14 +387,14 @@
     "title": "FluentUI Emoji Unicode 15.1 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "15.1.1",
-        "Added 160x160 PNG images"
-      ],
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "15.1.1",
+        "details": "Added 160x160 PNG images"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Windows 11 FluentUI emoji font for EmojiFontManager (Unicode 15.1).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
   },
@@ -403,14 +403,14 @@
     "title": "JoyPixels Emoji Unicode 16.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "16.0.0",
-        "Updated to JoyPixels 10.0 (Unicode 16.0)"
-      ],
-      [
-        "15.1.0",
-        "Updated to JoyPixels 9.0 (Unicode 15.1)"
-      ]
+      {
+        "version": "16.0.0",
+        "details": "Updated to JoyPixels 10.0 (Unicode 16.0)"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to JoyPixels 9.0 (Unicode 15.1)"
+      }
     ],
     "description": "<p>JoyPixels emoji font for EmojiFontManager (Unicode 16.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/><p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
   },
@@ -419,14 +419,14 @@
     "title": "JoyPixels Decal Emoji Unicode 16.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "16.0.0",
-        "Updated to JoyPixels 10.0 (Unicode 16.0)"
-      ],
-      [
-        "15.1.0",
-        "Updated to JoyPixels 9.0 (Unicode 15.1)"
-      ]
+      {
+        "version": "16.0.0",
+        "details": "Updated to JoyPixels 10.0 (Unicode 16.0)"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to JoyPixels 9.0 (Unicode 15.1)"
+      }
     ],
     "description": "<p>JoyPixels emoji font (with Decal) for EmojiFontManager (Unicode 16.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/><p>Refer to <a target=\"_blank\" href=\"https://joypixels.com/licenses/free\">here</a> for licensing.</p>"
   },
@@ -435,18 +435,18 @@
     "title": "Noto Color Emoji Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.0",
-        "Updated to Unicode 16.0"
-      ],
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to Unicode 16.0"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
   },
@@ -454,10 +454,10 @@
     "file": "notoemojicursedefm",
     "title": "Noto Color Emoji Cursed Unicode 15.1 (EFM)",
     "changes": [
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Google Noto Color Cursed emoji font for EmojiFontManager (Unicode 15.1).</p><br/><p>Try it for yourself... it's cursed.</p>"
   },
@@ -466,14 +466,14 @@
     "title": "OpenMoji Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.1",
-        "Updated to Unicode 16.0 (Version 16.0.0 incorrectly installs 15.0.0 emojis)"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.1",
+        "details": "Updated to Unicode 16.0 (Version 16.0.0 incorrectly installs 15.0.0 emojis)"
+      }
     ],
     "description": "<p>OpenMoji emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE.txt\">here</a> for licensing.</p>"
   },
@@ -482,18 +482,18 @@
     "title": "Samsung One UI Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to One UI 9.0 (Unicode 17.0)"
-      ],
-      [
-        "16.0.0",
-        "Updated to One UI 7.0 (Unicode 16.0)"
-      ],
-      [
-        "15.1.0~beta7",
-        "Updated to One UI 6 beta 7"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to One UI 9.0 (Unicode 17.0)"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to One UI 7.0 (Unicode 16.0)"
+      },
+      {
+        "version": "15.1.0~beta7",
+        "details": "Updated to One UI 6 beta 7"
+      }
     ],
     "description": "<p>Samsung One UI (9.0) emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
   },
@@ -502,10 +502,10 @@
     "title": "Toss Face Unicode 15.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "15.0.0",
-        "Updated to Unicode 15.0"
-      ]
+      {
+        "version": "15.0.0",
+        "details": "Updated to Unicode 15.0"
+      }
     ],
     "description": "<p>Toss Face (토스페이스) emoji font for EmojiFontManager (Unicode 15.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p><br/><p>Refer to <a target=\"_blank\" href=\"https://toss.im/tossface\">here</a> for licensing.</p>"
   },
@@ -514,18 +514,18 @@
     "title": "Twemoji Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.0",
-        "Updated to Unicode 16.0"
-      ],
-      [
-        "15.1.0",
-        "Updated to Unicode 15.1"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to Unicode 16.0"
+      },
+      {
+        "version": "15.1.0",
+        "details": "Updated to Unicode 15.1"
+      }
     ],
     "description": "<p>Twitter Twemoji emoji font for EmojiFontManager (Unicode 17.0).</p>"
   },
@@ -534,14 +534,14 @@
     "title": "WhatsApp Emoji Unicode 17.0 (EFM)",
     "screenshots": true,
     "changes": [
-      [
-        "17.0.0",
-        "Updated to Unicode 17.0"
-      ],
-      [
-        "16.0.0",
-        "Updated to Unicode 16.0"
-      ]
+      {
+        "version": "17.0.0",
+        "details": "Updated to Unicode 17.0"
+      },
+      {
+        "version": "16.0.0",
+        "details": "Updated to Unicode 16.0"
+      }
     ],
     "description": "<p>WhatsApp emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/PoomSmart/EmojiFonts/blob/main/COMPATIBILITY.md\">here</a> for known issues and limitations.</p>"
   }

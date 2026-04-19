@@ -5,14 +5,14 @@
     "min_ios": "11.0",
     "description": "<p>Toggles Wi-Fi and Bluetooth On/Off explicitly from Control Center on iOS 11+.</p>",
     "changes": [
-      [
-        "1.1.0",
-        "Fixed Bluetooth not turning off on iOS 15"
-      ],
-      [
-        "1.0.0",
-        "Compiled with ARC"
-      ]
+      {
+        "version": "1.1.0",
+        "details": "Fixed Bluetooth not turning off on iOS 15"
+      },
+      {
+        "version": "1.0.0",
+        "details": "Compiled with ARC"
+      }
     ]
   },
   {
@@ -49,10 +49,10 @@
     "featured_as_banner": true,
     "description": "<p>Allows widgets to be on home screen on iPad.</p>",
     "changes": [
-      [
-        "1.4.0",
-        "Removed icon grid size overrides, please use PadGrid to adjust this instead"
-      ]
+      {
+        "version": "1.4.0",
+        "details": "Removed icon grid size overrides, please use PadGrid to adjust this instead"
+      }
     ]
   },
   {
@@ -61,14 +61,14 @@
     "min_ios": "9.0",
     "description": "<p>Full screen, Split and Slideover for every app on iPad.</p>",
     "changes": [
-      [
-        "1.1.2",
-        "(Rootless-only) Fixed preference not working"
-      ],
-      [
-        "1.1.1",
-        "Fixed tweak not being injected into SpringBoard sometimes"
-      ]
+      {
+        "version": "1.1.2",
+        "details": "(Rootless-only) Fixed preference not working"
+      },
+      {
+        "version": "1.1.1",
+        "details": "Fixed tweak not being injected into SpringBoard sometimes"
+      }
     ]
   },
   {
@@ -77,18 +77,18 @@
     "min_ios": "7.0",
     "description": "<p>Increases home screen icon grid size for iPad.</p>",
     "changes": [
-      [
-        "1.2.0",
-        "Added Reduce edge insets option for iPadOS 15+"
-      ],
-      [
-        "1.1.2",
-        "Made IconOrder an option for icon layout persistence library"
-      ],
-      [
-        "1.1.1",
-        "Added folder rows and columns settings (iOS 14+, contributed by @UInt2048)"
-      ]
+      {
+        "version": "1.2.0",
+        "details": "Added Reduce edge insets option for iPadOS 15+"
+      },
+      {
+        "version": "1.1.2",
+        "details": "Made IconOrder an option for icon layout persistence library"
+      },
+      {
+        "version": "1.1.1",
+        "details": "Added folder rows and columns settings (iOS 14+, contributed by @UInt2048)"
+      }
     ]
   }
 ]

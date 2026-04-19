@@ -21,18 +21,21 @@
       ]
     },
     "change": {
-      "type": "array",
-      "minItems": 2,
-      "maxItems": 2,
-      "prefixItems": [
-        {
+      "type": "object",
+      "required": [
+        "version",
+        "details"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
           "type": "string",
           "minLength": 1
         },
-        {
+        "details": {
           "$ref": "#/$defs/changeDetail"
         }
-      ]
+      }
     },
     "entry": {
       "type": "object",

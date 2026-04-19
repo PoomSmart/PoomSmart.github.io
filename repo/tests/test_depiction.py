@@ -28,6 +28,21 @@ class DepictionTests(unittest.TestCase):
                 }
             )
 
+    def test_validate_entry_accepts_object_changelog(self):
+        data_loader.validate_entry(
+            {
+                "file": "example",
+                "title": "Example",
+                "description": "<p>Example</p>",
+                "changes": [
+                    {
+                        "version": "1.0.0",
+                        "details": ["Initial release"],
+                    }
+                ],
+            }
+        )
+
     def test_load_category_uses_json_data(self):
         youtube_entries = data_loader.load_category("youtube")
         self.assertTrue(any(entry["file"] == "ytuhd" for entry in youtube_entries))

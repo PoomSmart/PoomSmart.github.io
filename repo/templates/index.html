@@ -60,17 +60,17 @@
         <ul>
 {% for change in changes %}
             <li>
-{% if change[1] is iterable and (change[1] is not string and change[1] is not mapping) %}
+{% if change.details is iterable and (change.details is not string and change.details is not mapping) %}
                 <div style="display: flex;">
-                    <p>{{ change[0] }}:&nbsp;</p>
+                    <p>{{ change.version }}:&nbsp;</p>
                     <div>
-{% for subchange in change[1] %}
+{% for subchange in change.details %}
                         <p>{{ subchange }}</p>
 {% endfor %}
                     </div>
                 </div>
 {% else %}
-                <p>{{ change[0] }}: {{ change[1] }}</p>
+                <p>{{ change.version }}: {{ change.details }}</p>
 {% endif %}
             </li>
 {% endfor %}
@@ -89,7 +89,7 @@
         <h2 role="header">Information</h2>
         <ul>
 			<li>
-                <a href="https://twitter.com/PoomSmart">Dev's Twitter</a>
+                <a href="https://x.com/PoomSmart">Dev's Twitter</a>
 			</li>
 			<li>
                 <a href="https://github.com/PoomSmart">Dev's GitHub</a>
