@@ -1,0 +1,143 @@
+.page-shell {
+    min-height: 100vh;
+}
+
+.page-section {
+    margin-bottom: 2rem;
+}
+
+.content-narrow {
+    max-width: 720px;
+}
+
+.repo-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+}
+
+.repo-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 108px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 1rem;
+    background: #fff;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.repo-action:hover,
+.repo-action:focus-visible {
+    transform: translateY(-1px);
+    border-color: rgba(13, 110, 253, 0.35);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.repo-action img {
+    width: 32px;
+    height: 32px;
+}
+
+.repo-action-label {
+    margin: 0;
+    font-weight: 600;
+}
+
+.hero-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.hero-gallery-image {
+    width: min(15%, 110px);
+    min-width: 72px;
+}
+
+.guide-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.emoji-tldr {
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    background: rgba(13, 110, 253, 0.08);
+}
+
+.emoji-tldr ol {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+}
+
+.emoji-finder-result {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+.text-accent-blue {
+    color: skyblue;
+}
+
+.text-accent-red {
+    color: crimson;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #bbb;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    th,
+    tr {
+        color: #bbb;
+    }
+
+    li,
+    label {
+        color: #aaa;
+    }
+
+    .form-control,
+    .form-select {
+        color: #bbb !important;
+        background-color: #222 !important;
+        border: 1px solid #333;
+    }
+
+    .repo-action {
+        border-color: rgba(255, 255, 255, 0.14);
+        background: #111;
+        color: #ddd;
+    }
+
+    .repo-action:hover,
+    .repo-action:focus-visible {
+        border-color: rgba(13, 148, 255, 0.55);
+        box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.35);
+    }
+
+    .emoji-tldr {
+        background: rgba(13, 148, 255, 0.14);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-gallery-image {
+        width: calc(33.333% - 0.5rem);
+        min-width: 88px;
+    }
+}

@@ -1,0 +1,77 @@
+.emoji-guide-table {
+    table-layout: fixed;
+    font-weight: 700;
+    min-width: 700px;
+}
+
+.emoji-guide-table th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+}
+
+.emoji-guide-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.emoji-guide-table tr {
+    background-color: #fafafa;
+}
+
+.guide-tweak-name,
+.guide-font-path {
+    width: 1%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.guide-first-column {
+    width: 220px;
+}
+
+.guide-font-column {
+    width: 270px;
+}
+
+#iosver th {
+    background-color: #dfdfdf;
+}
+
+@media (prefers-color-scheme: dark) {
+    .emoji-guide-table th,
+    .guide-tweak-name,
+    .guide-font-path {
+        color: #aaa;
+        background-color: #333;
+    }
+
+    .emoji-guide-table tr {
+        background-color: #727272;
+    }
+
+    .emoji-guide-table td {
+        color: #aaa;
+        background-color: #222;
+    }
+
+    #iosver th {
+        background-color: #4b4b4b;
+    }
+
+    .table-success {
+        background-color: green !important;
+    }
+
+    .text-success {
+        color: lightgreen !important;
+    }
+
+    .table-warning {
+        background-color: #c4ae6f !important;
+    }
+
+    .text-warning {
+        color: yellow !important;
+    }
+}
