@@ -88,6 +88,55 @@ class DepictionTests(unittest.TestCase):
             self.assertTrue((depictions_dir / "smoothkb.html").exists())
             self.assertTrue((sileo_depictions_dir / "smoothkb.json").exists())
 
+    def test_generate_depictions_uses_executor_for_multiple_entries(self):
+        class FakeExecutor:
+            map_called = False
+            received_max_workers = None
+
+            def __init__(self, max_workers):
+                FakeExecutor.received_max_workers = max_workers
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def map(self, func, iterable):
+                FakeExecutor.map_called = True
+                return [func(item) for item in iterable]
+
+        entries = [
+            {
+                "file": "smoothkb",
+                "title": "SmoothKB",
+                "description": "<p>One</p>",
+            },
+            {
+                "file": "recordpause",
+                "title": "RecordPause",
+                "description": "<p>Two</p>",
+            },
+        ]
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            depictions_dir = tmp_path / "depictions"
+            sileo_depictions_dir = tmp_path / "sileodepictions"
+            depictions_dir.mkdir()
+            sileo_depictions_dir.mkdir()
+
+            with mock.patch.object(rendering, "depictions_dir", depictions_dir), mock.patch.object(
+                rendering, "sileo_depictions_dir", sileo_depictions_dir
+            ), mock.patch.object(rendering, "ThreadPoolExecutor", FakeExecutor), mock.patch.object(
+                rendering, "_max_workers", return_value=2
+            ):
+                generated_count = rendering.generate_depictions(entries)
+
+        self.assertEqual(generated_count, 2)
+        self.assertTrue(FakeExecutor.map_called)
+        self.assertEqual(FakeExecutor.received_max_workers, 2)
+
     def test_generate_depictions_raises_for_missing_screenshots_in_strict_mode(self):
         entry = {
             "file": "missing-screenshots",

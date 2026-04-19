@@ -1,6 +1,8 @@
 import html
 import json
+import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import minify_html
@@ -34,6 +36,10 @@ def normalize_markup(value):
 
 def warn(message):
     print(f"Warning: {message}")
+
+
+def _max_workers(entry_count):
+    return min(32, max(1, (os.cpu_count() or 1) + 4), entry_count)
 
 
 def collect_screenshots(file_name, strict=False):
@@ -157,47 +163,70 @@ def build_sileo_depiction(entry, description, extra_content, screenshots, source
     return data
 
 
+def _prepare_depiction(entry, strict=False):
+    file_name = entry["file"]
+    title = entry["title"]
+    description = normalize_markup(entry["description"])
+    extra_content = entry.get("extra_content")
+    if extra_content:
+        extra_content = normalize_markup(extra_content)
+
+    screenshots = collect_screenshots(file_name, strict=strict) if entry.get("screenshots") else []
+    source_code = None
+    if entry.get("inline_source_code"):
+        source_code = load_inline_source_code(file_name, title, strict=strict)
+        if source_code is None:
+            return None
+
+    html_output = minify_html.minify(html_template.render(
+        title=title,
+        min_ios=entry.get("min_ios"),
+        max_ios=entry.get("max_ios"),
+        strict_range=entry.get("strict_range"),
+        changes=entry.get("changes"),
+        screenshots=screenshots,
+        description=description,
+        extra_content=extra_content,
+        source_code=html.escape(source_code) if source_code is not None else None,
+        debug=entry.get("debug"),
+    ), minify_js=False, minify_css=False)
+
+    sileo_data = None
+    if not entry.get("no_sileo"):
+        sileo_data = build_sileo_depiction(entry, description, extra_content, screenshots, source_code)
+
+    return {
+        "file_name": file_name,
+        "html_output": html_output,
+        "sileo_data": sileo_data,
+    }
+
+
 def generate_depictions(entries, strict=False):
+    entries = list(entries)
     generated_count = 0
-    for entry in entries:
-        file_name = entry["file"]
-        title = entry["title"]
-        description = normalize_markup(entry["description"])
-        extra_content = entry.get("extra_content")
-        if extra_content:
-            extra_content = normalize_markup(extra_content)
+    if len(entries) > 1:
+        with ThreadPoolExecutor(max_workers=_max_workers(len(entries))) as executor:
+            prepared_entries = list(executor.map(lambda entry: _prepare_depiction(entry, strict=strict), entries))
+    else:
+        prepared_entries = [_prepare_depiction(entry, strict=strict) for entry in entries]
 
-        screenshots = collect_screenshots(file_name, strict=strict) if entry.get("screenshots") else []
-        source_code = None
-        if entry.get("inline_source_code"):
-            source_code = load_inline_source_code(file_name, title, strict=strict)
-            if source_code is None:
-                continue
+    for prepared in prepared_entries:
+        if prepared is None:
+            continue
 
-        html_output = minify_html.minify(html_template.render(
-            title=title,
-            min_ios=entry.get("min_ios"),
-            max_ios=entry.get("max_ios"),
-            strict_range=entry.get("strict_range"),
-            changes=entry.get("changes"),
-            screenshots=screenshots,
-            description=description,
-            extra_content=extra_content,
-            source_code=html.escape(source_code) if source_code is not None else None,
-            debug=entry.get("debug"),
-        ), minify_js=False, minify_css=False)
+        file_name = prepared["file_name"]
         output_path = depictions_dir / f"{file_name}.html"
-        output_path.write_text(html_output, encoding="utf-8")
+        output_path.write_text(prepared["html_output"], encoding="utf-8")
         print(f"Generated {output_path}")
         generated_count += 1
 
-        if entry.get("no_sileo"):
+        if prepared["sileo_data"] is None:
             continue
 
         sileo_output_path = sileo_depictions_dir / f"{file_name}.json"
-        sileo_data = build_sileo_depiction(entry, description, extra_content, screenshots, source_code)
         with sileo_output_path.open("w", encoding="utf-8") as out_file:
-            json.dump(sileo_data, out_file)
+            json.dump(prepared["sileo_data"], out_file)
         print(f"Generated {sileo_output_path}")
 
     return generated_count
