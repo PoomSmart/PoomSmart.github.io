@@ -739,6 +739,10 @@
     "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
     "changes": [
       [
+        "1.6.6",
+        "Fixed the video speed overlay button not updating after changing the speed via YouTube's own speed selector"
+      ],
+      [
         "1.6.5",
         "Made \"Playback speed slider\" setting works when \"More speeds\" setting is not enabled (contributed by @Tonwalter888)"
       ],
