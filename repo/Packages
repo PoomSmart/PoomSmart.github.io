@@ -11642,6 +11642,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
 
+Package: com.ps.ytanotherminiplayer
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/youtube/com.ps.ytanotherminiplayer_1.0.0_iphoneos-arm64.deb
+Size: 2392
+MD5sum: 8cea1aad9c0ec5f1620a82b3516de38a
+SHA1: db25d056837b27c7e272dc274b1af1f08d1fe80b
+SHA256: d75b6c22f6cd2c0ba69309ca9a8b30047ea7f1a8ca8660148e7c4600691a7b53
+Section: Tweaks
+Description: Uses an alternative YouTube miniplayer style.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytanotherminiplayer.html
+Name: YTAnotherMiniplayer
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytanotherminiplayer.json
+
+Package: com.ps.ytanotherminiplayer
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/youtube/com.ps.ytanotherminiplayer_1.0.0_iphoneos-arm.deb
+Size: 2308
+MD5sum: 2bf57dd72b7f350089cde76ad9ebd0e9
+SHA1: c1f3c6ac9da4f0556a28dd5b5b6761a76e1d520e
+SHA256: e6dd2941645f4684778b545e9b9ec60cd4acd5a42d54231371324f0e03650462
+Section: Tweaks
+Description: Uses an alternative YouTube miniplayer style.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytanotherminiplayer.html
+Name: YTAnotherMiniplayer
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytanotherminiplayer.json
+
 Package: com.ps.ytautofullscreen
 Version: 1.0.4
 Architecture: iphoneos-arm64

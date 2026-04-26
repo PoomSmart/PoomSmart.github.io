@@ -1169,5 +1169,13 @@
         "details": "Fixed missing translations"
       }
     ]
+  },
+  {
+    "file": "ytanotherminiplayer",
+    "title": "YTAnotherMiniPlayer",
+    "min_ios": "15.0",
+    "tintColor": "red",
+    "screenshots": true,
+    "description": "<p>Uses an alternative YouTube miniplayer style. This is for the people that may not like the default miniplayer style enforced on YouTube v20+.</p>"
   }
 ]
