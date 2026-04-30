@@ -971,6 +971,10 @@
     "description": "<p>Customizes YouTube video slider and scrubber color. You can also replace the scrubber with your own image.</p>",
     "changes": [
       {
+        "version": "1.3.4",
+        "details": "Fixed setting slider color not working on recent YouTube versions"
+      },
+      {
         "version": "1.3.3",
         "details": "Fixed setting scrubber color not working on old YouTube versions (regression of 1.3.2)"
       },
