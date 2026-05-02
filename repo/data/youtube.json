@@ -1044,7 +1044,7 @@
     "description": "<p>Makes old YouTube versions functional and not crash as the time goes by. It is confirmed to work on YouTube 16.32.6+.</p><p>You only need this tweak if you are on iOS 15 or lower, or you are using YouTube app version 20.23.3 or lower.</p><p><b>Ensure</b> that you have <a href=\"https://repo.chariz.com\">https://repo.chariz.com</a> repository added to your package manager.</p>",
     "changes": [
       {
-        "version": "1.9.4",
+        "version": "1.9.5",
         "details": "Improved compatibility with YouTube version 18 and 19"
       },
       {

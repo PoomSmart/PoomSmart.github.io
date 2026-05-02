@@ -12267,16 +12267,16 @@ Name: YouTube Legacy
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
 
 Package: com.ps.ytlegacy
-Version: 1.9.4
+Version: 1.9.5
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 2364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
-Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.4_iphoneos-arm.deb
-Size: 227810
-MD5sum: f8cc8a3f499587e4b86968716ce6c867
-SHA1: 11f74eb0b4fe010e18110552a6cda0cf9e8c267b
-SHA256: 612003f38c311bda378d4d755cf3a9d38f482e689b172deeea84972798ef540d
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.5_iphoneos-arm.deb
+Size: 227864
+MD5sum: 753ad0d49ed259ce997d2b2dda540322
+SHA1: 520be40a1435014235065c580600df6ac0af1a3c
+SHA256: df6d1e80ccf23b2786c2504f2f8374a2b526580f32334cc505d5bdb4a9512cd9
 Section: Tweaks
 Description: Makes old YouTube versions work again.
 Author: PoomSmart
@@ -12285,16 +12285,16 @@ Name: YouTube Legacy
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
 
 Package: com.ps.ytlegacy
-Version: 1.9.4
+Version: 1.9.5
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 2380
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
-Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.4_iphoneos-arm64.deb
-Size: 227646
-MD5sum: 38037d489fac7de52a30c8089d63865b
-SHA1: cc899dec161fa8f654a400bd6eb69fad1ae11aec
-SHA256: ec0f494953a0a01bbee710a797ec63ace71e54398c51f49f88e38f50e676d3ef
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.5_iphoneos-arm64.deb
+Size: 227510
+MD5sum: 4d0a8d3ad7f7a48c9869ed86115f80ba
+SHA1: 004095082be7017cbab86951612fa6d82a0e0da2
+SHA256: 3a735a67b3872563fc70c9db8144c855646c628a32d02a67dabde7aa2055bf08
 Section: Tweaks
 Description: Makes old YouTube versions work again.
 Author: PoomSmart
