@@ -12273,10 +12273,10 @@ Maintainer: PoomSmart
 Installed-Size: 2364
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
 Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.5_iphoneos-arm.deb
-Size: 227864
-MD5sum: 753ad0d49ed259ce997d2b2dda540322
-SHA1: 520be40a1435014235065c580600df6ac0af1a3c
-SHA256: df6d1e80ccf23b2786c2504f2f8374a2b526580f32334cc505d5bdb4a9512cd9
+Size: 227746
+MD5sum: dd6b0a9ea3b862da17bf4a447944e1d1
+SHA1: 6645eee47c3a76ebd690caba459390d8b22af16b
+SHA256: 3d6a743f41813545bc0d19ffb04230246f4d7ae5ece18c29eee486351fe4d84d
 Section: Tweaks
 Description: Makes old YouTube versions work again.
 Author: PoomSmart
@@ -12291,10 +12291,10 @@ Maintainer: PoomSmart
 Installed-Size: 2380
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
 Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.9.5_iphoneos-arm64.deb
-Size: 227510
-MD5sum: 4d0a8d3ad7f7a48c9869ed86115f80ba
-SHA1: 004095082be7017cbab86951612fa6d82a0e0da2
-SHA256: 3a735a67b3872563fc70c9db8144c855646c628a32d02a67dabde7aa2055bf08
+Size: 227726
+MD5sum: e8224aacfbd584ffe553dc57c1511004
+SHA1: a9d1a3884a8e5b4c86f0cb3301bceb48a59cd6a7
+SHA256: 26ef4c35e4808e8e5e9bfdf8125bd444becf6bb0a232f51ba98b9e87c05351aa
 Section: Tweaks
 Description: Makes old YouTube versions work again.
 Author: PoomSmart
