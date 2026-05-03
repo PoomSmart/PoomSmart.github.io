@@ -1335,16 +1335,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.12
+Version: 1.3.13
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 836
-Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.12_iphoneos-arm.deb
-Size: 78296
-MD5sum: 530a015cffa7128934a7be9cb8fc8de0
-SHA1: 4c6041a20021dcd619ce662a3145e7c7900f4f3d
-SHA256: 11ef1a982803374adcd79131e7a4d2e9442b28695431f836535cc1ae8de2631c
+Installed-Size: 1372
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 2.18.2), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.13_iphoneos-arm.deb
+Size: 119882
+MD5sum: 81e723b8aa47e1493d84a9d46f257fbe
+SHA1: 4c673d411f8af5165ab29119617806408302310b
+SHA256: 2bd0073682c88ecc3c25cd3bf52cc72cf03cde80e580d6c424a532e3dec8d93d
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -1353,16 +1353,16 @@ Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
 Package: com.ps.chatgptweblegacycompat
-Version: 1.3.12
+Version: 1.3.13
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 840
-Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 1.12.0), firmware (>= 14.0), firmware (<< 16.0)
-Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.12_iphoneos-arm64.deb
-Size: 77506
-MD5sum: 4f14c65d686cacd2f9941f9dbcc6cdf1
-SHA1: db05337d08466f00ef59463c8c7eebe02ea1554c
-SHA256: 8d38c86fdbaf9bf855438773cdd1270b3a77d57178f5817c2bdaa2da52252077
+Installed-Size: 1372
+Depends: mobilesubstrate (>= 0.9.5000), com.ps.polyfills (>= 2.18.2), firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/chatgpt/com.ps.chatgptweblegacycompat_1.3.13_iphoneos-arm64.deb
+Size: 119048
+MD5sum: b3224a0c29f9073bd5c7acec38127dca
+SHA1: 8fa6e08353e43b9b667a6b98191db6d9de6d4123
+SHA256: 1c89da44e511b795166f2b85e9713941a49c8db75283de5adf543fbcb6ae530e
 Section: Tweaks
 Description: Makes ChatGPT website functional on iOS 15.
 Author: PoomSmart
@@ -6178,6 +6178,42 @@ Size: 139980
 MD5sum: ea7ab85fb04c0148e18847f5745106e9
 SHA1: c65951a4d5fd21ac3eebb73465b239440a79ffa8
 SHA256: a35ba2176af9a9761116dc99656c34932efa11d5463386b247a992f2e430f965
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.18.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1024
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.18.2_iphoneos-arm.deb
+Size: 139934
+MD5sum: ca87ef3411321f60c36300a235a7c5ff
+SHA1: 8b89d74d59019be30d0580338d9d9f771572cf48
+SHA256: 57ed2f5787e6c89438229d5833b5a826d6b24ffc272e3fb170cda156d2394c02
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.18.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 928
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.18.2_iphoneos-arm64.deb
+Size: 111256
+MD5sum: 8ab3c2dd1b0cb984d7a564defc414d68
+SHA1: 1352bc2294baefe7ae05a5980b841b54bcc79f02
+SHA256: bade57bde721754f5e3e548bff485cbd4aaeb635b5d250197b930919c816b076
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart

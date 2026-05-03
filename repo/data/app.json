@@ -20,7 +20,7 @@
     "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
     "changes": [
       {
-        "version": "1.3.12",
+        "version": "1.3.13",
         "details": "Updated CSS for the recent ChatGPT changes"
       },
       {
@@ -54,6 +54,13 @@
     "min_ios": "8.0",
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
+      {
+        "version": "2.18.2",
+        "details": [
+          "Fixed screen.orientation polyfill not working in some cases (< 16.4)",
+          "Fixed CSS layers polyfill causing infinite loading on some websites (< 15.4)"
+        ]
+      },
       {
         "version": "2.18.1",
         "details": "Made web-streams-polyfill target iOS < 14.5 instead of iOS < 14.1 (contributed by @mgefimov, < 14.5)"
