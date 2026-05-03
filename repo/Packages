@@ -3696,17 +3696,17 @@ Name: GboardAll
 Package: com.ps.githublegacyfix
 Version: 1.0.0
 Architecture: iphoneos-arm
-Maintainer: poomsmart
+Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.0_iphoneos-arm.deb
-Size: 7596
-MD5sum: edc3b7ada2028fce33c2fff811543681
-SHA1: a0dafd01f572645079da515b7634c0a48ca6b621
-SHA256: 92a3b41886040999a42aa918f9eccba90abe672ad63834b6bd832428cfe5ea66
+Size: 7600
+MD5sum: 3c4bb6af954ace36530047bddfc5638a
+SHA1: b6dcd70ff2cb27f831a9e22a1e58178d3eeb905b
+SHA256: 68cfc0c34e5e472b557b2ccfa20c777a6def3474c331b74e49a3b4e563421312
 Section: Tweaks
 Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
-Author: poomsmart
+Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
 Name: GitHub Legacy Fix
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
@@ -3714,17 +3714,17 @@ Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix
 Package: com.ps.githublegacyfix
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: poomsmart
+Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
 Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.0_iphoneos-arm64.deb
-Size: 7668
-MD5sum: a86c22cf373c668c0c725e5aceecf500
-SHA1: e7ce82a0e6081c4910c427ab36ce0dde18a89cbf
-SHA256: e59d8fe961ca8fb290554144819f0d87ef896412d23a03a07e931b2b9d20c598
+Size: 7672
+MD5sum: 0d39f65323d70504f70bb94a2625d314
+SHA1: 216da5382ff16923e79b22b8c433c2abd658c082
+SHA256: 8814907b947e99351b4f95462cfd02b817d9ad2255179fa4641e18f458be8934
 Section: Tweaks
 Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
-Author: poomsmart
+Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
 Name: GitHub Legacy Fix
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
