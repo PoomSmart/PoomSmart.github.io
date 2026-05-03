@@ -4,7 +4,7 @@
     "title": "GitHubWebLegacyCompat",
     "min_ios": "8.0",
     "max_ios": "16.3.1",
-    "description": "<p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
+    "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
     "changes": [
       {
         "version": "2.3.26",
@@ -343,12 +343,19 @@
     "title": "SteamWebLegacyCompat",
     "min_ios": "14.1",
     "max_ios": "16.3.1",
-    "description": "<p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>",
+    "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>",
     "changes": [
       {
         "version": "1.0.1",
         "details": "Fixed compatibility on iOS 14"
       }
     ]
+  },
+  {
+    "file": "githublegacyfix",
+    "title": "GitHub Legacy Fix",
+    "min_ios": "14.0",
+    "max_ios": "15.8.7",
+    "description": "<p>Fixes up GraphQL fields to make old GitHub iOS app work again.</p>"
   }
 ]

@@ -3693,6 +3693,42 @@ Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
 Name: GboardAll
 
+Package: com.ps.githublegacyfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: poomsmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.0_iphoneos-arm.deb
+Size: 7596
+MD5sum: edc3b7ada2028fce33c2fff811543681
+SHA1: a0dafd01f572645079da515b7634c0a48ca6b621
+SHA256: 92a3b41886040999a42aa918f9eccba90abe672ad63834b6bd832428cfe5ea66
+Section: Tweaks
+Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
+Author: poomsmart
+Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
+Name: GitHub Legacy Fix
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
+
+Package: com.ps.githublegacyfix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: poomsmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.0_iphoneos-arm64.deb
+Size: 7668
+MD5sum: a86c22cf373c668c0c725e5aceecf500
+SHA1: e7ce82a0e6081c4910c427ab36ce0dde18a89cbf
+SHA256: e59d8fe961ca8fb290554144819f0d87ef896412d23a03a07e931b2b9d20c598
+Section: Tweaks
+Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
+Author: poomsmart
+Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
+Name: GitHub Legacy Fix
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
+
 Package: com.ps.githubweblegacycompat
 Version: 2.3.26
 Architecture: iphoneos-arm
