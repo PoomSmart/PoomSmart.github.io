@@ -7,6 +7,10 @@
     "description": "<p>Unlocks 1440p and 2160p resolutions (VP9-compatible) in iOS YouTube app.</p>",
     "changes": [
       {
+        "version": "2.2.5",
+        "details": "Updated spoof version to 15.8.7 (for iOS 14-)"
+      },
+      {
         "version": "2.2.4",
         "details": [
           "Removed unused code (contributed by @Tonwalter888)",
