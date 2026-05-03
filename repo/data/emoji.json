@@ -173,6 +173,10 @@
     "no_sileo": true,
     "changes": [
       {
+        "version": "1.0.12",
+        "details": "Fixed incorrect emoji category icon ordering"
+      },
+      {
         "version": "1.0.11",
         "details": "Depends on EmojiLibrary 1.6.1+"
       },
@@ -191,6 +195,10 @@
     "strict_range": true,
     "no_sileo": true,
     "changes": [
+      {
+        "version": "1.8.9",
+        "details": "Fixed incorrect emoji category icon ordering on iOS 6"
+      },
       {
         "version": "1.8.8",
         "details": "Fixed the tweak not working on iOS 7 - 8, 32-bit devices"
