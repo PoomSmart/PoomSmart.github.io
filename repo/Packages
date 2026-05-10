@@ -12076,6 +12076,42 @@ Author: PoomSmart
 Name: YTDarker for uYou Patch
 
 Package: com.ps.ytlegacy
+Version: 1.10.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 5184
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.10.0_iphoneos-arm64.deb
+Size: 445630
+MD5sum: 6ed611d1b2c4f53ef8c8046cec5c5f6f
+SHA1: baf271abb7cf65b93ff4d685820afd19857edad5
+SHA256: fab591c1a39d3d1794c95430c3c7063dded94079fdab1d7755ce5f85b71e71d9
+Section: Tweaks
+Description: Makes old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
+Version: 1.10.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 5168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.youspeed | firmware (>= 15.0), com.ps.ytclassicvideoquality | firmware (>= 15.0), weeb.lillie.youtubedislikesreturn (>= 1.13.9) | firmware (>= 15.0)
+Filename: ./debs/youtube/ytlegacy/com.ps.ytlegacy_1.10.0_iphoneos-arm.deb
+Size: 446020
+MD5sum: bf08abef8d064a4b3c168cfc60d4564a
+SHA1: fb6f9a420c81d447365746e50234a71fe6abadda
+SHA256: 7b1a6b55975e90f302741b13a4655fe61acc2289c4fc2e635b25fd08fe00a573
+Section: Tweaks
+Description: Makes old YouTube versions work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytlegacy.html
+Name: YouTube Legacy
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytlegacy.json
+
+Package: com.ps.ytlegacy
 Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
