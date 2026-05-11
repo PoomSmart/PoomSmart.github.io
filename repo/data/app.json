@@ -371,6 +371,12 @@
     "title": "GitHub Legacy Fix",
     "min_ios": "14.0",
     "max_ios": "15.8.7",
-    "description": "<p>Fixes up GraphQL fields to make old GitHub iOS app work again.</p>"
+    "description": "<p>Fixes up GraphQL fields to make old GitHub iOS app work again.</p>",
+    "changes": [
+      {
+        "version": "1.0.1",
+        "details": "Fixed Organizations page not working on app version 1.78.0 (iOS 14)"
+      }
+    ]
   }
 ]
