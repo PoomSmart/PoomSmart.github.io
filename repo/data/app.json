@@ -16,7 +16,7 @@
     "file": "chatgptweblegacycompat",
     "title": "ChatGPTWebLegacyCompat",
     "min_ios": "15.0",
-    "max_ios": "15.8.7",
+    "max_ios": "15.8.8",
     "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
     "changes": [
       {
@@ -369,10 +369,14 @@
   {
     "file": "githublegacyfix",
     "title": "GitHub Legacy Fix",
-    "min_ios": "14.0",
-    "max_ios": "15.8.7",
+    "min_ios": "13.0",
+    "max_ios": "15.8.8",
     "description": "<p>Fixes up GraphQL fields to make old GitHub iOS app work again.</p>",
     "changes": [
+      {
+        "version": "1.0.2",
+        "details": "Allows installation on iOS 13 (app version 1.43.0)"
+      },
       {
         "version": "1.0.1",
         "details": "Fixed Organizations page not working on app version 1.78.0 (iOS 14)"

@@ -3820,6 +3820,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
 Name: GitHub Legacy Fix
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
 
+Package: com.ps.githublegacyfix
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0), firmware (<< 16.0)
+Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.2_iphoneos-arm64.deb
+Size: 8170
+MD5sum: eed5cca1502f1b7d41fc6fe5db952d1f
+SHA1: 3b7d2d5ab82333e5ec0de1d2b4da00799112cf24
+SHA256: e3ed2bcbd3458aa361256d975387a9b6564c4e65bec34d9aaa3fb8777d7956c9
+Section: Tweaks
+Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
+Name: GitHub Legacy Fix
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
+
+Package: com.ps.githublegacyfix
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0), firmware (<< 16.0)
+Filename: ./debs/app/github/com.ps.githublegacyfix_1.0.2_iphoneos-arm.deb
+Size: 8100
+MD5sum: 492d06db4d56fdf51af44acca1e84077
+SHA1: 7cd390fd1a1d9b62049abb4c4c8c490321376618
+SHA256: c52fab1090ef66c67a433970dc3793d1fe254bdc9e02b896d12d7ba3f4101bd0
+Section: Tweaks
+Description: Fixes up GraphQL fields to make old GitHub iOS app work again.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githublegacyfix.html
+Name: GitHub Legacy Fix
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githublegacyfix.json
+
 Package: com.ps.githubweblegacycompat
 Version: 2.3.26
 Architecture: iphoneos-arm
