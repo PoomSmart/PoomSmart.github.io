@@ -190,6 +190,10 @@
     "description": "<p>Enables native PiP in iOS YouTube app.</p><p>YouPiP best supports the latest version of YouTube. You may downgrade to as far as version 16.29.4, older versions will not be (fully) supported.</p>",
     "changes": [
       {
+        "version": "1.12.12",
+        "details": "Fixed Legacy PiP not working on recent YouTube versions"
+      },
+      {
         "version": "1.12.11",
         "details": "Removed unwanted characters from zh_tw localization"
       },
