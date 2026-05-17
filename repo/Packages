@@ -8534,6 +8534,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/twemojiefm.html
 Name: Twemoji 17.0 (EFM)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/twemojiefm.json
 
+Package: com.ps.uncappedavplayer
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/system/com.ps.uncappedavplayer_1.0.0_iphoneos-arm64.deb
+Size: 2988
+MD5sum: 99eba437fcd4227f552dc720cc953f9d
+SHA1: 173af65e2f72af9979fefffc9c0c470476f4b743
+SHA256: dbcec6995d3989075b545d2179d67e88e14550759d3480703c78ead6e8861c4a
+Section: Tweaks
+Description: Bypasses the 2x playback speed cap in FigStreamPlayer (mediaserverd).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/uncappedavplayer.html
+Name: UncappedAVPlayer
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/uncappedavplayer.json
+
+Package: com.ps.uncappedavplayer
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/system/com.ps.uncappedavplayer_1.0.0_iphoneos-arm.deb
+Size: 3060
+MD5sum: 0d20576000960a672128d4efc30c47a7
+SHA1: a09376ac06d890cc8efac342dfe46a6d9edcac3a
+SHA256: 1188ff135f025bb3d31df9e47914384c3b4da3fba3f3aa6e0565c804cf3789fb
+Section: Tweaks
+Description: Bypasses the 2x playback speed cap in FigStreamPlayer (mediaserverd).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/uncappedavplayer.html
+Name: UncappedAVPlayer
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/uncappedavplayer.json
+
 Package: com.ps.uyoucompat
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -11448,6 +11484,44 @@ Size: 12130
 MD5sum: b351b096edbee16abd3382f08bd66bd5
 SHA1: 0d38455c807632e3a43939cce996abad1d5e3f5a
 SHA256: fb6587b7241c02788fbe0eb143cbfb2728183ea42dc3aa666a54eaf04e390da2
+Section: Tweaks
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.7.0_iphoneos-arm64.deb
+Size: 12368
+MD5sum: f9e74fc84b9f357d693068652cbe9952
+SHA1: 817db6d27658997b9905694cc2b2513e9699ef7b
+SHA256: 478a07c3a1748c0af509bbe3904adeec3d85256df0b3dc77852161d41d04a7e3
+Section: Tweaks
+Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youspeed.html
+Name: YouSpeed
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youspeed.json
+
+Package: com.ps.youspeed
+Version: 1.7.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.ps.ytvideooverlay (>= 2.2.0)
+Conflicts: com.lyvendia.ytspeed
+Filename: ./debs/youtube/youspeed/com.ps.youspeed_1.7.0_iphoneos-arm.deb
+Size: 12504
+MD5sum: d92e40567f48aeb2565cf8988fe5f5b6
+SHA1: a0999a0e330bda152e2413863b57cd37e3649a01
+SHA256: 5d7afc1a23a5b70a1efe00187e2ac6ff3dfc7f6fb2e3e20cd9a8873661de378b
 Section: Tweaks
 Description: Views/changes video speed in iOS YouTube app faster, and more speed options.
 Author: PoomSmart

@@ -776,6 +776,13 @@
     "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
     "changes": [
       {
+        "version": "1.7.0",
+        "details": [
+          "Added >2x speed support for AVPlayer (requires installing UncappedAVPlayer tweak)",
+          "Made \"Playback speed slider\" cap maximum speed at 2x when \"More speeds\" setting is not enabled"
+        ]
+      },
+      {
         "version": "1.6.6",
         "details": "Fixed the video speed overlay button not updating after changing the speed via YouTube's own speed selector"
       },

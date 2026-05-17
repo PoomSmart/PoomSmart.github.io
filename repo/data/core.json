@@ -239,5 +239,11 @@
         "details": "Allows installation on iOS 16"
       }
     ]
+  },
+  {
+    "file": "uncappedavplayer",
+    "title": "UncappedAVPlayer",
+    "min_ios": "11.0",
+    "description": "<p>Bypasses the 2x playback speed cap in FigStreamPlayer (AVPlayer)</p>"
   }
 ]
