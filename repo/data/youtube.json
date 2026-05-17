@@ -682,6 +682,10 @@
     "description": "<p>Adds a mute button to the video overlay where you can directly mute or unmute the video.</p>",
     "changes": [
       {
+        "version": "1.4.1",
+        "details": "Fixed videos in home page not muted or unmuted correctly"
+      },
+      {
         "version": "1.4.0",
         "details": "Made mute setting persists between videos (contributed by @Tonwalter888, refined by owner)"
       },
