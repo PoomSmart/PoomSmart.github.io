@@ -55,8 +55,15 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
       {
+        "version": "2.20.0",
+        "details": [
+          "Added polyfill for MediaQueryList.addEventListener (< 14.0, contributed by @mgefimov)",
+          "Updated structuredClone polyfill to the latest version (< 15.4)"
+        ]
+      },
+      {
         "version": "2.19.0",
-        "details": "Added polyfill for HTMLElement.inert (< 15.5, contributed by @mgefimov)"
+        "details": "Added HTMLElement.inert polyfill (< 15.5, contributed by @mgefimov)"
       },
       {
         "version": "2.18.2",
@@ -73,7 +80,7 @@
         "version": "2.18.0",
         "details": [
           "Added support for global blacklist (disabling all polyfills for specific websites)",
-          "Added polyfill for screen.orientation (< 16.4)"
+          "Added screen.orientation polyfill (< 16.4)"
         ]
       },
       {
@@ -136,7 +143,7 @@
         "version": "2.12.0",
         "details": [
           "Added support for priority scripts (loaded before any other scripts)",
-          "Added polyfill for navigator.hardwareConcurrency (< 15.4)",
+          "Added navigator.hardwareConcurrency polyfill (< 15.4)",
           "Added support for smooth behavior in Scrolling API (< 15.4)"
         ]
       },
@@ -144,20 +151,20 @@
         "version": "2.11.0",
         "details": [
           "Improved safety checks in Document Fullscreen API polyfill (< 16.4)",
-          "Added polyfill for Crypto.subtle (< 11.0)"
+          "Added Crypto.subtle polyfill (< 11.0)"
         ]
       },
       {
         "version": "2.10.0",
         "details": [
-          "Added polyfill for Document Fullscreen API (< 16.4)",
+          "Added Document Fullscreen API polyfill (< 16.4)",
           "Fixed broken functionalities in BroadcastChannel polyfill (< 15.4)"
         ]
       },
       {
         "version": "2.9.0",
         "details": [
-          "Added polyfill for Float16Array (< 18.2)",
+          "Added Float16Array polyfill (< 18.2)",
           "Fixed CompressionStream polyfill not working in some cases (< 16.4)",
           "Improved BroadcastChannel polyfill error handling (< 15.4)"
         ]
@@ -176,12 +183,12 @@
       {
         "version": "2.7.0",
         "details": [
-          "Added polyfill for structuredClone (< 15.4)",
-          "Added polyfill for String.matchAll (< 13.0)",
-          "Added polyfill for globalThis (< 12.1)",
-          "Added polyfill for Reflect (< 10.0)",
-          "Added polyfill for Object.getOwnPropertyDescriptors, String.padStart and String.padEnd (< 10.0)",
-          "Added polyfill for Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}. Number.isInteger and Number.isSafeInteger (< 9.0)"
+          "Added structuredClone polyfill (< 15.4)",
+          "Added String.matchAll polyfill (< 13.0)",
+          "Added globalThis polyfill (< 12.1)",
+          "Added Reflect polyfill (< 10.0)",
+          "Added Object.getOwnPropertyDescriptors, String.padStart and String.padEnd polyfills (< 10.0)",
+          "Added Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}, Number.isInteger and Number.isSafeInteger polyfills (< 9.0)"
         ]
       },
       {
@@ -189,18 +196,18 @@
         "details": [
           "Included iOS 15.2 - 15.3 for viewport CSS workaround",
           "Made viewport CSS workaround apply to only mobile devices",
-          "Added polyfills for Array.flat, String.trimStart, String.trimEnd and Symbol.description (< 12.0)",
-          "Added polyfill for Promise.finally (< 11.1)",
+          "Added Array.flat, String.trimStart, String.trimEnd and Symbol.description polyfills (< 12.0)",
+          "Added Promise.finally polyfill (< 11.1)",
           "Simplified NodeList.forEach polyfill (< 10.0)"
         ]
       },
       {
         "version": "2.4.0",
         "details": [
-          "Added polyfill for RegExp.escape (< 18.2)",
-          "Added polyfills for Array.toSorted, Array.toSpliced and Array.with (< 16.0)",
-          "Added polyfill for Promise.any (< 14.0)",
-          "Added polyfill for Object.fromEntries (< 12.1)",
+          "Added RegExp.escape polyfill (< 18.2)",
+          "Added Array.toSorted, Array.toSpliced and Array.with polyfills (< 16.0)",
+          "Added Promise.any polyfill (< 14.0)",
+          "Added Object.fromEntries polyfill (< 12.1)",
           "Fixed Element.matches compatibility workaround still not working correctly (< 15.6)",
           "Included iOS 15.0 - 15.1 for viewport CSS workaround"
         ]
@@ -213,8 +220,8 @@
         "version": "2.3.0",
         "details": [
           "Removed RegExp lookbehind polyfill as it is now part of a separate package RegExp Lookbehind (Polyfills)",
-          "Added polyfill for dynamic import (< 15.2)",
-          "Added polyfill for Object.getOwnPropertySymbols (< 9.0)"
+          "Added dynamic import polyfill (< 15.2)",
+          "Added Object.getOwnPropertySymbols polyfill (< 9.0)"
         ]
       },
       {
@@ -233,7 +240,7 @@
         "version": "2.2.0",
         "details": [
           "Made CSS Cascade layers workaround work for dynamically added stylesheets",
-          "Added polyfill for EventTarget (< 14.0)",
+          "Added EventTarget polyfill (< 14.0)",
           "Readded viewport CSS workaround (< 15.0)",
           "Fixed HTMLDialogElement stub polyfill not working (< 15.4)"
         ]
@@ -249,7 +256,7 @@
         "version": "2.0.0",
         "details": [
           "Made all JS code loaded from files only when needed by that iOS version to reduce memory footprint on injection",
-          "Added polyfills for Array.group, Array.groupBy, Array.groupToMap, Object.groupBy, Map.groupBy and Promise.withResolvers (< 17.4)",
+          "Added Array.group, Array.groupBy, Array.groupToMap, Object.groupBy, Map.groupBy and Promise.withResolvers polyfills (< 17.4)",
           "Fixed Element.matches compatibility workaround not working on iOS 15.4 - 15.5 (< 15.6)"
         ]
       },
@@ -272,14 +279,14 @@
         "version": "1.10.0",
         "details": [
           "Fixed requesting desktop website not working in Safari",
-          "Added polyfills for Array.from (< 9.0), Array.fromAsync (< 16.4) and Array.includes (< 9.0)",
-          "Added polyfill for CSS.escape (< 10.1)",
-          "Added polyfill for NodeList.forEach (< 10.0)",
-          "Added polyfills for Object.assign (< 9.0), Object.entries (< 10.1) and Object.values (< 10.1)",
-          "Added polyfill for Proxy (< 10.0)",
-          "Added polyfills for String.startsWith, String.endsWith and String.includes (< 9.0)",
-          "Added polyfill for Symbol.asyncIterator (< 11.1)",
-          "Added polyfill for WeakSet (< 9.0)"
+          "Added Array.from (< 9.0), Array.fromAsync (< 16.4) and Array.includes (< 9.0) polyfills",
+          "Added CSS.escape polyfill (< 10.1)",
+          "Added NodeList.forEach polyfill (< 10.0)",
+          "Added Object.assign (< 9.0), Object.entries (< 10.1) and Object.values (< 10.1) polyfills",
+          "Added Proxy polyfill (< 10.0)",
+          "Added String.startsWith, String.endsWith and String.includes polyfills (< 9.0)",
+          "Added Symbol.asyncIterator polyfill (< 11.1)",
+          "Added WeakSet polyfill (< 9.0)"
         ]
       },
       {
@@ -292,13 +299,13 @@
       {
         "version": "1.9.1",
         "details": [
-          "Added polyfill for RegExp lookbehind (< 16.4)",
-          "Added polyfill for BroadcastChannel (< 15.4)",
-          "Added polyfill for Array.toReversed (< 16.0)",
+          "Added RegExp lookbehind polyfill (< 16.4)",
+          "Added BroadcastChannel polyfill (< 15.4)",
+          "Added Array.toReversed polyfill (< 16.0)",
           "Spoofed iOS version to 16.0 for devices running under iOS 16.0",
           "Fixed websites always loading in desktop mode",
           "Fixed polyfill compatibility with iOS 13.0 and lower",
-          "Fixed polyfill for Array.at, Array.findLast and Array.findLastIndex",
+          "Fixed Array.at, Array.findLast and Array.findLastIndex polyfills",
           "Fixed the same polyfill scripts being injected multiple times",
           "Restricted certain polyfills to execute only on the maximum unsupported iOS version and lower",
           "Restricted CompressionStream polyfill to iOS 16.3 and lower",
@@ -310,7 +317,7 @@
         "version": "1.4.0",
         "details": [
           "Added missing polyfill for Web Streams (necessary for CompressionStream)",
-          "Added polyfill for Element.checkVisibility (< 17.4)",
+          "Added Element.checkVisibility polyfill (< 17.4)",
           "Removed problematic viewport CSS workaround"
         ]
       },
@@ -318,13 +325,13 @@
         "version": "1.3.0",
         "details": [
           "Allows polyfills to be injected into iframes",
-          "Added polyfill for CompressionStream (< 16.4)",
+          "Added CompressionStream polyfill (< 16.4)",
           "Fixed support for old iOS versions"
         ]
       },
       {
         "version": "1.2.0",
-        "details": "Added polyfills for Promise.allSettled and the meta viewport min-width"
+        "details": "Added Promise.allSettled and the meta viewport min-width polyfills"
       },
       {
         "version": "1.1.1",
@@ -335,8 +342,8 @@
         "details": [
           "Minified all JavaScript codes before injecting",
           "Added support for injecting JavaScript after the document is loaded",
-          "Added polyfills for Array.findLast, Array.findLastIndex and Object.hasOwn (< 15.4)",
-          "Added polyfill for String.replaceAll (< 13.1)",
+          "Added Array.findLast, Array.findLastIndex and Object.hasOwn polyfills (< 15.4)",
+          "Added String.replaceAll polyfill (< 13.1)",
           "Added viewport CSS workaround to fix incomplete page width on iOS 14 and lower"
         ]
       }
