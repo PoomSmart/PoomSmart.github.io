@@ -6532,13 +6532,13 @@ Package: com.ps.polyfills
 Version: 2.20.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 944
+Installed-Size: 940
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
 Filename: ./debs/app/polyfills/com.ps.polyfills_2.20.0_iphoneos-arm64.deb
-Size: 113426
-MD5sum: c33555907879e2334c36c9d723b048a8
-SHA1: 058671d336bac106b71aebff67dd357782f0db8c
-SHA256: 0d8ab83b0423a18e9f29a87bf569602fb64dc820a4f4fa554d2378e717ba9891
+Size: 113032
+MD5sum: d241fbebf1d4d84be0be8cb55a740784
+SHA1: 0c0eeab4ec13299ecf02e5186d7a4ca53212695c
+SHA256: 059f90943666a83ffc8518ffdb38d05434fac28d9b48451187e2681188954598
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart
@@ -6550,13 +6550,13 @@ Package: com.ps.polyfills
 Version: 2.20.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 1040
+Installed-Size: 1036
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp, com.ps.customsecheaders | firmware (>= 16.4)
 Filename: ./debs/app/polyfills/com.ps.polyfills_2.20.0_iphoneos-arm.deb
-Size: 141978
-MD5sum: b1f7ddaf0c9bc039079894de30a98b23
-SHA1: 40a0748008b763b49ae46238e62fe6b952f7ca89
-SHA256: 5c63ab50237b916ff4494285a64920c1e7aff7aa5ffc468e6f9a7fec3a820d2b
+Size: 141710
+MD5sum: 0985f41b1aa630aaeadf4633de5c9527
+SHA1: 93f068087fd8c32105db609e644d52b2d99644cb
+SHA256: 5c9dedb477d044dad0af9468060d054ce881f9550082af4ad0377449a2375270
 Section: Tweaks
 Description: Injects JavaScript Polyfills to iOS web views.
 Author: PoomSmart
