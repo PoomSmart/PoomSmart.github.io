@@ -7,6 +7,13 @@
     "description": "<p>Unlocks 1440p and 2160p resolutions (AV1 and VP9 formats) in iOS YouTube app.</p>",
     "changes": [
       {
+        "version": "2.4.2",
+        "details": [
+          "Made \"Disable Server ABR\" setting work independently from \"Use VP9/AV1\" setting",
+          "Updated spoof version to 15.8.8 (for iOS 14-)"
+        ]
+      },
+      {
         "version": "2.4.1",
         "details": [
           "Improved compatibility around YTUHD-provided video decoders",
