@@ -98,97 +98,40 @@
           "Made 2K/4K formats available on server ABR",
           "Disabled client ABR forcing code",
           "Added libundirect as a dependency",
-          "Removed video auto-reload workaround",
           "Fixed the video buffering issueHopefully fixed the random audio track switching issue",
           "Note: This version may be sideloading incompatible"
         ]
       },
       {
         "version": "1.6.6",
-        "details": "Fixed a possible app crash when viewing broken Shorts (regression of 1.6.5)"
-      },
-      {
-        "version": "1.6.5",
-        "details": "Added the workaround to auto-reload a video when it is stuck at buffering state for more than 2 seconds"
-      },
-      {
-        "version": "1.6.4",
-        "details": "Ensure software AV1 decoding is functional (untested)"
-      },
-      {
-        "version": "1.6.3",
-        "details": "Improved the stability of video playback when Use VP9 option is enabled"
-      },
-      {
-        "version": "1.6.2",
-        "details": "Fixed incorrect video formats filtering logic (for ex. 1080p VP9 format is not removed even when All VP9 option is disabled)"
-      },
-      {
-        "version": "1.6.1",
         "details": [
+          "Improved the stability of video playback when Use VP9 option is enabled",
+          "Fixed incorrect video formats filtering logic (for ex. 1080p VP9 format is not removed even when All VP9 option is disabled)",
+          "Added some libvpx settings that you can configure for VP9 decoding behavior, mainly setting the number of decoding threads",
           "Updated spoof version to 15.8.4 (for iOS 14-)",
           "Updated pl localization"
         ]
       },
       {
-        "version": "1.6.0",
-        "details": "Added some libvpx settings that you can configure for VP9 decoding behavior, mainly setting the number of decoding threads"
-      },
-      {
         "version": "1.5.11",
         "details": [
+          "Added 2K/4K formats to AVPlayer video playback (YouPiP with Legacy PiP option enabled)",
           "\"Use VP9\" setting is no longer enabled by default",
-          "Removed the hooks to fall back to use the old ABR policy"
-        ]
-      },
-      {
-        "version": "1.5.10",
-        "details": [
+          "Removed the hooks to fall back to use the old ABR policy",
           "In settings, corrected the minimum hardware VP9 device requirement from A11 to A12",
-          "Removed message about UHD resolutions not working with YouPiP from settings (v1.5.8 made it work)"
+          "Removed message about UHD resolutions not working with YouPiP from settings (v1.5.8 made it work)",
+          "Added id, pl localization"
         ]
-      },
-      {
-        "version": "1.5.8",
-        "details": "Added 2K/4K formats to AVPlayer video playback (YouPiP with Legacy PiP option enabled)"
-      },
-      {
-        "version": "1.5.7",
-        "details": [
-          "Translated the remaining languages using AI",
-          "Removed redundant hook"
-        ]
-      },
-      {
-        "version": "1.5.6",
-        "details": "Maybe Fixed an issue where a video may start with a random non-preferred caption track"
-      },
-      {
-        "version": "1.5.5-2",
-        "details": "Added id, pl localization"
       },
       {
         "version": "1.5.5",
         "details": [
+          "Fixed 1440p+ formats not showing on YouTube version 19.24.2 and higher",
+          "Fixed crash on YouTube version 19.22.3 and higher",
+          "Force enabled AV1 codec alongside VP9",
           "Added a future-proof hook for when iosPlayerClientSharedConfigPostponeCabrPreferredFormatFiltering will be removed",
           "Updated spoof version to 15.8.3 (for iOS 14-)",
-          "Updated ru, tr localization"
-        ]
-      },
-      {
-        "version": "1.5.3",
-        "details": "Fixed 1440p+ formats not showing on YouTube version 19.24.2 and higher"
-      },
-      {
-        "version": "1.5.2",
-        "details": "Fixed crash on YouTube version 19.22.3 and higher"
-      },
-      {
-        "version": "1.5.1",
-        "details": [
-          "Fixed 1440p+ formats not showing on recent YouTube versions",
-          "Force enabled AV1 codec alongside VP9",
-          "Updated ja localization"
+          "Updated ja, ru, tr localization"
         ]
       },
       {
