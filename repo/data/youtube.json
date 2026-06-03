@@ -7,6 +7,10 @@
     "description": "<p>Unlocks 1440p and 2160p resolutions (AV1 and VP9 formats) in iOS YouTube app.</p>",
     "changes": [
       {
+        "version": "2.6.0",
+        "details": "Combined \"Use VP9\" and \"Use AV1\" option into one"
+      },
+      {
         "version": "2.5.1",
         "details": "Removed iOS version spoofing (if you are on iOS 14 and lower, you will get this from YouTube Legacy tweak anyway)"
       },
