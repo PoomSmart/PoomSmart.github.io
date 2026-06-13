@@ -55,6 +55,10 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
       {
+        "version": "2.21.0",
+        "details": "Added HTMLFormElement.requestSubmit polyfill (< 16.0)"
+      },
+      {
         "version": "2.20.0",
         "details": [
           "Added polyfill for MediaQueryList.addEventListener (< 14.0, contributed by @mgefimov)",
