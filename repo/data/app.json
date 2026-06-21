@@ -55,6 +55,16 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
       {
+        "version": "2.24.0",
+        "details": [
+          "Added per-website custom user agent feature",
+          "Improved reliability in setting custom user agent",
+          "Optimized polyfills with MutationObserver by caching and combining them (< 16.4)",
+          "Added mask-* CSS properties polyfill (< 15.4)",
+          "Added :has() support workaround to document.querySelector(All)() (< 15.4)"
+        ]
+      },
+      {
         "version": "2.23.0",
         "details": [
           "Added nonce HTML global attribute polyfill (< 15.4)",
