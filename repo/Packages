@@ -3899,10 +3899,10 @@ Maintainer: PoomSmart
 Installed-Size: 1660
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
 Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.4.0_iphoneos-arm64.deb
-Size: 257510
-MD5sum: 157af84e2e071064d135623f286c9ad9
-SHA1: 29e496352bff26d6c17880441f89882da6aec0de
-SHA256: 06b7247b8332a5e6a004b87c467345875b094a7c097f8ab23cbc69e9f8b267ac
+Size: 257600
+MD5sum: 1b09f2e494d738d2e6e8409d4fb8685e
+SHA1: 4d530c2ac887d39dcac369b5a6515090c84d7908
+SHA256: 6c295e75c014c80146a70914e4e5cddc2f4609a9d3b63a9ae17eff99dd432b12
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
@@ -3917,10 +3917,10 @@ Maintainer: PoomSmart
 Installed-Size: 1692
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.12.3)
 Filename: ./debs/app/github/com.ps.githubweblegacycompat_2.4.0_iphoneos-arm.deb
-Size: 262564
-MD5sum: faffa2ea1d8b4989df8808a645d6f478
-SHA1: ca9a85ce7834207b70c1cb3187486bec79731da8
-SHA256: 24db308279cfe6578ba530bedbda9e157c670cbde3919399dbf9d6c4895db469
+Size: 262520
+MD5sum: e64d1dc99eefdbfeaf1ace79e9c913b6
+SHA1: 251cf8842ff537315aaf22ac41e414d7338dda8d
+SHA256: 886bae3a5c4837e9dcf7bcfcf5cff6adfbd1f5a8a0ab39237de6f02811fe1958
 Section: Tweaks
 Description: Makes GitHub website more accessible on iOS < 16.4
 Author: PoomSmart
