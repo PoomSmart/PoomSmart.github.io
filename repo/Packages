@@ -6852,6 +6852,46 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexp.html
 Name: RegExp Lookbehind/Indices (Polyfills)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexp.json
 
+Package: com.ps.polyfillsregexp
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 12
+Conflicts: com.ps.polyfillsregexplookbehind
+Replaces: com.ps.polyfillsregexplookbehind
+Provides: com.ps.polyfillsregexplookbehind
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexp_1.3.0_iphoneos-arm.deb
+Size: 4022
+MD5sum: a5737201885bc9b9d211e4f0102b6dd3
+SHA1: df3e5013a7b3a1f8c3868637141462247b13b09d
+SHA256: af7df55bb60c37adb8b03872216bf3d980cbc47032127b30653e67fa6e3bc6b4
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions (iOS < 16.4) and indices (iOS < 15.0) in JavaScript.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexp.html
+Name: RegExp Lookbehind/Indices (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexp.json
+
+Package: com.ps.polyfillsregexp
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 12
+Conflicts: com.ps.polyfillsregexplookbehind
+Replaces: com.ps.polyfillsregexplookbehind
+Provides: com.ps.polyfillsregexplookbehind
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsregexp_1.3.0_iphoneos-arm64.deb
+Size: 4050
+MD5sum: d5860b0b6b79896bc868e020bb7e09a2
+SHA1: f282f51badfb68b699683c4de9ab848f7468913a
+SHA256: 8507915f84a881156d6db35c11d6ada90bca195dd318f569f09e25014aa8df08
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions (iOS < 16.4) and indices (iOS < 15.0) in JavaScript.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexp.html
+Name: RegExp Lookbehind/Indices (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexp.json
+
 Package: com.ps.polyfillsregexplookbehind
 Version: 1.1.2
 Architecture: iphoneos-arm

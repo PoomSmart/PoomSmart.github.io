@@ -355,6 +355,10 @@
     "description": "<p>Provides a polyfill for RegExp lookbehind feature (iOS 16.4+) and indices (iOS 15.0+) for older iOS versions.</p>",
     "changes": [
       {
+        "version": "1.3.0",
+        "details": "Improved the polyfill in general"
+      },
+      {
         "version": "1.2.4",
         "details": "Blacklisted www.americanexpress.com due to seemingly unfixable issue"
       }
