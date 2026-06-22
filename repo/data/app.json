@@ -7,7 +7,7 @@
     "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
     "changes": [
       {
-        "version": "2.3.26",
+        "version": "2.4.0",
         "details": "Updated JS and CSS for the recent GitHub changes"
       }
     ]
