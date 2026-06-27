@@ -55,6 +55,25 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
       {
+        "version": "2.26.0",
+        "details": [
+          "Note: Most of these changes are contributed by iCraze",
+          "Added Set union/intersection/difference/symmetricDifference and subset/superset/disjoint helper methods (< 17.0)",
+          "Added import() JSON module attributes support (< 17.2)",
+          "Improved Object.groupBy and Map.groupBy polyfills (< 17.4)",
+          "Improved Float16Array polyfill (< 18.2)",
+          "Added Promise.try polyfill (< 18.2)",
+          "Added Uint8Array base64/hex encoding methods (< 18.2)",
+          "Added Error.isError polyfill (< 18.4)",
+          "Added Iterator helper methods polyfill (< 18.4)",
+          "Added Map.getOrInsert and Map.getOrInsertComputed polyfills (< 26.2)",
+          "Added Math.sumPrecise polyfill (< 26.2)",
+          "Added Explicit Resource Management polyfill (< 27.1)",
+          "Added Temporal API polyfill (< 27.1)",
+          "Fixed build breaking on older Safari by disabling UglifyJS arrow transforms (< 10.0)"
+        ]
+      },
+      {
         "version": "2.25.0",
         "details": [
           "Improved @layer CSS polyfill for dynamically loaded stylesheets and websites using dark mode, color-mix() and oklch() (< 15.4)",
@@ -354,6 +373,10 @@
     "title": "RegExp Lookbehind/Indices (Polyfills)",
     "description": "<p>Provides a polyfill for RegExp lookbehind feature (iOS 16.4+) and indices (iOS 15.0+) for older iOS versions.</p>",
     "changes": [
+      {
+        "version": "1.3.1",
+        "details": "Fixed infinite recursion issue (regression of 1.3.0, contributed by iCraze)"
+      },
       {
         "version": "1.3.0",
         "details": "Improved the polyfill in general"
