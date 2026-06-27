@@ -57,6 +57,7 @@
       {
         "version": "2.27.0",
         "details": [
+          "Fixed certain polyfills not transpiled properly",
           "Added ResizeObserver polyfill (< 13.1)",
           "Added VisualViewport polyfill (< 13.0)",
           "Added Performance.timeOrigin polyfill (< 15.0)",
