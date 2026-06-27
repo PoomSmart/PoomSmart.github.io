@@ -1673,6 +1673,44 @@ Name: EmojiAttributes
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
 
 Package: com.ps.emojiattributes
+Version: 1.10.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 632
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.1.6)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.1_iphoneos-arm.deb
+Size: 57556
+MD5sum: b9e2c3ca3a10a3949c469455261b2ee0
+SHA1: a0226ee5c002396a780837d9d796604d75e3d6c0
+SHA256: 09c771c2ad0dd5893f92486e2b54c4f4f148f4d844e814196002fe3bd772ee3a
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
+Package: com.ps.emojiattributes
+Version: 1.10.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 472
+Depends: firmware (>= 5.1), mobilesubstrate, com.opa334.libundirect (>= 1.1.6)
+Conflicts: com.ps.flexmoji
+Filename: ./debs/emojiport/com.ps.emojiattributes_1.10.1_iphoneos-arm64.deb
+Size: 34122
+MD5sum: 564a4f85c5cde8479a010b758cbc7102
+SHA1: 1ce32f030a008bf0154687224d9cc6c3233545d7
+SHA256: 9f90601f94b305c9334cb842566d4dd645eb06989277d7d38f6e496b5aa9258b
+Section: Tweaks
+Description: Various under-the-hood fixes for emoji display.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiattributes.html
+Name: EmojiAttributes
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiattributes.json
+
+Package: com.ps.emojiattributes
 Version: 1.8.3
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
@@ -2366,6 +2404,44 @@ Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 Name: EmojiFontManager
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
 
+Package: com.ps.emojifontmanager
+Version: 1.3.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
+Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.9_iphoneos-arm.deb
+Size: 40258
+MD5sum: d6c6de6a9fbde8f1ec419a9e80392ac2
+SHA1: 4597db8ecdf1e4c40481cbd99fa03addec520090
+SHA256: f521af1aa5484a4714291ebcdb098e74c847fcbfb5796cf290aa795e22cb84c9
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
+Package: com.ps.emojifontmanager
+Version: 1.3.9
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
+Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.9_iphoneos-arm64.deb
+Size: 31498
+MD5sum: b3de0739a72cde2a3a9f883ae4730d98
+SHA1: 876d5f7b0230623c152ac64e36285bf4e5a018e6
+SHA256: c5677f50780d50145b0c0d402ec82d0fe77c629a62dfc12013f1224300a0d3cf
+Section: Tweaks
+Description: Emoji font override and management.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojifontmanager.html
+Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
+Name: EmojiFontManager
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojifontmanager.json
+
 Package: com.ps.emojifontpxefm
 Version: 15.1.0
 Architecture: iphoneos-arm
@@ -2907,6 +2983,44 @@ Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
 Name: EmojiPort (iOS 5.1)
 
 Package: com.ps.emojiportlegacy
+Version: 1.8.10
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 432
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
+Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
+Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.10_iphoneos-arm64.deb
+Size: 80480
+MD5sum: 16c69abd2918ce8dc3a685f34330b86a
+SHA1: 3366d7bdda37b65db4695369b783b6c6b44bbac8
+SHA256: ec82067cb27b1e6ffb11bc631bc9c4ed1217e621d8f678f9a418a493f3588352
+Section: Tweaks
+Description: Latest emojis for iOS 6.0-8.2
+Tag: compatible::ios6, compatible::ios7, compatible::ios8
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
+Name: EmojiPort (iOS 6.0-8.2)
+
+Package: com.ps.emojiportlegacy
+Version: 1.8.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 432
+Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
+Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
+Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.10_iphoneos-arm.deb
+Size: 80398
+MD5sum: e162593f6b202ac76ac52dd942e80226
+SHA1: c5df0f52736ea6ce0e4c2ddd616587f69637a5cf
+SHA256: 42f6a331e3b9ad91eb8adfb8044513726a18add843682e21f5d8da84e03aea7c
+Section: Tweaks
+Description: Latest emojis for iOS 6.0-8.2
+Tag: compatible::ios6, compatible::ios7, compatible::ios8
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_6.html
+Name: EmojiPort (iOS 6.0-8.2)
+
+Package: com.ps.emojiportlegacy
 Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -3229,6 +3343,42 @@ Size: 13292
 MD5sum: 0a417e3c53d10a2a1db2c134097a3e7b
 SHA1: ce6b92d4a6cd90ffcc2f5c0a1d25ae3d08d4c5c1
 SHA256: 787b762d5bc98e4d86f8827c550042a8c69e055d370fb38d78df934fbc49441b
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-26.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-26.3)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
+Package: com.ps.emojiportpe
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 336
+Depends: firmware (>= 12.0), firmware (<< 26.4), com.ps.emojiattributes (>= 1.10.0~b1), com.ps.emojilibrary (>= 1.8.0~b7), com.ps.emojiport10resources (>= 1.9.0)
+Filename: ./debs/emojiport/com.ps.emojiportpe_1.8.1_iphoneos-arm64.deb
+Size: 13036
+MD5sum: 3af5cb36640c5dc86de6401738699506
+SHA1: ff613821922ca26f1e46a333bb3124be34be2a7a
+SHA256: 509c9672f77a63f2a59529726415fa7e0dfccba22a6d9e512b87050fba01a2fb
+Section: Tweaks
+Description: Latest emojis for iOS 12.0-26.3
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_12.html
+Name: EmojiPort (iOS 12.0-26.3)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/emojiport_12.json
+
+Package: com.ps.emojiportpe
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 304
+Depends: firmware (>= 12.0), firmware (<< 26.4), com.ps.emojiattributes (>= 1.10.0~b1), com.ps.emojilibrary (>= 1.8.0~b7), com.ps.emojiport10resources (>= 1.9.0)
+Filename: ./debs/emojiport/com.ps.emojiportpe_1.8.1_iphoneos-arm.deb
+Size: 21086
+MD5sum: 64331282678b3385e01ad71eb2746874
+SHA1: 2034d3ce26872bcadc38cf8c3f6afc4256f398a1
+SHA256: 9e054b5e7cfd767b1b2ad6e16c6a0fc54e967e6d02393bb8ac0ea7f8523f47cd
 Section: Tweaks
 Description: Latest emojis for iOS 12.0-26.3
 Author: PoomSmart

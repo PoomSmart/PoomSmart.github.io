@@ -21,6 +21,10 @@
     "min_ios": "5.1",
     "changes": [
       {
+        "version": "1.10.1",
+        "details": "Fixed memory leak issues"
+      },
+      {
         "version": "1.10.0~b3",
         "details": "Fixed the tweak broken on iOS 12.1 - 15.3"
       },
@@ -56,6 +60,10 @@
     "title": "EmojiFontManager",
     "min_ios": "6.0",
     "changes": [
+      {
+        "version": "1.3.9",
+        "details": "Fixed a memory leak issue"
+      },
       {
         "version": "1.3.8",
         "details": "Fixed crash on iOS 6 due to using modern-only libroot"
@@ -196,6 +204,10 @@
     "no_sileo": true,
     "changes": [
       {
+        "version": "1.8.10",
+        "details": "Fixed a memory leak issue on iOS 6"
+      },
+      {
         "version": "1.8.9",
         "details": "Fixed incorrect emoji category icon ordering on iOS 6"
       },
@@ -273,6 +285,10 @@
     "strict_range": true,
     "featured_as_banner": true,
     "changes": [
+      {
+        "version": "1.8.1",
+        "details": "Fixed memory leak issues"
+      },
       {
         "version": "1.8.0",
         "details": "Updated to support EmojiPort Resources (iOS 10+) 1.9.0+"
