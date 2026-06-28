@@ -1404,6 +1404,40 @@ Description: Custom Sec-Fetch headers rules for Polyfills
 Author: PoomSmart
 Name: Custom Sec Headers
 
+Package: com.ps.customsecheaders
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8
+Filename: ./debs/app/polyfills/extensions/com.ps.customsecheaders_1.0.2_iphoneos-arm.deb
+Size: 904
+MD5sum: bd6819c10272cd9a422df906a0847416
+SHA1: b15e0724a732a2f208d68dcda72e9d6edb19d2a2
+SHA256: 1c46123ad97cbe2fddc8cbca1c950e9aa93d7ad0a43b389a68c2fffa1a6858ff
+Section: Tweaks
+Description: Custom Sec-Fetch headers rules for Polyfills
+ This package ships sec-rules consumed by the Polyfills tweak to add
+ Sec-Fetch-* headers for specific sites.
+Author: PoomSmart
+Name: Custom Sec Headers
+
+Package: com.ps.customsecheaders
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 8
+Filename: ./debs/app/polyfills/extensions/com.ps.customsecheaders_1.0.2_iphoneos-arm64.deb
+Size: 936
+MD5sum: d40dad985a804eea08ef549140dccb52
+SHA1: 7c2e1b998f1963a093e51542bfa71a3f0f4e1a1f
+SHA256: 4add64395e0818b9b416711a5311c04c503c8cde6fd0061a4b589b8029b9df9f
+Section: Tweaks
+Description: Custom Sec-Fetch headers rules for Polyfills
+ This package ships sec-rules consumed by the Polyfills tweak to add
+ Sec-Fetch-* headers for specific sites.
+Author: PoomSmart
+Name: Custom Sec Headers
+
 Package: com.ps.cyarchfix
 Version: 1.1.0
 Architecture: iphoneos-arm
