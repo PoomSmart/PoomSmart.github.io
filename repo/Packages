@@ -7030,6 +7030,38 @@ Description: Prints browser console logs directly to the web page.
 Author: PoomSmart
 Name: Debug (Polyfills)
 
+Package: com.ps.polyfillsdebug
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: com.ps.polyfills (>= 2.12.0)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.1.0_iphoneos-arm64.deb
+Size: 1882
+MD5sum: 64227825c78374070758d27d56e36575
+SHA1: da97f9959ae8b753a323c3c80e78eba537808b11
+SHA256: cb3e0bc829205f1c9cf6969e687fe67121c2cca74e645c362cd1c42705f6604b
+Section: Tweaks
+Description: Prints browser console logs directly to the web page.
+Author: PoomSmart
+Name: Debug (Polyfills)
+
+Package: com.ps.polyfillsdebug
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 8
+Depends: com.ps.polyfills (>= 2.12.0)
+Filename: ./debs/app/polyfills/extensions/com.ps.polyfillsdebug_1.1.0_iphoneos-arm.deb
+Size: 1862
+MD5sum: 1b7ab669f66732d06bb30287c077bfe6
+SHA1: 4238c3c238afb8a6033b16a140b427bd34fd4017
+SHA256: a789334ade7f4a2b63e9a26dd622c7537c545ce58b3aa82e03e6c45b6fc5aab1
+Section: Tweaks
+Description: Prints browser console logs directly to the web page.
+Author: PoomSmart
+Name: Debug (Polyfills)
+
 Package: com.ps.polyfillsregexp
 Version: 1.2.3
 Architecture: iphoneos-arm
