@@ -2445,10 +2445,10 @@ Maintainer: PoomSmart
 Installed-Size: 336
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
 Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.9_iphoneos-arm.deb
-Size: 40258
-MD5sum: d6c6de6a9fbde8f1ec419a9e80392ac2
-SHA1: 4597db8ecdf1e4c40481cbd99fa03addec520090
-SHA256: f521af1aa5484a4714291ebcdb098e74c847fcbfb5796cf290aa795e22cb84c9
+Size: 40272
+MD5sum: 910e5d96619c03646c05cdbde67a0ab4
+SHA1: f8cf76c93b9562726ee414c4dfa33aac1833891d
+SHA256: fc8014933c4d442ca404b9f66483ff42346d1e7d7b9be72653f849c9035f5c91
 Section: Tweaks
 Description: Emoji font override and management.
 Author: PoomSmart
@@ -2464,10 +2464,10 @@ Maintainer: PoomSmart
 Installed-Size: 368
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
 Filename: ./debs/emojifontmanager/com.ps.emojifontmanager_1.3.9_iphoneos-arm64.deb
-Size: 31498
-MD5sum: b3de0739a72cde2a3a9f883ae4730d98
-SHA1: 876d5f7b0230623c152ac64e36285bf4e5a018e6
-SHA256: c5677f50780d50145b0c0d402ec82d0fe77c629a62dfc12013f1224300a0d3cf
+Size: 31864
+MD5sum: 218f711b2b43a8fbc7d4f27b792b4b1d
+SHA1: c91eca755e40badb151ad2aa0967037557fff17d
+SHA256: f7b0ac82977a91c5bc468238cff017a8e2d2f0aa5490438d89a7428ae1cf09d4
 Section: Tweaks
 Description: Emoji font override and management.
 Author: PoomSmart
@@ -3024,10 +3024,10 @@ Installed-Size: 432
 Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
 Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
 Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.10_iphoneos-arm64.deb
-Size: 80480
-MD5sum: 16c69abd2918ce8dc3a685f34330b86a
-SHA1: 3366d7bdda37b65db4695369b783b6c6b44bbac8
-SHA256: ec82067cb27b1e6ffb11bc631bc9c4ed1217e621d8f678f9a418a493f3588352
+Size: 80488
+MD5sum: 9f804cf5586dd42e6dbde24bf8b2d4a2
+SHA1: 24a684c785afbc04f1543750d67a5f39a29e564b
+SHA256: 79b390edb7f82a4198ac0d1a9ea2b2b2215b4f042095ccdfe7da0aba5894a759
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Tag: compatible::ios6, compatible::ios7, compatible::ios8
@@ -3043,10 +3043,10 @@ Installed-Size: 432
 Depends: preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout (>= 1.1.21), com.ps.emojiattributes (>= 1.4.4~b1), com.ps.emojilocalization (>= 1.1), com.ps.emojilibrary (>= 1.6.1), firmware (<< 7.0) | com.ps.emojiresources (>= 1.2)
 Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
 Filename: ./debs/emojiport/com.ps.emojiportlegacy_1.8.10_iphoneos-arm.deb
-Size: 80398
-MD5sum: e162593f6b202ac76ac52dd942e80226
-SHA1: c5df0f52736ea6ce0e4c2ddd616587f69637a5cf
-SHA256: 42f6a331e3b9ad91eb8adfb8044513726a18add843682e21f5d8da84e03aea7c
+Size: 80320
+MD5sum: 8563dd25fbb210f598a02f400806bf79
+SHA1: cc0d363f176d739c3ad666ed36dc402cade8f6fb
+SHA256: 5f13ffed0d14c9c87eba376f2d4b312d18836be1387327a807b43ae5a3e4a819
 Section: Tweaks
 Description: Latest emojis for iOS 6.0-8.2
 Tag: compatible::ios6, compatible::ios7, compatible::ios8
