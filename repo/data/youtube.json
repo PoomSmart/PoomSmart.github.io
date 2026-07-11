@@ -856,6 +856,10 @@
     "description": "<p>No ads and background playback.</p>",
     "changes": [
       {
+        "version": "1.7.22",
+        "details": "Blocked shorts ads on recent YouTube versions (contributed by @Tonwalter888)"
+      },
+      {
         "version": "1.7.21",
         "details": "Blocked new kind of ads (contributed by @Tonwalter888)"
       },
