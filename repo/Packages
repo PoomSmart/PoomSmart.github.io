@@ -3006,14 +3006,14 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 5.1), firmware (<< 6.0)
 Conflicts: com.ps.emoji10alpha
 Filename: ./debs/emojiport/com.ps.emojiportalpha_1.0.12_iphoneos-arm.deb
 Size: 25014
-MD5sum: c83dfe4166c720129ec1c10d318ced40
-SHA1: 7d8ba6c27017c62adbc39fcdb73fd8a127284ac5
-SHA256: 1781602b6c838c84505fe67f00c213755674d3fc251fd71adece0ca6a0f44075
+MD5sum: 27880eb31d0f343a313ff0aff2798e0d
+SHA1: df693b77ac32bc61a86295be90ca58d795385c3e
+SHA256: 2c9064a402404d568a1f15724702b492556477df9334e4ebf6fb79f59a2e6364
 Section: Tweaks
 Description: Latest emojis for iOS 5.1
 Tag: compatible::ios5
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
+Depiction: https://poomsmart.github.io/repo/depictions/emojiport_5_1.html
 Name: EmojiPort (iOS 5.1)
 
 Package: com.ps.emojiportlegacy

@@ -7,6 +7,8 @@ set -euo pipefail
 # rm -f depictions/* sileodepictions/*
 echo "Importing depictions..."
 uv run python main.py
+echo "Validating deb coverage..."
+uv run python validate_data.py
 echo "Generating Packages files..."
 dpkg-scanpackages -m ./debs /dev/null > Packages
 echo "Compressing Packages files..."
