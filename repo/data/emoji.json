@@ -400,7 +400,7 @@
     "screenshots": true,
     "changes": [
       {
-        "version": "15.0.0",
+        "version": "15.0.0~d",
         "details": "Updated to Unicode 15.0"
       }
     ],
