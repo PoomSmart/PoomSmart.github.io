@@ -21,6 +21,7 @@
     "file": "smoothkb",
     "title": "SmoothKB",
     "min_ios": "7.0",
+    "no_changelog": true,
     "description": "<p>Fade animation across keyboard typing.</p>"
   },
   {
@@ -39,6 +40,7 @@
     "file": "pearltracking",
     "title": "Pearl Tracking",
     "min_ios": "13.0",
+    "no_changelog": true,
     "description": "<ol><li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li><li>Enable Assistive Touch</li><li>Invoke Control Center</li><li><b>Get some painkiller</b></li><li>Turn on Pearl Tracking</li><li>???</li></ol>"
   },
   {
@@ -74,6 +76,7 @@
     "tintColor": "orange",
     "screenshots": true,
     "link_source_code": true,
+    "no_changelog": true,
     "description": "<p>Allows for more than 4 choices for Quiz sticker in Instagram.</p>"
   },
   {
@@ -84,6 +87,7 @@
     "tintColor": "yellow",
     "strict_range": true,
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
   },
   {
@@ -91,6 +95,7 @@
     "title": "Battery Health Enabler",
     "min_ios": "11.3",
     "featured_as_banner": true,
+    "no_changelog": true,
     "description": "<p>Natively enables Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
   },
   {
@@ -148,12 +153,14 @@
     "file": "replaykitmax",
     "title": "ReplayKit Max",
     "min_ios": "9.0",
+    "no_changelog": true,
     "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
   },
   {
     "file": "advancedmapenabler",
     "title": "Advanced Map Enabler",
     "min_ios": "15.0",
+    "no_changelog": true,
     "description": "<p>Enables Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15+.</p>"
   },
   {
@@ -244,6 +251,7 @@
     "file": "uncappedavplayer",
     "title": "UncappedAVPlayer",
     "min_ios": "11.0",
+    "no_changelog": true,
     "description": "<p>Bypasses the 2x playback speed cap in FigStreamPlayer (AVPlayer)</p>"
   }
 ]

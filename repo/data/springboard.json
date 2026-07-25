@@ -19,6 +19,7 @@
     "file": "blurrybadges",
     "title": "Blurry Badges",
     "min_ios": "13.0",
+    "no_changelog": true,
     "description": "<p>Adds colored blur to SpringBoard icon badges.</p>"
   },
   {
@@ -30,6 +31,7 @@
     "screenshots": true,
     "featured_as_banner": true,
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Prevents Today View sidebar from being pinned on iPad homescreen. Widgets in Today View will still be accessible by swiping to the leftmost of the homescreen, just like how it is on iPad portrait or iPhone.</p>"
   },
   {
@@ -38,6 +40,7 @@
     "min_ios": "14.0",
     "screenshots": true,
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Uses a larger 414x736 (iPhone 6s+) resolution for classic apps on iPad.</p>"
   },
   {

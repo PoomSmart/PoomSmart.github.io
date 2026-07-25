@@ -35,6 +35,7 @@ OPTIONAL_BOOL_KEYS = (
     "inline_source_code",
     "link_source_code",
     "no_sileo",
+    "no_changelog",
     "debug",
 )
 
@@ -191,15 +192,21 @@ def validate_deb_coverage(debs_dir: Path | None = None) -> None:
                 missing.append(f"  [{category}] {slug!r} (title: {entry['title']!r})")
                 continue
 
+            if entry.get("no_changelog"):
+                continue
+
+            deb_ver = slug_to_version[slug]
             changes = entry.get("changes")
-            if changes:
-                deb_ver = slug_to_version[slug]
-                log_ver = changes[0]["version"]
-                if log_ver != deb_ver:
-                    stale.append(
-                        f"  [{category}] {slug!r}: "
-                        f"deb is {deb_ver!r} but changelog starts at {log_ver!r}"
-                    )
+            if not changes:
+                stale.append(
+                    f"  [{category}] {slug!r}: "
+                    f"deb is {deb_ver!r} but entry has no changelog"
+                )
+            elif changes[0]["version"] != deb_ver:
+                stale.append(
+                    f"  [{category}] {slug!r}: "
+                    f"deb is {deb_ver!r} but changelog starts at {changes[0]['version']!r}"
+                )
 
     errors: list[str] = []
     if missing:

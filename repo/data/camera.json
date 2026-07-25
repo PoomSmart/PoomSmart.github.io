@@ -104,6 +104,7 @@
     "title": "ExpandlessCamControls",
     "min_ios": "9.0",
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a target=\"_blank\" href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
   },
   {
@@ -126,6 +127,7 @@
     "file": "trollleds",
     "title": "TrollLEDs",
     "min_ios": "10.0",
+    "no_changelog": true,
     "description": "<p>An iOS application to control individual flashlight LEDs. <a target=\"_blank\" href=\"https://github.com/PoomSmart/TrollLEDs\">README</a></p><br/><p><a target=\"_blank\" href=\"https://github.com/PoomSmart/TrollLEDs/releases\">Changelog</a></p>"
   },
   {
@@ -133,12 +135,14 @@
     "title": "CamElapsed+",
     "min_ios": "11.0",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Adds sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
   },
   {
     "file": "recordpause",
     "title": "RecordPause",
     "min_ios": "9.0",
+    "max_ios": "17.7.11",
     "description": "<p>Pauses and resumes video recording in iOS Camera app.</p>",
     "changes": [
       {

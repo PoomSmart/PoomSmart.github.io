@@ -94,6 +94,9 @@
         "no_sileo": {
           "type": "boolean"
         },
+        "no_changelog": {
+          "type": "boolean"
+        },
         "debug": {
           "type": "boolean"
         },

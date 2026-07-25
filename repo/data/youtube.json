@@ -279,6 +279,7 @@
     "title": "YTClassicVideoQuality",
     "min_ios": "11.0",
     "tintColor": "red",
+    "no_changelog": true,
     "description": "<p>Reverts to the original video quality selector in YouTube app.</p>"
   },
   {
@@ -287,6 +288,7 @@
     "min_ios": "13.0",
     "tintColor": "red",
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Enables setting appearance (Light/Dark) based on system in YouTube app. Because this feature is based on iOS dark mode, the tweak only supports iOS/iPadOS 13 and above. YouTube version 15.10.4 and higher are officially supported. Older (but not too old) versions may.</p>"
   },
   {
@@ -295,6 +297,7 @@
     "min_ios": "11.0",
     "tintColor": "red",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Removes Shorts tab and replace with Explore tab in YouTube app.</p><p>This tweak is mostly for iPhones and iPods where Explore is replaced with Shorts.</p><p>Limitation: The text \"Explore\" is hardcoded in English because its localization is entirely from server-side.</p>"
   },
   {
@@ -319,6 +322,7 @@
     "min_ios": "11.0",
     "tintColor": "red",
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>Disables \"Video paused. Continue watching?\" popup in YouTube app when you play a long video.</p>"
   },
   {
@@ -354,6 +358,7 @@
     "min_ios": "11.0",
     "tintColor": "red",
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p><b>This tweak does nothing on YouTube 20.16.7 and higher.</b><br/>Makes YouTube remember your video caption setting, if not already.</p>"
   },
   {
@@ -363,6 +368,7 @@
     "tintColor": "red",
     "inline_source_code": true,
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Removes Local Network permission check in YouTube app.</p>"
   },
   {
@@ -370,6 +376,7 @@
     "title": "YTNoPaidPromo",
     "min_ios": "11.0",
     "tintColor": "red",
+    "no_changelog": true,
     "description": "<p>Removes \"Include paid promotion\" banner from videos on YouTube app.            <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=FxyW7Gp9Jd4\">What is paid promotion?</a></p>"
   },
   {
@@ -471,6 +478,7 @@
     "title": "YTABConfigReset",
     "min_ios": "11.0",
     "tintColor": "red",
+    "no_changelog": true,
     "description": "<p>Resets all A/B flags in YTABConfig tweak on YouTube app launch. This is useful when changing some A/B flags may cause the app to crash outright and there is no simple way to recover it. Once installed and you launched the YouTube app, all A/B flags will be reset. You will then uninstall YTABConfigReset tweak. Otherwise, A/B flags will keep being reset every time you launch the app.</p>"
   },
   {
@@ -507,6 +515,7 @@
     "min_ios": "11.0",
     "tintColor": "red",
     "inline_source_code": true,
+    "no_changelog": true,
     "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.            This tweak enables or disables those features in a way useful to you.            This replaces the following tweaks:</p>",
     "extra_content": "<ul><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/youarethere\">YouAreThere</a></li><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/youremembercaption\">YouRememberCaption</a></li><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/ytsystemappearance\">YTSystemAppearance</a></li></ul>"
   },
@@ -531,6 +540,7 @@
     "title": "YTSilentVote",
     "min_ios": "11.0",
     "tintColor": "red",
+    "no_changelog": true,
     "description": "<p>Removes popup when you like/dislike videos; those saying you liked the video and feedback shared with the creator.</p>"
   },
   {
@@ -1257,6 +1267,7 @@
     "min_ios": "15.0",
     "tintColor": "red",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Uses an alternative YouTube miniplayer style. This is for the people that may not like the default miniplayer style enforced on YouTube v20+.</p>"
   }
 ]

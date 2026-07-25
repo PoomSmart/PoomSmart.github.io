@@ -328,6 +328,7 @@
     "max_ios": "14.4.2",
     "strict_range": true,
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Enable emoji search on iPadOS 14.0 - 14.4</p>"
   },
   {
@@ -335,6 +336,7 @@
     "title": "EmojiSkinPrefs",
     "min_ios": "8.3",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>Change the default skin tone of emojis.</p>"
   },
   {
@@ -360,18 +362,21 @@
     "file": "emojifontlqefm",
     "title": "AppleColorEmoji Low Quality (EFM)",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>It's your usual AppleColorEmoji font but low quality. But Why? To save you some disk space? To improve your device performance? To show off your friends?</p><br/><p>All not quite. It's because sometimes you need not a high quality work to cause <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=7Qxa19ODUIQ\">a global impact such as this one</a>.</p><br/><p>Unicode version will be in sync with the regular Apple emoji font.</p>"
   },
   {
     "file": "emojifontflipefm",
     "title": "AppleColorEmoji HD Flip (EFM)",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>It's your usual AppleColorEmoji font but everything is flipped horizontally.</p><br/><p>Unicode version will be in sync with the regular Apple emoji font.</p>"
   },
   {
     "file": "emojifontpxefm",
     "title": "AppleColorEmoji Pixel (EFM)",
     "screenshots": true,
+    "no_changelog": true,
     "description": "<p>It's your usual AppleColorEmoji font but everything is pixelated.</p><br/><p>Unicode version will be in sync with the regular Apple emoji font.</p>"
   },
   {
