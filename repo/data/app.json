@@ -2,8 +2,7 @@
   {
     "file": "githubweblegacycompat",
     "title": "GitHubWebLegacyCompat",
-    "min_ios": "8.0",
-    "max_ios": "16.3.1",
+    "ios": "[8.0, 16.3.1]",
     "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
     "changes": [
       {
@@ -15,8 +14,7 @@
   {
     "file": "chatgptweblegacycompat",
     "title": "ChatGPTWebLegacyCompat",
-    "min_ios": "15.0",
-    "max_ios": "15.8.8",
+    "ios": "[15.0, 16.0)",
     "description": "<p>Makes ChatGPT website more accessible on iOS 15.0 - 15.8 by injecting CSS with unsupported syntax removed.</p>",
     "changes": [
       {
@@ -51,7 +49,7 @@
   {
     "file": "polyfills",
     "title": "Polyfills",
-    "min_ios": "8.0",
+    "ios": "[8.0,)",
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
     "changes": [
       {
@@ -434,8 +432,7 @@
   {
     "file": "steamweblegacycompat",
     "title": "SteamWebLegacyCompat",
-    "min_ios": "14.1",
-    "max_ios": "16.3.1",
+    "ios": "[14.1, 16.3.1]",
     "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes Steam website more accessible on iOS 16.3 and lower by injecting JS with unsupported syntax removed.</p>",
     "changes": [
       {
@@ -447,8 +444,7 @@
   {
     "file": "githublegacyfix",
     "title": "GitHub Legacy Fix",
-    "min_ios": "13.0",
-    "max_ios": "15.8.8",
+    "ios": "[13.0, 16.0)",
     "description": "<p>Fixes up GraphQL fields to make old GitHub iOS app work again.</p>",
     "changes": [
       {

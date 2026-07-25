@@ -2,7 +2,7 @@
   {
     "file": "60fps",
     "title": "60fps",
-    "min_ios": "7.0",
+    "ios": "[7.0,)",
     "description": "<p>720p60 for iPhone 4s (H4), 1080p60 and WIP 4k30 for iPhone 5s (H6) and WIP 4kp60 for iPhone SE (1st generation) (H9)</p>",
     "changes": [
       {
@@ -14,7 +14,7 @@
   {
     "file": "amber",
     "title": "Amber",
-    "min_ios": "7.0",
+    "ios": "[7.0,)",
     "tintColor": "orange",
     "featured_as_banner": true,
     "changes": [
@@ -59,7 +59,7 @@
   {
     "file": "quadhighcurrent",
     "title": "QuadHighCurrent",
-    "min_ios": "10.0",
+    "ios": "[10.0,)",
     "changes": [
       {
         "version": "1.1.3",
@@ -90,7 +90,7 @@
   {
     "file": "recordntorch",
     "title": "Record 'n' Torch",
-    "min_ios": "11.0",
+    "ios": "[11.0,)",
     "changes": [
       {
         "version": "1.8.4",
@@ -102,7 +102,7 @@
   {
     "file": "expandlesscamcontrols",
     "title": "ExpandlessCamControls",
-    "min_ios": "9.0",
+    "ios": "[9.0,)",
     "inline_source_code": true,
     "no_changelog": true,
     "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a target=\"_blank\" href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
@@ -110,7 +110,7 @@
   {
     "file": "livetextenabler",
     "title": "Live Text Enabler",
-    "min_ios": "15.0",
+    "ios": "[15.0,)",
     "changes": [
       {
         "version": "1.3.0",
@@ -126,14 +126,14 @@
   {
     "file": "trollleds",
     "title": "TrollLEDs",
-    "min_ios": "10.0",
+    "ios": "[10.0,)",
     "no_changelog": true,
     "description": "<p>An iOS application to control individual flashlight LEDs. <a target=\"_blank\" href=\"https://github.com/PoomSmart/TrollLEDs\">README</a></p><br/><p><a target=\"_blank\" href=\"https://github.com/PoomSmart/TrollLEDs/releases\">Changelog</a></p>"
   },
   {
     "file": "camelapsedplus",
     "title": "CamElapsed+",
-    "min_ios": "11.0",
+    "ios": "[11.0,)",
     "screenshots": true,
     "no_changelog": true,
     "description": "<p>Adds sub-seconds to an elapsed time when recording a video in iOS Camera app.</p>"
@@ -141,8 +141,7 @@
   {
     "file": "recordpause",
     "title": "RecordPause",
-    "min_ios": "9.0",
-    "max_ios": "17.7.11",
+    "ios": "[9.0, 18.0)",
     "description": "<p>Pauses and resumes video recording in iOS Camera app.</p>",
     "changes": [
       {

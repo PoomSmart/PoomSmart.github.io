@@ -2,7 +2,7 @@
   {
     "file": "emojiport10resources",
     "title": "EmojiPort Resources (iOS 10+)",
-    "min_ios": "10.0",
+    "ios": "[10.0,)",
     "changes": [
       {
         "version": "1.9.0",
@@ -18,7 +18,7 @@
   {
     "file": "emojiattributes",
     "title": "EmojiAttributes",
-    "min_ios": "5.1",
+    "ios": "[5.1,)",
     "changes": [
       {
         "version": "1.10.1",
@@ -58,7 +58,7 @@
   {
     "file": "emojifontmanager",
     "title": "EmojiFontManager",
-    "min_ios": "6.0",
+    "ios": "[6.0,)",
     "changes": [
       {
         "version": "1.3.9",
@@ -113,9 +113,7 @@
   {
     "file": "emojilayout",
     "title": "EmojiLayout",
-    "min_ios": "6.0",
-    "max_ios": "8.2",
-    "strict_range": true,
+    "ios": "[6.0, 8.2]!",
     "no_sileo": true,
     "changes": [
       {
@@ -132,7 +130,7 @@
   {
     "file": "emojilibrary",
     "title": "EmojiLibrary",
-    "min_ios": "5.1",
+    "ios": "[5.1,)",
     "changes": [
       {
         "version": "1.8.0~b7",
@@ -175,9 +173,7 @@
   {
     "file": "emojiport_5_1",
     "title": "EmojiPort (iOS 5.1)",
-    "min_ios": "5.1",
-    "max_ios": "5.1.1",
-    "strict_range": true,
+    "ios": "[5.1, 5.1.1]!",
     "no_sileo": true,
     "changes": [
       {
@@ -198,9 +194,7 @@
   {
     "file": "emojiport_6",
     "title": "EmojiPort (iOS 6.0 - 8.2)",
-    "min_ios": "6.0",
-    "max_ios": "8.2",
-    "strict_range": true,
+    "ios": "[6.0, 8.2]!",
     "no_sileo": true,
     "changes": [
       {
@@ -240,9 +234,7 @@
   {
     "file": "emojiport_8_9",
     "title": "EmojiPort (iOS 8.3 - 9.3)",
-    "min_ios": "8.3",
-    "max_ios": "9.3.6",
-    "strict_range": true,
+    "ios": "[8.3, 9.3.6]!",
     "no_sileo": true,
     "changes": [
       {
@@ -258,9 +250,7 @@
   {
     "file": "emojiport_10",
     "title": "EmojiPort (iOS 10.0 - 11.4)",
-    "min_ios": "10.0",
-    "max_ios": "11.4.1",
-    "strict_range": true,
+    "ios": "[10.0, 11.4.1]!",
     "changes": [
       {
         "version": "1.4.2",
@@ -280,9 +270,7 @@
   {
     "file": "emojiport_12",
     "title": "EmojiPort (iOS 12.0 - 26.3)",
-    "min_ios": "12.0",
-    "max_ios": "26.3.1",
-    "strict_range": true,
+    "ios": "[12.0, 26.3.1]!",
     "featured_as_banner": true,
     "changes": [
       {
@@ -324,9 +312,7 @@
   {
     "file": "emojisearchforipad",
     "title": "Emoji Search for iPad",
-    "min_ios": "14.0",
-    "max_ios": "14.4.2",
-    "strict_range": true,
+    "ios": "[14.0, 14.4.2]!",
     "screenshots": true,
     "no_changelog": true,
     "description": "<p>Enable emoji search on iPadOS 14.0 - 14.4</p>"
@@ -334,7 +320,7 @@
   {
     "file": "emojiskinprefs",
     "title": "EmojiSkinPrefs",
-    "min_ios": "8.3",
+    "ios": "[8.3,)",
     "screenshots": true,
     "no_changelog": true,
     "description": "<p>Change the default skin tone of emojis.</p>"

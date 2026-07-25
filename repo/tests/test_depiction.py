@@ -43,6 +43,63 @@ class DepictionTests(unittest.TestCase):
             }
         )
 
+    def test_parse_ios_range(self):
+        open_ended = data_loader.parse_ios_range("[11.0,)")
+        self.assertEqual(open_ended.min, "11.0")
+        self.assertIsNone(open_ended.max)
+        self.assertEqual(open_ended.label(), "Compatible with iOS 11.0 +")
+
+        closed = data_loader.parse_ios_range("[8.0, 18.0]")
+        self.assertEqual((closed.min, closed.max, closed.max_exclusive, closed.strict), ("8.0", "18.0", False, False))
+        self.assertEqual(closed.label(), "Compatible with iOS 8.0 to 18.0")
+
+        exclusive = data_loader.parse_ios_range("[8.0, 18.0)")
+        self.assertTrue(exclusive.max_exclusive)
+        self.assertEqual(exclusive.label(), "Compatible with iOS 8.0 to 17.x")
+
+        self.assertEqual(
+            data_loader.parse_ios_range("[14.0, 17.0)").label(),
+            "Compatible with iOS 14.0 to 16.x",
+        )
+
+        self.assertEqual(
+            data_loader.parse_ios_range("[14.0, 15.0)").label(),
+            "Compatible with iOS 14.x",
+        )
+
+        strict = data_loader.parse_ios_range("[12.0, 17.0]!")
+        self.assertTrue(strict.strict)
+        self.assertFalse(strict.max_exclusive)
+
+        exclusive_strict = data_loader.parse_ios_range("[14.0, 15.0)!")
+        self.assertTrue(exclusive_strict.max_exclusive)
+        self.assertTrue(exclusive_strict.strict)
+
+    def test_parse_ios_range_rejects_strict_without_max(self):
+        with self.assertRaisesRegex(data_loader.DepictionSchemaError, "upper bound"):
+            data_loader.parse_ios_range("[11.0,)!")
+
+    def test_validate_entry_accepts_ios_range(self):
+        data_loader.validate_entry(
+            {
+                "file": "example",
+                "title": "Example",
+                "ios": "[9.0, 14.8.1]!",
+                "description": "<p>Example</p>",
+            }
+        )
+
+    def test_validate_entry_rejects_legacy_min_ios(self):
+        with self.assertRaisesRegex(data_loader.DepictionSchemaError, "Additional properties"):
+            data_loader.validate_entry(
+                {
+                    "file": "example",
+                    "title": "Example",
+                    "min_ios": "11.0",
+                    "description": "<p>Example</p>",
+                }
+            )
+
     def test_load_category_uses_json_data(self):
         youtube_entries = data_loader.load_category("youtube")
         self.assertTrue(any(entry["file"] == "ytuhd" for entry in youtube_entries))
@@ -90,7 +147,7 @@ class DepictionTests(unittest.TestCase):
             entry = {
                 "file": "smoothkb",
                 "title": "SmoothKB",
-                "min_ios": "7.0",
+                "ios": "[7.0,)",
                 "description": "<p>Fade animation across keyboard typing.</p>",
             }
 

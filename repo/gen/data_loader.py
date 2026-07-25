@@ -1,6 +1,7 @@
 import json
 import re
 import subprocess
+from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
@@ -16,32 +17,66 @@ schema_path = data_dir / "schema.json"
 DEPICTION_URL_PATTERN = re.compile(
     r"https://poomsmart\.github\.io/repo/depictions/([^.]+)\.html"
 )
+IOS_RANGE_PATTERN = re.compile(
+    r"^\[(?P<min>\d+(?:\.\d+){0,2}),\s*"
+    r"(?:(?P<max>\d+(?:\.\d+){0,2})(?P<bound>[)\]])|(?P<open>\)))"
+    r"(?P<strict>!)?$"
+)
 
 CATEGORY_NAMES = ("core", "youtube", "emoji", "camera", "springboard", "app")
-REQUIRED_ENTRY_KEYS = ("file", "title", "description")
-OPTIONAL_STRING_KEYS = (
-    "min_ios",
-    "max_ios",
-    "description",
-    "extra_content",
-    "headerImage",
-    "tintColor",
-    "backgroundColor",
-)
-OPTIONAL_BOOL_KEYS = (
-    "strict_range",
-    "screenshots",
-    "featured_as_banner",
-    "inline_source_code",
-    "link_source_code",
-    "no_sileo",
-    "no_changelog",
-    "debug",
-)
 
 
 class DepictionSchemaError(ValueError):
     pass
+
+
+@dataclass(frozen=True)
+class IosRange:
+    min: str
+    max: str | None = None
+    max_exclusive: bool = False
+    strict: bool = False
+
+    def label(self) -> str:
+        if self.max is None:
+            return f"Compatible with iOS {self.min} +"
+        if self.max_exclusive:
+            max_major = int(self.max.split(".", 1)[0])
+            if max_major >= 1:
+                display_major = max_major - 1
+                min_major = int(self.min.split(".", 1)[0])
+                if min_major == display_major:
+                    return f"Compatible with iOS {display_major}.x"
+                return f"Compatible with iOS {self.min} to {display_major}.x"
+            return f"Compatible with iOS {self.min} before {self.max}"
+        return f"Compatible with iOS {self.min} to {self.max}"
+
+
+def parse_ios_range(value: str) -> IosRange:
+    """Parse interval notation such as ``[11.0,)``, ``[8.0, 18.0]``, ``[12.0, 17.0]!``."""
+    match = IOS_RANGE_PATTERN.fullmatch(value)
+    if not match:
+        raise DepictionSchemaError(
+            f"Invalid ios range {value!r}; expected e.g. '[11.0,)', '[8.0, 18.0]', '[12.0, 17.0)!'"
+        )
+
+    min_ios = match.group("min")
+    max_ios = match.group("max")
+    strict = match.group("strict") is not None
+
+    if max_ios is None:
+        if strict:
+            raise DepictionSchemaError(
+                f"Invalid ios range {value!r}: '!' requires an upper bound"
+            )
+        return IosRange(min=min_ios)
+
+    return IosRange(
+        min=min_ios,
+        max=max_ios,
+        max_exclusive=match.group("bound") == ")",
+        strict=strict,
+    )
 
 
 @lru_cache(maxsize=1)
@@ -68,11 +103,17 @@ def _raise_schema_error(error):
     raise DepictionSchemaError(f"Schema validation failed{location}: {error.message}") from error
 
 
+def _validate_ios(entry):
+    if "ios" in entry:
+        parse_ios_range(entry["ios"])
+
+
 def validate_entry(entry):
     try:
         _entry_validator().validate(entry)
     except ValidationError as error:
         _raise_schema_error(error)
+    _validate_ios(entry)
 
 
 def _load_json_file(name):
@@ -87,6 +128,8 @@ def load_category(name):
         _category_validator().validate(entries)
     except ValidationError as error:
         _raise_schema_error(error)
+    for entry in entries:
+        _validate_ios(entry)
     return entries
 
 

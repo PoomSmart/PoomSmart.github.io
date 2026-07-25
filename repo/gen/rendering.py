@@ -8,6 +8,11 @@ from pathlib import Path
 import minify_html
 from jinja2 import Environment, FileSystemLoader
 
+try:
+    from .data_loader import parse_ios_range
+except ImportError:
+    from data_loader import parse_ios_range
+
 
 root = Path(__file__).resolve().parent
 repo_root = root.parent
@@ -115,13 +120,12 @@ def build_sileo_depiction(entry, description, extra_content, screenshots, source
                 "useRawFormat": True,
             })
 
-    min_ios = entry.get("min_ios")
-    max_ios = entry.get("max_ios")
-    if detail_views and min_ios:
+    ios_range = parse_ios_range(entry["ios"]) if entry.get("ios") else None
+    if detail_views and ios_range:
         detail_views.insert(0, {
             "class": "DepictionSubheaderView",
             "useMargins": True,
-            "title": f"Compatible with iOS {min_ios} to {max_ios}" if min_ios and max_ios else f"Compatible with iOS {min_ios} +",
+            "title": ios_range.label(),
         })
 
     if source_code:
@@ -180,11 +184,12 @@ def _prepare_depiction(entry, strict=False):
         if source_code is None:
             return None
 
+    ios = entry.get("ios")
+    ios_range = parse_ios_range(ios) if ios else None
     html_output = minify_html.minify(html_template.render(
         title=title,
-        min_ios=entry.get("min_ios"),
-        max_ios=entry.get("max_ios"),
-        strict_range=entry.get("strict_range"),
+        ios=ios,
+        ios_label=ios_range.label() if ios_range else None,
         changes=entry.get("changes"),
         screenshots=screenshots,
         description=description,

@@ -1,5 +1,5 @@
-const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
-const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
+var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 
 (function (document) {
 	"use strict";
@@ -13,7 +13,7 @@ const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 	}
 
 	function toNum(bits) {
-		return (10000 * parseInt(bits[0])) + parseInt((100 * (bits[1] ? bits[1] : 0))) + parseInt(bits[2] ? bits[2] : 0);
+		return (10000 * parseInt(bits[0], 10)) + parseInt((100 * (bits[1] ? bits[1] : 0)), 10) + parseInt(bits[2] ? bits[2] : 0, 10);
 	}
 
 	function parseVersionString(version) {
@@ -24,6 +24,21 @@ const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 	function compareVersions(one, two) {
 		var two_ = toNum(two);
 		return one != two_ ? (one > two_ ? 1 : -1) : 0;
+	}
+
+	function parseIosRange(value) {
+		var match = value && value.match(
+			/^\[(\d+(?:\.\d+){0,2}),\s*(?:(\d+(?:\.\d+){0,2})([)\]])|(\)))(!)?$/
+		);
+		if (!match) {
+			return null;
+		}
+		return {
+			min: match[1],
+			max: match[2] || null,
+			maxExclusive: match[3] === ")",
+			strict: !!match[5]
+		};
 	}
 
 	var prerequisite = document.getElementById("prerequisite");
@@ -37,11 +52,13 @@ const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 		version = navigator.appVersion.match(/(Version)\/(\d+)\.(\d+)(\.(\d+))?/i);
 	}
 
-	var minString = prerequisite.dataset.minIos;
-	var maxString = prerequisite.dataset.maxIos;
+	var range = parseIosRange(prerequisite.getAttribute("data-ios"));
+	if (!range) {
+		return;
+	}
 
-	var minVersion = parseVersionString(minString);
-	var maxVersion = maxString ? parseVersionString(maxString) : null;
+	var minVersion = parseVersionString(range.min);
+	var maxVersion = range.max ? parseVersionString(range.max) : null;
 	var message = null;
 
 	if (version) {
@@ -50,11 +67,16 @@ const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 		message = VERSION_CHECK_SUPPORTED;
 		if (compareVersions(minVersion, osVersion) == 1) {
 			message = null;
-		} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
-			if ("unsupported" in prerequisite.dataset) {
-				message = null;
-			} else {
-				message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+		} else if (maxVersion) {
+			var cmp = compareVersions(maxVersion, osVersion);
+			// Inclusive max: out when max < os. Exclusive max: also out when max == os.
+			var aboveMax = range.maxExclusive ? cmp <= 0 : cmp == -1;
+			if (aboveMax) {
+				if (range.strict) {
+					message = null;
+				} else {
+					message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+				}
 			}
 		}
 		if (message)

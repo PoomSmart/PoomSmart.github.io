@@ -12,27 +12,13 @@
 
 <body>
     <main class="ios-table ios-main">
-{% if min_ios or max_ios %}
+{% if ios %}
         <h2 role="header">Compatibility</h2>
         <ul>
             <li>
-                <div
-{% if min_ios %}
-                    data-min-ios="{{ min_ios }}"
-{% endif %}
-{% if max_ios %}
-                    data-max-ios="{{ max_ios }}"
-{% endif %}
-{% if strict_range %}
-                    data-unsupported
-{% endif %}
-                    id="prerequisite">
+                <div data-ios="{{ ios }}" id="prerequisite">
                     <p id="pt">
-{% if min_ios and max_ios %}
-                        Compatible with iOS {{ min_ios }} to {{ max_ios }}
-{% elif min_ios %}
-                        Compatible with iOS {{ min_ios }} +
-{% endif %}
+                        {{ ios_label }}
                     </p>
                 </div>
             </li>

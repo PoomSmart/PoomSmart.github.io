@@ -2,7 +2,7 @@
   {
     "file": "letmeblock",
     "title": "LetMeBlock",
-    "min_ios": "9.0",
+    "ios": "[9.0,)",
     "changes": [
       {
         "version": "1.3.0",
@@ -20,14 +20,14 @@
   {
     "file": "smoothkb",
     "title": "SmoothKB",
-    "min_ios": "7.0",
+    "ios": "[7.0,)",
     "no_changelog": true,
     "description": "<p>Fade animation across keyboard typing.</p>"
   },
   {
     "file": "pencilpro",
     "title": "Pencil Pro",
-    "min_ios": "9.0",
+    "ios": "[9.0,)",
     "changes": [
       {
         "version": "1.0.0",
@@ -39,14 +39,14 @@
   {
     "file": "pearltracking",
     "title": "Pearl Tracking",
-    "min_ios": "13.0",
+    "ios": "[13.0,)",
     "no_changelog": true,
     "description": "<ol><li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li><li>Enable Assistive Touch</li><li>Invoke Control Center</li><li><b>Get some painkiller</b></li><li>Turn on Pearl Tracking</li><li>???</li></ol>"
   },
   {
     "file": "hdavatar",
     "title": "HD Avatar",
-    "min_ios": "11.0",
+    "ios": "[11.0,)",
     "inline_source_code": true,
     "description": "<p>Default size of Animoji/Memoji stickers is no more than 500px * 500px and the stickers look too pixellated. This tweak will simply double the size.</p>",
     "changes": [
@@ -59,7 +59,7 @@
   {
     "file": "igclassiclayout",
     "title": "IGClassicLayout",
-    "min_ios": "13.0",
+    "ios": "[13.0,)",
     "tintColor": "orange",
     "description": "<p>Restores the original-ish buttons layout in Instagram.</p>",
     "changes": [
@@ -72,7 +72,7 @@
   {
     "file": "igetmorechoices",
     "title": "IGetMoreChoices",
-    "min_ios": "13.0",
+    "ios": "[13.0,)",
     "tintColor": "orange",
     "screenshots": true,
     "link_source_code": true,
@@ -82,10 +82,8 @@
   {
     "file": "lpmenabler",
     "title": "LPM Enabler",
-    "min_ios": "9.0",
-    "max_ios": "14.8.1",
+    "ios": "[9.0, 14.8.1]!",
     "tintColor": "yellow",
-    "strict_range": true,
     "inline_source_code": true,
     "no_changelog": true,
     "description": "<p>Natively enables Low Power Mode on your iPod and iPad. You can add Lower Power Mode module to Control Center and you can toggle it from inside Battery settings. You absolutely don't need this tweak for your iPhone or any devices running iOS 15 and above.</p>"
@@ -93,7 +91,7 @@
   {
     "file": "batteryhealthenabler",
     "title": "Battery Health Enabler",
-    "min_ios": "11.3",
+    "ios": "[11.3,)",
     "featured_as_banner": true,
     "no_changelog": true,
     "description": "<p>Natively enables Battery Health feature on your iPod and iPad, though the only use case is to see the current maximum capacity of your battery. Nothing else works on non-iPhone technically.</p>"
@@ -101,7 +99,7 @@
   {
     "file": "cahighfps",
     "title": "CAHighFPS",
-    "min_ios": "7.0",
+    "ios": "[7.0,)",
     "description": "<p>Makes CoreAnimation apps use the highest available FPS (same as your device's refresh rate).            Head to Settings > CAHighFPS and enable the tweak for each of your apps. Read <a target=\"_blank\" href=\"https://github.com/PoomSmart/CAHighFPS\">here</a> for how the tweak works under-the-hood.            Tested on these apps:</p>",
     "extra_content": "<ol><li>Asphalt 8/9 (1.1.0+)</li><li>Safari Browser (1.0.3+)</li><li>Where's My Water 2</li><li>Plants vs Zombies (HD)</li><li>Plants vs Zombies 2</li><li>Bejeweled Blitz</li><li>Bejeweled Classic (HD)</li><li>Bloons TD 5</li><li>Tiny Wings</li><li>Real Racing 3</li><li>Jelly Defense</li></ol>",
     "changes": [
@@ -140,7 +138,7 @@
   {
     "file": "injectionfoundation",
     "title": "Injection Foundation",
-    "min_ios": "7.0",
+    "ios": "[7.0,)",
     "description": "<p>Injects UIKit tweaks into Foundation apps. Check out the source code for how it works and the motivation behinds on <a target=\"_blank\" href=\"https://github.com/PoomSmart/Injection-Foundation\">GitHub</a>.</p>",
     "changes": [
       {
@@ -152,22 +150,21 @@
   {
     "file": "replaykitmax",
     "title": "ReplayKit Max",
-    "min_ios": "9.0",
+    "ios": "[9.0,)",
     "no_changelog": true,
     "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
   },
   {
     "file": "advancedmapenabler",
     "title": "Advanced Map Enabler",
-    "min_ios": "15.0",
+    "ios": "[15.0,)",
     "no_changelog": true,
     "description": "<p>Enables Advanced Map (3D globe) on unsupported iPhones/iPods/iPads running iOS 15+.</p>"
   },
   {
     "file": "latesttranslate",
     "title": "LatestTranslate",
-    "min_ios": "14.0",
-    "max_ios": "16.7.16",
+    "ios": "[14.0, 17.0)",
     "description": "<p>Makes Apple's Translate app support all languages to date. For example, making all iOS 17 languages available to iOS 15 and 16. If the tweak doesn't work, restart Translate app and ensure you have internet connection. If to no avail, you may reinstall this tweak.</p>",
     "changes": [
       {
@@ -179,7 +176,7 @@
   {
     "file": "osanalytics",
     "title": "OSAnalytics",
-    "min_ios": "13.0",
+    "ios": "[13.0,)",
     "description": "<p>Enables the private com.apple.OSAnalytics diagnostics entitlement so that the crash logs will include application-specific system logs whenever applicable. This is very useful for the developers to debug why their tweaks really crash on their consumer devices by looking at the crash logs that are more informative. This package has been uploaded to this repository with the permission of the original author dlevi309.<br /><a target=\"_blank\" href=\"https://github.com/PoomSmart/OSAnalytics\">Source code</a></p>",
     "changes": [
       {
@@ -199,8 +196,7 @@
   {
     "file": "sfsymbols",
     "title": "SFSymbols",
-    "min_ios": "13.0",
-    "max_ios": "17.7.11",
+    "ios": "[13.0, 18.0)",
     "description": "<p>Backports latest SF Symbols to your device.</p><br/><p>For developers who want to benefit from the latest SF Symbols in their app, include <code>com.ps.sfsymbols</code> in your control file.</p><br/><p>There are two SFSymbols packages that have to be used together:</p>",
     "extra_content": "<ol><li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li><li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li></ol>",
     "changes": [
@@ -233,8 +229,7 @@
   {
     "file": "noswiftatruntime",
     "title": "NoSwiftAtRuntime",
-    "min_ios": "13.0",
-    "max_ios": "16.7.16",
+    "ios": "[13.0, 17.0)",
     "description": "<p>Avoids crashing when performing runtime instrumentation on apps with incompatible Swift classes (using recent Swift compiler versions).</p><p>You can go to Settings > NoSwiftAtRuntime to enable the tweak per app.</p><p>Reference: <a target=\"_blank\" href=\"https://github.com/swiftlang/swift/issues/72657\">Swift issue #72657</a></p>",
     "changes": [
       {
@@ -250,7 +245,7 @@
   {
     "file": "uncappedavplayer",
     "title": "UncappedAVPlayer",
-    "min_ios": "11.0",
+    "ios": "[11.0,)",
     "no_changelog": true,
     "description": "<p>Bypasses the 2x playback speed cap in FigStreamPlayer (AVPlayer)</p>"
   }
