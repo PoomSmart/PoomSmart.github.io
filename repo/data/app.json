@@ -50,15 +50,14 @@
     "file": "polyfills",
     "title": "Polyfills",
     "ios": "[8.0,)",
-    "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p><p>Avoid installing version 1.5.0 to 1.9.0 on iOS 15 and lower as there is a high CPU usage bug.</p>",
+    "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
     "changes": [
       {
         "version": "2.29.2",
-        "details": "Fixed structuredClone polyfill not working at all (< 15.4, regression of 2.28.2)"
-      },
-      {
-        "version": "2.29.1",
-        "details": "Improve viewport relative units polyfill (< 16.4, contributed by @mgefimov)"
+        "details": [
+          "Fixed structuredClone polyfill not working at all (< 15.4, regression of 2.28.2)",
+          "Improved viewport relative units polyfill (< 16.4, contributed by @mgefimov)"
+        ]
       },
       {
         "version": "2.29.0",
@@ -207,79 +206,35 @@
       {
         "version": "2.12.0",
         "details": [
-          "Added support for priority scripts (loaded before any other scripts)",
-          "Added navigator.hardwareConcurrency polyfill (< 15.4)",
-          "Added support for smooth behavior in Scrolling API (< 15.4)"
-        ]
-      },
-      {
-        "version": "2.11.0",
-        "details": [
-          "Improved safety checks in Document Fullscreen API polyfill (< 16.4)",
-          "Added Crypto.subtle polyfill (< 11.0)"
-        ]
-      },
-      {
-        "version": "2.10.0",
-        "details": [
-          "Added Document Fullscreen API polyfill (< 16.4)",
-          "Fixed broken functionalities in BroadcastChannel polyfill (< 15.4)"
-        ]
-      },
-      {
-        "version": "2.9.0",
-        "details": [
-          "Added Float16Array polyfill (< 18.2)",
-          "Fixed CompressionStream polyfill not working in some cases (< 16.4)",
-          "Improved BroadcastChannel polyfill error handling (< 15.4)"
-        ]
-      },
-      {
-        "version": "2.8.1",
-        "details": "Spoofed iOS version to 16.3 for devices running under iOS 16.3"
-      },
-      {
-        "version": "2.8.0",
-        "details": [
-          "Added support for extended ISO 8601 date format (< 16.0)",
-          "Removed `max-width: 100% from viewport CSS workaround"
-        ]
-      },
-      {
-        "version": "2.7.0",
-        "details": [
-          "Added structuredClone polyfill (< 15.4)",
-          "Added String.matchAll polyfill (< 13.0)",
-          "Added globalThis polyfill (< 12.1)",
-          "Added Reflect polyfill (< 10.0)",
-          "Added Object.getOwnPropertyDescriptors, String.padStart and String.padEnd polyfills (< 10.0)",
-          "Added Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}, Number.isInteger and Number.isSafeInteger polyfills (< 9.0)"
-        ]
-      },
-      {
-        "version": "2.5.0",
-        "details": [
-          "Included iOS 15.2 - 15.3 for viewport CSS workaround",
-          "Made viewport CSS workaround apply to only mobile devices",
           "Added Array.flat, String.trimStart, String.trimEnd and Symbol.description polyfills (< 12.0)",
-          "Added Promise.finally polyfill (< 11.1)",
-          "Simplified NodeList.forEach polyfill (< 10.0)"
-        ]
-      },
-      {
-        "version": "2.4.0",
-        "details": [
-          "Added RegExp.escape polyfill (< 18.2)",
           "Added Array.toSorted, Array.toSpliced and Array.with polyfills (< 16.0)",
-          "Added Promise.any polyfill (< 14.0)",
+          "Added Crypto.subtle polyfill (< 11.0)",
+          "Added Document Fullscreen API polyfill (< 16.4)",
+          "Added Float16Array polyfill (< 18.2)",
+          "Added globalThis polyfill (< 12.1)",
+          "Added navigator.hardwareConcurrency polyfill (< 15.4)",
+          "Added Number.{EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,NEGATIVE_INFINITY,POSITIVE_INFINITY}, Number.isInteger and Number.isSafeInteger polyfills (< 9.0)",
           "Added Object.fromEntries polyfill (< 12.1)",
+          "Added Object.getOwnPropertyDescriptors, String.padStart and String.padEnd polyfills (< 10.0)",
+          "Added Promise.any polyfill (< 14.0)",
+          "Added Promise.finally polyfill (< 11.1)",
+          "Added Reflect polyfill (< 10.0)",
+          "Added RegExp (Polyfills) tweak as a dependency",
+          "Added RegExp.escape polyfill (< 18.2)",
+          "Added String.matchAll polyfill (< 13.0)",
+          "Added structuredClone polyfill (< 15.4)",
+          "Added support for extended ISO 8601 date format (< 16.0)",
+          "Added support for priority scripts (loaded before any other scripts)",
+          "Added support for smooth behavior in Scrolling API (< 15.4)",
+          "Fixed broken functionalities in BroadcastChannel polyfill (< 15.4)",
+          "Fixed CompressionStream polyfill not working in some cases (< 16.4)",
           "Fixed Element.matches compatibility workaround still not working correctly (< 15.6)",
-          "Included iOS 15.0 - 15.1 for viewport CSS workaround"
+          "Improved BroadcastChannel polyfill error handling (< 15.4)",
+          "Improved safety checks in Document Fullscreen API polyfill (< 16.4)",
+          "Included iOS 15.0 - 15.3 for viewport CSS workaround",
+          "Simplified NodeList.forEach polyfill (< 10.0)",
+          "Spoofed iOS version to 16.3 for devices running under iOS 16.3"
         ]
-      },
-      {
-        "version": "2.3.1",
-        "details": "Added RegExp Lookbehind (Polyfills) tweak as a dependency"
       },
       {
         "version": "2.3.0",
@@ -426,10 +381,6 @@
       {
         "version": "1.3.0",
         "details": "Improved the polyfill in general"
-      },
-      {
-        "version": "1.2.4",
-        "details": "Blacklisted www.americanexpress.com due to seemingly unfixable issue"
       }
     ]
   },
