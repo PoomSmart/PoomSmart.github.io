@@ -228,6 +228,30 @@ class DepictionTests(unittest.TestCase):
 
         generate_depictions.assert_called_once_with([], strict=False)
 
+    def test_minify_assets_writes_minified_outputs(self):
+        import minify_assets
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_path = Path(tmp_dir)
+            misc_dir = tmp_path / "misc"
+            assets_dir = tmp_path / "assets"
+            misc_dir.mkdir()
+            assets_dir.mkdir()
+            (misc_dir / "iosver.js").write_text("var x = 1;\n", encoding="utf-8")
+            (assets_dir / "emojiport.js").write_text("const y = 2;\n", encoding="utf-8")
+            (assets_dir / "misc.css").write_text(".foo { color: red; }\n", encoding="utf-8")
+            (assets_dir / "site.css").write_text(".bar { color: blue; }\n", encoding="utf-8")
+            (assets_dir / "emojiport.css").write_text(".baz { color: green; }\n", encoding="utf-8")
+
+            with mock.patch.object(minify_assets, "SITE_ROOT", tmp_path):
+                minify_assets.main()
+
+            self.assertEqual((misc_dir / "iosver.min.js").read_text(encoding="utf-8"), "var x=1;\n")
+            self.assertEqual((assets_dir / "emojiport.min.js").read_text(encoding="utf-8"), "const y=2;\n")
+            self.assertEqual((assets_dir / "misc.min.css").read_text(encoding="utf-8"), ".foo{color:red}\n")
+            self.assertEqual((assets_dir / "site.min.css").read_text(encoding="utf-8"), ".bar{color:blue}\n")
+            self.assertEqual((assets_dir / "emojiport.min.css").read_text(encoding="utf-8"), ".baz{color:green}\n")
+
 
 if __name__ == "__main__":
     unittest.main()

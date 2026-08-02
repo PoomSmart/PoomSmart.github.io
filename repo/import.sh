@@ -5,6 +5,8 @@ set -euo pipefail
 # brew install dpkg zstd lz4
 
 # rm -f depictions/* sileodepictions/*
+echo "Minifying assets..."
+uv run python minify_assets.py
 echo "Importing depictions..."
 uv run python main.py
 echo "Validating deb coverage..."

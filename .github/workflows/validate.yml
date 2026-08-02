@@ -29,6 +29,12 @@ jobs:
       - name: Run smoke tests
         run: uv run --directory repo python -m unittest discover -s tests
 
+      - name: Minify assets
+        run: uv run --directory repo python minify_assets.py
+
+      - name: Verify minified assets are committed
+        run: git diff --exit-code -- misc assets
+
       - name: Regenerate depictions
         run: uv run --directory repo python main.py
 

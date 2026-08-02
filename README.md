@@ -27,6 +27,14 @@ Install Python dependencies:
 uv sync --directory repo
 ```
 
+Minify JavaScript and CSS for production:
+
+```bash
+uv run --directory repo python minify_assets.py
+```
+
+This writes `.min.js` and `.min.css` files from their source files under `misc/` and `assets/`. Production pages load the minified versions.
+
 Generate depiction HTML and Sileo JSON:
 
 ```bash
@@ -66,5 +74,6 @@ cd repo
 
 ## Notes
 
+- Source assets live in `misc/iosver.js` and `assets/*.{js,css}`. Run `minify_assets.py` after editing them so the committed `.min.js` and `.min.css` files stay in sync.
 - Generated depictions are committed intentionally because they are published directly from this repository.
 - The GitHub Actions workflow validates that depiction generation stays reproducible and that committed outputs are up to date.
