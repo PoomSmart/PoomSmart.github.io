@@ -4,6 +4,7 @@ __pycache__
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
+node_modules/
 repo/.venv/
 repo/.python-version
 repo/output.log

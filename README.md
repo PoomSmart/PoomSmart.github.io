@@ -16,24 +16,26 @@ The metadata source of truth now lives in `repo/data/*.json`. The legacy modules
 ## Requirements
 
 - Python 3.11+
+- Node.js 22+ (for ES5 JavaScript builds)
 - `uv` for dependency management
 - For full package index rebuilds on macOS: `brew install dpkg zstd lz4`
 
 ## Build Depictions
 
-Install Python dependencies:
+Install dependencies:
 
 ```bash
+npm ci
 uv sync --directory repo
 ```
 
-Minify JavaScript and CSS for production:
+Build production JavaScript and CSS:
 
 ```bash
 uv run --directory repo python minify_assets.py
 ```
 
-This writes `.min.js` and `.min.css` files from their source files under `misc/` and `assets/`. Production pages load the minified versions.
+JavaScript is transpiled to ES5 with Babel, minified with Terser, and validated with acorn before being committed. CSS is minified with rcssmin. Production pages load the committed `.min.js` and `.min.css` files under `misc/` and `assets/`.
 
 Generate depiction HTML and Sileo JSON:
 
@@ -74,6 +76,7 @@ cd repo
 
 ## Notes
 
+- GitHub Pages (`index.html`, `emojiport.html`) use Bootstrap 3.4 for compatibility with iOS 5+.
 - Source assets live in `misc/iosver.js` and `assets/*.{js,css}`. Run `minify_assets.py` after editing them so the committed `.min.js` and `.min.css` files stay in sync.
 - Generated depictions are committed intentionally because they are published directly from this repository.
 - The GitHub Actions workflow validates that depiction generation stays reproducible and that committed outputs are up to date.

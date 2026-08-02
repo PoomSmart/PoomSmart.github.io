@@ -9,5 +9,4 @@ dependencies = [
     "maturin>=1.8.6",
     "minify-html>=0.16.4",
     "rcssmin>=1.2.2",
-    "rjsmin>=1.2.5",
 ]

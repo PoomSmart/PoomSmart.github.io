@@ -20,6 +20,14 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v6
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install JavaScript build dependencies
+        run: npm ci
+
       - name: Sync Python dependencies
         run: uv sync --frozen --directory repo
 

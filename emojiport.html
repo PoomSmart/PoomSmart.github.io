@@ -6,7 +6,7 @@
     <title>Ultimate Guide for EmojiPort</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Installation guide, compatibility table, and troubleshooting notes for EmojiPort.">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/site.min.css">
     <link rel="stylesheet" href="assets/emojiport.min.css">
 </head>
@@ -14,13 +14,13 @@
 <body class="page-shell">
     <main class="container mt-4 mb-5">
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h1>EmojiPort</h1>
                 <p>A set of open-source tweaks that enable latest emojis on your device, developed by
                     <a href="https://x.com/PoomSmart">PoomSmart</a>.</p>
                 <p>What to theme your emojis? See <a href="https://github.com/PoomSmart/EmojiFonts/releases">EmojiFonts</a>.</p>
             </div>
-            <div class="col-12 text-center">
+            <div class="col-xs-12 text-center">
                 <div class="hero-gallery" aria-label="EmojiPort screenshots">
                     <img class="img-fluid hero-gallery-image" src="https://poomsmart.github.io/web/8.1.png" alt="Latest emojis on iOS 8.1">
                     <img class="img-fluid hero-gallery-image" src="https://poomsmart.github.io/web/8.4.png" alt="Latest emojis on iOS 8.4">
@@ -33,12 +33,12 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 id="compatibility">Compatibility and Dependencies</h2>
                 <hr>
                 <div class="guide-table-wrap">
                 <table class="table table-bordered text-center emoji-guide-table">
-                    <caption class="visually-hidden">EmojiPort compatibility and dependency matrix by iOS version.</caption>
+                    <caption class="sr-only">EmojiPort compatibility and dependency matrix by iOS version.</caption>
                     <colgroup>
                         <col class="guide-first-column">
                         <col span="6">
@@ -188,7 +188,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 id="explain-tweaks">Which does what?</h2>
                 <hr>
                 <p>EmojiPort adds latest emojis on your emoji keyboard. It may need the following other tweaks depending on the iOS version you are on to make everything work as intended.</p>
@@ -233,7 +233,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 class="text-accent-red" id="read-first">Read first about EmojiPort</h2>
                 <hr>
                 <p>Emojis are available on iOS through a keyboard. All emojis you see on the keyboard are predefined on iOS. Newer iOS versions usually include more emojis, thus the users at the lower versions
@@ -244,7 +244,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 id="how-to-install">How to install EmojiPort?</h2>
                 <hr>
                 <section class="emoji-tldr" aria-labelledby="emojiport-tldr">
@@ -269,7 +269,7 @@
                     Also, <b>[UVERSION]</b> indicates the Unicode version of those emojis, usually falls behind the iOS version, for example: <b>17.0</b>.
                 </p>
             </div>
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 class="text-accent-red" id="get-font">1. Get the latest emoji font</h2>
                 <h3 class="text-accent-blue">Option #1: EmojiFontManager (iOS 6+)</h3>
                 <h4>Installation</h4>
@@ -348,10 +348,11 @@
                 </ol>
                 <h4 id="emoji-font-finder">Where is my emoji font?</h4>
                 <form class="mb-2 emoji-guide-form">
-                    <div class="row g-3 align-items-center">
-                        <div class="col-auto">
-                            <label for="ios" class="form-label">iOS version</label>
-                            <select id="ios" class="form-select" aria-label="Your iOS version">
+                    <div class="row emoji-guide-form-row">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-group">
+                            <label for="ios">iOS version</label>
+                            <select id="ios" class="form-control" aria-label="Your iOS version">
                                 <option value="0" selected>Your iOS version</option>
                                 <option value="1">5.0 - 8.1</option>
                                 <option value="2">8.2</option>
@@ -359,21 +360,26 @@
                                 <option value="4">10.0 - 13.7</option>
                                 <option value="5">14.0+</option>
                             </select>
+                            </div>
                         </div>
-                        <div class="col-auto">
-                            <label for="device" class="form-label">Device model</label>
-                            <select id="device" class="form-select" aria-label="Your device model">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="form-group">
+                            <label for="device">Device model</label>
+                            <select id="device" class="form-control" aria-label="Your device model">
                                 <option value="0" selected>Your device model</option>
                                 <option value="1">iPhone SE (1st gen) or iPhone 6s or iPhone 6s Plus</option>
                                 <option value="2">Any other non-retina devices</option>
                                 <option value="3">Any other retina devices</option>
                             </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="row align-items-center">
-                        <div class="col-12">
-                            <label for="emojifontpath" class="form-label">Emoji font path</label>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                            <label for="emojifontpath">Emoji font path</label>
                             <input type="text" class="form-control emoji-finder-result" id="emojifontpath" value="Path will be displayed here" readonly>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -395,7 +401,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 id="troubleshooting">Troubleshooting</h2>
                 <hr>
                 <h3>Common mistake</h3>
@@ -404,12 +410,12 @@
                     <b>The original emoji font won't contain any new emojis</b>. This is why they experience emojis not displaying correctly.
                 </p>
             </div>
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h3>Issues with fonts</h3>
                 <p>Some people don't know what they did. The emoji font, if installed manually, must be in the correct location and with the correct file name and extension. Doing anything wrong will cause the emoji keyboard to be either full of blanks, full of "U" symbols or full of "?" symbols.</p>
                 <div class="guide-table-wrap">
                 <table id="fontlocations" class="table table-bordered text-center emoji-guide-table">
-                    <caption class="visually-hidden">Emoji font file locations by iOS version and device type.</caption>
+                    <caption class="sr-only">Emoji font file locations by iOS version and device type.</caption>
                     <colgroup>
                         <col class="guide-font-column">
                         <col span="10">
@@ -507,7 +513,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            <div class="col-xs-12">
                 <h2 id="known-issues">Known issues</h2>
                 <hr>
                 <h3>EmojiPort (iOS 5.1)</h3>
@@ -549,7 +555,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-xs-12 text-center">
                 <div class="hero-gallery" aria-label="Additional EmojiPort screenshots">
                     <img class="img-fluid hero-gallery-image" src="https://poomsmart.github.io/web/6.1.png" alt="Latest emojis on iOS 6.1">
                     <img class="img-fluid hero-gallery-image" src="https://poomsmart.github.io/web/7.1.png" alt="Latest emojis on iOS 7.1">
@@ -559,7 +565,6 @@
         </div>
         <br/>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="assets/emojiport.min.js"></script>
 </body>
 

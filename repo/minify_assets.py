@@ -1,14 +1,12 @@
+import subprocess
+import sys
 from pathlib import Path
 
 import rcssmin
-import rjsmin
 
-SITE_ROOT = Path(__file__).resolve().parent.parent
-
-JS_FILES = (
-    ("misc/iosver.js", "misc/iosver.min.js"),
-    ("assets/emojiport.js", "assets/emojiport.min.js"),
-)
+REPO_ROOT = Path(__file__).resolve().parent
+SITE_ROOT = REPO_ROOT.parent
+BUILD_JS = REPO_ROOT / "build_js.mjs"
 
 CSS_FILES = (
     ("assets/misc.css", "assets/misc.min.css"),
@@ -17,28 +15,25 @@ CSS_FILES = (
 )
 
 
-def minify_js(source_path, output_path):
-    source = source_path.read_text(encoding="utf-8")
-    output = rjsmin.jsmin(source, keep_bang_comments=True)
-    output_path.write_text(output + "\n", encoding="utf-8")
-
-
 def minify_css(source_path, output_path):
     source = source_path.read_text(encoding="utf-8")
     output = rcssmin.cssmin(source, keep_bang_comments=True)
     output_path.write_text(output + "\n", encoding="utf-8")
 
 
+def build_js():
+    if not BUILD_JS.exists():
+        raise FileNotFoundError(f"JavaScript build script not found: {BUILD_JS}")
+
+    subprocess.run(
+        ["node", str(BUILD_JS)],
+        cwd=REPO_ROOT,
+        check=True,
+    )
+
+
 def main():
-    for source_rel, output_rel in JS_FILES:
-        source_path = SITE_ROOT / source_rel
-        output_path = SITE_ROOT / output_rel
-
-        if not source_path.exists():
-            raise FileNotFoundError(f"JavaScript source not found: {source_path}")
-
-        minify_js(source_path, output_path)
-        print(f"Minified {source_rel} -> {output_rel}")
+    build_js()
 
     for source_rel, output_rel in CSS_FILES:
         source_path = SITE_ROOT / source_rel
@@ -52,4 +47,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except subprocess.CalledProcessError as error:
+        sys.exit(error.returncode)
