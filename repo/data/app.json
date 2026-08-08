@@ -152,7 +152,7 @@
       {
         "version": "2.22.1",
         "details": [
-          "Added youtube.com/tv to User Agent spoofing blacklist so that YTLite (verback2308) signing in works"
+          "Added youtube.com/tv to User Agent spoofing blacklist so that Opaline signing in works"
         ]
       },
       {
