@@ -1370,6 +1370,38 @@ Depiction: https://poomsmart.github.io/repo/depictions/chatgptweblegacycompat.ht
 Name: ChatGPTWebLegacyCompat
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/chatgptweblegacycompat.json
 
+Package: com.ps.coreroutine14-15fix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/system/com.ps.coreroutine14-15fix_1.0.0_iphoneos-arm64.deb
+Size: 3092
+MD5sum: 6b9e03f9f872f21507457e3c37727153
+SHA1: 7317c06f8f967f066397e253ce1429e1c93c7c26
+SHA256: 292b79b02ade7d3a8b92cdb8bd866a87508897adbcfb3b96ace93ab2890db8aa
+Section: Tweaks
+Description: Prevents routined crashes during Location Services data restore on iOS 14 and 15.
+Author: PoomSmart
+Name: CoreRoutine 14/15 Fix
+
+Package: com.ps.coreroutine14-15fix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 16.0)
+Filename: ./debs/system/com.ps.coreroutine14-15fix_1.0.0_iphoneos-arm.deb
+Size: 3012
+MD5sum: d1133a2f8d6118ee39b2cb98a7ff57c9
+SHA1: 930f59c534138a339ddbf4c8c1d677d3b36787f6
+SHA256: 338e347db17e825fbe4f07225502ca31cf9a67e3bb93df824e2260c10ff9d3ae
+Section: Tweaks
+Description: Prevents routined crashes during Location Services data restore on iOS 14 and 15.
+Author: PoomSmart
+Name: CoreRoutine 14/15 Fix
+
 Package: com.ps.customsecheaders
 Version: 1.0.0
 Architecture: iphoneos-arm64
