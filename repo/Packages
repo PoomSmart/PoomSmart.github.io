@@ -950,6 +950,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
 Name: CAHighFPS
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
 
+Package: com.ps.cahighfps
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/app/com.ps.cahighfps_1.4.0_iphoneos-arm64.deb
+Size: 7630
+MD5sum: 49e6cd96f152f998264d6c147989b70a
+SHA1: 232dfa125c394e2bd00e5670aa5e1533597ac40a
+SHA256: 4eb1cbb2fe422e23337d274ba23ed9cfae8caaf88bbb8f969635d350795d5e49
+Section: Tweaks
+Description: Makes CoreAnimation apps use the highest available FPS.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
+Package: com.ps.cahighfps
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 408
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/app/com.ps.cahighfps_1.4.0_iphoneos-arm.deb
+Size: 11204
+MD5sum: 7296a676206a50d44204f7629de79405
+SHA1: 212decb62d1ef9f8d86fb5e3d309c32c7e06c243
+SHA256: 855c59fcc5e812d4c3aeda43d157493f3bce902a94a1a417bb43fef63348045b
+Section: Tweaks
+Description: Makes CoreAnimation apps use the highest available FPS.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
 Package: com.ps.calleridfs
 Version: 0.0.2
 Architecture: iphoneos-arm
