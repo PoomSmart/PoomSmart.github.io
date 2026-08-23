@@ -6962,6 +6962,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
 Name: Polyfills
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
 
+Package: com.ps.polyfills
+Version: 2.30.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 1640
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp (>= 1.3.1), com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.30.0_iphoneos-arm64.deb
+Size: 260138
+MD5sum: 3cb384fe937dde02ef5fef137a789555
+SHA1: 3b7becee988040aebbe2e6a39dedeb708ff85cc6
+SHA256: 84b1d3a68a3824221cd323f008aa252ab373bd240246c88c36bf663a5596e51c
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfills
+Version: 2.30.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1768
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexp (>= 1.3.1), com.ps.customsecheaders | firmware (>= 16.4)
+Filename: ./debs/app/polyfills/com.ps.polyfills_2.30.0_iphoneos-arm.deb
+Size: 306132
+MD5sum: 72d3f55b8f05ced6d997f57fda2daffb
+SHA1: cb6be9fdec9116f6ebb58933023b481f90cca017
+SHA256: 5fcd4d932ea7eb20f86125b2e3bcc7b761bd1cde2d08e66727f3a86e8ee23424
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
 Package: com.ps.polyfillscc
 Version: 1.0.0
 Architecture: iphoneos-arm
