@@ -53,6 +53,18 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
     "changes": [
       {
+        "version": "2.31.0",
+        "details": [
+          "Added Object.is, Array.of, Array.copyWithin, Array.values, String.repeat, String.fromCodePoint, Math.sign, Object.setPrototypeOf and Element.matches polyfills (< 9.0)",
+          "Added -webkit- prefixes for unprefixed flexbox and transform CSS (< 9.0)",
+          "Added ParentNode.append/prepend and ChildNode.before/after/replaceWith polyfills (< 10.0)",
+          "Added Element.toggleAttribute polyfill (< 12.0)",
+          "Added String.at and TypedArray at/findLast/findLastIndex polyfills (< 15.4)",
+          "Added TypedArray toReversed/toSorted/with polyfills (< 16.0)",
+          "Added String.isWellFormed and toWellFormed polyfills (< 16.4)"
+        ]
+      },
+      {
         "version": "2.30.0",
         "details": [
           "Improved iOS 8 compatibility",
