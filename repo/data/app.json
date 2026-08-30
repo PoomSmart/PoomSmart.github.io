@@ -53,6 +53,18 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
     "changes": [
       {
+        "version": "2.32.0",
+        "details": [
+          "Added URLSearchParams and fetch/Headers/Request/Response polyfills (< 10.3)",
+          "Added TextEncoder/TextDecoder polyfills (< 10.3) and TextEncoder.encodeInto (< 14.5)",
+          "Added Element.replaceChildren polyfill (< 14.0)",
+          "Added queueMicrotask polyfill (< 12.1)",
+          "Added AggregateError polyfill and made Promise.any reject with it (< 14.0)",
+          "Added AbortSignal.abort/timeout/any static methods (< 15.0 / 16.0 / 17.4)",
+          "Added WeakMap.getOrInsert and getOrInsertComputed polyfills (< 26.2)"
+        ]
+      },
+      {
         "version": "2.31.0",
         "details": [
           "Added Object.is, Array.of, Array.copyWithin, Array.values, String.repeat, String.fromCodePoint, Math.sign, Object.setPrototypeOf and Element.matches polyfills (< 9.0)",
