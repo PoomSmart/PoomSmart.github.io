@@ -559,6 +559,10 @@
     "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
     "changes": [
       {
+        "version": "2.3.7",
+        "details": "Fixed bottom buttons not showing for some users (contributed by @JeffreyCA)"
+      },
+      {
         "version": "2.3.6",
         "details": "Fixed text overlay buttons not displaying text properly on recent YouTube versions"
       },
