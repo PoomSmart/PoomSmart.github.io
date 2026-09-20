@@ -470,6 +470,18 @@
     "description": "<p>Google Noto Color emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
   },
   {
+    "file": "notoemoji3defm",
+    "title": "Noto Color Emoji 3D Unicode 17.0 (EFM)",
+    "screenshots": true,
+    "changes": [
+      {
+        "version": "17.0.0",
+        "details": "Initial release"
+      }
+    ],
+    "description": "<p>Google Noto Color 3D emoji font for EmojiFontManager (Unicode 17.0).</p><br/><p>Refer to <a target=\"_blank\" href=\"https://github.com/googlefonts/noto-emoji/blob/main/LICENSE\">here</a> for licensing.</p>"
+  },
+  {
     "file": "notoemojicursedefm",
     "title": "Noto Color Emoji Cursed Unicode 15.1 (EFM)",
     "changes": [

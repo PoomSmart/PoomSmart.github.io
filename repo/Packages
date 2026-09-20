@@ -5096,6 +5096,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/noswiftatruntime.html
 Name: NoSwiftAtRuntime
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/noswiftatruntime.json
 
+Package: com.ps.notoemoji3defm
+Version: 17.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemoji3defm_17.0.0_iphoneos-arm64.deb
+Size: 752
+MD5sum: 55e5231e7797d9cc8e420d9365acc1f6
+SHA1: 6d349868ca754d571408575642f99da2e9af2765
+SHA256: 9c169e9e11ecdf02d772aa6d5057d6442a1885ba57a6b60e6ed7154f03bf3c6d
+Section: Fonts (EFM)
+Description: Unicode 17.0 Google Noto Color Emoji 3D (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemoji3defm.html
+Name: Noto Color Emoji 3D Unicode 17.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemoji3defm.json
+
+Package: com.ps.notoemoji3defm
+Version: 17.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 0
+Depends: com.ps.efmfontdl
+Filename: ./debs/emojifont/com.ps.notoemoji3defm_17.0.0_iphoneos-arm.deb
+Size: 748
+MD5sum: 99645c969bc6f8347d1f1c2ad0f178e2
+SHA1: 8eab49886badd1a78b90ded2bcdf81ee1c56fa76
+SHA256: 37fb17ca69fe9cf7705dd7165fb157afb2f40bc215a38d6846fa8726a14d827a
+Section: Fonts (EFM)
+Description: Unicode 17.0 Google Noto Color Emoji 3D (EFM)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/notoemoji3defm.html
+Name: Noto Color Emoji 3D Unicode 17.0 (EFM)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/notoemoji3defm.json
+
 Package: com.ps.notoemojicursedefm
 Version: 15.1.0
 Architecture: iphoneos-arm
