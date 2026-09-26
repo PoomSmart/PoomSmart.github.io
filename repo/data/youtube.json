@@ -986,6 +986,10 @@
     "description": "<p>Auto-selects the video quality of choice in iOS YouTube app.</p>",
     "changes": [
       {
+        "version": "1.0.10",
+        "details": "Added tr localization"
+      },
+      {
         "version": "1.0.9",
         "details": "Fixed possible crash when playing a video"
       },
