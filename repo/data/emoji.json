@@ -332,6 +332,7 @@
   {
     "file": "emojifontefm",
     "title": "AppleColorEmoji Unicode 17.0 (EFM)",
+    "screenshots": true,
     "changes": [
       {
         "version": "17.0.0",
