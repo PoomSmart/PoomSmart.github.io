@@ -6,6 +6,13 @@
     "description": "<p><b>NOTICE: The tweak has been deprecated. Use Reynard browser to access the website instead.</b></p><p>Makes GitHub website more accessible on iOS 16.3 and lower by injecting JS and CSS with unsupported syntax removed.</p>",
     "changes": [
       {
+        "version": "2.5.0",
+        "details": [
+          "Requires Polyfills version 2.34.0 or higher",
+          "Removed most JS and CSS according to what the newest Polyfills tweak can fix"
+        ]
+      },
+      {
         "version": "2.4.0",
         "details": "Updated JS and CSS for the recent GitHub changes"
       }
@@ -52,6 +59,23 @@
     "ios": "[8.0,)",
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
     "changes": [
+      {
+        "version": "2.34.0",
+        "details": [
+          "Note: This release is heavily inspired by SafariModernizer by T4MAG0",
+          "Added a native bridge for cross-origin CSS fetches and script eval under the page CSP (iOS 14+)",
+          "Rewrote regex lookbehind and function name(name) so those scripts parse (< 16.4)",
+          "Re-executed classic scripts that use class static blocks (< 16.4)",
+          "Added import maps (< 16.4)",
+          "Added declarative shadow DOM, ElementInternals and adoptedStyleSheets polyfills (< 16.4)",
+          "Added Popover polyfill (< 17.0) and invoker commands polyfill (< 26.2)",
+          "Fixed CSP nonce scripts that fail to run (< 15.4)",
+          "Added stylesheet :has() and @property polyfills (< 15.4)",
+          "Added overflow: clip (< 16.0), color-mix() (< 16.2), CSS nesting (< 17.2), light-dark() (< 17.5) and anchor positioning (< 26.0)",
+          "CSS polyfills now apply inside shadow DOM",
+          "Fixed edge cases in existing CSS polyfills"
+        ]
+      },
       {
         "version": "2.33.0",
         "details": [
