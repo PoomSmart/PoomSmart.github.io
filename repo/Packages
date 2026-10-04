@@ -10238,6 +10238,48 @@ Name: YouPiP
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
 
 Package: com.ps.youpip
+Version: 1.12.15
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 212
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.12.15_iphoneos-arm64.deb
+Size: 25674
+MD5sum: e3071829a4867d6d613adbfaa4c77f31
+SHA1: f881b883c5b4867f88cd6b0c4e05cbc0fb10d5ed
+SHA256: 266796954b78f1bee16d096eee2fed6f7f865a58533854cd7178c6b896f0e700
+Section: Tweaks
+Description: Enables native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
+Version: 1.12.15
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 196
+Depends: mobilesubstrate, com.ps.ytvideooverlay (>= 2.0.0), firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture (>= 1.0.1)
+Conflicts: com.spicat.youpip
+Replaces: com.spicat.youpip
+Provides: com.spicat.youpip
+Filename: ./debs/youtube/youpip/com.ps.youpip_1.12.15_iphoneos-arm.deb
+Size: 25962
+MD5sum: f04bb4f3012e25ecb0ae7f5e4dfe6a61
+SHA1: 1e0d32e264e459b25d0ee8089bd30dfeb753fd03
+SHA256: 4c0eccf58597a6091378745a26e00ca6b42d2ec80eb40c3d2cec0bc5a782bcfc
+Section: Tweaks
+Description: Enables native PiP in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youpip.html
+Name: YouPiP
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youpip.json
+
+Package: com.ps.youpip
 Version: 1.12.2
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -14928,6 +14970,42 @@ Size: 391984
 MD5sum: 65c31f7000a574d2c54fb06b5907b0c2
 SHA1: 07d271204713e726113b7f83027b48165b835dc5
 SHA256: 861302bfc5a141ee42840e6da96b44b00906fcd6bc009e4f4750482521bc5208
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 2.6.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 1164
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.libundirect (>= 1.1.6)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_2.6.1_iphoneos-arm64.deb
+Size: 391512
+MD5sum: f4132ddb6d27d3cdce075840567eb745
+SHA1: 72a4b677f82cc646974c264de78a120e15b17e09
+SHA256: 736bae5bcd6749bf39858ba32994f708c3ca0733ba08da6a817b4742e5282a1c
+Section: Tweaks
+Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytuhd.html
+Name: YTUHD
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytuhd.json
+
+Package: com.ps.ytuhd
+Version: 2.6.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 1148
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.libundirect (>= 1.1.6)
+Filename: ./debs/youtube/ytuhd/com.ps.ytuhd_2.6.1_iphoneos-arm.deb
+Size: 392096
+MD5sum: 8f4d5e7ae357aa6d36fc6a7e98fb0eb5
+SHA1: b72720d8c89e67e048a0f8241091320d87ade3aa
+SHA256: 9c576ef62499c5049a153d17e3a1bcc542293819e76257458b3693c2623d76a0
 Section: Tweaks
 Description: Unlocks 1440p and 2160p resolutions in iOS YouTube app.
 Author: PoomSmart
