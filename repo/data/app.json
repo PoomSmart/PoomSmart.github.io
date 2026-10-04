@@ -60,6 +60,13 @@
     "description": "<p>Provides polyfills for some JavaScript features that are not available on old iOS versions.</p><p>Check out this <a href=\"https://github.com/PoomSmart/Polyfills/blob/main/WKExperimentalFeatures.md\">page</a> for recommended experimental WebKit features to enable to further enhance web compatibility.</p><p>In 2025, iOS 15 and lower are considered \"old\". A lot of websites would outright stop working on these versions as they no longer provide necessary polyfills.</p>",
     "changes": [
       {
+        "version": "2.35.0",
+        "details": [
+          "Moved polyfills settings to inside a dedicated page",
+          "Added description for each polyfill"
+        ]
+      },
+      {
         "version": "2.34.0",
         "details": [
           "Note: This release is heavily inspired by SafariModernizer by T4MAG0",
@@ -437,6 +444,10 @@
     "title": "RegExp Lookbehind/Indices (Polyfills)",
     "description": "<p>Provides a polyfill for RegExp lookbehind feature (iOS 16.4+) and indices (iOS 15.0+) for older iOS versions.</p>",
     "changes": [
+      {
+        "version": "1.3.2",
+        "details": "Added polyfill description"
+      },
       {
         "version": "1.3.1",
         "details": "Fixed infinite recursion issue (regression of 1.3.0, contributed by iCraze)"
