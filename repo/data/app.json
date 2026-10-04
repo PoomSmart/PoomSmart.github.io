@@ -62,7 +62,7 @@
       {
         "version": "2.35.0",
         "details": [
-          "Moved polyfills settings to inside a dedicated page",
+          "Moved polyfills settings to inside a dedicated page, and they are now searchable",
           "Added description for each polyfill"
         ]
       },
