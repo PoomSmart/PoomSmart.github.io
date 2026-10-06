@@ -571,6 +571,10 @@
     "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
     "changes": [
       {
+        "version": "2.3.9",
+        "details": "Added ko localization"
+      },
+      {
         "version": "2.3.8",
         "details": "Fixed bottom buttons not showing for some users (contributed by @JeffreyCA)"
       },
@@ -783,6 +787,10 @@
     "tintColor": "red",
     "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
     "changes": [
+      {
+        "version": "1.7.3",
+        "details": "Added ko localization"
+      },
       {
         "version": "1.7.2",
         "details": "Fixed app crash on recent YouTube versions"
@@ -997,6 +1005,10 @@
     "tintColor": "red",
     "description": "<p>Auto-selects the video quality of choice in iOS YouTube app.</p>",
     "changes": [
+      {
+        "version": "1.0.11",
+        "details": "Added ko localization"
+      },
       {
         "version": "1.0.10",
         "details": "Added tr localization"
