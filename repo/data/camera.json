@@ -19,6 +19,10 @@
     "featured_as_banner": true,
     "changes": [
       {
+        "version": "1.3.0",
+        "details": "Added iOS 18+ support"
+      },
+      {
         "version": "1.2.4",
         "details": "Optimized the code that detects the camera version"
       },
