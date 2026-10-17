@@ -381,9 +381,13 @@
     "title": "YouRememberCaption",
     "ios": "[11.0,)",
     "tintColor": "red",
-    "inline_source_code": true,
-    "no_changelog": true,
-    "description": "<p><b>This tweak does nothing on YouTube 20.16.7 and higher.</b><br/>Makes YouTube remember your video caption setting, if not already.</p>"
+    "description": "<p>Makes YouTube remember your video caption setting, if not already.</p>",
+    "changes": [
+      {
+        "version": "1.1.0",
+        "details": "Fixed support for YouTube 20.16.7 and higher"
+      }
+    ]
   },
   {
     "file": "ytnochecklocalnetwork",
@@ -541,7 +545,13 @@
     "inline_source_code": true,
     "no_changelog": true,
     "description": "<p>YouTube usually implements a feature as an experiment. You may get to see it while others don't, and vice-versa.            This tweak enables or disables those features in a way useful to you.            This replaces the following tweaks:</p>",
-    "extra_content": "<ul><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/youarethere\">YouAreThere</a></li><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/youremembercaption\">YouRememberCaption</a></li><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/ytsystemappearance\">YTSystemAppearance</a></li></ul>"
+    "extra_content": "<ul><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/youarethere\">YouAreThere</a></li><li><a target=\"_blank\" href=\"https://poomsmart.github.io/repo/depictions/ytsystemappearance\">YTSystemAppearance</a></li></ul>",
+    "changes": [
+      {
+        "version": "1.0.7",
+        "details": "Removed YouRememberCaption tweak from the conflict list"
+      }
+    ]
   },
   {
     "file": "ytautofullscreen",

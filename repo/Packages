@@ -11094,18 +11094,36 @@ Name: YouQuality
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youquality.json
 
 Package: com.ps.youremembercaption
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/youtube/com.ps.youremembercaption_1.1.0_iphoneos-arm.deb
+Size: 3076
+MD5sum: da8eee8948bd12395f7ea61251e1eb1a
+SHA1: 9796bff15be24634f9d41d6ca4b70e1146867813
+SHA256: bd07b101f4b0751b21c15a81c486f91b29df078284d39b312fcd9827540969c6
+Section: Tweaks
+Description: Makes YouTube remember your video caption setting.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/youremembercaption.html
+Name: YouRememberCaption
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/youremembercaption.json
+
+Package: com.ps.youremembercaption
+Version: 1.1.0
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: ./debs/youtube/retired/com.ps.youremembercaption_1.0.0_iphoneos-arm.deb
-Size: 2292
-MD5sum: 736e4f91abc25fcc40479f3c94cf0cba
-SHA1: 62032b280ad06dd909e42322f3d0c908af62b13e
-SHA256: 088b3548c5d32006fe4454416b8f7026b8cf2a22aab504051207108aaff7d06c
+Filename: ./debs/youtube/com.ps.youremembercaption_1.1.0_iphoneos-arm64.deb
+Size: 3154
+MD5sum: d10fd718c0b8c3f58b6973ab9ed43ef1
+SHA1: f35c7883480dc1276addfc5f9dfd2a941cf06288
+SHA256: eac5768d84c3217bcb4dacfb1791d41c8662380760ce5e2822a2928e1bb14cf7
 Section: Tweaks
-Description: Make YouTube remember your video caption setting.
+Description: Makes YouTube remember your video caption setting.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/youremembercaption.html
 Name: YouRememberCaption
@@ -13052,6 +13070,44 @@ SHA1: 1bdecee803d08bb7ac3569dcee1972f06d15d696
 SHA256: 8157eb5379b789082e3a8c1732727dffa3d3c806bd1e3e10af37c83a562d9f24
 Section: Tweaks
 Description: Enforce useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
+Package: com.ps.ytabgoodies
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/ytabgoodies/com.ps.ytabgoodies_1.0.7_iphoneos-arm.deb
+Size: 2626
+MD5sum: fca49acc590d85787e23296ad5ab7295
+SHA1: a5b3d92bf57d1345cb8c21b540d70fc894b39727
+SHA256: 7cb9c1d1bc9a4e7f301c74f6e5ccd09c2b8b679cf296a3b1fc4f58bf75ca5a0b
+Section: Tweaks
+Description: Enforces useful YouTube features that are otherwise 50/50 available to you.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
+Name: YTABGoodies
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/ytabgoodies.json
+
+Package: com.ps.ytabgoodies
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.ps.ytsystemappearance, com.ps.youarethere
+Filename: ./debs/youtube/ytabgoodies/com.ps.ytabgoodies_1.0.7_iphoneos-arm64.deb
+Size: 2708
+MD5sum: 99d7662f5e3dcb4f3684e534a0b829b8
+SHA1: 590b56dac554089b4b06869e50aa8e1af72d2659
+SHA256: 60fbadb3f5895e6852ba132aa2ba07ab670a974de3b7fd93422d5b01eb8a8567
+Section: Tweaks
+Description: Enforces useful YouTube features that are otherwise 50/50 available to you.
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/ytabgoodies.html
 Name: YTABGoodies
