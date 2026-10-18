@@ -7887,6 +7887,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
 Name: QuadHighCurrent
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
 
+Package: com.ps.quadhighcurrent
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.quadhighcurrent_1.1.4_iphoneos-arm64.deb
+Size: 3938
+MD5sum: f4be5000225355124519cb11a6c78e24
+SHA1: 44f8b8ce2f723b51d652e3a3de45322f889d8254
+SHA256: 22980124aa0b467246a1b53a5dcee54bcf22dd91b96f272df54e0eae320241b4
+Section: Tweaks
+Description: Utilizes "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
+Package: com.ps.quadhighcurrent
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.quadhighcurrent_1.1.4_iphoneos-arm.deb
+Size: 4048
+MD5sum: aeb6abefb82df89f9ceef84c6525b611
+SHA1: f912114daa545499d8b92bd831605aab9976770f
+SHA256: 805cb1225905e0e649eece3ebc24f051f3ac35924ec4182ee618f4c400ceb69e
+Section: Tweaks
+Description: Utilizes "high current" for Quad-LEDs devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/quadhighcurrent.html
+Name: QuadHighCurrent
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/quadhighcurrent.json
+
 Package: com.ps.quicknotesenabler
 Version: 1.2.0
 Architecture: iphoneos-arm64
