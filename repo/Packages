@@ -487,34 +487,34 @@ Author: PoomSmart
 Name: AppColorClose (iOS 12+)
 
 Package: com.ps.appcolorclose
-Version: 1.2.3
-Architecture: iphoneos-arm64
+Version: 1.2.4
+Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 204
+Installed-Size: 172
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.appcolorclose, com.spicat.appcolorclose
-Filename: ./debs/springboard/com.ps.appcolorclose_1.2.3_iphoneos-arm64.deb
-Size: 23914
-MD5sum: 68008592e5a24e658a7c63d85608ac81
-SHA1: d4fba2f6b696f34da8e11891c01c8d2da0318347
-SHA256: 323a6685d01f95927a8d166126e88d23c418a2dd2002281dff762d870d890360
+Filename: ./debs/springboard/com.ps.appcolorclose_1.2.4_iphoneos-arm.deb
+Size: 25606
+MD5sum: a6714d1f453ea3d1424b88563b00cc8d
+SHA1: 146f0e81ef93a75240dc37f45d31c4747c54d5af
+SHA256: f7d131e4e46ca3f2ab4de81d7f74cbef147ce1be2643932bf65e010065a3cd81
 Section: Tweaks
 Description: Tints app close box based on app icon color.
 Author: PoomSmart
 Name: AppColorClose (iOS 12+)
 
 Package: com.ps.appcolorclose
-Version: 1.2.3
-Architecture: iphoneos-arm
+Version: 1.2.4
+Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 172
+Installed-Size: 208
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: org.thebigboss.appcolorclose, com.spicat.appcolorclose
-Filename: ./debs/springboard/com.ps.appcolorclose_1.2.3_iphoneos-arm.deb
-Size: 24070
-MD5sum: 8853d64a1bebd6e840a520dc55b0d13e
-SHA1: 4d763da94d205b678931b1f4b7c780ed30506dac
-SHA256: b4cd571c3d0b64b45ecc729e8c1037409f734c63a7dc7fd65f823d6253651511
+Filename: ./debs/springboard/com.ps.appcolorclose_1.2.4_iphoneos-arm64.deb
+Size: 25202
+MD5sum: 0efae7317864b3b3168e7e3f47a707fd
+SHA1: da24f90ba8bc8c2672d29a09885e48817f4c4dd4
+SHA256: c8520cd8b12314a3caf76cda5dfcf4a8401d43139147afea77b968ba7162027e
 Section: Tweaks
 Description: Tints app close box based on app icon color.
 Author: PoomSmart
