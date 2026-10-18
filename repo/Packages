@@ -890,6 +890,44 @@ Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
 Name: BlurryBadges (iOS 13+)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
 
+Package: com.ps.blurrybadges
+Version: 1.5.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 436
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/springboard/com.ps.blurrybadges_1.5.4_iphoneos-arm64.deb
+Size: 43230
+MD5sum: 2f3003c42579fbba77b209cbc8903b9f
+SHA1: 342e7253f968b44142685a400692810bd17096de
+SHA256: f8495f9e02ecad36c0be13c7af8c50d99d5fc08e7a7323356d6c4ddbe86dd5c4
+Section: Tweaks
+Description: Colored blur for SpringBoard icon badges.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
+Name: BlurryBadges (iOS 13+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
+
+Package: com.ps.blurrybadges
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 436
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: ./debs/springboard/com.ps.blurrybadges_1.5.4_iphoneos-arm.deb
+Size: 45320
+MD5sum: def80d66ab2e878e11d6e9e28802b4e5
+SHA1: 11037d1686cf74e79a2a865492283525b101aa46
+SHA256: 5d30c1d5d72834b2e57f970a1b7bc1020f40a524c947c27977febd544ffdcc34
+Section: Tweaks
+Description: Colored blur for SpringBoard icon badges.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/blurrybadges.html
+Name: BlurryBadges (iOS 13+)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/blurrybadges.json
+
 Package: com.ps.boldtextflipswitch
 Version: 1.0.0
 Architecture: iphoneos-arm

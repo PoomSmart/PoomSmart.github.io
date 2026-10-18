@@ -20,7 +20,13 @@
     "title": "Blurry Badges",
     "ios": "[13.0,)",
     "no_changelog": true,
-    "description": "<p>Adds colored blur to SpringBoard icon badges.</p>"
+    "description": "<p>Adds colored blur to SpringBoard icon badges.</p>",
+    "changes": [
+      {
+        "version": "1.5.4",
+        "details": "Fixed support on iOS 18+"
+      }
+    ]
   },
   {
     "file": "nottodayhomescreensidebar",
