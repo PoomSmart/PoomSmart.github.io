@@ -9102,6 +9102,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
 Name: TrollLEDs
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
 
+Package: com.ps.trollleds
+Version: 1.13.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 280
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.trollleds_1.13.0_iphoneos-arm.deb
+Size: 87598
+MD5sum: 74b57937e317d8885a63662bc63f121f
+SHA1: 6f58732e25fa77ed21d5f7883722523e9bcaf29c
+SHA256: 5a2120fd3bdc955d214be9281116497d534549074ec77729faa65c87eab7d86d
+Section: Utilities
+Description: Controls flashlight LEDs with eases.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Name: TrollLEDs
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
+Package: com.ps.trollleds
+Version: 1.13.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 260
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: ./debs/camera/com.ps.trollleds_1.13.0_iphoneos-arm64.deb
+Size: 82680
+MD5sum: ba03e1d230045bbc9352e5571201a875
+SHA1: b6f3d3c7cd287a0250d5757061be06d032f4a7c4
+SHA256: 8fbbf7cbdaddb97f0d27c45310185ef436eca6f21a15d73f469d9d1a934add7f
+Section: Utilities
+Description: Controls flashlight LEDs with eases.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Name: TrollLEDs
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
 Package: com.ps.twemojiefm
 Version: 15.1.0
 Architecture: iphoneos-arm
