@@ -21,6 +21,10 @@
     "ios": "[5.1,)",
     "changes": [
       {
+        "version": "1.10.2",
+        "details": "Kills chronod process after (un)installation"
+      },
+      {
         "version": "1.10.1",
         "details": "Fixed memory leak issues"
       },
@@ -60,6 +64,10 @@
     "title": "EmojiFontManager",
     "ios": "[6.0,)",
     "changes": [
+      {
+        "version": "1.5.0",
+        "details": "Fixed the tweak not working on home screen widgets"
+      },
       {
         "version": "1.4.0",
         "details": "Added more hook (making emojis work on Reynard browser)"
@@ -277,6 +285,10 @@
     "ios": "[12.0, 26.3.1]!",
     "featured_as_banner": true,
     "changes": [
+      {
+        "version": "1.8.2",
+        "details": "Injects the tweak into home screen widgets"
+      },
       {
         "version": "1.8.1",
         "details": "Fixed memory leak issues"
