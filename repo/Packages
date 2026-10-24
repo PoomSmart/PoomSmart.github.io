@@ -8651,13 +8651,13 @@ Package: com.ps.sfsymbolsassets
 Version: 18.6
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
-Installed-Size: 159304
+Installed-Size: 159220
 Depends: firmware (>= 13.0)
 Filename: ./debs/backport/com.ps.sfsymbolsassets_18.6_iphoneos-arm64.deb
-Size: 55193956
-MD5sum: ccd0f2138834e1c81b916c72a417fd3f
-SHA1: bc5cb6a087447b1ea8a206908f990d4135de219b
-SHA256: 4044b5ad8e5ba92ad92bced96a1237854e9db6056d69d3349e3e2371f62bfaca
+Size: 55189390
+MD5sum: ecb08192fda8f820f3042770ba92473a
+SHA1: e40e689d9f552e0a9b0b8c205ec9a4e1ce49e478
+SHA256: 7aa7abf39b51d00e12bdb318ef44b9d27cb419ad94d9a552e11b67854e3fe570
 Section: Tweaks
 Description: SF Symbols from the latest iOS version.
 Author: PoomSmart
@@ -8669,13 +8669,13 @@ Package: com.ps.sfsymbolsassets
 Version: 18.6
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 159304
+Installed-Size: 159220
 Depends: firmware (>= 13.0)
 Filename: ./debs/backport/com.ps.sfsymbolsassets_18.6_iphoneos-arm.deb
-Size: 55200576
-MD5sum: 39abf295cd760a097638654fad5cb556
-SHA1: 9d8d293e4dfa742fdbc6d9dc0a50fe4b1eaebd6e
-SHA256: 86a25407ce95c86c1f8ae121d88a02e3c20cb672d095fdc0e0f3b6e924b86d28
+Size: 55173896
+MD5sum: d7f7ea22dffe357d9b59d62e7770a630
+SHA1: 674ebd247fd3f2fb37d0022aef268f1bdc12e618
+SHA256: d02147f9f379907c09d3b53abb9e0ccc1d23d9d7c3db374de0b1d58866e7adee
 Section: Tweaks
 Description: SF Symbols from the latest iOS version.
 Author: PoomSmart
