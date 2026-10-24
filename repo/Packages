@@ -7489,6 +7489,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
 Name: ReplayKit Max
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
 
+Package: com.ps.replaykitmax
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader
+Filename: ./debs/system/com.ps.replaykitmax_2.0.1_iphoneos-arm64.deb
+Size: 32754
+MD5sum: b6d91c58ff86526994ab464126fe4d1e
+SHA1: 8b936fc7318edc1dc7479e7b96f8c6468180d440
+SHA256: ab3de5be248af8c475b331b2b41ac14384c1b04d7a63dc832ce80c7046a27059
+Section: Tweaks
+Description: Records screen without resolution cap.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
+Name: ReplayKit Max
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
+
+Package: com.ps.replaykitmax
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 440
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader
+Filename: ./debs/system/com.ps.replaykitmax_2.0.1_iphoneos-arm.deb
+Size: 42146
+MD5sum: 52dcc873eba7befd41a758ef9c205292
+SHA1: 70dc6f44b21f6154fe2415e0880ee18e2601fd39
+SHA256: 7cb8faa4359fa5cf16574ada224f7f6a1bb308ad14a3c882e528dd1d0e8816d1
+Section: Tweaks
+Description: Records screen without resolution cap.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/replaykitmax.html
+Name: ReplayKit Max
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/replaykitmax.json
+
 Package: com.ps.sfsymbols
 Version: 1.0.0
 Architecture: iphoneos-arm64

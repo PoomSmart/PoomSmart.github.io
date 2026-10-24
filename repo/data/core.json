@@ -162,6 +162,10 @@
     "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>",
     "changes": [
       {
+        "version": "2.0.1",
+        "details": "Fixed screen recording not starting"
+      },
+      {
         "version": "2.0.0",
         "details": [
           "Added a Settings page to turn the tweak on or off",
