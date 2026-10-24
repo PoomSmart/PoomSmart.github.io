@@ -159,8 +159,18 @@
     "file": "replaykitmax",
     "title": "ReplayKit Max",
     "ios": "[9.0,)",
-    "no_changelog": true,
-    "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>"
+    "description": "<p>Removes screen recording resolution cap (1600x1600 or 1920x1920) from ReplayKit-based applications, including SpringBoard.</p><p>Tweak version of <code>defaults write replayd RPFullResCapture -bool 1</code></p>",
+    "changes": [
+      {
+        "version": "2.0.0",
+        "details": [
+          "Added a Settings page to turn the tweak on or off",
+          "Added optional 120 FPS recording on displays that support it. Playback still follows how often the screen updates",
+          "Added optional HEVC recording on devices that support it",
+          "Added experimental HDR10 recording on displays that support it. The picture may look too bright"
+        ]
+      }
+    ]
   },
   {
     "file": "advancedmapenabler",
