@@ -211,30 +211,6 @@
       {
         "version": "1.1.0",
         "details": "Properly backported CAR support, compatibility should be greatly improved"
-      },
-      {
-        "version": "1.0.10",
-        "details": "Improved icon compatibility on iOS 15"
-      },
-      {
-        "version": "1.0.8",
-        "details": "Fixed potential crash on iOS 15"
-      },
-      {
-        "version": "1.0.7",
-        "details": "Improved icon compatibility on iOS 15"
-      },
-      {
-        "version": "1.0.3",
-        "details": "Fixed the tweak not working on iOS 17+"
-      },
-      {
-        "version": "1.0.2",
-        "details": "Fixed a possible crash on iOS 15"
-      },
-      {
-        "version": "1.0.1",
-        "details": "Improved icon compatibility on iOS 15"
       }
     ]
   },
