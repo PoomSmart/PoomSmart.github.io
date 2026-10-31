@@ -61,7 +61,7 @@
     "changes": [
       {
         "version": "2.36.1",
-        "details": "Fix premature module resolution during concurrent imports (< 16.4, contributed by @joshrad-dev)"
+        "details": "Fixed premature module resolution during concurrent imports (< 16.4, contributed by @joshrad-dev)"
       },
       {
         "version": "2.36.0",
