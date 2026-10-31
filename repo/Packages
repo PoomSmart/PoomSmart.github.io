@@ -7723,16 +7723,16 @@ Name: SFSymbols
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
 
 Package: com.ps.sfsymbols
-Version: 1.1.1
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
-Filename: ./debs/backport/com.ps.sfsymbols_1.1.1_iphoneos-arm.deb
-Size: 15930
-MD5sum: 4a42ba19f696a7484a394600cd610088
-SHA1: 7dfa9cace2d15559af1617a9a4d3153111a22156
-SHA256: 0c45ca42a1dbd59fd05eef776dd5543f184a43d1e65c8c11ad7825fa6642eb09
+Filename: ./debs/backport/com.ps.sfsymbols_1.2.0_iphoneos-arm.deb
+Size: 18450
+MD5sum: b0211d00aef9b8b880609de029365877
+SHA1: f10720b1cf57053749723574a42832625959f709
+SHA256: 5c5672449f506ba5465beaad49b210571a1ebd7eaad345ee680241588100204b
 Section: Tweaks
 Description: Backports latest SF Symbols to older iOS versions.
 Author: PoomSmart
@@ -7741,16 +7741,16 @@ Name: SFSymbols
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
 
 Package: com.ps.sfsymbols
-Version: 1.1.1
+Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: PoomSmart
 Installed-Size: 204
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (<< 18.0), com.ps.sfsymbolsassets
-Filename: ./debs/backport/com.ps.sfsymbols_1.1.1_iphoneos-arm64.deb
-Size: 14640
-MD5sum: 66d20c6eb9c72b35bf561d291266cb03
-SHA1: d3d3ab15a3ba9940b1bfb117fcf051d38f601d82
-SHA256: f4fbeffb8f05f644f0d2a6b04d4d43131838c2e5531d89832d92e826c4f04b53
+Filename: ./debs/backport/com.ps.sfsymbols_1.2.0_iphoneos-arm64.deb
+Size: 16698
+MD5sum: 56d5f1e2aabfbedf46e8b32d3308c630
+SHA1: 76f338108e5170837c2868ae7d670862dafbd4c9
+SHA256: 93362c077a331be257abf92d53198e16baa35e998d4e3a84b893720dce6f83ce
 Section: Tweaks
 Description: Backports latest SF Symbols to older iOS versions.
 Author: PoomSmart

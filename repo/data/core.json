@@ -223,8 +223,8 @@
     "extra_content": "<ol><li><b>SFSymbols</b>: Makes the system uses SF Symbols from SFSymbolAssets package</li><li><b>SFSymbolsAssets</b>: Contains the actual SF Symbols assets, will be updated when the newer version came out (usually with iOS update)</li></ol>",
     "changes": [
       {
-        "version": "1.1.1",
-        "details": "Removed iOS 13 - 14 workaround"
+        "version": "1.2.0",
+        "details": "Improved iOS 13 - 14 support"
       },
       {
         "version": "1.1.0",
