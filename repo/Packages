@@ -7795,6 +7795,24 @@ Name: SFSymbols Assets
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/sfsymbols.json
 
 Package: com.ps.sixtyfps
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera, cy+model.iphone (= 4.1) | cy+model.iphone (= 6.1) | cy+model.iphone (= 6.2)
+Filename: ./debs/camera/com.ps.sixtyfps_1.0.0_iphoneos-arm.deb
+Size: 6280
+MD5sum: aa8d7ef5c26db1c6d6261c0459a3ce8c
+SHA1: 98502781774640993d46bbb200a6717716c65154
+SHA256: c000a3ce049c9d26e4356a26bc61334d8f79357a2797bda87aac253c22c03462
+Section: Tweaks
+Description: 60 fps capture support for legacy camera.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/60fps.html
+Name: 60fps
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/60fps.json
+
+Package: com.ps.sixtyfps
 Version: 1.0.0~b1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -8141,6 +8159,48 @@ Description: Change video configuration directly in iOS Camera app.
 Author: PoomSmart
 Name: TapVideoConfig
 
+Package: com.ps.tapvideoconfig
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/camera/com.ps.tapvideoconfig_1.0.4_iphoneos-arm.deb
+Size: 11026
+MD5sum: 690d1fb3f22df1ed48919bdebf2f08df
+SHA1: 0ec6030abbecb80aa2e50b78cf626c1b5746d467
+SHA256: b921ae923622ef3dcb6708aadf353af50ce0cfef129fe0314175f108841c1aa6
+Section: Tweaks
+Description: Changes video configuration directly in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/tapvideoconfig.html
+Name: TapVideoConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/tapvideoconfig.json
+
+Package: com.ps.tapvideoconfig
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.spicat.tapvideoconfig
+Replaces: com.spicat.tapvideoconfig
+Provides: com.spicat.tapvideoconfig
+Filename: ./debs/camera/com.ps.tapvideoconfig_1.0.4_iphoneos-arm64.deb
+Size: 8800
+MD5sum: 4074465a4adc3468fdf88bea1b19a3bd
+SHA1: 72d43c36717230a99469703440aee9c5b2071f70
+SHA256: 1cf74f920cbfbbe0e685f542d4b6af71901f65f77217b7d34d70299eeda0f62e
+Section: Tweaks
+Description: Changes video configuration directly in iOS Camera app.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/tapvideoconfig.html
+Name: TapVideoConfig
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/tapvideoconfig.json
+
 Package: com.ps.tossfaceefm
 Version: 15.0.0
 Architecture: iphoneos-arm
@@ -8408,6 +8468,42 @@ Section: Tweaks
 Description: uYou compatibility tweak for iOS < 13
 Author: PoomSmart
 Name: uYouCompat
+
+Package: com.ps.videohfr
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0), gsc.still-camera
+Filename: ./debs/camera/com.ps.videohfr_1.0.0_iphoneos-arm.deb
+Size: 3676
+MD5sum: 44889ec4c90c7ce90461cb3748c423f3
+SHA1: e0616bdeceb84f7258dc05dcde8113077c96e7e0
+SHA256: df3892e1d665a1d3b20a2437dbb7bd4026fea40c816bd8538e95b696b00a334c
+Section: Tweaks
+Description: Uses slo-mo HFR (720p/1080p 120 and 240, 4K120/100) as normal Camera Video.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/videohfr.html
+Name: VideoHFR
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/videohfr.json
+
+Package: com.ps.videohfr
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 9.0), gsc.still-camera
+Filename: ./debs/camera/com.ps.videohfr_1.0.0_iphoneos-arm64.deb
+Size: 2970
+MD5sum: 99ba938fbe3b78489227b7dbf8986c86
+SHA1: 380d07e0ab2c3a8ecac8afa0ef99b4cc7c9d7b99
+SHA256: 32f376c9621cc52bff9a510ad6a6081b5fc0b36aade1d08f5d5b4da515b8d761
+Section: Tweaks
+Description: Uses slo-mo HFR (720p/1080p 120 and 240, 4K120/100) as normal Camera Video.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/videohfr.html
+Name: VideoHFR
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/videohfr.json
 
 Package: com.ps.voiceoverflipswitch
 Version: 1.0.0

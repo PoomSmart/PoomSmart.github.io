@@ -3,8 +3,16 @@
     "file": "60fps",
     "title": "60fps",
     "ios": "[7.0,)",
-    "description": "<p>720p60 for iPhone 4s (H4), 1080p60 and WIP 4k30 for iPhone 5s (H6) and WIP 4kp60 for iPhone SE (1st generation) (H9)</p>",
+    "description": "<p>Enables rear 60 fps video that firmware already has but hides: 720p60 on iPhone 4s (H4ISP, through iOS 9.3.6) and 1080p60 on iPhone 5s (H6ISP, through iOS 12.5.8).</p>",
     "changes": [
+      {
+        "version": "1.0.0",
+        "details": [
+          "720p60 on iPhone 4s and 1080p60 on iPhone 5s",
+          "High Profile H.264 for 5s 1080p60",
+          "Install gated to iPhone 4s and 5s"
+        ]
+      },
       {
         "version": "1.0.0~b1",
         "details": "Compiled with the latest SDK"
@@ -94,6 +102,33 @@
       }
     ],
     "description": "<p>As of version 1.1.0, no toggle is available and the tweak is always enabled.</p><br/><p>A CC/Flipswitch toggle to always have the maximum LEDs brightness (i.e., using high current) for quad-LEDs devices. An example is when you turn on the light in video recording mode of the stock camera app. For iPhone 7 and newer, iPad Pro 12.9\" (2nd Gen) and newer.</p>"
+  },
+  {
+    "file": "tapvideoconfig",
+    "title": "TapVideoConfig",
+    "ios": "[11.0,)",
+    "description": "<p>Taps the Camera framerate indicator to pick a video configuration. Video and Slo-mo keep separate preferences. Pair with VideoHFR to use slo-mo HFR rates in Video mode.</p>",
+    "changes": [
+      {
+        "version": "1.0.4",
+        "details": [
+          "Fixed iOS 12 framerate indicator text",
+          "Slo-mo and Video use separate configuration preferences"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "videohfr",
+    "title": "VideoHFR",
+    "ios": "[9.0,)",
+    "description": "<p>Makes slo-mo HFR modes (720p/1080p 120 and 240, 4K120/100) available in normal Camera Video mode.</p>",
+    "changes": [
+      {
+        "version": "1.0.0",
+        "details": "Initial release"
+      }
+    ]
   },
   {
     "file": "recordntorch",
