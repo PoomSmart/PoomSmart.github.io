@@ -585,6 +585,10 @@
     "description": "<p>A helper tweak to add buttons on YouTube's video overlay.</p>",
     "changes": [
       {
+        "version": "2.3.10",
+        "details":  "Fixed bottom buttons not showing on new YouTube versions (contributed by @JeffreyCA)"
+      },
+      {
         "version": "2.3.9",
         "details": "Added ko localization"
       },
@@ -801,6 +805,10 @@
     "tintColor": "red",
     "description": "<p>Adds a speed button to the video overlay where you can directly change the video speed. Also add more video speeds to choose from.</p>",
     "changes": [
+      {
+        "version": "1.7.4",
+        "details": "Fixed the tweak not working correctly on new YouTube versions (contributed by @JeffreyCA)"
+      },
       {
         "version": "1.7.3",
         "details": "Added ko localization"
