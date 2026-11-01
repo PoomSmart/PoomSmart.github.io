@@ -2,17 +2,15 @@
 
 set -euo pipefail
 
-# brew install dpkg zstd lz4
+# brew install zstd lz4 xz
 
 # rm -f depictions/* sileodepictions/*
 echo "Minifying assets..."
 uv run python minify_assets.py
 echo "Importing depictions..."
 uv run python main.py
-echo "Validating deb coverage..."
-uv run python validate_data.py
-echo "Generating Packages files..."
-dpkg-scanpackages -m ./debs /dev/null > Packages
+echo "Validating metadata and generating Packages..."
+uv run python scan_packages.py
 echo "Compressing Packages files..."
 gzip -ncf Packages > Packages.gz
 xz -9fkev Packages > Packages.xz

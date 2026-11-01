@@ -1,6 +1,5 @@
 import json
 import re
-import subprocess
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -149,67 +148,58 @@ class DebCoverageError(ValueError):
     pass
 
 
-def _parse_deb_index(debs_dir: Path) -> dict[str, str]:
-    """Return a ``slug → latest_version`` mapping by running ``dpkg-scanpackages``.
+def _slug_versions(records) -> dict[str, str]:
+    """Return ``slug → latest_version`` from deb records.
 
-    Uses ``dpkg-scanpackages`` without ``-m`` so only the highest version of each
-    (Package, Architecture) pair is emitted — one fast process call.
-
-    Slug resolution per stanza:
-    1. Prefer the package whose suffix **exactly matches** the depiction slug
-       (e.g. ``com.ps.sfsymbols`` → slug ``sfsymbols``, version ``1.0.10``).
+    Keeps the highest dpkg version of each package name. Slug resolution:
+    1. Prefer the package whose suffix exactly matches the depiction slug
+       (e.g. ``com.ps.sfsymbols`` → slug ``sfsymbols``).
     2. Fall back to the depiction slug from the URL when no exact-suffix match
-       exists for that slug (e.g. ``daniel.analytics`` → slug ``osanalytics``).
+       exists (e.g. ``daniel.analytics`` → slug ``osanalytics``).
     3. Last resort: the package-name suffix with no depiction URL.
 
-    Priority prevents companion packages that share a depiction URL (e.g.
-    ``com.ps.sfsymbolsassets`` also pointing at ``sfsymbols.html``) from
-    overwriting the version recorded for the primary package.
+    An exact suffix match is kept over a companion package that only shares
+    the depiction URL (e.g. ``com.ps.sfsymbolsassets`` also pointing at
+    ``sfsymbols.html``).
     """
-    result = subprocess.run(
-        ["dpkg-scanpackages", str(debs_dir), "/dev/null"],
-        capture_output=True,
-        text=True,
-    )
+    try:
+        from .deb_index import version_compare
+    except ImportError:
+        from deb_index import version_compare
 
-    # Maps slug → (version, is_exact_match)
-    _slug_info: dict[str, tuple[str, bool]] = {}
+    winners = {}
+    for record in records:
+        current = winners.get(record.package)
+        if current is None or version_compare(record.version, current.version) > 0:
+            winners[record.package] = record
 
-    def _commit(pkg: str, version: str, depiction_slug: str, pkg_suffix: str) -> None:
+    # slug → (version, is_exact_match)
+    slug_info: dict[str, tuple[str, bool]] = {}
+
+    def commit(pkg: str, version: str, depiction_slug: str, pkg_suffix: str) -> None:
         if not (pkg and version):
             return
-        # Exact match: the package suffix is the same as the depiction slug
         exact = bool(depiction_slug) and pkg_suffix == depiction_slug
         for slug in filter(None, {depiction_slug, pkg_suffix}):
-            existing = _slug_info.get(slug)
+            existing = slug_info.get(slug)
             if existing is None or (not existing[1] and exact):
-                _slug_info[slug] = (version, exact or slug == pkg_suffix)
+                slug_info[slug] = (version, exact or slug == pkg_suffix)
 
-    pkg = version = depiction_slug = pkg_suffix = ""
-    for line in result.stdout.splitlines():
-        if not line:
-            _commit(pkg, version, depiction_slug, pkg_suffix)
-            pkg = version = depiction_slug = pkg_suffix = ""
-        elif line.startswith("Package:"):
-            pkg = line.split(":", 1)[1].strip()
-            pkg_suffix = pkg.rsplit(".", 1)[-1]
-        elif line.startswith("Version:"):
-            version = line.split(":", 1)[1].strip()
-        elif line.startswith("Depiction:"):
-            url = line.split(":", 1)[1].strip()
-            m = DEPICTION_URL_PATTERN.match(url)
-            if m:
-                depiction_slug = m.group(1)
+    for package in sorted(winners):
+        record = winners[package]
+        depiction_slug = ""
+        match = DEPICTION_URL_PATTERN.match(record.depiction)
+        if match:
+            depiction_slug = match.group(1)
+        commit(package, record.version, depiction_slug, package.rsplit(".", 1)[-1])
 
-    _commit(pkg, version, depiction_slug, pkg_suffix)  # trailing stanza
-
-    return {slug: ver for slug, (ver, _) in _slug_info.items()}
+    return {slug: version for slug, (version, _) in slug_info.items()}
 
 
-def validate_deb_coverage(debs_dir: Path | None = None) -> None:
+def validate_deb_coverage(debs_dir: Path | None = None, records=None) -> None:
     """Raise DebCoverageError if any data entry has no matching .deb or stale changelog.
 
-    Only the **newest** version of each (package, arch) pair is inspected.
+    Only the newest version of each package name is inspected.
 
     Two checks are run for every entry:
     1. **Coverage** — a deb package matching the entry's slug must exist.
@@ -217,13 +207,19 @@ def validate_deb_coverage(debs_dir: Path | None = None) -> None:
        (newest) version must equal the latest deb version, ensuring that a new
        deb release is always accompanied by a changelog update.
     """
-    if debs_dir is None:
-        debs_dir = repo_dir / "debs"
+    if records is None:
+        if debs_dir is None:
+            debs_dir = repo_dir / "debs"
+        if not debs_dir.is_dir():
+            raise DebCoverageError(f"debs directory not found at {debs_dir}.")
+        try:
+            from .deb_index import scan_debs
+        except ImportError:
+            from deb_index import scan_debs
 
-    if not debs_dir.is_dir():
-        raise DebCoverageError(f"debs directory not found at {debs_dir}.")
+        records = scan_debs(debs_dir)
 
-    slug_to_version = _parse_deb_index(debs_dir)
+    slug_to_version = _slug_versions(records)
 
     missing: list[str] = []
     stale: list[str] = []

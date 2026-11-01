@@ -18,7 +18,7 @@ The metadata source of truth now lives in `repo/data/*.json`. The legacy modules
 - Python 3.11+
 - Node.js 22+ (for ES5 JavaScript builds)
 - `uv` for dependency management
-- For full package index rebuilds on macOS: `brew install dpkg zstd lz4`
+- For full package index rebuilds on macOS: `brew install zstd lz4 xz`
 
 ## Build Depictions
 
