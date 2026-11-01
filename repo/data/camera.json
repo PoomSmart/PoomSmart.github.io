@@ -151,22 +151,6 @@
     "description": "<p>Adjust Flash/HDR/Timer in Camera (with old UI) with less finger travel. <a target=\"_blank\" href=\"https://twitter.com/PoomSmart/status/1429331330903408645\">Demo video</a>.</p>"
   },
   {
-    "file": "livetextenabler",
-    "title": "Live Text Enabler",
-    "ios": "[15.0,)",
-    "changes": [
-      {
-        "version": "1.3.0",
-        "details": "Hooked mediaserverd, this should now let you detect the text on iOS Camera app"
-      },
-      {
-        "version": "1.2.0",
-        "details": "Added support for iOS 16+"
-      }
-    ],
-    "description": "<p>Enable Live Text on unsupported iOS 15+ devices.</p>"
-  },
-  {
     "file": "trollleds",
     "title": "TrollLEDs",
     "ios": "[10.0,)",
