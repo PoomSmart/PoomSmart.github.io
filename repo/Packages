@@ -4170,6 +4170,46 @@ Depiction: https://poomsmart.github.io/repo/depictions/injectionfoundation.html
 Name: Injection Foundation
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/injectionfoundation.json
 
+Package: com.ps.internalphotos
+Version: 1.3.0
+Architecture: iphoneos-arm
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.internalphotos
+Replaces: org.thebigboss.internalphotos
+Provides: org.thebigboss.internalphotos
+Filename: ./debs/camera/com.ps.internalphotos_1.3.0_iphoneos-arm.deb
+Size: 16266
+MD5sum: f66c163d9900ab9d05f3edd57354bce6
+SHA1: a8e7078c521173a2513e30da25b76396c7ee85f0
+SHA256: 52968ba33b587c23b3a84db8d9d205caf68c0d3236195a6c61fc7fa74fb40529
+Section: Tweaks
+Description: Enables hidden Photos internal settings.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/internalphotos.html
+Name: InternalPhotos
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/internalphotos.json
+
+Package: com.ps.internalphotos
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 7.0)
+Conflicts: org.thebigboss.internalphotos
+Replaces: org.thebigboss.internalphotos
+Provides: org.thebigboss.internalphotos
+Filename: ./debs/camera/com.ps.internalphotos_1.3.0_iphoneos-arm64.deb
+Size: 9168
+MD5sum: d36abdf5554a7934b031b7ac000222c9
+SHA1: 2aa289d1198f27ca853a2f0db48796a9dd2e9a70
+SHA256: 40e6dc91e5eeb2d799c4da86fb99de5e2997beba612ea9ce631948ee1199ebe0
+Section: Tweaks
+Description: Enables hidden Photos internal settings.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/internalphotos.html
+Name: InternalPhotos
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/internalphotos.json
+
 Package: com.ps.joypixelsdecalefm
 Version: 16.0.0
 Architecture: iphoneos-arm

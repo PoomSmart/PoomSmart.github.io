@@ -212,5 +212,20 @@
         "details": "Disabled pause/resume feature for unsupported recording modes"
       }
     ]
+  },
+  {
+    "file": "internalphotos",
+    "title": "InternalPhotos",
+    "ios": "[7.0,)",
+    "description": "<p>Enables hidden Photos internal (prototype) settings.</p><br/><p>Open Photos and touch anywhere in the app. A round PT button appears at the bottom left, above the tab bar. Tap PT to open internal settings, then tap Done to save. The button hides after about 3 seconds of inactivity.</p>",
+    "changes": [
+      {
+        "version": "1.3.0",
+        "details": [
+          "PT button in Photos to open internal settings",
+          "Fixed crash when tapping Done on iOS 14"
+        ]
+      }
+    ]
   }
 ]
