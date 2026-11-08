@@ -34,6 +34,10 @@
     "ios": "[9.0,)",
     "changes": [
       {
+        "version": "1.0.1",
+        "details": "Improved compatibility on modern iOS versions"
+      },
+      {
         "version": "1.0.0",
         "details": "Fixed issues with GoodNotes 5 app"
       }
