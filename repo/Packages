@@ -5067,6 +5067,42 @@ Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
 Name: PearlTracking
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
 
+Package: com.ps.pearltracking
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 26.0), com.opa334.ccsupport
+Filename: ./debs/system/com.ps.pearltracking_1.0.0_iphoneos-arm.deb
+Size: 25944
+MD5sum: e7c65e1987eec2f445fa4af51ca8b248
+SHA1: ee52bbe84fbf4cb2c4b1f3eb5e9b53f4fd576e46
+SHA256: fcee8ef135dd09f8865fb41d62a641a7be8b2fcd6d09d36aa9ea27583d7ff3f0
+Section: Tweaks
+Description: Moves the mouse cursor with your face.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
+Name: PearlTracking
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
+
+Package: com.ps.pearltracking
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 26.0), com.opa334.ccsupport
+Filename: ./debs/system/com.ps.pearltracking_1.0.0_iphoneos-arm64.deb
+Size: 25514
+MD5sum: d45e4562c5270292f23d82df3efe937c
+SHA1: 57f7b2b914e41581001a62eede7ba95e2b1efa8e
+SHA256: 884097ffdb21b5e6149ce46619552b5d3cd553ed40678431bc6e583de31b780a
+Section: Tweaks
+Description: Moves the mouse cursor with your face.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/pearltracking.html
+Name: PearlTracking
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/pearltracking.json
+
 Package: com.ps.pencilpro
 Version: 1.0.0
 Architecture: iphoneos-arm64
