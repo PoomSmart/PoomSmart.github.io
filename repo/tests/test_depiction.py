@@ -67,6 +67,16 @@ class DepictionTests(unittest.TestCase):
             "Compatible with iOS 14.x",
         )
 
+        self.assertEqual(
+            data_loader.parse_ios_range("[14.0,26.0)").label(),
+            "Compatible with iOS 14.0 to 18.x",
+        )
+
+        self.assertEqual(
+            data_loader.parse_ios_range("[18.0, 26.0)").label(),
+            "Compatible with iOS 18.x",
+        )
+
         strict = data_loader.parse_ios_range("[12.0, 17.0]!")
         self.assertTrue(strict.strict)
         self.assertFalse(strict.max_exclusive)

@@ -24,6 +24,9 @@ IOS_RANGE_PATTERN = re.compile(
 
 CATEGORY_NAMES = ("core", "youtube", "emoji", "camera", "springboard", "app")
 
+# iOS 26 follows iOS 18. Majors 19 through 25 were never released.
+_UNRELEASED_IOS_MAJORS = range(19, 26)
+
 
 class DepictionSchemaError(ValueError):
     pass
@@ -42,13 +45,24 @@ class IosRange:
         if self.max_exclusive:
             max_major = int(self.max.split(".", 1)[0])
             if max_major >= 1:
-                display_major = max_major - 1
+                display_major = _previous_ios_major(max_major)
                 min_major = int(self.min.split(".", 1)[0])
                 if min_major == display_major:
                     return f"Compatible with iOS {display_major}.x"
                 return f"Compatible with iOS {self.min} to {display_major}.x"
             return f"Compatible with iOS {self.min} before {self.max}"
         return f"Compatible with iOS {self.min} to {self.max}"
+
+
+def _previous_ios_major(major: int) -> int:
+    """Last released major covered by an exclusive upper bound of ``major``.
+
+    ``[14.0, 26.0)`` reaches through 18.x, because 19 through 25 do not exist.
+    """
+    previous = major - 1
+    if previous in _UNRELEASED_IOS_MAJORS:
+        return 18
+    return previous
 
 
 def parse_ios_range(value: str) -> IosRange:

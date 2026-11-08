@@ -40,7 +40,7 @@
     "file": "pearltracking",
     "title": "Pearl Tracking",
     "ios": "[14.0,26.0)",
-    "description": "<ol><li>Go to Settings > Control Center > Customize Controls > <i>Enable</i> Pearl Tracking</li><li>Enable Assistive Touch</li><li>Invoke Control Center</li><li><b>Get some painkiller</b></li><li>Turn on Pearl Tracking</li><li>???</li></ol>",
+    "description": "<ol><li>Go to Settings > Control Center > Customize Controls then enable Pearl Tracking</li><li>Enable Assistive Touch</li><li>Invoke Control Center</li><li><b>Get some painkiller</b></li><li>Turn on Pearl Tracking</li><li>???</li></ol>",
     "changes": [
       {
         "version": "1.0.0",
