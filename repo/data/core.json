@@ -5,6 +5,10 @@
     "ios": "[9.0,)",
     "changes": [
       {
+        "version": "1.3.1",
+        "details": "Fixed internet connection issues after rejailbreaking on some devices"
+      },
+      {
         "version": "1.3.0",
         "details": [
           "Fixed jetsam memory limit bypass not working presumably since iOS 9, causing the tweak to have never been working when hosts file is very large",
